@@ -1,0 +1,34 @@
+{
+  "topic": "How-the-Barcode-Almost-Didnt-Get-Invented",
+  "title": "\"The Hidden Code\"**",
+  "lesson": {
+    "learn": "The barcode is a ubiquitous technology that revolutionized the way we shop, track inventory, and manage supply chains. However, its invention was not without controversy and setbacks. In 1949, Bernard Silver, a young engineer, and his colleague Norman Woodland, patented the first barcode scanner, but it took years of refinement and innovation to bring the technology to life. The barcode's impact on modern commerce cannot be overstated.",
+    "simpler": "Imagine you're at the grocery store, and you scan your food with a special machine. That's basically what a barcode does - it helps computers read information about products so we can buy them easily! It's like a secret code that only computers can understand.",
+    "keyTakeaway": "The most important thing to remember is that the invention of the barcode was a result of persistence and innovation, overcoming numerous obstacles and setbacks.",
+    "deeperDive": "One of the key challenges in developing the barcode was creating a scanner that could accurately read the code. Norman Woodland experimented with different materials and technologies, eventually using a laser to scan the barcode. The first barcodes were made of cardboard and were used in a Philadelphia grocery store in 1966. Today, barcodes are ubiquitous, found on everything from food products to airline tickets. Recent developments include the use of QR codes, which can store more information than traditional barcodes.",
+    "funFact": "Interestingly, the first barcode was made of cardboard and was only readable by a specific type of laser scanner, making it highly impractical for widespread use!",
+    "keyElements": {
+      "people": [
+        "* Bernard Silver - Engineer who patented the first barcode scanner in 1949",
+        "* Norman Woodland - Co-inventor of the barcode, responsible for refining the technology",
+        "* Joe Cattani - Developed a more efficient barcode scanner that paved the way for modern barcodes"
+      ],
+      "places": [
+        "* The Drexel Institute of Technology (now Drexel University) - Where Bernard Silver and Norman Woodland worked on their invention",
+        "* Philadelphia - The city where the first barcode was tested in a grocery store",
+        "* Silicon Valley - A hub for innovation and development of barcode technology"
+      ],
+      "years": [
+        "* 1949 - Patent filed by Bernard Silver and Norman Woodland for the first barcode scanner",
+        "* 1966 - First commercial use of barcodes in a Philadelphia grocery store",
+        "* 1992 - The first QR code was invented, allowing for more information to be stored on a single barcode"
+      ],
+      "concepts": [
+        "* **Optical Character Recognition (OCR)** - A technology used to scan and read barcodes",
+        "* **Laser Scanning** - A method of reading barcodes using high-intensity light beams",
+        "* **QR Code** - A type of barcode that stores more information than traditional barcodes",
+        "* **Supply Chain Management** - The process of managing the flow of goods, services, and information from production to consumption"
+      ]
+    }
+  }
+}

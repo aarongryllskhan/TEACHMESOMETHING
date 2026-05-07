@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https:">
+  <title>Teach Me Something</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎓 Teach Me Something New</h1>
+      <p>Learn something interesting every day</p>
+    </header>
+
+    <nav class="nav-tabs">
+      <button class="tab-btn active" onclick="switchTab('daily')" id="nav-daily">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span>Home</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('explorer')" id="nav-explorer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        <span>Topics</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('profile')" id="nav-profile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span>Profile</span>
+      </button>
+    </nav>
+
+    <!-- Daily Lesson Tab -->
+    <section id="daily" class="tab-content active">
+      <div id="dailyLessonContainer" class="daily-lesson-container" style="display: none;">
+        <div class="daily-lesson-card" onclick="openDailyLesson()">
+          <div class="daily-header">
+          </div>
+
+          <div class="daily-content">
+            <div class="daily-topic-label">Random topic</div>
+            <h2 id="dailyTitle" class="daily-title">Tap to load a lesson</h2>
+            <div id="dailyIcon" class="daily-icon">📖</div>
+            <p id="dailyDescription" class="daily-description">Learn something new</p>
+          </div>
+
+
+          <p class="daily-hint">Tap to learn more</p>
+          <button class="daily-skip-btn" onclick="event.stopPropagation(); getDailyLessonAuto()">Skip</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Topic Explorer Tab -->
+    <section id="explorer" class="tab-content">
+      <div class="explore-container">
+        <div class="explore-header">
+          <h2>Explore</h2>
+        </div>
+        <div class="explore-search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="topicSearch" placeholder="Search topics..." oninput="filterTopics(this.value)" />
+        </div>
+        <div class="explore-filters" id="exploreFilters">
+          <button class="explore-filter-btn active" onclick="setTopicFilter('all', this)">All</button>
+        </div>
+        <div id="topicsGrid" class="explore-list"></div>
+      </div>
+    </section>
+
+
+    <!-- Profile Tab -->
+    <section id="profile" class="tab-content">
+      <div class="profile-container">
+        <div class="profile-header">
+          <div class="profile-avatar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h2 class="profile-name">Learner</h2>
+          <div class="profile-level-badge">Level <span id="userLevel">1</span></div>
+        </div>
+
+        <div class="profile-xp-card">
+          <div class="xp-row">
+            <span class="xp-label">XP Progress</span>
+            <span class="xp-text" id="xpText">0 / 100 XP</span>
+          </div>
+          <div class="xp-bar">
+            <div class="xp-progress" id="xpProgress"></div>
+          </div>
+        </div>
+
+        <div class="profile-stats">
+          <div class="stat">
+            <div class="stat-number" id="totalLessons">0</div>
+            <div class="stat-label">Lessons</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number" id="topicCount">0</div>
+            <div class="stat-label">Topics</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number" id="streakCount">0</div>
+            <div class="stat-label">Day Streak</div>
+          </div>
+        </div>
+
+        <div class="achievements-section">
+          <h3>Achievements</h3>
+          <div class="achievement-grid" id="achievements"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="lessonPool.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

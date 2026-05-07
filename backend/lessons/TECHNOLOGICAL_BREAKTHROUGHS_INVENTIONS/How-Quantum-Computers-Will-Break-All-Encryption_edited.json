@@ -1,0 +1,34 @@
+{
+  "topic": "Quantum Computing and Cryptography",
+  "title": "Understanding the Quantum Threat to Encryption",
+  "lesson": {
+    "learn": "A quantum computer's power comes from its ability to perform calculations using quantum-mechanical phenomena such as superposition and entanglement. This allows it to try an enormous number of possibilities simultaneously, making it theoretically possible to break many encryption algorithms currently in use. For example, a team at Google demonstrated a 53-qubit quantum computer, named Sycamore, breaking an RSA-1024 cipher in just over 200 seconds in 2019.",
+    "simpler": "Imagine a safe with a combination lock that can only be opened by trying the correct sequence of numbers. However, a quantum computer can try every possible combination in a matter of seconds, using the principles of superposition and entanglement to explore multiple possibilities simultaneously.",
+    "keyTakeaway": "It's essential to understand the risks posed by quantum computers to current encryption methods. This is particularly relevant for organizations and individuals relying on RSA and elliptic curve cryptography, as both methods are vulnerable to attack by quantum computers.",
+    "deeperDive": "Quantum computers have significant implications for cryptography, as they can potentially break many encryption algorithms currently in use. For instance, a team at IBM, demonstrated a 53-qubit quantum computer, capable of performing a record-breaking 2.5 million calculations per second, in 2020. While researchers are exploring new cryptographic techniques that can withstand quantum computing attacks, it's crucial to transition to post-quantum secure cryptography to protect sensitive information in the face of this emerging threat.",
+    "funFact": "A team at Google's Quantum AI Lab broke a 53-bit RSA-2048 cipher in just under 6 hours in 2019, demonstrating the potential of quantum computers to render current encryption methods obsolete.",
+    "keyElements": {
+      "people": [
+        "â€¢ Peter Shor - developed the Shor's algorithm for factoring large numbers using a quantum computer",
+        "â€¢ Seth Lloyd - researcher who helped develop the first working quantum computer",
+        "â€¢ Andrew Wiles - mathematician who cracked Fermat's Last Theorem with help from a computer program that was later found to be related to Shor's algorithm"
+      ],
+      "places": [
+        "â€¢ University of California, Berkeley - where many researchers are exploring applications of quantum computing",
+        "â€¢ Google's Quantum AI Lab - where researchers have made significant breakthroughs in developing quantum computers",
+        "â€¢ IBM Research Laboratory - working on the development of practical quantum computers"
+      ],
+      "years": [
+        "â€¢ 1994 - Peter Shor publishes his groundbreaking algorithm for factoring large numbers using a quantum computer",
+        "â€¢ 2007 - IBM successfully demonstrates a 5-qubit quantum computer",
+        "â€¢ 2020 - Google's Sycamore processor performs a record-breaking computation, demonstrating the power of quantum computing"
+      ],
+      "concepts": [
+        "â€¢ Quantum entanglement - the phenomenon where two or more particles become connected in such a way that their properties are correlated regardless of distance",
+        "â€¢ Superposition - the ability of a qubit (quantum bit) to exist in multiple states at the same time",
+        "â€¢ Cryptography - the practice and study of techniques for secure communication in the presence of third-party adversaries",
+        "â€¢ Quantum computing - a model of computing using the principles of quantum mechanics"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "topic": "MIND-BENDING_SCIENCE_How-Particles-Tunnel-Through-Solid-Walls",
+  "title": "The Quantum Conundrum**",
+  "lesson": {
+    "learn": "Quantum mechanics is a fundamental branch of physics that governs the behavior of particles at the subatomic level. Particles, such as electrons and protons, have the ability to tunnel through solid walls due to their unique wave-like properties. This phenomenon has significant implications for fields like materials science, chemistry, and electronics. Understanding particle tunnelling is crucial for advancing our knowledge of quantum systems.",
+    "simpler": "Imagine you're trying to get into a locked house with a thick wall in between. Normally, you'd need a key or a door to enter, but tiny particles called electrons can pass through the solid wall without going through the \"door\". This happens because these particles are more like waves than tiny balls.",
+    "keyTakeaway": "The most important insight to remember is that particle tunnelling is a direct result of quantum mechanics' wave-particle duality, where particles exhibit both wave-like and particle-like properties. This allows them to penetrate solid barriers, defying classical notions of space and matter.",
+    "deeperDive": "In 1927, Erwin Schr\u00c3\u00b6dinger introduced the concept of wave functions to describe the probability distribution of particles in quantum systems. This work laid the foundation for understanding particle tunnelling. Later, Richard Feynman developed path integral formulations that further elucidated the phenomenon. Particle tunnelling has been observed and studied extensively using techniques like tunneling microscopes and scanning probe microscopy. For instance, researchers have used particle tunnelling to develop faster and more efficient electronics, such as ultra-fast transistors.",
+    "funFact": "Particle tunnelling is not limited to electrons; even atomic nuclei can tunnel through solid walls, albeit with much lower probability. This phenomenon has sparked significant research in the field of quantum mechanics and its applications.",
+    "keyElements": {
+      "people": [
+        "**",
+        "* Erwin Schr\u00c3\u00b6dinger - Austrian physicist who introduced wave functions",
+        "* Richard Feynman - American physicist who developed path integral formulations",
+        "* Leo Esaki - Japanese-American physicist who discovered electron tunnelling in metals",
+        "* **"
+      ],
+      "places": [
+        "**",
+        "* Niels Bohr Institute (Copenhagen, Denmark) - where Schr\u00c3\u00b6dinger worked on wave functions",
+        "* University of Tokyo (Tokyo, Japan) - where Esaki discovered electron tunnelling",
+        "* Bell Labs (New Jersey, USA) - where Feynman developed path integral formulations",
+        "* **"
+      ],
+      "years": [
+        "**",
+        "* 1927 - Erwin Schr\u00c3\u00b6dinger introduces wave functions",
+        "* 1949 - Leo Esaki discovers electron tunnelling in metals",
+        "* 1960s - Richard Feynman develops path integral formulations",
+        "* **"
+      ],
+      "concepts": [
+        "**",
+        "* Wave-particle duality",
+        "* Quantum tunneling",
+        "* Probability distributions (wave functions)",
+        "* Path integral formulations",
+        "* Electron microscopy and scanning probe microscopy"
+      ]
+    }
+  }
+}

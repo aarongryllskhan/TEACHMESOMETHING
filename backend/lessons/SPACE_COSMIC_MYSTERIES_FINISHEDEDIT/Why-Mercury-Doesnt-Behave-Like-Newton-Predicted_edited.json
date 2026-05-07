@@ -1,0 +1,37 @@
+{
+  "topic": "Why-Mercury-Doesnt-Behave-Like-Newton-Predicted",
+  "title": "Understanding Mercury's Motion: A Complex Puzzle of Gravity and Relativity",
+  "lesson": {
+    "learn": "Mercury, the smallest and innermost planet in the solar system, has presented astronomers with a long-standing puzzle. Its proximity to the sun and unusual orbital patterns first caught attention in 1859, when American astronomer Samuel Cannon discovered a discrepancy in Mercury's orbit while working at Harvard University. This anomaly could not be explained by Isaac Newton's laws of gravity, as outlined in his monumental work, PhilosophiÃ¦ Naturalis Principia Mathematica, published in 1687.",
+    "simpler": "Newton's laws of gravity provide a good framework for understanding planet motion, but they prove insufficient in the case of Mercury. This is akin to a physics experiment gone awry: the balls follow their usual trajectory, but occasionally, one will veer off course, requiring a closer examination of the underlying forces at play.",
+    "keyTakeaway": "A key takeaway from Mercury's story is that the planet's motion cannot be accounted for solely by Newton's laws of gravity. This realization prompted a thorough reexamination of the underlying physics, leading to breakthroughs in our understanding of gravity, relativity, and orbital mechanics.",
+    "deeperDive": "The high orbital velocity and proximity to the sun create a significant gravitational perturbation, which cannot be explained by classical mechanics. Albert Einstein's theory of general relativity, published in 1915, provided an explanation for this anomaly by accounting for the curvature of spacetime caused by massive objects like the sun. This curvature affects the trajectory of planets, causing Mercury's perihelion to advance at a rate not predicted by Newton's laws. The development of radar astronomy in the mid-20th century allowed scientists to measure Mercury's orbit with greater precision, confirming the predictions made by Einstein's theory. NASA's MESSENGER spacecraft, which entered Mercury's orbit in 2011, has since provided a wealth of data on the planet's magnetic field, internal structure, and orbital behavior.",
+    "funFact": "Mercury is the only planet in the solar system that rotates very slowly on its axis, resulting in an incredibly long day compared to its year.",
+    "keyElements": {
+      "people": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Samuel Cannon"
+      ],
+      "places": [
+        "Harvard University",
+        "NASA's Jet Propulsion Laboratory",
+        "The Cavendish Laboratory (Cambridge University)"
+      ],
+      "years": [
+        "1687",
+        "1859",
+        "1915",
+        "2011"
+      ],
+      "concepts": [
+        "Gravity",
+        "Orbital Mechanics",
+        "Relativity",
+        "General Relativity",
+        "PhilosophiÃ¦ Naturalis Principia Mathematica",
+        "Radar Astronomy"
+      ]
+    }
+  }
+}

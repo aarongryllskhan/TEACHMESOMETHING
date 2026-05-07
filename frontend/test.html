@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🧪 Teach Me Something - Test Suite</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 { font-size: 2em; margin-bottom: 10px; }
+    header p { font-size: 1.1em; opacity: 0.9; }
+    .content {
+      padding: 40px;
+    }
+    .test-group {
+      margin: 30px 0;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 12px;
+      border-left: 4px solid #667eea;
+    }
+    .test-group h2 {
+      color: #333;
+      margin-bottom: 15px;
+      font-size: 1.3em;
+    }
+    .test-item {
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.95em;
+    }
+    .test-item.pass {
+      background: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+    .test-item.fail {
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+    .test-item.info {
+      background: #d1ecf1;
+      color: #0c5460;
+      border: 1px solid #bee5eb;
+    }
+    .icon {
+      font-size: 1.2em;
+      font-weight: bold;
+      min-width: 30px;
+    }
+    .summary {
+      margin-top: 40px;
+      padding: 30px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border-radius: 12px;
+      text-align: center;
+      font-size: 1.2em;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: #667eea;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1em;
+      text-decoration: none;
+    }
+    .button:hover {
+      background: #5568d3;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧪 Teach Me Something - Test Suite</h1>
+      <p>Validating app functionality and lesson pool</p>
+    </header>
+    <div class="content" id="content">
+      <div style="text-align: center; padding: 40px;">
+        <p style="font-size: 1.2em; color: #667eea;">Loading tests...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="lessonPool.js"></script>
+  <script src="script.js"></script>
+  <script>
+    const tests = [];
+    let passed = 0;
+    let failed = 0;
+
+    function addTest(name, result, details) {
+      tests.push({ name, result, details });
+      if (result) passed++;
+      else failed++;
+    }
+
+    // Test 1: Lesson Pool Loaded
+    addTest(
+      'Lesson Pool Loaded',
+      typeof window.LESSON_POOL === 'object' && window.LESSON_POOL !== null,
+      window.LESSON_POOL ? '✓ LESSON_POOL exists' : '✗ LESSON_POOL not found'
+    );
+
+    // Test 2: Topics Available
+    const topics = getAllTopicsFromPool ? getAllTopicsFromPool() : [];
+    addTest(
+      'getAllTopicsFromPool Function',
+      typeof getAllTopicsFromPool === 'function' && topics.length > 0,
+      `Found ${topics.length} topic(s): ${topics.join(', ')}`
+    );
+
+    // Test 3: Get Lessons for Topic
+    let topicLessonsWork = false;
+    if (topics.length > 0 && typeof getLessonsForTopic === 'function') {
+      const topicLessons = getLessonsForTopic(topics[0]);
+      topicLessonsWork = Array.isArray(topicLessons) && topicLessons.length > 0;
+    }
+    addTest(
+      'getLessonsForTopic Function',
+      topicLessonsWork,
+      topicLessonsWork ? `✓ Retrieved lessons from ${topics[0]}` : '✗ Function failed'
+    );
+
+    // Test 4: Get Random Lesson
+    let randomLessonWorks = false;
+    if (typeof getRandomLessonFromPool === 'function') {
+      const lesson = getRandomLessonFromPool();
+      randomLessonWorks = lesson !== null && lesson.title && lesson.topic;
+    }
+    addTest(
+      'getRandomLessonFromPool Function',
+      randomLessonWorks,
+      randomLessonWorks ? '✓ Random lesson retrieved successfully' : '✗ Function failed'
+    );
+
+    // Test 5: Lesson Structure
+    let totalLessons = 0;
+    let validStructure = true;
+    const topicStats = {};
+
+    Object.entries(window.LESSON_POOL || {}).forEach(([topic, subtopics]) => {
+      let topicCount = 0;
+      Object.entries(subtopics || {}).forEach(([subtopic, lessons]) => {
+        if (Array.isArray(lessons)) {
+          topicCount += lessons.length;
+          totalLessons += lessons.length;
+
+          if (lessons[0]) {
+            const lesson = lessons[0];
+            if (!lesson.title || !lesson.topic || !lesson.explanation || !lesson.funFact) {
+              validStructure = false;
+            }
+          }
+        }
+      });
+      topicStats[topic] = topicCount;
+    });
+
+    addTest(
+      'Lesson Structure Valid',
+      validStructure && totalLessons > 0,
+      `${totalLessons} total lessons with valid structure`
+    );
+
+    // Test 6: localStorage Functions
+    let localStorageWorks = true;
+    try {
+      localStorage.setItem('test-key', 'test-value');
+      const value = localStorage.getItem('test-key');
+      localStorage.removeItem('test-key');
+      localStorageWorks = value === 'test-value';
+    } catch (e) {
+      localStorageWorks = false;
+    }
+    addTest(
+      'localStorage Access',
+      localStorageWorks,
+      localStorageWorks ? '✓ localStorage working' : '✗ localStorage unavailable'
+    );
+
+    // Test 7: Confetti Library
+    const confettiLoaded = typeof confetti !== 'undefined';
+    addTest(
+      'Confetti Library',
+      confettiLoaded,
+      confettiLoaded ? '✓ canvas-confetti loaded' : '✗ Not loaded'
+    );
+
+    // Test 8: Script Functions
+    const functionsExist = {
+      'switchTab': typeof switchTab === 'function',
+      'getDailyLesson': typeof getDailyLesson === 'function',
+      'getTopicLesson': typeof getTopicLesson === 'function',
+      'displayLesson': typeof displayLesson === 'function',
+      'updateStreakDisplay': typeof updateStreakDisplay === 'function'
+    };
+    const allFunctionsExist = Object.values(functionsExist).every(v => v);
+    addTest(
+      'Core Functions',
+      allFunctionsExist,
+      `${Object.keys(functionsExist).filter(k => functionsExist[k]).length}/${Object.keys(functionsExist).length} functions loaded`
+    );
+
+    // Render Results
+    const contentDiv = document.getElementById('content');
+    let html = '';
+
+    // Test Groups
+    html += `
+      <div class="test-group">
+        <h2>📦 Lesson Pool</h2>
+        ${tests.slice(0, 5).map(t => `
+          <div class="test-item ${t.result ? 'pass' : 'fail'}">
+            <span class="icon">${t.result ? '✅' : '❌'}</span>
+            <div>
+              <strong>${t.name}</strong><br>
+              <small>${t.details}</small>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+
+      <div class="test-group">
+        <h2>⚙️ System</h2>
+        ${tests.slice(5).map(t => `
+          <div class="test-item ${t.result ? 'pass' : 'fail'}">
+            <span class="icon">${t.result ? '✅' : '❌'}</span>
+            <div>
+              <strong>${t.name}</strong><br>
+              <small>${t.details}</small>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+
+      <div class="test-group">
+        <h2>📊 Lesson Statistics</h2>
+        ${Object.entries(topicStats).map(([topic, count]) => `
+          <div class="test-item info">
+            <span class="icon">📚</span>
+            <div>
+              <strong>${topic}</strong><br>
+              <small>${count} lessons</small>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+
+    html += `
+      <div class="summary">
+        <div style="font-size: 1.5em; margin-bottom: 10px;">
+          ${passed}/${tests.length} Tests Passed ✨
+        </div>
+        <div style="font-size: 1em; opacity: 0.9;">
+          Total: ${totalLessons} lessons ready to learn
+        </div>
+        <a href="index.html" class="button">🚀 Start Learning</a>
+      </div>
+    `;
+
+    contentDiv.innerHTML = html;
+
+    // Log summary
+    console.log('%c🧪 TEST RESULTS', 'font-size: 1.5em; color: #667eea; font-weight: bold;');
+    console.log(`%c${passed}/${tests.length} tests passed`, `color: ${passed === tests.length ? 'green' : 'orange'}; font-size: 1.1em;`);
+    console.log('Lesson Pool:', topicStats);
+    console.log('Total Lessons:', totalLessons);
+  </script>
+</body>
+</html>

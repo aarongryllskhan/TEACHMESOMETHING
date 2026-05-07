@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Logs
+*.log
+*.log.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.py
+
+# Sensitive files
+GROQAPIkeys.txt
+.env
+*.env
+
+# Generated comparison/temp files
+COMPARISON_*.json
+LESSON_COMPARISON_*.json
+
+# Python scripts output
+generation.log
+improvement_loop*.log
+lesson_*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Disabled files
+*.disabled

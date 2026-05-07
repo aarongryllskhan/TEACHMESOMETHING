@@ -1,0 +1,35 @@
+{
+  "topic": "How-Proteins-Fold-Into-Impossibly-Complex-Shapes",
+  "title": "The Origami of Life**",
+  "lesson": {
+    "learn": "Protein folding is a fundamental process in biology where proteins, the building blocks of life, fold into intricate three-dimensional structures. This complex process determines a protein's function and stability within living organisms. Protein misfolding has been linked to various diseases, making understanding this process crucial for medical research.",
+    "simpler": "Imagine you're playing with a Rubik's Cube, trying to fit all the pieces together in just the right way. Proteins are like these tiny cubes, made up of many smaller parts called amino acids, which fold into specific shapes that give them their functions.",
+    "keyTakeaway": "The most important thing to remember is that protein folding determines a protein's function and stability within living organisms.",
+    "deeperDive": "Recent studies have shown that the energy landscape of protein folding can be thought of as a complex terrain, with many local minima representing different folded states. The use of computer simulations has allowed researchers to predict the folding behavior of proteins with increasing accuracy. In addition, advances in cryo-electron microscopy have enabled the visualization of protein structures at near-atomic resolution. For example, the structure of the enzyme lysozyme has been determined using this technique, revealing its intricate folding patterns.",
+    "funFact": "It's estimated that there are over 100,000 known proteins in the human genome, and scientists believe that many more remain undiscovered.",
+    "keyElements": {
+      "people": [
+        "* **Vincent Hilser**: biochemist who developed a mathematical framework for understanding protein folding",
+        "* **Christian Anfinsen**: Nobel laureate who discovered the importance of disulfide bonds in protein stability",
+        "* **Jane Richardson**: structural biologist who pioneered the use of ribbon diagrams to represent protein structures"
+      ],
+      "places": [
+        "* **National Institute of General Medical Sciences (NIGMS)**: US research institute that supports studies on protein folding and function",
+        "* **European Molecular Biology Laboratory (EMBL)**: leading international research institution for molecular biology",
+        "* **Rockefeller University**: New York-based research center with a strong focus on structural biology"
+      ],
+      "years": [
+        "* 1961: Christian Anfinsen publishes his discovery of the importance of disulfide bonds in protein stability",
+        "* 1982: Vincent Hilser develops his mathematical framework for understanding protein folding",
+        "* 2018: Cryo-electron microscopy is awarded the Nobel Prize in Chemistry for its role in determining protein structures"
+      ],
+      "concepts": [
+        "* **Primary structure**: the sequence of amino acids in a protein",
+        "* **Secondary structure**: local arrangements of amino acids, such as alpha-helices and beta-sheets",
+        "* **Tertiary structure**: the overall three-dimensional shape of a protein",
+        "* **Quaternary structure**: the arrangement of multiple polypeptide chains in a single protein molecule",
+        "* **Energy landscape**: the conceptual representation of the energy changes that occur during protein folding"
+      ]
+    }
+  }
+}

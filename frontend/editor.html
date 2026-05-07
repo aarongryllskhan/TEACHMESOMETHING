@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📝 Lesson Editor - Teach Me Something</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 { font-size: 2em; margin-bottom: 10px; }
+    header p { font-size: 1em; opacity: 0.9; }
+    .content {
+      padding: 40px;
+    }
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 900px) {
+      .two-column { grid-template-columns: 1fr; }
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #333;
+      font-size: 0.95em;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 1em;
+      transition: all 0.3s;
+    }
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+    textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+    .array-input {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+    .array-input input {
+      flex: 1;
+    }
+    .btn-remove {
+      padding: 10px 15px;
+      background: #f44336;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .btn-remove:hover {
+      background: #da190b;
+    }
+    .btn-add {
+      padding: 10px 20px;
+      background: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .btn-add:hover {
+      background: #45a049;
+    }
+    .array-section {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      border-left: 4px solid #667eea;
+    }
+    .array-section h3 {
+      font-size: 0.95em;
+      color: #667eea;
+      margin-bottom: 10px;
+    }
+    .form-actions {
+      display: flex;
+      gap: 15px;
+      margin-top: 30px;
+      padding-top: 30px;
+      border-top: 2px solid #e0e0e0;
+    }
+    .btn-submit {
+      flex: 1;
+      padding: 15px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1.1em;
+      transition: transform 0.2s;
+    }
+    .btn-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+    .btn-reset {
+      padding: 15px 30px;
+      background: #e0e0e0;
+      color: #333;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+    .btn-reset:hover {
+      background: #d0d0d0;
+    }
+    .notification {
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      display: none;
+      animation: slideIn 0.3s ease;
+    }
+    .notification.show {
+      display: block;
+    }
+    .notification.success {
+      background: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+    .notification.error {
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .section-title {
+      font-size: 1.3em;
+      font-weight: 600;
+      color: #333;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #667eea;
+    }
+    .template-hint {
+      font-size: 0.85em;
+      color: #999;
+      font-style: italic;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📝 Lesson Editor</h1>
+      <p>Add custom lessons to your learning pool</p>
+    </header>
+    <div class="content">
+      <div id="notification" class="notification"></div>
+
+      <form id="lessonForm">
+        <!-- Basic Info -->
+        <div class="section-title">📚 Basic Information</div>
+        <div class="two-column">
+          <div class="form-group">
+            <label for="title">Lesson Title *</label>
+            <input type="text" id="title" placeholder="e.g., Understanding Photosynthesis" required>
+            <div class="template-hint">A catchy, descriptive title for the lesson</div>
+          </div>
+          <div class="form-group">
+            <label for="topic">Topic *</label>
+            <input type="text" id="topic" placeholder="e.g., Biology" required>
+            <div class="template-hint">Main topic category (e.g., Science, History, Technology)</div>
+          </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="section-title">📖 Lesson Content</div>
+        <div class="form-group">
+          <label for="explanation">Explanation (7-10 sentences) *</label>
+          <textarea id="explanation" placeholder="Cover: 1) What it is, 2) Historical context, 3) Why it matters, 4) Real-world applications" required></textarea>
+          <div class="template-hint">Comprehensive explanation suitable for interested learners</div>
+        </div>
+
+        <div class="form-group">
+          <label for="simpler">Simple Explanation (for 10-year-olds) *</label>
+          <textarea id="simpler" placeholder="Use simple words and everyday examples they understand" required></textarea>
+          <div class="template-hint">2-3 simple sentences with relatable examples</div>
+        </div>
+
+        <div class="form-group">
+          <label for="keyTakeaway">Key Takeaway *</label>
+          <input type="text" id="keyTakeaway" placeholder="The most important insight to remember" required>
+          <div class="template-hint">One powerful sentence they should remember</div>
+        </div>
+
+        <div class="form-group">
+          <label for="funFact">Fun Fact *</label>
+          <textarea id="funFact" placeholder="Something surprising that makes people say 'wow!'" required></textarea>
+          <div class="template-hint">An interesting or surprising fact about this topic</div>
+        </div>
+
+        <div class="form-group">
+          <label for="deeperDive">Deeper Dive (8-10 sentences)</label>
+          <textarea id="deeperDive" placeholder="Cover recent discoveries and complex mechanisms for curious minds"></textarea>
+          <div class="template-hint">For learners who want to go deeper into the topic</div>
+        </div>
+
+        <!-- Key Elements -->
+        <div class="section-title">🔍 Key Elements</div>
+        <div class="two-column">
+          <div class="form-group">
+            <label>People (3 names)</label>
+            <div class="array-section">
+              <div id="peopleContainer"></div>
+              <button type="button" class="btn-add" onclick="addArrayField('people')">+ Add Person</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Places (3 places)</label>
+            <div class="array-section">
+              <div id="placesContainer"></div>
+              <button type="button" class="btn-add" onclick="addArrayField('places')">+ Add Place</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="two-column">
+          <div class="form-group">
+            <label>Years/Eras (3 events)</label>
+            <div class="array-section">
+              <div id="yearsContainer"></div>
+              <button type="button" class="btn-add" onclick="addArrayField('years')">+ Add Year/Event</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Concepts (3 concepts)</label>
+            <div class="array-section">
+              <div id="conceptsContainer"></div>
+              <button type="button" class="btn-add" onclick="addArrayField('concepts')">+ Add Concept</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Related Content -->
+        <div class="section-title">🔗 Related Content</div>
+        <div class="form-group">
+          <label>Related Topics (3 topics)</label>
+          <div class="array-section">
+            <div id="relatedContainer"></div>
+            <button type="button" class="btn-add" onclick="addArrayField('related')">+ Add Related Topic</button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>References</label>
+          <div class="array-section">
+            <div id="referencesContainer"></div>
+            <button type="button" class="btn-add" onclick="addReferenceField()">+ Add Reference</button>
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="form-actions">
+          <button type="submit" class="btn-submit">✅ Save Lesson</button>
+          <button type="reset" class="btn-reset">🔄 Clear Form</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="lessonPool.js"></script>
+  <script>
+    // Initialize array fields
+    function initializeArrayFields() {
+      ['people', 'places', 'years', 'concepts'].forEach(field => {
+        for (let i = 0; i < 3; i++) {
+          addArrayField(field, false);
+        }
+      });
+      for (let i = 0; i < 3; i++) {
+        addArrayField('related', false);
+      }
+      addReferenceField();
+    }
+
+    function addArrayField(type, focus = true) {
+      const containers = {
+        'people': 'peopleContainer',
+        'places': 'placesContainer',
+        'years': 'yearsContainer',
+        'concepts': 'conceptsContainer',
+        'related': 'relatedContainer'
+      };
+
+      const container = document.getElementById(containers[type]);
+      const id = `${type}-${Date.now()}-${Math.random()}`;
+
+      const div = document.createElement('div');
+      div.className = 'array-input';
+      div.innerHTML = `
+        <input type="text" id="${id}" placeholder="Enter ${type}" data-field="${type}">
+        <button type="button" class="btn-remove" onclick="this.parentElement.remove()">✕</button>
+      `;
+      container.appendChild(div);
+
+      if (focus) {
+        document.getElementById(id).focus();
+      }
+    }
+
+    function addReferenceField() {
+      const container = document.getElementById('referencesContainer');
+      const id = `ref-${Date.now()}-${Math.random()}`;
+
+      const div = document.createElement('div');
+      div.style.marginBottom = '15px';
+      div.style.paddingBottom = '15px';
+      div.style.borderBottom = '1px solid #e0e0e0';
+      div.innerHTML = `
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
+          <input type="text" class="ref-title" placeholder="Title" data-id="${id}">
+          <input type="url" class="ref-url" placeholder="URL" data-id="${id}">
+        </div>
+        <input type="text" class="ref-author" placeholder="Author/Source" data-id="${id}" style="margin-bottom: 10px;">
+        <button type="button" class="btn-remove" onclick="this.parentElement.remove()">✕ Remove</button>
+      `;
+      container.appendChild(div);
+    }
+
+    // Form submission
+    document.getElementById('lessonForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      try {
+        // Collect form data
+        const lesson = {
+          title: document.getElementById('title').value,
+          topic: document.getElementById('topic').value,
+          explanation: document.getElementById('explanation').value,
+          simpler: document.getElementById('simpler').value,
+          keyTakeaway: document.getElementById('keyTakeaway').value,
+          funFact: document.getElementById('funFact').value,
+          deeperDive: document.getElementById('deeperDive').value,
+          keyElements: {
+            people: collectArrayField('people'),
+            places: collectArrayField('places'),
+            years: collectArrayField('years'),
+            concepts: collectArrayField('concepts')
+          },
+          relatedTopics: collectArrayField('related'),
+          references: collectReferences()
+        };
+
+        // Validate
+        if (!lesson.title || !lesson.topic || !lesson.explanation || !lesson.funFact) {
+          showNotification('Please fill in all required fields (*)', 'error');
+          return;
+        }
+
+        // Add to lesson pool
+        if (!window.LESSON_POOL) {
+          window.LESSON_POOL = {};
+        }
+
+        if (!window.LESSON_POOL[lesson.topic]) {
+          window.LESSON_POOL[lesson.topic] = {};
+        }
+
+        // Use a subtopic grouping or create one
+        const subtopic = lesson.topic;
+        if (!window.LESSON_POOL[lesson.topic][subtopic]) {
+          window.LESSON_POOL[lesson.topic][subtopic] = [];
+        }
+
+        // Add unique ID
+        lesson.id = `${lesson.topic}-${lesson.title.substring(0, 20).replace(/\s+/g, '-')}-${Date.now()}`;
+
+        window.LESSON_POOL[lesson.topic][subtopic].push(lesson);
+
+        // Save to localStorage for persistence
+        const poolJSON = JSON.stringify(window.LESSON_POOL);
+        localStorage.setItem('customLessonPool', poolJSON);
+
+        showNotification(`✅ Lesson "${lesson.title}" added successfully!`, 'success');
+        document.getElementById('lessonForm').reset();
+        initializeArrayFields();
+
+        // Show stats
+        const totalLessons = Object.values(window.LESSON_POOL).reduce((sum, topics) =>
+          sum + Object.values(topics).reduce((s, lessons) => s + lessons.length, 0), 0);
+        console.log(`Total lessons in pool: ${totalLessons}`);
+      } catch (error) {
+        showNotification(`Error: ${error.message}`, 'error');
+        console.error(error);
+      }
+    });
+
+    function collectArrayField(type) {
+      const fields = document.querySelectorAll(`input[data-field="${type}"]`);
+      return Array.from(fields)
+        .map(f => f.value.trim())
+        .filter(v => v.length > 0);
+    }
+
+    function collectReferences() {
+      const refs = [];
+      const titles = document.querySelectorAll('.ref-title');
+      const urls = document.querySelectorAll('.ref-url');
+      const authors = document.querySelectorAll('.ref-author');
+
+      for (let i = 0; i < titles.length; i++) {
+        const title = titles[i].value.trim();
+        const url = urls[i].value.trim();
+        const author = authors[i].value.trim();
+
+        if (title || url || author) {
+          refs.push({
+            title: title || 'Reference',
+            url: url || '#',
+            author: author || 'Unknown'
+          });
+        }
+      }
+
+      return refs;
+    }
+
+    function showNotification(message, type) {
+      const notification = document.getElementById('notification');
+      notification.textContent = message;
+      notification.className = `notification show ${type}`;
+
+      if (type === 'success') {
+        setTimeout(() => notification.classList.remove('show'), 3000);
+      }
+    }
+
+    // Initialize on load
+    window.addEventListener('load', initializeArrayFields);
+  </script>
+</body>
+</html>
