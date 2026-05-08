@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https:">
-  <title>Teach Me Something</title>
+  <title>Pocket Topics</title>
+  <link rel="icon" type="image/png" href="images/pockettopics.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>🎓 Teach Me Something New</h1>
-      <p>Learn something interesting every day</p>
-    </header>
+    <div class="app-topbar">
+      <img src="images/pockettopics.png" alt="Pocket Topics" class="app-logo">
+    </div>
 
     <nav class="nav-tabs">
       <button class="tab-btn active" onclick="switchTab('daily')" id="nav-daily">
@@ -73,9 +73,7 @@
     <section id="profile" class="tab-content">
       <div class="profile-container">
         <div class="profile-header">
-          <div class="profile-avatar">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          </div>
+          <img src="images/pockettopics.png" alt="Pocket Topics" class="profile-logo">
           <h2 class="profile-name">Learner</h2>
           <div class="profile-level-badge">Level <span id="userLevel">1</span></div>
         </div>

@@ -33,10 +33,32 @@ body.daily-active {
   display: flex !important;
 }
 
+.app-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: #ffffff;
+  border-bottom: 1px solid #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  height: 54px;
+}
+
+.app-logo {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+}
+
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding-bottom: 0;
+  padding-top: 54px;
 }
 
 .container.daily-active {
@@ -1352,22 +1374,11 @@ header p {
   border-radius: 20px 20px 0 0;
 }
 
-.profile-avatar {
-  width: 72px;
-  height: 72px;
-  background: #f0f3ff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 14px;
-  border: 2px solid #e4e8ff;
-}
-
-.profile-avatar svg {
-  width: 36px;
-  height: 36px;
-  stroke: #667eea;
+.profile-logo {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .profile-name {
