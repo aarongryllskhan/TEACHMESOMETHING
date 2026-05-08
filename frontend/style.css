@@ -34,6 +34,11 @@ body.daily-active {
 }
 
 .app-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
   background: #ffffff;
   border-bottom: 1px solid #f0f2f5;
   display: flex;
@@ -53,6 +58,7 @@ body.daily-active {
   max-width: 900px;
   margin: 0 auto;
   padding-bottom: 0;
+  padding-top: 80px;
 }
 
 .container.daily-active {
@@ -60,26 +66,12 @@ body.daily-active {
 }
 
 /* Daily Lesson Card Styles */
-.daily-topbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 80px;
-  background: #ffffff;
-  border-bottom: 1px solid #f0f2f5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 16px;
-}
-
 .daily-lesson-container {
   position: fixed;
-  top: 0;
+  top: 80px;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 80px);
   display: flex !important;
   align-items: center;
   justify-content: center;
