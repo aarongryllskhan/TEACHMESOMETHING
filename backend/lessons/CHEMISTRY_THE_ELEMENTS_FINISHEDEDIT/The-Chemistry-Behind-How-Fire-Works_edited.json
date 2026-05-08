@@ -1,0 +1,39 @@
+{
+  "topic": "Fundamental Chemistry of Combustion",
+  "title": "Understanding the Oxidation Reaction in Combustion: A Review of the Scientific Evidence",
+  "lesson": {
+    "learn": "Combustion is a self-sustaining, exothermic chemical reaction that involves the rapid oxidation of a fuel source, resulting in the release of energy in the form of light, heat, and sound. This process requires a finely tuned mixture of the fuel, oxygen, and heat, with specific temperatures, pressures, and concentrations of reactants.",
+    "simpler": "Combustion occurs when a fuel source undergoes pyrolysis and subsequently reacts with oxygen to produce heat and light. This process can be described by the general equation: fuel (C_xH_y) + O2 → CO2 + H2O + energy.",
+    "keyTakeaway": "The key to understanding combustion lies in the complex interplay between fuel source, oxygen, and heat, as well as the specific reaction pathways, temperature, pressure, and concentration of reactants involved.",
+    "deeperDive": "One of the earliest recorded studies on combustion was conducted by Antoine Lavoisier on September 17, 1774, when he discovered oxygen and began investigating its role in combustion. Building on Lavoisier's work, Humphry Davy and Claude Berthollet in the late 18th century demonstrated the existence of pyrolysis through a series of experiments on the combustion of wood and coal.",
+    "funFact": "The ignition temperature of a fuel source is crucial in determining the rate and efficiency of combustion. For example, the ignition temperature of gasoline is approximately 538°C (1000°F), while that of wood is around 300°C (572°F) [1].",
+    "keyElements": {
+      "people": [
+        "Antoine Lavoisier",
+        "Humphry Davy",
+        "Claude Berthollet",
+        "Joseph Priestley",
+        "Svante Arrhenius"
+      ],
+      "places": [
+        "The University of Oxford",
+        "The Royal Institution",
+        "The Massachusetts Institute of Technology (MIT)"
+      ],
+      "years": [
+        "1774",
+        "1807"
+      ],
+      "concepts": [
+        "Pyrolysis",
+        "Oxidation",
+        "Ionization",
+        "Free radicals",
+        "Excited molecules",
+        "Combustion",
+        "Exothermic reactions",
+        "Adiabatic flame temperature"
+      ]
+    }
+  }
+}

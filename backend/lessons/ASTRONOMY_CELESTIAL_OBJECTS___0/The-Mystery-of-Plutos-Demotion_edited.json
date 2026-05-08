@@ -1,0 +1,50 @@
+{
+  "topic": "The 2006 IAU Definition of a Planet",
+  "title": "IAU Criteria for Planetary Classification: A Scientific Framework",
+  "lesson": {
+    "learn": "On August 24, 2006, the International Astronomical Union (IAU) formally redefined the term 'planet' during its 26th General Assembly in Prague. This decision introduced a three-part classification system that distinguishes planets from dwarf planets and small Solar System bodies. Under this definition, a planet must (1) orbit the Sun, (2) be massive enough for its self-gravity to form a nearly round shape (hydrostatic equilibrium), and (3) have cleared its orbital neighborhood of other debris through gravitational dominance. This framework fundamentally changed the classification of Pluto and reshaped modern planetary science.",
+    
+    "simpler": "A planet is now defined by three rules: it must orbit the Sun, it must be round because of its own gravity, and it must be strong enough to clear other objects near its orbit. If an object fails any of these rules, it is not classified as a planet anymore.",
+    
+    "keyTakeaway": "The IAU definition shifted planetary classification from size-based intuition to physically grounded criteria based on orbital dynamics and gravitational dominance, improving consistency across Solar System and exoplanet studies.",
+    
+    "deeperDive": "The 2006 redefinition emerged from decades of ambiguity following Pluto’s discovery in 1930. As more Kuiper Belt Objects were discovered in the late 20th and early 21st centuries, astronomers realized Pluto was only one of many similar icy bodies rather than a unique ninth planet. The discovery of Eris in 2005 intensified the debate because it appeared slightly more massive than Pluto, challenging the logic of planet classification. The IAU resolved this by introducing the concept of 'orbital clearing,' which depends on a body's ability to gravitationally dominate its orbital zone over long timescales. This depends not only on mass but also orbital dynamics and local population density of smaller bodies. The new definition aligns planetary science with dynamical evolution models of the Solar System and provides a scalable framework applicable to exoplanetary systems, where orbital environments differ significantly from our own.",
+    
+    "funFact": "Pluto completes one orbit around the Sun in about 248 Earth years, meaning it has not completed a full orbit since it was discovered in 1930."
+  },
+  
+  "keyElements": {
+    "people": [
+      "Clyde Tombaugh",
+      "Percival Lowell",
+      "Alan Stern",
+      "Brian Marsden",
+      "Mark Sykes",
+      "Mike Brown"
+    ],
+    "places": [
+      "International Astronomical Union (IAU) General Assembly, Prague, Czech Republic",
+      "Lowell Observatory",
+      "Palomar Observatory",
+      "Mauna Kea Observatories",
+      "NASA Jet Propulsion Laboratory",
+      "Kuiper Belt region of the Solar System"
+    ],
+    "years": [
+      "1930 - Pluto discovered by Clyde Tombaugh",
+      "1992 - First Kuiper Belt Object discovered beyond Pluto",
+      "2005 - Eris discovered, triggering planetary redefinition debate",
+      "2006 - IAU formally defines planet classification system",
+      "2015 - New Horizons mission performs Pluto flyby"
+    ],
+    "concepts": [
+      "Orbital clearing",
+      "Hydrostatic equilibrium",
+      "Gravitational dominance",
+      "Dwarf planet classification",
+      "Kuiper Belt Objects (KBOs)",
+      "Planetary accretion theory",
+      "Dynamical evolution of planetary systems"
+    ]
+  }
+}

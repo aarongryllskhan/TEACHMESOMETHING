@@ -1,0 +1,80 @@
+{
+  "topic": "Protein Folding",
+  "title": "Protein Structure Determination: An Overview of Biophysical Techniques",
+  "lesson": {
+    "learn": "Protein folding is a critical biological process whereby a protein's primary structure, defined by the sequence of amino acids, is transformed into its tertiary structure, comprising the three-dimensional arrangement of its polypeptide chains. This structural transition is essential for determining a protein's function and stability within living organisms.",
+    "simpler": "Proteins are complex macromolecules composed of amino acids, which are connected by peptide bonds and stabilized by hydrophobic interactions. The folding process can be understood through the concepts of thermodynamics and statistical mechanics. For instance, the energy landscape model provides a framework for understanding the free energy changes associated with protein folding.",
+    "keyTakeaway": "The precision of protein structure determination is crucial for understanding protein function and interactions, enabling the design of rational therapeutic strategies and elucidating biological mechanisms in health and disease.",
+    "deeperDive": "Recent studies have harnessed advanced biophysical techniques, such as X-ray crystallography and cryo-electron microscopy, to resolve protein structures with high resolution. For example, the structure of lysozyme, an enzyme crucial for the defense against bacterial infections, was determined using cryo-electron microscopy to a resolution of 1.9 Å, revealing its intricate folding patterns and identifying essential residues for its catalytic activity.",
+    "funFact": "As of 2020, the UniProt database contains over 210,000 characterized protein entries, with numerous additional predictions generated from genomic sequences.",
+    "keyElements": {
+      "people": [
+        {
+          "name": "Vincent Hilser",
+          "title": "Biochemist",
+          "achievement": "Developed a statistical mechanical framework for understanding protein folding and the energy landscape model"
+        },
+        {
+          "name": "Christian Anfinsen",
+          "title": "Nobel Laureate",
+          "achievement": "Discovered the importance of disulfide bonds in protein stability"
+        },
+        {
+          "name": "Jane Richardson",
+          "title": "Structural Biologist",
+          "achievement": "Pioneered the use of ribbon diagrams to represent protein structures and developed the DSSP algorithm for secondary structure prediction"
+        }
+      ],
+      "places": [
+        {
+          "name": "National Institute of General Medical Sciences (NIGMS)",
+          "description": "US research institute supporting studies on protein folding and function"
+        },
+        {
+          "name": "European Molecular Biology Laboratory (EMBL)",
+          "description": "Leading international research institution for molecular biology"
+        },
+        {
+          "name": "Brookhaven National Laboratory",
+          "description": "Research center with a strong focus on X-ray crystallography and structural biology"
+        }
+      ],
+      "years": [
+        {
+          "year": "1961",
+          "event": "Christian Anfinsen publishes his discovery of the importance of disulfide bonds in protein stability"
+        },
+        {
+          "year": "1982",
+          "event": "Vincent Hilser develops his statistical mechanical framework for understanding protein folding"
+        },
+        {
+          "year": "2018",
+          "event": "Cryo-electron microscopy is awarded the Nobel Prize in Chemistry for its role in determining protein structures"
+        }
+      ],
+      "concepts": [
+        {
+          "name": "Primary structure",
+          "definition": "The sequence of amino acids in a protein"
+        },
+        {
+          "name": "Secondary structure",
+          "definition": "Local arrangements of amino acids, such as alpha-helices and beta-sheets"
+        },
+        {
+          "name": "Tertiary structure",
+          "definition": "The overall three-dimensional shape of a protein"
+        },
+        {
+          "name": "Quaternary structure",
+          "definition": "The arrangement of multiple polypeptide chains in a single protein molecule"
+        },
+        {
+          "name": "Energy landscape",
+          "definition": "A conceptual representation of the energy changes associated with protein folding"
+        }
+      ]
+    }
+  }
+}

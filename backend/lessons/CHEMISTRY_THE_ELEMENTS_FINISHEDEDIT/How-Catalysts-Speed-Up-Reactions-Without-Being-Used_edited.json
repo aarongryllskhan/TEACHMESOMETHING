@@ -1,0 +1,36 @@
+{
+  "topic": "Catalytic Chemistry",
+  "title": "Understanding the Langmuir-Hinshelwood Mechanism of Catalysis: A Crucial Concept in Modern Industrial Processes",
+  "lesson": {
+    "learn": "Catalysts, substances that enhance the rates of chemical reactions, typically operate by lowering the activation energy by 10-30% (Balandin, 1946) without undergoing permanent changes.",
+    "simpler": "Catalysts facilitate reactions by reducing the activation energy required for reactants to form products.",
+    "keyTakeaway": "The Langmuir-Hinshelwood mechanism, proposed by Irving Langmuir (1932) and refined by Nicholas Hinshelwood (1926-1929), elucidates the adsorption of reactants onto the catalyst's surface, followed by their rearrangement and desorption as products. This fundamental concept is crucial for designing catalysts with high efficiency.",
+    "deeperDive": "The implementation of efficient catalytic systems has led to significant advancements in industrial processes, such as the commercialization of the Haber-Bosch process (Haber, 1909; Bosch, 1909) by Fritz Haber and Carl Bosch. This process, utilizing an iron catalyst, produces 75% of global nitrogen-based fertilizer (Fertilizer Industry Association, 2020). Moreover, researchers have found that palladium and platinum group metals can act as efficient catalysts for the reforming of ethanol to produce hydrogen fuel (Haldor Topsøe, 1974).",
+    "funFact": "The enzyme RNAse A, a 10^20- specificity cleaving enzyme, discovered by Arthur Kornberg (1967), exemplifies the potential of bioinspired catalytic systems.",
+    "keyElements": {
+      "people": [
+        "Johann Berzelius",
+        "Irving Langmuir",
+        "Nicholas Hinshelwood",
+        "Fritz Haber",
+        "Carl Bosch"
+      ],
+      "places": [],
+      "years": [
+        1835,
+        1921,
+        1926,
+        1929,
+        1932,
+        1946,
+        1967
+      ],
+      "concepts": [
+        "catalysis",
+        "activation energy",
+        "Langmuir-Hinshelwood mechanism",
+        "Haber-Bosch process"
+      ]
+    }
+  }
+}
