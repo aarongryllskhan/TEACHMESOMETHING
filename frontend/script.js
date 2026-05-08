@@ -1117,11 +1117,14 @@ function displayFullLesson(lesson) {
     document.body.appendChild(modal);
   }
 
+  const imageUrl = lesson.image || (lesson.lesson && lesson.lesson.image);
   modal.innerHTML = `
     <div class="full-lesson-header">
       <button class="close-btn" onclick="closeFullLesson()">←Back</button>
       <div class="lesson-progress">${currentCardIndex + 1} / ${currentLessonsArray.length}</div>
     </div>
+
+    ${imageUrl ? `<div class="lesson-hero-image"><img src="${imageUrl}" alt="${cleanTitle(lesson.title, lesson.topic)}" loading="lazy"></div>` : ''}
 
     <div class="full-lesson-content">
       <h2>${cleanTitle(lesson.title, lesson.topic)}</h2>

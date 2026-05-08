@@ -1759,6 +1759,18 @@ header p {
   flex-shrink: 0;
 }
 
+.lesson-hero-image {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.lesson-hero-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
 .full-lesson-content {
   flex: 1;
   overflow-y: auto;

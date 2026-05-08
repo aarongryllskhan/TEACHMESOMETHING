@@ -111,6 +111,16 @@ const categoryMapping = {
   ]
 };
 
+// Find actual folder on disk by base name prefix (ignores _FINISHEDEDIT, ____0, etc.)
+const allLessonFolders = fs.existsSync(lessonsDir) ? fs.readdirSync(lessonsDir) : [];
+function resolveFolder(baseName) {
+  // Exact match first
+  if (allLessonFolders.includes(baseName)) return path.join(lessonsDir, baseName);
+  // Prefix match — e.g. baseName=FOO matches FOO_FINISHEDEDIT or FOO____0
+  const match = allLessonFolders.find(f => f.startsWith(baseName + '_') || f.startsWith(baseName + '-'));
+  return match ? path.join(lessonsDir, match) : null;
+}
+
 // Ollama configuration
 const OLLAMA_API_URL = process.env.OLLAMA_API_URL || 'http://localhost:11434';
 const OLLAMA_MODEL = process.env.OLLAMA_MODEL || 'mistral';
@@ -716,8 +726,8 @@ app.get('/api/categories', (req, res) => {
 
     // Count lessons in all folders for this category
     folderNames.forEach(folderName => {
-      const folderPath = path.join(lessonsDir, folderName);
-      if (fs.existsSync(folderPath)) {
+      const folderPath = resolveFolder(folderName);
+      if (folderPath && fs.existsSync(folderPath)) {
         const files = fs.readdirSync(folderPath).filter(f => f.endsWith('.json') && !f.includes('_progress'));
         lessonCount += files.length;
       }
@@ -750,9 +760,9 @@ app.get('/api/categories/:category/lessons', (req, res) => {
 
     // Load lessons from all folders in this category
     folderNames.forEach(folderName => {
-      const folderPath = path.join(lessonsDir, folderName);
+      const folderPath = resolveFolder(folderName);
 
-      if (fs.existsSync(folderPath)) {
+      if (folderPath && fs.existsSync(folderPath)) {
         const files = fs.readdirSync(folderPath).filter(f => f.endsWith('.json') && !f.includes('_progress'));
 
         files.forEach(file => {
