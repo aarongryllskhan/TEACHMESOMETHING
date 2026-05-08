@@ -1359,8 +1359,7 @@ function updateStreakDisplay() {
   const lessons = JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]');
   const topics = JSON.parse(localStorage.getItem(TOPICS_KEY) || '[]');
 
-  const fireEmoji = streak.count > 0 ? '<span class="streak-indicator">🔥</span>' : '';
-  document.getElementById('streakCount').innerHTML = fireEmoji + streak.count;
+  document.getElementById('streakCount').textContent = streak.count;
   document.getElementById('totalLessons').textContent = lessons.length;
   document.getElementById('topicCount').textContent = topics.length;
 
@@ -1600,15 +1599,24 @@ async function takeDeepDive(topic, lessonTitle) {
 }
 
 function displayAchievements() {
+  const CHECK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
+  const BOOK  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`;
+  const MEDAL = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M8.56 13.9L6 22l6-3 6 3-2.56-8.1"/></svg>`;
+  const STAR  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+  const BOLT  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`;
+  const CAP   = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>`;
+  const DIAMOND = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l4.5 7H20l-8 13L4 9h3.5L12 2z"/></svg>`;
+  const ROCKET = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>`;
+
   const achievements = [
-    { emoji: '🎯', name: 'First Lesson', id: 'first', condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 1 },
-    { emoji: '📚', name: '5 Lessons', id: 'five', condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 5 },
-    { emoji: '🏆', name: '10 Lessons', id: 'ten', condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 10 },
-    { emoji: '🌟', name: '25 Lessons', id: 'twentyfive', condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 25 },
-    { emoji: '🔥', name: '7-Day Streak', id: 'streak7', condition: () => JSON.parse(localStorage.getItem(STREAK_KEY) || '{"count":0}').count >= 7 },
-    { emoji: '🎓', name: 'Polymath', id: 'polymath', condition: () => JSON.parse(localStorage.getItem(TOPICS_KEY) || '[]').length >= 10 },
-    { emoji: '💯', name: '100 XP', id: 'xp100', condition: () => (JSON.parse(localStorage.getItem(STREAK_KEY) || '{"xp":0}').xp || JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length * 10) >= 100 },
-    { emoji: '🚀', name: '200 XP', id: 'xp200', condition: () => (JSON.parse(localStorage.getItem(STREAK_KEY) || '{"xp":0}').xp || JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length * 10) >= 200 }
+    { icon: CHECK,   name: 'First Lesson',  id: 'first',      condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 1 },
+    { icon: BOOK,    name: '5 Lessons',     id: 'five',       condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 5 },
+    { icon: MEDAL,   name: '10 Lessons',    id: 'ten',        condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 10 },
+    { icon: STAR,    name: '25 Lessons',    id: 'twentyfive', condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 25 },
+    { icon: BOLT,    name: '7-Day Streak',  id: 'streak7',    condition: () => JSON.parse(localStorage.getItem(STREAK_KEY) || '{"count":0}').count >= 7 },
+    { icon: CAP,     name: 'Polymath',      id: 'polymath',   condition: () => JSON.parse(localStorage.getItem(TOPICS_KEY) || '[]').length >= 10 },
+    { icon: DIAMOND, name: '100 XP',        id: 'xp100',      condition: () => (JSON.parse(localStorage.getItem(STREAK_KEY) || '{"xp":0}').xp || JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length * 10) >= 100 },
+    { icon: ROCKET,  name: '200 XP',        id: 'xp200',      condition: () => (JSON.parse(localStorage.getItem(STREAK_KEY) || '{"xp":0}').xp || JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length * 10) >= 200 }
   ];
 
   const achievementsDiv = document.getElementById('achievements');
@@ -1620,7 +1628,6 @@ function displayAchievements() {
     const isUnlocked = achievement.condition();
     const wasUnlocked = unlockedAchievements.includes(achievement.id);
 
-    // Celebrate new unlock
     if (isUnlocked && !wasUnlocked) {
       celebrateAchievement(achievement.name);
       unlockedAchievements.push(achievement.id);
@@ -1628,7 +1635,7 @@ function displayAchievements() {
     }
 
     return `<div class="achievement ${isUnlocked ? 'unlocked' : ''}">
-      <div class="achievement-emoji">${achievement.emoji}</div>
+      <div class="achievement-icon">${achievement.icon}</div>
       <div class="achievement-name">${achievement.name}</div>
     </div>`;
   }).join('');
