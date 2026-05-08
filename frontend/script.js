@@ -847,14 +847,24 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
       Back
     </button>`;
 
-    const rows = subcategoryLessons.map((lesson, idx) => `
+    const ACCENT_COLORS = [
+      '#667eea','#f59e0b','#10b981','#ef4444','#8b5cf6',
+      '#06b6d4','#f97316','#ec4899','#14b8a6','#6366f1'
+    ];
+
+    const rows = subcategoryLessons.map((lesson, idx) => {
+      const color = ACCENT_COLORS[idx % ACCENT_COLORS.length];
+      const preview = (lesson.lesson?.learn || lesson.lesson || '').substring(0, 100);
+      return `
       <div class="explore-category-row" onclick="selectLessonFromCard('${categoryId}', ${lessons.indexOf(lesson)})">
+        <div class="lesson-accent-bar" style="background:${color};"></div>
         <div class="explore-category-info">
           <div class="explore-category-name">${cleanTitle(lesson.title, lesson.topic)}</div>
-          <div class="explore-category-desc">${(lesson.lesson.learn || lesson.lesson || '').substring(0, 70)}...</div>
+          <div class="explore-category-desc">${preview}${preview.length >= 100 ? '…' : ''}</div>
         </div>
-        <svg viewBox="0 0 24 24" fill="none" stroke="#ccc" stroke-width="2" style="width:18px;height:18px;flex-shrink:0"><polyline points="9 18 15 12 9 6"/></svg>
-      </div>`).join('');
+        <svg class="lesson-chevron" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2.5" style="width:18px;height:18px;"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>`;
+    }).join('');
 
     grid.innerHTML = backBtn + (rows || '<p style="text-align:center;color:#bbb;padding:40px 0;">No lessons found.</p>');
   } catch (error) {
