@@ -7,6 +7,25 @@ const TOPICS_KEY = 'tms-topics';
 const LEARNED_LESSONS_KEY = 'tms-learned';
 const LAST_LOGIN_KEY = 'tms-last-login';
 const LAST_LEVEL_KEY = 'tms-last-level';
+const READ_SECONDS_KEY = 'tms-read-seconds';
+
+let lessonReadStart = null;
+
+function startReadTimer() {
+  lessonReadStart = Date.now();
+}
+
+function stopReadTimer() {
+  if (!lessonReadStart) return;
+  const elapsed = Math.floor((Date.now() - lessonReadStart) / 1000);
+  lessonReadStart = null;
+  const prev = parseInt(localStorage.getItem(READ_SECONDS_KEY) || '0', 10);
+  localStorage.setItem(READ_SECONDS_KEY, prev + elapsed);
+}
+
+function getTotalReadMinutes() {
+  return Math.floor(parseInt(localStorage.getItem(READ_SECONDS_KEY) || '0', 10) / 60);
+}
 
 // Cache for loaded lessons
 let CATEGORIES_CACHE = null;
@@ -253,15 +272,20 @@ function checkDailyBonus() {
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
-  loadLessonCards();  // Load real lessons from API
+  loadLessonCards();
   updateStreakDisplay();
   displayLearningHistory();
   displayAchievements();
-  getDailyLessonAuto();  // Preload daily lesson for Home tab
+  getDailyLessonAuto();
+});
+
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) stopReadTimer();
 });
 
 // Tab switching
 function switchTab(tabName) {
+  stopReadTimer();
   // Close any open lesson modal first
   const modal = document.getElementById('fullLessonModal');
   if (modal) {
@@ -1095,6 +1119,7 @@ let currentCategory = null;
 
 // Display lesson full view
 function displayFullLesson(lesson) {
+  startReadTimer();
   const content = lesson.lesson || lesson;
   const keyElements = content.keyElements || lesson.keyElements;
 
@@ -1255,6 +1280,7 @@ function acceptCard() {
 }
 
 function closeLessonCards() {
+  stopReadTimer();
   const card = document.getElementById('lessonCard');
   if (card) {
     card.style.display = 'none';
@@ -1361,7 +1387,7 @@ function updateStreakDisplay() {
 
   document.getElementById('streakCount').textContent = streak.count;
   document.getElementById('totalLessons').textContent = lessons.length;
-  document.getElementById('minutesReading').textContent = lessons.length * 3;
+  document.getElementById('minutesReading').textContent = getTotalReadMinutes();
 
   updateLevelDisplay();
   displayLearningHistory();
