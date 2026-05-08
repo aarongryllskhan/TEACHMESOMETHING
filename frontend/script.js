@@ -1224,16 +1224,18 @@ function displayFullLesson(lesson) {
   document.body.style.overflow = 'hidden';
 
   let readMarked = isLessonRead(lesson);
-  function checkScrollBottom() {
-    if (readMarked) return;
-    const nearBottom = modal.scrollHeight - modal.scrollTop - modal.clientHeight < 120;
-    if (nearBottom) {
-      readMarked = true;
-      markLessonRead(lesson);
-      modal.removeEventListener('scroll', checkScrollBottom);
+  const scrollEl = modal.querySelector('.full-lesson-content');
+  if (scrollEl && !readMarked) {
+    function checkScrollBottom() {
+      const nearBottom = scrollEl.scrollHeight - scrollEl.scrollTop - scrollEl.clientHeight < 120;
+      if (nearBottom) {
+        readMarked = true;
+        markLessonRead(lesson);
+        scrollEl.removeEventListener('scroll', checkScrollBottom);
+      }
     }
+    scrollEl.addEventListener('scroll', checkScrollBottom);
   }
-  modal.addEventListener('scroll', checkScrollBottom);
 }
 
 function closeFullLesson() {
