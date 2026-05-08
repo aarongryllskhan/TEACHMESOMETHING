@@ -554,11 +554,12 @@ header p {
 
 .fun-fact-section {
   background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
-  border: 2px dashed #fcd34d;
-  border-radius: 14px;
-  padding: 24px;
+  border: none;
+  border-left: 4px solid #f59e0b;
+  border-radius: 12px;
+  padding: 24px 28px;
   margin: 36px 0;
-  box-shadow: 0 8px 16px rgba(252, 211, 77, 0.15);
+  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.12);
   animation: slideUp 0.5s ease-out;
 }
 
