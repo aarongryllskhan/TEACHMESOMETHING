@@ -3,15 +3,10 @@
   "title": "Understanding the Architecture of Neural Networks: A Step-by-Step Explanation",
   "lesson": {
     "learn": "Neural networks are a branch of artificial intelligence inspired by the structure of the human brain. They consist of interconnected layers of nodes (often called 'neurons') that process information in stages, passing signals forward while adjusting internal connections based on feedback. The foundational idea dates back to the 1940s, when Warren McCulloch and Walter Pitts proposed a mathematical model of neurons that could perform logical operations. Later developments, including the perceptron by Frank Rosenblatt in 1958, showed that such systems could learn from data. Modern neural networks scale this idea dramatically, using many layers and large datasets to learn complex patterns. While not biologically identical to the brain, they are loosely inspired by its networked structure and adaptive learning behavior.",
-    
     "simpler": "Neural networks are computer systems that learn in a way that is inspired by the human brain. They are made of many small units called neurons that pass information to each other. Over time, the system learns from mistakes and improves, just like how humans learn from experience.",
-    
     "keyTakeaway": "Neural networks work by layering simple processing units that learn from data, allowing machines to improve performance over time and solve complex problems like vision, language, and decision-making.",
-    
     "deeperDive": "A neural network is typically organized into an input layer, one or more hidden layers, and an output layer. Each connection between neurons has a weight that determines how strongly signals are passed. During training, the network makes predictions, compares them to the correct answers, and adjusts these weights using backpropagation to reduce error. This process is repeated across large datasets, enabling the system to gradually improve. Breakthroughs such as convolutional neural networks (CNNs) revolutionized image processing by recognizing spatial patterns, while recurrent neural networks (RNNs) and later transformers improved sequence understanding for language tasks. Influential researchers like Geoffrey Hinton, Yann LeCun, and Yoshua Bengio helped establish deep learning as a dominant approach in AI. Today, neural networks power technologies ranging from medical imaging systems to speech recognition and autonomous vehicles.",
-    
     "funFact": "The term 'deep learning' became popular only in the 2000s, even though the core idea of neural networks dates back more than 70 years. Early models were so limited that they could only solve very simple problems compared to today’s systems.",
-    
     "keyElements": {
       "people": [
         "Warren McCulloch – Co-creator of the first mathematical model of a neural network",

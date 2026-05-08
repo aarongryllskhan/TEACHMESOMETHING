@@ -3,15 +3,10 @@
   "title": "Understanding the Sophisticated Design of the Antikythera Mechanism",
   "lesson": {
     "learn": "The Antikythera Mechanism was recovered in 1900 from a Roman-era shipwreck off the coast of Antikythera, Greece, and is now widely regarded as the earliest known analog computer. The shipwreck, excavated by Greek sponge divers with early archaeological support, contained a corroded bronze device dated to approximately 150–100 BCE. The mechanism consists of at least 30 interlocking bronze gears (with modern reconstructions suggesting even greater complexity), precisely cut to transmit rotational motion and model astronomical cycles. It was capable of predicting solar and lunar eclipses, tracking planetary motion, and representing complex calendrical systems such as the Metonic cycle and Saros cycle. Modern analysis, including X-ray tomography, has revealed finely engraved inscriptions and differential gearing, indicating an extraordinary level of mechanical and mathematical sophistication in Hellenistic Greek engineering.",
-    
     "simpler": "The Antikythera Mechanism is an ancient Greek device that worked like a mechanical computer over 2,000 years ago. It used carefully made bronze gears that rotated together to track the movement of the Sun, Moon, and possibly planets. By turning a crank, users could see predictions of eclipses and other astronomical events. Instead of electronics, it used precise mechanical parts to model the sky, similar in principle to modern scientific computers but built entirely from gears and metal.",
-    
     "keyTakeaway": "The Antikythera Mechanism shows that ancient Greek engineers had a highly advanced understanding of astronomy, mathematics, and precision mechanics. Its use of gear trains and astronomical cycles demonstrates that complex computational thinking existed long before modern computers. The device bridges science and engineering, proving that predictive mathematical modeling of the cosmos was already highly developed in antiquity. It also highlights the importance of mechanical systems in early scientific computation, forming a foundation for later developments in clocks and analog computing devices.",
-    
     "deeperDive": "Modern reconstructions using X-ray computed tomography and 3D modeling have revealed that the Antikythera Mechanism likely contained multiple layered dials on its front and back plates. The front dial modeled the Egyptian calendar alongside zodiac constellations, while the back dials tracked long-term astronomical cycles such as the Metonic cycle (19 years) and Saros cycle (~18 years), used to predict eclipses. Evidence suggests the mechanism may have included differential gearing, a design principle not widely seen again until medieval astronomical clocks. Scholars often associate its design tradition with Hellenistic centers of learning such as Rhodes, where astronomers like Hipparchus developed advanced mathematical models of celestial motion. The precision of the gear teeth indicates careful manual craftsmanship, likely requiring specialized workshops and mathematical knowledge of ratios and periodic motion. The device also reflects a broader tradition of Greek mechanical engineering, including automata and geared devices described by engineers such as Archimedes. Its discovery reshaped the history of technology, showing that complex analog computation existed over a millennium earlier than previously believed.",
-    
     "funFact": "When it was first recovered, the Antikythera Mechanism looked like a lump of corroded bronze. Its true complexity was only revealed decades later when X-ray imaging showed hidden gears inside the fragments.",
-    
     "keyElements": {
       "people": [
         "Derek de Solla Price, historian of science who first demonstrated the mechanism’s computational complexity",
@@ -20,7 +15,6 @@
         "Hipparchus, ancient Greek astronomer whose lunar and solar theories likely influenced the device’s calculations",
         "Posidonius, Hellenistic philosopher and astronomer associated with advanced astronomical modeling traditions"
       ],
-      
       "places": [
         "Antikythera shipwreck site, Aegean Sea, Greece, discovery location of the mechanism in a Roman cargo wreck",
         "National Archaeological Museum of Athens, Greece, primary location where the fragments are preserved and studied",
@@ -28,7 +22,6 @@
         "Aegean Sea, Greece, maritime region where ancient trade routes connected Hellenistic scientific centers",
         "Cos Island, Greece, possible regional center of astronomical scholarship in antiquity"
       ],
-      
       "years": [
         "c. 150–100 BCE: Estimated manufacturing period of the Antikythera Mechanism",
         "1900 CE: Discovery of the Antikythera shipwreck by sponge divers",
@@ -36,7 +29,6 @@
         "2005 CE: High-resolution X-ray tomography studies reveal internal gear structures in detail",
         "c. 2nd century BCE: Hellenistic period peak of astronomical and mechanical innovation in Greece"
       ],
-      
       "concepts": [
         "Analog computing, mechanical systems that model mathematical or astronomical processes without digital electronics",
         "Epicyclic gear trains, complex gear systems used to simulate planetary motion",

@@ -3,15 +3,10 @@
   "title": "Exploring the Methods Behind Deep Learning's Success in Game-Playing",
   "lesson": {
     "learn": "Deep learning is a subfield of machine learning that enables computers to learn patterns from large datasets using layered neural networks. Its most dramatic breakthroughs have come in game-playing domains such as Chess, Go, and Poker, where systems like DeepMind’s AlphaGo demonstrated superhuman performance. In 2016, AlphaGo defeated world champion Lee Sedol in a historic five-game match, not by following fixed rules, but by learning strategies from millions of simulated games and self-play. It combined deep neural networks with tree search methods to evaluate positions far beyond human capacity, effectively learning to prioritize promising moves in an astronomically large decision space. These successes showed that machines could develop intuition-like behavior in highly complex environments through data-driven learning.",
-    
     "simpler": "Deep learning is a way for computers to learn from examples instead of being told exact rules. In games like Go or Chess, a deep learning system studies millions of possible moves and learns which ones are good or bad. Over time, it gets so good that it can beat top human players by making smart decisions very quickly.",
-    
     "keyTakeaway": "Deep learning shows that computers can learn complex decision-making skills from data alone, allowing them to outperform humans in structured environments like games and opening the door to breakthroughs in real-world problem solving.",
-    
     "deeperDive": "Deep learning systems such as convolutional neural networks (CNNs) and reinforcement learning architectures have transformed how machines approach decision-making. AlphaGo, developed by DeepMind, combined deep policy networks (to suggest moves) and value networks (to evaluate positions), integrated with Monte Carlo Tree Search to explore future game states efficiently. This hybrid system allowed it to outperform traditional brute-force search methods. Earlier milestones, such as IBM’s Deep Blue defeating Garry Kasparov in 1997, relied more on handcrafted evaluation functions, whereas modern systems learn evaluation directly from data. Research environments like Stanford’s Artificial Intelligence Lab (SAIL) and advances such as the ImageNet competition accelerated progress in visual recognition, which later fed into broader AI capabilities. Today, deep learning is used not only in games but also in medical imaging, speech recognition, autonomous driving, and financial forecasting, where pattern recognition in complex data is essential.",
-    
     "funFact": "AlphaGo famously made a move (Move 37 in Game 2 against Lee Sedol) that professional Go players initially thought was a mistake—but it turned out to be a brilliant, game-changing strategy that humans would not have considered.",
-    
     "keyElements": {
       "people": [
         "Demis Hassabis – Co-founder of DeepMind and key leader in AlphaGo’s development",
