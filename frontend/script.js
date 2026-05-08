@@ -1361,7 +1361,7 @@ function updateStreakDisplay() {
 
   document.getElementById('streakCount').textContent = streak.count;
   document.getElementById('totalLessons').textContent = lessons.length;
-  document.getElementById('topicCount').textContent = topics.length;
+  document.getElementById('minutesReading').textContent = lessons.length * 3;
 
   updateLevelDisplay();
   displayLearningHistory();
