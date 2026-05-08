@@ -111,14 +111,17 @@ const categoryMapping = {
   ]
 };
 
-// Find actual folder on disk by base name prefix (ignores _FINISHEDEDIT, ____0, etc.)
+// Find actual folder on disk regardless of _FINISHEDEDIT / _PARTIAL suffix mismatches
 const allLessonFolders = fs.existsSync(lessonsDir) ? fs.readdirSync(lessonsDir) : [];
 function resolveFolder(baseName) {
-  // Exact match first
+  // 1. Exact match
   if (allLessonFolders.includes(baseName)) return path.join(lessonsDir, baseName);
-  // Prefix match — e.g. baseName=FOO matches FOO_FINISHEDEDIT or FOO____0
+  // 2. Mapping name is a prefix of the folder (FOO → FOO_FINISHEDEDIT)
   const match = allLessonFolders.find(f => f.startsWith(baseName + '_') || f.startsWith(baseName + '-'));
-  return match ? path.join(lessonsDir, match) : null;
+  if (match) return path.join(lessonsDir, match);
+  // 3. Folder name is a prefix of the mapping name (FOO_FINISHEDEDIT → FOO)
+  const reverse = allLessonFolders.find(f => baseName.startsWith(f + '_') || baseName.startsWith(f + '-'));
+  return reverse ? path.join(lessonsDir, reverse) : null;
 }
 
 // Ollama configuration
