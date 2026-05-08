@@ -579,21 +579,23 @@ function renderCategoryList(categories) {
     return;
   }
 
-  grid.innerHTML = '<div class="explore-grid">' + categories.map((cat, idx) => {
+  const sorted = [...categories].sort((a, b) => a.name.localeCompare(b.name));
+
+  grid.innerHTML = '<div class="explore-grid">' + sorted.map((cat, idx) => {
     const name = cat.name;
-    const short = name.length > 30 ? name.substring(0, 27) + '...' : name;
     const imageFile = getCategoryImage(name);
 
-    // Use image if available, otherwise use emoji + color
     const iconHtml = imageFile
-      ? `<img src="images/${imageFile}" alt="${name}" style="width:100%;height:100%;object-fit:contain;padding:8px;background:#ffffff;border-radius:12px;">`
-      : `<div style="background:${categoryMeta(name, idx).color};width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:2.5em;border-radius:12px;">${categoryMeta(name, idx).icon}</div>`;
+      ? `<img src="images/${imageFile}" alt="${name}" style="width:100%;height:100%;object-fit:contain;padding:6px;">`
+      : `<div style="background:${categoryMeta(name, idx).color};width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:1.8em;border-radius:14px;">${categoryMeta(name, idx).icon}</div>`;
 
     return `
       <div class="explore-category-card" onclick="loadCategoryLessonsView('${cat.id}', '${name}')">
-        <div class="explore-category-icon" style="margin-bottom:10px;">${iconHtml}</div>
-        <div class="explore-category-card-title">${short}</div>
-        <div class="explore-category-card-count">${cat.count} lessons</div>
+        <div class="explore-category-icon">${iconHtml}</div>
+        <div class="explore-category-card-text">
+          <div class="explore-category-card-title">${name}</div>
+          <div class="explore-category-card-count">${cat.count} topics</div>
+        </div>
       </div>`;
   }).join('') + '</div>';
 }
@@ -672,13 +674,14 @@ async function filterTopics(query) {
     // Display search results
     const resultsHtml = '<div class="explore-grid">' + searchResults.map((lesson, idx) => {
       const title = cleanTitle(lesson.title, lesson.topic);
-      const short = title.length > 40 ? title.substring(0, 37) + '...' : title;
 
       return `
         <div class="explore-category-card" onclick="openSearchResult(${idx})" style="cursor:pointer;">
-          <div class="explore-category-icon" style="background:#667eea;color:white;font-size:2em;border-radius:12px;padding:20px;margin-bottom:10px;">📚</div>
-          <div class="explore-category-card-title">${short}</div>
-          <div style="font-size:0.75em;color:#999;margin-top:4px;">${lesson.categoryName}</div>
+          <div class="explore-category-icon" style="background:#667eea;color:white;font-size:1.8em;border-radius:14px;">📚</div>
+          <div class="explore-category-card-text">
+            <div class="explore-category-card-title">${title}</div>
+            <div class="explore-category-card-count">${lesson.categoryName}</div>
+          </div>
         </div>`;
     }).join('') + '</div>';
 

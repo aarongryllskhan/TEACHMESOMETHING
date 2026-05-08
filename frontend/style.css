@@ -957,9 +957,9 @@ header p {
 }
 
 .explore-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: clamp(10px, 2.5vw, 20px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   max-width: 100%;
   margin: 0 auto;
   width: 100%;
@@ -979,48 +979,55 @@ header p {
 
 .explore-category-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: clamp(10px, 2vw, 16px);
-  padding: clamp(12px, 3vw, 28px);
+  gap: 16px;
+  padding: 14px 16px;
   background: white;
-  border-radius: clamp(14px, 2vw, 24px);
+  border-radius: 16px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.18s ease;
   border: 1px solid #f0f0f0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .explore-category-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
-  border-color: #e8ecf1;
+  transform: translateX(3px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.09);
+  border-color: #e0e5ee;
 }
 
 .explore-category-icon {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  border-radius: clamp(10px, 2vw, 16px);
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  border-radius: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(1.4em, 3vw, 2em);
-  background: #ffffff;
+  font-size: 1.8em;
+  background: #f8f9fb;
+  overflow: hidden;
+}
+
+.explore-category-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
 }
 
 .explore-category-card-title {
-  font-size: clamp(0.8em, 2vw, 1.1em);
+  font-size: 1em;
   font-weight: 700;
   color: #1a1a1a;
-  text-align: center;
-  line-height: 1.2;
-  min-height: 2.4em;
-  display: flex;
-  align-items: center;
+  line-height: 1.3;
 }
 
 .explore-category-card-count {
-  font-size: clamp(0.7em, 1.5vw, 0.95em);
+  font-size: 0.82em;
   color: #999;
   font-weight: 500;
 }
@@ -1802,18 +1809,8 @@ header p {
     grid-template-columns: 1fr;
   }
 
-  .explore-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-  }
-
-  .explore-grid.subcategory-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 8px;
-  }
-
   .explore-category-card {
-    padding: 14px;
+    padding: 12px 14px;
   }
 
   .level-header {
@@ -1863,8 +1860,7 @@ header p {
   }
 
   .explore-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 12px;
   }
 
   .profile-container {
