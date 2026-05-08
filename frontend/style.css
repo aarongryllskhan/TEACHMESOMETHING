@@ -60,14 +60,18 @@ body.daily-active {
 }
 
 /* Daily Lesson Card Styles */
-.daily-logo {
+.daily-topbar {
   position: absolute;
-  top: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 58px;
-  width: auto;
-  object-fit: contain;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: #ffffff;
+  border-bottom: 1px solid #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
 }
 
 .daily-lesson-container {
