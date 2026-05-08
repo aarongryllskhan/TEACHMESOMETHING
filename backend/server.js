@@ -124,7 +124,24 @@ function resolveFolder(baseName) {
   return reverse ? path.join(lessonsDir, reverse) : null;
 }
 
-// Ollama configuration
+// Gemini configuration
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
+const GEMINI_MODEL   = 'gemini-1.5-flash';
+const GEMINI_URL     = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
+
+async function callGemini(prompt) {
+  if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY not set');
+  const res = await fetch(`${GEMINI_URL}?key=${GEMINI_API_KEY}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
+  });
+  if (!res.ok) throw new Error(`Gemini API error: ${res.status}`);
+  const data = await res.json();
+  return data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+}
+
+// Ollama configuration (kept as fallback for local dev)
 const OLLAMA_API_URL = process.env.OLLAMA_API_URL || 'http://localhost:11434';
 const OLLAMA_MODEL = process.env.OLLAMA_MODEL || 'mistral';
 
@@ -378,22 +395,19 @@ CRITICAL RULES:
 - simpler must be genuinely simple and use everyday examples
 - funFact must be interesting and surprising`;
 
-    const response = await fetch(`${OLLAMA_API_URL}/api/generate`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: OLLAMA_MODEL,
-        prompt: prompt,
-        stream: false
-      })
-    });
-
-    if (!response.ok) {
-      throw new Error(`Ollama API error: ${response.status}`);
+    let content;
+    if (GEMINI_API_KEY) {
+      content = await callGemini(prompt);
+    } else {
+      const response = await fetch(`${OLLAMA_API_URL}/api/generate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ model: OLLAMA_MODEL, prompt, stream: false })
+      });
+      if (!response.ok) throw new Error(`Ollama API error: ${response.status}`);
+      const data = await response.json();
+      content = data.response;
     }
-
-    const data = await response.json();
-    let content = data.response;
 
     try {
       // Clean up the content
@@ -815,22 +829,19 @@ Generate a response with multiple detailed paragraphs covering:
 
 Make it educational, engaging, and truly in-depth (at least 500 words).`;
 
-    const response = await fetch(`${OLLAMA_API_URL}/api/generate`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: OLLAMA_MODEL,
-        prompt: prompt,
-        stream: false
-      })
-    });
-
-    if (!response.ok) {
-      throw new Error(`Ollama API error: ${response.status}`);
+    let content;
+    if (GEMINI_API_KEY) {
+      content = await callGemini(prompt);
+    } else {
+      const response = await fetch(`${OLLAMA_API_URL}/api/generate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ model: OLLAMA_MODEL, prompt, stream: false })
+      });
+      if (!response.ok) throw new Error(`Ollama API error: ${response.status}`);
+      const data = await response.json();
+      content = data.response || '';
     }
-
-    const data = await response.json();
-    const content = data.response || '';
 
     res.json({
       success: true,
