@@ -1157,6 +1157,13 @@ header p {
   opacity: 0.35;
 }
 
+.lesson-read-tick {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  margin-right: 14px;
+}
+
 .explore-back-btn {
   display: flex;
   align-items: center;

@@ -8,6 +8,7 @@ const LEARNED_LESSONS_KEY = 'tms-learned';
 const LAST_LOGIN_KEY = 'tms-last-login';
 const LAST_LEVEL_KEY = 'tms-last-level';
 const READ_SECONDS_KEY = 'tms-read-seconds';
+const READ_TOPICS_KEY  = 'tms-read-topics';
 
 let lessonReadStart = null;
 
@@ -25,6 +26,24 @@ function stopReadTimer() {
 
 function getTotalReadMinutes() {
   return Math.floor(parseInt(localStorage.getItem(READ_SECONDS_KEY) || '0', 10) / 60);
+}
+
+function lessonReadId(lesson) {
+  return `${lesson.topic}||${lesson.title}`;
+}
+
+function markLessonRead(lesson) {
+  const read = JSON.parse(localStorage.getItem(READ_TOPICS_KEY) || '[]');
+  const id = lessonReadId(lesson);
+  if (!read.includes(id)) {
+    read.push(id);
+    localStorage.setItem(READ_TOPICS_KEY, JSON.stringify(read));
+  }
+}
+
+function isLessonRead(lesson) {
+  const read = JSON.parse(localStorage.getItem(READ_TOPICS_KEY) || '[]');
+  return read.includes(lessonReadId(lesson));
 }
 
 // Cache for loaded lessons
@@ -887,7 +906,10 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
           <div class="explore-category-name">${cleanTitle(lesson.title, lesson.topic)}</div>
           <div class="explore-category-desc">${preview}${preview.length >= 100 ? '…' : ''}</div>
         </div>
-        <svg class="lesson-chevron" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2.5" style="width:18px;height:18px;"><polyline points="9 18 15 12 9 6"/></svg>
+        ${isLessonRead(lesson)
+          ? `<svg class="lesson-read-tick" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#ecfdf5"/><polyline points="7 12 10.5 15.5 17 9" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`
+          : `<svg class="lesson-chevron" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2.5" style="width:18px;height:18px;"><polyline points="9 18 15 12 9 6"/></svg>`
+        }
       </div>`;
     }).join('');
 
@@ -1199,6 +1221,18 @@ function displayFullLesson(lesson) {
 
   modal.style.display = 'block';
   document.body.style.overflow = 'hidden';
+
+  let readMarked = isLessonRead(lesson);
+  function checkScrollBottom() {
+    if (readMarked) return;
+    const nearBottom = modal.scrollHeight - modal.scrollTop - modal.clientHeight < 120;
+    if (nearBottom) {
+      readMarked = true;
+      markLessonRead(lesson);
+      modal.removeEventListener('scroll', checkScrollBottom);
+    }
+  }
+  modal.addEventListener('scroll', checkScrollBottom);
 }
 
 function closeFullLesson() {
