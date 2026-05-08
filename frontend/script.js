@@ -1163,9 +1163,8 @@ function displayFullLesson(lesson) {
       <div class="lesson-progress">${currentCardIndex + 1} / ${currentLessonsArray.length}</div>
     </div>
 
-    ${imageUrl ? `<div class="lesson-hero-image"><img src="${imageUrl}" alt="${cleanTitle(lesson.title, lesson.topic)}" loading="lazy"></div>` : ''}
-
     <div class="full-lesson-content">
+      ${imageUrl ? `<div class="lesson-hero-image"><img src="${imageUrl}" alt="${cleanTitle(lesson.title, lesson.topic)}" loading="lazy"></div>` : ''}
       <h2>${cleanTitle(lesson.title, lesson.topic)}</h2>
       ${!shouldHideTopicTag(lesson.title) ? `<span class="topic-tag">${lesson.topic}</span>` : ''}
 
