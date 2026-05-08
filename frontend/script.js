@@ -897,7 +897,8 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
 
     const rows = subcategoryLessons.map((lesson, idx) => {
       const color = ACCENT_COLORS[idx % ACCENT_COLORS.length];
-      const lessonText = typeof lesson.lesson === 'string' ? lesson.lesson : (lesson.lesson?.learn || lesson.lesson?.overview || '');
+      const rawText = typeof lesson.lesson === 'string' ? lesson.lesson : (lesson.lesson?.learn || lesson.lesson?.overview || '');
+      const lessonText = typeof rawText === 'string' ? rawText : '';
       const preview = lessonText.substring(0, 100);
       return `
       <div class="explore-category-row" onclick="selectLessonFromCard('${categoryId}', ${lessons.indexOf(lesson)})">
