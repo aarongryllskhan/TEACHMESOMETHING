@@ -1195,15 +1195,15 @@ function displayFullLesson(lesson) {
         <div class="lesson-section-content">${content.funFact || ''}</div>
       </div>
 
-      <div class="lesson-section">
-        <div class="lesson-section-content">${content.learn || content.explanation || ''}</div>
-      </div>
-
       ${content.simpler ? `
         <div class="lesson-section">
           <div class="lesson-section-content">${content.simpler}</div>
         </div>
       ` : ''}
+
+      <div class="lesson-section">
+        <div class="lesson-section-content">${content.learn || content.explanation || ''}</div>
+      </div>
 
       ${content.deeperDive ? `
         <div class="lesson-section">
