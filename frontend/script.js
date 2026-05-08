@@ -279,7 +279,7 @@ function switchTab(tabName) {
 
   if (tabName === 'daily' && !currentDailyLesson) { getDailyLessonAuto(); }
   if (tabName === 'explorer') loadLessonCards();
-  if (tabName === 'profile') { updateStreakDisplay(); loadAchievements(); }
+  if (tabName === 'profile') { updateStreakDisplay(); displayAchievements(); }
 }
 
 async function getDailyLessonAuto() {
@@ -854,7 +854,8 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
 
     const rows = subcategoryLessons.map((lesson, idx) => {
       const color = ACCENT_COLORS[idx % ACCENT_COLORS.length];
-      const preview = (lesson.lesson?.learn || lesson.lesson || '').substring(0, 100);
+      const lessonText = typeof lesson.lesson === 'string' ? lesson.lesson : (lesson.lesson?.learn || lesson.lesson?.overview || '');
+      const preview = lessonText.substring(0, 100);
       return `
       <div class="explore-category-row" onclick="selectLessonFromCard('${categoryId}', ${lessons.indexOf(lesson)})">
         <div class="lesson-accent-bar" style="background:${color};"></div>
