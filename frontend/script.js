@@ -277,6 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
   displayLearningHistory();
   displayAchievements();
   getDailyLessonAuto();
+  loadProfileName();
 });
 
 document.addEventListener('visibilitychange', () => {
@@ -1624,25 +1625,71 @@ async function takeDeepDive(topic, lessonTitle) {
   }
 }
 
+function loadProfileName() {
+  const saved = localStorage.getItem('tms-profile-name');
+  const el = document.getElementById('profileName');
+  if (el && saved) el.textContent = saved;
+}
+
+function editProfileName() {
+  const el = document.getElementById('profileName');
+  if (!el) return;
+  const current = el.textContent;
+
+  const input = document.createElement('input');
+  input.type = 'text';
+  input.value = current;
+  input.maxLength = 24;
+  input.className = 'profile-name-input';
+
+  const save = () => {
+    const val = input.value.trim() || current;
+    localStorage.setItem('tms-profile-name', val);
+    el.textContent = val;
+    el.style.display = '';
+    input.remove();
+  };
+
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') save(); if (e.key === 'Escape') { el.style.display = ''; input.remove(); } });
+  input.addEventListener('blur', save);
+
+  el.style.display = 'none';
+  el.parentNode.insertBefore(input, el.nextSibling);
+  input.focus();
+  input.select();
+}
+
 function displayAchievements() {
-  const CHECK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
-  const BOOK  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`;
-  const MEDAL = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M8.56 13.9L6 22l6-3 6 3-2.56-8.1"/></svg>`;
-  const STAR  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
-  const BOLT  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`;
-  const CAP   = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>`;
-  const DIAMOND = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l4.5 7H20l-8 13L4 9h3.5L12 2z"/></svg>`;
-  const ROCKET = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>`;
+  const CHECK   = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`;
+  const BOOK    = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`;
+  const MEDAL   = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M8.56 13.9L6 22l6-3 6 3-2.56-8.1"/></svg>`;
+  const STAR    = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+  const BOLT    = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`;
+  const CAP     = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>`;
+  const CLOCK   = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
+  const FIRE    = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2c0 0-5 4-5 9a5 5 0 0 0 10 0c0-5-5-9-5-9z"/><path d="M12 12c0 0-2 1.5-2 3a2 2 0 0 0 4 0c0-1.5-2-3-2-3z"/></svg>`;
+  const GLOBE   = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`;
+  const STACK   = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>`;
+  const ROCKET  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>`;
+
+  const lessons = () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length;
+  const streak  = () => JSON.parse(localStorage.getItem(STREAK_KEY) || '{"count":0}').count;
+  const cats    = () => JSON.parse(localStorage.getItem(TOPICS_KEY) || '[]').length;
+  const mins    = () => getTotalReadMinutes();
 
   const achievements = [
-    { icon: CHECK,   name: 'First Lesson',  id: 'first',      condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 1 },
-    { icon: BOOK,    name: '5 Lessons',     id: 'five',       condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 5 },
-    { icon: MEDAL,   name: '10 Lessons',    id: 'ten',        condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 10 },
-    { icon: STAR,    name: '25 Lessons',    id: 'twentyfive', condition: () => JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length >= 25 },
-    { icon: BOLT,    name: '7-Day Streak',  id: 'streak7',    condition: () => JSON.parse(localStorage.getItem(STREAK_KEY) || '{"count":0}').count >= 7 },
-    { icon: CAP,     name: 'Polymath',      id: 'polymath',   condition: () => JSON.parse(localStorage.getItem(TOPICS_KEY) || '[]').length >= 10 },
-    { icon: DIAMOND, name: '100 XP',        id: 'xp100',      condition: () => (JSON.parse(localStorage.getItem(STREAK_KEY) || '{"xp":0}').xp || JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length * 10) >= 100 },
-    { icon: ROCKET,  name: '200 XP',        id: 'xp200',      condition: () => (JSON.parse(localStorage.getItem(STREAK_KEY) || '{"xp":0}').xp || JSON.parse(localStorage.getItem(LESSONS_KEY) || '[]').length * 10) >= 200 }
+    { icon: CHECK,  name: 'First Topic',      id: 'first',       condition: () => lessons() >= 1 },
+    { icon: BOOK,   name: '5 Topics',         id: 'five',        condition: () => lessons() >= 5 },
+    { icon: MEDAL,  name: '10 Topics',        id: 'ten',         condition: () => lessons() >= 10 },
+    { icon: STAR,   name: '25 Topics',        id: 'twentyfive',  condition: () => lessons() >= 25 },
+    { icon: STACK,  name: '50 Topics',        id: 'fifty',       condition: () => lessons() >= 50 },
+    { icon: BOLT,   name: '3-Day Streak',     id: 'streak3',     condition: () => streak() >= 3 },
+    { icon: FIRE,   name: '7-Day Streak',     id: 'streak7',     condition: () => streak() >= 7 },
+    { icon: ROCKET, name: '30-Day Streak',    id: 'streak30',    condition: () => streak() >= 30 },
+    { icon: GLOBE,  name: 'Explorer',         id: 'explorer5',   condition: () => cats() >= 5 },
+    { icon: CAP,    name: 'Polymath',         id: 'polymath',    condition: () => cats() >= 10 },
+    { icon: CLOCK,  name: '30 Mins Read',     id: 'mins30',      condition: () => mins() >= 30 },
+    { icon: CLOCK,  name: '2 Hours Read',     id: 'mins120',     condition: () => mins() >= 120 },
   ];
 
   const achievementsDiv = document.getElementById('achievements');
