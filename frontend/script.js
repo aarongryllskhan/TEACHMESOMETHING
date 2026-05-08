@@ -813,7 +813,7 @@ async function loadCategoryLessonsView(categoryId, categoryName) {
         .replace(/_PARTIAL$/, '')
         .replace(/_/g, ' ');
       return `
-        <div class="explore-category-card" onclick="loadSubcategoryLessons('${categoryId}', '${subFolder}', '${displayName}')" style="cursor:pointer;transition:transform 0.2s;border:2px solid #f0f0f0;">
+        <div class="explore-category-card" onclick="loadSubcategoryLessons('${categoryId}', '${subFolder}', '${displayName}', '${categoryName}')" style="cursor:pointer;transition:transform 0.2s;border:2px solid #f0f0f0;">
           <div class="explore-category-icon" style="background:${meta.color};font-size:2.5em;border-radius:12px;padding:20px;margin-bottom:10px;">${meta.icon}</div>
           <div class="explore-category-card-title" style="font-size:0.95em;font-weight:600;">${displayName}</div>
         </div>`;
@@ -826,11 +826,10 @@ async function loadCategoryLessonsView(categoryId, categoryName) {
   }
 }
 
-async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategoryName) {
+async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategoryName, parentCategoryName) {
   const container = document.getElementById('explorer');
   const grid = document.getElementById('topicsGrid');
 
-  // Update header to show both parent and subcategory
   const header = container.querySelector('.explore-header h2');
   if (header) header.textContent = subcategoryName;
 
@@ -842,7 +841,7 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
     // Filter lessons to only those from this subcategory
     const subcategoryLessons = lessons.filter(l => l.subcategory === subcategoryFolder);
 
-    const backBtn = `<button class="explore-back-btn" onclick="loadCategoryLessonsView('${categoryId}', '${header.textContent}')">
+    const backBtn = `<button class="explore-back-btn" onclick="loadCategoryLessonsView('${categoryId}', '${parentCategoryName}')">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
       Back
     </button>`;
