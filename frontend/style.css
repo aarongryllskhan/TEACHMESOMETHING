@@ -57,6 +57,7 @@ body.daily-active {
   background: linear-gradient(180deg, #f8f9fc 0%, #f0f2f7 100%);
   overflow: hidden;
   z-index: 100;
+  animation: fadeIn 0.25s ease-out;
 }
 
 .daily-lesson-card {
