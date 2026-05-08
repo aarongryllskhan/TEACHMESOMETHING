@@ -68,17 +68,17 @@ body.daily-active {
 /* Daily Lesson Card Styles */
 .daily-lesson-container {
   position: fixed;
-  top: 0;
+  top: 54px;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 54px);
   display: flex !important;
   align-items: center;
   justify-content: center;
   padding: clamp(10px, 5vw, 20px);
   background: linear-gradient(180deg, #f8f9fc 0%, #f0f2f7 100%);
   overflow: hidden;
-  z-index: 100;
+  z-index: 99;
   animation: fadeIn 0.25s ease-out;
 }
 
@@ -1374,11 +1374,22 @@ header p {
   border-radius: 20px 20px 0 0;
 }
 
-.profile-logo {
-  height: 80px;
-  width: auto;
-  object-fit: contain;
-  margin-bottom: 10px;
+.profile-avatar {
+  width: 72px;
+  height: 72px;
+  background: #f0f3ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  border: 2px solid #e4e8ff;
+}
+
+.profile-avatar svg {
+  width: 36px;
+  height: 36px;
+  stroke: #667eea;
 }
 
 .profile-name {
