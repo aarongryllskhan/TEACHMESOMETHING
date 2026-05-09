@@ -1212,12 +1212,13 @@ header p {
 }
 
 .lesson-thumb {
-  width: 62px;
-  height: 62px;
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 0 12px 12px 0;
   flex-shrink: 0;
-  margin-right: 12px;
+  margin-right: 0;
   background: #f0f2f5;
 }
 
