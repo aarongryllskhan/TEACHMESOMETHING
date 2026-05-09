@@ -512,13 +512,25 @@ function cleanTitle(title, topic) {
       .trim();
   }
 
-  // Otherwise, clean markdown characters
-  return title
-    .replace(/\*\*/g, '')      // Remove **bold** markers
-    .replace(/\*/g, '')         // Remove *italic* markers
-    .replace(/__/g, '')         // Remove __bold__ markers
-    .replace(/_/g, '')          // Remove _italic_ markers
+  // Strip dry academic prefixes that kill curiosity
+  let t = title
+    .replace(/\*\*/g, '').replace(/\*/g, '').replace(/__/g, '').replace(/_/g, '')
+    .replace(/^(Understanding|Exploring|Discovering|Uncovering|Examining|Investigating|Unveiling|Unraveling|Delving Into|A Look at|An? Introduction to|An? Overview of|A Guide to|The Study of)\s+/i, '')
+    .replace(/^(The\s+)?(Methods|Principles|Properties|Basics|Fundamentals|Concept|Concepts|Role)\s+(of|behind|in)\s+/i, '')
     .trim();
+
+  // If title has a colon, keep whichever half is shorter & punchier (usually the second)
+  if (t.includes(':')) {
+    const [before, after] = t.split(':').map(s => s.trim());
+    // Prefer the "How/Why/What/When" half; otherwise keep shorter half
+    if (/^(how|why|what|when|where|the secret|the real|the hidden)/i.test(after)) {
+      t = after;
+    } else if (before.split(' ').length <= 5) {
+      t = before; // short punchy first half e.g. "Grand Canyon"
+    }
+  }
+
+  return t || title.trim();
 }
 
 /**
