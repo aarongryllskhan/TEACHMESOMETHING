@@ -922,11 +922,26 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
       '#06b6d4','#f97316','#ec4899','#14b8a6','#6366f1'
     ];
 
+    const TICK_SVG = `<svg class="lesson-read-tick" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#ecfdf5"/><polyline points="7 12 10.5 15.5 17 9" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
     const rows = subcategoryLessons.map((lesson, idx) => {
       const color = ACCENT_COLORS[idx % ACCENT_COLORS.length];
       const rawText = typeof lesson.lesson === 'string' ? lesson.lesson : (lesson.lesson?.learn || lesson.lesson?.overview || '');
       const lessonText = typeof rawText === 'string' ? rawText : '';
       const preview = lessonText.substring(0, 100);
+      const thumbUrl = optimiseImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image), 200);
+      const read = isLessonRead(lesson);
+
+      const rightSlot = thumbUrl
+        ? `<div class="lesson-card-thumb">
+             <img src="${thumbUrl}" alt="" loading="lazy">
+             ${read ? `<div class="lesson-card-tick">${TICK_SVG}</div>` : ''}
+           </div>`
+        : (read
+            ? TICK_SVG
+            : `<svg class="lesson-chevron" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2.5" style="width:18px;height:18px;"><polyline points="9 18 15 12 9 6"/></svg>`
+          );
+
       return `
       <div class="explore-category-row" data-lesson-idx="${lessons.indexOf(lesson)}" data-accent="${color}" onclick="selectLessonFromCard('${categoryId}', ${lessons.indexOf(lesson)})">
         <div class="lesson-accent-bar" style="background:${color};"></div>
@@ -934,10 +949,7 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
           <div class="explore-category-name">${cleanTitle(lesson.title, lesson.topic)}</div>
           <div class="explore-category-desc">${preview}${preview.length >= 100 ? '…' : ''}</div>
         </div>
-        ${isLessonRead(lesson)
-          ? `<svg class="lesson-read-tick" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#ecfdf5"/><polyline points="7 12 10.5 15.5 17 9" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`
-          : `<svg class="lesson-chevron" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2.5" style="width:18px;height:18px;"><polyline points="9 18 15 12 9 6"/></svg>`
-        }
+        ${rightSlot}
       </div>`;
     }).join('');
 
@@ -1297,9 +1309,22 @@ function closeFullLesson() {
   if (lesson && isLessonRead(lesson)) {
     const row = document.querySelector(`.explore-category-row[data-lesson-idx="${currentCardIndex}"]`);
     if (row) {
-      const svg = row.querySelector('svg');
-      if (svg && !svg.classList.contains('lesson-read-tick')) {
-        svg.outerHTML = `<svg class="lesson-read-tick" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#ecfdf5"/><polyline points="7 12 10.5 15.5 17 9" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+      const TICK = `<svg class="lesson-read-tick" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#ecfdf5"/><polyline points="7 12 10.5 15.5 17 9" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+      const thumb = row.querySelector('.lesson-card-thumb');
+      if (thumb) {
+        // Thumbnail card — add tick badge overlay if not already there
+        if (!thumb.querySelector('.lesson-card-tick')) {
+          const badge = document.createElement('div');
+          badge.className = 'lesson-card-tick';
+          badge.innerHTML = TICK;
+          thumb.appendChild(badge);
+        }
+      } else {
+        // No-image card — swap chevron for tick
+        const svg = row.querySelector('svg');
+        if (svg && !svg.classList.contains('lesson-read-tick')) {
+          svg.outerHTML = TICK;
+        }
       }
     }
   }
