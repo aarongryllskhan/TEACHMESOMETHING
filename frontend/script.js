@@ -63,17 +63,33 @@ function pickVoice() {
   return voices.find(v => v.lang.startsWith('en') && !v.name.includes('eSpeak')) || null;
 }
 
-// Pre-load voices as early as possible (helps iOS have them ready on first tap)
+// Pre-load voices as early as possible
 if (typeof speechSynthesis !== 'undefined') {
   speechSynthesis.getVoices();
-  speechSynthesis.onvoiceschanged = () => { speechSynthesis.getVoices(); };
+  if (speechSynthesis.onvoiceschanged !== undefined) {
+    speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
+  }
 }
 
 let ttsKeepAlive = null;
-
 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
+function showToast(msg) {
+  let t = document.getElementById('ttsToast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'ttsToast';
+    t.style.cssText = 'position:fixed;bottom:90px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:10px 20px;border-radius:20px;font-size:0.9em;z-index:99999;opacity:0;transition:opacity 0.3s;pointer-events:none;';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.style.opacity = '1';
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => { t.style.opacity = '0'; }, 2500);
+}
+
 function toggleTTS(lesson) {
+  if (!('speechSynthesis' in window)) { showToast('Text-to-speech not supported on this browser'); return; }
   const btn = document.getElementById('ttsBtn');
   if (ttsPlaying) {
     speechSynthesis.cancel();
@@ -85,41 +101,42 @@ function toggleTTS(lesson) {
   const text = getTTSText(lesson);
   if (!text) return;
 
+  // cancel() clears any stuck state on both Android and iOS
+  speechSynthesis.cancel();
+
   const utt = new SpeechSynthesisUtterance(text);
   utt.rate  = 1.02;
   utt.pitch = 1;
+  utt.lang  = 'en-US';
 
-  const voice = pickVoice();
-  if (voice) utt.voice = voice;
+  // Only set voice if voices are already loaded — avoids silent failure on Android
+  const voices = speechSynthesis.getVoices();
+  if (voices.length) {
+    const voice = pickVoice();
+    if (voice) utt.voice = voice;
+  }
 
-  utt.onend = () => {
-    clearInterval(ttsKeepAlive);
-    ttsPlaying = false;
-    if (btn) btn.classList.remove('tts-active');
-  };
+  utt.onstart = () => { ttsPlaying = true; if (btn) btn.classList.add('tts-active'); };
+  utt.onend   = () => { clearInterval(ttsKeepAlive); ttsPlaying = false; if (btn) btn.classList.remove('tts-active'); };
   utt.onerror = (e) => {
-    if (e.error === 'interrupted') return;
+    if (e.error === 'interrupted' || e.error === 'canceled') return;
     clearInterval(ttsKeepAlive);
     ttsPlaying = false;
     if (btn) btn.classList.remove('tts-active');
+    showToast('Could not play audio — check device TTS settings');
   };
 
   if (isIOS) {
-    // iOS: must cancel stuck state then speak synchronously in gesture handler
-    speechSynthesis.cancel();
     if (speechSynthesis.paused) speechSynthesis.resume();
-    // iOS pauses after ~15s — nudge it every 10s
     ttsKeepAlive = setInterval(() => {
       if (!speechSynthesis.speaking) { clearInterval(ttsKeepAlive); return; }
       speechSynthesis.pause();
       speechSynthesis.resume();
     }, 10000);
-    speechSynthesis.speak(utt);
-  } else {
-    // Android / desktop — just speak directly
-    speechSynthesis.speak(utt);
   }
 
+  speechSynthesis.speak(utt);
+  // Optimistically mark as playing (onstart may not fire on all browsers)
   ttsPlaying = true;
   if (btn) btn.classList.add('tts-active');
 }
@@ -216,15 +233,32 @@ function shareFactCard(lesson) {
 
   canvas.toBlob(async blob => {
     const file = new File([blob], 'pocket-topics-fact.png', { type: 'image/png' });
+
+    // 1. Try image file share (Android Chrome 75+, modern iOS)
     if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
       try { await navigator.share({ files: [file], title: 'Did you know?', text: funFact }); return; }
+      catch (e) { if (e.name === 'AbortError') return; } // user dismissed — don't fall through
+    }
+
+    // 2. Try text-only share (supported on almost all mobile browsers)
+    if (navigator.share) {
+      try { await navigator.share({ title: 'Did you know?', text: funFact + '\n\n— Pocket Topics' }); return; }
+      catch (e) { if (e.name === 'AbortError') return; }
+    }
+
+    // 3. Try clipboard copy (desktop)
+    if (navigator.clipboard) {
+      try { await navigator.clipboard.writeText(funFact + '\n\n— Pocket Topics'); showToast('Fact copied to clipboard!'); return; }
       catch {}
     }
-    // Fallback: download
+
+    // 4. Last resort: download the image
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = 'pocket-topics-fact.png';
+    document.body.appendChild(a);
     a.click();
+    document.body.removeChild(a);
   }, 'image/png');
 }
 
