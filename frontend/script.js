@@ -685,7 +685,7 @@ function displayDailyLessonCard(lesson) {
   if (imgUrl) {
     iconEl.innerHTML = `<img src="${imgUrl}" alt="" class="daily-lesson-img" loading="lazy">`;
   } else {
-    iconEl.textContent = '📖';
+    iconEl.innerHTML = `<img src="images/book.png" alt="book" class="daily-lesson-img" loading="lazy" style="object-fit:contain;padding:8px;">`;
   }
 
   // Store current lesson for click handler
