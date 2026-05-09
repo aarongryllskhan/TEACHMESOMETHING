@@ -9,6 +9,290 @@ const LAST_LOGIN_KEY = 'tms-last-login';
 const LAST_LEVEL_KEY = 'tms-last-level';
 const READ_SECONDS_KEY = 'tms-read-seconds';
 const READ_TOPICS_KEY  = 'tms-read-topics';
+const DARK_KEY = 'tms-dark-mode';
+
+// ── Dark mode ─────────────────────────────────────────────────────────────────
+function initDarkMode() {
+  if (localStorage.getItem(DARK_KEY) === 'true') {
+    document.body.classList.add('dark');
+    // Update toggle once DOM is ready
+    requestAnimationFrame(() => {
+      const btn   = document.getElementById('darkModeToggle');
+      const thumb = document.getElementById('darkModeThumb');
+      if (btn)   btn.setAttribute('aria-checked', 'true');
+      if (thumb) thumb.style.transform = 'translateX(26px)';
+    });
+  }
+}
+function toggleDarkMode() {
+  const isDark = document.body.classList.toggle('dark');
+  localStorage.setItem(DARK_KEY, isDark);
+  const btn = document.getElementById('darkModeToggle');
+  if (btn) btn.setAttribute('aria-checked', isDark);
+  // update toggle thumb
+  const thumb = document.getElementById('darkModeThumb');
+  if (thumb) thumb.style.transform = isDark ? 'translateX(26px)' : 'translateX(2px)';
+}
+
+// ── Text-to-Speech ────────────────────────────────────────────────────────────
+let ttsPlaying = false;
+function getTTSText(lesson) {
+  const c = lesson.lesson || lesson;
+  return [c.funFact, c.simpler, c.learn, c.deeperDive, c.keyTakeaway]
+    .filter(Boolean).join('. ');
+}
+function toggleTTS(lesson) {
+  const btn = document.getElementById('ttsBtn');
+  if (ttsPlaying) {
+    speechSynthesis.cancel();
+    ttsPlaying = false;
+    if (btn) btn.classList.remove('tts-active');
+    return;
+  }
+  const text = getTTSText(lesson);
+  if (!text) return;
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.rate = 0.92;
+  utt.pitch = 1;
+  utt.onend = () => { ttsPlaying = false; if (btn) btn.classList.remove('tts-active'); };
+  utt.onerror = () => { ttsPlaying = false; if (btn) btn.classList.remove('tts-active'); };
+  speechSynthesis.speak(utt);
+  ttsPlaying = true;
+  if (btn) btn.classList.add('tts-active');
+}
+function stopTTS() {
+  if (ttsPlaying) { speechSynthesis.cancel(); ttsPlaying = false; }
+}
+
+// ── Share Fact Card ───────────────────────────────────────────────────────────
+function shareFactCard(lesson) {
+  const c = lesson.lesson || lesson;
+  const funFact = c.funFact || '';
+  const title = cleanTitle(lesson.title, lesson.topic);
+
+  const W = 1080, H = 1080;
+  const canvas = document.createElement('canvas');
+  canvas.width = W; canvas.height = H;
+  const ctx = canvas.getContext('2d');
+
+  // Background gradient
+  const grad = ctx.createLinearGradient(0, 0, W, H);
+  grad.addColorStop(0, '#667eea');
+  grad.addColorStop(1, '#764ba2');
+  ctx.fillStyle = grad;
+  ctx.roundRect(0, 0, W, H, 0);
+  ctx.fill();
+
+  // Subtle noise overlay
+  ctx.fillStyle = 'rgba(255,255,255,0.03)';
+  for (let i = 0; i < 800; i++) {
+    ctx.fillRect(Math.random()*W, Math.random()*H, 2, 2);
+  }
+
+  // White card
+  ctx.fillStyle = 'rgba(255,255,255,0.12)';
+  ctx.beginPath();
+  ctx.roundRect(60, 60, W-120, H-120, 40);
+  ctx.fill();
+
+  // "DID YOU KNOW?" label
+  ctx.fillStyle = 'rgba(255,255,255,0.65)';
+  ctx.font = 'bold 38px Inter, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.letterSpacing = '4px';
+  ctx.fillText('DID YOU KNOW?', W/2, 200);
+
+  // Fun fact text — word wrap
+  ctx.fillStyle = '#ffffff';
+  ctx.font = 'bold 52px Inter, sans-serif';
+  ctx.letterSpacing = '-1px';
+  const maxW = W - 160;
+  const words = funFact.split(' ');
+  let line = '', lines = [], y = 300;
+  for (const word of words) {
+    const test = line + (line ? ' ' : '') + word;
+    if (ctx.measureText(test).width > maxW && line) {
+      lines.push(line); line = word;
+    } else { line = test; }
+  }
+  if (line) lines.push(line);
+  const lineH = 70;
+  const totalH = lines.length * lineH;
+  let startY = (H - totalH) / 2 - 30;
+  for (const l of lines) { ctx.fillText(l, W/2, startY); startY += lineH; }
+
+  // Divider
+  ctx.strokeStyle = 'rgba(255,255,255,0.25)';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.moveTo(W/2 - 120, H - 240); ctx.lineTo(W/2 + 120, H - 240);
+  ctx.stroke();
+
+  // Lesson title
+  ctx.fillStyle = 'rgba(255,255,255,0.65)';
+  ctx.font = '32px Inter, sans-serif';
+  ctx.letterSpacing = '0px';
+  // truncate title
+  let displayTitle = title;
+  while (ctx.measureText(displayTitle).width > maxW && displayTitle.length > 10) {
+    displayTitle = displayTitle.slice(0, -1);
+  }
+  if (displayTitle !== title) displayTitle += '…';
+  ctx.fillText(displayTitle, W/2, H - 190);
+
+  // Branding
+  ctx.fillStyle = 'rgba(255,255,255,0.5)';
+  ctx.font = 'bold 30px Inter, sans-serif';
+  ctx.letterSpacing = '1px';
+  ctx.fillText('Pocket Topics', W/2, H - 100);
+
+  canvas.toBlob(async blob => {
+    const file = new File([blob], 'pocket-topics-fact.png', { type: 'image/png' });
+    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+      try { await navigator.share({ files: [file], title: 'Did you know?', text: funFact }); return; }
+      catch {}
+    }
+    // Fallback: download
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'pocket-topics-fact.png';
+    a.click();
+  }, 'image/png');
+}
+
+// ── Quiz ──────────────────────────────────────────────────────────────────────
+let quizLesson = null;
+let quizQuestions = [];
+let quizIdx = 0;
+let quizScore = 0;
+let quizAnswered = false;
+
+async function loadQuiz(lesson) {
+  const btn = document.getElementById('quizBtn');
+  if (btn) { btn.textContent = 'Loading quiz…'; btn.disabled = true; }
+
+  const c = lesson.lesson || lesson;
+  try {
+    const res = await fetch('/api/quiz', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        title: lesson.title, topic: lesson.topic,
+        funFact: c.funFact, learn: c.learn, deeperDive: c.deeperDive
+      })
+    });
+    const data = await res.json();
+    if (!data.questions?.length) throw new Error('No questions');
+    quizLesson = lesson;
+    quizQuestions = data.questions;
+    quizIdx = 0; quizScore = 0; quizAnswered = false;
+    showQuizModal();
+  } catch (err) {
+    if (btn) { btn.textContent = 'Take Quiz'; btn.disabled = false; }
+    alert('Could not load quiz right now. Try again!');
+  }
+}
+
+function showQuizModal() {
+  let modal = document.getElementById('quizModal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'quizModal';
+    modal.className = 'quiz-modal';
+    document.body.appendChild(modal);
+  }
+  renderQuizQuestion(modal);
+  modal.style.display = 'flex';
+}
+
+function renderQuizQuestion(modal) {
+  const q = quizQuestions[quizIdx];
+  quizAnswered = false;
+  modal.innerHTML = `
+    <div class="quiz-card">
+      <div class="quiz-header">
+        <button class="quiz-close" onclick="closeQuiz()">✕</button>
+        <div class="quiz-progress-track">
+          <div class="quiz-progress-fill" style="width:${(quizIdx/quizQuestions.length)*100}%"></div>
+        </div>
+        <div class="quiz-counter">${quizIdx + 1} / ${quizQuestions.length}</div>
+      </div>
+      <div class="quiz-question">${q.q}</div>
+      <div class="quiz-options">
+        ${q.options.map((opt, i) => `
+          <button class="quiz-option" onclick="selectAnswer(${i})">${opt}</button>
+        `).join('')}
+      </div>
+      <div class="quiz-explanation" id="quizExplanation" style="display:none">
+        <span id="quizExplanationText"></span>
+      </div>
+      <button class="quiz-next-btn" id="quizNextBtn" style="display:none" onclick="nextQuizQuestion()">
+        ${quizIdx < quizQuestions.length - 1 ? 'Next question →' : 'See results →'}
+      </button>
+    </div>`;
+}
+
+function selectAnswer(chosen) {
+  if (quizAnswered) return;
+  quizAnswered = true;
+  const q = quizQuestions[quizIdx];
+  const correct = q.answer;
+  const opts = document.querySelectorAll('.quiz-option');
+  opts.forEach((btn, i) => {
+    btn.disabled = true;
+    if (i === correct) btn.classList.add('quiz-correct');
+    else if (i === chosen) btn.classList.add('quiz-wrong');
+  });
+  if (chosen === correct) quizScore++;
+  const expl = document.getElementById('quizExplanation');
+  const explText = document.getElementById('quizExplanationText');
+  if (expl && explText) {
+    explText.textContent = (chosen === correct ? '✓ ' : '✗ ') + (q.explanation || '');
+    expl.style.display = 'block';
+    expl.className = 'quiz-explanation ' + (chosen === correct ? 'correct' : 'wrong');
+  }
+  const nextBtn = document.getElementById('quizNextBtn');
+  if (nextBtn) nextBtn.style.display = 'block';
+}
+
+function nextQuizQuestion() {
+  quizIdx++;
+  if (quizIdx >= quizQuestions.length) {
+    showQuizResult();
+  } else {
+    const modal = document.getElementById('quizModal');
+    if (modal) renderQuizQuestion(modal);
+  }
+}
+
+function showQuizResult() {
+  const modal = document.getElementById('quizModal');
+  if (!modal) return;
+  const pct = Math.round((quizScore / quizQuestions.length) * 100);
+  const msg = pct === 100 ? 'Perfect score!' : pct >= 75 ? 'Nice work!' : pct >= 50 ? 'Getting there!' : 'Give it another read!';
+  modal.innerHTML = `
+    <div class="quiz-card quiz-result-card">
+      <button class="quiz-close" onclick="closeQuiz()">✕</button>
+      <div class="quiz-result-score">${quizScore}/${quizQuestions.length}</div>
+      <div class="quiz-result-pct">${pct}%</div>
+      <div class="quiz-result-msg">${msg}</div>
+      <button class="quiz-retry-btn" onclick="retryQuiz()">Try again</button>
+      <button class="quiz-done-btn" onclick="closeQuiz()">Done</button>
+    </div>`;
+}
+
+function retryQuiz() {
+  quizIdx = 0; quizScore = 0; quizAnswered = false;
+  const modal = document.getElementById('quizModal');
+  if (modal) renderQuizQuestion(modal);
+}
+
+function closeQuiz() {
+  const modal = document.getElementById('quizModal');
+  if (modal) modal.style.display = 'none';
+  const btn = document.getElementById('quizBtn');
+  if (btn) { btn.textContent = 'Take Quiz'; btn.disabled = false; }
+}
 
 // Strip UTM tracking params from image URLs — leaves the URL otherwise untouched
 function cleanImageUrl(url) {
@@ -297,6 +581,7 @@ function checkDailyBonus() {
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
+  initDarkMode();
   loadLessonCards();
   updateStreakDisplay();
   displayLearningHistory();
@@ -1181,9 +1466,12 @@ function displayQuiz(lesson) {
 let currentLessonsArray = [];
 let currentCardIndex = 0;
 let currentCategory = null;
+let currentLesson = null;
 
 // Display lesson full view
 function displayFullLesson(lesson) {
+  currentLesson = lesson;
+  stopTTS();
   startReadTimer();
   // Kick off image fetch immediately so it's in the browser cache by render time
   const _preloadUrl = cleanImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image));
@@ -1239,6 +1527,14 @@ function displayFullLesson(lesson) {
   modal.innerHTML = `
     <div class="full-lesson-header">
       <button class="close-btn" onclick="closeFullLesson()">←Back</button>
+      <div class="lesson-header-actions">
+        <button class="tts-btn" id="ttsBtn" onclick="toggleTTS(currentLesson)" title="Listen">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        </button>
+        <button class="share-fact-btn" onclick="shareFactCard(currentLesson)" title="Share fact card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        </button>
+      </div>
       <div class="lesson-progress">${currentCardIndex + 1} / ${currentLessonsArray.length}</div>
     </div>
 
@@ -1274,6 +1570,10 @@ function displayFullLesson(lesson) {
 
       ${keyElementsHtml}
       ${referencesHtml}
+
+      <div class="quiz-cta">
+        <button class="quiz-cta-btn" id="quizBtn" onclick="loadQuiz(currentLesson)">Take Quiz</button>
+      </div>
     </div>
   `;
 
@@ -1296,6 +1596,8 @@ function displayFullLesson(lesson) {
 }
 
 function closeFullLesson() {
+  stopTTS();
+  closeQuiz();
   const modal = document.getElementById('fullLessonModal');
   if (modal) modal.style.display = 'none';
   document.body.style.overflow = '';

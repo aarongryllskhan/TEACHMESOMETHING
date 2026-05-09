@@ -857,6 +857,41 @@ Make it educational, engaging, and truly in-depth (at least 500 words).`;
   }
 });
 
+// ── Quiz generation ───────────────────────────────────────────────────────────
+app.post('/api/quiz', async (req, res) => {
+  const { title, topic, funFact, learn, deeperDive } = req.body;
+  const lessonText = [learn, deeperDive].filter(Boolean).join('\n\n').substring(0, 2000);
+
+  const prompt = `You're writing a fun pub-quiz for curious people who just read this lesson. Make it feel like a smart friend testing you, not a school exam.
+
+Lesson title: ${title}
+Topic: ${topic}
+Content: ${lessonText}
+Fun fact: ${funFact || ''}
+
+Generate exactly 4 multiple-choice questions. Rules:
+- Mix types: at least one "why/how" question, one surprising or counter-intuitive one
+- Wrong answers should be plausible but clearly wrong to someone who paid attention
+- Keep questions punchy and short — no filler words
+- Explanations: 1 sentence, satisfying not dry
+- Do NOT start questions with "According to the lesson" or "The lesson states"
+- Return ONLY valid JSON, nothing else
+
+Format:
+{"questions":[{"q":"...","options":["...","...","...","..."],"answer":0,"explanation":"..."}]}`;
+
+  try {
+    const raw = await callGemini(prompt);
+    const match = raw.match(/\{[\s\S]*\}/);
+    if (!match) return res.status(500).json({ error: 'Could not parse quiz' });
+    const quiz = JSON.parse(match[0]);
+    res.json(quiz);
+  } catch (err) {
+    console.error('Quiz error:', err.message);
+    res.status(500).json({ error: 'Failed to generate quiz' });
+  }
+});
+
 // Serve index.html for any unmatched routes (SPA fallback)
 app.get('*', (req, res) => {
   const html = fs.readFileSync(path.join(frontendPath, 'index.html'), 'utf8');
