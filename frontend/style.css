@@ -57,18 +57,12 @@ body.daily-active {
   height: 56px;
 }
 
-.app-logo-text {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.25em;
-  font-weight: 800;
-  letter-spacing: -0.5px;
-  color: #1a1a2e;
+.app-logo {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
   user-select: none;
-}
-
-.app-logo-text span {
-  color: #667eea;
-  margin-left: 1px;
+  pointer-events: none;
 }
 
 .container {
@@ -2249,8 +2243,7 @@ body.dark .app-topbar {
   background: rgba(30,30,30,0.97);
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-body.dark .app-logo-text { color: #f0f0fa; }
-body.dark .app-logo-text span { color: #9ba8f0; }
+/* logo image — no color override needed for dark mode */
 body.dark .nav-tabs {
   background: rgba(30,30,30,0.97);
   border-top: 1px solid rgba(255,255,255,0.1);
