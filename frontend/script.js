@@ -390,7 +390,18 @@ function displayDailyLessonCard(lesson) {
   document.getElementById('dailyLessonContainer').style.display = 'flex';
 
   document.getElementById('dailyTitle').textContent = cleanTitle(lesson.title, lesson.topic);
-  document.getElementById('dailyDescription').textContent = lesson.lesson.learn.substring(0, 150) + '...';
+
+  const rawDesc = (lesson.lesson && (lesson.lesson.funFact || lesson.lesson.learn)) || '';
+  document.getElementById('dailyDescription').textContent = rawDesc.substring(0, 150) + (rawDesc.length > 150 ? '…' : '');
+
+  // Show lesson image if available, otherwise fall back to book emoji
+  const iconEl = document.getElementById('dailyIcon');
+  const imgUrl = cleanImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image));
+  if (imgUrl) {
+    iconEl.innerHTML = `<img src="${imgUrl}" alt="" class="daily-lesson-img" loading="lazy">`;
+  } else {
+    iconEl.textContent = '📖';
+  }
 
   // Store current lesson for click handler
   currentDailyLesson = lesson;
