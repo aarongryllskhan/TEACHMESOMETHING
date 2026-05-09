@@ -74,7 +74,7 @@ function toggleTTS(lesson) {
   const text = getTTSText(lesson);
   if (!text) return;
   const utt = new SpeechSynthesisUtterance(text);
-  utt.rate  = 1.1;   // slightly faster than default
+  utt.rate  = 1.02;  // slightly faster than default
   utt.pitch = 1;
   const voice = pickVoice();
   if (voice) utt.voice = voice;
@@ -200,29 +200,114 @@ let quizIdx = 0;
 let quizScore = 0;
 let quizAnswered = false;
 
+function buildLocalQuiz(lesson) {
+  const c = lesson.lesson || lesson;
+  const ke = c.keyElements || {};
+  const questions = [];
+
+  // Q1 — fun fact true/false style (4 options, one correct)
+  if (c.funFact) {
+    const fact = c.funFact.replace(/\.$/, '');
+    // Make 3 plausible-sounding wrong variants by swapping words
+    const wrongs = [
+      fact.replace(/\b(\d+)\b/, n => String(Number(n) * 2)) || 'This is completely false',
+      fact.split(' ').reverse().slice(0, 6).join(' ') + '…' || 'None of the above',
+      'This fact is entirely made up'
+    ].map(w => w.substring(0, 90));
+    const opts = shuffle([fact.substring(0, 90), ...wrongs.slice(0, 3)]);
+    questions.push({
+      q: 'Which of these is the real fun fact from this topic?',
+      options: opts,
+      answer: opts.indexOf(fact.substring(0, 90)),
+      explanation: `Correct! ${fact.substring(0, 120)}.`
+    });
+  }
+
+  // Q2 — key takeaway question
+  if (c.keyTakeaway) {
+    const kt = c.keyTakeaway.replace(/\.$/, '');
+    const wrong1 = 'It has no practical applications in the modern world';
+    const wrong2 = 'It was only important in ancient times';
+    const wrong3 = 'Scientists still completely disagree on its basic principles';
+    const opts = shuffle([kt.substring(0, 90), wrong1, wrong2, wrong3]);
+    questions.push({
+      q: `What's the key takeaway from "${lesson.title}"?`,
+      options: opts,
+      answer: opts.indexOf(kt.substring(0, 90)),
+      explanation: kt.substring(0, 150) + '.'
+    });
+  }
+
+  // Q3 — person/concept from keyElements
+  const people = ke.people?.filter(p => p && p.length > 2) || [];
+  const concepts = ke.concepts?.filter(c => c && c.length > 2) || [];
+  if (people.length >= 2) {
+    const correct = people[0];
+    const wrongs = shuffle(people.slice(1)).slice(0, 3);
+    while (wrongs.length < 3) wrongs.push(['Charles Darwin', 'Albert Einstein', 'Marie Curie', 'Isaac Newton'].find(n => !wrongs.includes(n) && n !== correct) || 'Unknown figure');
+    const opts = shuffle([correct, ...wrongs]);
+    questions.push({
+      q: `Which person is most closely associated with this topic?`,
+      options: opts,
+      answer: opts.indexOf(correct),
+      explanation: `${correct} is a key figure in this subject.`
+    });
+  } else if (concepts.length >= 2) {
+    const correct = concepts[0];
+    const wrongs = shuffle(concepts.slice(1)).slice(0, 3);
+    while (wrongs.length < 3) wrongs.push(['Quantum entanglement', 'Natural selection', 'Plate tectonics'].find(c => !wrongs.includes(c) && c !== correct) || 'Unrelated concept');
+    const opts = shuffle([correct, ...wrongs]);
+    questions.push({
+      q: `Which concept is central to this topic?`,
+      options: opts,
+      answer: opts.indexOf(correct),
+      explanation: `${correct} is a core concept here.`
+    });
+  }
+
+  // Q4 — simpler explanation check
+  if (c.simpler) {
+    const s = c.simpler.substring(0, 90).replace(/\.$/, '');
+    const opts = shuffle([
+      s,
+      'It is completely unrelated to everyday life',
+      'It only affects things at a cosmic scale',
+      'Nobody fully understands it yet'
+    ]);
+    questions.push({
+      q: 'How would you best describe this topic simply?',
+      options: opts,
+      answer: opts.indexOf(s),
+      explanation: s + '.'
+    });
+  }
+
+  return questions.slice(0, 4);
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 async function loadQuiz(lesson) {
   const btn = document.getElementById('quizBtn');
   if (btn) { btn.textContent = 'Loading quiz…'; btn.disabled = true; }
-
-  const c = lesson.lesson || lesson;
   try {
-    const res = await fetch('/api/quiz', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        title: lesson.title, topic: lesson.topic,
-        funFact: c.funFact, learn: c.learn, deeperDive: c.deeperDive
-      })
-    });
-    const data = await res.json();
-    if (!data.questions?.length) throw new Error('No questions');
+    const questions = buildLocalQuiz(lesson);
+    if (!questions.length) throw new Error('No questions');
     quizLesson = lesson;
-    quizQuestions = data.questions;
+    quizQuestions = questions;
     quizIdx = 0; quizScore = 0; quizAnswered = false;
+    if (btn) { btn.textContent = 'Take Quiz'; btn.disabled = false; }
     showQuizModal();
   } catch (err) {
     if (btn) { btn.textContent = 'Take Quiz'; btn.disabled = false; }
-    alert('Could not load quiz right now. Try again!');
+    alert('Could not build quiz for this lesson.');
   }
 }
 
