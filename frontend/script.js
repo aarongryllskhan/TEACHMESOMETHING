@@ -958,9 +958,12 @@ function renderCategoryList(categories) {
       ? `<img src="images/${imageFile}" alt="${name}" style="width:100%;height:100%;object-fit:contain;padding:6px;">`
       : `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:1.7em;border-radius:16px;">${meta.icon || '📖'}</div>`;
 
+    // Image files have white backgrounds baked in — keep the tile white so they look right
+    const iconBg = imageFile ? '#ffffff' : (meta.bg || '#f0f2f5');
+
     return `
       <div class="explore-category-card" onclick="loadCategoryLessonsView('${cat.id}', '${name}')">
-        <div class="explore-category-icon" style="background:${meta.bg || '#f0f2f5'}">${iconHtml}</div>
+        <div class="explore-category-icon" style="background:${iconBg}">${iconHtml}</div>
         <div class="explore-category-card-text">
           <div class="explore-category-card-title">${name}</div>
           <div class="explore-category-card-count">${cat.count} topics</div>
