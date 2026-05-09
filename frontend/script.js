@@ -71,6 +71,8 @@ if (typeof speechSynthesis !== 'undefined') {
 
 let ttsKeepAlive = null;
 
+const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
 function toggleTTS(lesson) {
   const btn = document.getElementById('ttsBtn');
   if (ttsPlaying) {
@@ -83,16 +85,10 @@ function toggleTTS(lesson) {
   const text = getTTSText(lesson);
   if (!text) return;
 
-  // iOS requires cancel() + resume() before a fresh speak()
-  speechSynthesis.cancel();
-  if (speechSynthesis.paused) speechSynthesis.resume();
-
   const utt = new SpeechSynthesisUtterance(text);
   utt.rate  = 1.02;
   utt.pitch = 1;
-  utt.lang  = 'en-US';
 
-  // Set best available voice (synchronously — iOS blocks async speak calls)
   const voice = pickVoice();
   if (voice) utt.voice = voice;
 
@@ -102,21 +98,28 @@ function toggleTTS(lesson) {
     if (btn) btn.classList.remove('tts-active');
   };
   utt.onerror = (e) => {
-    if (e.error === 'interrupted') return; // user cancelled — ignore
+    if (e.error === 'interrupted') return;
     clearInterval(ttsKeepAlive);
     ttsPlaying = false;
     if (btn) btn.classList.remove('tts-active');
   };
 
-  // iOS Safari pauses speech after ~15 s unless we nudge it
-  ttsKeepAlive = setInterval(() => {
-    if (!speechSynthesis.speaking) { clearInterval(ttsKeepAlive); return; }
-    speechSynthesis.pause();
-    speechSynthesis.resume();
-  }, 10000);
+  if (isIOS) {
+    // iOS: must cancel stuck state then speak synchronously in gesture handler
+    speechSynthesis.cancel();
+    if (speechSynthesis.paused) speechSynthesis.resume();
+    // iOS pauses after ~15s — nudge it every 10s
+    ttsKeepAlive = setInterval(() => {
+      if (!speechSynthesis.speaking) { clearInterval(ttsKeepAlive); return; }
+      speechSynthesis.pause();
+      speechSynthesis.resume();
+    }, 10000);
+    speechSynthesis.speak(utt);
+  } else {
+    // Android / desktop — just speak directly
+    speechSynthesis.speak(utt);
+  }
 
-  // speak() MUST be called synchronously inside the user-gesture handler on iOS
-  speechSynthesis.speak(utt);
   ttsPlaying = true;
   if (btn) btn.classList.add('tts-active');
 }
