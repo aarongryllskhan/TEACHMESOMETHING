@@ -1602,17 +1602,20 @@ header p {
 
 .achievement-unlock-notification {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  top: 24px;
+  right: 16px;
+  left: 16px;
+  max-width: 360px;
+  margin: 0 auto;
   background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
   border: 2px solid #fcd34d;
   border-radius: 14px;
-  padding: 20px 30px;
+  padding: 16px 20px;
   font-weight: 700;
   color: #92400e;
   box-shadow: 0 8px 24px rgba(252, 211, 77, 0.3);
   animation: slideInFromRight 0.5s ease-out;
-  z-index: 2000;
+  z-index: 9999;
 }
 
 @keyframes slideInFromRight {
