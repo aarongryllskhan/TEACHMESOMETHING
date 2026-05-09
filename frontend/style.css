@@ -46,28 +46,36 @@ body.daily-active {
   left: 0;
   right: 0;
   z-index: 200;
-  background: rgba(255,255,255,0.92);
+  background: rgba(255,255,255,0.95);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 16px;
-  height: 80px;
+  padding: 0 16px;
+  height: 56px;
 }
 
-.app-logo {
-  height: 66px;
-  width: auto;
-  object-fit: contain;
+.app-logo-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25em;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #1a1a2e;
+  user-select: none;
+}
+
+.app-logo-text span {
+  color: #667eea;
+  margin-left: 1px;
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding-bottom: 0;
-  padding-top: 80px;
+  padding-top: 56px;
 }
 
 .container.daily-active {
@@ -77,10 +85,10 @@ body.daily-active {
 /* Daily Lesson Card Styles */
 .daily-lesson-container {
   position: fixed;
-  top: 80px;
+  top: 56px;
   left: 0;
   width: 100vw;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 56px);
   display: flex !important;
   align-items: center;
   justify-content: center;
@@ -2237,8 +2245,17 @@ header p {
    DARK MODE
 ════════════════════════════════════════════════════════ */
 body.dark { background: #141414; color: #e0e0ee; }
-body.dark .app-topbar { background: rgba(14,14,22,0.92); border-bottom-color: rgba(255,255,255,0.07); }
-body.dark .nav-tabs { background: rgba(14,14,22,0.95); border-top-color: rgba(255,255,255,0.07); }
+body.dark .app-topbar {
+  background: rgba(30,30,30,0.97);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+body.dark .app-logo-text { color: #f0f0fa; }
+body.dark .app-logo-text span { color: #9ba8f0; }
+body.dark .nav-tabs {
+  background: rgba(30,30,30,0.97);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+}
 body.dark .tab-btn { color: #44445a; }
 body.dark .tab-btn.active { color: #667eea; }
 body.dark .daily-lesson-container { background: linear-gradient(180deg, #141414 0%, #1a1a1a 100%); }
