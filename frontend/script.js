@@ -41,6 +41,28 @@ function getTTSText(lesson) {
   return [c.funFact, c.simpler, c.learn, c.deeperDive, c.keyTakeaway]
     .filter(Boolean).join('. ');
 }
+// Preferred voices in order — natural-sounding, non-robotic
+const TTS_PREFERRED = [
+  'Google UK English Female',
+  'Google US English',
+  'Microsoft Aria Online (Natural) - English (United States)',
+  'Microsoft Jenny Online (Natural) - English (United States)',
+  'Samantha',           // macOS / iOS
+  'Karen',              // macOS Australian
+  'Daniel',             // macOS UK
+  'Microsoft Zira Desktop - English (United States)',
+];
+
+function pickVoice() {
+  const voices = speechSynthesis.getVoices();
+  for (const name of TTS_PREFERRED) {
+    const match = voices.find(v => v.name === name);
+    if (match) return match;
+  }
+  // Fallback: first English voice that isn't labelled "eSpeak" (very robotic)
+  return voices.find(v => v.lang.startsWith('en') && !v.name.includes('eSpeak')) || null;
+}
+
 function toggleTTS(lesson) {
   const btn = document.getElementById('ttsBtn');
   if (ttsPlaying) {
@@ -52,11 +74,22 @@ function toggleTTS(lesson) {
   const text = getTTSText(lesson);
   if (!text) return;
   const utt = new SpeechSynthesisUtterance(text);
-  utt.rate = 0.92;
+  utt.rate  = 1.1;   // slightly faster than default
   utt.pitch = 1;
-  utt.onend = () => { ttsPlaying = false; if (btn) btn.classList.remove('tts-active'); };
+  const voice = pickVoice();
+  if (voice) utt.voice = voice;
+  utt.onend  = () => { ttsPlaying = false; if (btn) btn.classList.remove('tts-active'); };
   utt.onerror = () => { ttsPlaying = false; if (btn) btn.classList.remove('tts-active'); };
-  speechSynthesis.speak(utt);
+  // voices may not be loaded yet on first call — retry once if list is empty
+  if (!speechSynthesis.getVoices().length) {
+    speechSynthesis.onvoiceschanged = () => {
+      const v = pickVoice(); if (v) utt.voice = v;
+      speechSynthesis.speak(utt);
+      speechSynthesis.onvoiceschanged = null;
+    };
+  } else {
+    speechSynthesis.speak(utt);
+  }
   ttsPlaying = true;
   if (btn) btn.classList.add('tts-active');
 }
