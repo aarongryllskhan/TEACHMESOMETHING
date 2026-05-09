@@ -596,15 +596,35 @@ const categoryImages = {
   'Sports & Records': 'Sports&Records.png'
 };
 
+// Per-category colour theme — bg is the icon background, color is the icon tint
+const CATEGORY_COLORS = {
+  'Animals & Nature':           { bg: '#dcfce7', color: '#16a34a' },
+  'Biology':                    { bg: '#ccfbf1', color: '#0f766e' },
+  'Culture & Arts':             { bg: '#fce7f3', color: '#be185d' },
+  'Earth & Environment':        { bg: '#d1fae5', color: '#047857' },
+  'History & Exploration':      { bg: '#fef3c7', color: '#b45309' },
+  'Marine & Ocean':             { bg: '#dbeafe', color: '#1d4ed8' },
+  'Medicine & Health':          { bg: '#fee2e2', color: '#b91c1c' },
+  'Mysteries & Unexplained':    { bg: '#ede9fe', color: '#6d28d9' },
+  'Philosophy & Consciousness': { bg: '#e0e7ff', color: '#3730a3' },
+  'Science':                    { bg: '#cffafe', color: '#0e7490' },
+  'Society & Economics':        { bg: '#ffedd5', color: '#c2410c' },
+  'Space & Cosmos':             { bg: '#ddd6fe', color: '#5b21b6' },
+  'Sports & Records':           { bg: '#dcfce7', color: '#15803d' },
+  'Technology & Innovation':    { bg: '#dbeafe', color: '#1e40af' },
+};
+
 const CATEGORY_META = {
   colors: ['#e8f5e9','#e3f2fd','#f3e5f5','#fff3e0','#fce4ec','#e0f7fa','#f9fbe7','#ede7f6'],
   icons:  ['🌿','📘','🔬','⚗️','🏛️','🌍','💡','🧠','🎨','🚀','🦋','⚡','🌊','🧬','📐','🎭'],
 };
 
 function categoryMeta(name, idx) {
+  const known = CATEGORY_COLORS[name];
+  if (known) return known;
   const color = CATEGORY_META.colors[idx % CATEGORY_META.colors.length];
   const icon  = CATEGORY_META.icons[idx % CATEGORY_META.icons.length];
-  return { color, icon };
+  return { bg: color, color: '#667eea', icon };
 }
 
 function getCategoryImage(categoryName) {
@@ -642,21 +662,25 @@ function renderCategoryList(categories) {
 
   const sorted = [...categories].sort((a, b) => a.name.localeCompare(b.name));
 
+  const CHEVRON = `<svg class="explore-category-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`;
+
   grid.innerHTML = '<div class="explore-grid">' + sorted.map((cat, idx) => {
     const name = cat.name;
     const imageFile = getCategoryImage(name);
+    const meta = categoryMeta(name, idx);
 
     const iconHtml = imageFile
       ? `<img src="images/${imageFile}" alt="${name}" style="width:100%;height:100%;object-fit:contain;padding:6px;">`
-      : `<div style="background:${categoryMeta(name, idx).color};width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:1.8em;border-radius:14px;">${categoryMeta(name, idx).icon}</div>`;
+      : `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:1.7em;border-radius:16px;">${meta.icon || '📖'}</div>`;
 
     return `
       <div class="explore-category-card" onclick="loadCategoryLessonsView('${cat.id}', '${name}')">
-        <div class="explore-category-icon">${iconHtml}</div>
+        <div class="explore-category-icon" style="background:${meta.bg || '#f0f2f5'}">${iconHtml}</div>
         <div class="explore-category-card-text">
           <div class="explore-category-card-title">${name}</div>
           <div class="explore-category-card-count">${cat.count} topics</div>
         </div>
+        ${CHEVRON}
       </div>`;
   }).join('') + '</div>';
 }
