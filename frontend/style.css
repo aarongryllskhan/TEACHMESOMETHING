@@ -54,13 +54,12 @@ body.daily-active {
   align-items: center;
   justify-content: center;
   padding: 0 16px;
-  height: 56px;
+  height: 60px;
 }
 
 .app-logo {
-  height: 44px;
-  width: auto;
-  max-width: 220px;
+  height: 50px;
+  width: 260px;
   object-fit: contain;
   user-select: none;
   pointer-events: none;
@@ -70,7 +69,7 @@ body.daily-active {
   max-width: 900px;
   margin: 0 auto;
   padding-bottom: 0;
-  padding-top: 56px;
+  padding-top: 60px;
 }
 
 .container.daily-active {
@@ -80,10 +79,10 @@ body.daily-active {
 /* Daily Lesson Card Styles */
 .daily-lesson-container {
   position: fixed;
-  top: 56px;
+  top: 60px;
   left: 0;
   width: 100vw;
-  height: calc(100vh - 56px);
+  height: calc(100vh - 60px);
   display: flex !important;
   align-items: center;
   justify-content: center;
