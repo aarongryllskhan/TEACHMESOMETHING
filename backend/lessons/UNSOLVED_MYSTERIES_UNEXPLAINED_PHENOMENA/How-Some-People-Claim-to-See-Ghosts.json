@@ -1,60 +1,43 @@
 {
-  "topic": "Phenomenological Investigation of Anomalous Experiences",
-  "title": "An Exploration of the Cognitive and Perceptual Mechanisms of Ghost Sightings",
+  "topic": "Psychology and Neuroscience of Ghost Sightings",
+  "title": "Why People See Ghosts: Cognitive Science, Perception, and the Psychology of Anomalous Experiences",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Three_ghosts_by_Vishchun.png/960px-Three_ghosts_by_Vishchun.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "lesson": {
-    "learn": "The perception of ghostly entities has been a subject of intrigue for centuries. The first recorded account of a ghost sighting dates back to ancient Greece, circa 500 BCE, where the philosopher Aristotle described a woman claiming to have seen the spirit of her deceased husband (Aristotle, 350-320 BCE). This phenomenon persists, with numerous documented cases worldwide. However, the neuroscientific basis for these experiences remains unclear.",
-    "simpler": "The perception of ghosts is a complex cognitive and perceptual process. Researchers have identified various factors contributing to ghost sightings, including the role of emotional processing, memory recall, and attention regulation.",
-    "keyTakeaway": "The cognitive and perceptual mechanisms underlying ghost sightings involve the interplay between emotional regulation, attention, and memory retrieval. Further research is needed to fully understand the neural correlates of this phenomenon.",
-    "deeperDive": "Studies have shown that individuals with higher levels of dopamine, a neurotransmitter associated with attention and reward processing, exhibit increased activity in regions of the brain responsible for emotional regulation and memory retrieval (Dietrich et al., 2018). Additionally, research has demonstrated that ghost sightings can be linked to various forms of cultural expression, such as folkloric tales of spirits and supernatural beings (Jung, 1959). The concept of the collective unconscious, a shared reservoir of archetypes and experiences common to all humans, was first proposed by Swiss psychiatrist Carl Jung.",
-    "funFact": "Did you know that the development of audio-visual recording technology in the 1950s and 1960s facilitated the capture of evidence for paranormal activity? This technology has since been utilized in various ghost hunting endeavors.",
+    "learn": "Reports of ghost sightings and supernatural encounters appear across cultures and history, but modern psychology and neuroscience generally approach these experiences not as proof of paranormal entities, but as meaningful examples of how perception, cognition, emotion, and cultural expectation shape human experience.\n\nPeople can genuinely perceive apparitions, sensed presences, voices, or unexplained events without external supernatural causes because the brain is an active prediction system rather than a passive recorder of reality. Human perception constantly interprets incomplete sensory information, fills gaps, and generates meaning based on prior beliefs, emotional states, memory, and environmental cues.\n\nSeveral well-documented mechanisms can contribute to ghost-like experiences. Sleep paralysis, for example, can create vivid sensations of intruders, pressure, or presences while a person is partially awake but temporarily unable to move. Grief hallucinations are also relatively common, with bereaved individuals sometimes sensing, hearing, or seeing deceased loved ones. Environmental factors such as low-frequency sound (infrasound), carbon monoxide exposure, toxic mold, electromagnetic fields, or visual ambiguity can also distort perception or increase unease.\n\nCultural beliefs strongly influence interpretation. A creaking house, shadow, or unusual sensation may be labeled a haunting, spiritual encounter, neurological episode, or stress response depending on social context.",
+    "simpler": "Ghost sightings often happen because the brain tries to interpret uncertain sensations, memories, emotions, or environmental triggers—and sometimes creates convincing experiences that feel supernatural.",
+    "keyTakeaway": "Many ghost experiences are psychologically real to the person experiencing them, but science often explains them through perception, brain function, emotional state, and cultural interpretation rather than paranormal causes.",
+    "deeperDive": "Neuroscientific studies suggest that anomalous experiences can involve disruptions or unusual activity in systems related to sensory integration, agency detection, and self-processing.\n\nFor example:\n\n1. Temporal-Parietal Junction (TPJ): Disturbances in this region have been linked to sensed-presence experiences, out-of-body experiences, and misperceptions of nearby entities.\n\n2. Dopamine and Pattern Detection: Human brains are highly tuned to detect agency and patterns, sometimes producing false positives—perceiving intentional beings where none exist.\n\n3. Hyperactive Agency Detection: Evolution may have favored brains that over-detect possible threats or beings rather than under-detect them.\n\n4. Sleep and REM Intrusion: Sleep paralysis and hypnagogic hallucinations can generate vivid apparitional experiences.\n\nPsychological traits such as suggestibility, anxiety, trauma, dissociation, and prior paranormal belief can also shape interpretation.\n\nHistorically, supernatural narratives provided cultural frameworks for unexplained experiences. Today, these experiences are studied through cognitive science, psychiatry, anthropology, and environmental health.\n\nImportantly, explaining ghost sightings scientifically does not mean dismissing the emotional significance of such events. For many people, these experiences are deeply personal and can reflect grief, stress, trauma, or cultural meaning.",
+    "funFact": "Research suggests that sensing the presence of a deceased loved one after bereavement is relatively common and does not necessarily indicate mental illness.",
+    "references": [
+      "Oliver Sacks — Neurological studies on hallucinations.",
+      "Michael Persinger — Research on sensed presence and environmental factors.",
+      "Sleep paralysis research literature.",
+      "Cognitive psychology studies on agency detection.",
+      "Anthropological research on supernatural belief systems."
+    ],
     "keyElements": {
       "people": [
-        "â€¢ Carl Jung - Swiss psychiatrist and founder of analytical psychology"
+        "Carl Jung — Influential psychologist who explored archetypes and symbolic experience.",
+        "Oliver Sacks — Neurologist known for studying unusual perceptual experiences.",
+        "Michael Persinger — Researcher associated with sensed-presence studies."
       ],
       "places": [
-        "â€¢ The Stanley Hotel, Colorado - a location with reported paranormal activity"
+        "Sleep laboratories — Sites of REM and hallucination studies.",
+        "Reported haunted locations — Often studied for environmental explanations.",
+        "Cross-cultural societies worldwide — Sources of supernatural traditions."
       ],
       "years": [
-        "â€¢ 500 BCE: First recorded account of a ghost sighting (Aristotle's account)",
-        "â€¢ 1950s-60s: Development of audio-visual recording technology for capturing evidence of paranormal activity"
+        "Ancient history — Early spirit and apparition accounts.",
+        "20th century — Expansion of psychological and neurological explanations.",
+        "Modern Era — Advanced neuroimaging and sleep science research."
       ],
       "concepts": [
-        "â€¢ Dopamine - a neurotransmitter associated with attention and reward processing",
-        "â€¢ Collective unconscious - a shared reservoir of archetypes and experiences common to all humans"
-      ]
-    }
-  },
-  "activities": {
-    "activity1": {
-      "title": "Exploring the Cognitive Mechanisms of Ghost Sightings",
-      "description": "Understand the cognitive processes involved in ghost sightings and how they relate to emotional regulation, attention, and memory retrieval.",
-      "materials": [
-        "â€¢ Brain imaging data (e.g., fMRI) demonstrating the neural correlates of ghost sightings",
-        "â€¢ Studies on the role of dopamine in attention and emotional processing"
-      ],
-      "procedure": [
-        "Review the brain imaging data to identify regions of the brain involved in ghost sightings",
-        "â€¢ Analyze the studies on dopamine to understand its role in attention and emotional processing"
-      ],
-      "results": [
-        "Identify the neural mechanisms underlying ghost sightings",
-        "â€¢ Understand the relationship between dopamine and ghost sightings"
-      ]
-    },
-    "activity2": {
-      "title": "Examining the Role of Cultural Expression in Ghost Sightings",
-      "description": "Investigate the connection between cultural expression and ghost sightings, including the concept of the collective unconscious.",
-      "materials": [
-        "â€¢ Anthropological studies on folkloric tales of spirits and supernatural beings",
-        "â€¢ Psychological research on the collective unconscious"
-      ],
-      "procedure": [
-        "Review the anthropological studies to understand the cultural significance of ghost sightings",
-        "â€¢ Examine the psychological research on the collective unconscious"
-      ],
-      "results": [
-        "Understand the cultural context of ghost sightings",
-        "â€¢ Analyze the relationship between the collective unconscious and ghost sightings"
+        "Sleep Paralysis — REM-related immobilization with vivid hallucinations.",
+        "Pattern Recognition — Brain tendency to detect meaning in ambiguity.",
+        "Agency Detection — Cognitive bias toward perceiving intentional beings.",
+        "Temporal-Parietal Junction — Brain region linked to self-location and presence perception.",
+        "Grief Hallucinations — Sensory experiences associated with bereavement.",
+        "Cultural Framing — Social interpretation of unusual experiences."
       ]
     }
   }
