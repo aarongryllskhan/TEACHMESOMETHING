@@ -1,39 +1,46 @@
 {
   "topic": "Geothermal Activity in New Zealand",
-  "title": "Geothermal Activity in New Zealand: Mechanism and Significance",
+  "title": "Beneath the Islands: How New Zealand’s Geothermal Forces Shape the Land",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/2018-12-30_155416_Pohutu_Geyser_Whakarewarewa_Village_anagoria.jpg",
   "lesson": {
-    "learn": "New Zealand is home to over 60 active geothermal sites, with the most well-known being Rotorua and Taupo. The Wairakei-Taupo geothermal field, located in the Taupo Volcanic Zone, covers an area of approximately 1,600 square kilometers. This field is powered by a combination of water, heat, and pressure deep beneath the Earth's surface. According to data from the GNS Science, the geothermal activity in this field is driven by a magma chamber located at a depth of approximately 5.5 kilometers below the surface, with a reported temperature of 750°C (1,382°F).",
-    "simpler": "The geothermal activity in New Zealand occurs due to a process called thermal convection, where hot fluids from the Earth's mantle rise to the surface through a network of fractures and faults. As these fluids rise, they heat up groundwater, creating steam that builds up and eventually shoots out of the ground in the form of geysers.",
-    "keyTakeaway": "The most important thing to remember about New Zealand's geothermal activity is that it provides a unique opportunity to study the Earth's internal heat and energy processes. By analyzing the geochemical reactions and heat transfer mechanisms in the Wairakei-Taupo geothermal field, scientists can gain insights into the internal workings of the Earth.",
-    "deeperDive": "The Wai-O-Tapu geyser, located in Rotorua, erupts up to 55 meters high every 24 hours due to a buildup of steam and pressure. According to a study published in the Journal of Volcanology and Geothermal Research, the geyser's eruptions are driven by a complex interplay between heat transfer mechanisms, fluid dynamics, and rock fragmentation. The geochemical analysis of the geyser's water and steam has revealed that the system is characterized by high concentrations of sodium, potassium, and calcium ions. Researchers from GNS Science are using advanced sensors to study the seismic activity in the Taupo Volcanic Zone, which has led to improved monitoring systems for earthquakes and volcanic eruptions.",
-    "funFact": "The Wairakei-Taupo geothermal field produces enough electricity to supply around 120,000 homes in New Zealand, making it a significant contributor to the country's renewable energy mix. According to data from the Ministry of Business, Innovation and Employment, the geothermal power plants in the Taupo Volcanic Zone generated a total of 1,245 gigawatt-hours of electricity in 2020.",
+    "learn": "New Zealand contains one of the world’s most active geothermal landscapes because it sits on the boundary between the Pacific Plate and the Australian Plate. In the North Island, the Taupō Volcanic Zone stretches roughly 350 kilometers from Mount Ruapehu through Taupō toward Whakaari / White Island. This region combines tectonic extension, crustal thinning, faulting, and magmatic heat, creating ideal conditions for geothermal activity.\n\nRainwater and surface water seep downward through fractures in the crust, where they are heated by hot rock and magma-related heat sources. As the water heats, it becomes buoyant and rises back toward the surface as steam, hot springs, mud pools, fumaroles, and geysers. This process is known as hydrothermal convection.\n\nRotorua, Wairakei, Wai-O-Tapu, and Taupō are among New Zealand’s most important geothermal regions. Wairakei became one of the world’s first large-scale geothermal power developments when its power station began operation in 1958. Today, geothermal energy remains a major part of New Zealand’s renewable electricity system.",
+    "simpler": "New Zealand’s geothermal areas work like natural underground plumbing: water sinks into cracks, is heated by volcanic rocks, builds pressure, and returns to the surface as steam, boiling water, geysers, or mud pools.",
+    "keyTakeaway": "New Zealand’s geothermal activity is driven by tectonic plate movement, volcanic heat, and circulating groundwater, making it both a scientific window into Earth’s interior and an important renewable energy source.",
+    "deeperDive": "The Taupō Volcanic Zone is one of the most productive volcanic and geothermal regions on Earth. It is shaped by the subduction of the Pacific Plate beneath the Australian Plate, which generates magma and heat beneath the North Island.\n\nGeothermal reservoirs often occur several kilometers below the surface, where temperatures can exceed 250–300°C in productive fields. Wells drilled into these reservoirs bring steam and hot water to the surface, where the energy can be used to drive turbines and generate electricity.\n\nRotorua’s Pōhutu Geyser, located at Te Puia in the Whakarewarewa geothermal area, is one of the Southern Hemisphere’s most active geysers. Wai-O-Tapu is known for colorful geothermal pools, mineral-rich springs, and the Lady Knox Geyser, whose eruptions are commonly induced for visitors.\n\nScientific monitoring by GNS Science and other institutions uses seismic data, gas chemistry, ground deformation, and fluid analysis to understand geothermal systems and volcanic risk. Responsible geothermal development also requires reinjection of fluids, reservoir management, and monitoring to reduce subsidence, mineral scaling, and environmental damage.",
+    "funFact": "New Zealand produces a significant share of its electricity from geothermal energy, making it one of the world’s leading geothermal power users per capita.",
+    "references": [
+      "GNS Science: Taupō Volcanic Zone research.",
+      "New Zealand Ministry of Business, Innovation and Employment: Energy in New Zealand reports.",
+      "World Geothermal Congress data on New Zealand.",
+      "Journal of Volcanology and Geothermal Research.",
+      "Te Puia and Rotorua geothermal studies."
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Bruce Hayward, Geologist at the University of Auckland",
-        "* Dr. Andrew Henley, Researcher at GNS Science",
-        "* Michael Cassidy, Manager of the Wai-O-Tapu geothermal site"
+        "Dr. Bruce Hayward — New Zealand geologist and science communicator.",
+        "GNS Science researchers — Geoscientists monitoring geothermal and volcanic systems across New Zealand.",
+        "Geoffrey Bibby — Geophysicist associated with geothermal exploration research in New Zealand."
       ],
       "places": [
-        "* Rotorua",
-        "* Taupo Volcanic Zone",
-        "* Wairakei-Taupo geothermal field",
-        "* Wai-O-Tapu geyser"
+        "Rotorua — Major geothermal tourism and research center.",
+        "Taupō Volcanic Zone — New Zealand’s primary geothermal and volcanic belt.",
+        "Wairakei Geothermal Field — Historic geothermal power development site.",
+        "Wai-O-Tapu — Geothermal area known for colorful hot springs and geysers.",
+        "Whakarewarewa — Rotorua geothermal area containing Pōhutu Geyser."
       ],
       "years": [
-        "* 1886: The first commercial geothermal power plant was opened at Wairakei, marking the beginning of New Zealand's geothermal energy production.",
-        "* 1954: The Rotorua Geyserland walkway is established to provide public access and education on the unique geothermal features in the area.",
-        "* 1972: The Taupo Volcanic Zone experiences a significant increase in seismic activity, prompting more intense monitoring and research efforts.",
-        "* 1995: The New Zealand Geothermal Institute is founded to promote education and training for geothermal professionals."
+        "1886 — Mount Tarawera eruption reshapes the Rotorua geothermal region.",
+        "1958 — Wairakei Power Station begins operation.",
+        "Modern Era — New Zealand expands geothermal electricity generation across the Taupō Volcanic Zone."
       ],
       "concepts": [
-        "* Thermal convection",
-        "* Geochemical reactions",
-        "* Hydrothermal fluids",
-        "* Magma chambers",
-        "* Thermal convection",
-        "* Heat transfer mechanisms",
-        "* Fumarole formation",
-        "* Geothermal reservoirs"
+        "Hydrothermal Convection — Circulation of heated groundwater through fractured rock.",
+        "Geothermal Reservoir — Underground zone containing hot water and steam.",
+        "Plate Tectonics — Movement and interaction of Earth’s lithospheric plates.",
+        "Magma Intrusion — Movement of molten rock into the crust, providing heat.",
+        "Fumaroles — Vents releasing steam and volcanic gases.",
+        "Geochemistry — Chemical analysis of geothermal fluids and gases.",
+        "Renewable Energy — Electricity generation from naturally replenished heat sources."
       ]
     }
   }
