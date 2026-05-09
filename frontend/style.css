@@ -642,6 +642,35 @@ header p {
   word-break: break-word;
 }
 
+.references-section {
+  margin: 24px 0 8px;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.references-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.references-list li {
+  font-size: 0.8em;
+  color: #bbb;
+  line-height: 1.5;
+  padding: 4px 0 4px 16px;
+  position: relative;
+  border-bottom: none;
+  word-break: break-word;
+}
+
+.references-list li::before {
+  content: '·';
+  position: absolute;
+  left: 4px;
+  color: #ccc;
+}
+
 @keyframes scaleIn {
   from {
     transform: scale(0.8);

@@ -1207,6 +1207,18 @@ function displayFullLesson(lesson) {
     }
   }
 
+  const references = content.references || lesson.references;
+  let referencesHtml = '';
+  if (references?.length) {
+    const items = references.map(r => `<li>${r}</li>`).join('');
+    referencesHtml = `
+      <div class="lesson-section references-section">
+        <div class="lesson-section-title">📚 References</div>
+        <div class="lesson-section-content"><ul class="references-list">${items}</ul></div>
+      </div>
+    `;
+  }
+
   let modal = document.getElementById('fullLessonModal');
   if (!modal) {
     modal = document.createElement('div');
@@ -1253,6 +1265,7 @@ function displayFullLesson(lesson) {
       </div>
 
       ${keyElementsHtml}
+      ${referencesHtml}
     </div>
   `;
 
