@@ -1137,24 +1137,31 @@ async function filterTopics(query) {
     // Load all lessons from all categories
     const allLessons = [];
     for (const category of allCategories) {
-      const lessons = await loadCategoryLessons(category.name || category.id);
+      const lessons = await loadCategoryLessons(category.id);
       if (lessons && lessons.length > 0) {
         lessons.forEach(lesson => {
           allLessons.push({
             ...lesson,
             categoryName: category.name,
-            categoryId: category.name || category.id
+            categoryId: category.id
           });
         });
       }
     }
 
-    // Filter lessons by search query
+    // Filter lessons by search query — search title, topic, learn content, funFact, keyTakeaway
     searchResults = allLessons.filter(lesson => {
-      const title = (lesson.title || '').toLowerCase();
-      const topic = (lesson.topic || '').toLowerCase();
-      const description = (lesson.lesson?.learn || '').toLowerCase();
-      return title.includes(q) || topic.includes(q) || description.includes(q);
+      const c = lesson.lesson || lesson;
+      const searchable = [
+        lesson.title,
+        lesson.topic,
+        c.learn,
+        c.funFact,
+        c.keyTakeaway,
+        c.deeperDive,
+        c.simpler
+      ].map(s => (s || '').toLowerCase()).join(' ');
+      return searchable.includes(q);
     });
 
     if (searchResults.length === 0) {
