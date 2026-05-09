@@ -2285,17 +2285,20 @@ body.dark .tts-btn, body.dark .share-fact-btn { color: #44445a; }
 body.dark .tts-btn:hover, body.dark .share-fact-btn:hover { color: #9ba8f0; background: rgba(102,126,234,0.12); }
 body.dark .tts-btn.tts-active { color: #9ba8f0; background: rgba(102,126,234,0.15); }
 body.dark .profile-container { background: #141414; }
+body.dark .profile-header { background: #1e1e1e; border-color: rgba(255,255,255,0.07); }
+body.dark .profile-avatar { background: #282828; border-color: rgba(102,126,234,0.3); }
 body.dark .profile-xp-card { background: #1e1e1e; border-color: rgba(255,255,255,0.07); }
-body.dark .xp-label { color: #777; }
+body.dark .xp-label { color: #aaa; }
+body.dark .xp-text { color: #9ba8f0; }
 body.dark .profile-name { color: #f0f0fa; }
 body.dark .profile-level-badge { background: rgba(102,126,234,0.2); color: #9ba8f0; }
 body.dark .stat { background: #1e1e1e; }
 body.dark .stat-number { color: #f0f0fa; }
-body.dark .stat-label { color: #44445a; }
+body.dark .stat-label { color: #aaa; }
 body.dark .achievement { background: #1e1e1e; border-color: rgba(255,255,255,0.06); }
-body.dark .achievement-name { color: #555; }
-body.dark .achievements-section h3 { color: #777; }
-body.dark .settings-section h3 { color: #555; }
+body.dark .achievement-name { color: #bbb; }
+body.dark .achievements-section h3 { color: #aaa; }
+body.dark .settings-section h3 { color: #aaa; }
 body.dark .settings-row { background: #1e1e1e; border-color: rgba(255,255,255,0.06); }
 body.dark .settings-label { color: #e0e0ee; }
 body.dark .quiz-card { background: #1e1e1e; }
