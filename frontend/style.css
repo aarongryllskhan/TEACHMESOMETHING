@@ -2241,7 +2241,10 @@ body.dark .app-topbar {
   background: rgba(30,30,30,0.97);
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-/* logo image — no color override needed for dark mode */
+body.dark .app-logo {
+  mix-blend-mode: screen;
+  filter: brightness(1.15);
+}
 body.dark .nav-tabs {
   background: #1e1e1e;
   border-top: 1px solid rgba(255,255,255,0.1);
