@@ -530,6 +530,9 @@ function cleanTitle(title, topic) {
     }
   }
 
+  // Ensure first letter is always capitalised
+  t = t.charAt(0).toUpperCase() + t.slice(1);
+
   return t || title.trim();
 }
 
