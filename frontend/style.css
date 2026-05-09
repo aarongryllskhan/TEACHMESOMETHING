@@ -2299,7 +2299,9 @@ body.dark .stat { background: #1e1e1e; }
 body.dark .stat-number { color: #f0f0fa; }
 body.dark .stat-label { color: #aaa; }
 body.dark .achievement { background: #1e1e1e; border-color: rgba(255,255,255,0.06); }
-body.dark .achievement-name { color: #bbb; }
+body.dark .achievement.unlocked { background: #252535; border-color: rgba(102,126,234,0.3); }
+body.dark .achievement-name { color: #aaa; }
+body.dark .achievement.unlocked .achievement-name { color: #e8e8f8; font-weight: 700; }
 body.dark .achievements-section h3 { color: #aaa; }
 body.dark .settings-section h3 { color: #aaa; }
 body.dark .settings-row { background: #1e1e1e; border-color: rgba(255,255,255,0.06); }
