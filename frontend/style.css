@@ -1211,6 +1211,16 @@ header p {
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
+.lesson-thumb {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+  margin-right: 12px;
+  background: #f0f2f5;
+}
+
 .lesson-accent-bar {
   width: 5px;
   min-width: 5px;
@@ -2278,6 +2288,7 @@ body.dark .explore-category-card { background: #1e1e1e; border-color: rgba(255,2
 body.dark .explore-category-card-title { color: #f0f0fa; }
 body.dark .explore-category-card-count { color: #44445a; }
 body.dark .explore-category-row { background: #1e1e1e; border-color: rgba(255,255,255,0.06); }
+body.dark .lesson-thumb { background: #282828; }
 body.dark .explore-category-name { color: #f0f0fa; }
 body.dark .explore-category-desc { color: #44445a; }
 body.dark .full-lesson-modal { background: #141414; }
