@@ -10,6 +10,33 @@ const LAST_LEVEL_KEY = 'tms-last-level';
 const READ_SECONDS_KEY = 'tms-read-seconds';
 const READ_TOPICS_KEY  = 'tms-read-topics';
 
+// ── Image URL optimiser ───────────────────────────────────────────────────────
+// Converts full-res Wikimedia URLs to a sized thumbnail so images load fast.
+// Wikimedia thumb URL pattern:
+//   .../commons/thumb/A/AB/File.jpg/{width}px-File.jpg
+// For already-thumb URLs we just swap the width prefix.
+function optimiseImageUrl(url, width = 800) {
+  if (!url) return url;
+  // Strip UTM / tracking params
+  try { url = url.split('?')[0]; } catch {}
+  if (!url.includes('upload.wikimedia.org')) return url; // Unsplash etc — leave alone
+
+  // Already a thumb URL — replace whatever size is there
+  const thumbMatch = url.match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/[^/]+\/thumb\/[^/]+\/[^/]+\/)([^/]+)\/(\d+)px-(.+)$/);
+  if (thumbMatch) {
+    return `${thumbMatch[1]}${thumbMatch[2]}/${width}px-${thumbMatch[4]}`;
+  }
+
+  // Full-res URL — inject /thumb/ and append size suffix
+  const origMatch = url.match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/[^/]+\/)([^/]+\/[^/]+\/)(.+)$/);
+  if (origMatch) {
+    const filename = origMatch[3].split('/').pop();
+    return `${origMatch[1]}thumb/${origMatch[2]}${origMatch[3]}/${width}px-${filename}`;
+  }
+
+  return url; // fallback — return as-is
+}
+
 let lessonReadStart = null;
 
 function startReadTimer() {
@@ -915,6 +942,12 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
     }).join('');
 
     grid.innerHTML = backBtn + (rows || '<p style="text-align:center;color:#bbb;padding:40px 0;">No lessons found.</p>');
+
+    // Silently preload all images for this subcategory in the background
+    subcategoryLessons.forEach(l => {
+      const u = optimiseImageUrl(l.image || (l.lesson && l.lesson.image));
+      if (u) { const i = new Image(); i.src = u; }
+    });
   } catch (error) {
     console.error('Error:', error);
     grid.innerHTML = '<p style="color:#f00;text-align:center;">Failed to load lessons</p>';
@@ -1144,6 +1177,9 @@ let currentCategory = null;
 // Display lesson full view
 function displayFullLesson(lesson) {
   startReadTimer();
+  // Kick off image fetch immediately so it's in the browser cache by render time
+  const _preloadUrl = optimiseImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image));
+  if (_preloadUrl) { const _img = new Image(); _img.src = _preloadUrl; }
   const content = lesson.lesson || lesson;
   const keyElements = content.keyElements || lesson.keyElements;
 
@@ -1179,7 +1215,7 @@ function displayFullLesson(lesson) {
     document.body.appendChild(modal);
   }
 
-  const imageUrl = lesson.image || (lesson.lesson && lesson.lesson.image);
+  const imageUrl = optimiseImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image));
   modal.innerHTML = `
     <div class="full-lesson-header">
       <button class="close-btn" onclick="closeFullLesson()">←Back</button>
