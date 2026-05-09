@@ -360,6 +360,17 @@ header p {
   }
 }
 
+.nav-tabs::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: env(safe-area-inset-bottom, 0px);
+  background: inherit;
+  z-index: 9998;
+}
+
 .nav-tabs {
   display: flex !important;
   flex-direction: row !important;
@@ -966,6 +977,7 @@ header p {
   display: none;
   animation: fadeIn 0.3s ease-out;
   width: 100%;
+  padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px));
 }
 
 .tab-content.active {
