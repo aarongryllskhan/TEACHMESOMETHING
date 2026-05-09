@@ -58,8 +58,9 @@ body.daily-active {
 }
 
 .app-logo {
-  height: 34px;
+  height: 44px;
   width: auto;
+  max-width: 220px;
   object-fit: contain;
   user-select: none;
   pointer-events: none;
