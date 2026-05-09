@@ -1948,7 +1948,9 @@ header p {
   overflow-y: auto;
   overflow-x: hidden;
   padding: clamp(16px, 4vw, 28px);
+  padding-bottom: 80px; /* clear nav bar + breathing room for last element */
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain; /* stop scroll bleeding into background */
 }
 
 .full-lesson-content h2 {

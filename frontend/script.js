@@ -928,7 +928,7 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
       const lessonText = typeof rawText === 'string' ? rawText : '';
       const preview = lessonText.substring(0, 100);
       return `
-      <div class="explore-category-row" onclick="selectLessonFromCard('${categoryId}', ${lessons.indexOf(lesson)})">
+      <div class="explore-category-row" data-lesson-idx="${lessons.indexOf(lesson)}" data-accent="${color}" onclick="selectLessonFromCard('${categoryId}', ${lessons.indexOf(lesson)})">
         <div class="lesson-accent-bar" style="background:${color};"></div>
         <div class="explore-category-info">
           <div class="explore-category-name">${cleanTitle(lesson.title, lesson.topic)}</div>
@@ -1289,10 +1289,21 @@ function displayFullLesson(lesson) {
 
 function closeFullLesson() {
   const modal = document.getElementById('fullLessonModal');
-  if (modal) {
-    modal.style.display = 'none';
+  if (modal) modal.style.display = 'none';
+  document.body.style.overflow = '';
+
+  // Update the row icon in-place so the tick shows immediately without a re-render
+  const lesson = currentLessonsArray[currentCardIndex];
+  if (lesson && isLessonRead(lesson)) {
+    const row = document.querySelector(`.explore-category-row[data-lesson-idx="${currentCardIndex}"]`);
+    if (row) {
+      const svg = row.querySelector('svg');
+      if (svg && !svg.classList.contains('lesson-read-tick')) {
+        svg.outerHTML = `<svg class="lesson-read-tick" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#ecfdf5"/><polyline points="7 12 10.5 15.5 17 9" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+      }
+    }
   }
-  document.body.style.overflow = 'auto';
+
   currentLessonsArray = [];
   currentCardIndex = 0;
 }
