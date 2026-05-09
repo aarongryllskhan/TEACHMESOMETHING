@@ -254,7 +254,7 @@ function buildLocalQuiz(lesson) {
       q: 'Which of these is the real fun fact from this topic?',
       options: opts,
       answer: opts.indexOf(fact.substring(0, 90)),
-      explanation: `Correct! ${fact.substring(0, 120)}.`
+      explanation: `The real fun fact: ${fact.substring(0, 120)}.`
     });
   }
 
@@ -400,7 +400,7 @@ function selectAnswer(chosen) {
   const expl = document.getElementById('quizExplanation');
   const explText = document.getElementById('quizExplanationText');
   if (expl && explText) {
-    explText.textContent = (chosen === correct ? '✓ ' : '✗ ') + (q.explanation || '');
+    explText.textContent = (chosen === correct ? '✓ Correct! ' : '✗ Wrong! ') + (q.explanation || '');
     expl.style.display = 'block';
     expl.className = 'quiz-explanation ' + (chosen === correct ? 'correct' : 'wrong');
   }
