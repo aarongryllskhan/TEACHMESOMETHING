@@ -6,6 +6,13 @@
   -webkit-touch-callout: none;
 }
 
+/* Hide scrollbars globally while keeping scrolling functional */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+*::-webkit-scrollbar { display: none; }
+
 body {
   font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   background: #ffffff;
@@ -1193,36 +1200,6 @@ header p {
   margin-right: 14px;
 }
 
-.lesson-card-thumb {
-  position: relative;
-  width: 80px;
-  min-width: 80px;
-  align-self: stretch;
-  flex-shrink: 0;
-  overflow: hidden;
-}
-
-.lesson-card-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.lesson-card-tick {
-  position: absolute;
-  top: 6px;
-  right: 6px;
-  width: 22px;
-  height: 22px;
-  pointer-events: none;
-}
-
-.lesson-card-tick svg {
-  width: 22px;
-  height: 22px;
-  margin: 0;
-}
 
 .explore-back-btn {
   display: flex;
@@ -1979,10 +1956,13 @@ header p {
   overflow-y: auto;
   overflow-x: hidden;
   padding: clamp(16px, 4vw, 28px);
-  padding-bottom: 80px; /* clear nav bar + breathing room for last element */
+  padding-bottom: 80px;
   -webkit-overflow-scrolling: touch;
-  overscroll-behavior: contain; /* stop scroll bleeding into background */
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+.full-lesson-content::-webkit-scrollbar { display: none; }
 
 .full-lesson-content h2 {
   color: #1a1a1a;
