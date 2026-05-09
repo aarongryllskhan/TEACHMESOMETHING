@@ -63,38 +63,70 @@ function pickVoice() {
   return voices.find(v => v.lang.startsWith('en') && !v.name.includes('eSpeak')) || null;
 }
 
+// Pre-load voices as early as possible (helps iOS have them ready on first tap)
+if (typeof speechSynthesis !== 'undefined') {
+  speechSynthesis.getVoices();
+  speechSynthesis.onvoiceschanged = () => { speechSynthesis.getVoices(); };
+}
+
+let ttsKeepAlive = null;
+
 function toggleTTS(lesson) {
   const btn = document.getElementById('ttsBtn');
   if (ttsPlaying) {
     speechSynthesis.cancel();
+    clearInterval(ttsKeepAlive);
     ttsPlaying = false;
     if (btn) btn.classList.remove('tts-active');
     return;
   }
   const text = getTTSText(lesson);
   if (!text) return;
+
+  // iOS requires cancel() + resume() before a fresh speak()
+  speechSynthesis.cancel();
+  if (speechSynthesis.paused) speechSynthesis.resume();
+
   const utt = new SpeechSynthesisUtterance(text);
-  utt.rate  = 1.02;  // slightly faster than default
+  utt.rate  = 1.02;
   utt.pitch = 1;
+  utt.lang  = 'en-US';
+
+  // Set best available voice (synchronously — iOS blocks async speak calls)
   const voice = pickVoice();
   if (voice) utt.voice = voice;
-  utt.onend  = () => { ttsPlaying = false; if (btn) btn.classList.remove('tts-active'); };
-  utt.onerror = () => { ttsPlaying = false; if (btn) btn.classList.remove('tts-active'); };
-  // voices may not be loaded yet on first call — retry once if list is empty
-  if (!speechSynthesis.getVoices().length) {
-    speechSynthesis.onvoiceschanged = () => {
-      const v = pickVoice(); if (v) utt.voice = v;
-      speechSynthesis.speak(utt);
-      speechSynthesis.onvoiceschanged = null;
-    };
-  } else {
-    speechSynthesis.speak(utt);
-  }
+
+  utt.onend = () => {
+    clearInterval(ttsKeepAlive);
+    ttsPlaying = false;
+    if (btn) btn.classList.remove('tts-active');
+  };
+  utt.onerror = (e) => {
+    if (e.error === 'interrupted') return; // user cancelled — ignore
+    clearInterval(ttsKeepAlive);
+    ttsPlaying = false;
+    if (btn) btn.classList.remove('tts-active');
+  };
+
+  // iOS Safari pauses speech after ~15 s unless we nudge it
+  ttsKeepAlive = setInterval(() => {
+    if (!speechSynthesis.speaking) { clearInterval(ttsKeepAlive); return; }
+    speechSynthesis.pause();
+    speechSynthesis.resume();
+  }, 10000);
+
+  // speak() MUST be called synchronously inside the user-gesture handler on iOS
+  speechSynthesis.speak(utt);
   ttsPlaying = true;
   if (btn) btn.classList.add('tts-active');
 }
+
 function stopTTS() {
-  if (ttsPlaying) { speechSynthesis.cancel(); ttsPlaying = false; }
+  if (ttsPlaying) {
+    speechSynthesis.cancel();
+    clearInterval(ttsKeepAlive);
+    ttsPlaying = false;
+  }
 }
 
 // ── Share Fact Card ───────────────────────────────────────────────────────────
