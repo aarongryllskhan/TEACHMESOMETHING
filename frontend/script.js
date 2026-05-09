@@ -1213,7 +1213,7 @@ function displayFullLesson(lesson) {
     const items = references.map(r => `<li>${r}</li>`).join('');
     referencesHtml = `
       <div class="lesson-section references-section">
-        <div class="lesson-section-title">📚 References</div>
+        <div class="lesson-section-title">References</div>
         <div class="lesson-section-content"><ul class="references-list">${items}</ul></div>
       </div>
     `;
