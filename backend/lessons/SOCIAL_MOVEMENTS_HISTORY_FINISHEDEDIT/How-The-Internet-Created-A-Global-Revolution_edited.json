@@ -1,37 +1,47 @@
 {
   "topic": "The Internet's Impact on Global Communication and Revolution",
   "title": "How the Internet Transformed Global Connectivity and Activism",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/WorldWideWeb.1.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20120911191128",
+  "summary": "The internet transformed humanity by creating instant global communication, democratizing access to information, and reshaping activism, journalism, commerce, and political movements worldwide.",
   "lesson": {
-    "learn": "The internet has revolutionized global communication and activism, connecting billions of people in real-time. Since its inception in the 1960s, the internet has evolved into a complex network of networks, with over 4.9 billion people online. This unprecedented connectivity has facilitated the spread of information, ideas, and social movements, making it an essential tool for social change. The internet has empowered marginalized voices, enabled collective action, and mobilized international support for various causes. However, it has also presented challenges such as spreading disinformation and exacerbating social inequalities.",
-    "simpler": "The internet can be thought of as a global library and a vast digital newspaper, providing instant access to an immense amount of information. Social media platforms have enabled individuals to share their thoughts, ideas, and creativity with a massive audience. The internet has democratized access to information, making it possible for anyone to access and share knowledge, regardless of their geographical location. This digital landscape has transformed traditional notions of activism and mobilization, enabling marginalized voices to be heard and empowering social change agents worldwide.",
-    "keyTakeaway": "The most significant aspect of the internet revolution is its ability to democratize access to information, enabling marginalized voices to be heard. This has been particularly evident in social movements such as the Arab Spring protests, which were facilitated by social media platforms and online activism.",
-    "deeperDive": "The internet played a pivotal role in fueling the Arab Spring protests, which spread rapidly across countries like Egypt and Tunisia in 2010-2011. Social media platforms such as Twitter, Facebook, and YouTube became critical battlegrounds for online movements, with tools like hashtags and trending topics amplifying marginalized voices. The internet has also transformed traditional journalism, enabling citizen reporters to share their stories and expose government corruption on a massive scale. The rise of virtual activism has enabled marginalized groups to mobilize international support for causes like LGBTQ+ rights and climate change action.",
-    "funFact": "The world's first email was sent over 50 years ago by Ray Tomlinson in 1971. It read 'QWERTYUIOP'. This event marked the beginning of email communication, which has since become an essential tool for global communication.",
+    "learn": "The internet began as a Cold War-era research network and evolved into the most influential communication system in human history. Starting with ARPANET in 1969, the development of packet switching, TCP/IP protocols, and eventually the World Wide Web transformed isolated computer systems into a global digital infrastructure.\n\nToday, billions of people use the internet for communication, education, commerce, activism, and entertainment. Information can move across continents in milliseconds, allowing individuals, organizations, and governments to interact on an unprecedented scale.\n\nThis connectivity revolutionized activism by enabling social movements to organize rapidly, share uncensored information, and mobilize international support. Online platforms gave marginalized communities new opportunities to bypass traditional gatekeepers such as governments or major media outlets.\n\nAt the same time, the internet introduced new challenges including misinformation, surveillance, cyberwarfare, and unequal access—showing that digital power can both liberate and destabilize societies.",
+    "simpler": "Imagine the internet as the world’s largest communication web—like billions of phones, libraries, newspapers, and meeting places all connected instantly. Before it, news and activism moved slowly. Now, a single message, video, or hashtag can reach millions within minutes.",
+    "keyTakeaway": "The internet’s greatest societal impact is its ability to instantly connect people and ideas across the globe, dramatically expanding communication and activism while also creating new risks around misinformation, control, and inequality.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg",
+    "deeperDive": "The technological foundations of the internet emerged through ARPANET, funded by the U.S. Department of Defense, which first connected computers using packet-switching methods. In the 1970s, Vint Cerf and Bob Kahn developed TCP/IP, allowing diverse networks to communicate. On January 1, 1983, TCP/IP became the internet’s standard protocol.\n\nIn 1989–1991, Tim Berners-Lee created the World Wide Web, HTML, HTTP, and the first web browser, making the internet accessible to ordinary users.\n\nBy the 2000s, social media platforms transformed communication from static websites into interactive mass participation systems. During events such as the Arab Spring (2010–2011), protesters used Facebook, Twitter, and YouTube to coordinate demonstrations, document state violence, and gain international visibility.\n\nThe internet also revolutionized journalism through blogs, livestreams, and citizen reporting. Movements such as #MeToo, Black Lives Matter, and global climate activism relied heavily on digital mobilization.\n\nHowever, the same infrastructure also enables propaganda, algorithmic polarization, digital surveillance, and cybercrime, making internet governance one of the defining issues of the modern era.",
+    "funFact": "Ray Tomlinson sent the first network email in 1971 and chose the “@” symbol to separate the user name from the destination computer.",
     "keyElements": {
       "people": [
-        "Ray Tomlinson"
+        "Ray Tomlinson - Sent the first email",
+        "Vint Cerf - Co-developed TCP/IP",
+        "Bob Kahn - Co-developed TCP/IP",
+        "Tim Berners-Lee - Invented the World Wide Web",
+        "Mark Zuckerberg - Major figure in social media-era communication"
       ],
       "places": [
-        "Egypt",
-        "Tunisia",
-        "Twitter",
-        "Facebook",
-        "YouTube",
-        "Arab Spring"
+        "ARPANET (United States) - First internet precursor",
+        "CERN (Switzerland) - Birthplace of the World Wide Web",
+        "Egypt - Major Arab Spring digital activism hub",
+        "Tunisia - Spark of Arab Spring protests",
+        "Global Social Media Platforms - Twitter, Facebook, YouTube"
       ],
       "years": [
-        "1960s",
-        "1971",
-        "2010-2011"
+        "1969 - ARPANET established",
+        "1971 - First email sent",
+        "1983 - TCP/IP adopted",
+        "1989 - World Wide Web proposed",
+        "1991 - Web becomes publicly accessible",
+        "2010–2011 - Arab Spring digital activism"
       ],
       "concepts": [
-        "Global Communication",
-        "Activism",
-        "Democratization of Information",
-        "Virtual Activism",
-        "Social Movements",
-        "Online Mobilization",
-        "Citizen Journalism"
+        "Packet Switching - Data transmission method",
+        "TCP/IP - Internet communication protocol",
+        "World Wide Web - Public-facing web system",
+        "Global Communication - Instant worldwide connectivity",
+        "Digital Activism - Internet-enabled social movements",
+        "Citizen Journalism - Public-led reporting",
+        "Social Media - Interactive digital platforms",
+        "Misinformation - False or misleading online content"
       ]
     }
   }

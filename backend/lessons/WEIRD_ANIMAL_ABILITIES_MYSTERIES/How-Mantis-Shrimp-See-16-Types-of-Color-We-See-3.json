@@ -1,45 +1,56 @@
 {
-  "topic": "Mantis Shrimp Visual System",
-  "title": "Spectral Sensitivity and Polarization Vision in the Mantis Shrimp (Stomatopoda)",
+  "topic": "The Alien Eyes of the Mantis Shrimp",
+  "title": "How One Ocean Predator Sees a Hidden World Humans Can’t",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Odontodactylus_scyllarus1.jpg",
+  "summary": "With extraordinary visual hardware capable of detecting ultraviolet light, polarized signals, and wavelengths beyond human perception, this marine predator possesses one of the most advanced sensory systems ever discovered in nature.",
   "lesson": {
-    "learn": {
-      "text": "The mantis shrimp's visual system contains a total of 16 different types of photoreceptors, as reported by Marshall et al. (2001), which are sensitive to different wavelengths of light across the ultraviolet, visible, and infrared regions of the electromagnetic spectrum. Specifically, these photoreceptors are capable of detecting light with wavelengths between 300-750 nanometers. This allows the mantis shrimp to perceive a wide range of colors, including those invisible to humans.",
-      "source": "Marshall, N. J., et al. (2001). The Evolution of Eyes. Cambridge University Press."
-    },
-    "simpler": {
-      "text": "Studies by Smith et al. (2010) have shown that the mantis shrimp's eyes contain a highly sensitive visual processing system, including a large number of photoreceptors that are sensitive to different wavelengths of light. This allows them to detect a wide range of colors, including those in the ultraviolet and infrared regions.",
-      "source": "Smith, L. R., et al. (2010). Mantis Shrimp Vision: A Comparative Study. Marine Biology, 157(10), 2311-2323."
-    },
-    "keyTakeaway": {
-      "text": "The mantis shrimp's eyes contain a highly developed spectral sensitivity system, allowing them to detect a wide range of colors and perceive polarized light across the electromagnetic spectrum. Specifically, the 16 different types of photoreceptors in the mantis shrimp's eye are capable of detecting light with wavelengths between 300-750 nanometers.",
-      "source": "Hanlon, R. T. (2013). Cephalopod Color Vision: A Comparative Analysis. Journal of Experimental Biology, 216(2), 231-244."
-    },
-    "deeperDive": {
-      "text": "The mantis shrimp's eyes contain a complex pattern of color filters, known as 'stomatopod visual pigments,' which act to enhance the perception of polarized light and improve color vision. The spectral sensitivity of the photoreceptors in the mantis shrimp's eye is thought to be due to the presence of different types of visual pigments, which are sensitive to different wavelengths of light.",
-      "source": "Marshall, N. J., et al. (2015). The Evolution of Mantis Shrimp Color Vision. Journal of Comparative Physiology A, 201(5), 433-445."
-    },
-    "funFact": {
-      "text": "The mantis shrimp's ability to detect polarized light allows them to perceive the presence of other animals or underwater currents, which is thought to play an important role in their ability to navigate and find prey.",
-      "source": "Smith, L. R., et al. (2012). Mantis Shrimp Polarization Vision: A Comparative Study. Journal of Experimental Biology, 215(2), 231-244."
-    },
+    "learn": "This crustacean has one of the most sophisticated visual systems in the animal kingdom. While humans use three cone types to interpret red, green, and blue wavelengths, this species possesses up to 12 photoreceptor classes for spectral detection plus additional receptors for linear and circular polarization. That means its eyes gather vastly more information about light than human eyes can.\n\nIts compound eyes are divided into specialized regions, including a unique midband made of rows of ommatidia that function almost like a biological scanner. These structures allow rapid recognition of ultraviolet patterns, polarized reflections, and environmental signals in coral reef habitats where light behaves in unusually complex ways.\n\nEach eye can move independently and process depth on its own, giving it trinocular vision from a single eye. This means it can judge distance and structure with extraordinary efficiency while scanning for prey, rivals, or mates.",
+    
+    "simpler": "Imagine seeing secret patterns on animals, hidden flower markings, invisible underwater signals, and special light reflections all at once. This animal’s eyes are built to detect visual information that humans cannot naturally perceive.",
+    
+    "keyTakeaway": "Its visual power comes not just from seeing more colors, but from combining ultraviolet sensitivity, polarization detection, and independent eye coordination into a sensory system unlike almost anything else on Earth.",
+    
+    "deeperDive": "Its eye structure includes distinct photoreceptor rows tuned for separate tasks. Some specialize in ultraviolet wavelengths, while others detect polarization angles or circularly polarized light—a nearly unique ability in the natural world. Circular polarization sensitivity may help identify prey, predators, or private communication signals reflected from body surfaces.\n\nInterestingly, research suggests this system may prioritize speed over detailed comparative color processing. Rather than deeply analyzing shades the way humans do, it may rapidly categorize visual inputs for immediate action, which is highly advantageous in fast-moving reef environments.\n\nThis biological design has inspired engineers developing advanced cameras, satellite sensors, and medical imaging systems. Polarization-sensitive technologies modeled after these eyes may improve cancer detection and underwater robotics.\n\nIts visual system demonstrates that evolution does not always improve sight by making it more like human vision—sometimes it creates entirely different solutions optimized for specific ecological challenges.",
+    
+    "funFact": "Scientists have used this animal’s visual system as inspiration for next-generation cancer scanners because its polarization-processing abilities may help detect structural tissue changes invisible to conventional imaging.",
+    
+    "references": [
+      "Marshall, N.J. and colleagues — Foundational studies on stomatopod photoreceptor diversity.",
+      "Cronin, T.W. — Major research on color and polarization sensitivity.",
+      "Chiou, T.H. et al. (2008). Circular polarization vision research.",
+      "University of Queensland sensory biology research.",
+      "Journal of Experimental Biology publications on advanced marine vision."
+    ],
+    
     "keyElements": {
       "people": [
-        "* Dr. Justin Marshall (Australian scientist who studied the mantis shrimp's eyes)",
-        "* Dr. Larissa Smith (expert in marine biology and vision)"
+        "Justin Marshall — Vision researcher whose studies transformed scientific understanding of marine photoreception.",
+        "Thomas Cronin — Expert on crustacean color and polarization systems.",
+        "Tai-Hsi Fan Chiou — Researcher involved in circular polarization discoveries.",
+        "Nicholas Roberts — Scientist linking biological optics to imaging technology."
       ],
+      
       "places": [
-        "* The University of Queensland, Australia (where Dr. Marshall conducted his research)"
+        "University of Queensland, Australia — Leading center for visual ecology research.",
+        "Great Barrier Reef — Rich habitat where complex underwater light drives sensory specialization.",
+        "Smithsonian Marine Laboratories — Contributor to marine sensory studies.",
+        "Coral reef ecosystems — Optical environments where advanced light detection offers survival advantages."
       ],
+      
       "years": [
-        "* 2001: Dr. Justin Marshall publishes a study on the mantis shrimp's advanced color vision",
-        "* 2010: Researchers discover that different species of mantis shrimp have varying levels of color detection",
-        "* 2012: Advances in understanding mantis shrimp polarization vision are made"
+        "1991 — Early major studies reveal unusually advanced photoreceptor structures.",
+        "2001 — Expanded understanding of broad-spectrum receptor diversity.",
+        "2008 — Circular polarization vision experimentally demonstrated.",
+        "2010s — Bio-inspired optical technologies begin adapting these principles."
       ],
+      
       "concepts": [
-        "* Spectral sensitivity (the ability to detect different wavelengths of light)",
-        "* Polarization vision (the ability to perceive polarized light)",
-        "* Color vision (the ability to perceive different colors and shades)",
-        "* Photoreceptors (specialized cells in the eye responsible for detecting light and color)"
+        "Spectral Sensitivity — Detection across multiple wavelength bands.",
+        "Polarization Vision — Recognition of light-wave orientation.",
+        "Circular Polarization — Detection of rotational light structure.",
+        "Photoreceptors — Specialized cells for converting light into neural signals.",
+        "Compound Eye Architecture — Multi-zone visual design for specialized tasks.",
+        "Biomimicry — Using biological systems to inspire technology."
       ]
     }
   }

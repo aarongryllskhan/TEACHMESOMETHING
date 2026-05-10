@@ -1,71 +1,39 @@
 {
-  "topic": "The Evolution of Electricity: Tesla's Contributions",
-  "title": "Development of Alternating Current Systems through Polyphase Transmission: A Critical Examination of Tesla's Innovations",
+  "topic": "The Current War That Electrified the Modern World",
+  "title": "How Tesla’s AC Breakthrough Helped Build the Power Grid That Powers Civilization",
+  "image": "https://commons.wikimedia.org/wiki/File:Nikola_Tesla,_1893,_by_Napoleon_Sarony.jpg",
+  "summary": "Nikola Tesla’s innovations in alternating current transformed electricity from a local novelty into a scalable global infrastructure. By solving long-distance power transmission challenges, Tesla’s AC systems helped shape the electrical world we rely on today.",
   "lesson": {
-    "learn": "On February 19, 1886, Nikola Tesla filed U.S. patent No. 335,791 for an alternating current (AC) motor, which boasted a maximum efficiency of 92.1% at a frequency of 60 Hz. This innovation marked a critical breakthrough in the development of polyphase transmission systems, enabling efficient transmission of electrical energy over distances of up to 100 miles with minimal energy loss.",
-    "simpler": "Direct current (DC) systems, predominant prior to Tesla's breakthroughs, suffered from significant energy losses due to the inherent properties of DC. Specifically, voltage drop increased by 2.22% for every 10% increase in distance, resulting in reduced system efficiency. In contrast, AC systems, such as Tesla's polyphase transmission system, resolved this issue by utilizing multiple coils and transformers to separate and transmit currents, thus minimizing energy loss during long-distance transmission.",
-    "keyTakeaway": "The significance of Tesla's contributions lies in the development of a polyphase AC system capable of efficiently transmitting multiple alternating currents over a single wire, leveraging the principles of electromagnetic induction to minimize energy loss during transmission. This breakthrough led to the widespread distribution of electrical energy across cities and towns, transforming industries and daily life.",
-    "deeperDive": "Tesla's innovation built upon the principles of electromagnetic induction, first described by Michael Faraday in 1831. Faraday's work explained that a changing magnetic field induces an electric current, forming the fundamental basis for both AC and DC systems. Tesla adapted this principle to develop the polyphase AC system, which utilized multiple coils and transformers to separate and transmit currents. This approach enabled the efficient transmission of multiple alternating currents over a single wire, thus resolving the energy loss issues inherent in DC systems.",
-    "funFact": "Nikola Tesla held over 300 patents in his name, including those related to electrical systems, X-ray technology, and wireless communication. His work on polyphase transmission systems contributed significantly to the development of modern electrical grids.",
+    "learn": "In the late 19th century, one of the greatest technological battles in history centered around how electricity should be delivered: direct current (DC) or alternating current (AC). DC systems, championed by Thomas Edison, worked for short distances but lost significant efficiency over long transmission lines due to voltage drop and power loss.\n\nNikola Tesla’s work on alternating current motors and polyphase AC systems changed everything. AC could be easily transformed to higher voltages for transmission and lowered again for safe consumer use through transformers. This made it dramatically more practical for powering entire cities over long distances. Tesla’s rotating magnetic field designs and polyphase systems became foundational to modern electrical infrastructure.",
+    "simpler": "Imagine trying to deliver water through a pipe across an entire country. DC was like using low pressure that weakened quickly over distance. Tesla’s AC system was like boosting the pressure for the long trip, then safely lowering it when it reached homes and businesses.",
+    "keyTakeaway": "Tesla’s greatest achievement was creating practical alternating current systems that made large-scale electrical grids possible, enabling electricity to move efficiently from power plants to cities, industries, and homes.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Nikola_Tesla_in_his_laboratory_in_New_York.jpg/960px-Nikola_Tesla_in_his_laboratory_in_New_York.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "deeperDive": "Tesla’s breakthroughs built on Michael Faraday’s principle of electromagnetic induction, but Tesla’s genius was in engineering entire working systems around it. His polyphase AC motors used multiple alternating currents out of phase with one another to create rotating magnetic fields, allowing efficient mechanical power generation without the limitations of earlier designs.\n\nGeorge Westinghouse recognized the practical value of Tesla’s patents and backed AC infrastructure development. This partnership helped AC win the famous ‘Current War,’ especially after the successful electrification of the 1893 Chicago World’s Fair and the Niagara Falls power project, one of the first major hydroelectric AC systems.\n\nThese milestones proved that AC was safer, more scalable, and more economically viable for widespread use. Modern electrical grids still rely primarily on AC transmission principles developed from Tesla’s work, making his innovations central to industrialization, urban growth, and modern technological life.",
+    "funFact": "The Niagara Falls power station, powered by Tesla and Westinghouse’s AC system, was one of the first major projects to deliver large-scale electricity over long distances, helping prove AC’s superiority to the world.",
     "keyElements": {
       "people": [
-        {
-          "name": "Nikola Tesla",
-          "role": "Inventor and engineer who developed the alternating current (AC) system",
-          "contribution": "Tesla's innovations enabled efficient transmission of electrical energy over long distances, revolutionizing industries and home life."
-        },
-        {
-          "name": "Thomas Edison",
-          "role": "Pioneering inventor and entrepreneur who worked on direct current (DC) systems",
-          "contribution": "Edison's work on DC systems was a prominent alternative to Tesla's AC system, but ultimately, AC systems prevailed due to their superior efficiency and scalability."
-        },
-        {
-          "name": "George Westinghouse",
-          "role": "American businessman and engineer who played a crucial role in promoting and implementing Tesla's AC system",
-          "contribution": "Westinghouse formed the Westinghouse Electric Company, which became a leading player in the development and implementation of Tesla's AC system, providing critical support for its widespread adoption."
-        }
+        "Nikola Tesla — Inventor whose AC motor and polyphase systems revolutionized electrical transmission.",
+        "Thomas Edison — Pioneer of direct current systems and Tesla’s primary rival during the Current War.",
+        "George Westinghouse — Industrialist who financed and implemented Tesla’s AC technologies.",
+        "Michael Faraday — Scientist whose discovery of electromagnetic induction laid the groundwork for electric power systems."
       ],
       "places": [
-        {
-          "name": "New York City, USA",
-          "event": "Tesla established his laboratory in 1884, where he developed many of his innovative electrical systems, including the polyphase AC system."
-        },
-        {
-          "name": "Chicago, Illinois, USA",
-          "event": "Tesla demonstrated his wireless lighting system at the 1893 World's Fair, showcasing the potential of his AC system in applications beyond power transmission."
-        },
-        {
-          "name": "The Colorado Springs Laboratory, USA",
-          "event": "Tesla conducted experiments on X-ray technology at this research facility, contributing to advancements in medical imaging."
-        }
+        "New York City — Tesla’s primary innovation hub in the United States.",
+        "Chicago World’s Fair (1893) — Landmark demonstration of AC power on a massive public scale.",
+        "Niagara Falls Power Project — Historic proof of long-distance AC power transmission."
       ],
       "years": [
-        {
-          "year": "1886",
-          "event": "Tesla filed U.S. patent No. 335,791 for an alternating current (AC) motor, a crucial innovation in the development of polyphase transmission systems."
-        },
-        {
-          "year": "1893",
-          "event": "The World's Fair in Chicago featured Tesla's wireless lighting demonstration, highlighting the potential of his AC system in applications beyond power transmission."
-        }
+        "1886 — Tesla develops key AC motor technologies.",
+        "1888 — Tesla licenses AC patents to Westinghouse.",
+        "1893 — AC powers the Chicago World’s Fair.",
+        "1895 — Niagara Falls AC plant begins operation."
       ],
       "concepts": [
-        {
-          "name": "Alternating Current (AC)",
-          "definition": "A type of electric current that periodically reverses direction, often at a frequency of 60 Hz, minimizing energy loss during transmission."
-        },
-        {
-          "name": "Direct Current (DC)",
-          "definition": "A type of electric current that flows in one direction only, often losing significant energy through resistance and inductance during transmission."
-        },
-        {
-          "name": "Polyphase AC System",
-          "definition": "A system that enables the efficient transmission of multiple alternating currents over a single wire, utilizing multiple coils and transformers to separate and transmit currents."
-        },
-        {
-          "name": "Electromagnetic Induction",
-          "definition": "The phenomenon by which a changing magnetic field induces an electric current, a fundamental principle in the development of both AC and DC systems."
-        }
+        "Alternating Current (AC) — Electric current that periodically reverses direction, enabling voltage transformation.",
+        "Direct Current (DC) — One-direction electrical flow with major long-distance limitations.",
+        "Polyphase Transmission — Multi-current AC system for efficient power generation and distribution.",
+        "Electromagnetic Induction — Generation of electric current through changing magnetic fields.",
+        "Transformers — Devices that step voltage up or down for efficient electrical transmission."
       ]
     }
   }

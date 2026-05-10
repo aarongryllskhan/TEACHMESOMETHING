@@ -1693,6 +1693,9 @@ function displayFullLesson(lesson) {
   // Kick off image fetch immediately so it's in the browser cache by render time
   const _preloadUrl = cleanImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image));
   if (_preloadUrl) { const _img = new Image(); _img.src = _preloadUrl; }
+  // Preload second image too
+  const _learnImageUrl = cleanImageUrl(lesson.learnImage || (lesson.lesson && lesson.lesson.learnImage));
+  if (_learnImageUrl) { const _img2 = new Image(); _img2.src = _learnImageUrl; }
   const content = lesson.lesson || lesson;
   const keyElements = content.keyElements || lesson.keyElements;
 
@@ -1774,6 +1777,12 @@ function displayFullLesson(lesson) {
       <div class="lesson-section">
         <div class="lesson-section-content">${content.learn || content.explanation || ''}</div>
       </div>
+
+      ${_learnImageUrl ? `
+        <div class="lesson-mid-image">
+          <img src="${_learnImageUrl}" alt="${cleanTitle(lesson.title, lesson.topic)} - mid" loading="lazy">
+        </div>
+      ` : ''}
 
       ${content.deeperDive ? `
         <div class="lesson-section">
