@@ -1879,7 +1879,7 @@ header p {
   font-size: 0.95em;
   color: #667eea;
   cursor: pointer;
-  padding: 0;
+  padding: 0 0 20px 0;
   font-weight: 600;
 }
 
@@ -2004,8 +2004,9 @@ header p {
 
 .full-lesson-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  gap: 20px;
   padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 20px);
   border-bottom: 1px solid #f0f2f5;
   background: #ffffff;
