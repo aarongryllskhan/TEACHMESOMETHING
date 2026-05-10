@@ -1199,6 +1199,8 @@ header p {
   box-shadow: 0 2px 10px rgba(0,0,0,0.07);
   border: 1px solid #f0f2f5;
   overflow: hidden;
+  min-height: 100px;
+  max-height: 140px;
 }
 
 .explore-category-row:active {
@@ -1212,9 +1214,8 @@ header p {
 }
 
 .lesson-thumb {
-  width: auto;
-  height: 100%;
-  aspect-ratio: 1;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 0 12px 12px 0;
   flex-shrink: 0;
