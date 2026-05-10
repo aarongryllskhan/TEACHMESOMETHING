@@ -1104,16 +1104,6 @@ header p {
   overflow: hidden;
 }
 
-/* Subcategory grid: always 2 columns on mobile */
-.explore-grid.subcategory-grid {
-  grid-template-columns: repeat(2, 1fr) !important;
-}
-
-@media (min-width: 700px) {
-  .explore-grid.subcategory-grid {
-    grid-template-columns: repeat(3, 1fr) !important;
-  }
-}
 
 .explore-category-card {
   display: flex;

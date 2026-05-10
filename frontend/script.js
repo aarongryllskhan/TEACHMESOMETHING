@@ -1309,6 +1309,14 @@ function openSearchResult(index) {
 }
 
 // Map subcategory names to engaging icons and colors
+function toTitleCase(str) {
+  const minor = new Set(['a','an','the','and','but','or','for','nor','on','at','to','by','in','of','up','as']);
+  return str.toLowerCase()
+    .split(' ')
+    .map((w, i) => (i === 0 || !minor.has(w)) ? w.charAt(0).toUpperCase() + w.slice(1) : w)
+    .join(' ');
+}
+
 const subcategoryMeta = {
   'GENETICS_HEREDITY': { icon: '🧬', color: '#e8f5e9' },
   'EVOLUTIONARY_MARVELS_ORIGINS': { icon: '🦎', color: '#c8e6c9' },
@@ -1403,23 +1411,33 @@ async function loadCategoryLessonsView(categoryId, categoryName) {
       Back
     </button>`;
 
-    // Display subcategories with engaging icons and colors
-    const subcategoryCards = parentCategory.subCategories.map((subFolder, idx) => {
-      const meta = subcategoryMeta[subFolder] || { icon: '📖', color: '#e0e0e0' };
-      const displayName = subFolder
+    const CHEVRON = `<svg class="explore-category-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`;
+
+    // Display subcategories with same horizontal card layout as main categories
+    const subcategoryCards = parentCategory.subCategories.map((subFolder) => {
+      const meta = subcategoryMeta[subFolder] || { icon: '📚', color: '#ede9fe' };
+      const rawName = subFolder
         .replace(/_FINISHEDEDITED_FINISHEDEDIT$/, '')
         .replace(/_FINISHEDEDITED$/, '')
         .replace(/_FINISHEDEDIT$/, '')
         .replace(/_PARTIAL$/, '')
         .replace(/_/g, ' ');
+      const displayName = toTitleCase(rawName);
+      const lessonCount = parentCategory.lessons
+        ? parentCategory.lessons.filter(l => l.subcategory === subFolder).length
+        : '';
       return `
-        <div class="explore-category-card" onclick="loadSubcategoryLessons('${categoryId}', '${subFolder}', '${displayName}', '${categoryName}')" style="cursor:pointer;transition:transform 0.2s;border:2px solid #f0f0f0;">
-          <div class="explore-category-icon" style="background:${meta.color};font-size:2.5em;border-radius:12px;padding:20px;margin-bottom:10px;">${meta.icon}</div>
-          <div class="explore-category-card-title" style="font-size:0.95em;font-weight:600;">${displayName}</div>
+        <div class="explore-category-card" onclick="loadSubcategoryLessons('${categoryId}', '${subFolder}', '${displayName}', '${categoryName}')">
+          <div class="explore-category-icon" style="background:${meta.color}">${meta.icon}</div>
+          <div class="explore-category-card-text">
+            <div class="explore-category-card-title">${displayName}</div>
+            ${lessonCount ? `<div class="explore-category-card-count">${lessonCount} lessons</div>` : ''}
+          </div>
+          ${CHEVRON}
         </div>`;
     }).join('');
 
-    grid.innerHTML = backBtn + '<div class="explore-grid subcategory-grid">' + subcategoryCards + '</div>';
+    grid.innerHTML = backBtn + '<div class="explore-grid">' + subcategoryCards + '</div>';
   } catch (error) {
     console.error('Error:', error);
     grid.innerHTML = '<p style="color:#f00;text-align:center;">Failed to load subcategories</p>';
