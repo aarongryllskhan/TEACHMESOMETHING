@@ -2331,6 +2331,7 @@ body.dark .full-lesson-content { color: #D9D9E3; }
 body.dark .full-lesson-content h2 { color: #D9D9E3; }
 body.dark .lesson-section { border-bottom-color: rgba(255,255,255,0.06); }
 body.dark .lesson-section-title { color: #A0A0AA; }
+body.dark .lesson-section-content { color: #D9D9E3; }
 body.dark .fun-fact-section { background: rgba(245, 176, 65, 0.12); border-color: rgba(245, 176, 65, 0.25); }
 body.dark .fun-fact-section .lesson-section-title { color: #F5B041; }
 body.dark .fun-fact-section .lesson-section-content { color: #F5B041; }
