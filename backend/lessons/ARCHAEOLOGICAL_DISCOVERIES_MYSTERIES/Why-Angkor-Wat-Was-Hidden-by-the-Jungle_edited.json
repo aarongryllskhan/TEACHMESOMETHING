@@ -1,42 +1,58 @@
 {
   "topic": "Angkor Wat",
   "title": "Exploring the Enduring Legacy of Angkor Wat: A Study of Khmer Engineering and Architectural Innovation",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Angkor_wat_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20061124192640",
+  "imageCredit": {
+    "creator": "Jakub Hałun",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Angkor_wat_temple.jpg"
+  },
   "lesson": {
-    "learn": "Angkor Wat, constructed in the early 12th century under King Suryavarman II (reigned c. 1113–1150 CE), is one of the largest religious monuments in the world, covering approximately 162 hectares in present-day Cambodia. Originally dedicated to the Hindu god Vishnu and later transformed into a Buddhist site, it represents the peak of Khmer architectural and engineering achievement. The complex was built using sandstone blocks quarried from the Phnom Kulen mountains and transported via an extensive canal system. Khmer builders employed advanced construction techniques such as corbel arching, precise stone fitting without mortar, and carefully engineered foundations that distribute weight evenly across the structure, allowing it to remain stable in a tropical floodplain environment for nearly a millennium.",
-    "simpler": "Angkor Wat is a massive temple complex in Cambodia built in the 1100s CE. It was created by carefully fitting together huge sandstone blocks without using mortar, relying on precise carving and balance to keep the structure stable. The builders designed canals and water systems to help transport materials and manage flooding in the surrounding land. The temple was first dedicated to the Hindu god Vishnu and later became a Buddhist site. Its design shows how advanced the Khmer engineers were in planning, construction, and understanding water and stone structures.",
-    "keyTakeaway": "Angkor Wat demonstrates the Khmer Empire’s advanced understanding of large-scale construction, water management, and symbolic architecture. Its structural stability comes from precise stone masonry, corbel arch techniques, and carefully engineered foundations adapted to seasonal flooding. The site also reflects the blending of religious traditions and the integration of engineering with spiritual and cosmological symbolism. Its survival for nearly 900 years highlights the effectiveness of Khmer construction methods and environmental adaptation strategies.",
-    "deeperDive": "Modern archaeological and hydrological studies have revealed that Angkor Wat was part of a vast urban and water management system that supported the broader Angkor civilization. The Khmer engineers constructed an extensive network of barays (reservoirs), canals, and embankments to regulate seasonal monsoon flooding and ensure water availability during dry periods. This system functioned as both practical infrastructure and symbolic representation of Hindu cosmology, with the temple itself representing Mount Meru surrounded by oceans. Laser scanning (LiDAR) surveys have shown that Angkor was once a low-density urban landscape extending far beyond the temple complex, making it one of the largest pre-industrial cities in the world. The precision of sandstone carving indicates highly specialized labor divisions, with artisans capable of producing intricate bas-reliefs depicting epics such as the Ramayana and Mahabharata. Evidence suggests that environmental changes, including shifts in monsoon patterns and sedimentation of waterways, contributed to the gradual decline of the Angkor system between the 14th and 15th centuries. Despite this, Angkor Wat itself remained continuously used, avoiding complete abandonment unlike other parts of the city.",
-    "funFact": "Unlike many ancient temples, Angkor Wat was never fully abandoned and remained an active religious site throughout its history, which helped preserve much of its structure and artwork.",
+    "learn": "Constructed in the early 12th century under King Suryavarman II (reigned c. 1113–1150 CE), this monumental complex in present-day Cambodia stands among the largest religious structures ever built, covering approximately 162 hectares. Originally dedicated to the Hindu god Vishnu before gradually transforming into a major Buddhist religious center, it represents the height of Khmer architectural, hydrological, and symbolic engineering. Builders used massive sandstone blocks quarried from the Phnom Kulen mountains, transporting them across long distances through an advanced canal network integrated into the broader hydraulic landscape. Precision stone masonry allowed blocks to fit together without mortar, while corbel arching techniques created stable galleries and towers. Carefully engineered foundations distributed enormous structural loads across flood-prone terrain, enabling extraordinary durability in a tropical monsoon environment. Its design combined practical engineering with cosmological symbolism, representing Mount Meru at the center of the universe surrounded by concentric galleries and moats.",
+    "simpler": "This enormous temple complex in Cambodia was built in the 1100s CE using carefully carved sandstone blocks fitted together without mortar. Builders created canals and water systems to transport stone and manage seasonal flooding. The structure was first a Hindu temple and later became a Buddhist religious site. Its stability, detailed carvings, and massive scale show how advanced Khmer builders were in construction, water management, and long-term planning.",
+    "keyTakeaway": "Its survival for nearly 900 years demonstrates extraordinary Khmer understanding of large-scale construction, hydraulic systems, and environmental adaptation. Structural stability came from precise masonry, corbel engineering, and flood-conscious foundations, while the surrounding water systems reveal mastery of monsoon management. Beyond physical engineering, the monument fused religion, cosmology, and infrastructure into a unified architectural system that symbolized both divine order and imperial power.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Angkor_Wat_reflection.jpg/1920px-Angkor_Wat_reflection.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20070406172003",
+    "learnImageCredit": {
+      "creator": "Jean-Pierre Dalbéra",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_reflection.jpg"
+    },
+    "deeperDive": "Modern archaeological, hydrological, and LiDAR research has revealed that this temple formed only one part of a much larger urban and infrastructural system supporting the broader Khmer capital. Engineers constructed extensive barays (massive reservoirs), canals, embankments, spillways, and distribution channels to regulate monsoon flooding, stabilize agriculture, and ensure dry-season water security. This hydraulic network was both practical and symbolic, mirroring Hindu cosmology by surrounding sacred architecture with water as a representation of the cosmic ocean. LiDAR mapping has shown that the surrounding urban landscape extended far beyond visible temples, making the broader metropolis one of the world’s largest pre-industrial urban systems. Specialized artisans produced highly sophisticated bas-reliefs depicting Hindu epics such as the Ramayana and Mahabharata, demonstrating advanced stoneworking organization. Environmental pressures including sedimentation, deforestation, and changing monsoon intensity likely strained hydraulic infrastructure between the 14th and 15th centuries, contributing to regional political decline. Yet continuous religious occupation helped preserve the central temple, distinguishing it from other partially abandoned Khmer sites. Today, it remains both an engineering marvel and a key source for understanding how infrastructure, religion, and ecology shaped one of Southeast Asia’s greatest civilizations.",
+    "funFact": "Because it remained an active religious site rather than being completely abandoned, much of its architecture and artwork survived in better condition than many other ancient monumental complexes.",
     "keyElements": {
       "people": [
-        "Suryavarman II, Khmer king who commissioned the construction of Angkor Wat in the early 12th century",
-        "Henri Mouhot, French explorer who brought Angkor Wat to widespread European attention in the 19th century",
-        "George Coedès, historian who played a major role in studying and interpreting Khmer civilization",
-        "Jean Commaille, early French conservator who contributed to restoration work at Angkor",
-        "Charles Higham, archaeologist known for research on Southeast Asian prehistory and Angkor civilization"
+        "Suryavarman II, Khmer ruler who commissioned construction in the early 12th century",
+        "Henri Mouhot, explorer who brought wider European attention to the site in the 19th century",
+        "George Coedès, historian who significantly advanced understanding of Khmer civilization",
+        "Jean Commaille, early conservator involved in restoration efforts",
+        "Charles Higham, archaeologist known for major research on Southeast Asian history and Khmer society"
       ],
       "places": [
         "Angkor Wat, Siem Reap, Cambodia, monumental temple complex and UNESCO World Heritage Site",
-        "Siem Reap region, Cambodia, surrounding landscape of the ancient Khmer capital",
-        "Tonlé Sap Lake, Cambodia, major water source that supported the Angkor civilization",
-        "Phnom Kulen mountains, Cambodia, sandstone quarry source for Angkor Wat construction",
-        "Angkor Thom, Cambodia, later capital city of the Khmer Empire with major temple complexes"
+        "Siem Reap region, Cambodia, broader landscape of Khmer urban and ceremonial development",
+        "Tonlé Sap Lake, Cambodia, major hydrological resource supporting regional civilization",
+        "Phnom Kulen mountains, Cambodia, sandstone quarry source",
+        "Angkor Thom, Cambodia, major later Khmer imperial center"
       ],
       "years": [
-        "c. 1113–1150 CE: Construction period of Angkor Wat under Suryavarman II",
-        "c. 12th century CE: Peak development of the Angkor temple complex",
-        "1431 CE: Gradual decline of Angkor following Ayutthaya invasions and environmental stress",
-        "1860 CE: Henri Mouhot introduces Angkor Wat to European audiences",
-        "20th–21st century CE: Large-scale archaeological restoration and LiDAR mapping projects"
+        "c. 1113–1150 CE: Primary construction under Suryavarman II",
+        "12th century CE: Peak monumental and imperial development",
+        "1431 CE: Major regional decline associated with political and environmental pressures",
+        "1860 CE: Wider European documentation through Henri Mouhot",
+        "20th–21st centuries CE: Restoration, archaeological conservation, and LiDAR expansion"
       ],
       "concepts": [
-        "Corbel arch construction, a structural technique using offset stone layers to create arch-like ceilings without true keystones",
-        "Hydrological engineering, large-scale water management systems including canals, reservoirs, and embankments",
-        "Temple-mountain cosmology, architectural representation of Mount Meru and Hindu-Buddhist universe structure",
-        "Stone masonry without mortar, precision fitting of sandstone blocks for structural stability",
-        "Urban hydraulic networks, integrated systems supporting agriculture, transport, and flood control",
-        "Bas-relief narrative sculpture, carved stone artwork depicting religious epics and historical events",
-        "Monsoon-adapted infrastructure, engineering systems designed to withstand seasonal flooding cycles"
+        "Corbel arch construction, offset stone engineering creating vaulted structures",
+        "Hydrological engineering, integrated reservoirs and canal systems",
+        "Temple-mountain cosmology, sacred architectural symbolism of Mount Meru",
+        "Precision stone masonry, mortarless structural fitting",
+        "Urban hydraulic systems, infrastructure for agriculture, transport, and flood regulation",
+        "Bas-relief sculpture, narrative stone carving traditions",
+        "Monsoon-adapted infrastructure, environmental engineering for seasonal climate cycles"
       ]
     }
   }

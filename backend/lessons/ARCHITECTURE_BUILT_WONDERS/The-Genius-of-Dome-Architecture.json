@@ -1,41 +1,66 @@
 {
   "topic": "The Genius of Dome Architecture",
   "title": "How Engineering and Aesthetics Meet in the Genius of Dome Architecture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Florence_Duomo_from_Michelangelo_hill.jpg/1920px-Florence_Duomo_from_Michelangelo_hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20150313081938",
+  "imageCredit": {
+    "creator": "Petar Milošević",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Florence_Duomo_from_Michelangelo_hill.jpg"
+  },
   "lesson": {
-    "learn": "Dome architecture represents one of the most enduring achievements in structural engineering, evolving from ancient Roman concrete domes to modern digitally designed shells. The Pantheon in Rome, completed around 126 AD under Emperor Hadrian, remains one of the most influential examples, with its unreinforced concrete dome spanning over 43 meters in diameter and standing as the largest unsupported concrete dome in the world for nearly two millennia. Its structural success lies in compressive force distribution through a continuous curved surface, where loads are transferred downward and outward along the dome’s geometry. Later developments in Gothic, Renaissance, and modern architecture refined these principles using ribbing, lighter materials, and computational modeling, culminating in structures such as Brunelleschi’s dome in Florence and contemporary shells like the Guggenheim Museum Bilbao.",
-    "simpler": "A dome is a rounded roof that spreads weight evenly across its surface instead of concentrating it in one place. This makes it very strong and stable, even when built over large spaces. From ancient Roman buildings like the Pantheon to modern museums, domes are used because they combine beauty with strength, much like a shell protecting everything inside it.",
-    "keyTakeaway": "Dome architecture works because curved surfaces naturally distribute forces through compression, allowing large, open interior spaces without internal supports while maintaining structural stability and visual elegance.",
-    "deeperDive": "The engineering principle behind domes is based on compression and geometry. Unlike flat roofs that experience bending stress, domes transfer loads along curved paths into their supports. The Pantheon achieves this using progressively lighter concrete materials toward the top, reducing stress on the structure. Renaissance engineers like Brunelleschi advanced dome construction by using double-shell systems and herringbone brick patterns to control thrust forces. In modern architecture, computer-aided design and finite element analysis allow engineers to simulate stress distribution precisely before construction. Materials such as steel, reinforced concrete, and titanium have further expanded the possibilities of dome design, enabling larger spans and more complex geometries.",
-    "funFact": "The Pantheon’s oculus, a 9-meter-wide opening at the top of the dome, remains uncovered and is still the only natural light source inside the building, while also helping reduce structural stress by removing weight from the most critical point.",
+    "learn": "Across more than two thousand years of architectural history, dome construction has represented one of humanity’s most elegant solutions to spanning vast interior spaces while balancing structural stability with visual grandeur. Among the earliest and most influential surviving examples is the Pantheon in Rome, completed around 126 CE during the reign of Emperor Hadrian. Its massive unreinforced concrete dome spans approximately 43.3 meters (142 feet), remaining the world’s largest unsupported concrete dome for nearly two millennia. The structure’s success lies in its geometric efficiency: a continuous curved shell distributes compressive forces downward and outward through the rotunda walls, minimizing bending stresses that would weaken flat-roof systems. Roman engineers further optimized this design by using progressively lighter aggregate materials toward the dome’s upper levels and incorporating coffering to reduce mass without compromising integrity. Later eras expanded these principles dramatically. Byzantine architects refined centralized domes through pendentives, Renaissance engineers such as Filippo Brunelleschi revolutionized large-scale masonry dome construction with double-shell systems, and modern architects employ computational modeling, steel frameworks, and advanced composites to push dome design into increasingly ambitious forms.",
+    "simpler": "A dome is a curved roof that spreads weight evenly across its shape instead of putting pressure in one spot. This makes domes incredibly strong for covering large spaces. Ancient Roman builders used this idea in the Pantheon, and later architects improved it to create even larger and more complex structures.",
+    "keyTakeaway": "Dome architecture succeeds because curved geometry naturally channels structural forces through compression, allowing builders to create vast open spaces with remarkable strength, durability, and visual beauty.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Pantheon_rome_2005may.jpg/1920px-Pantheon_rome_2005may.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20080506205718",
+    "learnImageCredit": {
+      "creator": "Arpingstone / Martin Olsson (Mnemo)",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported; GNU Free Documentation License 1.2 or later",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Pantheon_rome_2005may.jpg"
+    },
+    "deeperDive": "The core engineering principle behind domes is compression-based load transfer. Unlike flat beams or slabs that experience bending and tensile stress, domes channel loads along curved meridional and hoop pathways into supporting walls or piers. Roman builders exploited this through opus caementicium (hydraulic concrete), allowing monolithic shell construction on unprecedented scales. The Pantheon’s dome decreases in thickness from roughly 6.4 meters at the base to about 1.2 meters near the oculus, reducing dead load significantly. The 9-meter oculus not only illuminates the interior but also removes weight from the dome’s structurally sensitive apex. During the Renaissance, Brunelleschi solved the engineering challenge of constructing Florence Cathedral’s enormous dome without full wooden centering by designing a double-shell structure with internal ribs and a herringbone brick pattern that controlled lateral thrust during construction. Later innovations such as geodesic domes, popularized by Buckminster Fuller, replaced continuous compression shells with triangulated frameworks capable of achieving extraordinary strength-to-weight ratios. Modern computational methods such as finite element analysis now allow architects to model stress distributions with extraordinary precision, enabling forms like thin-shell concrete domes, steel lattices, and parametric curved structures. Across cultures and centuries, dome design has consistently united mathematics, material science, and aesthetics.",
+    "funFact": "The Pantheon’s dome and rotunda were designed so precisely that the building’s interior height from floor to oculus is almost exactly equal to its interior diameter, allowing a perfect sphere to theoretically fit inside.",
+    "references": [
+      "Encyclopaedia Britannica — Pantheon, Brunelleschi, and dome architectural history.",
+      "UNESCO World Heritage Centre — Historic Centre of Florence and Renaissance engineering significance.",
+      "Smithsonian Magazine — Roman concrete and Pantheon engineering studies.",
+      "Vitruvius, De Architectura — Classical Roman architectural principles.",
+      "American Society of Civil Engineers (ASCE) — Structural engineering principles of shells and domes.",
+      "Buckminster Fuller Institute — Geodesic dome engineering concepts."
+    ],
     "keyElements": {
       "people": [
-        "Marcus Vitruvius Pollio (Roman architect who documented early engineering principles of symmetry and proportion)",
-        "Apollodorus of Damascus (Roman engineer associated with monumental imperial architecture)",
-        "Filippo Brunelleschi (Italian Renaissance architect who engineered the dome of Florence Cathedral)",
-        "Buckminster Fuller (20th-century inventor who developed geodesic dome structures)",
-        "Antoni Gaudí (Catalan architect known for organic, curved structural forms)"
+        "Marcus Vitruvius Pollio — Roman architect and theorist documenting engineering principles",
+        "Apollodorus of Damascus — Roman engineer associated with monumental imperial works",
+        "Filippo Brunelleschi — Renaissance engineer who revolutionized large masonry dome construction",
+        "Buckminster Fuller — Innovator of geodesic dome engineering",
+        "Antoni Gaudí — Architect known for advanced curved structural experimentation"
       ],
       "places": [
-        "Pantheon, Rome, Italy",
-        "Florence Cathedral (Duomo), Florence, Italy",
-        "Guggenheim Museum Bilbao, Bilbao, Spain",
-        "United States Capitol, Washington D.C., USA",
-        "St. Peter’s Basilica, Vatican City"
+        "Pantheon, Rome, Italy — Landmark of Roman dome engineering",
+        "Florence Cathedral (Duomo), Florence, Italy — Renaissance breakthrough in masonry dome construction",
+        "St. Peter’s Basilica, Vatican City — Major Renaissance and Baroque dome achievement",
+        "United States Capitol, Washington D.C., USA — Neoclassical dome architecture",
+        "Guggenheim Museum Bilbao, Bilbao, Spain — Modern sculptural architectural innovation"
       ],
       "years": [
-        "126 AD (completion of the Pantheon under Emperor Hadrian)",
-        "1436 (completion of Brunelleschi’s dome in Florence Cathedral)",
-        "1967 (popularization of geodesic dome concepts by Buckminster Fuller at Expo events)",
-        "1989 (completion of the Guggenheim Museum Bilbao design era emergence)",
-        "1997 (rise of computational architectural modeling in mainstream dome design)"
+        "126 CE — Completion of the Pantheon",
+        "537 CE — Hagia Sophia dome completion influencing Byzantine engineering",
+        "1436 CE — Completion of Brunelleschi’s Florence Cathedral dome",
+        "20th century CE — Geodesic dome development",
+        "Late 20th–21st centuries CE — Computational structural modeling transforms dome architecture"
       ],
       "concepts": [
-        "Compression structures (load-bearing systems where forces are carried through squeezing rather than bending)",
-        "Thrust distribution (spreading structural forces outward along curved geometry)",
-        "Geodesic domes (networks of triangular elements forming lightweight spherical structures)",
-        "Double-shell construction (two layered dome systems improving stability and insulation)",
-        "Oculus design (central opening that reduces weight and allows natural lighting)",
-        "Finite element analysis (computational method for simulating structural stress in engineering design)"
+        "Compression structures — Force-bearing systems relying primarily on compression",
+        "Thrust distribution — Structural redirection of forces along curved geometry",
+        "Geodesic domes — Triangulated spherical frameworks",
+        "Double-shell construction — Layered dome systems improving stability",
+        "Oculus design — Central opening reducing mass and providing illumination",
+        "Finite element analysis — Computational structural stress simulation",
+        "Shell architecture — Thin curved surfaces optimized for strength"
       ]
     }
   }

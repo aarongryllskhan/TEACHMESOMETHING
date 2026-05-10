@@ -1,33 +1,49 @@
 {
   "topic": "The Resilience of Ancient Technologies",
   "title": "Understanding the Intrinsic Complexity of Ancient Water Management Systems",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Angkor_Wat_reflection.jpg/1920px-Angkor_Wat_reflection.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20070406172003",
+  "imageCredit": {
+    "creator": "David Wilmot",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_reflection.jpg"
+  },
   "lesson": {
-    "learn": "Ancient civilizations developed highly sophisticated water management systems that supported large urban populations in challenging environments long before modern engineering tools existed. Examples include the extensive hydraulic networks of Angkor (c. 9th–15th century CE, with earlier foundations) in present-day Cambodia and the urban drainage and sewage systems of the Indus Valley Civilization, such as Mohenjo-daro (c. 2600–1900 BCE). These systems incorporated canals, reservoirs, embankments, and carefully graded channels designed to control flooding, store seasonal water, and support agriculture and urban sanitation. Similarly, ancient technological artifacts like the Antikythera Mechanism (c. 150–100 BCE) demonstrate that engineering sophistication was not limited to large infrastructure but also extended to precision mechanical computation. Together, these systems illustrate that ancient societies achieved resilience through long-term adaptation, empirical observation, and iterative engineering design under resource constraints.",
-    "simpler": "Ancient civilizations were able to manage water for cities and farming using canals, drains, reservoirs, and clever planning, even without modern machines. Cities like Angkor and Mohenjo-daro show that people thousands of years ago could design systems to control floods, store water, and keep cities clean. These systems were built over time through trial, observation, and improvement. Other ancient technologies, like the Antikythera Mechanism, show that the same level of problem-solving also existed in machines used to study the stars.",
-    "keyTakeaway": "Ancient technologies demonstrate that engineering innovation does not depend on modern tools, but on observation, experimentation, and adaptation over long periods. Water management systems in places like Angkor and Mohenjo-daro show that ancient societies could engineer large-scale environmental control systems that sustained dense populations. These achievements highlight the resilience and sophistication of early civilizations and show that complex problem-solving has deep historical roots across both infrastructure and mechanical computation.",
-    "deeperDive": "Hydraulic engineering in ancient civilizations often combined natural topography with constructed infrastructure to regulate water flow across large regions. In Angkor, researchers have identified interconnected reservoirs (barays), canals, and embankments that functioned as both water storage and flood control systems, helping to stabilize agricultural production during monsoon cycles. In the Indus Valley, cities such as Mohenjo-daro featured advanced drainage systems with covered sewers, standardized bricks, and carefully sloped streets designed to channel wastewater away from living areas. These systems suggest a high degree of urban planning coordination and standardized construction practices. In parallel, mechanical systems like the Antikythera Mechanism show that ancient engineers also applied similar principles of precision, modular design, and predictive modeling to abstract domains such as astronomy. Modern analysis using computational modeling and archaeological reconstruction has revealed that many of these systems were not isolated innovations but part of broader technological traditions that emphasized long-term environmental adaptation. Across different regions, from Southeast Asia to the Mediterranean, ancient engineers repeatedly solved similar problems—water control, time measurement, and prediction—using different but equally sophisticated methods.",
-    "funFact": "Some ancient drainage systems, especially in the Indus Valley, were so well designed that parts of their alignment and slope still function effectively when rediscovered today.",
+    "learn": "Across multiple ancient civilizations, large-scale engineering systems demonstrated extraordinary resilience by solving environmental, urban, and predictive challenges without modern industrial technology. In South Asia, the Indus Valley Civilization (c. 2600–1900 BCE) developed highly organized cities such as Mohenjo-daro and Harappa featuring standardized drainage, covered sewers, reservoirs, wells, and carefully sloped streets that managed sanitation and water flow with remarkable efficiency. In Southeast Asia, the Khmer civilization’s Angkor region (especially c. 9th–15th century CE) engineered vast networks of barays, canals, spillways, and embankments to regulate monsoon flooding, stabilize agriculture, and sustain dense urban populations. In the Mediterranean, precision devices such as the Antikythera Mechanism (c. 150–100 BCE) reveal that technological sophistication extended beyond environmental systems into advanced mechanical modeling. These examples show that ancient societies repeatedly developed resilient engineering traditions through observation, experimentation, environmental adaptation, and iterative design under material constraints.",
+    "simpler": "Ancient civilizations created powerful technologies to solve major problems like flooding, farming, sanitation, and predicting natural cycles. Cities such as Mohenjo-daro used drains and water systems to keep urban spaces clean, while Angkor used canals and reservoirs to control seasonal water. Ancient engineers also built machines like the Antikythera Mechanism to model astronomy. These achievements show that long before modern technology, people used careful planning and engineering to manage both nature and knowledge.",
+    "keyTakeaway": "These systems prove that innovation is not defined by modern machinery alone, but by sustained observation, adaptation, and practical problem-solving. Ancient engineers built resilient infrastructures capable of supporting large populations, controlling environmental instability, and even modeling celestial systems. Their work reveals deep technological sophistication and demonstrates that many principles of systems engineering, sustainability, and precision design have roots stretching back thousands of years.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/The_Antikythera_Mechanism_%283471171927%29.jpg/1280px-The_Antikythera_Mechanism_%283471171927%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20131215172508",
+    "learnImageCredit": {
+      "creator": "Tilemahos Efthimiadis",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_Antikythera_Mechanism_(3471171927).jpg"
+    },
+    "deeperDive": "Ancient hydraulic and mechanical systems often shared core principles despite emerging in very different environments: modularity, precision, environmental responsiveness, and long-term maintenance. In the Indus Valley, urban planners used standardized fired bricks, vertical drains, soak pits, and covered sewer channels to create some of the world’s earliest integrated sanitation infrastructures. In Angkor, engineers designed one of history’s most extensive pre-industrial hydraulic landscapes, using reservoirs and canals not only for irrigation but for flood mitigation and state-scale resource management. These systems were deeply tied to political organization and environmental adaptation, particularly in monsoon-sensitive ecosystems. Meanwhile, the Antikythera Mechanism demonstrates parallel sophistication in abstract engineering, using bronze gears, calibrated ratios, and predictive cycles to model astronomy mechanically. Modern archaeological science—including LiDAR, computational reconstruction, hydrological analysis, and materials science—has revealed that such technologies were often parts of broader engineering traditions rather than isolated breakthroughs. From wastewater control to celestial prediction, ancient societies repeatedly engineered solutions to recurring systemic challenges, revealing an enduring pattern of technological resilience across civilizations.",
+    "funFact": "Some Indus Valley drainage systems were so carefully graded that modern engineers still study their slopes and water-flow logic as examples of effective early urban sanitation.",
     "keyElements": {
       "people": [
-        "Heron of Alexandria, Greek engineer and inventor known for early mechanical devices and automata",
-        "Archimedes, ancient Greek mathematician and engineer who developed foundational principles in mechanics and hydrostatics",
-        "Sir Mortimer Wheeler, archaeologist who excavated Mohenjo-daro and advanced Indus Valley research",
-        "Charles Higham, archaeologist specializing in Southeast Asian prehistory and Angkor civilization studies",
-        "Derek de Solla Price, historian of science who analyzed the Antikythera Mechanism as an ancient analog computer"
+        "Heron of Alexandria, engineer and inventor known for mechanical devices and automata",
+        "Archimedes, mathematician and engineer whose work shaped hydrostatics and mechanics",
+        "Sir Mortimer Wheeler, archaeologist who advanced excavation and study of Indus Valley cities",
+        "Charles Higham, archaeologist specializing in Southeast Asian and Angkor studies",
+        "Derek de Solla Price, historian who redefined understanding of the Antikythera Mechanism"
       ],
       "places": [
-        "Angkor region, Cambodia, site of extensive ancient hydraulic and urban water management systems",
-        "Mohenjo-daro, Pakistan, major city of the Indus Valley Civilization with advanced drainage infrastructure",
-        "Harappa, Pakistan, Indus Valley urban center with standardized planning and water systems",
-        "Antikythera Island, Greece, discovery site of the Antikythera Mechanism shipwreck",
-        "Indus River Basin, South Asia, region supporting early large-scale urban water engineering"
+        "Angkor region, Cambodia, major center of hydraulic engineering and water control",
+        "Mohenjo-daro, Pakistan, Indus Valley city with advanced drainage infrastructure",
+        "Harappa, Pakistan, major urban center with standardized planning",
+        "Antikythera Island, Greece, discovery site of the ancient mechanical device",
+        "Indus River Basin, South Asia, cradle of early urban hydraulic systems"
       ],
       "years": [
-        "c. 2600–1900 BCE: Peak period of Indus Valley Civilization urban development and water systems",
-        "c. 9th–15th century CE: Development and expansion of Angkor hydraulic infrastructure",
-        "c. 150–100 BCE: Production period of the Antikythera Mechanism",
-        "1900 CE: Discovery of the Antikythera shipwreck off the coast of Greece",
-        "20th–21st century CE: Modern archaeological and computational reconstruction of ancient engineering systems"
+        "c. 2600–1900 BCE: Peak of Indus Valley urban engineering",
+        "c. 9th–15th century CE: Expansion of Khmer hydraulic infrastructure",
+        "c. 150–100 BCE: Construction of the Antikythera Mechanism",
+        "1900 CE: Discovery of the Antikythera shipwreck",
+        "20th–21st century CE: Modern reconstruction of ancient engineering systems"
       ],
       "concepts": [
         "Hydraulic engineering, design and management of systems controlling water flow, storage, and distribution",

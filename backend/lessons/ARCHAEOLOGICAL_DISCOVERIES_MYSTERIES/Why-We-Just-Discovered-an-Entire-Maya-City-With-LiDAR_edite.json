@@ -1,42 +1,58 @@
 {
   "topic": "Lidar Technology in Archaeology",
   "title": "Understanding the Ancient Maya: Unraveling the Secrets of Lidar Surveys in Guatemala",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tikal_Temple1_2006_08_11.JPG/960px-Tikal_Temple1_2006_08_11.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20111208212526",
+  "imageCredit": {
+    "creator": "Raymond Ostertag",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 2.5 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tikal_Temple1_2006_08_11.JPG"
+  },
   "lesson": {
-    "learn": "Between 300 BCE and 900 CE, the Maya civilization developed one of the most complex urban networks in the ancient Americas across regions such as the Petén Basin in modern-day Guatemala. In recent decades, LiDAR (Light Detection and Ranging) technology has revolutionized the study of these landscapes by allowing archaeologists to penetrate dense forest canopy and reveal hidden topography. Large-scale surveys, including those conducted by research teams associated with institutions such as the University of Houston and other international collaborators, have mapped thousands of square kilometers of terrain using billions of laser-return data points. These datasets reveal previously unknown cities, road networks (sacbeob), agricultural terraces, reservoirs, and defensive fortifications, fundamentally reshaping understanding of Maya population density, urban planning, and environmental adaptation. Rather than isolated city-states, the evidence suggests highly interconnected urban regions with extensive infrastructure and landscape modification.",
-    "simpler": "LiDAR is a technology that uses laser pulses from aircraft to create detailed 3D maps of the ground, even through thick forest. In places like Guatemala, it has revealed that the ancient Maya built much larger and more connected cities than researchers previously thought. These maps show roads, houses, farms, and canals hidden under the jungle. This helps archaeologists study ancient civilizations without having to dig everything up first.",
-    "keyTakeaway": "LiDAR technology has transformed Maya archaeology by revealing the true scale and complexity of ancient urban landscapes. It shows that Maya civilization was far more densely populated and interconnected than earlier models suggested. The technology enables researchers to analyze large regions quickly and accurately, uncovering infrastructure such as roads, water systems, and agricultural networks that are invisible at ground level. This has shifted the understanding of the Maya from scattered city-states to highly organized regional systems with advanced environmental engineering.",
-    "deeperDive": "LiDAR systems work by emitting rapid laser pulses from aircraft toward the ground and measuring the time it takes for reflections to return, generating high-resolution elevation models of terrain beneath vegetation. In Mesoamerican archaeology, this has been especially transformative due to dense rainforest cover that previously limited ground surveys. In the Petén region of Guatemala, LiDAR has revealed thousands of previously undocumented structures, including causeways linking urban centers, stepped agricultural terraces designed to manage soil and water flow, and large-scale defensive earthworks. These findings suggest that Maya urbanism was more extensive and integrated than earlier archaeological excavation-based models indicated. Similar LiDAR applications in Belize and Mexico have identified extensive city networks and landscape engineering, indicating regional-scale coordination. In Cambodia and other parts of Southeast Asia, comparable LiDAR studies have revealed hidden urban grids beneath forest cover, demonstrating that this technology is broadly reshaping global archaeological methodology. Machine learning tools are increasingly used alongside LiDAR datasets to classify features such as buildings, roads, and agricultural systems, allowing researchers to interpret vast landscapes more efficiently and reconstruct ancient environmental interactions.",
-    "funFact": "Some Maya cities revealed by LiDAR were so large that researchers initially mistook them for natural terrain features before realizing they contained dense networks of buildings and road systems.",
+    "learn": "Between roughly 300 BCE and 900 CE, Maya civilization developed one of the ancient world’s most sophisticated urban and environmental systems across the lowlands of present-day Guatemala, Belize, Mexico, and surrounding parts of Central America. Dense tropical forest later obscured much of this infrastructure, limiting traditional archaeological understanding for centuries. In the 21st century, LiDAR (Light Detection and Ranging) transformed this field by enabling aircraft-mounted laser systems to penetrate forest canopy and generate high-resolution terrain models beneath vegetation. Large-scale surveys in regions such as Guatemala’s Petén Basin have revealed thousands of previously undocumented structures, including pyramids, residential complexes, defensive walls, agricultural terraces, reservoirs, and extensive sacbeob (raised stone roadways). These findings demonstrate that Maya populations were more numerous, interconnected, and infrastructurally advanced than earlier models suggested, reshaping interpretations of urbanism, environmental engineering, and regional political organization.",
+    "simpler": "LiDAR uses laser pulses from aircraft to map the ground even when thick jungle blocks normal views. In Maya regions, this technology has uncovered huge hidden cities, roads, farms, and water systems beneath forests. These discoveries show that ancient Maya civilization was much larger and more connected than archaeologists once believed.",
+    "keyTakeaway": "LiDAR has fundamentally changed archaeological understanding by revealing the true scale of ancient Maya civilization. Instead of scattered ceremonial centers, evidence now shows extensive regional infrastructure with interconnected cities, engineered agriculture, and large population centers. This technology allows archaeologists to rapidly study enormous landscapes and discover hidden structures without immediate excavation, revolutionizing both Maya studies and global archaeological methodology.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Caracol_Caana.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20121111190400",
+    "learnImageCredit": {
+      "creator": "Elelicht",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Caracol_Caana.JPG"
+    },
+    "deeperDive": "LiDAR systems function by emitting rapid laser pulses toward the Earth’s surface and calculating return times from reflected signals to build highly detailed elevation models. Because some pulses penetrate gaps in forest canopy and reflect from the ground below, researchers can digitally remove vegetation and expose hidden terrain. In the Maya lowlands, this has revealed vast urban complexity including causeways linking cities, fortified boundaries, terraced agriculture, irrigation systems, and monumental ceremonial architecture across thousands of square kilometers. Surveys in the Petén Basin and surrounding regions indicate that many major centers were embedded within broader metropolitan-scale systems rather than isolated ceremonial capitals. These discoveries suggest advanced land-use strategies including soil management, water storage, and defensive planning on regional scales. Comparable LiDAR applications in Cambodia’s Angkor region and Amazonian archaeology demonstrate that hidden urban landscapes may be far more common globally than previously understood. Increasingly, archaeologists combine LiDAR with machine learning algorithms, GIS analysis, excavation, and environmental science to classify structures and reconstruct ancient human-environment relationships with unprecedented speed and precision.",
+    "funFact": "In some surveys, archaeologists initially thought certain LiDAR-discovered formations were natural hills until analysis revealed they were actually massive pyramids and constructed platforms hidden by centuries of forest growth.",
     "keyElements": {
       "people": [
-        "George D. Hasenstab, researcher associated with University of Houston LiDAR-based archaeological mapping projects",
-        "Francisco Estrada-Belli, archaeologist known for major LiDAR discoveries in the Maya lowlands",
-        "Marcello A. Canuto, archaeologist involved in large-scale Maya LiDAR surveys in Central America",
-        "Takeshi Inomata, archaeologist specializing in Maya urban development and large settlement patterns",
-        "Thomas Garrison, geospatial archaeologist working on digital mapping of ancient Mesoamerican landscapes"
+        "Francisco Estrada-Belli, archaeologist known for major LiDAR discoveries in Maya regions",
+        "Marcello A. Canuto, archaeologist involved in large-scale digital mapping of Maya landscapes",
+        "Thomas Garrison, geospatial archaeologist specializing in LiDAR applications",
+        "Takeshi Inomata, archaeologist researching large-scale Maya settlement systems",
+        "George D. Hasenstab, researcher associated with advanced archaeological remote sensing"
       ],
       "places": [
-        "Petén Basin, Guatemala, major Maya lowland region with extensive LiDAR-mapped settlements",
-        "El Mirador Basin, Guatemala, site of massive preclassic Maya cities revealed through modern surveys",
-        "Belize River Valley, Belize, region where LiDAR uncovered large Maya urban complexes",
-        "Yucatán Peninsula, Mexico, area containing dense networks of ancient Maya cities and roads",
-        "Central America, broader region encompassing Maya civilization and related archaeological landscapes"
+        "Petén Basin, Guatemala, major lowland Maya region transformed by LiDAR surveys",
+        "Tikal, Guatemala, major Maya urban center within broader regional systems",
+        "El Mirador Basin, Guatemala, region containing massive Preclassic Maya settlements",
+        "Caracol, Belize, major Maya center whose scale was dramatically expanded through LiDAR mapping",
+        "Central America, broader cultural and environmental region of Maya civilization"
       ],
       "years": [
-        "300 BCE: Early development of Maya urban centers in the lowlands",
-        "900 CE: Traditional end of the Classic Maya period in many regions",
-        "2010s CE: Expansion of LiDAR use in Mesoamerican archaeology",
-        "2015 CE: Major LiDAR discoveries reported in Cambodia influencing global archaeological methods",
-        "2018 CE: Large-scale LiDAR surveys reveal extensive Maya urban landscapes in Belize"
+        "300 BCE: Expansion of major Maya urban systems",
+        "900 CE: Decline of many Classic Period lowland centers",
+        "2010s CE: Major expansion of archaeological LiDAR surveys",
+        "2018 CE: Landmark large-scale Maya LiDAR findings reshape scholarship",
+        "21st century CE: Integration of LiDAR, AI, and geospatial archaeology"
       ],
       "concepts": [
-        "LiDAR remote sensing, airborne laser scanning technology used to map terrain beneath vegetation",
-        "Maya urbanism, the study of city planning, infrastructure, and settlement organization in Maya civilization",
-        "Geospatial archaeology, the use of spatial data and mapping technologies in archaeological research",
-        "Landscape archaeology, analysis of how ancient societies shaped and interacted with their environment",
-        "Machine learning classification, computational methods used to identify archaeological features in large datasets",
-        "Sacbeob road systems, ancient Maya raised causeways connecting cities and ceremonial centers",
-        "Agricultural terracing, engineered landscape modifications used for farming in steep or varied terrain"
+        "LiDAR remote sensing, airborne laser terrain mapping beneath vegetation",
+        "Maya urbanism, large-scale city and infrastructure systems",
+        "Geospatial archaeology, digital mapping in archaeological research",
+        "Landscape archaeology, study of human-environment interaction",
+        "Machine learning classification, computational identification of archaeological features",
+        "Sacbeob networks, raised Maya road systems",
+        "Agricultural engineering, landscape modification for food production"
       ]
     }
   }

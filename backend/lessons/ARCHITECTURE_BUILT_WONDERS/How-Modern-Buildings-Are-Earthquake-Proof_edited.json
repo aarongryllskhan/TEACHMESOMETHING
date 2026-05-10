@@ -1,41 +1,66 @@
 {
   "topic": "Earthquake Resilience in Buildings",
   "title": "Exploring the Methods Behind Seismic-Resistant Design",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tokyo_Skytree_2014_%E2%85%A2.jpg/960px-Tokyo_Skytree_2014_%E2%85%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20200229162047",
+  "imageCredit": {
+    "creator": "Kakidai",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2014_%E2%85%A2.jpg"
+  },
   "lesson": {
-    "learn": "Between 2004 and 2014, earthquakes accounted for a major proportion of global natural disaster fatalities, with seismic events causing widespread structural collapse due to sudden lateral ground motion and inadequate energy dissipation in traditional buildings. In response, modern seismic engineering has evolved into a highly specialized field combining structural dynamics, materials science, and computational modeling. Following major events such as the 1989 Loma Prieta earthquake, retrofitting programs in cities like San Francisco demonstrated how reinforcing existing structures—such as the City Hall retrofit completed after a $100 million intervention—can prevent catastrophic failure. Modern earthquake-resistant design incorporates energy-dissipating systems such as base isolation bearings, fiber-reinforced polymers, and ductile concrete systems that allow buildings to flex rather than fracture under seismic loading.",
-    "simpler": "Earthquake-resistant buildings are designed to survive shaking by bending and absorbing energy instead of breaking. Instead of being completely rigid, they are built to move slightly with the ground using special materials and flexible supports. This reduces damage during earthquakes and helps protect people inside, similar to how shock absorbers soften bumps in a car.",
-    "keyTakeaway": "Seismic resilience is achieved by allowing controlled flexibility and energy absorption in structures, rather than resisting movement completely, making modern earthquake engineering a balance between strength, ductility, and controlled motion.",
-    "deeperDive": "Modern seismic engineering relies on understanding how seismic waves transfer energy into structures and how that energy can be safely dissipated. Base isolation systems physically separate buildings from ground motion using bearings that absorb lateral displacement. Reinforced concrete is designed to behave in a ductile manner, allowing it to deform without sudden collapse. Materials such as fiber-reinforced polymers increase tensile strength while reducing weight, and shape-memory alloys can return to their original form after deformation, improving post-earthquake recovery. Tall structures like Tokyo Skytree demonstrate additional aerodynamic and structural damping strategies, allowing controlled swaying to reduce destructive resonance effects during seismic and wind events.",
-    "funFact": "Some experimental buildings use sensors and AI-controlled dampers that actively adjust stiffness in real time during an earthquake to reduce shaking.",
+    "learn": "Between 2004 and 2014, earthquakes caused hundreds of thousands of deaths globally, with major disasters such as the 2004 Indian Ocean earthquake and tsunami, the 2008 Sichuan earthquake, the 2010 Haiti earthquake, and the 2011 Tōhoku earthquake exposing how vulnerable poorly engineered buildings can be to seismic forces. Structural collapse during earthquakes often occurs not simply because of ground shaking alone, but because buildings cannot safely absorb or dissipate sudden lateral energy. In response, seismic engineering has become a highly advanced discipline integrating structural dynamics, materials science, geotechnical engineering, and computational modeling. Following transformative events such as California’s 1989 Loma Prieta earthquake and Japan’s 1995 Kobe earthquake, engineers increasingly prioritized retrofitting and performance-based design. Major projects such as the seismic retrofit of San Francisco City Hall demonstrated how vulnerable historic structures could be reinforced using steel bracing, base isolators, and strengthened foundations. Modern seismic-resistant systems now commonly include base isolation bearings, tuned mass dampers, ductile reinforced concrete, shear walls, flexible steel moment frames, and advanced composite reinforcement systems that allow structures to bend, sway, and dissipate seismic energy without catastrophic failure.",
+    "simpler": "Earthquake-resistant buildings are designed to survive shaking by bending and absorbing energy instead of breaking. Rather than staying completely rigid, they use flexible supports, shock-absorbing systems, and stronger materials so they can move with the ground more safely. This reduces collapse risk and helps protect people inside.",
+    "keyTakeaway": "Seismic resilience depends on controlled flexibility, ductility, and energy management. Modern earthquake engineering focuses on allowing buildings to move safely, absorb seismic forces, and avoid sudden structural failure rather than trying to resist all motion completely.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/San_Francisco_City_Hall%2C_nighttime%2C_September_2016.jpg/1920px-San_Francisco_City_Hall%2C_nighttime%2C_September_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20161002081236",
+    "learnImageCredit": {
+      "creator": "Dllu",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:San_Francisco_City_Hall,_nighttime,_September_2016.jpg"
+    },
+    "deeperDive": "Earthquakes generate seismic waves that transfer kinetic energy into structures through ground acceleration. If a building’s natural frequency aligns with the frequency of seismic motion, resonance can amplify movement dramatically, increasing collapse risk. Modern engineering addresses this through multiple complementary systems. Base isolation physically separates a building from the ground using laminated rubber-steel bearings or friction pendulum systems, dramatically reducing force transfer. Tuned mass dampers use suspended or mounted counterweights to counter oscillation, especially in tall structures. Ductile reinforced concrete and steel moment-resisting frames are detailed to deform plastically while preserving life safety, preventing brittle collapse. Shear walls increase stiffness and lateral resistance, while fiber-reinforced polymers improve tensile strength with low additional weight. Shape-memory alloys represent emerging materials capable of recovering structural form after deformation. Advanced computational seismic modeling, shake-table testing, and finite element simulation allow engineers to predict structural behavior under various earthquake scenarios before construction begins. Landmark structures such as Tokyo Skytree incorporate central reinforced shafts inspired partly by traditional Japanese pagoda engineering, combining damping and flexible structural systems to manage both seismic and wind loads. These strategies collectively represent a shift from static strength toward dynamic survivability.",
+    "funFact": "Some advanced seismic systems can allow skyscrapers to sway several feet during major earthquakes while keeping structural damage minimal because carefully engineered damping systems reduce destructive acceleration.",
+    "references": [
+      "U.S. Geological Survey (USGS) — Earthquake hazards, seismic wave mechanics, and seismic risk analysis.",
+      "Federal Emergency Management Agency (FEMA) — Seismic retrofitting standards and earthquake-resistant design practices.",
+      "National Institute of Standards and Technology (NIST) — Structural resilience and earthquake engineering research.",
+      "Pacific Earthquake Engineering Research Center (PEER), University of California, Berkeley — Performance-based seismic engineering studies.",
+      "Council on Tall Buildings and Urban Habitat (CTBUH) — Tall-building seismic systems and damping technologies.",
+      "Tokyo Skytree structural engineering documentation — Seismic and wind resistance system design."
+    ],
     "keyElements": {
       "people": [
-        "Miyamoto Musumeci (structural engineer known for seismic design innovations in tall buildings)",
-        "Hiroshi Ishii (researcher in adaptive structural systems and responsive materials)",
-        "Robert Reitherman (seismologist involved in earthquake engineering research and shake-table testing development)",
-        "Kiyoshi Muto (Japanese engineer known as a pioneer of modern seismic structural design)",
-        "Mark Sarkisian (structural engineer involved in major seismic retrofit projects including San Francisco City Hall)"
+        "Kiyoshi Muto — Japanese structural engineer considered a pioneer of modern seismic design",
+        "Robert Reitherman — Earthquake engineering researcher and historian of seismic safety standards",
+        "Mark Sarkisian — Structural engineer associated with major seismic retrofit projects",
+        "John A. Blume — Influential engineer in earthquake-resistant structural design",
+        "Modern seismic engineers — Specialists integrating structural dynamics, geotechnical science, and computational engineering"
       ],
       "places": [
-        "San Francisco City Hall, San Francisco, California, USA",
-        "Tokyo Skytree, Tokyo, Japan",
-        "University of California, Berkeley, California, USA",
-        "Japan, a global leader in seismic engineering research and earthquake-resistant infrastructure",
-        "Loma Prieta earthquake region, California, USA"
+        "San Francisco City Hall, California, USA — Major historic seismic retrofit example",
+        "Tokyo Skytree, Tokyo, Japan — Advanced seismic-resistant tower design",
+        "University of California, Berkeley, USA — Leading earthquake engineering research institution",
+        "Kobe, Japan — Region whose 1995 earthquake reshaped seismic engineering priorities",
+        "Loma Prieta region, California, USA — Major seismic event driving retrofit modernization"
       ],
       "years": [
-        "1950s (early development of modern seismic design principles)",
-        "1989 (Loma Prieta earthquake prompting major retrofit programs)",
-        "1993 (completion era of early modern seismic-resistant megastructures)",
-        "2000s (rise of advanced materials like fiber-reinforced polymers in construction)",
-        "2010s (integration of smart damping systems and computational seismic modeling)"
+        "1950s — Early development of modern seismic structural theory",
+        "1989 — Loma Prieta earthquake accelerates retrofit reform",
+        "1995 — Kobe earthquake reshapes global seismic design priorities",
+        "2000s — Expansion of advanced composites and performance-based seismic design",
+        "2010s — Integration of adaptive damping systems and smart seismic technologies"
       ],
       "concepts": [
-        "Base isolation (decoupling a structure from ground motion to reduce seismic energy transfer)",
-        "Energy dissipation (methods that convert seismic motion into harmless heat or deformation)",
-        "Ductility (ability of materials to deform without sudden failure)",
-        "Structural damping (mechanisms that reduce vibration amplitude in buildings)",
-        "Seismic retrofitting (strengthening existing structures to withstand earthquakes)",
-        "Shape-memory alloys (materials that return to original shape after deformation)"
+        "Base isolation — Structural decoupling from ground motion",
+        "Energy dissipation — Conversion of seismic energy into controlled deformation or heat",
+        "Ductility — Ability to deform without sudden structural failure",
+        "Structural damping — Reduction of oscillation and resonance",
+        "Seismic retrofitting — Strengthening existing buildings against earthquakes",
+        "Shape-memory alloys — Materials capable of recovering shape after deformation",
+        "Resonance control — Management of frequency interaction between structures and seismic waves"
       ]
     }
   }

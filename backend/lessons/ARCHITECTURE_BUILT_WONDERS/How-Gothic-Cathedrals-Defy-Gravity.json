@@ -1,39 +1,58 @@
 {
   "topic": "The Art and Engineering of Medieval Cathedrals",
   "title": "Advances in Structural Engineering for High-Rise Building Construction: The Case of Gothic Cathedrals",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/960px-Notre-Dame_de_Paris_2013-07-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140413204142",
+  "imageCredit": {
+    "creator": "P e z i",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg"
+  },
   "lesson": {
-    "learn": "Between 1163 and 1624, medieval architects developed transformative structural engineering innovations that enabled Gothic cathedrals to reach unprecedented heights while maintaining stability. Key developments such as the pointed arch, ribbed vault, and flying buttress redistributed structural loads more efficiently than earlier Romanesque systems. For example, Notre-Dame Cathedral in Paris (begun 1163) reached a nave height of approximately 33 meters, while Cologne Cathedral in Germany demonstrates extreme vertical ambition with its twin spires reaching 157 meters. The engineering logic behind these structures can be contrasted with earlier Roman designs such as the Pantheon (126 AD), which relied primarily on massive concrete walls and dome compression rather than external load redistribution.",
-    "simpler": "Gothic cathedrals were built to be much taller than earlier Roman buildings by using clever support systems. Instead of relying only on thick walls like the Pantheon, builders used flying buttresses, pointed arches, and ribbed vaults to spread weight outward. This allowed huge windows, higher ceilings, and lighter-looking structures, as seen in buildings like Notre-Dame and Cologne Cathedral.",
-    "keyTakeaway": "Gothic architecture represents a major shift in structural engineering, where forces were redirected through external supports like flying buttresses, allowing medieval builders to achieve extreme height and light-filled interiors without sacrificing stability.",
-    "deeperDive": "The engineering success of Gothic cathedrals lies in their control of force distribution. The pointed arch reduces lateral thrust compared to semicircular Roman arches, while ribbed vaults concentrate loads along defined structural lines. Flying buttresses then transfer these forces outward into external piers, effectively externalizing structural support. This system allowed walls to become thinner and be filled with stained glass, fundamentally changing architectural design. Structural analysis of buildings like Chartres Cathedral shows that these systems function as an integrated load network rather than isolated architectural elements.",
-    "funFact": "Some Gothic cathedrals required centuries to complete—Cologne Cathedral took over 600 years from its start in 1248 to completion in 1880.",
+    "learn": "Between the 12th and 16th centuries, medieval master builders transformed architecture through structural innovations that enabled masonry buildings to rise to heights previously unimaginable. Early Gothic experimentation, particularly associated with the Basilica of Saint-Denis under Abbot Suger in the 1140s, evolved into a broader engineering revolution visible in cathedrals such as Notre-Dame de Paris (begun 1163), Chartres Cathedral (largely rebuilt after 1194), and Cologne Cathedral (begun 1248). Unlike earlier Romanesque structures, which depended heavily on thick walls and semicircular arches, Gothic systems used pointed arches, ribbed vaults, and flying buttresses to redirect structural forces more efficiently. These innovations reduced lateral thrust, concentrated loads along skeletal frameworks, and transferred pressure outward into external supports. As a result, builders achieved soaring verticality, thinner walls, expansive stained-glass windows, and unprecedented interior luminosity. Gothic cathedrals became not only religious monuments but also engineering masterpieces demonstrating medieval advances in geometry, material control, and load management.",
+    "simpler": "Medieval builders figured out how to make churches much taller by changing how weight was supported. Instead of relying mainly on thick walls, they used pointed arches, ribbed ceilings, and flying buttresses to move weight outward and downward more effectively. This allowed enormous buildings with higher ceilings and giant stained-glass windows.",
+    "keyTakeaway": "Gothic cathedral engineering marked a major shift from mass-based support to force-management systems. By redirecting loads through arches, vault ribs, and external buttresses, builders created taller, lighter, and structurally efficient buildings that pushed masonry construction to new limits.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Der_K%C3%B6lner_Dom_von_S%C3%BCden_-_panoramio.jpg/960px-Der_K%C3%B6lner_Dom_von_S%C3%BCden_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20161127164520",
+    "learnImageCredit": {
+      "creator": "Edgar El",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Der_K%C3%B6lner_Dom_von_S%C3%BCden_-_panoramio.jpg"
+    },
+    "deeperDive": "The engineering success of Gothic construction depended on integrated force redistribution. Pointed arches reduced horizontal thrust compared to Roman semicircular arches by channeling more force downward. Ribbed vaults created structural skeletons that concentrated ceiling loads along narrow ribs instead of uniformly across heavy barrel vaults, reducing weight while increasing height potential. Flying buttresses extended this logic outward by transferring lateral roof and vault pressures into detached exterior piers, allowing walls to function less as primary supports and more as enclosures for stained glass. This transformed architectural design into an exposed structural network. At Chartres and Amiens, these systems created unprecedented interior elevation while preserving equilibrium. Cologne Cathedral pushed vertical ambition even further, ultimately reaching spire heights of 157 meters. Construction required advanced geometric planning, scaffolding systems, quarry logistics, and master masonry precision. Medieval builders lacked modern calculus but used practical geometry, full-scale tracing floors, and accumulated empirical knowledge to solve high-rise structural challenges. These innovations profoundly influenced later engineering, foreshadowing skeletal frameworks used in modern skyscrapers by emphasizing force pathways rather than brute mass.",
+    "funFact": "Cologne Cathedral’s construction stretched from 1248 until 1880, meaning one Gothic cathedral project lasted longer than the entire existence of many historical empires.",
     "keyElements": {
       "people": [
-        "Abbot Suger (French cleric who helped develop early Gothic architectural principles at Saint-Denis)",
-        "Viollet-le-Duc (French architect and theorist known for restoring and analyzing Gothic structures)",
-        "Pierre de Chelles (medieval master mason involved in Notre-Dame Cathedral work)",
-        "Jean d'Orbais (early architect associated with Reims Cathedral design)"
+        "Abbot Suger, influential patron associated with early Gothic architectural development at Saint-Denis",
+        "Viollet-le-Duc, architect and historian who analyzed Gothic structural systems in depth",
+        "Pierre de Chelles, medieval master mason connected to major Notre-Dame work",
+        "Jean d'Orbais, architect associated with early Reims Cathedral design",
+        "Medieval master masons, engineers and builders who developed and refined Gothic structural systems"
       ],
       "places": [
-        "Notre-Dame Cathedral, Paris, France",
-        "Cologne Cathedral, Cologne, Germany",
-        "Chartres Cathedral, Chartres, France",
-        "Ulm Minster, Ulm, Germany",
-        "York Minster, York, England"
+        "Notre-Dame Cathedral, Paris, France, major early Gothic engineering landmark",
+        "Cologne Cathedral, Cologne, Germany, monumental example of extreme Gothic verticality",
+        "Chartres Cathedral, Chartres, France, key example of integrated Gothic structural design",
+        "Basilica of Saint-Denis, France, foundational site of early Gothic innovation",
+        "Amiens Cathedral, France, major high Gothic structural achievement"
       ],
       "years": [
-        "1163 (construction begins on Notre-Dame Cathedral)",
-        "1248 (foundation of Cologne Cathedral laid)",
-        "1345 (major phase of Chartres Cathedral completion)",
-        "1377 (Ulm Minster construction begins)",
-        "1880 (completion of Cologne Cathedral)"
+        "1140s CE: Major Gothic innovations emerge at Saint-Denis",
+        "1163 CE: Construction begins on Notre-Dame de Paris",
+        "1194 CE: Rebuilding of Chartres Cathedral after fire",
+        "1248 CE: Cologne Cathedral construction begins",
+        "1880 CE: Cologne Cathedral officially completed"
       ],
       "concepts": [
-        "Flying buttress (external support system that transfers lateral forces away from walls)",
-        "Pointed arch (arch shape that reduces horizontal thrust and allows taller structures)",
-        "Ribbed vault (framework of intersecting ribs that distribute ceiling loads efficiently)",
-        "Load distribution (engineering principle of spreading forces across structural elements)",
-        "Structural equilibrium (balance of forces preventing collapse in tall masonry buildings)"
+        "Flying buttress, external support system transferring lateral thrust",
+        "Pointed arch, arch form reducing horizontal force",
+        "Ribbed vault, intersecting rib framework concentrating loads",
+        "Load redistribution, engineering transfer of structural forces",
+        "Structural equilibrium, balance of forces preventing collapse",
+        "Masonry skeletal systems, framework-based stone construction",
+        "Vertical load pathways, controlled force movement through structural elements"
       ]
     }
   }

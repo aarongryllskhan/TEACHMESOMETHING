@@ -1,37 +1,58 @@
 {
-  "topic": "Mechanical Computing in Ancient Greece",
-  "title": "The Methods Behind the Antikythera Mechanism: A Window into Ancient Greek Engineering",
+  "topic": "Roman Engineering",
+  "title": "How Roman Builders Mastered Arches: The Structural Genius Behind Ancient Infrastructure",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Pontdugard2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+  "imageCredit": {
+    "creator": "JuanGut",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Pontdugard2016.jpg"
+  },
   "lesson": {
-    "learn": "In 1900, sponge divers working off the coast of the Greek island of Antikythera discovered a 2,000-year-old shipwreck containing a remarkably complex mechanical device later known as the Antikythera Mechanism. Dated to around 150–100 BCE, the device consists of over 30 precision-cut bronze gears arranged in a compact system of interlocking mechanisms. It was designed to model celestial motion, tracking the cycles of the Sun, Moon, and possibly planets, while also predicting astronomical events such as solar and lunar eclipses. Modern analysis shows that its gearing system encodes sophisticated astronomical cycles, reflecting an advanced understanding of geometry, arithmetic, and mechanical design in Hellenistic Greece.",
-    "simpler": "The Antikythera Mechanism was an ancient Greek device made of gears that worked like a mechanical calculator for the sky. By turning a crank, users could predict the positions of the Sun and Moon and estimate events like eclipses. It works like a 2,000-year-old analogue computer, showing that ancient engineers could build extremely precise machines without modern tools.",
-    "keyTakeaway": "The Antikythera Mechanism demonstrates that ancient Greek engineers combined astronomy and mechanical engineering at a level far beyond what was previously assumed, showing that complex analog computation existed more than two millennia before modern computers.",
-    "deeperDive": "Modern X-ray and 3D imaging has revealed that the mechanism encoded multiple astronomical cycles, including lunar phases and eclipse prediction systems based on Babylonian and Greek astronomical knowledge. Researchers have linked its design principles to mathematical traditions associated with Hipparchus of Nicaea, who developed early models of lunar and solar motion. The precision of the gear ratios suggests a deep understanding of periodic functions and mechanical approximation of celestial cycles, achieved through hand-crafted engineering techniques that remain difficult to fully replicate today.",
-    "funFact": "Some reconstructions suggest the Antikythera Mechanism could track at least 18 different astronomical cycles, including the 4-year Olympic cycle used in ancient Greece to time athletic games.",
+    "learn": "Roman builders transformed architecture and infrastructure by perfecting the engineering use of the arch, a structural form that allowed enormous weight to be distributed outward into supports rather than directly downward as in simple post-and-lintel construction. Although arches existed earlier in Mesopotamia and Etruscan culture, Roman engineers standardized and expanded their use on an unprecedented scale between roughly the 3rd century BCE and the fall of the Western Roman Empire in the 5th century CE. Using wedge-shaped stones called voussoirs arranged around a central keystone, arches converted compressive forces into lateral pressure that could be supported by piers or abutments. This innovation enabled the construction of aqueducts, bridges, amphitheaters, triumphal arches, vaulted baths, sewer systems, and massive public complexes across Europe, North Africa, and the Near East. Combined with Roman concrete (opus caementicium), arches became foundational to durable imperial infrastructure, allowing structures like the Colosseum, Pont du Gard, and aqueduct networks to survive for millennia.",
+    "simpler": "Roman builders used arches because they were much stronger than flat stone beams. By shaping stones into a curved arch with a locking keystone at the top, weight was pushed sideways into supports instead of causing collapse. This let Romans build huge bridges, aqueducts, and arenas that could carry water, people, and heavy loads over long distances.",
+    "keyTakeaway": "Roman mastery of the arch changed construction history by combining geometry, materials science, and practical engineering into scalable infrastructure. Arches allowed larger, stronger, and more efficient structures than many earlier building methods, making them essential to roads, bridges, aqueducts, and monumental architecture. Their understanding of compressive force and load distribution became one of the foundational principles of later civil engineering.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1920px-Colosseo_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20201028205839",
+    "learnImageCredit": {
+      "creator": "FeaturedPics",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+    },
+    "deeperDive": "The structural effectiveness of Roman arches came from careful geometric planning and material selection. Each voussoir was cut so compressive forces traveled through the curve into supporting columns or walls, minimizing tensile stress that stone handled poorly. The keystone at the apex locked the structure into place, stabilizing the full span. Builders expanded this principle into barrel vaults, groin vaults, and domes, multiplying interior space while maintaining strength. Aqueduct bridges such as Pont du Gard stacked multiple tiers of arches to optimize both structural integrity and material efficiency while maintaining precise water gradients. In amphitheaters like the Colosseum, arches distributed enormous structural and crowd loads while enabling rapid circulation through entrances and corridors. Roman concrete further revolutionized this system by allowing brick-faced concrete arches that were faster and often more adaptable than cut stone alone. Temporary wooden centering frames supported arches during construction until the keystone secured the final structure. These methods allowed expansion across mountains, valleys, rivers, and dense cities. The engineering logic of Roman arches directly influenced Byzantine vaulting, Romanesque cathedrals, Gothic structural systems, Renaissance revivalism, and modern bridge and infrastructure design.",
+    "funFact": "Many Roman arches remain standing after nearly 2,000 years because stone performs exceptionally well under compression, meaning the weight of the structure actually helps keep the arch stable.",
     "keyElements": {
       "people": [
-        "Hipparchus (Greek astronomer who developed early astronomical models influencing the mechanism)",
-        "Michael Wright (engineer who produced influential reconstructions of the device)",
-        "Derek de Solla Price (scientist who first demonstrated the mechanism's computational complexity)",
-        "Dora Katsonopoulou (archaeologist associated with research on the Antikythera shipwreck)"
+        "Vitruvius, architect and engineer whose writings preserved structural design principles",
+        "Apollodorus of Damascus, engineer associated with major imperial infrastructure projects",
+        "Emperor Trajan, ruler during major public works expansion",
+        "Sextus Julius Frontinus, administrator of Roman aqueduct systems",
+        "Roman engineers and masons, skilled builders who standardized arch construction across the empire"
       ],
       "places": [
-        "Antikythera Island (Greece, site of the shipwreck discovery)",
-        "National Archaeological Museum of Athens (Greece, where the mechanism is preserved and studied)",
-        "Ancient Greece (Hellenistic world where the device was created)",
-        "Rhodes (important center of astronomy and engineering influence in antiquity)"
+        "Pont du Gard, France, monumental aqueduct bridge demonstrating advanced arch engineering",
+        "Colosseum, Rome, Italy, amphitheater showcasing large-scale arch and vault systems",
+        "Rome, Italy, center of Roman infrastructure innovation",
+        "Aqua Claudia, Rome, major aqueduct using repetitive arch systems",
+        "Roman Empire, broader geographic network shaped by arch-based engineering"
       ],
       "years": [
-        "150 BCE (estimated creation period of the Antikythera Mechanism)",
-        "100 BCE (approximate end of its active use before shipwreck loss)",
-        "1900 CE (discovery of the Antikythera shipwreck)",
-        "1974 CE (early modern reconstruction breakthroughs by Michael Wright and others)"
+        "3rd century BCE: Major Roman expansion of arch-based engineering",
+        "312 BCE: Early aqueduct construction begins",
+        "27 BCE–14 CE: Augustan infrastructure expansion",
+        "72–80 CE: Construction of the Colosseum",
+        "2nd century CE: Peak imperial engineering sophistication"
       ],
       "concepts": [
-        "Analog computing (mechanical systems used to model mathematical or astronomical processes)",
-        "Gear trains (systems of interlocking gears used to transfer motion and calculate ratios)",
-        "Astronomical cycles (repeating patterns in celestial motion such as lunar phases and eclipses)",
-        "Hellenistic engineering (advanced mechanical and scientific innovation in ancient Greece)",
-        "Mechanical modeling (representing natural systems using physical devices)"
+        "Arch construction, curved structural form distributing compressive force",
+        "Voussoirs, wedge-shaped stones forming an arch",
+        "Keystone, central locking stone stabilizing the arch",
+        "Load distribution, transfer of structural force into supports",
+        "Roman concrete, durable material enabling scalable structural systems",
+        "Vault engineering, expansion of arch principles into ceilings and enclosed spaces",
+        "Civil infrastructure systems, practical large-scale engineering for transportation and urban development"
       ]
     }
   }
