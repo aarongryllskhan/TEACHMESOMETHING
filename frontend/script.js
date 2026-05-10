@@ -1221,75 +1221,51 @@ function setTopicFilter(filter, btn) {
 
 let searchResults = [];
 
+let searchDebounceTimer = null;
+
 async function filterTopics(query) {
   const grid = document.getElementById('topicsGrid');
 
-  if (!query) {
+  if (!query || !query.trim()) {
     searchResults = [];
     renderCategoryList(allCategories);
     return;
   }
 
-  const q = query.toLowerCase();
+  // Debounce: wait 300ms after user stops typing
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(async () => {
+    grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Searching...</div>';
 
-  // Show loading state
-  grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Searching...</div>';
+    try {
+      const response = await fetch(`${API_URL}/search?q=${encodeURIComponent(query.trim())}`);
+      if (!response.ok) throw new Error('Search request failed');
+      const data = await response.json();
+      searchResults = data.results || [];
 
-  try {
-    // Load all lessons from all categories
-    const allLessons = [];
-    for (const category of allCategories) {
-      const lessons = await loadCategoryLessons(category.id);
-      if (lessons && lessons.length > 0) {
-        lessons.forEach(lesson => {
-          allLessons.push({
-            ...lesson,
-            categoryName: category.name,
-            categoryId: category.id
-          });
-        });
+      if (searchResults.length === 0) {
+        grid.innerHTML = '<p style="text-align:center;color:#bbb;padding:40px 0;">No topics found matching "' + query + '"</p>';
+        return;
       }
+
+      const resultsHtml = '<div class="explore-grid">' + searchResults.map((lesson, idx) => {
+        const title = cleanTitle(lesson.title, lesson.topic);
+        return `
+          <div class="explore-category-card" onclick="openSearchResult(${idx})" style="cursor:pointer;">
+            <div class="explore-category-icon" style="background:#667eea;color:white;font-size:1.8em;border-radius:14px;">📚</div>
+            <div class="explore-category-card-text">
+              <div class="explore-category-card-title">${title}</div>
+              <div class="explore-category-card-count">${lesson.categoryName}</div>
+            </div>
+          </div>`;
+      }).join('') + '</div>';
+
+      grid.innerHTML = resultsHtml;
+    } catch (error) {
+      console.error('Search error:', error);
+      grid.innerHTML = '<p style="color:#f00;text-align:center;">Error searching topics</p>';
     }
-
-    // Filter lessons by search query — search title, topic, learn content, funFact, keyTakeaway
-    searchResults = allLessons.filter(lesson => {
-      const c = lesson.lesson || lesson;
-      const searchable = [
-        lesson.title,
-        lesson.topic,
-        c.learn,
-        c.funFact,
-        c.keyTakeaway,
-        c.deeperDive,
-        c.simpler
-      ].map(s => (s || '').toLowerCase()).join(' ');
-      return searchable.includes(q);
-    });
-
-    if (searchResults.length === 0) {
-      grid.innerHTML = '<p style="text-align:center;color:#bbb;padding:40px 0;">No topics found matching "' + query + '"</p>';
-      return;
-    }
-
-    // Display search results
-    const resultsHtml = '<div class="explore-grid">' + searchResults.map((lesson, idx) => {
-      const title = cleanTitle(lesson.title, lesson.topic);
-
-      return `
-        <div class="explore-category-card" onclick="openSearchResult(${idx})" style="cursor:pointer;">
-          <div class="explore-category-icon" style="background:#667eea;color:white;font-size:1.8em;border-radius:14px;">📚</div>
-          <div class="explore-category-card-text">
-            <div class="explore-category-card-title">${title}</div>
-            <div class="explore-category-card-count">${lesson.categoryName}</div>
-          </div>
-        </div>`;
-    }).join('') + '</div>';
-
-    grid.innerHTML = resultsHtml;
-  } catch (error) {
-    console.error('Search error:', error);
-    grid.innerHTML = '<p style="color:#f00;text-align:center;">Error searching topics</p>';
-  }
+  }, 300);
 }
 
 function openSearchResult(index) {

@@ -809,6 +809,48 @@ app.get('/api/categories/:category/lessons', (req, res) => {
   }
 });
 
+// Search across all lessons
+app.get('/api/search', (req, res) => {
+  try {
+    const q = (req.query.q || '').toLowerCase().trim();
+    if (!q) return res.json({ results: [] });
+
+    const results = [];
+
+    Object.entries(categoryMapping).forEach(([categoryName, folders]) => {
+      const categoryId = categoryName.toLowerCase().replace(/\s+/g, '-');
+      folders.forEach(folderName => {
+        const folderPath = resolveFolder(folderName);
+        if (!folderPath || !fs.existsSync(folderPath)) return;
+
+        const files = fs.readdirSync(folderPath).filter(f => f.endsWith('.json') && !f.includes('_progress'));
+        files.forEach(file => {
+          try {
+            const lesson = JSON.parse(fs.readFileSync(path.join(folderPath, file), 'utf8'));
+            const c = lesson.lesson || lesson;
+            const searchable = [lesson.title, lesson.topic, c.funFact, c.learn, c.keyTakeaway, c.deeperDive, c.simpler]
+              .map(s => (s || '').toLowerCase()).join(' ');
+            if (searchable.includes(q)) {
+              results.push({
+                ...lesson,
+                subcategory: folderName,
+                _id: file.replace('.json', ''),
+                categoryName,
+                categoryId
+              });
+            }
+          } catch (e) { /* skip malformed files */ }
+        });
+      });
+    });
+
+    res.json({ results });
+  } catch (error) {
+    console.error('Search error:', error);
+    res.status(500).json({ error: 'Search failed' });
+  }
+});
+
 // Get available topics
 app.get('/api/topics', (req, res) => {
   res.json({ topics });
