@@ -14,6 +14,8 @@
     if (localStorage.getItem('tms-dark-mode') === 'true') {
       document.documentElement.classList.add('dark-init');
       document.body.classList.add('dark');
+      // Prevent white flash by setting background immediately
+      document.documentElement.style.backgroundColor = '#0B1220';
     }
   </script>
 </head>
