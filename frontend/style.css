@@ -1871,13 +1871,16 @@ header p {
 }
 
 .close-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   background: none;
   border: none;
-  font-size: 1em;
+  font-size: 0.95em;
   color: #667eea;
   cursor: pointer;
-  padding: 4px 0;
-  font-weight: 700;
+  padding: 0;
+  font-weight: 600;
 }
 
 .lesson-progress {
