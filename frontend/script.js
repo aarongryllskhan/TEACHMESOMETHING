@@ -1721,6 +1721,25 @@ let currentCardIndex = 0;
 let currentCategory = null;
 let currentLesson = null;
 
+// Called from Android widget/notification tap to open a specific lesson
+window.openLessonFromNative = async function(folder, id) {
+  try {
+    const categoriesData = await loadCategories();
+    if (!categoriesData) return;
+    const parent = categoriesData.categories.find(c =>
+      c.subCategories && c.subCategories.some(s => s === folder || s.startsWith(folder))
+    );
+    if (!parent) return;
+    const lessons = await loadCategoryLessons(parent.id);
+    const lesson = lessons.find(l => l._id === id || l.subcategory === folder && l.title === id);
+    if (lesson) {
+      currentLessonsArray = lessons.filter(l => l.subcategory === lesson.subcategory);
+      currentCardIndex = currentLessonsArray.indexOf(lesson);
+      displayFullLesson(lesson);
+    }
+  } catch(e) { console.error('openLessonFromNative:', e); }
+};
+
 // Display lesson full view
 function displayFullLesson(lesson) {
   currentLesson = lesson;

@@ -789,6 +789,7 @@ app.get('/api/categories/:category/lessons', (req, res) => {
 
             // Add metadata about which subcategory this came from
             lesson.subcategory = folderName;
+            lesson._id = file.replace('.json', '');
             allLessons.push(lesson);
           } catch (e) {
             console.warn(`Failed to parse lesson: ${file} in ${folderName}`);
