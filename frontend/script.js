@@ -487,6 +487,24 @@ function cleanImageUrl(url) {
   try { return url.split('?')[0]; } catch { return url; }
 }
 
+// Build small image attribution line from a credit object
+function imageCreditHtml(credit) {
+  if (!credit) return '';
+  const parts = [];
+  if (credit.creator) parts.push(credit.creator);
+  if (credit.source) parts.push(credit.source);
+  const text = parts.join(' / ');
+  if (!text) return '';
+  const link = credit.filePage || credit.licenseUrl || '';
+  const inner = link
+    ? `<a href="${link}" target="_blank" rel="noopener noreferrer">${text}</a>`
+    : text;
+  const licenseHtml = credit.license
+    ? ` &middot; <a href="${credit.licenseUrl || '#'}" target="_blank" rel="noopener noreferrer">${credit.license}</a>`
+    : '';
+  return `<div class="image-credit">${inner}${licenseHtml}</div>`;
+}
+
 let lessonReadStart = null;
 
 function startReadTimer() {
@@ -1744,6 +1762,8 @@ function displayFullLesson(lesson) {
   }
 
   const imageUrl = cleanImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image));
+  const heroCredit = imageCreditHtml(lesson.imageCredit || (lesson.lesson && lesson.lesson.imageCredit));
+  const midCredit  = imageCreditHtml(content.learnImageCredit || lesson.learnImageCredit);
   modal.innerHTML = `
     <div class="full-lesson-header">
       <button class="close-btn" onclick="closeFullLesson()">←Back</button>
@@ -1759,7 +1779,7 @@ function displayFullLesson(lesson) {
     </div>
 
     <div class="full-lesson-content">
-      ${imageUrl ? `<div class="lesson-hero-image"><img src="${imageUrl}" alt="${cleanTitle(lesson.title, lesson.topic)}" loading="lazy"></div>` : ''}
+      ${imageUrl ? `<div class="lesson-hero-image"><img src="${imageUrl}" alt="${cleanTitle(lesson.title, lesson.topic)}" loading="lazy">${heroCredit}</div>` : ''}
       <h2>${cleanTitle(lesson.title, lesson.topic)}</h2>
       ${!shouldHideTopicTag(lesson.title) ? `<span class="topic-tag">${lesson.topic}</span>` : ''}
 
@@ -1781,6 +1801,7 @@ function displayFullLesson(lesson) {
       ${_learnImageUrl ? `
         <div class="lesson-mid-image">
           <img src="${_learnImageUrl}" alt="${cleanTitle(lesson.title, lesson.topic)} - mid" loading="lazy">
+          ${midCredit}
         </div>
       ` : ''}
 

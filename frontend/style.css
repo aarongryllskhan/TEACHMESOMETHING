@@ -2037,6 +2037,23 @@ header p {
   display: block;
 }
 
+.image-credit {
+  font-size: 0.72em;
+  color: #999;
+  padding: 5px 8px;
+  background: rgba(0,0,0,0.03);
+  line-height: 1.4;
+}
+
+.image-credit a {
+  color: #888;
+  text-decoration: none;
+}
+
+.image-credit a:hover {
+  text-decoration: underline;
+}
+
 .full-lesson-content {
   flex: 1;
   overflow-y: auto;
@@ -2319,6 +2336,8 @@ body.dark .fun-fact-section { background: rgba(102,126,234,0.08); border-color: 
 body.dark .topic-tag { background: rgba(102,126,234,0.15); color: #9ba8f0; }
 body.dark .lesson-hero-image img { opacity: 0.82; }
 body.dark .lesson-mid-image img { opacity: 0.82; }
+body.dark .image-credit { color: #666; background: rgba(255,255,255,0.04); }
+body.dark .image-credit a { color: #666; }
 body.dark .key-elements-section { border-top-color: rgba(255,255,255,0.06); }
 body.dark .key-element-label { color: #555; }
 body.dark .key-element-values { color: #666; }
