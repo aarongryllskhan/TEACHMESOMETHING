@@ -2332,7 +2332,9 @@ body.dark .full-lesson-content { color: #c8c8de; }
 body.dark .full-lesson-content h2 { color: #f0f0fa; }
 body.dark .lesson-section { border-bottom-color: rgba(255,255,255,0.06); }
 body.dark .lesson-section-title { color: #555; }
-body.dark .fun-fact-section { background: rgba(102,126,234,0.08); border-color: rgba(102,126,234,0.2); }
+body.dark .fun-fact-section { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.15); }
+body.dark .fun-fact-section .lesson-section-title { color: #e8e8f0; }
+body.dark .fun-fact-section .lesson-section-content { color: #d4d4e8; }
 body.dark .topic-tag { background: rgba(102,126,234,0.15); color: #9ba8f0; }
 body.dark .lesson-hero-image img { opacity: 0.82; }
 body.dark .lesson-mid-image img { opacity: 0.82; }

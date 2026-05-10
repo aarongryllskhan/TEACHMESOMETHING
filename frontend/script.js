@@ -1784,7 +1784,7 @@ function displayFullLesson(lesson) {
       ${!shouldHideTopicTag(lesson.title) ? `<span class="topic-tag">${lesson.topic}</span>` : ''}
 
       <div class="lesson-section fun-fact-section">
-        <div class="lesson-section-title">✨ Did You Know?</div>
+        <div class="lesson-section-title">Did You Know?</div>
         <div class="lesson-section-content">${content.funFact || ''}</div>
       </div>
 
