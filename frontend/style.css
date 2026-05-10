@@ -2290,9 +2290,9 @@ header p {
 /* ════════════════════════════════════════════════════════
    DARK MODE
 ════════════════════════════════════════════════════════ */
-body.dark { background: #0F1419; color: #D9D9E3; }
+body.dark { background: #0B1220; color: #D9D9E3; }
 body.dark .app-topbar {
-  background: rgba(15,20,25,0.97);
+  background: rgba(11,18,32,0.97);
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 body.dark .app-logo {
@@ -2300,40 +2300,40 @@ body.dark .app-logo {
   filter: brightness(1.15);
 }
 body.dark .nav-tabs {
-  background: #151B22;
+  background: #1A2233;
   border-top: 1px solid rgba(255,255,255,0.1);
   box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
 }
 body.dark .tab-btn { color: #8B8B96; }
 body.dark .tab-btn.active { color: #667eea; }
-body.dark .daily-lesson-container { background: linear-gradient(180deg, #0F1419 0%, #151B22 100%); }
-body.dark .daily-lesson-card { background: #151B22; box-shadow: 0 20px 48px rgba(0,0,0,0.5); }
+body.dark .daily-lesson-container { background: linear-gradient(180deg, #0B1220 0%, #1A2233 100%); }
+body.dark .daily-lesson-card { background: #1A2233; box-shadow: 0 20px 48px rgba(0,0,0,0.5); }
 body.dark .daily-header { border-bottom-color: rgba(255,255,255,0.07); }
 body.dark .daily-title { color: #D9D9E3; }
 body.dark .daily-description { color: #8B8B96; }
-body.dark .explore-container { background: #0F1419; }
+body.dark .explore-container { background: #0B1220; }
 body.dark .explore-header h2 { color: #D9D9E3; }
-body.dark .explore-search { background: #151B22; border-color: rgba(255,255,255,0.08); }
+body.dark .explore-search { background: #1A2233; border-color: rgba(255,255,255,0.08); }
 body.dark .explore-search input { color: #D9D9E3; }
 body.dark .explore-search svg { stroke: #5A5A6A; }
-body.dark .explore-category-card { background: #151B22; border-color: rgba(255,255,255,0.06); }
+body.dark .explore-category-card { background: #1A2233; border-color: rgba(255,255,255,0.06); }
 body.dark .explore-category-card-title { color: #D9D9E3; }
 body.dark .explore-category-card-count { color: #8B8B96; }
-body.dark .explore-category-row { background: #151B22; border-color: rgba(255,255,255,0.06); }
-body.dark .lesson-thumb { background: #1F2533; }
+body.dark .explore-category-row { background: #1A2233; border-color: rgba(255,255,255,0.06); }
+body.dark .lesson-thumb { background: #253349; }
 body.dark .explore-category-name { color: #D9D9E3; }
 body.dark .explore-category-desc { color: #8B8B96; }
-body.dark .full-lesson-modal { background: #0F1419; }
-body.dark .full-lesson-header { background: #0F1419; border-bottom-color: rgba(255,255,255,0.07); }
+body.dark .full-lesson-modal { background: #0B1220; }
+body.dark .full-lesson-header { background: #0B1220; border-bottom-color: rgba(255,255,255,0.07); }
 body.dark .close-btn { color: #667eea; }
 body.dark .lesson-progress { color: #8B8B96; }
 body.dark .full-lesson-content { color: #D9D9E3; }
 body.dark .full-lesson-content h2 { color: #D9D9E3; }
 body.dark .lesson-section { border-bottom-color: rgba(255,255,255,0.06); }
 body.dark .lesson-section-title { color: #A0A0AA; }
-body.dark .fun-fact-section { background: rgba(253, 176, 34, 0.12); border-color: rgba(253, 176, 34, 0.25); }
-body.dark .fun-fact-section .lesson-section-title { color: #F4A460; }
-body.dark .fun-fact-section .lesson-section-content { color: #FDB022; }
+body.dark .fun-fact-section { background: rgba(245, 176, 65, 0.12); border-color: rgba(245, 176, 65, 0.25); }
+body.dark .fun-fact-section .lesson-section-title { color: #F5B041; }
+body.dark .fun-fact-section .lesson-section-content { color: #F5B041; }
 body.dark .topic-tag { background: rgba(102,126,234,0.15); color: #9ba8f0; }
 .full-lesson-content .topic-tag { background: none; padding: 0; border-radius: 0; font-size: 0.88em; font-weight: 500; color: #888; margin-bottom: 20px; display: block; }
 body.dark .full-lesson-content .topic-tag { background: none; color: #8B8B96; }
@@ -2349,30 +2349,30 @@ body.dark .references-list li { color: #8B8B96; }
 body.dark .tts-btn, body.dark .share-fact-btn { color: #8B8B96; }
 body.dark .tts-btn:hover, body.dark .share-fact-btn:hover { color: #9ba8f0; background: rgba(102,126,234,0.12); }
 body.dark .tts-btn.tts-active { color: #9ba8f0; background: rgba(102,126,234,0.15); }
-body.dark .profile-container { background: #0F1419; }
-body.dark .profile-header { background: #151B22; border-color: rgba(255,255,255,0.07); }
-body.dark .profile-avatar { background: #1F2533; border-color: rgba(102,126,234,0.3); }
-body.dark .profile-xp-card { background: #151B22; border-color: rgba(255,255,255,0.07); }
+body.dark .profile-container { background: #0B1220; }
+body.dark .profile-header { background: #1A2233; border-color: rgba(255,255,255,0.07); }
+body.dark .profile-avatar { background: #253349; border-color: rgba(124,58,237,0.3); }
+body.dark .profile-xp-card { background: #1A2233; border-color: rgba(255,255,255,0.07); }
 body.dark .xp-label { color: #A0A0AA; }
 body.dark .xp-text { color: #9ba8f0; }
 body.dark .profile-name { color: #D9D9E3; }
 body.dark .profile-level-badge { background: rgba(102,126,234,0.2); color: #9ba8f0; }
-body.dark .stat { background: #151B22; }
+body.dark .stat { background: #1A2233; }
 body.dark .stat-number { color: #D9D9E3; }
 body.dark .stat-label { color: #8B8B96; }
-body.dark .achievement { background: #151B22; border-color: rgba(255,255,255,0.06); }
-body.dark .achievement.unlocked { background: #1F2533; border-color: rgba(102,126,234,0.3); }
+body.dark .achievement { background: #1A2233; border-color: rgba(255,255,255,0.06); }
+body.dark .achievement.unlocked { background: #253349; border-color: rgba(124,58,237,0.3); }
 body.dark .achievement-name { color: #8B8B96; }
 body.dark .achievement.unlocked .achievement-name { color: #D9D9E3; font-weight: 700; }
 body.dark .achievements-section h3 { color: #A0A0AA; }
 body.dark .settings-section h3 { color: #A0A0AA; }
-body.dark .settings-row { background: #151B22; border-color: rgba(255,255,255,0.06); }
+body.dark .settings-row { background: #1A2233; border-color: rgba(255,255,255,0.06); }
 body.dark .settings-label { color: #D9D9E3; }
-body.dark .quiz-card { background: #151B22; }
+body.dark .quiz-card { background: #1A2233; }
 body.dark .quiz-question { color: #D9D9E3; }
-body.dark .quiz-option { background: #1F2533; border-color: rgba(255,255,255,0.08); color: #C5C5D5; }
-body.dark .quiz-option:hover:not(:disabled) { border-color: #667eea; background: rgba(102,126,234,0.1); }
+body.dark .quiz-option { background: #253349; border-color: rgba(255,255,255,0.08); color: #C5C5D5; }
+body.dark .quiz-option:hover:not(:disabled) { border-color: #7C3AED; background: rgba(124,58,237,0.1); }
 body.dark .quiz-result-msg { color: #C5C5D5; }
-body.dark .quiz-retry-btn { background: #1F2533; color: #C5C5D5; }
-body.dark .quiz-progress-track { background: #1F2533; }
+body.dark .quiz-retry-btn { background: #253349; color: #C5C5D5; }
+body.dark .quiz-progress-track { background: #253349; }
 body.dark .quiz-counter { color: #8B8B96; }
