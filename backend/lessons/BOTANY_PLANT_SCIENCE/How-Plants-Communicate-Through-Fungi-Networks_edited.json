@@ -1,29 +1,68 @@
 {
-  "topic": "Plant-Fungal Interactions in Ecosystems",
-  "title": "Mycorrhizal Relationships in Ecosystems: Understanding Fungal-Plant Interactions",
+  "topic": "Fungi Networks",
+  "title": "How Fungi Help Plants Share Nutrients Underground",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mycorrhizal_network.svg",
+  "imageCredit": {
+    "creator": "Charlotte Roy, Salsero35, Nefronus",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mycorrhizal_network.svg"
+  },
   "lesson": {
-    "learn": "Studies have consistently shown that over 80% of terrestrial plant species have co-evolved with arbuscular mycorrhizal fungi, which form symbiotic relationships in the root systems of these plants (Brundrett, 2009). Specifically, research in the Hoh Rainforest, Washington, has demonstrated that the average plant in this ecosystem has approximately 1.5 km of arbuscular mycorrhizal fungi within its root system (Simard et al., 1997).",
-    "simpler": "Mycorrhizal networks enable plants to share nutrients, water, and carbon through extensive fungal relationships.",
-    "keyTakeaway": "Mycorrhizal networks facilitate complex plant interactions, illustrating the adaptive dynamics within plant communities and underlining the importance of understanding plant-fungal communication for optimizing ecosystem functioning and conservation.",
-    "deeperDive": "Empirical evidence has elucidated the mechanisms underlying fungal-plant interactions. For instance, studies have shown that mycorrhizal networks facilitate the transfer of carbon between plants, with estimates suggesting that plants sharing mycorrhizal networks can receive up to 20% of their carbon requirements from neighboring plants (Smith and Read, 2008). This carbon exchange is primarily mediated through mycelial networks, which connect fungal hyphae to plant roots and facilitate the flow of nutrients and water. Research has also highlighted the critical role of fungal networks in soil health, with species such as Pisolithus arrhizus facilitating the decomposition of organic matter and maintaining soil fertility (Dighton et al., 2004). The influence of mycorrhizal networks on plant growth and morphology has also been well-characterized, with studies indicating that plants within these networks exhibit increased growth rates, root length, and soil exploration (Brose and Richardson, 2011).",
-    "funFact": "The Armillaria ostoyae fungus, also known as the 'honey mushroom', has been found to form extensive networks, covering an area of approximately 2,200 acres in the Blue Mountains of Oregon, USA. A 2014 study estimated the age of this fungal network to be approximately 1,900 years old, making it one of the largest known fungal organisms in the world (Hibbett et al., 2014).",
+    "learn": "Many plants do not live underground alone. Their roots often form partnerships with fungi that extend the plant's reach into the soil and help move water and minerals back to the plant. In a mycorrhizal relationship, the fungus gains sugars from the plant while the plant gains access to a much larger absorptive network. That exchange can improve nutrient uptake, drought tolerance, and resilience to stress. What looks like hidden dirt is really an active biological partnership. In forests and grasslands, those fungal links can influence how communities grow, compete, and recover.",
+    "simpler": "Fungi can act like extra root helpers. They help plants get water and nutrients, and the plant pays them with sugar.",
+    "keyTakeaway": "Mycorrhizal fungi turn roots into a larger underground exchange system, making plant survival more efficient.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mycorrhizal_fungus.svg",
+    "learnImageCredit": {
+      "creator": "Natr",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mycorrhizal_fungus.svg"
+    },
+    "deeperDive": "The ecological importance goes beyond one plant and one fungus. Mycorrhizal networks can connect multiple plants and shift nutrients through a shared soil system, especially in nutrient-poor environments.\n\nResearchers study these networks to understand forest health, restoration ecology, and crop productivity. The science is still developing, but the basic idea is clear: the underground world is busier than it looks.",
+    "funFact": "Some fungi are mutualistic, some are parasitic, and some switch roles depending on the situation, which makes soil biology wonderfully messy.",
+    "references": [
+      "Britannica - Mycorrhiza",
+      "USDA Forest Service - Mycorrhizal fungi",
+      "Nature Education - Fungal symbiosis",
+      "Kew Science - Soil ecology"
+    ],
     "keyElements": {
       "people": [
-        "Dr. Suzanne Simard - ecologist who elucidated the mechanisms of mycorrhizal networks"
+        "Suzanne Simard - Forest communication research",
+        "David Read - Mycorrhizal ecology",
+        "Paul Stamets - Fungal networks and outreach",
+        "Robin Wall Kimmerer - Plant-fungi relationships"
       ],
       "places": [
-        "Hoh Rainforest, Washington - site of extensive research on plant-fungal interactions"
+        "Temperate forests - Strong mycorrhizal activity",
+        "Kew Gardens - Soil and root research",
+        "University forest plots - Ecological studies",
+        "Agricultural soils - Crop symbiosis research"
       ],
       "years": [
-        "1997 - year in which Dr. Simard first reported the existence of mycorrhizal networks"
+        "1880s - Mycorrhiza is recognized",
+        "1990s - Forest network ecology expands",
+        "2000s - Symbiosis gains wider attention",
+        "2020s - Soil microbiomes become central to plant science"
       ],
       "concepts": [
-        "Mycorrhizal network - complex web of fungal relationships between plants and fungi",
-        "Mycelium - network of fungal hyphae that facilitate nutrient and water exchange between plants",
-        "Fungal-plant communication - exchange of resources, water, and chemical signals via fungal hyphae",
-        "Symbiosis - close, long-term relationship between two or more species",
-        "Soil health - maintenance of soil quality through microbial activity and nutrient cycling"
+        "Mycorrhiza - Root and fungus partnership",
+        "Mutualism - Both species benefit",
+        "Hyphae - Fungal threads that explore soil",
+        "Nutrient exchange - Trading sugars for minerals",
+        "Belowground network - Connected soil system"
       ]
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mycorrhiza.svg",
+    "thirdImageCredit": {
+      "creator": "Nefronus",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mycorrhiza.svg"
     }
   }
 }

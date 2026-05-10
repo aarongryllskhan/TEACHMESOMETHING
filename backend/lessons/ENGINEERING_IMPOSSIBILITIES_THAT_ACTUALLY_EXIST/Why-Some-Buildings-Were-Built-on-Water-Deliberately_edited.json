@@ -1,33 +1,66 @@
 {
-  "topic": "Floating Architecture",
-  "title": "Understanding the Methods Behind Floating Wonders of the World",
+  "topic": "Buildings Built on Water",
+  "title": "Why People Deliberately Build Homes Over Water",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tay_stilt_house.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Binh Giang",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tay_stilt_house.png"
+  },
   "lesson": {
-    "learn": "The concept of floating architecture, where buildings are constructed on water, has its roots in the 19th century. One of the earliest examples of this phenomenon is the 1890s' floating dock in London's Albert Dock, which showcased the potential for large-scale, water-based construction projects. Today, designers and engineers utilize cutting-edge technology, such as pontoons and catamarans, to create stable and innovative structures that push the boundaries of traditional architecture. By understanding the physics behind buoyancy and implementing precise designs, architects can build structures that defy gravity, offer breathtaking views, and provide unique living experiences.",
-    "simpler": "Imagine designing a structure that supports its own weight without touching the seafloor, like a sailboat balanced on calm waters. To achieve this, engineers rely on the principle of buoyancy, which states that a floating object displaces a volume of fluid equal to its own weight. By carefully calculating the displacement of water beneath the structure and distributing its weight evenly, architects can build buildings that 'float' on water.",
-    "keyTakeaway": "The critical aspect of floating architecture is the balance between the structure's weight and the buoyant force exerted by the water. Architects must carefully consider the weight distribution, material choice, and foundation design to ensure the structure remains stable and secure.",
-    "deeperDive": "Notable examples of floating architecture include the Maldives' Four Seasons Resort, which features 102 overwater villas that provide unparalleled access to the Indian Ocean, and the Netherlands' Floating Homes project, a 20-home development that showcases sustainable and adaptive housing solutions. The Marina Bay Sands hotel and casino in Singapore boasts a massive rooftop garden that appears to float above the city skyline, achieving remarkable stability through a sophisticated system of piers and pontoons. To achieve these feats, engineers draw upon cutting-edge technology, such as advanced materials, precision engineering, and sophisticated design software.",
-    "funFact": "The first floating home was designed by Finnish architect Alvar Aalto in 1935, a pioneering example of modernist design that blended functionality and aesthetics.",
+    "learn": "People build on water or over wet ground for several practical reasons. In flood-prone regions, stilt houses and floating homes can stay above rising water. In coastal cities and river settlements, building close to the water makes trade, fishing, and transport easier. The result is architecture that works with the environment instead of fighting it.\n\nThese homes are not accidents or makeshift solutions. They are deliberate responses to climate, terrain, and local culture. When designed well, they can be safer, cooler, and more adaptable than buildings forced onto unstable land.",
+    "simpler": "Some homes are built on stilts or floats so they can live with floods and water instead of being destroyed by them.",
+    "keyTakeaway": "Buildings are built on water when living above or beside it is safer and more practical than moving away from it.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Floating_houses.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Milei.vencel, Hungary",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Floating_houses.JPG"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Tai_O_stilt_houses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "No machine-readable author provided. Enochlau assumed (based on copyright claims).",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tai_O_stilt_houses.jpg"
+    },
+    "deeperDive": "Water-based architecture often uses piles, pontoons, buoyant foundations, or lightweight frames. The exact design depends on waves, tides, soil strength, and how much the water level changes through the year. In some places, homes are elevated to avoid flood damage; in others, they actually float and rise with the water.\n\nThese structures also show that architecture is cultural as well as technical. Stilt villages, houseboats, and floating neighborhoods can support local ways of life while reducing risk. Good design here is not about making water disappear. It is about building a stable relationship with a changing landscape.",
+    "funFact": "Some floating homes rise and fall with the water instead of resisting it.",
+    "references": [
+      "Britannica - stilt houses and floating architecture",
+      "UN-Habitat - resilient housing in flood-prone areas",
+      "National Geographic - life in water-based settlements"
+    ],
     "keyElements": {
       "people": [
-        "* Alvar Aalto (Finnish architect and designer)",
-        "* Norman Foster (British architect and Pritzker Prize winner)",
-        "* Santiago Calatrava (Spanish-Swiss architect and engineer)"
+        "Traditional builders - communities that adapted homes to local water conditions",
+        "Architects of floating housing - modern designers of adaptable homes",
+        "Urban planners - people who design flood-resilient districts",
+        "Coastal residents - families who live with tides and seasonal water changes"
       ],
       "places": [
-        "* The Maldives (island nation famous for its luxury resorts)",
-        "* Singapore (city-state with a thriving architecture scene)",
-        "* Amsterdam (Dutch city known for its canals and floating homes)"
+        "Tai O, Hong Kong - stilt-house community",
+        "Tonle Sap region, Cambodia - floating settlements",
+        "Vietnamese river deltas - areas with stilt housing",
+        "Amsterdam, Netherlands - floating and water-adapted architecture"
       ],
       "years": [
-        "* 1935 (year Alvar Aalto built the first floating home)",
-        "* 2006 (year Marina Bay Sands began construction in Singapore)",
-        "* 2010 (year the Four Seasons Resort opened in the Maldives)"
+        "Ancient times - stilt construction appears in flood-prone regions",
+        "Medieval era - canal cities expand water-based building",
+        "20th century - houseboats and floating neighborhoods modernize",
+        "21st century - climate resilience revives interest in water-adapted homes"
       ],
       "concepts": [
-        "* Buoyancy (the upward force exerted by a fluid that opposes the weight of an immersed object)",
-        "* Pontoons (floating structures used to support buildings or bridges)",
-        "* Catamarans (types of boats with two parallel hulls, often used for building foundations on water)",
-        "* Tensile architecture (designing structures that use tension to resist external loads)"
+        "Stilt foundation - raised support structure",
+        "Pontoons - buoyant supports that float",
+        "Flood resilience - the ability to survive high water",
+        "Buoyancy - the upward force that keeps things afloat",
+        "Water-adapted design - architecture shaped by hydrology"
       ]
     }
   }

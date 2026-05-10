@@ -1,41 +1,74 @@
 {
   "topic": "Why Skyscrapers Sway in the Wind",
   "title": "Understanding Structural Dynamics and Wind Response in Modern Skyscraper Design",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Taipei_101_from_afar.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20070210143721",
+  "imageCredit": {
+    "creator": "Peellden",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 2.5 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Taipei_101_from_afar.jpg"
+  },
   "lesson": {
-    "learn": "Skyscrapers are designed to sway slightly in response to wind and other dynamic forces, rather than remain completely rigid. This movement is a controlled and expected part of structural engineering, allowing tall buildings to safely dissipate energy from wind loads, seismic activity, and vibration sources. In cities such as New York, Chicago, and Hong Kong, wind tunnel testing and computational fluid dynamics are used during design to predict how air flows around building shapes. Depending on height, mass distribution, and stiffness, the top of a skyscraper may move tens of centimetres in strong winds. This flexibility reduces internal stress on materials and prevents structural fatigue over time while maintaining overall safety and comfort for occupants.",
-    "simpler": "Tall buildings move slightly in the wind because they are designed to bend and flex instead of staying completely stiff. This is similar to how a tall tree bends during a storm instead of breaking. The movement helps the building absorb wind forces safely so it does not get damaged.",
-    "keyTakeaway": "Controlled sway is an essential part of skyscraper safety, allowing wind energy to be absorbed and distributed throughout the structure instead of causing damage.",
-    "deeperDive": "The movement of skyscrapers is governed by structural dynamics, particularly the relationship between stiffness, mass, damping, and natural frequency. When wind flows around a tall building, it can create vortex shedding, which induces oscillating forces at specific frequencies. Engineers counteract this using techniques such as tuned mass dampers, aerodynamic shaping, and outrigger systems that increase stiffness and reduce motion amplitude. For example, Taipei 101 uses a massive tuned mass damper to reduce wind-induced sway, while modern supertall towers like the Shanghai Tower incorporate twisted geometries to disrupt wind flow patterns. Wind tunnel testing at scale models remains a standard method for validating computational predictions and ensuring occupant comfort limits are not exceeded.",
-    "funFact": "Some skyscrapers include giant suspended weights inside them that move in the opposite direction of the building’s sway to cancel out motion, like a built-in counterbalance system.",
+    "learn": "Modern skyscrapers are intentionally designed to sway slightly under wind and other dynamic forces rather than remain perfectly rigid. This controlled movement is a fundamental principle of structural engineering, allowing tall buildings to absorb, distribute, and dissipate energy from wind, seismic events, thermal expansion, and vibration without dangerous structural failure. As buildings rise higher into the atmosphere, wind becomes one of the most significant engineering challenges because velocity and pressure often increase with elevation. In major urban centers such as New York, Chicago, Hong Kong, and Shanghai, engineers use wind tunnel testing, meteorological analysis, and computational fluid dynamics to predict how air interacts with skyscraper geometry. Depending on structural stiffness, height, and environmental conditions, the upper floors of supertall towers may move by centimeters—or even more during severe storms. This flexibility is not a flaw; it reduces internal stress, material fatigue, and the likelihood of catastrophic cracking by allowing buildings to bend safely rather than resist all movement.",
+    "simpler": "Tall buildings move slightly in strong winds because they are designed to bend safely instead of staying completely stiff. Like a tree bending during a storm, this movement helps absorb energy and prevents structural damage.",
+    "keyTakeaway": "Controlled sway is essential to skyscraper safety because flexibility allows wind forces to be absorbed and managed, reducing structural stress while protecting both the building and its occupants.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/4/49/Taipei_101_tuned_mass_damper.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20120811012314",
+    "learnImageCredit": {
+      "creator": "Hadge at Japanese Wikipedia",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Taipei_101_tuned_mass_damper.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Taipei%20101%20tuned%20mass%20damper.jpg",
+    "thirdImageCredit": {
+      "creator": "Hadge at Japanese Wikipedia",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Taipei_101_tuned_mass_damper.jpg"
+    },
+    "deeperDive": "The motion of skyscrapers is governed by structural dynamics, particularly the balance between mass, stiffness, damping, and natural frequency. When wind flows around a tall structure, it can create vortex shedding—alternating low-pressure vortices that generate oscillating lateral forces. If these oscillations approach a building’s natural frequency, resonance may amplify sway significantly. Engineers combat this using several advanced systems. Tuned mass dampers (TMDs), such as Taipei 101’s famous 660-ton pendulum, act as giant counterweights that move opposite the building’s motion, reducing oscillation. Aerodynamic shaping strategies—including tapered profiles, setbacks, rounded corners, and twisting forms—disrupt organized vortex formation. Outrigger systems connect central cores to perimeter columns, increasing stiffness and improving load distribution. Fazlur Rahman Khan’s tube-frame structural systems revolutionized tall-building design by creating efficient lateral resistance systems that dramatically improved height potential. Modern supertalls such as Shanghai Tower and Burj Khalifa further optimize geometry to confuse wind patterns and reduce synchronized aerodynamic loading. Wind tunnel testing remains a global standard because even subtle design adjustments can dramatically change force behavior. Engineers must also design for occupant comfort, since excessive sway can trigger motion sickness even when structural safety remains intact. This means skyscraper design is not only about preventing collapse, but also about balancing performance, efficiency, and human experience.",
+    "funFact": "Taipei 101’s massive tuned mass damper is so iconic that visitors can actually see it inside the building, making one of the world’s most advanced engineering systems part of the tourist experience.",
+    "references": [
+      "Council on Tall Buildings and Urban Habitat (CTBUH) — Tall-building systems and wind engineering.",
+      "American Society of Civil Engineers (ASCE) — Structural dynamics and high-rise design.",
+      "National Institute of Standards and Technology (NIST) — Wind effects on tall structures.",
+      "Skidmore, Owings & Merrill engineering archives — Fazlur Rahman Khan and tube systems.",
+      "Taipei 101 official engineering documentation — Tuned mass damper and wind control.",
+      "Encyclopaedia Britannica — Skyscraper development and structural engineering."
+    ],
     "keyElements": {
       "people": [
-        "Fazlur Rahman Khan – structural engineer who pioneered modern tube-frame skyscraper design",
-        "William LeMessurier – engineer known for advanced wind-load structural analysis in tall buildings",
-        "Buckminster Fuller – designer and theorist who influenced lightweight structural systems and geodesic design",
-        "Santiago Calatrava – architect and engineer known for dynamic, movement-inspired structural forms",
-        "Bruce G. Johnston – engineer known for contributions to wind engineering and structural response analysis"
+        "Fazlur Rahman Khan — Structural engineer who pioneered tube-frame skyscraper systems",
+        "William LeMessurier — Engineer known for wind-load structural analysis",
+        "Bruce G. Johnston — Structural engineer contributing to wind engineering",
+        "Santiago Calatrava — Architect-engineer associated with dynamic structural forms",
+        "Modern wind engineers — Specialists in skyscraper aerodynamic design"
       ],
       "places": [
-        "New York City, USA – dense cluster of supertall skyscrapers exposed to strong wind channeling effects",
-        "Chicago, USA – birthplace of modern skyscraper engineering and wind-load design innovation",
-        "Hong Kong – region known for extremely tall buildings designed for typhoon-level wind conditions",
-        "Taipei 101, Taipei, Taiwan – landmark tower featuring one of the world’s largest tuned mass dampers",
-        "Shanghai, China – home to ultra-tall skyscrapers with aerodynamic twisting designs"
+        "Taipei 101, Taipei, Taiwan — Landmark tower with major tuned mass damper system",
+        "New York City, USA — Major center of skyscraper development",
+        "Chicago, USA — Birthplace of modern skyscraper structural innovation",
+        "Hong Kong — High-rise region designed for typhoon resistance",
+        "Shanghai Tower, China — Aerodynamically optimized supertall skyscraper"
       ],
       "years": [
-        "1885 – completion of the Home Insurance Building, early precursor to modern skyscraper engineering",
-        "1970s – development of tube structural systems for tall buildings by Fazlur Rahman Khan",
-        "2004 – completion of Taipei 101 with advanced wind damping technology",
-        "2010 – completion of Burj Khalifa with extensive aerodynamic optimisation",
-        "2020s – widespread use of computational fluid dynamics in skyscraper design"
+        "1885 — Home Insurance Building completed",
+        "1970s — Tube structural systems revolutionize skyscraper engineering",
+        "2004 — Taipei 101 completed",
+        "2010 — Burj Khalifa completed",
+        "21st century — Computational fluid dynamics becomes standard"
       ],
       "concepts": [
-        "Structural dynamics – study of how structures respond to time-varying forces",
-        "Vortex shedding – oscillating wind forces created by airflow separation around tall structures",
-        "Tuned mass dampers – systems used to reduce building motion through counteracting mass movement",
-        "Aerodynamic shaping – designing building forms to reduce wind resistance and turbulence",
-        "Natural frequency – inherent vibration rate of a structure under dynamic loading",
-        "Damping systems – mechanisms that reduce oscillation amplitude in structures"
+        "Structural dynamics — Response of structures to changing forces",
+        "Vortex shedding — Wind-induced oscillating force generation",
+        "Tuned mass dampers — Counter-motion stabilization systems",
+        "Aerodynamic shaping — Building geometry optimized for wind reduction",
+        "Natural frequency — Inherent vibration rate",
+        "Damping systems — Mechanisms reducing oscillation",
+        "Resonance prevention — Avoidance of amplified structural vibration"
       ]
     }
   }

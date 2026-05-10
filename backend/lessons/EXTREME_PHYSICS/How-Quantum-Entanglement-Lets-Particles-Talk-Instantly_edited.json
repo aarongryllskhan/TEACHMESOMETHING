@@ -1,0 +1,67 @@
+{
+  "topic": "Quantum Entanglement",
+  "title": "How Entangled Particles Stay Linked Across Vast Distances",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Entanglement.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Quantuwiki",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Entanglement.PNG"
+  },
+  "lesson": {
+    "learn": "Quantum entanglement happens when two or more particles share a linked quantum state. Measure one particle, and the result is correlated with the other, even if they are far apart. That sounds like instant communication, but it is not a faster-than-light message system. The particles do not send information in the normal sense.\n\nEntanglement is still one of the most counterintuitive features of quantum physics. It forced scientists to rethink what it means for objects to have separate properties.",
+    "simpler": "Entangled particles stay connected in a quantum way. When you measure one, the other is linked to the result.",
+    "keyTakeaway": "Entanglement creates real correlations at a distance, but it does not let us send messages faster than light.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/2d/EPR_paradox_illustration.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "PNG by en:User:CSTAR, SVG by Zazou",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:EPR_paradox_illustration.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Bell%27s_inequality.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Rafimoor",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bell's_inequality.svg"
+    },
+    "deeperDive": "Einstein, Podolsky, and Rosen thought entanglement showed quantum mechanics had to be incomplete. Later experiments based on Bell's inequalities showed that quantum correlations are real and cannot be explained by ordinary hidden-variable ideas alone. That does not mean physics is broken. It means the world is more nonclassical than everyday intuition suggests.\n\nEntanglement is now central to quantum computing, cryptography, and foundational physics. What once looked like a philosophical puzzle is now a practical resource.",
+    "funFact": "Entanglement is already useful in quantum computers.",
+    "references": [
+      "Britannica - quantum entanglement",
+      "Stanford Encyclopedia of Philosophy - Bell's theorem",
+      "NIST - quantum information science"
+    ],
+    "keyElements": {
+      "people": [
+        "Albert Einstein - challenged the completeness of quantum theory",
+        "John Bell - proved the key inequality",
+        "Quantum information researchers - scientists using entanglement",
+        "Experimental physicists - people testing Bell violations"
+      ],
+      "places": [
+        "Quantum labs - where entanglement is created and measured",
+        "CERN and university labs - sites of quantum optics experiments",
+        "Computing centers - where quantum information is developed",
+        "Research institutes - places where Bell tests are performed"
+      ],
+      "years": [
+        "1935 - EPR paradox is proposed",
+        "1964 - Bell's theorem changes the debate",
+        "Late 20th century - experiments confirm quantum correlations",
+        "Present day - entanglement powers quantum technologies"
+      ],
+      "concepts": [
+        "Entanglement - linked quantum states",
+        "Correlation - related outcomes between measurements",
+        "Bell inequality - a test for hidden-variable explanations",
+        "Nonlocality - correlations that are not explained classically",
+        "Quantum information - information encoded in quantum states"
+      ]
+    }
+  }
+}

@@ -1,39 +1,68 @@
 {
-  "topic": "Photosynthesis and Its Importance",
-  "title": "Understanding Photosynthesis: The Process of Converting Light Energy into Chemical Energy",
+  "topic": "Photosynthesis",
+  "title": "How Plants Turn Sunlight Into Chemical Energy",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Photosynthesis.svg",
+  "imageCredit": {
+    "creator": "Marek M",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Photosynthesis.svg"
+  },
   "lesson": {
-    "learn": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose. This process occurs within specialized organelles called chloroplasts, where pigments such as chlorophyll absorb light energy and drive the conversion of carbon dioxide and water into glucose and oxygen.",
-    "simpler": "Think of photosynthesis as a factory that uses sunlight to create food for plants. Just like how cars need gasoline to move, plants use sunlight to grow and produce their own food. This process also releases oxygen into the air, which is essential for humans and other animals to breathe.",
-    "keyTakeaway": "The foundation of life on Earth, photosynthesis provides energy and oxygen for all living organisms through the conversion of sunlight into chemical energy.",
-    "deeperDive": "Recent studies have shown that different wavelengths of light can stimulate specific reactions within the chloroplast, influencing the overall efficiency of photosynthesis. For example, blue light is thought to play a crucial role in regulating stomatal opening, allowing plants to optimize CO2 uptake and water loss. Furthermore, scientists have developed innovative technologies to harness the power of photosynthesis, such as biohybrid solar cells that mimic plant-based light-harvesting mechanisms.",
-    "funFact": "Some plants can survive in extremely low-light conditions, such as the Venus flytrap, which can thrive in environments with only 1-2% of the sunlight found on Earth's surface. Additionally, researchers have discovered that certain types of bacteria can even photosynthesize underwater, using pigments to absorb light from below the surface.",
+    "learn": "Photosynthesis is the process that lets plants turn sunlight into stored chemical energy. In chloroplasts, chlorophyll absorbs light and starts a chain of reactions that move electrons, split water, and release oxygen. The first stage captures energy as ATP and NADPH, then the Calvin cycle uses that energy to build sugars from carbon dioxide. The plant is not just collecting light; it is converting that light into fuel that can support growth, repair, and reproduction. That is why photosynthesis matters far beyond the leaf itself. It supports almost every ecosystem on Earth and keeps the atmosphere supplied with oxygen.",
+    "simpler": "Photosynthesis is how plants make sugar from sunlight, water, and carbon dioxide. It also gives the rest of us the oxygen we breathe.",
+    "keyTakeaway": "Photosynthesis turns light into food and oxygen, making it one of the most important chemical processes on Earth.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/I_can_photosynthesis.svg",
+    "learnImageCredit": {
+      "creator": "Kelvinsong",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:I_can_photosynthesis.svg"
+    },
+    "deeperDive": "The details matter because light reactions and carbon fixation are separated in space and function. Chloroplast membranes handle the energy transfer, while the Calvin cycle focuses on carbon building.\n\nScientists study this process to improve crop yields, design artificial leaves, and build cleaner ways to capture solar energy. Even small changes in leaf structure, enzyme activity, or light quality can change how much carbon a plant can store.",
+    "funFact": "Some plants adjust their light capture depending on the season, leaf angle, and cloud cover, which makes photosynthesis much more dynamic than the textbook diagram suggests.",
+    "references": [
+      "Britannica - Photosynthesis",
+      "Kew Science - Plant physiology",
+      "Nature Education - Photosynthesis overview",
+      "National Geographic - How plants make food"
+    ],
     "keyElements": {
       "people": [
-        "Jan van Helmont (Flemish chemist, 17th century)",
-        "Joseph Priestley (English chemist, 1774)",
-        "Hans Krebs (German-born British biochemist, 1960s)",
-        "Robert Hill (British biochemist, 1980s)"
+        "Jan van Helmont - Early plant growth experiments",
+        "Joseph Priestley - Oxygen and plant experiments",
+        "Jan Ingenhousz - Showed light is essential",
+        "Melvin Calvin - Mapped the Calvin cycle"
       ],
       "places": [
-        "University of Cambridge (site of early research on photosynthesis)",
-        "Royal Botanic Gardens, Kew (world-renowned institution dedicated to botanical research and conservation)",
-        "Institute for Photosynthetic Research (IPR) (leading international center for photosynthesis research in Australia)",
-        "NASA's Kennedy Space Center (site of experiments using plant-based life support systems for space exploration)"
+        "Royal Botanic Gardens, Kew - Plant physiology research",
+        "University of Cambridge - Classic plant science work",
+        "Max Planck Institute - Photosynthesis studies",
+        "NASA plant research programs - Space biology applications"
       ],
       "years": [
-        "1630s (van Helmont proposes the concept of photosynthesis)",
-        "1774 (Joseph Priestley isolates oxygen and demonstrates its role in plant respiration)",
-        "1960s (Hans Krebs elucidates the citric acid cycle)",
-        "1980s (Robert Hill discovers the light-dependent reactions)",
-        "2010s (advancements in genomics and synthetic biology)"
+        "1630s - Van Helmont studies plant mass",
+        "1770s - Priestley and Ingenhousz establish key ideas",
+        "1940s - The Calvin cycle is worked out",
+        "2020s - Artificial photosynthesis remains an active field"
       ],
       "concepts": [
-        "Chlorophyll (green pigment that absorbs light energy and drives photosynthesis)",
-        "Light-Dependent Reactions (LDR) (initial stage of photosynthesis)",
-        "Calvin Cycle (CC) (second stage of photosynthesis)",
-        "Photosystem I (PSI) and II (PSII) (protein complexes responsible for absorbing different wavelengths of light)",
-        "Stomata (small openings on plant leaves that regulate gas exchange)"
+        "Chloroplast - Organelle where photosynthesis happens",
+        "Light reactions - Energy capture stage",
+        "Calvin cycle - Carbon building stage",
+        "Stomata - Pores that control gas exchange",
+        "ATP and NADPH - Energy carriers made in the light reactions"
       ]
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Simple_photosynthesis_overview.svg",
+    "thirdImageCredit": {
+      "creator": "Pisum, Yikrazuul, Pascal Corpet",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Simple_photosynthesis_overview.svg"
     }
   }
 }

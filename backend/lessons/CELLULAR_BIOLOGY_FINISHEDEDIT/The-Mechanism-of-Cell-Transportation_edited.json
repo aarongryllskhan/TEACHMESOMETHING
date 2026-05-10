@@ -1,12 +1,41 @@
 {
   "topic": "The Mechanism of Cell Transportation",
   "title": "How Cells Transport Substances Across Their Membranes: Understanding the Complexity of Cellular Exchange",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sodium-potassium_pump.svg",
+  "imageCredit": {
+    "creator": "sonia (derivative work based on NaKpompe2.jpg by Phi-Gastrein)",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Sodium-potassium_pump.svg"
+  },
   "lesson": {
-    "learn": "Cell transportation is a critical process by which cells move substances across their membranes, either from outside to inside or vice versa. This intricate mechanism involves various proteins and cellular structures working together to regulate what enters and leaves the cell. For example, in neurons, cell transportation plays a vital role in delivering critical neurotransmitters and neurotransmitter receptors, facilitating communication between neurons. Similarly, in red blood cells, cell transportation enables the exchange of oxygen and carbon dioxide between the cell and the surrounding environment. The importance of cell transportation is underscored by the fact that disruptions in this process can lead to devastating diseases such as cystic fibrosis, which affects approximately 1 in every 2,500 infants in the United States (CF Foundation, 2022). Understanding cell transportation is essential for developing novel therapeutic strategies to treat various conditions, including neurological disorders, cancer, and autoimmune diseases.",
-    "simpler": "Think of your body's cells as delivery trucks that carry goods across their borders, using roads and highways that are carefully maintained and regulated. Cell transportation is akin to the intricate network of roads, highways, and traffic control systems that allow for efficient and safe delivery of goods. Just as traffic rules ensure smooth travel, cell transportation relies on special proteins and pathways to regulate the movement of substances in and out of the cell.",
-    "keyTakeaway": "The ability of cells to regulate what enters and leaves their membranes is critical for maintaining cellular balance and preventing damage. This complex mechanism involves intricate interactions between proteins and cellular structures, such as clathrin-coated pits and vesicles, which are essential for efficient transportation.",
-    "deeperDive": "Research has revealed that cell transportation is not limited to the movement of small molecules; it also plays a critical role in the transport of complex cargo, such as proteins, lipids, and even organelles. For instance, the motor protein dynein is responsible for transporting cargo along microtubules to the trans-Golgi network, where it undergoes further modification and sorting. Moreover, the clathrin-mediated endocytosis pathway is a key mechanism for internalizing extracellular molecules, including pathogens, which is essential for immune function.",
-    "funFact": "In recent studies, researchers have discovered that certain cells, such as neurons, use specialized 'cargo pumps' to transport specific molecules against concentration gradients, often using energy-intensive processes like ATP hydrolysis (Zhang et al., 2018). Similarly, some bacteria have developed sophisticated mechanisms to hijack host cell transportation pathways, highlighting the complex interplay between host and pathogen in cellular communication.",
+    "learn": "Cells survive by controlling what crosses their membranes. Pumps, channels, endocytosis, exocytosis, and vesicle traffic move ions, nutrients, proteins, and waste in a tightly managed flow. The membrane is not just a wall; it is a selective gate that lets the cell keep its internal chemistry stable while still exchanging materials with the outside world.\n\nThat balance is what makes transport so central to life. When it works, cells stay organized and responsive. When it fails, nerve signaling, kidney function, and digestion can all break down fast.",
+    "simpler": "Cells use pumps and vesicles like a tiny shipping system. They bring in what is useful, move out what is waste, and keep the membrane under control.",
+    "keyTakeaway": "Cell transport is the cell’s logistics network: selective, energy-aware, and essential for survival.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Golgi_apparatus_%28standalone_version%29-en.svg",
+    "learnImageCredit": {
+      "creator": "Kelvinsong",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Golgi_apparatus_(standalone_version)-en.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Ribosome.png",
+    "thirdImageCredit": {
+      "creator": "pluma",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ribosome.png"
+    },
+    "deeperDive": "Some transport is passive, such as diffusion or facilitated diffusion, where molecules move down a concentration gradient. Other transport is active and requires ATP, especially when cells need to move ions or cargo against that gradient. That is why the sodium-potassium pump is so important in nerve and muscle cells: it helps maintain electrical balance and keeps cells ready to respond.\n\nLarger cargo moves through vesicles, which bud, travel, and fuse with target membranes. The Golgi apparatus sorts and packages many of those molecules, while membrane proteins decide where they should go next. The result is a controlled delivery system that is far more precise than a simple leak or opening would ever be.",
+    "funFact": "A lot of a cell’s energy budget goes into keeping transport gradients ready for the next signal.",
+    "references": [
+      "NCBI Bookshelf - membrane transport and vesicle trafficking",
+      "Nature Education - cell membranes and transport",
+      "Britannica - endocytosis and exocytosis"
+    ],
     "keyElements": {
       "people": [
         "* Dr. Christiane NÃ¼sslein-Volhard - Nobel laureate who contributed significantly to our understanding of cellular transport",

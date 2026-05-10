@@ -1,38 +1,65 @@
 {
-  "topic": "Enhanced Cybersecurity Through Two-Factor Authentication",
-  "title": "Technical Analysis of Two-Factor Authentication Protocols",
+  "topic": "The Genius of Two-Factor Authentication",
+  "title": "Why one password is no longer enough",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Logging%20in%20with%202FA%20on%20Wikipedia.png",
+  "imageCredit": {
+    "creator": "Newslinger",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Logging_in_with_2FA_on_Wikipedia.png"
+  },
   "lesson": {
-    "learn": "Two-factor authentication (2FA) is a robust security mechanism that was first introduced in 1978 through the concept of public-key cryptography by Whitfield Diffie and Martin Hellman in their seminal paper, 'New Directions in Cryptography.' Their work laid the foundation for the development of digital signatures, which provided a cryptographic proof of the identity of a message's sender.\n\nIn the 1980s, the introduction of one-time passwords (OTPs) significantly enhanced the security of 2FA systems. OTPs are characterized by their unpredictable and time-sensitive nature, rendering them useless once used. This concept was further solidified with the invention of the S/Key authentication protocol in 1987 by Bellovin and Merritt.\n\nAdvancements in machine learning and AI algorithms in the late 1990s and early 2000s led to the development of behavioral-based authentication methods, such as Google's True Sight, which utilizes machine learning to identify genuine users.",
-    "simpler": "Two-factor authentication operates by integrating a secondary form of verification with a user's primary password or authentication method, creating a more secure access control system.",
-    "keyTakeaway": "The implementation of two-factor authentication significantly reduces the likelihood of account breaches and cyber attacks by incorporating an additional layer of cryptographic verification.",
-    "deeperDive": "The SSL/TLS protocol, introduced in 1994 by Netscape, plays a crucial role in ensuring the security of 2FA systems by providing end-to-end encryption. This protocol has undergone numerous revisions, with the most recent being TLS 1.3 in 2018. Organizations such as Google and Amazon have successfully implemented robust 2FA methods, incorporating mechanisms like security keys, authenticator apps, and SMS codes to protect user accounts from phishing attacks and other forms of cyber threats.",
-    "funFact": "The National Institute of Standards and Technology (NIST) recommends the use of 2FA for all online accounts due to its demonstrated effectiveness in preventing unauthorized access and identity theft.",
+    "learn": "Two-factor authentication adds a second proof of identity so that a stolen password is not enough to take over an account. The extra factor might be a one-time code, a push prompt, a fingerprint, or a security key. The goal is simple: force the attacker to defeat more than one barrier.\n\nThat matters because passwords leak constantly through reuse, phishing, breaches, and guessing. 2FA turns a single weak point into a layered check. Even when one factor is compromised, the account can still hold because the second factor is still missing.",
+    "simpler": "2FA asks for one more proof after the password. That extra step makes stolen passwords much less useful.",
+    "keyTakeaway": "Two-factor authentication works because attackers usually steal one thing at a time.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Disabling%202FA%20on%20Wikipedia.png",
+    "learnImageCredit": {
+      "creator": "Wikimedia Foundation and MediaWiki volunteers",
+      "source": "Wikimedia Commons",
+      "license": "GNU General Public License, version 2.0 or later",
+      "licenseUrl": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Disabling_2FA_on_Wikipedia.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/YubiKey%205C%20NFC.jpg",
+    "thirdImageCredit": {
+      "creator": "Daniel Aleksandersen",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:YubiKey_5C_NFC.jpg"
+    },
+    "deeperDive": "The strongest versions of 2FA use phishing-resistant methods like hardware security keys. Those keys speak cryptographically to the website, so a fake login page cannot easily reuse the proof. App codes are still useful, but they are easier to trick if an attacker can manipulate the login flow in real time.\n\nGood 2FA is also about recovery. Systems need backup codes, account recovery flows, and sensible tradeoffs so users do not get locked out forever. That is why the best security design is not just \"more steps\"; it is a balance between protection, usability, and ways to get back in safely if something goes wrong.",
+    "funFact": "A stolen password is far less useful when a second factor is waiting.",
+    "references": [
+      "NIST - digital identity guidelines",
+      "Google Security Blog - security keys and 2FA",
+      "Microsoft - multi-factor authentication guidance"
+    ],
     "keyElements": {
       "people": [
-        "Whitfield Diffie",
-        "Martin Hellman",
-        "Steven M. Bellovin",
-        "Michael Merritt"
+        "Security engineers - choose the authentication flow",
+        "Users - approve logins and keep backup codes safe",
+        "Identity providers - enforce the second check",
+        "Attackers - try to bypass one factor at a time"
       ],
       "places": [
-        "MIT",
-        "Stanford University",
-        "Google",
-        "US Department of Defense",
-        "National Institute of Standards and Technology"
+        "Login screen - first line of defense",
+        "Authenticator app - code generation on a device",
+        "Hardware key - phishing-resistant proof",
+        "Account recovery page - rescue when access is lost"
       ],
       "years": [
-        1978,
-        1987,
-        1994,
-        2018
+        "1990s - strong authentication starts spreading",
+        "2010s - app-based 2FA becomes common",
+        "2020s - security keys become a better standard"
       ],
       "concepts": [
-        "public-key cryptography",
-        "one-time passwords (OTPs)",
-        "S/Key authentication protocol",
-        "SSL/TLS protocol",
-        "machine learning for behavioral-based authentication"
+        "Authentication factor - something you know, have, or are",
+        "Phishing resistance - proof that is harder to fake",
+        "Backup codes - emergency access when the second factor is lost",
+        "Account takeover - the threat 2FA reduces",
+        "Hardware key - a physical device that proves identity"
       ]
     }
   }

@@ -1,44 +1,69 @@
 {
-  "topic": "The Nature of the Great Red Spot on Jupiter",
-  "title": "Understanding the Peculiarities of Jupiter's Longest-Enduring Storm",
+  "topic": "The Great Red Spot on Jupiter",
+  "title": "Why Jupiter's Great Red Spot Has Lasted So Long",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Jupiter_and_Its_Great_Red_Spot_%287544560948%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "NASA",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Jupiter_and_Its_Great_Red_Spot_(7544560948).jpg"
+  },
   "lesson": {
-    "learn": "The Great Red Spot (GRS) is a massive anticyclonic storm located in Jupiter’s southern hemisphere, persisting for at least several centuries and likely longer. First reliably documented by Robert Hooke in 1664–1665 and later studied by Giovanni Cassini, it is embedded within Jupiter’s dynamic atmosphere, which is primarily composed of hydrogen and helium. The storm is an immense high-pressure system with counterclockwise rotation (in the southern hemisphere) driven by strong zonal jet streams and internal heat flux from Jupiter. Wind speeds within and around the GRS can exceed 400–700 km/h, sustained by deep atmospheric convection and the planet’s rapid 9.9-hour rotation. Its reddish coloration is not fully understood but is thought to arise from complex photochemical reactions involving trace compounds such as ammonia, sulfur species, and organic molecules, altered by ultraviolet radiation and charged particle interactions in Jupiter’s upper atmosphere. Over time, the storm has been observed to shrink and change shape, suggesting that it is not permanently stable but part of a long-lived but evolving atmospheric system.",
-    
-    "simpler": "The Great Red Spot is a giant storm on Jupiter that has been spinning for hundreds of years. It is much bigger than Earth and has very fast winds. Jupiter’s heat and fast rotation keep the storm going. The red color likely comes from chemicals in Jupiter’s atmosphere reacting with sunlight.",
-    
-    "keyTakeaway": "The Great Red Spot exists because Jupiter’s strong internal heat, fast rotation, and layered jet streams continuously supply energy to sustain large atmospheric storms. However, long-term observations show that it is slowly changing in size and structure, meaning even the most stable-looking planetary storms evolve over time.",
-    
-    "deeperDive": "Modern spacecraft observations, especially from NASA’s :contentReference[oaicite:0]{index=0}, have revealed that the Great Red Spot is not a simple surface vortex but a deep, complex structure extending hundreds of kilometers into Jupiter’s atmosphere. Wind measurements show vertical and horizontal layering, with distinct velocity gradients suggesting interaction between multiple jet streams. The storm is embedded within Jupiter’s banded cloud system, where alternating eastward and westward jets act as dynamical boundaries that help confine it. Energy is continuously injected into the system from Jupiter’s internal heat, which is released as slow convection through the upper atmosphere. High-resolution imaging from the :contentReference[oaicite:1]{index=1} has tracked the gradual shrinkage of the storm, indicating that its aspect ratio and internal vorticity are changing over time. Numerical simulations of gas giant atmospheres suggest that such vortices can persist for centuries if continuously fed by surrounding shear flows, but they may eventually decay as energy balance conditions shift.",
-    
-    "funFact": "The Great Red Spot is so large that multiple Earth-sized planets could fit inside it, yet despite its size it is still a relatively shallow feature compared to Jupiter’s full atmospheric depth, which extends thousands of kilometers below the cloud tops.",
-    
+    "learn": "Jupiter's Great Red Spot is a giant anticyclonic storm that has persisted for centuries, making it one of the most durable weather systems known. It sits in Jupiter's southern hemisphere and rotates because the planet's atmosphere is divided into powerful east-west jet streams. Those jets help trap and organize the storm, while Jupiter's internal heat continuously feeds convection in the surrounding atmosphere.\n\nThe storm is not just a surface feature. Spacecraft observations show that it extends deep into Jupiter's atmosphere, with structure that changes over time as winds and turbulence interact. Its famous red color is still not fully understood, but it probably comes from chemical reactions in the upper atmosphere driven by sunlight and trace compounds.\n\nThe Great Red Spot matters because it shows how gas giant atmospheres can sustain enormous, long-lived weather systems. It is a moving laboratory for fluid dynamics on a planetary scale.",
+    "simpler": "The Great Red Spot is a giant storm on Jupiter that has lasted for hundreds of years. Jupiter's fast rotation, strong jet streams, and internal heat help keep the storm going.",
+    "keyTakeaway": "Jupiter's Great Red Spot survives because the planet's internal heat and jet streams keep feeding a huge, long-lived storm.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Jupiter_Great_Red_Spot_Animation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "NASA / Cassini spacecraft",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Jupiter_Great_Red_Spot_Animation.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Great_Red_Spot_-_Juno_%2835843429846%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "NASA / SWRI / MSSS / Gerald Eichstädt / Justin Cowart",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Great_Red_Spot_-_Juno_(35843429846).png"
+    },
+    "deeperDive": "Jupiter's atmosphere is organized into fast alternating jet streams. The Great Red Spot is embedded between those jets, and that structure helps it persist rather than dissipate quickly. Large anticyclones on a gas giant can survive far longer than storms on Earth because the atmosphere has no solid surface to break them apart and because the energy sources feeding them are continuous.\n\nJuno and other spacecraft have shown that the Great Red Spot changes in size, color, and shape. It appears to be shrinking over long timescales, even though its core remains strong. That does not mean the storm is about to vanish tomorrow; it means the storm is dynamic, and its balance of inflow, outflow, and surrounding wind shear is still evolving.\n\nUnderstanding the Great Red Spot helps scientists study fluid motion, turbulence, and atmospheric chemistry under conditions that are impossible to reproduce on Earth. It is one of the clearest examples of how planetary weather can be both visually dramatic and physically revealing.",
+    "funFact": "The Great Red Spot is so large that several Earths could fit inside it, although it is much shallower than its width suggests.",
+    "references": [
+      "NASA Juno mission materials on Jupiter's atmosphere.",
+      "Planetary science texts on gas giant dynamics and jet streams.",
+      "Hubble and Juno observation reports on the Great Red Spot.",
+      "Wikimedia Commons - Image metadata, licensing, creator, source, and file-page verification."
+    ],
     "keyElements": {
       "people": [
-        "Robert Hooke – early observer who documented a large storm feature on Jupiter in the 17th century",
-        "Giovanni Cassini – astronomer who made early telescopic observations of Jupiter’s atmospheric features",
-        "Gerald Kuiper – planetary scientist who contributed to modern understanding of planetary atmospheres",
-        "Amy Simon – planetary scientist known for studying Jupiter’s atmospheric dynamics and storm evolution"
+        "Robert Hooke - early observer who documented a storm feature on Jupiter",
+        "Giovanni Cassini - made early telescopic observations of Jupiter",
+        "Gerald Kuiper - contributed to planetary atmosphere research",
+        "Amy Simon - planetary scientist studying Jupiter's atmospheric dynamics"
       ],
       "places": [
-        "Jupiter’s atmosphere – the hydrogen-helium gas envelope where the Great Red Spot forms and evolves",
-        "NASA Jet Propulsion Laboratory – center for planetary mission design and analysis of Jupiter data",
-        "European Southern Observatory – ground-based observatory contributing long-term Jupiter imaging",
-        "Space Telescope Science Institute – manages Hubble observations used to monitor Jupiter’s atmosphere"
+        "Jupiter's atmosphere - the gas giant environment where the storm lives",
+        "NASA Jet Propulsion Laboratory - mission and data analysis center",
+        "European Southern Observatory - long-term ground-based imaging support",
+        "Space Telescope Science Institute - supports Hubble observations"
       ],
       "years": [
-        "1665 – early telescopic observations of a persistent storm feature on Jupiter",
-        "1831 – systematic observations begin indicating long-term persistence of the Great Red Spot",
-        "1979 – Voyager 1 provides close-up imaging of Jupiter’s atmospheric structure",
-        "2016 – Juno spacecraft enters Jupiter orbit and begins high-resolution atmospheric measurements",
-        "2020s – continued monitoring shows gradual shrinkage and morphological changes in the Great Red Spot"
+        "1665 - early telescopic observations of the storm begin",
+        "1831 - observations suggest long persistence",
+        "1979 - Voyager 1 images Jupiter's atmosphere",
+        "2016 - Juno enters orbit around Jupiter",
+        "2020s - monitoring shows the storm continues to change"
       ],
       "concepts": [
-        "Anticyclonic storm – a rotating high-pressure system with outward-moving flow in the upper atmosphere",
-        "Zonal jet streams – alternating east-west winds that structure Jupiter’s banded atmosphere",
-        "Internal heat flux – energy emitted from Jupiter’s interior that drives atmospheric convection",
-        "Atmospheric vorticity – measure of rotational motion within a fluid system like a planetary atmosphere",
-        "Photochemical haze formation – chemical reactions driven by sunlight that produce colored atmospheric compounds",
-        "Gas giant atmospheric dynamics – study of fluid motion, convection, and storm formation in hydrogen-helium planets"
+        "Anticyclonic storm - rotating high-pressure system",
+        "Zonal jet streams - alternating wind bands that shape Jupiter's atmosphere",
+        "Internal heat flux - energy from Jupiter's interior",
+        "Atmospheric vorticity - measure of rotational motion in fluid",
+        "Photochemistry - sunlight-driven chemical change",
+        "Gas giant atmospheric dynamics - study of fluid motion on giant planets"
       ]
     }
   }

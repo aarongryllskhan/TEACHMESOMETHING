@@ -1,40 +1,68 @@
 {
-  "topic": "Animal Communication",
-  "title": "Understanding the Complexities of Animal Language",
+  "topic": "How Animals Communicate With Each Other",
+  "title": "The Many Ways Animals Send, Receive, and Respond to Signals",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bee_waggle_dance.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+  "imageCredit": {
+    "creator": "J. Tautz and M. Kleinhenz, Beegroup Wurzburg",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.5 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Bee_waggle_dance.png"
+  },
   "lesson": {
-    "learn": "Animal communication is a rich and intricate system that has evolved over 65 million years to enable social cohesion, cooperation, and survival in diverse species. Recent studies have revealed the remarkable variety of communication methods used by animals, including vocalizations, body language, and chemical signals. In fact, scientists have identified over 3,000 different bird species using unique songs to convey information about habitat, predators, and potential mates.",
-    "simpler": "Animal communication works similarly to human language, with animals using different sounds, movements, and scents to convey information. Just like humans use words to convey meaning, animals use vocalizations, such as wolf howls or primate vocalizations, to convey emotions and intentions. For example, birds use specific songs to alert others to food sources or predators.",
-    "keyTakeaway": "Deciphering animal communication can provide crucial insights into their social behaviors, habitats, and adaptations. By analyzing animal communication patterns, researchers can gain a deeper understanding of species-specific traits and develop more effective conservation strategies.",
-    "deeperDive": "Advanced cognitive abilities, such as memory and problem-solving skills, are essential for complex animal communication systems. Primates, dolphins, and parrots, for instance, have been observed using tools to convey information or even learn human-like language. Notably, researchers have documented the sophisticated communication patterns of elephants, who use low-frequency rumbles to convey information over long distances, while birds have been found to use magnetic field cues to navigate during migration.",
-    "funFact": "Scientists have discovered that certain animals, such as dogs and horses, possess impressive sensitivity to human emotions and can even learn human sign language. Moreover, research has shown that certain animal species, such as bees and ants, use complex dance patterns to communicate food sources and threats, while birds use specific call patterns to alert others to potential predators.",
+    "learn": "Animal communication is the exchange of information through sounds, smells, gestures, vibrations, light, or touch. It is not human language, but it can still be highly precise and adaptive. A warning call can tell others about a predator, a scent trail can point to food, and a display can signal readiness to mate or defend territory. Bees, birds, primates, whales, and ants all use different combinations of signals that fit their bodies and environments.",
+    "simpler": "Animals send messages in lots of ways: with calls, smells, movements, and even dances. Those signals help them warn, attract, or guide one another.",
+    "keyTakeaway": "Animal communication works because different species evolved signals that fit the information they need to share and the world they live in.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Humpback_song_spectrogram.png/1280px-Humpback_song_spectrogram.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "learnImageCredit": {
+      "creator": "Omegatron",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Humpback_song_spectrogram.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Howler_monkey.jpg",
+    "thirdImageCredit": {
+      "creator": "Steve from washington, dc, usa",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Howler_monkey.jpg"
+    },
+    "deeperDive": "Communication is not just about making a noise or showing a signal. The message has to be noticed, interpreted, and acted on by another animal. That is why context matters so much. A call that means 'danger' in one situation may be ignored in another, and a scent marker may mean different things depending on age, sex, or season. In bees, the waggle dance gives direction and distance to food. In whales, song can travel long distances and help maintain social contact. In primates, body posture and facial expression often carry as much meaning as vocalizations. Animal communication is best understood as a toolkit of signals rather than a single language system.",
+    "funFact": "Some species combine several signals at once, such as sound, scent, and body movement, to make a message harder to miss.",
+    "references": [
+      "Cornell Lab of Ornithology - animal sound and song resources",
+      "Ethology textbooks on signaling and social behavior",
+      "Research on bee waggle dance communication",
+      "Studies of whale song and primate alarm calls"
+    ],
     "keyElements": {
       "people": [
-        "â€¢ Dr. Con Slobodchikoff - Renowned ethologist studying animal communication",
-        "â€¢ Dr. Jane Goodall - Groundbreaking primatologist who discovered chimpanzee language skills",
-        "â€¢ Dr. Louis Herman - Marine biologist expert in dolphin cognition and communication",
-        "â€¢ Dr. Marc Hauser - Primatologist and cognitive scientist investigating animal language abilities",
-        "â€¢ Dr. Peter Marler - Pioneer in the field of animal vocalization research"
+        "Karl von Frisch - bee communication pioneer",
+        "Jane Goodall - primate behavior observer",
+        "Peter Marler - animal vocalization researcher",
+        "Con Slobodchikoff - animal communication researcher"
       ],
       "places": [
-        "â€¢ Serengeti National Park - Habitat for numerous species with complex social behaviors",
-        "â€¢ Amazon Rainforest - Home to a vast array of bird species with sophisticated communication systems",
-        "â€¢ California Academy of Sciences - Research institution exploring animal cognition and language abilities",
-        "â€¢ University of Cambridge - Hub for groundbreaking studies on animal behavior and communication",
-        "â€¢ Monash University - Leading center for research in animal communication and welfare"
+        "Beehives - where dance language can be studied",
+        "Rainforests and savannas - rich settings for animal signals",
+        "Ocean habitats - where whales and dolphins communicate",
+        "Laboratories and field stations - where signals are analyzed"
       ],
       "years": [
-        "â€¢ 1950s - Dr. Louis Leakey begins studying chimpanzee language skills",
-        "â€¢ 1960s - Dr. Jane Goodall discovers advanced cognitive abilities in chimpanzees",
-        "â€¢ 1970s - Researchers first identify the significance of animal vocalizations in communication",
-        "â€¢ 1990s - Scientists develop new methods for analyzing animal signals and decoding their meanings",
-        "â€¢ 2000s - Breakthrough studies reveal the complex social behaviors of animals like elephants and whales"
+        "1940s - bee waggle dance research expands",
+        "1960s - alarm calls and social signaling gain attention",
+        "1990s - bioacoustics becomes more advanced",
+        "2020s - machine learning helps decode complex signals"
       ],
       "concepts": [
-        "â€¢ Animal Vocalization: The use of sounds to convey information between individuals",
-        "â€¢ Body Language: Non-verbal cues used by animals to communicate emotions and intentions",
-        "â€¢ Chemical Signaling: The release of chemical signals to convey information about environment and threats",
-        "â€¢ Social Learning Theory: The idea that animals learn behaviors through observation and interaction",
-        "â€¢ Cognitive Abilities: Advanced thinking skills possessed by certain animal species, including self-awareness and problem-solving"
+        "Signaling",
+        "Alarm call",
+        "Chemical trail",
+        "Waggle dance",
+        "Courtship display",
+        "Bioacoustics"
       ]
     }
   }

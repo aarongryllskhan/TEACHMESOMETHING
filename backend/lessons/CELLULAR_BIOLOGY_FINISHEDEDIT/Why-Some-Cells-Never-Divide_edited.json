@@ -1,12 +1,41 @@
 {
   "topic": "Cellular Biology",
   "title": "Exploring the Methods Behind Cellular Immortality",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_brain.svg",
+  "imageCredit": {
+    "creator": "InjuryMap",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Human_brain.svg"
+  },
   "lesson": {
-    "learn": "Cells that never divide, a phenomenon known as cellular immortality, is not a fixed attribute but rather a complex property that arises from the interplay of genetic, epigenetic, and environmental factors. Understanding how some cell types, such as stem cells, evade the normal process of cellular aging enables us to uncover the intricacies of cellular regulation, which has significant implications for the prevention and treatment of diseases associated with uncontrolled cell growth.",
-    "simpler": "Imagine a cell is like a master key that can unlock various cellular identities without ever needing to divide. Unlike other cells that undergo continuous division to replace damaged tissues, this special group of cells maintains a youthful state, a characteristic that researchers are working to understand and harness. To grasp this concept, consider the following analogy: imagine a LEGO brick that never breaks, but instead, is constantly reassembled in different configurations, highlighting the remarkable versatility of these cells.",
-    "keyTakeaway": "The key takeaway is that cellular immortality is a multifaceted phenomenon that cannot be attributed to a single factor but rather arises from the integrated interplay of genetic, epigenetic, and environmental influences. By understanding these complex mechanisms, researchers can better grasp how to promote healthy cell division, prevent diseases associated with uncontrolled cell growth, and ultimately, unlock the secrets of cellular longevity.",
-    "deeperDive": "Recent studies on cells in specific tissues, such as those found in the human brain, have revealed a unique combination of telomere maintenance and DNA repair mechanisms that contribute to their immortality. For instance, telomeres, which cap the ends of chromosomes, shorten with each division cycle, but some cells have developed strategies to maintain or lengthen them, allowing for continuous division without the risk of senescence or cancer. Moreover, epigenetic regulation plays a vital role in maintaining cellular immortality, with certain histone modifications linked to increased resistance to stress-induced senescence in stem cells. Furthermore, the study of cellular immortality has shed light on potential treatments for diseases like cancer, where uncontrolled cell division leads to tumor growth, and has sparked interest in developing therapies to target senescent cells and promote healthy aging. Specifically, scientists have identified senescent cells, which accumulate with age and contribute to age-related disorders, providing a new target for therapeutic interventions.",
-    "funFact": "Interestingly, cells in certain tissues, such as the human intestine, can divide up to 50 times a day, while cells in the brain may only divide once every 100 years, highlighting the remarkable difference in cell division rates, which has significant implications for our understanding of tissue development and disease.",
+    "learn": "Some cells leave the cell cycle behind because specialization matters more than constant division. Neurons, for example, are built for long-term signaling, not for repeatedly making copies of themselves. Mature red blood cells and many highly differentiated cells also give up division so they can focus on their main job.\n\nThat tradeoff helps the body stay organized. A cell that never divides can invest in function, but it also becomes harder to replace if it is damaged.",
+    "simpler": "Some cells stop dividing so they can specialize. That helps them do their jobs well, even though it makes replacement harder.",
+    "keyTakeaway": "Cells stop dividing when specialization is more valuable than staying in the cell cycle.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cellular_senescence.png",
+    "learnImageCredit": {
+      "creator": "Velichko Artem",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cellular_senescence.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Chromosome.svg",
+    "thirdImageCredit": {
+      "creator": "Magnus Manske; upright version by Dietzel65; vector derivative by Tryphon",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Chromosome.svg"
+    },
+    "deeperDive": "Terminal differentiation locks a cell into a stable identity. Cell-cycle regulators, epigenetic changes, and tissue signals all help keep that identity in place. In many tissues, that is a good tradeoff because constant division would create more risk than benefit.\n\nThe cost is repair. If a neuron or cardiac cell is damaged, the body has limited ability to replace it. That is why scientists study regeneration, stem cells, and reprogramming so closely: the challenge is to restore lost function without breaking the stability that specialized tissues need.",
+    "funFact": "A mature neuron can stay active for decades without behaving like a dividing cell.",
+    "references": [
+      "Nature Education - terminal differentiation",
+      "NCBI Bookshelf - cell cycle exit and specialization",
+      "Britannica - neurons and cell division"
+    ],
     "keyElements": {
       "people": [
         "* Barbara McClintock, Nobel laureate who discovered telomeres",

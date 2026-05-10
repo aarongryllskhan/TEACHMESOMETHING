@@ -1,12 +1,41 @@
 {
   "topic": "Mitochondrial Energy Production",
   "title": "Mitochondrial Energy Production: A Critical Function",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitochondrion_%28standalone_version%29-en.svg",
+  "imageCredit": {
+    "creator": "Kelvinsong",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mitochondrion_(standalone_version)-en.svg"
+  },
   "lesson": {
-    "learn": "Mitochondria are organelles within eukaryotic cells responsible for generating most of the energy required for cellular function through oxidative phosphorylation. This process occurs in the mitochondria's inner membrane and involves the transfer of electrons from high-energy molecules to oxygen, resulting in the formation of adenosine triphosphate (ATP).",
-    "simpler": "Mitochondria produce energy in the form of ATP, essential for cellular functions such as muscle contraction and cell division. This process is critical for maintaining proper cellular function and preventing energy metabolism-related diseases.",
-    "keyTakeaway": "Mitochondrial energy production is essential for cellular function and relies on the efficient transfer of electrons to oxygen, resulting in ATP formation.",
-    "deeperDive": "Mitochondrial energy production occurs through oxidative phosphorylation, a complex series of reactions within the mitochondria's inner membrane. The process involves the transfer of electrons from high-energy molecules, such as NADH and FADH2, to oxygen through the electron transport chain. This results in the formation of a proton gradient across the mitochondrial membrane, driving the production of ATP through the process of chemiosmosis. Research has shown that mitochondrial energy production can reach speeds of up to 10-15 ATP molecules per second per mitochondrion (Hatefi et al., 1989).",
-    "funFact": "Mitochondrial energy production is so efficient that it can power a small city's electrical needs for a day, given enough cellular mass. However, this estimate is highly dependent on the specific cellular mass and energy requirements, and should be taken with caution.",
+    "learn": "Mitochondria make energy by converting chemical gradients into ATP at remarkable speed. Electrons move through the electron transport chain, protons are pumped across the inner membrane, and ATP synthase uses that gradient to build ATP. Oxygen keeps the chain moving by acting as the final electron acceptor.\n\nThis is why mitochondria matter so much. They are the main engines behind the energy supply that powers movement, signaling, repair, and growth.",
+    "simpler": "Mitochondria turn food into ATP very quickly. Oxygen helps keep the process running so cells can stay powered.",
+    "keyTakeaway": "Mitochondria produce ATP by turning electron flow and proton gradients into usable cellular energy.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/ATP_synthase.svg",
+    "learnImageCredit": {
+      "creator": "TheBartgry",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ATP_synthase.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/ATP_Synthase_Model.png",
+    "thirdImageCredit": {
+      "creator": "Atpsynthesizer",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ATP_Synthase_Model.png"
+    },
+    "deeperDive": "Oxidative phosphorylation is fast because it links many small energy steps into one efficient system. The inner mitochondrial membrane is packed with protein complexes that pass electrons in sequence, building a gradient along the way. ATP synthase then converts that gradient into the ATP molecule cells spend on work.\n\nWhen oxygen is limited, cells can fall back on less efficient routes such as anaerobic metabolism. That keeps them alive in the short term, but it cannot match the output of normal mitochondrial respiration. High energy demand is why tissues like muscle and nerve rely so heavily on mitochondria.",
+    "funFact": "Mitochondria are tiny, but they do most of the energy heavy lifting in animal cells.",
+    "references": [
+      "NIH - mitochondria and oxidative phosphorylation",
+      "Nature Education - ATP synthase and energy production",
+      "Britannica - mitochondria"
+    ],
     "keyElements": {
       "people": [
         "Yen-His Yeh, who discovered the relationship between mitochondrial DNA and cellular aging",

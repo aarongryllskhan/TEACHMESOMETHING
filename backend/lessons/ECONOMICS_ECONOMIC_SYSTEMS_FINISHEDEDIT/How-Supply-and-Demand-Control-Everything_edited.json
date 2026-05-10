@@ -1,48 +1,62 @@
 {
-  "topic": "Understanding Supply and Demand in Markets",
-  "title": "The Invisible Forces Shaping Market Outcomes",
+  "topic": "How Supply and Demand Control Everything",
+  "title": "Why prices move when buyers and sellers shift",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Supply_and_Demand.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Bastiaan Quast",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Supply_and_Demand.svg"
+  },
   "lesson": {
-    "learn": "The concept of supply and demand is a fundamental aspect of economics that governs the behavior of markets, dictating prices, quantities, and entire economic systems. By examining the interaction between suppliers and consumers, we can gain insights into how markets function, why prices fluctuate, and how businesses make decisions about production and distribution. The laws of supply and demand have been observed in ancient economies, such as the Babylonian Code of Hammurabi (1754 BCE), which regulated trade practices.",
-    "simpler": "To illustrate the concept of supply and demand, consider the market for a rare coin. In 1949, the first coin of the new German Federal Republic, the 500 Deutsche Mark gold coin, was released. Initially, collectors were willing to pay a premium for the coin, but as more coins entered the market, prices dropped. This example demonstrates how changes in supply and demand can drive price fluctuations.",
-    "keyTakeaway": "A key insight from understanding supply and demand is that it's not just about the availability of goods and services, but also about what people are willing to pay for them. By analyzing the interactions between suppliers, consumers, and market conditions, businesses can anticipate price movements and adjust their strategies accordingly.",
-    "deeperDive": "Supply and demand are inextricably linked through the law of markets, which states that prices will adjust to clear markets. This is evident in the concept of the supply curve, which slopes upwards to indicate that higher prices lead to increased supply, while higher costs may reduce supply. The demand curve, on the other hand, slopes downwards to indicate that higher prices lead to decreased demand. Elasticity measures how responsive quantity demanded is to price changes, with elastic products being highly sensitive to price fluctuations.",
-    "funFact": "In modern times, advanced statistical models, such as the Vector Autoregression (VAR) model, are used to forecast supply and demand. These models enable businesses to anticipate price movements and adjust their strategies accordingly. For instance, Amazon uses machine learning algorithms to predict demand for its products, allowing the company to optimize its supply chain and pricing.",
+    "learn": "Supply and demand are the basic forces that shape prices in market economies. When demand rises faster than supply, prices tend to climb. When supply grows faster than demand, prices tend to fall. This simple interaction helps explain everything from food prices to rent, labor, oil, and electronics.\n\nThe reason the idea matters so much is that it is not just about money. Supply and demand also shape shortages, surpluses, queues, wages, and the choices companies make about what to produce.",
+    "simpler": "When lots of people want something and there is not much of it, the price goes up. When there is too much and not enough buyers, the price goes down.",
+    "keyTakeaway": "Supply and demand control prices because markets balance what people want against what producers can provide.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Supply-and-demand.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Paweł Zdziarski (faxe), Astarot",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Supply-and-demand.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Simple_supply_and_demand.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Dallas.Epperson",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Simple_supply_and_demand.svg"
+    },
+    "deeperDive": "In real life, supply and demand are affected by many things: income, tastes, technology, transport, taxes, weather, and expectations. A bad harvest can cut supply. A viral trend can raise demand. A tax can shift the curve. A new factory can lower costs and increase supply.\n\nThat is why economists use the model everywhere. It is simple enough to teach, but flexible enough to explain a huge range of everyday economic behavior.",
+    "funFact": "Even a tiny supply shortage can push prices up fast.",
+    "references": [
+      "Britannica - supply and demand",
+      "Khan Academy - market equilibrium",
+      "Federal Reserve Education - basic economics"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Adam Smith ( Scottish philosopher who introduced the concept of the \"invisible hand\")",
-        "+ Alfred Marshall (British economist who developed the theory of elasticity)",
-        "+ John Maynard Keynes (British economist who emphasized the role of demand in shaping economic outcomes)",
-        "+ Milton Friedman (American economist who advocated for free market principles)",
-        "+ Gary Becker (Nobel laureate who applied economic theories to social sciences)",
-        "* **"
+        "Consumers - create demand",
+        "Producers - create supply",
+        "Economists - model equilibrium and price changes"
       ],
       "places": [
-        "**",
-        "+ Wall Street (a major financial hub where supply and demand play out daily)",
-        "+ The New York Stock Exchange (a global marketplace that reflects supply and demand forces)",
-        "+ The Great Depression-era United States (where government intervention attempted to balance supply and demand)",
-        "+ The Global Financial Crisis of 2008 (which highlighted the consequences of misaligned supply and demand)",
-        "+ Ancient Athens (an early example of a market economy where supply and demand were observed)",
-        "* **"
+        "Markets - physical and online",
+        "Factories and farms - where supply begins",
+        "Stores and apps - where prices are visible"
       ],
       "years": [
-        "**",
-        "+ 1776 (when Adam Smith published \"The Wealth of Nations\")",
-        "+ 1901 (when Alfred Marshall introduced his theory of elasticity)",
-        "+ 1936 (when John Maynard Keynes published \"The General Theory of Employment, Interest and Money\")",
-        "+ 1976 (when Milton Friedman was awarded the Nobel Prize in Economics)",
-        "+ 2008 (when the Global Financial Crisis exposed supply and demand imbalances)",
-        "* **"
+        "1800s - supply and demand become core economics",
+        "1900s - modern microeconomics formalizes the model",
+        "2020s - price shocks keep the model relevant"
       ],
       "concepts": [
-        "**",
-        "+ The Law of Markets",
-        "+ Supply and Demand Curves",
-        "+ Elasticity",
-        "+ Opportunity Cost",
-        "+ Market Equilibrium",
-        "+ Comparative Advantage"
+        "Equilibrium - where supply and demand meet",
+        "Shortage - demand exceeds supply",
+        "Surplus - supply exceeds demand",
+        "Elasticity - how strongly buyers or sellers respond"
       ]
     }
   }

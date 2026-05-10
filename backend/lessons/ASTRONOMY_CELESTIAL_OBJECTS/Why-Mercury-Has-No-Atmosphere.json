@@ -1,52 +1,68 @@
 {
-  "topic": "Mercury's Atmospheric Loss",
-  "title": "Mercury's Atmospheric Evolution",
+  "topic": "Why Mercury Has No Atmosphere",
+  "title": "How the Closest Planet to the Sun Lost Its Air",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mercury.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+  "imageCredit": {
+    "creator": "NASA",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mercury.jpg"
+  },
   "lesson": {
-    "learn": "Mercury is the closest planet to the Sun, with an eccentric orbit that drives extreme surface temperature variations ranging from about 427°C during daytime at perihelion to about -179°C at night. These conditions, combined with its low gravity and direct exposure to the solar wind, prevent it from retaining a stable, long-lived atmosphere. Instead, Mercury possesses only a very thin exosphere made up of atoms continuously supplied and removed by surface interactions. Solar radiation and charged particles constantly strip away atmospheric particles through processes such as sputtering, while thermal escape further removes lighter elements into space.",
-    
-    "simpler": "Mercury cannot hold onto a real atmosphere because it is too close to the Sun. The Sun’s energy and particles constantly knock gases off the planet, so any atmosphere quickly escapes into space.",
-    
-    "keyTakeaways": [
-      "Mercury’s near-absence of atmosphere is mainly caused by solar wind sputtering, thermal escape, and weak gravitational retention of gases.",
-      "Its eccentric orbit produces extreme temperature swings, which further destabilize any accumulating atmospheric particles.",
-      "Mercury’s weak intrinsic magnetic field (about 0.0011 Earth’s strength) provides limited shielding from solar wind, allowing continuous atmospheric erosion."
+    "learn": "Mercury cannot hold a thick atmosphere because it is small, hot, and constantly blasted by the solar wind. Its gravity is weak, so gas molecules escape easily. Instead of a stable atmosphere, Mercury has a thin exosphere that is continually replenished by surface atoms knocked loose by sunlight, micrometeorites, and charged particles.",
+    "simpler": "Mercury is too small and too close to the Sun to keep its air. Any gas that reaches the planet is quickly stripped away or escapes into space.",
+    "keyTakeaway": "Mercury lacks a true atmosphere because heat, weak gravity, and solar wind all work together to remove gases faster than the planet can keep them.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Orbital_resonance_of_Mercury.gif",
+    "learnImageCredit": {
+      "creator": "Age234 at the English Wikipedia project",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Orbital_resonance_of_Mercury.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/27/Surface_of_Mercury_EW1007212199G.jpg",
+    "thirdImageCredit": {
+      "creator": "NASA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Surface_of_Mercury_EW1007212199G.jpg"
+    },
+    "deeperDive": "Mercury's atmosphere problem is better described as a constant loss-and-replacement cycle than a single event. The planet's exosphere is made of atoms that rarely collide, so it behaves very differently from the dense atmospheres on Earth or Venus. Spacecraft data, especially from MESSENGER, showed that Mercury's surface is being continually modified by solar wind sputtering, photon-stimulated desorption, and micrometeorite impacts. These processes release sodium, potassium, calcium, and other elements into the exosphere, but the planet cannot retain them for long. Mercury's weak magnetic field offers only limited shielding, so the Sun keeps stripping the planet's thin envelope away.",
+    "funFact": "An atom in Mercury's exosphere can travel a long distance without ever colliding with another particle.",
+    "references": [
+      "NASA MESSENGER mission findings",
+      "NASA Solar System Exploration - Mercury",
+      "ESA BepiColombo mission background",
+      "Mercury exosphere and solar wind interaction research"
     ],
-    
-    "deepDive": "Mercury’s atmospheric evolution is better understood as a dynamic balance rather than a stable system. The planet’s so-called atmosphere is actually an exosphere, where particles rarely collide and instead follow ballistic trajectories. Space missions, especially MESSENGER (2011–2015), revealed that Mercury’s surface is continuously replenishing exospheric species through micrometeorite impacts, photon-stimulated desorption, and solar wind sputtering. These processes liberate elements such as sodium, potassium, and calcium from surface minerals. Unlike Earth, Mercury lacks a dense atmosphere and strong magnetosphere interaction layer, meaning solar wind particles directly interact with the surface. Its partially molten outer core contributes to a weak but global magnetic field, which is not strong enough to prevent atmospheric escape. Over billions of years, this combination of high solar flux, low gravity, and weak shielding has resulted in near-total atmospheric loss, leaving only a transient and constantly replenished exosphere.",
-    
-    "funFact": "Mercury’s exosphere is so thin that individual atoms can travel hundreds of kilometers without ever colliding with another particle.",
-    
     "keyElements": {
       "people": [
-        "Jeffrey Kargel",
-        "Scott Hubbard",
-        "Thomas Zurbuchen",
-        "David Paige",
-        "Robert Grimm"
+        "Sean Solomon - MESSENGER science lead",
+        "Jim Slavin - Mercury magnetosphere researcher",
+        "Catherine Johnson - planetary geophysicist"
       ],
       "places": [
-        "NASA Jet Propulsion Laboratory (JPL)",
-        "Caltech Owens Valley Radio Observatory",
-        "University of Arizona Lunar and Planetary Laboratory",
-        "Mercury’s orbital region around the Sun",
-        "MESSENGER mission operations center"
+        "Mercury's orbit close to the Sun",
+        "MESSENGER mission operations",
+        "NASA and ESA planetary science centers"
       ],
       "years": [
-        "1990s - Early studies of Mercury’s weak magnetic field and space environment begin",
-        "2004 - MESSENGER mission launches",
-        "2011 - MESSENGER enters Mercury orbit and begins detailed surface and exosphere measurements",
-        "2015 - MESSENGER mission ends after impact on Mercury",
-        "2020s - Ongoing analysis of Mercury’s exosphere and solar wind interactions continues"
+        "1990s - Mercury's weak field and environment are studied in detail",
+        "2004 - MESSENGER launches",
+        "2011 - MESSENGER enters Mercury orbit",
+        "2015 - MESSENGER ends its mission",
+        "2020s - BepiColombo continues Mercury research"
       ],
       "concepts": [
+        "Exosphere",
         "Solar wind sputtering",
         "Thermal escape",
-        "Planetary exosphere (not a true atmosphere)",
+        "Micrometeorite vaporization",
         "Magnetospheric shielding",
-        "Micrometeorite impact vaporization",
-        "Surface–exosphere interaction",
-        "Planetary magnetic field generation",
-        "Atmospheric retention vs escape velocity"
+        "Escape velocity",
+        "Surface-exosphere cycling"
       ]
     }
   }

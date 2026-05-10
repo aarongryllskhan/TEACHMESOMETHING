@@ -1,38 +1,66 @@
 {
-  "topic": "How-Binary-Code-Controls-Everything-Digital",
-  "title": "The Secret Language of Computers**",
+  "topic": "How Binary Code Controls Everything Digital",
+  "title": "Why 0s and 1s Run the Digital World",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Binary-code.png",
+  "imageCredit": {
+    "creator": "Graph+sas",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Binary-code.png"
+  },
   "lesson": {
-    "learn": "Binary code is the backbone of modern technology, controlling everything from smartphones and laptops to self-driving cars and supercomputers. It's a series of 0s and 1s that are arranged in specific patterns to represent information, instructions, and data. This binary language is understood by computers as a set of instructions that can be executed to perform various tasks. Without binary code, the digital world would grind to a halt, making it an essential component of modern life. In fact, every digital device relies on binary code for its functioning, from communication devices to medical equipment.",
-    "simpler": "Think of binary code like a recipe book with only two ingredients: 0 and 1. Just as recipes tell you how to make a cake by combining these ingredients in specific ways, computers use binary code to combine 0s and 1s to create instructions that tell them what to do. It's like sending secret messages to your computer, but instead of using words, you're using a special language made up of only two symbols.",
-    "keyTakeaway": "The most important thing to remember is that binary code is the fundamental language of computers and is used to control everything digital. This means that anyone who can write and understand binary code has the power to create and control the world's technology.",
-    "deeperDive": "The origins of binary code date back to 1936 when mathematician Claude Shannon proposed using two symbols (0 and 1) to represent information. This concept was further developed by Alan Turing, who introduced the idea of a universal machine that could read and execute instructions written in binary code. Today, binary code is used in almost every aspect of modern life, from artificial intelligence and robotics to medicine and finance. In fact, the human genome has been translated into binary code, allowing researchers to study it at the molecular level. Furthermore, scientists are using binary code to develop new materials with unique properties, such as superconductors and nanomaterials.",
-    "funFact": "Did you know that the first computer program was written in 1843 by mathematician Ada Lovelace, who is now considered the world's first computer programmer? She wrote a set of instructions for Charles Babbage's proposed Analytical Engine using binary code-like notation. This early programming language laid the foundation for modern software development and paved the way for the creation of today's complex digital systems.",
+    "learn": "Binary code works because computers can reliably tell two states apart, such as on and off or high and low voltage. Those states are mapped to 0 and 1, and from that simple idea come text, images, music, software, and the internet itself. The whole digital world rests on that two-state logic.\n\nThe elegance of binary is that it turns physical signals into information. Once a machine can distinguish two states quickly and accurately, it can build anything more complex from that foundation.",
+    "simpler": "Computers use 0s and 1s because circuits are good at choosing between two states. Bigger digital systems are built from that simple idea.",
+    "keyTakeaway": "Binary is the basic language that turns electrical states into digital information.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Diagram%20and%20chart%20of%20a%20logic%20gate.jpg",
+    "learnImageCredit": {
+      "creator": "Fernanda Araújo",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Diagram_and_chart_of_a_logic_gate.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Transistor%20as%20switch.svg",
+    "thirdImageCredit": {
+      "creator": "FDominec",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Transistor_as_switch.svg"
+    },
+    "deeperDive": "A bit is a single binary digit, and groups of bits form bytes, instructions, and data formats. Logic gates combine bits into decisions, and transistors make those gates possible at speed and scale. The same basic structure can represent numbers, letters, sounds, and images through standardized encodings.\n\nThat is why binary is both extremely simple and extraordinarily powerful. It is the smallest possible digital alphabet, but it can describe almost anything once enough bits are arranged the right way.",
+    "funFact": "One byte usually contains eight bits.",
+    "references": [
+      "IBM - binary numbers and digital logic",
+      "Britannica - binary code",
+      "OpenStax - computer architecture fundamentals"
+    ],
     "keyElements": {
       "people": [
-        "* Claude Shannon (mathematician who proposed the use of two symbols to represent information)",
-        "* Alan Turing (introduced the idea of a universal machine that could read and execute instructions written in binary code)",
-        "* Ada Lovelace (considered the world's first computer programmer, wrote the first computer program using binary code-like notation)",
-        "* Charles Babbage (inventor of the Analytical Engine, for which Lovelace wrote her program)",
-        "* Steve Jobs (co-founder of Apple, who played a key role in popularizing computers and software development)"
+        "George Boole - created the logic behind binary decisions",
+        "Claude Shannon - linked logic to digital circuits",
+        "John von Neumann - shaped computer architecture",
+        "Grace Hopper - influenced programming and machine-level thinking"
       ],
       "places": [
-        "* The University of Pennsylvania (where Shannon proposed his idea of using two symbols to represent information)",
-        "* Bletchley Park (a British codebreaking center during World War II where Turing worked on computer science and cryptography)",
-        "* Harvard University (where Lovelace wrote her program for the Analytical Engine)",
-        "* Silicon Valley (the hub of modern technology innovation, including computer hardware and software development)"
+        "Bell Labs - logic and transistor research",
+        "MIT - computer architecture and theory",
+        "IBM labs - commercial digital systems",
+        "Computer hardware factories - where binary becomes machines"
       ],
       "years": [
-        "* 1936: Claude Shannon proposes using two symbols to represent information",
-        "* 1945: Alan Turing publishes his paper on the universal machine",
-        "* 1843: Ada Lovelace writes her program for Charles Babbage's Analytical Engine",
-        "* 1971: The first microprocessor is developed, leading to the creation of personal computers"
+        "1847 - Boolean logic is developed",
+        "1948 - Shannon connects logic to circuits",
+        "1950s - binary computing becomes standard",
+        "1970s - microprocessors put binary everywhere"
       ],
       "concepts": [
-        "* Binary code (a series of 0s and 1s used to represent information, instructions, and data)",
-        "* Turing machine (a theoretical model of a computer that can read and execute instructions written in binary code)",
-        "* Universal machine (a computer that can perform any task using a program written in binary code)",
-        "* Software development (the process of writing programs that run on computers using binary code)",
-        "* Computer programming (the use of binary code to create software that can interact with hardware)"
+        "Bit - a single 0 or 1",
+        "Byte - a group of bits",
+        "Logic gate - a building block of digital decisions",
+        "Transistor - the switch that makes binary hardware possible",
+        "Machine code - instructions written in the form computers execute directly"
       ]
     }
   }

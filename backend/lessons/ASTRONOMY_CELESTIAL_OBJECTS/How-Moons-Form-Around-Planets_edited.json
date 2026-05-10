@@ -1,47 +1,68 @@
 {
   "topic": "Moon Formation Around Planets",
-  "title": "Understanding Celestial Companions: The Methods Behind Moon Formation",
+  "title": "How Planets Build Moon Systems Through Accretion, Impact, and Capture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Moon_-_Giant_Impact_Hypothesis_-_Simple_model-fr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Original work: Citronade; French translation: Charlestpt",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Moon_-_Giant_Impact_Hypothesis_-_Simple_model-fr.png"
+  },
   "lesson": {
-    "learn": "Moon formation is a complex process observed across the solar system, with multiple pathways contributing to how natural satellites arise around planets. The leading mechanism is accretion within a circumplanetary disk, where dust, ice, and rock gradually collide and stick together, forming increasingly larger bodies under gravity. Another major pathway is the giant impact hypothesis, in which a large collision between a planet and a protoplanet ejects debris into orbit that later coalesces into a moon system. Some moons may also be captured objects, such as asteroids or Kuiper Belt bodies, that become gravitationally bound to a planet under specific conditions. These processes can operate simultaneously or sequentially, leading to the diverse moon systems observed today.
-
-Moons significantly influence planetary evolution. They stabilize axial tilt in some cases (as with Earth), affect tidal dynamics, and can drive internal heating through gravitational interactions. In extreme cases, such as Jupiter’s moon Io, tidal forces generate intense volcanism, while Europa may host a subsurface ocean maintained by tidal heating—both illustrating how moons are not passive companions but active geological agents.",
-    
-    "simpler": "Moons form when material in space gathers together under gravity around a planet. This can happen when leftover dust and rocks slowly stick together, or when a big collision blasts debris into orbit that later becomes a moon. Some moons are also captured objects that got trapped by a planet’s gravity. Once formed, moons can affect their planets by causing tides, stabilizing their tilt, or even heating their interiors through gravitational pull.",
-    
-    "keyTakeaway": "Moons form mainly through accretion, giant impacts, or capture, and their gravitational influence plays an important role in shaping planetary stability and geological activity.",
-    
-    "deeperDive": "Modern models of moon formation suggest that no single mechanism explains all satellites in the solar system. Regular moons (like the Galilean satellites of Jupiter) likely formed in a circumplanetary disk, analogous to a miniature solar nebula surrounding a planet during its formation. This disk allowed repeated collisions and growth of icy and rocky bodies. In contrast, Earth's Moon is best explained by a giant impact event, where a Mars-sized body collided with the early Earth, ejecting mantle material that reassembled into a single large satellite. Irregular moons, especially those orbiting giant planets, often show highly tilted or eccentric orbits, consistent with gravitational capture rather than in-situ formation.
-
-Tidal interactions further reshape moon systems over time. Energy dissipation within moons and planets can lead to orbital migration, synchronous rotation (tidal locking), and internal heating. This heating is responsible for geological activity on moons such as Io and may sustain liquid water environments beneath the icy crust of Europa and Enceladus. These processes demonstrate that moon systems are dynamically evolving rather than static structures.",
-    
-    "funFact": "Earth’s Moon is unusually large compared to its planet—so large that Earth and the Moon are sometimes described as a “double planet” system rather than a typical planet–moon pair.",
-    
+    "learn": "Moons can form around planets in several different ways, and no single mechanism explains all of them. The most familiar path is accretion in a circumplanetary disk, where dust and rock orbit a young planet and gradually stick together into larger bodies. This is similar to how planets form in a disk around a star, but on a smaller scale. A second path is the giant impact hypothesis, where a large collision throws material into orbit and that debris later settles into one or more moons. Earth's Moon is the classic example.\n\nA third path is capture. Sometimes a passing object becomes trapped by a planet's gravity and remains in orbit. Many irregular moons have tilted or eccentric paths that make capture the best explanation. Once moons are in place, they can influence a planet for billions of years by driving tides, stabilizing tilt, and even heating interiors through gravitational flexing.\n\nMoon systems are therefore not just leftovers from formation. They are part of the active architecture of a planetary system, shaping geology, climate, and sometimes habitability long after the planet itself forms.",
+    "simpler": "Moons can form when material around a young planet sticks together, when a giant impact throws debris into orbit, or when gravity captures a passing body. After that, moons can affect tides, tilt, and even internal heating on the planet.",
+    "keyTakeaway": "Moons usually form by accretion, impact, or capture, and once they exist they can strongly influence the planets they orbit.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jupiter_and_the_Galilean_moons_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "National Aeronautics and Space Administration / Jet Propulsion Laboratory / Malin Space Science Systems",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Jupiter_and_the_Galilean_moons_animation.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Circumstellar_Disk_-_HD_32297.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "NASA, ESA, G. Schneider (University of Arizona), and the HST/GO 12228 Team",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Circumstellar_Disk_-_HD_32297.jpg"
+    },
+    "deeperDive": "Accretion is the most orderly moon-forming process. Material in a disk can collide and stick, producing regular moons that orbit in the same direction as the planet's rotation. That is why many giant-planet moons are arranged in neat families. Giant impacts are messier but can create large, stable moons if enough debris is thrown into orbit and not immediately lost. Earth's Moon remains the most important case because it reshaped how scientists think about the early Earth.\n\nCapture explains the irregular moons. Their odd orbits often point to a history of gravitational trapping rather than local birth. Some captured moons later interact tidally with the planet and settle into more stable configurations, while others remain tilted and distant. Once moons exist, they become active agents. Io is volcanically driven by tidal heating, Europa and Enceladus may harbor subsurface oceans, and Earth's Moon stabilizes our axial tilt.\n\nThis is why moon formation matters beyond astronomy. Moon systems affect climates, tides, geology, and even the long-term conditions for life on a planet's surface.",
+    "funFact": "Earth's Moon is unusually large compared with the planet it orbits, which is one reason the Earth-Moon pair is sometimes treated almost like a double system.",
+    "references": [
+      "Planetary science texts on moon formation and circumplanetary disks.",
+      "Research on the giant impact hypothesis for the Moon.",
+      "Studies of irregular moons and capture dynamics.",
+      "Wikimedia Commons - Image metadata, licensing, creator, source, and file-page verification."
+    ],
     "keyElements": {
       "people": [
-        "William Herschel (discovered Uranus and several of its moons, expanding knowledge of planetary satellite systems)",
-        "Pierre-Simon Laplace (developed early theoretical frameworks for celestial mechanics and disk-based formation ideas)",
-        "Galileo Galilei (first observed moons orbiting another planet—Jupiter—providing direct evidence that not all bodies orbit Earth)",
-        "Carl Sagan (communicated planetary science concepts to the public, including the potential habitability of icy moons)"
+        "William Herschel - expanded knowledge of planetary satellites",
+        "Pierre-Simon Laplace - early celestial mechanics frameworks",
+        "Galileo Galilei - first observed moons orbiting another planet",
+        "Carl Sagan - popularized planetary science concepts"
       ],
       "places": [
-        "The Moon (Earth’s natural satellite and key reference for studying tidal and impact formation theories)",
-        "Jupiter’s moon system (a diverse collection of satellites showing both formation and capture processes)",
-        "Ganymede (the largest moon in the solar system, likely formed in a circumplanetary disk around Jupiter)",
-        "Europa (a key target for astrobiology due to its subsurface ocean and tidal heating)"
+        "The Moon - Earth's natural satellite and giant-impact reference point",
+        "Jupiter's moon system - diverse example of regular and irregular moons",
+        "Ganymede - largest moon in the Solar System",
+        "Europa - key astrobiology target with a subsurface ocean"
       ],
       "years": [
-        "1610 (Galileo first observed moons orbiting Jupiter, proving moons exist beyond Earth)",
-        "1979 (Voyager flybys revealed detailed structures of Jupiter and Saturn’s moons)",
-        "1994 (Comet Shoemaker-Levy 9 impact on Jupiter highlighted gravitational interactions in moon systems)",
-        "2000s–present (space missions like Galileo and Juno refined models of tidal heating and moon formation processes)"
+        "1610 - Galileo observes moons around Jupiter",
+        "1979 - Voyager flybys reveal detailed moon structures",
+        "1994 - Shoemaker-Levy 9 impacts Jupiter",
+        "2000s-present - missions refine moon formation and tidal heating models"
       ],
       "concepts": [
-        "Accretion (growth of moons through gradual collision and sticking of particles in orbit)",
-        "Giant impact hypothesis (formation of moons through debris created by large collisions)",
-        "Gravitational capture (process by which a planet traps a passing object into orbit)",
-        "Circumplanetary disk (disk of material surrounding a young planet where moons can form)",
-        "Tidal heating (internal heating caused by gravitational flexing of a moon)",
-        "Orbital resonance (gravitational interaction that stabilizes or destabilizes moon orbits over time)"
+        "Accretion - growth by collision and sticking",
+        "Giant impact hypothesis - moon formation through collision debris",
+        "Gravitational capture - trapping a passing object into orbit",
+        "Circumplanetary disk - moon-forming disk around a young planet",
+        "Tidal heating - internal heating from gravitational flexing",
+        "Orbital resonance - repeating gravitational interaction between bodies"
       ]
     }
   }

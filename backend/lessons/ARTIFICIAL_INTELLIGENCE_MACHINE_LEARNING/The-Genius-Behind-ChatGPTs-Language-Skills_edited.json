@@ -1,44 +1,74 @@
 {
   "topic": "Technical Foundations of ChatGPT",
-  "title": "A Technical Examination of ChatGPT's Performance and Transformer-Based Language Models",
-  "lesson": {
-    "learn": "ChatGPT is based on the Transformer architecture, a deep learning model introduced by Vaswani et al. in 2017. Unlike earlier recurrent neural networks, Transformers rely on self-attention mechanisms that allow the model to process all tokens in a sequence simultaneously while learning contextual relationships between words. ChatGPT specifically uses a decoder-only Transformer design, trained on large-scale text datasets to predict the next token in a sequence. Its capabilities are further enhanced through fine-tuning methods such as Reinforcement Learning from Human Feedback (RLHF), which helps align outputs with human preferences and improve response quality.",
-    "simpler": "ChatGPT works by learning patterns from huge amounts of text and then predicting what word (or part of a word) should come next in a sentence. It uses a special system called a Transformer, which helps it understand how words relate to each other in context. After this training, it is further refined so its answers are more helpful and natural in conversation.",
-    "keyTakeaway": "ChatGPT’s performance comes from the Transformer architecture combined with large-scale training and human feedback refinement. This combination allows it to generate coherent, context-aware responses across a wide range of topics.",
-    "deeperDive": "The Transformer architecture replaces recurrence with self-attention, enabling efficient parallel processing of sequences and improved long-range dependency modeling. ChatGPT is built on a decoder-only variant of this architecture, optimized for autoregressive text generation. During training, the model first learns general language patterns from vast datasets in a self-supervised manner by predicting the next token. It is then fine-tuned using Reinforcement Learning from Human Feedback (RLHF), where human reviewers rank outputs and guide the model toward more helpful and safe responses. This process improves alignment but does not guarantee perfect accuracy or truthfulness. Modern versions of such models contain billions of parameters and are trained using large-scale distributed computing systems.",
-    "funFact": "The Transformer architecture introduced the concept of self-attention, which allows a model to weigh the importance of different words in a sentence simultaneously. This was a major breakthrough that made modern large language models like ChatGPT possible."
+  "title": "How Transformer Language Models Power ChatGPT's Conversational Ability",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/The-Transformer-model-architecture.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Yuening Jia",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:The-Transformer-model-architecture.png"
   },
-  "keyElements": {
-    "people": [
-      "Ashish Vaswani – lead author of the Transformer paper",
-      "Ilya Sutskever – researcher in deep learning and co-founder of OpenAI",
-      "Sam Altman – CEO of OpenAI",
-      "Jeffrey Dean – influential researcher in large-scale neural networks at Google",
-      "Yoshua Bengio – pioneer in deep learning research"
+  "lesson": {
+    "learn": "ChatGPT is built on the Transformer architecture, a deep learning design introduced in 2017 that changed how language models process text. Earlier neural networks often had to read sequences one step at a time, which made it hard to model long-range relationships. Transformers replaced that structure with self-attention, letting the model compare many parts of a sequence at once and weigh which words matter most in context.\n\nChatGPT uses a decoder-only Transformer, which means it is trained to predict the next token in a sequence. That simple training objective is powerful because language itself contains structure, style, facts, reasoning patterns, and conversational habits. By learning from huge text datasets, the model absorbs statistical regularities about how people write and respond. Later refinement steps, including instruction tuning and Reinforcement Learning from Human Feedback, help shape the model toward useful, coherent, and safer responses.\n\nThe result is not human understanding, but highly capable pattern completion. ChatGPT can maintain context, imitate tone, follow instructions, and generate polished prose because it has learned how language tends to behave across many settings. Its strength comes from scale, architecture, and feedback working together.",
+    "simpler": "ChatGPT works by learning patterns in lots of text and then predicting what should come next. A Transformer helps it pay attention to the right words in a sentence, so it can answer in a way that sounds natural and fits the conversation.",
+    "keyTakeaway": "ChatGPT's language skills come from the Transformer architecture, large-scale training, and human feedback that help the model generate context-aware responses instead of just random text.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/59/Transformer_architecture_-_FFN_module.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Cosmia Nebula",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Transformer_architecture_-_FFN_module.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Transformer,%20full%20architecture.png",
+    "thirdImageCredit": {
+      "creator": "dvgodoy",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png"
+    },
+    "deeperDive": "A Transformer model represents text as tokens, turns those tokens into embeddings, and then processes them through stacked layers of attention and feed-forward modules. Self-attention is the key innovation: each token can influence the representation of every other token, which helps the model capture meaning, syntax, and context across long passages. In a decoder-only system, the model only sees earlier tokens when predicting the next one, which makes it well suited to text generation.\n\nDuring pretraining, the model learns from raw text by predicting missing or upcoming tokens at enormous scale. That stage teaches grammar, style, factual associations, and many weak forms of reasoning. Fine-tuning and instruction training then adapt the base model for chat behavior. Reinforcement Learning from Human Feedback adds another layer by ranking outputs and nudging the model toward responses people judge as more useful, safe, and aligned with instructions.\n\nEven with those improvements, a language model does not directly verify truth. It can produce fluent mistakes, because fluency and accuracy are different things. That is why prompt quality, tool use, retrieval, and evaluation still matter. ChatGPT is impressive not because it thinks like a person, but because it is exceptionally good at learning how language behaves and then continuing that pattern in real time.",
+    "funFact": "Self-attention lets a model look across an entire sequence at once, which is one reason Transformers scaled so much better than older recurrent models for modern language tasks.",
+    "references": [
+      "Vaswani et al. (2017), Attention Is All You Need.",
+      "OpenAI documentation on instruction tuning and human feedback alignment.",
+      "Stanford and university NLP course materials on Transformer architectures.",
+      "Deep learning textbooks and review papers on tokenization, embeddings, and sequence modeling.",
+      "Wikimedia Commons - Image metadata, licensing, creator, source, and file-page verification."
     ],
-    "places": [
-      "OpenAI (San Francisco, California, USA)",
-      "Google Research (Mountain View, California, USA)",
-      "Stanford University (California, USA)",
-      "MIT Computer Science and Artificial Intelligence Laboratory (Massachusetts, USA)",
-      "DeepMind (London, United Kingdom)"
-    ],
-    "years": [
-      "2017 – Transformer architecture introduced in 'Attention Is All You Need'",
-      "2018 – BERT demonstrates powerful bidirectional language understanding",
-      "2020 – Large-scale generative language models become widely adopted",
-      "2022 – ChatGPT is publicly released, popularizing conversational AI",
-      "2023 – rapid expansion of large language model applications across industries"
-    ],
-    "concepts": [
-      "Transformer Architecture",
-      "Self-Attention Mechanism",
-      "Decoder-Only Language Models",
-      "Next Token Prediction",
-      "Reinforcement Learning from Human Feedback (RLHF)",
-      "Large Language Models (LLMs)",
-      "Tokenization",
-      "Context Window Processing"
-    ]
+    "keyElements": {
+      "people": [
+        "Ashish Vaswani - lead author of the Transformer paper",
+        "Ilya Sutskever - deep learning researcher and OpenAI co-founder",
+        "Sam Altman - OpenAI CEO",
+        "Jeffrey Dean - influential large-scale systems researcher",
+        "Yoshua Bengio - pioneer in deep learning research"
+      ],
+      "places": [
+        "OpenAI, San Francisco, California, USA - developer of ChatGPT",
+        "Google Research, Mountain View, California, USA - origin of the Transformer paper",
+        "Stanford University, California, USA - major NLP and machine learning center",
+        "MIT CSAIL, Massachusetts, USA - leading AI research institution",
+        "DeepMind, London, United Kingdom - major research lab for deep learning and reinforcement learning"
+      ],
+      "years": [
+        "2017 - Transformer architecture introduced in Attention Is All You Need",
+        "2018 - BERT helps demonstrate the power of pretraining for language understanding",
+        "2020 - Large-scale generative language models become widely deployed",
+        "2022 - ChatGPT brings conversational AI to a mass audience",
+        "2023 - large language model tooling and applications expand rapidly"
+      ],
+      "concepts": [
+        "Transformer architecture - layered model designed for sequence processing",
+        "Self-attention - mechanism that weighs the importance of tokens in context",
+        "Decoder-only language model - architecture used for next-token prediction",
+        "Tokenization - process of splitting text into model-readable units",
+        "Reinforcement Learning from Human Feedback (RLHF) - training with human preferences",
+        "Context window - the amount of text a model can consider at once",
+        "Instruction tuning - aligning a model with prompt-following behavior"
+      ]
+    }
   }
 }

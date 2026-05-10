@@ -1,0 +1,67 @@
+{
+  "topic": "Special Relativity",
+  "title": "Why Time Really Does Slow Down When You Move Very Fast",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Time_dilation.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Zayani",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Time_dilation.svg"
+  },
+  "lesson": {
+    "learn": "Einstein's special relativity says that time is not the same for every observer. When something moves very fast relative to you, its clock appears to run more slowly. That sounds impossible, but it has been measured many times and is built into modern physics.\n\nTime dilation happens because space and time are linked. Once you accept that link, the universe stops behaving like common sense says it should.",
+    "simpler": "Fast-moving objects experience time differently. The faster something moves, the more its clock can seem to slow down.",
+    "keyTakeaway": "Time dilation is a real consequence of special relativity, not just a science-fiction idea.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Observer_in_special_relativity.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Stigmatella aurantiaca",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Observer_in_special_relativity.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/28/Time_dilation_explanation.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "ImperatorMK",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Time_dilation_explanation.svg"
+    },
+    "deeperDive": "The effect becomes important only when speeds approach the speed of light. That is why astronauts, satellites, and particle experiments all need relativistic corrections. A GPS satellite, for example, would drift out of sync if engineers ignored relativity. The math is strange, but the results are practical and measurable.\n\nTime dilation shows that physics does not just describe things moving through space. It describes how measurements themselves depend on motion. That is one of the reasons relativity changed physics so deeply.",
+    "funFact": "GPS satellites need relativity to stay accurate.",
+    "references": [
+      "Britannica - time dilation",
+      "NASA - relativity and GPS",
+      "Einstein Online - special relativity"
+    ],
+    "keyElements": {
+      "people": [
+        "Albert Einstein - developed special relativity",
+        "Physicists - scientists who test relativistic effects",
+        "Satellite engineers - people who correct for time dilation",
+        "Particle physicists - researchers who measure fast-moving particles"
+      ],
+      "places": [
+        "Space - where satellites experience measurable relativistic shifts",
+        "Particle accelerators - places where time dilation is tested",
+        "Global navigation networks - systems that rely on precise clocks",
+        "Physics laboratories - where relativity is measured"
+      ],
+      "years": [
+        "1905 - special relativity is published",
+        "1970s - GPS-related relativistic corrections are developed",
+        "Late 20th century - experiments confirm time dilation more precisely",
+        "Present day - relativity is built into modern navigation"
+      ],
+      "concepts": [
+        "Time dilation - time passing differently for moving observers",
+        "Reference frame - the viewpoint from which motion is measured",
+        "Speed of light - the universal speed limit in relativity",
+        "Proper time - time measured in an object's own frame",
+        "Relativistic effect - a consequence that appears at very high speeds"
+      ]
+    }
+  }
+}

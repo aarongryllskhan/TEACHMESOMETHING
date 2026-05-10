@@ -1,12 +1,41 @@
 {
   "topic": "The Biology of Cell Aging",
   "title": "Exploring the Complexities of Cellular Senescence and Its Role in Aging",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cellular_senescence.png",
+  "imageCredit": {
+    "creator": "Velichko Artem",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Cellular_senescence.png"
+  },
   "lesson": {
-    "learn": "Cellular senescence is a state in which cells cease to divide due to various forms of stress or damage, a process that has been extensively studied since the 1970s. By the year 2000, researchers had identified over 40 distinct genetic pathways involved in the senescence process. A landmark study published in 1999 by Cynthia Kenyon revealed the genetic control of longevity in Caenorhabditis elegans, a nematode worm, which has since become a model organism for aging research. The intricate mechanisms behind cell aging involve complex interactions between DNA repair pathways, epigenetic modifications, and metabolic reprogramming. For example, the gut microbiome has been shown to play a crucial role in regulating cellular senescence, with certain bacterial species influencing the expression of senescent cells.",
-    "simpler": "Imagine a city with a functioning infrastructure, where each cell is like a worker tasked with maintaining the city's systems. As the city ages, some workers become inefficient and stop working, while others continue to function, albeit less effectively. This parallels the concept of cellular senescence, where cells become dysfunctional and cease to divide due to various forms of stress or damage.",
-    "keyTakeaway": "One of the most critical insights into cell aging is the role of senescent cells in promoting age-related diseases, such as cancer and osteoarthritis. By targeting these cells, researchers may develop novel therapeutic strategies to promote healthy aging. For instance, studies have shown that certain dietary interventions, such as caloric restriction, can activate specific signaling pathways involved in DNA repair and metabolic reprogramming.",
-    "deeperDive": "Recent research has highlighted the significance of senescent cells in tumor growth and metastasis, suggesting that selectively targeting these cells could lead to novel cancer therapies. Scientists have also identified specific genetic and epigenetic markers associated with cell aging, enabling the development of biomarkers for early detection and monitoring of age-related diseases. Furthermore, advanced techniques such as single-cell RNA sequencing and spatial transcriptomics are being utilized to dissect the complex cellular interactions underlying cell aging. For example, a 2013 study published in the journal Nature used single-cell RNA sequencing to profile the transcriptional landscape of human cells, revealing a previously unknown cell population involved in the development of age-related diseases.",
-    "funFact": "Did you know that certain species, such as the hydra, a type of freshwater animal, can live indefinitely? Scientists have also discovered that certain organisms, like yeast, can live for centuries by activating specific cellular pathways associated with longevity. For instance, a 2019 study published in the journal eLife revealed that yeast cells can extend their lifespan by activating a specific pathway involved in DNA repair.",
+    "learn": "Cells age because damage accumulates and repair systems gradually lose efficiency. Over time, telomeres shorten, DNA repair becomes less effective, proteins misfold more easily, and stress signals build up. When the damage becomes too costly to ignore, many cells enter senescence instead of dividing forever.\n\nCell aging is not just about getting old. It is a protective tradeoff that reduces the risk of runaway growth, even though it can also contribute to tissue decline when too many senescent cells build up.",
+    "simpler": "Cells age when wear and tear builds up. They may stop dividing to stay safe, but that can also make tissues work less well over time.",
+    "keyTakeaway": "Cell aging is the result of accumulated damage, short telomeres, and protective shutdown signals.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Telomerase.png",
+    "learnImageCredit": {
+      "creator": "Boumphreyfr",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Telomerase.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Chromosome.svg",
+    "thirdImageCredit": {
+      "creator": "Magnus Manske; upright version by Dietzel65; vector derivative by Tryphon",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Chromosome.svg"
+    },
+    "deeperDive": "Telomeres act like protective caps on chromosomes, but they get shorter with many rounds of division. Telomerase can rebuild them in some cell types, yet most ordinary somatic cells keep that enzyme tightly limited. That helps prevent uncontrolled division, but it also means cells eventually face a replication limit.\n\nSenescence is not the same as death. Senescent cells often remain metabolically active and can release signals that affect neighboring tissue. That is why aging research now focuses not only on lifespan, but on how to keep cells functional, repair damage earlier, and clear out cells that are no longer helping the tissue.",
+    "funFact": "A cell can stop dividing and still stay busy sending signals to its neighbors.",
+    "references": [
+      "NIH - cellular senescence and aging",
+      "Nature Reviews - telomeres and the biology of aging",
+      "Britannica - cell aging"
+    ],
     "keyElements": {
       "people": [
         "+ Cynthia Kenyon - researcher who discovered genetic mutations that extend lifespan in Caenorhabditis elegans",

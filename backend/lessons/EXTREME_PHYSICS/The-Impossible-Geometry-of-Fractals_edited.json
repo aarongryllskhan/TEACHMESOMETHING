@@ -1,0 +1,67 @@
+{
+  "topic": "Fractals",
+  "title": "Why Fractals Create Infinite Detail From Simple Rules",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Mandelbrot_Set.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Fififox",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mandelbrot_Set.png"
+  },
+  "lesson": {
+    "learn": "Fractals are shapes that repeat similar patterns at different scales. A simple rule, applied again and again, can produce structures with enormous complexity. The Mandelbrot set, fractal trees, and Koch snowflakes all show how repetition can generate beauty that feels almost impossible.\n\nFractals matter because they appear in mathematics, nature, art, and computer graphics. They reveal how complexity can grow out of surprisingly simple rules.",
+    "simpler": "Fractals are patterns that repeat over and over at different sizes. A few simple rules can create very complex shapes.",
+    "keyTakeaway": "Fractals show that repeated simple rules can produce endless visual complexity.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/64/Fractal-tree.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Chunes33",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Fractal-tree.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Koch_Snowflake.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "IntegralPython",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Koch_Snowflake.svg"
+    },
+    "deeperDive": "A fractal is not just a pretty pattern. It is often a way of describing systems that are self-similar or recursive. Coastlines, branching trees, clouds, and river networks often show fractal-like behavior because nature reuses similar branching logic over and over. In mathematics, that repetition can be extended indefinitely, which is why fractals can have detail at every scale.\n\nThe bigger idea is that order and complexity are not opposites. Sometimes the most intricate structures are produced by the simplest rules run many times.",
+    "funFact": "Fractals can keep revealing detail when you zoom in.",
+    "references": [
+      "Britannica - fractal",
+      "NASA - fractals in nature",
+      "Scientific American - Mandelbrot and fractal geometry"
+    ],
+    "keyElements": {
+      "people": [
+        "Benoit Mandelbrot - pioneer of fractal geometry",
+        "Mathematicians - researchers of repeated structure",
+        "Computer graphics developers - people who render fractals",
+        "Scientists - experts who find fractal patterns in nature"
+      ],
+      "places": [
+        "Mathematics departments - where fractals are studied",
+        "Computer labs - where fractals are generated",
+        "Nature itself - where branching patterns appear",
+        "Research conferences - where fractal theory is discussed"
+      ],
+      "years": [
+        "1975 - Mandelbrot coins the term fractal",
+        "Late 20th century - fractals become widely studied",
+        "21st century - fractals appear in graphics and science visualization",
+        "Present day - fractal ideas remain influential"
+      ],
+      "concepts": [
+        "Self-similarity - similar structure at different scales",
+        "Recursion - a process repeated using its own output",
+        "Iteration - applying a rule over and over",
+        "Mandelbrot set - a famous fractal in complex dynamics",
+        "Complexity - rich detail emerging from simple rules"
+      ]
+    }
+  }
+}

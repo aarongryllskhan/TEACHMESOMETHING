@@ -1,33 +1,62 @@
 {
   "topic": "Why Universal Basic Income Is Being Tested",
-  "title": "Understanding the Methods Behind Universal Basic Income Trials",
+  "title": "Why governments keep trying the same bold idea",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Universal_Basic_Income.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Ron Mader",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Universal_Basic_Income.jpg"
+  },
   "lesson": {
-    "learn": "Universal Basic Income (UBI) is a financial safety net concept where every citizen receives a regular, unconditional sum of money from the government to cover their basic needs. This idea gained traction worldwide as policymakers and experts debate its potential benefits in addressing poverty, inequality, and unemployment. Notably, a 1960s Alaska experiment by Senator Ralph J. Rivers proposed UBI as an alternative to welfare programs, while Finland, Kenya, and Ontario have recently conducted trials. Proponents argue that UBI can provide a financial cushion for vulnerable populations, while critics warn of potential disincentives to work. In response, many governments are experimenting with UBI as part of their social welfare policies.",
-    "simpler": "Think of Universal Basic Income like receiving a steady allowance from the government, which helps you cover basic expenses like food, shelter, and clothing. The government's financial assistance can alleviate financial stress and provide a sense of economic security.",
-    "keyTakeaway": "The effectiveness of Universal Basic Income remains a topic of debate. While some trials have reported positive outcomes, such as improved mental and physical health, others have raised concerns about potential work disincentives and economic feasibility. Consequently, more research is needed to determine the sustainability and long-term effects of UBI.",
-    "deeperDive": "UBI has been tested in several pilot programs worldwide. Finland conducted a two-year experiment from 2017-2019, providing 2,000 unemployed individuals with €560 per month. The results indicated a significant increase in well-being and life satisfaction, but also raised concerns about potential work disincentives. The GiveDirectly organization has been running a UBI trial in Kenya since 2016, providing cash transfers to over 10,000 randomly selected households in rural areas. Preliminary findings suggest that recipients have invested their income in education, healthcare, and entrepreneurship, leading to improved economic outcomes. The Ontario Basic Income Pilot (OBIP) was launched in 2017 by the Canadian government to test UBI's effectiveness in addressing poverty. Although it was cancelled after one year due to a change in government, researchers have published initial results showing that participants experienced significant improvements in mental and physical health.",
-    "funFact": "Studies have shown that participants in UBI trials often report improved relationships with family and friends, reduced stress levels, and increased feelings of financial security. In Finland's UBI experiment, participants reported improved physical and mental health, with some even experiencing a reduction in anxiety and depression.",
+    "learn": "Universal basic income, or UBI, is the idea of giving everyone a regular cash payment with no conditions attached. Supporters argue it can reduce poverty, make people more resilient to job loss, and simplify social support. Critics worry about cost, incentives, and whether it would replace targeted welfare that helps vulnerable groups more directly.\n\nThe reason it keeps getting tested is simple: it asks a serious question about how a modern economy should share security when work is more unstable than it used to be.",
+    "simpler": "UBI is a regular payment given to everyone, no strings attached. People test it to see if it helps with poverty and job insecurity.",
+    "keyTakeaway": "UBI is being tested because it could provide stability in an economy where income can be fragile.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Productivity_can_fund_a_universal_basic_income.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Lbeaumont",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Productivity_can_fund_a_universal_basic_income.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/3/37/Universal_Basic_Income_For_One_and_for_All_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Institute of Network Cultures",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Universal_Basic_Income_For_One_and_for_All_01.jpg"
+    },
+    "deeperDive": "Pilot programs try to answer practical questions. Does cash improve health? Does it help people retrain, care for family, or start a business? Do people keep working, or do incentives change? The answers vary, which is why the debate keeps going.\n\nWhat makes UBI interesting is that it treats cash as flexibility. Instead of assigning help only through strict categories, it gives people room to decide what they need most.",
+    "funFact": "The biggest debate is often about design, not just generosity.",
+    "references": [
+      "Britannica - basic income",
+      "Stanford Basic Income Lab",
+      "OECD - cash transfer policy"
+    ],
     "keyElements": {
       "people": [
-        "* **Alaska Senator Ralph J. Rivers**, who first proposed UBI as an alternative to welfare programs in the 1960s.",
-        "* **Olli Kangas**, Finnish economist and researcher who designed the country's UBI experiment.",
-        "* **Michael Tubbs**, American politician who implemented Stockton's UBI pilot program in California."
+        "Policy researchers - test what cash transfers do",
+        "Economists - study labor effects",
+        "Governments - decide whether to scale pilots"
       ],
       "places": [
-        "* **Alaska**, where UBI was first proposed as an alternative to welfare programs in the 1960s.",
-        "* **Finland**, where a two-year UBI experiment took place from 2017-2019.",
-        "* **Kenya**, where GiveDirectly has been running a large-scale UBI trial since 2016."
+        "Pilot cities - where trials are run",
+        "Welfare agencies - where policy meets reality",
+        "Parliaments - where funding decisions happen"
       ],
       "years": [
-        "* **1962**, when Alaska Senator Ralph J. Rivers first proposed UBI as an alternative to welfare programs.",
-        "* **2011**, when Finland began exploring the idea of implementing UBI.",
-        "* **2017-2019**, when Finland conducted its two-year UBI experiment."
+        "1960s - modern basic income debate grows",
+        "2010s - pilot programs spread",
+        "2020s - UBI remains a live policy experiment"
       ],
       "concepts": [
-        "* **Basic needs**: The essential requirements for human survival, including food, shelter, clothing, and healthcare.",
-        "* **Poverty alleviation**: Strategies aimed at reducing poverty rates through financial assistance or job creation.",
-        "* **Inequality reduction**: Initiatives designed to address income disparities between different socio-economic groups.",
-        "* **Work disincentives**: Potential negative consequences of UBI, such as reduced motivation to work due to government support."
+        "Cash transfer - direct money support",
+        "Means test - a requirement based on income",
+        "Work incentive - how policy affects labor choices",
+        "Social safety net - help that protects people from shocks"
       ]
     }
   }

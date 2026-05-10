@@ -1,47 +1,66 @@
 {
   "topic": "The Physics of Radioactivity",
   "title": "How Radioactive Elements Emerge and Interact with Their Environment",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Radioactive%20symbol.png",
+  "imageCredit": {
+    "creator": "Yann",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Radioactive_symbol.png"
+  },
   "lesson": {
-    "learn": "Radioactivity is a natural phenomenon where unstable atomic nuclei release energy in the form of radiation due to an imbalance in the number of protons and neutrons within the nucleus. This process occurs when an atom has too many or too few neutrons, causing it to become radioactive and unstable. The subsequent release of radiation transforms the atom into a more stable form. Understanding radioactivity is crucial in various fields, including medicine, energy production, and environmental science, as it allows us to harness its power while minimizing its risks.",
-    "simpler": "When an atom's nucleus contains an unequal number of protons and neutrons, it becomes unstable and releases excess energy, creating radiation. This natural process can be compared to a faulty mechanical system releasing excess energy to return to equilibrium. As a result, radioactive elements undergo nuclear decay, producing alpha, beta, or gamma radiation. For instance, when an atomic nucleus loses a neutron, it transforms into a more stable form through beta decay.",
-    "keyTakeaway": "The primary cause of radioactivity is the imbalance in the number of protons and neutrons within an atomic nucleus. Understanding this concept is essential for managing radioactivity safely and exploring its applications.",
-    "deeperDive": "Researchers have synthesized superheavy elements like Oganesson (Og) and Tennessine (Ts) in laboratory experiments, providing valuable insights into the limits of nuclear stability. Radioactive isotopes are being explored for medical applications, such as targeted cancer treatment, as they can be precisely destroyed within tumors without harming surrounding healthy tissue. The 1986 Chernobyl nuclear accident highlighted the importance of strict safety protocols and regulations to mitigate the consequences of unchecked radioactivity. Furthermore, recent studies have discovered that certain bacteria can survive and even thrive in environments with high levels of ionizing radiation, opening new avenues for biotechnology applications.",
-    "funFact": "Some rocks on Earth contain radioactive elements that are billions of years old, preserved from the Earth's early history. These ancient atoms offer a unique window into the planet's evolution and formation.",
+    "learn": "Some elements are radioactive because their nuclei are unstable. They contain combinations of protons and neutrons that do not balance well enough to stay in one arrangement forever, so they shed energy or particles through decay. That decay can happen as alpha, beta, or gamma emission, depending on the isotope.\n\nRadioactivity is a nuclear property, not a chemical one. The atom may still behave like the same element in ordinary chemistry, but its nucleus is internally unstable and slowly transforms into something more stable.",
+    "simpler": "Radioactive elements have unstable nuclei. They give off particles or energy until they reach a more stable state.",
+    "keyTakeaway": "Radioactivity happens when a nucleus is unstable enough to decay on its own.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Uraninite.jpg",
+    "learnImageCredit": {
+      "creator": "H238",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Uraninite.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Decay%20Chain.png",
+    "thirdImageCredit": {
+      "creator": "Forwardbias",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Decay_Chain.png"
+    },
+    "deeperDive": "The balance between protons and neutrons matters because nuclear forces are short-range and highly selective. Very heavy nuclei are especially likely to become unstable, but lighter isotopes can also be radioactive if the proton-neutron ratio is off. Half-life measures how long it takes for half of a sample to decay, which makes radioactivity useful for dating, medicine, and safety planning.\n\nScientists study these isotopes to understand nuclear structure, to power imaging and treatment in medicine, and to track processes in geology and archaeology. The important point is that radiation is not a mysterious add-on; it is a natural consequence of some nuclei trying to become more stable.",
+    "funFact": "A sample can still contain radioactive atoms long after decay has already started.",
+    "references": [
+      "Britannica - radioactivity",
+      "IAEA - radiation and nuclear safety basics",
+      "NRC - half-life and radioactive decay"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "* Ernest Lawrence (1901-1958) - Inventor of the Cyclotron, a device used to accelerate charged particles",
-        "* Marie Curie (1867-1934) - Pioneer in radioactivity research, first woman to win a Nobel Prize",
-        "* Enrico Fermi (1901-1954) - Developed the theory of nuclear fission and led the Manhattan Project",
-        "* Glenn Seaborg (1912-1999) - Discovered several synthetic elements, including Plutonium and Americium",
-        "* IrÃ¨ne Joliot-Curie (1897-1956) - Continued her mother's research on radioactivity, discovering artificial radioactivity",
-        "**"
+        "Henri Becquerel - discovered natural radioactivity",
+        "Marie Curie - pioneered the study of radioactive elements",
+        "Ernest Rutherford - clarified the nature of nuclear radiation",
+        "Lise Meitner - helped explain nuclear transformation"
       ],
       "places": [
-        "**",
-        "* Oak Ridge National Laboratory (Tennessee, USA) - Research facility for nuclear energy applications",
-        "* CERN (Geneva, Switzerland) - World-renowned particle physics laboratory",
-        "* Los Alamos National Laboratory (New Mexico, USA) - Secret research facility during World War II, now dedicated to scientific innovation",
-        "* Chernobyl Nuclear Power Plant (Ukraine) - Site of the 1986 nuclear disaster",
-        "* Bikini Atoll (Marshall Islands) - Former site of nuclear testing and radioactive waste disposal",
-        "**"
+        "Paris, France - early center of radioactivity research",
+        "Radium Institute - key site in radioactive element studies",
+        "CERN, Switzerland - modern particle and nuclear research hub",
+        "Uranium mines and processing sites - sources of radioactive minerals"
       ],
       "years": [
-        "**",
-        "* 1898 - Marie Curie discovers radioactivity in pitchblende ore",
-        "* 1942 - Enrico Fermi achieves the first controlled nuclear chain reaction at the University of Chicago",
-        "* 1953 - Plutonium production begins at the Hanford Site (Washington, USA)",
-        "* 1986 - Chernobyl Nuclear Power Plant suffers a catastrophic explosion and fire",
-        "* 1999 - Glenn Seaborg passes away, leaving behind a legacy in radioactivity research",
-        "**"
+        "1896 - Becquerel identifies natural radioactivity",
+        "1898 - the Curies isolate radium and polonium",
+        "Early 20th century - nuclear structure research expands",
+        "Modern era - radioactive isotopes are used in science and medicine"
       ],
       "concepts": [
-        "**",
-        "* Radioactive decay: The process by which unstable atomic nuclei lose energy through radiation emission",
-        "* Nuclear fission: The splitting of heavy atoms into lighter ones, releasing energy in the form of radiation",
-        "* Ionizing radiation: High-energy particles or waves that can remove electrons from atoms, leading to chemical reactions and potential harm to living organisms",
-        "* Half-life: The time required for half of a radioactive substance's atoms to decay into more stable forms",
-        "* Isotopes: Atoms with the same number of protons but different numbers of neutrons, some of which are radioactive"
+        "Half-life - the time for half a radioactive sample to decay",
+        "Alpha decay - emission of helium nuclei",
+        "Beta decay - emission of electrons or positrons",
+        "Gamma radiation - high-energy electromagnetic radiation",
+        "Isotopes - atoms of the same element with different neutron counts"
       ]
     }
   }

@@ -1,45 +1,77 @@
 {
   "topic": "The Renaissance and Artistic Innovation",
   "title": "How Renaissance Artists Transformed Art Through Perspective, Science, and Humanism",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_invertido.png",
+  "imageCredit": {
+    "creator": "El disidente/Leonardo da Vinci",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_invertido.png"
+  },
   "lesson": {
-    "learn": "Between the 14th and 17th centuries, the Renaissance reshaped European art by reviving classical Greek and Roman ideas while introducing new scientific approaches to representation. Artists began to study anatomy, geometry, and optics to create more realistic and emotionally expressive works. A major breakthrough was the development of linear perspective, refined in early Renaissance Florence and associated with Filippo Brunelleschi’s experiments and Leon Battista Alberti’s formalization of perspective theory. This innovation allowed artists to convincingly depict three-dimensional space on a flat surface, fundamentally changing visual representation in Western art.",
-    "simpler": "During the Renaissance, artists learned new ways to make paintings look more real. They studied the human body, used math for perspective, and painted scenes that showed depth and emotion instead of flat images.",
-    "keyTakeaway": "The Renaissance transformed art by combining observation, mathematics, and human-centered thinking, leading to more realistic, expressive, and spatially accurate artworks that still influence art today.",
-    "deeperDive": "Renaissance innovation was driven by a fusion of art, science, and philosophy. Linear perspective, developed through experiments in Florence, relied on mathematical principles to create the illusion of depth, later systematized by Leon Battista Alberti. Advances in anatomy, supported by figures like Andreas Vesalius in his anatomical studies, allowed artists to depict the human body with unprecedented accuracy. Painters such as Leonardo da Vinci integrated observation, engineering curiosity, and artistic technique, using methods like sfumato to create subtle transitions between light and shadow. Oil painting techniques, refined in Northern Europe by artists such as Jan van Eyck, enabled richer color blending and detail. Meanwhile, patronage from powerful families like the Medici and institutions such as the Vatican provided the financial support necessary for large-scale artistic projects, including Raphael’s fresco cycles. This environment fostered a cultural shift toward humanism, where human experience, proportion, and emotion became central to artistic expression.",
-    "funFact": "Renaissance artists often built small wooden “stage sets” or used string grids to test perspective before painting large works, essentially creating early physical models of 3D space.",
+    "learn": "Between the 14th and 17th centuries, the Renaissance radically transformed European art by reviving classical Greek and Roman ideals while introducing groundbreaking scientific methods for understanding the visible world. This cultural rebirth, centered initially in Italian city-states such as Florence, shifted artistic priorities away from the flatter symbolic conventions of much medieval art toward realism, proportion, emotional depth, and rational observation. Artists increasingly studied mathematics, anatomy, geometry, engineering, and optics to create more convincing representations of nature and humanity. One of the most revolutionary developments was linear perspective, pioneered through Filippo Brunelleschi’s experiments in Florence and later formalized by Leon Battista Alberti. This system used converging lines and vanishing points to create the illusion of three-dimensional depth on a flat surface, fundamentally changing visual representation. Renaissance artists did not merely imitate reality—they analyzed and reconstructed it through science, creating art that reflected a new confidence in human intellect and observation.",
+    "simpler": "Renaissance artists changed painting by using math, science, and observation to make art look more realistic. They learned how to show depth, accurate bodies, and emotion in ways that made paintings feel more lifelike.",
+    "keyTakeaway": "The Renaissance transformed art by merging classical knowledge, scientific inquiry, and human-centered philosophy, creating more realistic, spatially accurate, and emotionally powerful visual expression.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+    "learnImageCredit": {
+      "creator": "Raphael",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mona%20Lisa.jpg",
+    "thirdImageCredit": {
+      "creator": "Leonardo da Vinci",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mona_Lisa.jpg"
+    },
+    "deeperDive": "Renaissance artistic innovation emerged from the fusion of artistic ambition, scientific discovery, and philosophical humanism. Brunelleschi’s perspective experiments in the 1420s demonstrated that geometry could organize visual space systematically, while Alberti’s treatise 'De Pictura' provided formal theoretical rules for painters. This mathematical precision allowed artists to create architecturally coherent and spatially believable scenes. Simultaneously, anatomical studies became increasingly sophisticated. Leonardo da Vinci dissected corpses to understand musculature, skeletal systems, and movement, producing anatomical sketches of extraordinary precision. Andreas Vesalius’ later anatomical publications further expanded the relationship between science and visual realism. Leonardo also developed sfumato, using subtle tonal transitions to create atmospheric softness, while chiaroscuro used dramatic light-dark contrast to model volume and emotion. Northern Renaissance artists such as Jan van Eyck revolutionized oil painting, allowing unprecedented detail, luminous color, and textural richness. Patronage systems were equally essential: families such as the Medici in Florence and institutions like the Vatican funded monumental commissions, enabling artists like Michelangelo and Raphael to create ambitious frescoes, sculptures, and architectural works. Humanism shaped subject matter by emphasizing the dignity, beauty, and intellectual power of humanity, reconnecting artistic ideals with classical philosophy. This combination of science, art, and philosophy fundamentally rewired Western visual culture and laid the groundwork for later artistic revolutions.",
+    "funFact": "Some Renaissance artists used mirrors, strings, and miniature architectural models to test perspective systems before beginning large paintings.",
+    "references": [
+      "The Metropolitan Museum of Art — Renaissance art history and perspective innovation.",
+      "Encyclopaedia Britannica — Renaissance, Brunelleschi, Alberti, and artistic theory.",
+      "Uffizi Gallery archives — Florentine Renaissance development.",
+      "The Vatican Museums — Raphael and High Renaissance commissions.",
+      "National Gallery, London — Jan van Eyck and oil painting innovation.",
+      "Leonardo da Vinci scholarly archives — Anatomy, engineering, and artistic methods."
+    ],
     "keyElements": {
       "people": [
-        "Filippo Brunelleschi - Early pioneer of linear perspective in Renaissance Florence",
-        "Leon Battista Alberti - Theorist who formalized perspective rules in art",
-        "Leonardo da Vinci - Artist and inventor known for combining science, anatomy, and painting",
-        "Michelangelo Buonarroti - Master sculptor and painter of the Sistine Chapel ceiling",
-        "Raphael Sanzio - Painter known for harmony, composition, and classical balance",
-        "Andreas Vesalius - Anatomist whose studies improved artistic understanding of the human body",
-        "Jan van Eyck - Northern Renaissance painter who advanced oil painting techniques"
+        "Filippo Brunelleschi — Pioneer of linear perspective",
+        "Leon Battista Alberti — Theorist of perspective",
+        "Leonardo da Vinci — Artist-scientist integrating anatomy and art",
+        "Michelangelo Buonarroti — Sculptor and painter of monumental works",
+        "Raphael Sanzio — Master of composition and harmony",
+        "Andreas Vesalius — Anatomist influencing realism",
+        "Jan van Eyck — Innovator in oil painting"
       ],
       "places": [
-        "Florence, Italy - Birthplace of Renaissance artistic innovation and perspective studies",
-        "Rome, Italy - Major center for Renaissance art and papal commissions",
-        "Venice, Italy - Hub for color-rich oil painting and trade-influenced art styles",
-        "The Vatican, Vatican City - Major patron of Renaissance artists and religious art",
-        "Uffizi Gallery, Florence - One of the most important collections of Renaissance artworks"
+        "Florence, Italy — Birthplace of major Renaissance innovation",
+        "Rome, Italy — High Renaissance artistic center",
+        "Venice, Italy — Hub of color-rich painting traditions",
+        "The Vatican, Vatican City — Patronage powerhouse",
+        "Uffizi Gallery, Florence — Major Renaissance collection"
       ],
       "years": [
-        "14th century - Early Renaissance begins in Italy with renewed classical influence",
-        "1420s - Experiments with linear perspective emerge in Florence",
-        "1490 - Leonardo da Vinci creates works exploring proportion and anatomy, including Vitruvian studies",
-        "1500s - High Renaissance period produces works by Leonardo, Michelangelo, and Raphael",
-        "1543 - Vesalius publishes De humani corporis fabrica, advancing anatomical knowledge for artists",
-        "1600s - Transition toward Baroque styles builds on Renaissance innovations"
+        "14th century — Early Renaissance origins",
+        "1420s — Perspective experiments",
+        "1490s — Leonardo’s anatomical and proportional studies",
+        "1500s — High Renaissance peak",
+        "1543 — Vesalius publishes anatomical breakthroughs",
+        "17th century — Renaissance transitions into Baroque"
       ],
       "concepts": [
-        "Linear perspective - Mathematical system for creating depth on a flat surface",
-        "Humanism - Intellectual movement emphasizing human experience and potential",
-        "Sfumato - Technique of blending tones for soft transitions between light and shadow",
-        "Chiaroscuro - Strong contrast between light and dark to model form",
-        "Oil painting - Medium allowing richer color, detail, and blending",
-        "Anatomical realism - Accurate depiction of the human body based on observation",
-        "Artistic patronage - Financial and institutional support for artists and major works"
+        "Linear perspective — Mathematical depth system",
+        "Humanism — Human-centered philosophy",
+        "Sfumato — Soft tonal blending",
+        "Chiaroscuro — Light-dark modeling",
+        "Oil painting — Rich pigment and blending medium",
+        "Anatomical realism — Scientific body representation",
+        "Artistic patronage — Financial support systems"
       ]
     }
   }

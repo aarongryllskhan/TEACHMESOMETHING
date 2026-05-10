@@ -1,40 +1,66 @@
 {
-  "topic": "Exploring Host-Parasite Relationships",
-  "title": "The Biology of Parasitic Wasps: Manipulating Host Behavior for Survival and Reproduction",
+  "topic": "Parasitoid Behavior",
+  "title": "How Parasitic Wasps Hijack Insects Without Magic",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Parasitic_wasp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Scott Bauer for USDA",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Parasitic_wasp.jpg"
+  },
   "lesson": {
-    "learn": "Parasitic wasps (Hymenoptera) have evolved complex strategies to manipulate the behavior of their hosts, often turning them into 'zombies' for the wasp's benefit. This phenomenon is observed in various hosts, including caterpillars, mosquitoes, and beetles, and can lead to significant insights into insect ecology and evolution. A notable example is the Tachinid fly (genus Trichopoda), which injects its eggs into host caterpillars (Spodoptera exigua) and feeds on its internal organs.",
-    "simpler": "The life cycle of parasitic wasps involves the injection of eggs into a host, where the larvae grow, feed, and eventually kill the host, emerging as fully formed adults. This process is analogous to a caterpillar being 'injected' with a parasitic wasp's genome, allowing the wasp to survive and reproduce while sacrificing its host's life.",
-    "keyTakeaway": "Parasitic wasps exemplify intricate host-parasite relationships, where the wasp's survival and reproduction are contingent upon manipulating the host's behavior, physiology, and life cycle.",
-    "deeperDive": "Research on parasitic wasps has shown that species like Trichopoda tricolor induce their host caterpillars to climb to high locations, where the emerging adult wasp can escape and start a new colony. This behavior modification is achieved through the wasp's venom, which contains specific compounds that stimulate the host's nervous system.",
-    "funFact": "Studies have revealed that some parasitic wasps, such as Trichopoda tricolor, can 'milk' their hosts for nutrients by injecting substances that stimulate the host's digestive system to produce more food, thereby ensuring the wasp's survival and reproduction.",
+    "learn": "Parasitic wasps are some of the most unsettling organisms on Earth because they use living hosts to raise their young. A female wasp may lay an egg in or on another insect, and the developing larvae feed on the host while keeping it alive long enough to support the next generation. In some species, the wasp also alters the host's behavior so the larva is better protected.\n\nThe word \"zombie\" is dramatic, but the real process is even more interesting: hormones, nerves, and behavior are being manipulated by evolution, not sorcery.",
+    "simpler": "Some wasps lay eggs in other insects and change the host's behavior so their young can survive.",
+    "keyTakeaway": "Parasitoid wasps are evolutionary specialists that use other insects as living nurseries.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/67/Parasitoid_wasp_on_Caterpillar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Nikhil More",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Parasitoid_wasp_on_Caterpillar.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Parasitoid_wasp_on_caterpillar_%28NZAC06000927%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Don Horne",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Parasitoid_wasp_on_caterpillar_(NZAC06000927).jpg"
+    },
+    "deeperDive": "The host is not controlled in a movie-style way. Instead, the wasp's offspring or chemicals affect the host's body enough to change its actions. That can mean slower movement, altered feeding, or protective behavior that keeps the host near a safe place for the wasp larvae. It is a precise evolutionary trick, and one that appears in many insect groups.\n\nThis is a strong example of coevolution and parasitism. One species benefits by reshaping another species' biology just enough to keep the life cycle going.",
+    "funFact": "Some parasitoid larvae wait until the host is almost done growing.",
+    "references": [
+      "Britannica - parasitoid",
+      "National Geographic - parasitic wasps",
+      "USDA - biological control insects"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "* Lynn S. Kimsey, a renowned expert on Hymenoptera and parasitic wasps",
-        "* Dr. Brian Federici, a leading researcher on insect behavior and ecology",
-        "* Dr. Daniel P. Kain, an entomologist specializing in the study of parasitic wasp evolution",
-        "**"
+        "Entomologists - insect specialists",
+        "Behavioral ecologists - scientists who study manipulation",
+        "Agricultural researchers - experts in biological control",
+        "Museum curators - people who preserve insect specimens"
       ],
       "places": [
-        "**",
-        "* The University of California, Berkeley, where researchers have made significant discoveries about parasitic wasp biology",
-        "* The Smithsonian Institution's National Museum of Natural History, which houses a vast collection of insect specimens including parasitic wasps",
-        "* The Amazon rainforest, home to diverse populations of parasitic wasps that feed on various insect hosts",
-        "**"
+        "Forests and fields - habitats where hosts and wasps meet",
+        "Research labs - places where insect behavior is studied",
+        "Agricultural landscapes - places where parasitoids matter",
+        "Tropical ecosystems - very species-rich insect communities"
       ],
       "years": [
-        "**",
-        "* 1860s - when the first scientific descriptions of parasitic wasps were published by Charles Darwin and other naturalists",
-        "* 1920s - a period of significant research into the biology and behavior of parasitic wasps",
-        "* 2015 - a study revealed new insights into the molecular mechanisms underlying host manipulation in parasitic wasps",
-        "**"
+        "20th century - parasitoid behavior becomes a major research field",
+        "21st century - chemical and neurological studies deepen understanding",
+        "Present day - parasitoids are used in pest control research",
+        "Seasonally - many species synchronize with host life cycles"
       ],
       "concepts": [
-        "**",
-        "* Host-parasite relationships",
-        "* Insect ecology and evolution",
-        "* Parasitoidism (a type of symbiotic relationship where one organism, the parasite, benefits at the expense of another organism)",
-        "* Endosymbiosis (the process by which an organism's cells harbor symbiotic organisms or other entities)"
+        "Parasitoid - an organism that eventually kills its host",
+        "Host manipulation - changing another animal's behavior",
+        "Larva - the immature stage of an insect",
+        "Parasitism - one species benefiting at another's expense",
+        "Biological control - using natural enemies to manage pests"
       ]
     }
   }

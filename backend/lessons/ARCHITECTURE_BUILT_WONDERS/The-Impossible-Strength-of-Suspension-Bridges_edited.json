@@ -1,41 +1,74 @@
 {
   "topic": "The Impossible Strength of Suspension Bridges",
   "title": "Exploring the Engineering Principles Behind Suspension Bridge Design and Stability",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GoldenGateBridge-001.jpg",
+  "imageCredit": {
+    "creator": "Rich Niewiroski Jr.",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.5 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg"
+  },
   "lesson": {
-    "learn": "Suspension bridges are large-scale engineering structures designed to span long distances using a system of main cables, vertical suspenders, anchorages, and towers. These components work together to transfer loads from the bridge deck into tensioned cables and ultimately into the ground. Modern suspension bridges can extend over several kilometers, such as the Akashi Kaikyō Bridge in Japan, which has a central span of 1,991 meters. Historical development of suspension bridges accelerated in the 19th and 20th centuries with advances in steel production and structural analysis. Engineering innovations, including aerodynamic deck shaping and improved cable systems, have allowed these bridges to withstand wind, traffic loads, and seismic activity.",
-    "simpler": "Suspension bridges are built using strong cables that hang between tall towers. The road is suspended underneath these cables, allowing the bridge to stretch across very long distances like rivers or valleys. The weight is spread through the cables and towers into the ground, making the structure strong and flexible at the same time.",
-    "keyTakeaway": "Suspension bridges achieve extreme spans and structural resilience by efficiently managing tension forces through cables and distributing loads across towers and anchor points, making them one of the most efficient long-span bridge designs in engineering.",
-    "deeperDive": "The structural behavior of suspension bridges is governed by tension in the main cables and compression in the towers. The cables naturally form a catenary curve under uniform load distribution, which minimizes bending stresses. Modern bridges like the Golden Gate Bridge incorporate aerodynamic stiffening trusses to reduce oscillation caused by wind forces, a lesson learned after failures such as the Tacoma Narrows Bridge collapse in 1940. Engineers also use finite element modeling and wind tunnel testing to predict structural responses under extreme conditions. Advances in materials such as high-strength steel and corrosion-resistant coatings have significantly increased durability, while seismic isolation systems help protect bridges in earthquake-prone regions.",
-    "funFact": "The Tacoma Narrows Bridge collapse in 1940 became one of the most famous engineering case studies in history, leading to major advancements in aerodynamics and bridge design standards worldwide.",
+    "learn": "Suspension bridges represent one of humanity’s most extraordinary structural achievements, allowing engineers to span enormous distances across waterways, straits, and valleys that would otherwise be impractical for conventional bridge systems. Their defining innovation lies in the use of massive main cables draped between towers, from which the roadway deck is suspended by vertical hangers. This design transfers loads primarily through tension in the cables and compression in the towers, creating an exceptionally efficient structural system for long spans. While early rope and chain suspension bridges existed centuries ago, the 19th and 20th centuries transformed this concept through advances in steel wire production, industrial construction, and mathematical structural analysis. Landmark structures such as the Brooklyn Bridge (1883), Golden Gate Bridge (1937), and Akashi Kaikyō Bridge (1998) demonstrate how developments in metallurgy, aerodynamics, and seismic engineering allowed central spans to expand from hundreds of meters to nearly two kilometers. These bridges must withstand not only immense static loads from their own weight and traffic, but also dynamic forces from wind, earthquakes, thermal expansion, and vibration.",
+    "simpler": "Suspension bridges use giant cables stretched between tall towers to hold up the road below. The cables carry most of the weight, while the towers push downward into the ground. This makes them strong, flexible, and ideal for crossing huge distances.",
+    "keyTakeaway": "Suspension bridges achieve remarkable span length and resilience by using tensioned cables, compressive towers, and carefully distributed structural loads, making them among the most efficient large-scale bridge systems ever developed.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Akashi-Kaikyo_Bridge.jpg",
+    "learnImageCredit": {
+      "creator": "Hideyuki KAMON",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Akashi-Kaikyo_Bridge.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Tacoma%20Narrows%20Bridge.jpg",
+    "thirdImageCredit": {
+      "creator": "Kimon Berlin",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.5 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tacoma_Narrows_Bridge.jpg"
+    },
+    "deeperDive": "The structural behavior of suspension bridges is governed by the interaction between tension and compression. Main cables naturally form a catenary curve, an efficient geometry that minimizes bending stress while distributing loads along the cable length. Towers support immense compressive forces, transferring them into deep foundations, while anchorages counteract horizontal cable pull. The bridge deck itself must resist bending, torsion, and oscillation, which is why stiffening trusses or aerodynamic box girders are integrated into modern designs. The 1940 Tacoma Narrows Bridge collapse revealed the catastrophic effects of aeroelastic flutter, fundamentally reshaping bridge engineering through wind tunnel testing and aerodynamic refinement. Modern designs now incorporate streamlined deck profiles, tuned mass dampers, seismic isolation bearings, and advanced finite element analysis to model extreme conditions before construction. Material science has also played a transformative role, with galvanized high-strength steel cables, corrosion-resistant coatings, and sophisticated cable spinning techniques significantly improving durability. In projects like the Akashi Kaikyō Bridge, engineers accounted for typhoons, tectonic shifts, and thermal movement, designing a structure capable of adapting to both environmental and geological instability. Rather than rigid monuments, suspension bridges function as dynamic engineered systems built to flex safely under constantly changing forces.",
+    "funFact": "During construction of the Akashi Kaikyō Bridge, the 1995 Kobe earthquake shifted its towers so significantly that the central span increased by nearly one meter before completion.",
+    "references": [
+      "American Society of Civil Engineers (ASCE) — Suspension bridge engineering and structural mechanics.",
+      "Federal Highway Administration (FHWA) — Bridge design standards and aerodynamic analysis.",
+      "Encyclopaedia Britannica — Historical development of suspension bridge systems.",
+      "Golden Gate Bridge Highway and Transportation District — Official engineering and construction history.",
+      "Honshu-Shikoku Bridge Expressway Company — Akashi Kaikyō Bridge technical specifications.",
+      "National Society of Professional Engineers — Tacoma Narrows Bridge collapse engineering lessons."
+    ],
     "keyElements": {
       "people": [
-        "John A. Roebling – pioneer of modern suspension bridge design, known for the Brooklyn Bridge",
-        "Washington Roebling – chief engineer of the Brooklyn Bridge after John A. Roebling",
-        "Joseph Strauss – engineer who led the design of the Golden Gate Bridge",
-        "Leon Moisseiff – structural engineer who influenced long-span suspension bridge design",
-        "Othmar Ammann – engineer behind the George Washington Bridge and other major US suspension bridges"
+        "John A. Roebling — Pioneer of modern steel-wire suspension bridge engineering",
+        "Washington Roebling — Chief engineer overseeing Brooklyn Bridge completion",
+        "Joseph Strauss — Lead engineer of the Golden Gate Bridge",
+        "Othmar Ammann — Structural engineer behind major long-span suspension bridges",
+        "Leon Moisseiff — Engineer influential in suspension bridge theory and design"
       ],
       "places": [
-        "Golden Gate Bridge, San Francisco, USA",
-        "Brooklyn Bridge, New York City, USA",
-        "Akashi Kaikyō Bridge, Japan",
-        "Tacoma Narrows Bridge site, Washington State, USA",
-        "George Washington Bridge, New York and New Jersey, USA"
+        "Golden Gate Bridge, San Francisco, USA — Major 20th-century suspension bridge landmark",
+        "Brooklyn Bridge, New York City, USA — Historic steel-wire engineering milestone",
+        "Akashi Kaikyō Bridge, Japan — One of the world’s longest central spans",
+        "Tacoma Narrows, Washington, USA — Landmark aerodynamic engineering case study",
+        "George Washington Bridge, USA — Major suspension bridge achievement"
       ],
       "years": [
-        "1883 – Completion of the Brooklyn Bridge",
-        "1937 – Opening of the Golden Gate Bridge",
-        "1940 – Collapse of the original Tacoma Narrows Bridge",
-        "1964 – Opening of the Verrazzano-Narrows Bridge",
-        "1998 – Completion of the Akashi Kaikyō Bridge"
+        "1883 — Completion of the Brooklyn Bridge",
+        "1937 — Opening of the Golden Gate Bridge",
+        "1940 — Collapse of the original Tacoma Narrows Bridge",
+        "1964 — Opening of the Verrazzano-Narrows Bridge",
+        "1998 — Completion of the Akashi Kaikyō Bridge"
       ],
       "concepts": [
         "Tension and compression force distribution",
-        "Catenary curve in cable structures",
+        "Catenary curve structural geometry",
         "Aerodynamic stability in long-span bridges",
         "Load transfer through towers and anchorages",
         "Seismic and wind resistance engineering",
-        "High-strength steel cable systems"
+        "High-strength steel cable systems",
+        "Aeroelastic flutter prevention"
       ]
     }
   }

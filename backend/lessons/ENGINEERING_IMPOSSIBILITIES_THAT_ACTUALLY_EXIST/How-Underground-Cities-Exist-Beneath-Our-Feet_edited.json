@@ -1,35 +1,66 @@
 {
-  "topic": "How Underground Cities Exist Beneath Our Feet",
-  "title": "Understanding the Methods Behind Subterranean Urban Planning",
+  "topic": "Underground Cities",
+  "title": "How Underground Cities Can Exist Beneath the Surface",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Derinkuyu_Underground_City.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Bjørn Christian Tørrissen",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City.JPG"
+  },
   "lesson": {
-    "learn": "Underground cities are purpose-built metropolises constructed beneath the earth's surface, frequently in response to environmental, security, or economic concerns. These subterranean communities are realized through advanced engineering techniques, which enable the creation of self-sustaining urban spaces. For instance, the city of Cheongju in South Korea features a massive underground complex with shopping centers, office buildings, and a hotel, all built beneath a 300-meter-deep excavation site.",
-    "simpler": "Analogously, think of underground cities as 'vertical neighborhoods' where people can live, work, and interact without encroaching on the natural environment above. This concept has been realized through innovative urban planning strategies.",
-    "keyTakeaway": "The most significant takeaway is that underground cities exemplify the potential for urban planning to address pressing environmental and economic challenges while promoting the well-being of urban residents.",
-    "deeperDive": "Notable examples of underground cities include the massive tunnel networks in Pyongyang, North Korea, and the extensive underground facilities in Beijing, China. The South Korean city of Cheongju, built largely during the 1990s and early 2000s, boasts a fully functional underground complex with a population capacity of over 30,000 residents.",
-    "funFact": "Some underground cities feature elaborate artificial ecosystems, complete with aeroponic farms and LED-lit public spaces. Such features showcase the remarkable adaptability and innovation inherent in subterranean urban planning.",
+    "learn": "Underground cities exist because certain rock layers can be carved into livable space without collapsing immediately. In places like Cappadocia, volcanic rock is soft enough to excavate but strong enough to hold chambers, corridors, wells, and ventilation shafts. People used these spaces for shelter, storage, worship, and defense.\n\nThe key idea is that underground living is not about hiding in darkness forever. It is about using geology as architecture. When ventilation, drainage, and structural support are planned correctly, a city can function below ground for long periods.",
+    "simpler": "Underground cities are carved into rock that is soft enough to cut but strong enough to stay standing. They can be ventilated and lived in safely.",
+    "keyTakeaway": "Underground cities work when geology, air flow, and support systems are carefully managed together.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/55/DerinkuyuUndergroundCity01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Cactus26 (talk)",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DerinkuyuUndergroundCity01.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Cathedral_underground_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Andrea Zambrano Rojas",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cathedral_underground_city.jpg"
+    },
+    "deeperDive": "Subterranean settlements solve several problems at once: temperature control, defense, storage, and protection from extreme weather. Derinkuyu and similar sites used narrow passages, hidden entrances, ventilation shafts, and rolling stone doors to create secure, habitable spaces. The engineering depends on choosing the right rock and then shaping it in a way that preserves strength.\n\nModern underground cities are much more technical, but the same principles still apply. Metro systems, bunkers, mines, and underground facilities all need air, water, structure, and evacuation routes. The ancient examples are remarkable because they achieved all of that with simple tools and a deep understanding of the local terrain.",
+    "funFact": "Some underground cities have enough rooms and passages to shelter thousands of people.",
+    "references": [
+      "Britannica - Derinkuyu and underground cities",
+      "UNESCO - Cappadocia and subterranean heritage",
+      "Archaeology magazine - underground settlement research"
+    ],
     "keyElements": {
       "people": [
-        "+ Kim Jong-un (North Korean leader who ordered the development of Pyongyang's underground city)",
-        "+ Li Keqiang (Chinese Premier who promoted urbanization and underground construction)",
-        "+ Lee Myung-bak (South Korean President who initiated the Cheongju underground project)",
-        "*"
+        "Ancient Cappadocian builders - the communities who carved the cities",
+        "Archaeologists - researchers who map the underground spaces",
+        "Geologists - experts in volcanic tuff and cave stability",
+        "Modern conservators - people who protect subterranean heritage"
       ],
       "places": [
-        "+ Pyongyang, North Korea â€“ features an extensive underground complex",
-        "+ Beijing, China â€“ home to the Dongba Men Underground City",
-        "+ Seoul, South Korea â€“ has a network of underground tunnels and facilities",
-        "*"
+        "Derinkuyu, Turkey - famous underground city",
+        "Cappadocia, Turkey - region of soft volcanic rock",
+        "Kaymakli, Turkey - another major underground settlement",
+        "Mediterranean cave regions - places with similar underground use"
       ],
       "years": [
-        "+ 1975 â€“ construction began on Pyongyang's underground city",
-        "+ 2000s â€“ China started developing its own underground cities",
-        "+ 2012 â€“ Cheongju's underground complex was completed in South Korea",
-        "*"
+        "Ancient era - underground shelters are carved in Cappadocia",
+        "Byzantine period - subterranean spaces support refuge and worship",
+        "20th century - rediscovery expands archaeological knowledge",
+        "21st century - preservation becomes a major priority"
       ],
       "concepts": [
-        "+ Urban planning: designing efficient and sustainable urban spaces",
-        "+ Environmental impact: minimizing the effects of human activity on the environment",
-        "+ Engineering innovation: using technology to overcome design challenges"
+        "Subterranean architecture - building below the ground",
+        "Ventilation shaft - vertical passage for air",
+        "Volcanic tuff - soft rock that is easy to carve",
+        "Load path - the route forces take through a structure",
+        "Defensive architecture - design meant to resist attack"
       ]
     }
   }

@@ -1,37 +1,67 @@
 {
-  "topic": "Algorithmic Complexity",
-  "title": "Exploring the Methods Behind Algorithmic Efficiency",
+  "topic": "Why Some Algorithms Are Faster Than Others",
+  "title": "How Algorithm Design Changes Speed",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big-O-notation.png",
+  "imageCredit": {
+    "creator": "w:it:User:Fede_Reghe",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Big-O-notation.png"
+  },
   "lesson": {
-    "learn": "Algorithmic complexity is a fundamental concept in computer science that determines the efficiency of an algorithm's execution time and scalability. On average, a programmer spends approximately 50% of the development time debugging and optimizing code, with around 30% of the development cycle dedicated to performance optimization. Understanding algorithmic complexity is crucial for solving complex problems and writing efficient code. There are various types of algorithmic complexities, including linear (O(n)), quadratic (O(n^2)), cubic (O(n^3)), and exponential (O(2^n)) time complexities, each significantly affecting the execution time. By grasping these differences, developers can optimize their code for superior performance and scalability.",
-    "simpler": "Imagine a library with 10,000 books. A linear search algorithm would examine each book individually, resulting in a search time proportional to the number of books (O(n)). In contrast, a binary search algorithm can find a book in log(n) time by dividing the collection in half with each step. The difference is striking, and this analogy illustrates the essence of algorithmic complexity: some algorithms, like binary search, are designed to scale efficiently as data sizes increase.",
-    "keyTakeaway": "Algorithmic complexity is the primary determinant of an algorithm's performance and scalability. Understanding the types of complexity and selecting the right algorithm for the problem can significantly improve code execution time, reduce computational overhead, and enhance system scalability.",
-    "deeperDive": "Several key techniques can enhance the efficiency of algorithms. Dynamic programming, a method pioneered by American mathematician Richard Bellman in the 1950s, solves problems by breaking them down into smaller sub-problems that can be stored and reused, reducing redundant calculations. Memoization and caching, another essential concept, minimize the number of computations required by storing the results of expensive function calls and reusing them when the same inputs occur. Furthermore, advanced parallelization techniques, such as data and task parallelism, can be employed to take advantage of multi-core processors, significantly increasing execution speed.",
-    "funFact": "Some algorithms, like the fast Fourier transform (FFT) algorithm, are specifically designed for specific hardware architectures, like graphics processing units (GPUs). The FFT algorithm, widely used in various applications, including image and audio processing, can be executed much faster on GPUs than on traditional CPUs, taking advantage of the massively parallel computing capabilities of these devices.",
+    "learn": "Algorithms are faster or slower because they take different routes to the same result. A good algorithm does less work as the input grows, while a weaker one may explode in cost when the data set gets bigger. That is why computer scientists care so much about efficiency.\n\nThe surprising part is that small design choices can have huge effects. Two programs can solve the same problem and still differ wildly in speed once the input gets large.",
+    "simpler": "Some algorithms are faster because they do less work as data grows. Better structure usually beats brute force.",
+    "keyTakeaway": "Speed differences come from how the work grows, not just how powerful the computer is.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubble%20Sort%20Animation.gif",
+    "learnImageCredit": {
+      "creator": "SimonWaldherr",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bubble_Sort_Animation.gif"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Merge-sort-example-300px.gif",
+    "thirdImageCredit": {
+      "creator": "Swfung8",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Merge-sort-example-300px.gif"
+    },
+    "deeperDive": "Big O notation helps describe how an algorithm scales. An O(n log n) sort will usually outperform an O(n^2) sort on large data, even if both seem fine for tiny examples. Real-world speed also depends on memory access, caching, recursion depth, and how well the algorithm matches the problem.\n\nThat is why good software design often starts with picking the right algorithm and data structure before any low-level optimization. The right idea can save far more time than faster hardware ever could.",
+    "funFact": "A small change in algorithm design can save hours on big data.",
+    "references": [
+      "CLRS - Introduction to Algorithms",
+      "Britannica - algorithm and computational complexity",
+      "MIT OpenCourseWare - algorithms and data structures"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "* **Donald Knuth**, renowned computer scientist and author of \"The Art of Computer Programming\"",
-        "* **Jon Kleinberg**, expert in algorithms and data science at Cornell University",
-        "* **Christos Papadimitriou**, pioneer in computational complexity theory",
-        "* **Jeffrey Ullman**, prominent computer scientist and algorithm designer",
-        "**"
+        "Donald Knuth - influential algorithm analyst",
+        "Edsger Dijkstra - pioneer of efficient algorithms",
+        "Barbara Liskov - major computer science theorist",
+        "Robert Tarjan - advanced graph and data structure algorithms"
       ],
       "places": [
-        "**",
-        "* **Stanford University**, hub for computer science innovation and research",
-        "* **MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)**, leading institution for AI and computer science advancements",
-        "* **Google Research**, driving force behind cutting-edge algorithms and machine learning techniques",
-        "* **Carnegie Mellon University's School of Computer Science**, renowned institution for computer science education and research",
-        "**"
+        "MIT - algorithms and theory research",
+        "Stanford - computer science and scaling research",
+        "Bell Labs - foundational computing work",
+        "Google and other large-scale platforms - practical algorithm tuning"
       ],
       "years": [
-        "**",
-        "* 1969 - Introduction to the concept of NP-completeness by Stephen Cook",
-        "* 1972 - Publication of Donald Knuth's \"The Art of Computer Programming\"",
-        "* 1993 - Development of the fast Fourier transform (FFT) algorithm optimized for GPUs",
-        "* 2010 - Introduction of parallelization techniques in cloud computing platforms"
+        "1940s - early computing efficiency questions appear",
+        "1960s - sorting and graph algorithms mature",
+        "1970s - complexity theory becomes central",
+        "2000s - large-scale internet systems make efficiency critical"
       ],
-      "concepts": []
+      "concepts": [
+        "Big O notation - describing growth rate",
+        "Recursion - solving a problem by smaller versions of itself",
+        "Data structure - how information is organized",
+        "Cache behavior - how memory access affects speed",
+        "Asymptotic complexity - performance as input gets large"
+      ]
     }
   }
 }

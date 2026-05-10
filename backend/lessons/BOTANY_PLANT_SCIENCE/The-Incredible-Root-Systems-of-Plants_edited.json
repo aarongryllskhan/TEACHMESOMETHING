@@ -1,34 +1,68 @@
 {
-  "topic": "The Importance of Root Systems in Plant Anatomy",
-  "title": "Exploring the Methods Behind Plant Root Systems: A Key to Plant Survival and Growth",
+  "topic": "Root Systems",
+  "title": "Why Roots Grow Into Different Shapes",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Root_Systems.svg",
+  "imageCredit": {
+    "creator": "KaitlinLiu",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Root_Systems.svg"
+  },
   "lesson": {
-    "learn": "Plant roots are responsible for absorbing water and nutrients from the soil, a process that is crucial for plant survival and growth. According to a study published in the journal \"Nature\", a single corn plant can absorb up to 20 gallons of water per day through its root system1. The intricate network of roots also plays a vital role in maintaining soil health by stabilizing the soil structure and promoting beneficial microorganisms. In fact, research has shown that the mycorrhizal network, a complex web of fungal and plant roots, can extend for miles underground2.",
-    "simpler": "Think of plant roots like underground infrastructure that supports plant growth. Just as our bodies need a stable blood supply to thrive, plants use their roots to absorb essential nutrients and water from the soil. The root system acts like a highway system, allowing plants to access key resources and support their overall health.",
-    "keyTakeaway": "The root system is a critical component of plant anatomy, responsible for supporting plant growth and health through nutrient and water absorption, and contributing to soil stability and quality.",
-    "deeperDive": "The cactus, for example, has adapted to survive in arid environments by developing a complex root system that allows it to absorb water from deep within the soil. A study on the Sonoran desert cactus (Carnegiea gigantea) found that its root system can reach depths of up to 10 feet (3 meters) below the ground surface3. Similarly, mangroves and lotus trees have developed impressive root systems that enable them to survive in waterlogged environments. Research has also shown that the symbiotic relationship between plant roots and beneficial microorganisms is a vital aspect of root biology, facilitating the exchange of essential nutrients and promoting soil health.",
-    "funFact": "Did you know that some plants, such as dune grasses and beach morning glories, have developed specialized roots that enable them to anchor themselves in shifting sand and withstand strong ocean currents?",
+    "learn": "Roots are more than anchors. They are a plant's main interface with soil, moving water, minerals, and signals while also stabilizing the whole organism against wind and erosion. Some plants grow a deep taproot, while others spread out as a fibrous network near the surface. The shape depends on species, soil texture, moisture, competition, and the job the root system needs to do best. A root system is a design choice shaped by environment. It affects how well a plant can survive drought, absorb nutrients, and hold its place in the ground.",
+    "simpler": "Roots come in different shapes because plants need different ways to get water, minerals, and support from the soil.",
+    "keyTakeaway": "Root architecture is a survival strategy that balances anchoring, absorption, and access to resources underground.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mossy_Tree_Roots.jpg",
+    "learnImageCredit": {
+      "creator": "EsterAce",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mossy_Tree_Roots.jpg"
+    },
+    "deeperDive": "Roots also shape the soil around them. They create channels for air and water, interact with microbes, and help determine whether a plant can compete in dense ecosystems or open ground.\n\nThe difference between a root that searches deep and a root that spreads wide can decide whether a plant survives a dry season. That makes root biology one of the most practical and overlooked parts of botany.",
+    "funFact": "Tree roots can spread far wider than the canopy, so the underground footprint of a plant is often larger than the part we notice above ground.",
+    "references": [
+      "Britannica - Root",
+      "USDA - Root architecture",
+      "Kew Science - Plant roots",
+      "Nature Education - Soil-plant interactions"
+    ],
     "keyElements": {
       "people": [
-        "* Carolus Linnaeus - developed the classification system used in modern botany",
-        "* Sergei Pavlov - conducted extensive research on plant hormones and their role in root development",
-        "* Charles Darwin - contributed significantly to our understanding of plant evolution and adaptation"
+        "Jethro Tull - Early root and soil ideas",
+        "Charles Darwin - Plant movement and roots",
+        "Lorenz Hiltner - Rhizosphere concept",
+        "Lynn Margulis - Microbial partnerships in biology"
       ],
       "places": [
-        "* Kew Gardens - a renowned botanical garden with an extensive collection of plants from around the world",
-        "* The Royal Botanic Garden Edinburgh - home to over 14,000 plant species and a leading center for botanical research",
-        "* The Great Barrier Reef - one of the most biologically diverse ecosystems on the planet, featuring thousands of plant species"
+        "Soil ecology labs - Root research",
+        "Forest plots - Root competition studies",
+        "Agricultural fields - Crop root studies",
+        "Botanical gardens - Comparative root systems"
       ],
       "years": [
-        "* 1753 - Linnaeus publishes his groundbreaking work \"Species Plantarum\"",
-        "* 1935 - Sergei Pavlov is awarded the Nobel Prize in Physiology or Medicine for his research on hormone regulation",
-        "* 1980s - Modern understanding of root biology and symbiotic relationships with microorganisms emerges"
+        "1700s - Early soil and root speculation",
+        "1800s - Root functions are described in detail",
+        "1900s - Rhizosphere science develops",
+        "2020s - Root imaging becomes more advanced"
       ],
       "concepts": [
-        "* Mycorrhizal networks - the interconnected web of fungal and plant roots that facilitate nutrient exchange",
-        "* Rhizophagy - a process where plants absorb nutrients from decomposing organic matter through their roots",
-        "* Root apical meristems - specialized regions at the tip of growing roots responsible for cell division and root extension",
-        "* Plant hormones - chemical signals that regulate various aspects of plant growth, including root development"
+        "Taproot - Deep central root",
+        "Fibrous root - Dense shallow network",
+        "Anchorage - Structural support from roots",
+        "Rhizosphere - Soil around roots",
+        "Nutrient uptake - Absorption of water and minerals"
       ]
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cottonwood_Tree_and_Roots_(27401642458).jpg",
+    "thirdImageCredit": {
+      "creator": "USFWSmidwest",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cottonwood_Tree_and_Roots_(27401642458).jpg"
     }
   }
 }

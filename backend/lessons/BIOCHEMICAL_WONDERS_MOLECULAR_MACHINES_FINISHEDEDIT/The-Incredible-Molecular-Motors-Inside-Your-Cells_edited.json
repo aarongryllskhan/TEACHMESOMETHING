@@ -1,33 +1,63 @@
 {
-  "topic": "Cellular Mechanisms",
-  "title": "How Molecular Motors Drive Cellular Function",
+  "topic": "Molecular Motors",
+  "title": "How Cells Move Cargo with Tiny Protein Machines",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinesin_movement.png",
+  "imageCredit": {
+    "creator": "Cochran JC, Kull FJ",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Kinesin_movement.png"
+  },
   "lesson": {
-    "learn": "Cells rely on molecular motors to perform critical functions, including division, movement, and intracellular transport. These complex molecular machines convert chemical energy into mechanical work, enabling cells to maintain cellular homeostasis and respond to stimuli. One such motor protein, kinesin, has been extensively studied for its role in cellular transport, moving along microtubules at speeds of up to 1 micron per second.",
-    "simpler": "Cellular function can be likened to a busy logistics center, where molecular motors serve as a vital transportation system, conveying essential cargo and resources across cells. Their efficient operation is crucial for maintaining cellular balance.",
-    "keyTakeaway": "A key property of molecular motors is their ability to convert chemical energy into mechanical work, allowing cells to perform essential functions necessary for life. This conversion enables cells to adapt to changing environments and respond to stimuli.",
-    "deeperDive": "The intricacies of molecular motors involve their remarkable ability to walk along protein tracks. For instance, kinesin and dynein move along microtubules, facilitating the transport of cellular cargo. Recent research has highlighted the significance of molecular motors in neurodegenerative diseases such as Alzheimer's and Parkinson's, underscoring the importance of these cellular mechanisms. Researchers are actively exploring the potential applications of artificially engineered molecular motors for therapeutic purposes.",
-    "funFact": "Some motor proteins have been observed to move at speeds exceeding 1 micron per second, highlighting the remarkable efficiency of cellular machinery.",
+    "learn": "Cells are full of traffic, and molecular motors are the machines that keep that traffic moving. These proteins use energy from ATP to transport cargo, organize internal structures, and help cells divide. Kinesin and dynein travel along microtubules, while myosin works on actin filaments.\n\nWithout these motors, a cell would struggle to deliver materials to the right place at the right time. That matters in neurons, muscle cells, and nearly every other tissue, because biology depends on timing as much as on chemistry.",
+    "simpler": "Molecular motors are tiny protein machines that move cargo around inside cells. They use energy from ATP so the cell can keep working smoothly.",
+    "keyTakeaway": "Molecular motors turn chemical energy into directed movement inside the cell.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/DyneinHeavyChainOnMT.png",
+    "learnImageCredit": {
+      "creator": "TheTrappist",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DyneinHeavyChainOnMT.png"
+    },
+    "deeperDive": "Kinesin usually walks toward the plus end of a microtubule, while dynein moves in the opposite direction. That directional split helps cells sort cargo efficiently. In neurons, for example, this transport system is essential because axons can be very long and materials must be moved over significant distances.\n\nThe motors do not drift passively. They step through tightly coordinated shape changes, binding and releasing in cycles powered by ATP hydrolysis. The result is a remarkable blend of chemistry and mechanics at nanometer scale. When motor proteins fail, cells can lose organization, which is one reason they are so important in disease research.",
+    "funFact": "A cell can move cargo using proteins that are only a few nanometers wide, yet the system is precise enough to support long-distance transport in neurons.",
+    "references": [
+      "NCBI Bookshelf - Molecular motors",
+      "Nature Education - Cytoskeleton and motor proteins",
+      "NIH - Cell biology of transport",
+      "Encyclopaedia Britannica - Kinesin and dynein"
+    ],
     "keyElements": {
       "people": [
-        "* **Ron Vale**: a biochemist who pioneered the study of kinesin and its role in cellular transport",
-        "* **Arthur L. Horwitz**: a cell biologist who has made significant contributions to our understanding of molecular motors",
-        "* **James Spudich**: a biochemist who has worked extensively on the mechanics of motor proteins"
+        "Ron Vale - Pioneer in kinesin research",
+        "James Spudich - Key figure in motor protein mechanics",
+        "Randy Schekman - Advanced understanding of intracellular transport",
+        "Michael Sheetz - Helped reveal how motors work in living cells",
+        "J. C. Kull - Contributed to kinesin structure research"
       ],
       "places": [
-        "* **University of California, San Francisco (UCSF)**: where many groundbreaking studies on molecular motors have been conducted",
-        "* **European Molecular Biology Laboratory (EMBL)**: a leading research institution in Europe that has made significant contributions to our understanding of cellular biology",
-        "* **National Institutes of Health (NIH)**: a US government agency that supports biomedical research, including the study of molecular motors"
+        "University of California, San Francisco - Important site for motor protein research",
+        "NIH - Major supporter of cell biology studies",
+        "EMBL - European center for molecular biology",
+        "Stanford University - Major home of molecular biology research",
+        "Cambridge University - Longstanding center for biochemistry"
       ],
       "years": [
-        "* **1956**: when the first motor protein was discovered",
-        "* **1985**: when kinesin was first identified as a motor protein",
-        "* **2000s**: when researchers began to explore the potential applications of artificial molecular motors"
+        "1980s - Kinesin is identified as a motor protein",
+        "1990s - Motor protein structure and stepping are studied in detail",
+        "2000s - Live-cell imaging reveals transport more clearly",
+        "2010s - Structural biology clarifies motor mechanics",
+        "2020s - Motor proteins remain central to cell biology and disease research"
       ],
       "concepts": [
-        "* **Protein structure and function**",
-        "* **Cellular transport mechanisms**",
-        "* **Mechanisms of muscle contraction**",
-        "* **Bioenergetics and energy conversion**"
+        "ATP hydrolysis - Releasing energy from ATP",
+        "Microtubule - A track used for transport",
+        "Actin filament - A track used by myosin",
+        "Cargo transport - Moving vesicles and molecules",
+        "Directional motion - Movement toward a specific end of a filament",
+        "Intracellular transport - Movement inside the cell"
       ]
     }
   }

@@ -1,0 +1,67 @@
+{
+  "topic": "Asteroid Impact Risk",
+  "title": "How Scientists Estimate the Probability of Asteroid Impacts",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicxulub%20crater.png",
+  "imageCredit": {
+    "creator": "Anynobody",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Chicxulub_crater.png"
+  },
+  "lesson": {
+    "learn": "Asteroid impacts are rare on human timescales, but the risk is real enough to measure and plan for. Astronomers track near-Earth objects, calculate their orbits, and estimate how likely it is that one might cross Earths path in the future. Most discovered asteroids are harmless, and many close passes actually improve our understanding of their trajectories.\n\nThe important idea is that the threat can be managed. With enough warning, scientists can deflect some objects, change their trajectory, or prepare evacuation plans for smaller impacts. The story is not just about danger. It is about detection, mathematics, and planetary defense.",
+    "simpler": "Most asteroids will never hit Earth, but scientists still watch them carefully. The goal is to find the risky ones early enough to do something about them.",
+    "keyTakeaway": "Asteroid risk is low on any given day but serious enough that early detection and deflection are a major part of planetary defense.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Meteor%20Crater.jpg",
+    "learnImageCredit": {
+      "creator": "dbking",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Meteor_Crater.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Meteor%20Crater%20%282%29.jpg",
+    "thirdImageCredit": {
+      "creator": "Steve Jurvetson",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Meteor_Crater_(2).jpg"
+    },
+    "deeperDive": "Astronomers use telescopes, radar, and orbital models to predict where near-Earth objects will go. That work is complicated because even a tiny error can change a long-term prediction. Once enough observations are gathered, scientists can estimate impact probabilities and assign risk levels. The Torino Scale and related systems help communicate risk in a way that is useful without being sensational.\n\nThe good news is that the field now has real mitigation options. Kinetic impactors can alter an asteroid's path, and future missions may combine early detection with additional deflection methods. The DART mission demonstrated that orbital change is possible in practice. The larger lesson is that impact prevention is not about panic. It is about long-term preparation, international cooperation, and good astronomy.",
+    "funFact": "Some asteroid close passes make the orbit calculation better, not worse, because they help scientists measure the object more precisely.",
+    "references": [
+      "NASA Planetary Defense Coordination Office materials",
+      "DART mission results on asteroid deflection",
+      "Near-Earth object survey program documentation"
+    ],
+    "keyElements": {
+      "people": [
+        "David Morrison - scientist and communicator on impact hazards",
+        "Andrea Milani - researcher in asteroid orbit prediction",
+        "Carolyn Shoemaker - astronomer associated with asteroid discovery",
+        "Planetary defense teams - the people building detection and mitigation systems"
+      ],
+      "places": [
+        "NASA Planetary Defense Coordination Office - a key coordination hub",
+        "Catalina Sky Survey - one of the major asteroid search programs",
+        "Pan-STARRS - survey system that helps find near-Earth objects",
+        "The DART target asteroid system - where deflection was tested"
+      ],
+      "years": [
+        "1908 - Tunguska shows what an impact airburst can do",
+        "2013 - Chelyabinsk renews public awareness of asteroid danger",
+        "2022 - DART demonstrates asteroid deflection",
+        "2029 - Apophis becomes a famous close-approach case"
+      ],
+      "concepts": [
+        "Near-Earth object - asteroid or comet whose orbit approaches Earth",
+        "Orbit determination - calculating an object's future path",
+        "Impact probability - the chance of a future collision",
+        "Kinetic impactor - a spacecraft that changes an asteroid's motion",
+        "Planetary defense - detection and prevention of impact threats"
+      ]
+    }
+  }
+}

@@ -1,24 +1,66 @@
 {
-  "topic": "Evolution of Giraffe Cervical Vertebrae",
-  "title": "Adaptation of the Giraffe Neck",
+  "topic": "Giraffe Neck Evolution",
+  "title": "Why Giraffes Still Have Seven Neck Vertebrae Like You Do",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Okapi_Giraffe_Neck.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Asianinvasion12",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Okapi_Giraffe_Neck.png"
+  },
   "lesson": {
-    "learn": "Giraffes possess a unique cervical spine composed of 7 cervical vertebrae, which is a direct result of evolutionary adaptations to access food sources in their African savanna environment. This characteristic is a consequence of the process of natural selection, where giraffes with longer necks were better equipped to reach food sources, thereby increasing their chances of survival and reproductive success.",
-    "simpler": "Giraffes have 7 cervical vertebrae, compared to the typical 5 found in most mammals. This increased number enables them to reach leaves on trees, allowing them to exploit a new resource that other animals cannot access.",
-    "keyTakeaway": "The adaptation of giraffe cervical vertebrae is a prime example of convergent evolution, where the same selective pressures that shaped human anatomy also resulted in the development of a similar trait in giraffes.",
-    "deeperDive": "Research has shown that the genetic mutations responsible for the increased number of cervical vertebrae in giraffes likely occurred between 5.8-6.5 million years ago. Analysis of fossil records indicates that early ancestors of modern giraffes, such as *Canthumeryx*, exhibited cervical spine elongation as early as 2.8 million years ago. Studies have also demonstrated that the giraffe cervical spine plays a crucial role in regulating blood pressure and flow, due to its unique blood vessel structure, which includes a high-pressure system that allows giraffes to maintain a stable blood pressure, despite their elevated head position.",
-    "funFact": "The giraffe's blood pressure is 280-300 mmHg, similar to that of humans, allowing them to maintain an upright posture and support the weight of their head.",
+    "learn": "Giraffes have very long necks, but they still have the same seven neck vertebrae that most mammals have. The difference is that those vertebrae are much longer and more specialized. Evolution did not simply add more bones. It stretched and reshaped the existing body plan.\n\nThat matters because giraffe anatomy shows both constraint and innovation. Natural selection can push a trait to an extreme, but development and inheritance still set limits on how far that trait can change.",
+    "simpler": "Giraffes do not have extra neck bones. They have the same seven bones as most mammals, but the bones are much longer.",
+    "keyTakeaway": "Giraffe necks got longer by changing the size and shape of existing vertebrae, not by adding more of them.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Giraffe_neck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Sherry Thomson",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Giraffe_neck.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/85/Spinophorosaurus_and_giraffe_neck_vertebrae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Daniel Vidal, Pedro Mocho, Adrián Páramo, José Luis Sanz, Francisco Ortega",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Spinophorosaurus_and_giraffe_neck_vertebrae.png"
+    },
+    "deeperDive": "The number seven is strongly conserved in mammal necks, likely because changing that number creates serious developmental trade-offs. Giraffes instead evolved longer vertebrae, altered blood-pressure systems, and neck muscles and ligaments that support feeding high in trees. Sexual selection may also have helped shape the neck through necking contests between males.\n\nThe point is that evolution often works with inherited constraints. It is easier to stretch a structure than to redesign the whole developmental program from scratch. Giraffes are a great example of how a body can become spectacular without breaking its basic blueprint.",
+    "funFact": "Most mammals, from mice to giraffes, still have seven neck vertebrae.",
+    "references": [
+      "Britannica - giraffe anatomy",
+      "Natural History Museum - giraffe neck evolution",
+      "Nature Education - developmental constraints"
+    ],
     "keyElements": {
-      "people": [],
-      "places": [],
+      "people": [
+        "Developmental biologists - researchers who study body plans",
+        "Evolutionary biologists - scientists who study selection pressure",
+        "Veterinarians - experts who understand giraffe physiology",
+        "Zoo researchers - teams that study giraffe behavior and anatomy"
+      ],
+      "places": [
+        "African savannas - the habitat that shaped giraffe feeding",
+        "Zoos and wildlife reserves - places where giraffes are observed",
+        "Museum collections - where vertebrae and fossils are compared",
+        "University labs - where mammal development is studied"
+      ],
       "years": [
-        "2.8 million years ago",
-        "5.8-6.5 million years ago"
+        "19th century - comparative anatomy shapes the question",
+        "20th century - genetic and developmental studies deepen the answer",
+        "21st century - selection and constraint are both recognized",
+        "Present day - giraffe research connects anatomy, behavior, and ecology"
       ],
       "concepts": [
-        "convergent evolution",
-        "natural selection",
-        "cervical spine elongation",
-        "blood pressure regulation"
+        "Cervical vertebrae - the bones of the neck",
+        "Developmental constraint - limits imposed by how bodies grow",
+        "Natural selection - survival and reproduction favoring traits",
+        "Sexual selection - traits favored because they help in mating competition",
+        "Morphology - the shape and structure of an organism"
       ]
     }
   }

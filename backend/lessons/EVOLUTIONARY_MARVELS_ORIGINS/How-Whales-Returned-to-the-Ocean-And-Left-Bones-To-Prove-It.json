@@ -1,31 +1,66 @@
 {
-  "topic": "Whale Evolution from Land to Sea",
-  "title": "The Gradual Emergence of Cetaceans: Evidence from Fossil Records",
+  "topic": "Whale Evolution",
+  "title": "How Whales Returned to the Ocean Without Erasing Their Land-Born Past",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/MNHN_whale_evolution.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Macrophyseter",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:MNHN_whale_evolution.png"
+  },
   "lesson": {
-    "learn": "The transition of cetaceans from terrestrial ancestors to aquatic mammals occurred over 50 million years ago, with early species exhibiting characteristics of both land-dwelling and aquatic animals.",
-    "simpler": "Between 52 and 48 million years ago, during the Eocene epoch, the first whale-like mammals, such as Pakicetus, appeared in the fossil record. These species had a mix of terrestrial and aquatic features.",
-    "keyTakeaway": "The most significant insight to comprehend is that the evolution of cetaceans occurred gradually over millions of years, involving adaptations in respiratory systems, flippers, tail fins, and other anatomical changes.",
-    "deeperDive": "Recent studies have provided crucial insights into the early evolution of whales, with fossil discoveries in Myanmar, such as the transitionary Pakicetus and Ambulocetus, showcasing the gradual development of aquatic adaptations. These ancient creatures featured a combination of terrestrial and aquatic traits, enabling them to navigate between water and land. The whale's adaptation to life underwater entailed significant modifications in their respiratory system, including the emergence of a blowhole and a more efficient oxygen supply system. Notably, the development of flippers and tail fins became highly specialized for swimming and maneuverability. The transformation was not instantaneous but rather occurred through incremental changes, with species intergrading as they adapted to new environments.",
-    "funFact": "The earliest known ancestor of modern whales is the fossilized Pakicetus, discovered in the Kirthar Formation in Pakistan in 1983.",
+    "learn": "Whales did not appear fully formed in the ocean. They evolved from land mammals over millions of years, and the fossil record preserves a remarkable sequence of transitions. Early whale relatives still had legs for walking, but they also began developing traits that made life in water easier: denser bones, altered ears for hearing underwater, longer bodies, and changes in the skull and nostrils.\n\nThose changes were gradual, not sudden. Fossils from Pakistan, India, and elsewhere show a trail of species that bridge land and sea. The reason whales are so useful for teaching evolution is that their bodies keep the evidence in plain sight.",
+    "simpler": "Whales came from land mammals that slowly adapted to life in water. Fossils show steps between walking ancestors and modern whales.",
+    "keyTakeaway": "Whales evolved through many small changes that gradually turned land mammals into ocean specialists.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/70/Ambulocetus_fossil_remains.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Conty",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ambulocetus_fossil_remains.JPG"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Pakicetus_fossil.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Conty",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Pakicetus_fossil.png"
+    },
+    "deeperDive": "Early cetaceans such as Pakicetus and Ambulocetus show exactly how anatomy can change under new environmental pressure. Hind limbs shrink, spines become more flexible, hearing changes, and the nostrils migrate toward the top of the skull. Each step improved survival in shallow water, rivers, and coastal environments before whales became fully marine.\n\nThat transition also reveals how evolution keeps old structures around long after their original job changes. Whale bones, ear structures, and embryological development all preserve clues about ancestry. In other words, whales are not a mystery once you look at them as history written in anatomy.",
+    "funFact": "Whales still carry tiny traces of the legs their ancestors once used on land.",
+    "references": [
+      "Britannica - whale evolution",
+      "Smithsonian Ocean - whale ancestry",
+      "Nature Education - transitional fossils"
+    ],
     "keyElements": {
       "people": [
-        "1. **Thomas Huxley**: A British biologist who proposed the theory of whale evolution from land-dwelling mammals through his work on comparative anatomy.",
-        "2. **Philip Gingerich**: An American paleontologist who significantly contributed to the discovery and study of early whales, particularly Pakicetus and Ambulocetus."
+        "Philip Gingerich - major researcher on early whales",
+        "J. G. M. Thewissen - studied whale transitions",
+        "Paleontologists - scientists who reconstruct the fossil record",
+        "Comparative anatomists - researchers who compare body plans across species"
       ],
       "places": [
-        "1. **Myanmar (formerly Burma)**: A country where numerous whale fossils have been found, including the Pakicetus and Ambulocetus.",
-        "2. **Pakistan's Kirthar Formation**: A geological site that has yielded several important fossil discoveries related to whale evolution, including Pakicetus, a pivotal species in the emergence of cetaceans."
+        "Pakistan - major early whale fossil region",
+        "India - fossil evidence for whale origins",
+        "The Tethys Sea region - ancient coastal habitat of early whales",
+        "Museum collections - where whale fossils are studied and displayed"
       ],
       "years": [
-        "1. **50 million years ago**: The estimated time when the first whales evolved from land-dwelling mammals.",
-        "2. **1983**: When the Pakicetus fossil was discovered, providing crucial evidence of whale evolution and the origins of cetaceans.",
-        "3. **Present day**: When scientists continue to study and learn about whales and their remarkable adaptations, expanding our understanding of evolutionary processes."
+        "50 million years ago - early whale ancestors appear",
+        "1980s - major fossil discoveries in Pakistan expand the story",
+        "2000s - whale ancestry becomes one of evolution's clearest examples",
+        "Present day - new fossils keep refining the timeline"
       ],
       "concepts": [
-        "1. **Convergent Evolution**: The process by which different species develop analogous features or adaptations in response to similar environmental pressures.",
-        "2. **Adaptation**: The evolutionary change in physical characteristics or behaviors that enhance an organism's ability to survive and reproduce in its environment.",
-        "3. **Speciation**: The formation of a new species through genetic changes over time, resulting in the development of distinct populations.",
-        "4. **Fossil Record**: A temporal record of past life forms, preserved as fossils in rocks and sediments, providing a window into the history of evolution."
+        "Transitional fossil - a fossil showing intermediate traits",
+        "Adaptation - a heritable trait that helps survival",
+        "Vestigial structure - a reduced remnant of an older feature",
+        "Natural selection - differential survival and reproduction",
+        "Cetacean - the group that includes whales, dolphins, and porpoises"
       ]
     }
   }

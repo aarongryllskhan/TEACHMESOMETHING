@@ -1,41 +1,68 @@
 {
-  "topic": "Understanding Bee Navigation",
-  "title": "The Methods Behind Bee Navigation: Unveiling the Complexity of Apian Orientation",
+  "topic": "How Bees Navigate Using The Sun",
+  "title": "How Bees Turn the Sky Into a Reliable Map",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/A_honey_bee_on_a_flower.jpg/1280px-A_honey_bee_on_a_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+  "imageCredit": {
+    "creator": "Apm.ceg",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:A_honey_bee_on_a_flower.jpg"
+  },
   "lesson": {
-    "learn": "Bee navigation is a complex and multifaceted process, utilizing a combination of visual cues, spatial memory, and cognitive mapping to guide bees back to their hives. One of the key components of bee navigation is their ability to use the position and movement of the sun as a compass. Research has demonstrated that bees are able to determine their direction and location by observing the sun's position in the sky, a skill that has evolved over millions of years to enable their survival in diverse environments.",
-    "simpler": "Imagine being stranded in a desert without a map or GPS. How would you orient yourself to find your way back? Bees use a similar process, relying on their innate ability to detect the sun's position in the sky to guide them back to their hive. They accomplish this through the use of photoreceptors in their eyes, which enable them to perceive polarized light and estimate the sun's direction.",
-    "keyTakeaway": "The key to bee navigation lies in their ability to integrate multiple sources of information, including visual cues, spatial memory, and cognitive mapping, to create a robust and adaptable navigational strategy.",
-    "deeperDive": "Recent studies have shed light on the intricacies of bee navigation, revealing that they use polarized light from the sun to estimate its direction, even on cloudy days. This is made possible through a complex interplay of visual and neural mechanisms in the bee's brain. Bees also rely on landmarks, such as the position of the sun relative to specific flowers or trees, to create mental maps of their surroundings. Moreover, they are able to learn from experience and adjust their navigation strategy according to changes in daylight hours and weather patterns. For instance, during the summer solstice, bees may modify their flight paths to take advantage of extended daylight hours, whereas during winter months, they may utilize their knowledge of constellations to orient themselves.",
-    "funFact": "Bees are also capable of detecting the polarization pattern of light reflected from flowers, a skill that enables them to locate nectar-rich blooms. This is facilitated by specialized photoreceptors in their eyes that are sensitive to polarized light.",
+    "learn": "Bees use the Sun as a compass, even though the Sun moves across the sky during the day. They solve that problem with a time-compensated sun compass, meaning they combine the Sun's position with an internal clock to calculate direction. Bees also use polarized light, visual landmarks, and the waggle dance to share location information with other bees. In short, navigation for bees is a mix of sky-reading, memory, and social communication.",
+    "simpler": "Bees look at the Sun, remember landmarks, and use a dance to tell other bees where to go.",
+    "keyTakeaway": "Bees navigate by combining the Sun, polarized light, internal timing, and dance communication into one coordinated system.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Waggle_dance.png/500px-Waggle_dance.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "learnImageCredit": {
+      "creator": "J. Tautz and M. Kleinhenz, Beegroup Wurzburg",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.5 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Waggle_dance.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Waggle%20dance.png",
+    "thirdImageCredit": {
+      "creator": "J. Tautz and M. Kleinhenz, Beegroup Würzburg",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.5 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Waggle_dance.png"
+    },
+    "deeperDive": "The waggle dance is the best-known part of bee navigation because it translates a food location into direction and distance. The angle of the waggle run relative to vertical in the hive corresponds to the angle of the food source relative to the Sun outside. Bees also correct for the Sun's changing position during the day, which is why an internal clock matters. When the sky is cloudy, they can still use patterns of polarized light. Add in memory for landmarks near the hive and foraging route, and the result is a navigation system that is small, elegant, and surprisingly robust.",
+    "funFact": "A bee can communicate a direction inside a dark hive by dancing at the correct angle, even though the dancer cannot point with words.",
+    "references": [
+      "Karl von Frisch's bee research",
+      "Studies on polarized light vision in insects",
+      "Bee navigation and waggle dance research",
+      "Insect orientation and foraging ecology texts"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Karl von Frisch - Austrian ethologist who studied bee communication and navigation",
-        "+ Adrian Wenstrup - Researcher who discovered bees use polarized light to navigate",
-        "+ Thomas D. Seeley - Expert on bee behavior and social organization",
-        "+ Martin Giurfa - Neuroscientist who has studied the neural mechanisms of bee navigation",
-        "* **"
+        "Karl von Frisch - bee navigation pioneer",
+        "Thomas D. Seeley - honeybee behavior researcher",
+        "Randolf Menzel - insect learning researcher",
+        "Adrian Wenner - bee communication researcher"
       ],
       "places": [
-        "**",
-        "+ The University of Arizona's Department of Entomology - Research institution that has contributed significantly to our understanding of bee navigation",
-        "+ The Australian National University's School of Life Sciences - Institution where researchers have made groundbreaking discoveries on polarized light detection in bees",
-        "+ The Bee Lab at Cornell University - State-of-the-art research facility dedicated to the study of bee behavior and biology",
-        "* **"
+        "The hive - where dance communication happens",
+        "Flower patches - where foragers collect food",
+        "Sunny fields and meadows - where the sun compass matters",
+        "Research apiaries - where navigation experiments are done"
       ],
       "years": [
-        "**",
-        "+ 1914 - Karl von Frisch begins his groundbreaking research on bee communication and navigation",
-        "+ 1970s - Researchers discover that bees use polarized light to estimate the sun's direction",
-        "+ 2005 - Adrian Wenstrup publishes a seminal paper on the role of polarized light in bee navigation",
-        "* **"
+        "1910s - Karl von Frisch begins bee studies",
+        "1940s - waggle dance interpretation advances",
+        "1970s - polarized light navigation gains attention",
+        "2000s - bee navigation is studied with modern neuroscience tools"
       ],
       "concepts": [
-        "**",
-        "+ Apian Navigation - The study of how bees navigate and orient themselves in space",
-        "+ Polarized Light Detection - Bees' ability to detect the polarization pattern of light reflected from objects or the sun",
-        "+ Photoreceptors - Specialized cells in the bee's eyes that detect polarized light",
-        "+ Circadian Rhythms - The internal biological clocks that regulate bees' daily activities and behavior"
+        "Waggle dance",
+        "Sun compass",
+        "Polarized light",
+        "Time compensation",
+        "Landmark memory",
+        "Foraging"
       ]
     }
   }

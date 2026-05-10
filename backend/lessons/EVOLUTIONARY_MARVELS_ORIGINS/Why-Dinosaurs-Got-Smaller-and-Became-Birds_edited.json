@@ -1,33 +1,66 @@
 {
-  "topic": "The Evolution of Birds from Dinosaurs",
-  "title": "Understanding the Transformation of Dinosaurs into Birds",
+  "topic": "Dinosaurs and Birds",
+  "title": "How Dinosaurs Got Smaller and Became Birds",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/%E2%80%98Dinosaur-bird%E2%80%99_macroevolution.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Nebreda, S.M., Hernández Fernández, M. &amp; Marugán-Lobón, J.",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:%E2%80%98Dinosaur-bird%E2%80%99_macroevolution.png"
+  },
   "lesson": {
-    "learn": "The origin of birds from theropod dinosaurs is a pivotal moment in evolutionary history. This transformation, which occurred over millions of years, involved significant changes in body size, skeleton, and feathers. As a result, the modern bird emerged as a distinct group. Notably, the discovery of Archaeopteryx in 1861 marked a significant milestone in understanding this process, and since then, numerous fossil discoveries have shed light on the gradual transformation of theropod dinosaurs into birds.",
-    "simpler": "Imagine a dinosaur like Velociraptor, but with feathers and a more efficient respiratory system. Over time, its body shrunk, its arms grew stronger, and its tail disappeared, eventually giving rise to the modern bird. This transformation occurred through a process of gradual change, with the earliest known bird, Archaeopteryx, exhibiting a mix of reptilian and avian characteristics.",
-    "keyTakeaway": "The key takeaway is that birds evolved from small, feathered theropod dinosaurs through a combination of body size reduction, skeletal changes, and the development of feathers and flight capabilities. This process highlights the importance of gradualism in evolution, where small changes accumulate over time to produce significant results.",
-    "deeperDive": "Recent studies have revealed that the earliest known bird, Archaeopteryx, had a more primitive respiratory system than modern birds, with evidence of lungs and air sacs. However, its chest muscles were already more developed than those of its dinosaur ancestors, suggesting an early adaptation for flight. Additionally, the discovery of feathered dinosaurs like Sinosauropteryx in the early 1990s provided further evidence for the development of feathers and flight capabilities in theropod dinosaurs.",
-    "funFact": "The ancestors of modern birds were estimated to be around 2-3 feet (60-90 cm) tall, not much larger than modern hummingbirds. This small size suggests that these early birds had highly efficient metabolisms and were well-suited to their environments.",
+    "learn": "Birds are not separate from dinosaurs; they are living dinosaurs. More specifically, modern birds descended from small theropod dinosaurs that gradually evolved feathers, lighter skeletons, and changes in the hands, tail, lungs, and metabolism. Over time, many traits that helped with balance or insulation were later co-opted for flight.\n\nThat is why the \"dinosaur-to-bird\" story is so powerful. It shows how a structure can gain a new function without appearing all at once. Evolution often repurposes what already exists.",
+    "simpler": "Birds evolved from small dinosaurs. Feathers, lighter bones, and body changes gradually turned some dinosaurs into the animals we call birds.",
+    "keyTakeaway": "Birds are surviving dinosaurs, and their features evolved step by step from feathered theropod ancestors.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Feathered_dinosaur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Bruce McAdam",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Feathered_dinosaur.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/4/41/Archaeopteryx_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "TotalDino",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Archaeopteryx_TD.png"
+    },
+    "deeperDive": "Feathers likely started for insulation, display, or sensing before they helped with flight. Archaeopteryx and other fossils show a mix of dinosaur and bird traits, which is exactly what transitional anatomy should look like. Hollow bones, fused bones, wings, and more efficient breathing systems all helped the lineage move toward the sky.\n\nThis transition is also a reminder that evolution can reuse the same structures in new ways. A tail can become shorter, forelimbs can become wings, and feathers can do several jobs before flight becomes the main one. Birds are not the end of dinosaurs. They are one of their most successful branches.",
+    "funFact": "If you watch a crow closely, you are looking at a living dinosaur.",
+    "references": [
+      "Britannica - bird evolution",
+      "Natural History Museum - dinosaurs to birds",
+      "National Geographic - feathered dinosaurs"
+    ],
     "keyElements": {
       "people": [
-        "* Thomas Henry Huxley - a British biologist who played a significant role in early discussions on evolution",
-        "* Richard Owen - an English biologist who discovered many dinosaur fossils, including those that later became important for bird origins research",
-        "* Jacques Gauthier - a paleontologist known for his work on the origin of birds"
+        "Thomas Henry Huxley - early advocate of bird-dinosaur links",
+        "John Ostrom - modernized the dinosaur-bird idea",
+        "Paleontologists - researchers who study feathered fossils",
+        "Avian biologists - scientists who connect birds and dinosaurs"
       ],
       "places": [
-        "* Liaoning Province, China - famous for its well-preserved fossil sites containing early bird and dinosaur remains",
-        "* Berlin, Germany - home to the Museum fÃ¼r Naturkunde, where many important dinosaur fossils were discovered",
-        "* Philadelphia, USA - site of the Academy of Natural Sciences, where early discussions on evolution took place"
+        "Solnhofen, Germany - Archaeopteryx fossil region",
+        "Jehol Group, China - major feathered dinosaur site",
+        "Natural history museums - places where fossils are compared",
+        "Research labs - where anatomy and flight evolution are studied"
       ],
       "years": [
-        "* 1861 - the year Archaeopteryx was discovered, marking a significant milestone in understanding bird origins",
-        "* 1859 - the year Charles Darwin's \"On the Origin of Species\" was published, laying the groundwork for modern evolutionary theory",
-        "* 1996 - the year Sinosauropteryx fossils were found, providing further evidence for feathered dinosaurs"
+        "1861 - Archaeopteryx is described",
+        "Late 20th century - feathered dinosaurs reshape the debate",
+        "2000s - evidence for bird-dinosaur links becomes overwhelming",
+        "Present day - birds are understood as living dinosaurs"
       ],
       "concepts": [
-        "* Gradualism - the idea that evolution occurs over long periods through small changes",
-        "* Convergent Evolution - when different species develop similar traits due to similar environmental pressures",
-        "* Adaptation - the process by which organisms adjust to their environment through genetic changes",
-        "* Vestigial Structures - leftover features from a common ancestor, often seen in modern birds and reptiles."
+        "Theropod - a bipedal dinosaur lineage",
+        "Feather evolution - feathers changing from simple to complex",
+        "Exaptation - a trait that gains a new function",
+        "Hollow bones - lightweight skeletons that help flight",
+        "Transitional fossil - a fossil with mixed ancestral and derived traits"
       ]
     }
   }

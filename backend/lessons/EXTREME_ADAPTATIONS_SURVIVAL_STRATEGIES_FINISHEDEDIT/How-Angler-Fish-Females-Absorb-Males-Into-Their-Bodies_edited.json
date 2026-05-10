@@ -1,30 +1,66 @@
 {
-  "topic": "Biology and Ecology",
-  "title": "Understanding the Mating Strategy of Angler Fish: A Study of Endosymbiosis",
+  "topic": "Anglerfish Sexual Parasitism",
+  "title": "How Anglerfish Females Absorb Males Into Their Bodies",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Angler_fish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Olga1969",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Angler_fish.jpg"
+  },
   "lesson": {
-    "learn": "The angler fish (Lophiidae) is a deep-sea predator found in oceans worldwide. The species has evolved a unique mating strategy, in which the male attaches itself to the female's body and eventually undergoes a process called gastrulation. This remarkable adaptation allows the female to utilize the male's reproductive organs to fertilize her eggs and ensures a steady supply of nutrients for herself and future offspring.",
-    "simpler": "Consider a scenario where a factory worker supplies a manufacturing line with raw materials. In a similar manner, the male angler fish supplies the female with the necessary resources to produce offspring. However, rather than being a human or a factory, the male angler fish provides its reproductive organs to the female after attaching itself to her body.",
-    "keyTakeaway": "The key advantage of this endosymbiotic relationship is the female's ability to harness the male's reproductive organs for egg fertilization and nutrient supply. This allows the female angler fish to optimize her reproductive output within the harsh environment of the deep ocean.",
-    "deeperDive": "Research has revealed that the absorbed male's body parts continue to function within the female's body, serving as a supplementary endocrine system regulator. This discovery has significant implications for the fields of biotechnology and medicine, as scientists explore potential applications for the angler fish's unique mating strategy. For instance, researchers are investigating how to utilize the angler fish's remarkable ability to create more efficient artificial fertilization methods.",
-    "funFact": "A single male angler fish can mate with multiple females, a phenomenon observed in studies conducted by Dr. Marianne Moore and Dr. David Eibl-Eibesfeldt in the 1990s.",
+    "learn": "In some deep-sea anglerfish species, males do not simply court females and swim away. Instead, they find a female, bite down, and fuse with her body. Over time, tissues join, organs shrink, and the male becomes a permanent reproductive partner living off the female's resources. This is one of the most extreme mating systems known in vertebrates.\n\nThe strategy exists because the deep sea is huge, dark, and sparse. If a mate is almost impossible to find again, staying attached can be better than leaving.",
+    "simpler": "Some anglerfish males fuse with females after mating because the deep ocean makes it hard to find another partner.",
+    "keyTakeaway": "Anglerfish biology shows how far evolution can go when reproduction is extremely difficult.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/78/Zeeduivel_%28Anglerfish%29_3D_%2846224603012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "wim hoppenbrouwers from Rotterdam, Holland",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Zeeduivel_(Anglerfish)_3D_(46224603012).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Prickly_anglerfish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Canley",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Prickly_anglerfish.jpg"
+    },
+    "deeperDive": "This behavior is easier to understand when you think about the environment. Deep-sea animals often live far apart, so a male that successfully finds a female is already a winner. Fusing permanently ensures that sperm will be available later without needing another search. Natural selection can favor this strategy because in the deep ocean, \"find once and stay\" can outperform endless roaming.\n\nThe result is a body plan that seems almost impossible until you remember the conditions that shaped it. Biology is full of solutions that only make sense when you look at the habitat first.",
+    "funFact": "In some species, the male becomes tiny compared with the female.",
+    "references": [
+      "Britannica - anglerfish reproduction",
+      "Smithsonian Ocean - deep-sea adaptations",
+      "Natural History Museum - sexual parasitism"
+    ],
     "keyElements": {
       "people": [
-        "** Dr. Marianne Moore (zoologist), Dr. David Eibl-Eibesfeldt (ethologist), and Dr. SÃ¶nke Johnsen (biologist)",
-        "* **"
+        "Marine biologists - researchers who study deep-ocean life",
+        "Evolutionary biologists - scientists explaining reproduction strategies",
+        "Deep-sea explorers - people who collect rare specimens",
+        "Ichthyologists - fish experts who classify anglerfish"
       ],
       "places": [
-        "** The Mariana Trench, the ocean's deepest point; The Monterey Bay Aquarium Research Institute (MBARI); The Woods Hole Oceanographic Institution",
-        "* **"
+        "Deep ocean - the sparse habitat driving the adaptation",
+        "Research museums - where rare specimens are preserved",
+        "Submersible survey sites - where deep-sea fauna is found",
+        "Open-ocean trenches - places where these fish may live"
       ],
       "years": [
-        "**",
-        "+ 1925: The first recorded discovery of angler fish in scientific literature.",
-        "+ 1990s: Advanced research on angler fish mating behavior and absorption process began.",
-        "+ 2019: Scientists published a breakthrough study on the absorbed male's continued biological function within the female.",
-        "* **"
+        "19th century - anglerfish species are described",
+        "20th century - reproductive fusion is documented",
+        "2000s - deep-sea biology gains public attention",
+        "Present day - genetics and imaging refine the story"
       ],
       "concepts": [
-        "** Merging, Endosymbiosis, Symbiotic Relationships, Adaptation Through Evolution, Reproductive Strategies in Extreme Environments"
+        "Sexual parasitism - one partner becoming dependent on another",
+        "Fusion - joining tissues and organs permanently",
+        "Reproductive strategy - the method of passing on genes",
+        "Deep-sea ecology - life in the dark ocean",
+        "Selection pressure - an environmental force shaping traits"
       ]
     }
   }

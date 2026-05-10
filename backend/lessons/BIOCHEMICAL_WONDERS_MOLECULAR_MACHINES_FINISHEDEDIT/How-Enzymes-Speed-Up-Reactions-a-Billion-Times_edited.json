@@ -1,34 +1,63 @@
 {
-  "topic": "Enzymes and Biochemical Reactions",
-  "title": "Understanding the Role of Enzymes in Biological Processes",
+  "topic": "Enzymes",
+  "title": "How Biological Catalysts Make Life Possible",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Energiediagramm-Enzymreaktion.svg",
+  "imageCredit": {
+    "creator": "Matthias M.",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported / GNU Free Documentation License 1.2+",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Energiediagramm-Enzymreaktion.svg"
+  },
   "lesson": {
-    "learn": "Enzymes, biological molecules with a catalytic function, facilitate chemical reactions in living organisms. With over 4,000 identified enzymes, they catalyze a vast array of biochemical processes. For instance, the enzyme amylase in saliva accelerates carbohydrate breakdown, while the enzyme pepsin in the stomach aids protein digestion.",
-    "simpler": "Enzymes expedite chemical reactions by providing an efficient pathway for molecules to interact. To put it another way, enzymes offer a catalyst that accelerates a reaction, allowing it to reach completion faster than it would on its own. Enzymes work by lowering the activation energy required for a reaction to occur, enabling the conversion of reactants into products.",
-    "keyTakeaway": "The most important aspect of enzymes is their ability to increase the rate of chemical reactions without being consumed in the process. This property allows enzymes to repeatedly catalyze reactions, maintaining metabolic homeostasis and facilitating cellular function.",
-    "deeperDive": "Enzymes achieve their catalytic effect through precise substrate binding and optimal interaction with their active sites. Research has shown that certain enzymes can accelerate reactions by up to a billion times or more. For example, the enzyme lysozyme breaks down bacterial cell walls with remarkable efficiency. Moreover, enzymes play a crucial role in complex processes such as photosynthesis in plants and cellular respiration in mitochondria. The enzyme ATP synthase, located in the mitochondrial inner membrane, generates ATP during oxidative phosphorylation, a process essential for cellular energy production.",
-    "funFact": "Some enzymes, known as thermophilic enzymes, retain their catalytic activity even at high temperatures. These enzymes can be found in organisms that inhabit hot environments, such as hot springs and geothermal areas. An example of such an enzyme is thermolysin from the bacterium Bacillus subtilis, which degrades protein at temperatures up to 75°C.",
+    "learn": "Enzymes are proteins that speed up chemical reactions without being used up themselves. They do this by lowering activation energy, which makes it easier for molecules to reach the transition state and turn into products. Because cells are full of reactions that need to happen quickly and safely, enzymes are central to metabolism.\n\nWhat makes enzymes powerful is specificity. An enzyme's active site fits certain substrates better than others, so the cell can control which reactions happen and when. That precision is one reason life can run on chemistry instead of chaos.",
+    "simpler": "Enzymes are helpers that make reactions happen faster. They do not get used up, so they can keep working again and again.",
+    "keyTakeaway": "Enzymes speed up life by lowering activation energy and guiding reactions with high specificity.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/2D_structure_of_the_enzyme_active_site.png",
+    "learnImageCredit": {
+      "creator": "Snodgrah",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:2D_structure_of_the_enzyme_active_site.png"
+    },
+    "deeperDive": "A good enzyme does more than just bind a substrate. It positions molecules, stabilizes temporary states, and can even help break or form chemical bonds in a very controlled way. That is why the same general chemistry can proceed millions or billions of times faster in the presence of the right catalyst.\n\nEnzymes are also regulated. Cells can increase or decrease enzyme activity, turn enzymes on and off, or separate them into different compartments. This lets metabolism stay responsive to changing conditions. Digestion, DNA copying, ATP production, and detoxification all depend on enzyme control.",
+    "funFact": "Some enzymes are so efficient that they approach the theoretical speed limit for how fast a chemical reaction can happen.",
+    "references": [
+      "NCBI Bookshelf - Enzyme catalysis",
+      "Britannica - Enzyme",
+      "Nature Education - Enzyme kinetics",
+      "Royal Society of Chemistry - Biological catalysts"
+    ],
     "keyElements": {
       "people": [
-        "1. **Emil Fischer**, a pioneer in the study of enzyme structure and function.",
-        "2. **Arthur Kornberg**, a Nobel laureate who discovered the first DNA polymerase enzyme.",
-        "3. **Irwin Rose**, another Nobel laureate who elucidated the mechanism of lysosomal degradation."
+        "Emil Fischer - Helped explain enzyme specificity",
+        "Anselme Payen - Isolated one of the first enzymes",
+        "Arthur Kornberg - Advanced enzyme biology in DNA replication",
+        "Daniel Koshland - Contributed to induced fit theory",
+        "Jens Christian Skou - Studied membrane enzymes"
       ],
       "places": [
-        "1. **Rockefeller University**, where many groundbreaking studies on enzymes were conducted.",
-        "2. **MIT**, where researchers are actively exploring the design of novel enzymes for biotechnology applications.",
-        "3. **The Salk Institute**, where scientists study enzyme mechanisms in cellular processes."
+        "Rockefeller University - Major enzyme research site",
+        "MIT - Important center for biochemistry",
+        "The Salk Institute - Strong biomedical research center",
+        "Cambridge University - Historic site in biochemistry",
+        "The Broad Institute - Modern center for biology and chemistry"
       ],
       "years": [
-        "1. **1835**: Anselme Payen isolated and characterized the first enzyme, diastase.",
-        "2. **1907**: Emil Fischer proposed the lock-and-key model of enzyme-substrate interaction.",
-        "3. **1968**: Arthur Kornberg discovered the first DNA polymerase enzyme."
+        "1830s - Early enzyme work begins",
+        "1900s - Enzyme specificity models are developed",
+        "1940s - Enzymes become central to biochemistry",
+        "1970s - Enzyme kinetics is refined",
+        "2000s - Structural biology reveals active sites in detail"
       ],
       "concepts": [
-        "1. **Catalysis**: The process by which enzymes accelerate chemical reactions without being consumed.",
-        "2. **Substrate specificity**: Enzymes' ability to bind and catalyze specific substrates with high affinity.",
-        "3. **Conformational flexibility**: Enzyme structures can adapt to changing substrate conditions.",
-        "4. **Activation energy**: Enzymes reduce the energy required for reactions to proceed.",
-        "5. **Enzyme kinetics**: The study of enzyme speed, efficiency, and substrate interactions."
+        "Catalyst - A substance that speeds up a reaction",
+        "Active site - The region where binding and chemistry happen",
+        "Activation energy - The barrier a reaction must overcome",
+        "Substrate - The molecule an enzyme acts on",
+        "Specificity - Preference for particular substrates",
+        "Kinetics - The study of reaction speed"
       ]
     }
   }

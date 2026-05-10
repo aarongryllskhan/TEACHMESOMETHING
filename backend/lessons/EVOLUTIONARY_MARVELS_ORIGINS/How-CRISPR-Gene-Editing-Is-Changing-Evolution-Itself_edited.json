@@ -1,34 +1,66 @@
 {
-  "topic": "The Methods Behind CRISPR Gene Editing and Its Revolutionary Impact on Evolution",
-  "title": "Understanding the Science and Applications of CRISPR Gene Editing",
+  "topic": "CRISPR and Evolution",
+  "title": "How CRISPR Is Changing the Pace and Direction of Evolution",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/CRISPR_Cas9.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Anna Drangowska-Way, Caitlin M. A. Simopoulos, Carla Bautista, Elisabeth Marnik, Thomas J. S. Merritt",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:CRISPR_Cas9.png"
+  },
   "lesson": {
-    "learn": "CRISPR gene editing, a technology developed over the past decade, enables scientists to make precise edits to genes by leveraging the CRISPR-Cas9 system. This breakthrough was first reported in 2012 by Jennifer Doudna and colleagues at the University of California, Berkeley, and Emmanuelle Charpentier at Umeå University in Sweden. The CRISPR-Cas9 system works by using a small RNA molecule to locate a specific sequence of nucleotides within a genome, whereupon a bacterial enzyme, Cas9, cuts the DNA and allows researchers to repair or replace the sequence using a template. By modifying genes in this manner, scientists can manipulate traits in living organisms and study the evolutionary implications of these modifications.",
-    "simpler": "Envision a cell's DNA as a complex library of instructions, comprising four chemical bases that code for various traits. CRISPR gene editing can be likened to a highly precise 'editor' that cuts out incorrect or outdated genetic 'pages' and replaces them with new ones, thereby rewriting the genetic code.",
-    "keyTakeaway": "The most significant impact of CRISPR is its capacity to accelerate our understanding of evolution by enabling researchers to examine the effects of specific genetic modifications on organisms and ecosystems. By manipulating gene sequences, scientists can simulate the evolutionary process and gain insights into the adaptive mechanisms that shape species' characteristics.",
-    "deeperDive": "Studies have demonstrated the potential of CRISPR to enhance crop yields, improve drought resistance in plants, and treat genetic disorders. For instance, researchers have employed CRISPR to introduce traits that confer resistance to common fungal pathogens in wheat, a crucial crop for global food security. Additionally, CRISPR has been used to modify genes responsible for sickle cell anemia, a debilitating blood disorder. These applications underscore the vast potential of CRISPR for advancing our understanding of evolution and its applications.",
-    "funFact": "The discovery of the CRISPR-Cas9 system was inspired by bacterial defense mechanisms against invading viruses. Researcher Jennifer Doudna has noted that understanding the molecular machinery of CRISPR's viral-defense mechanisms provided the foundation for the development of this revolutionary gene-editing tool.",
+    "learn": "CRISPR gene editing lets scientists make precise changes to DNA much faster than traditional breeding or natural selection usually would. That does not stop evolution, but it does let humans steer it in new directions. In plants, animals, microbes, and potentially human medicine, CRISPR can remove harmful variants, add useful ones, or test what specific genes actually do.\n\nThe power of CRISPR is that it turns biology into something more editable. The risk is that the same precision can create unintended effects if the change alters more than the scientist expected.",
+    "simpler": "CRISPR lets scientists edit DNA directly. That means evolution can be guided faster than it normally would be by chance and selection.",
+    "keyTakeaway": "CRISPR changes evolution by letting humans deliberately edit genes instead of waiting for natural selection alone.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/57/GRNA-Cas9.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "marius walter",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:GRNA-Cas9.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/99/The_schematic_diagram_of_CRISPR-Cas9.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Ye, Runle, Xi Yang, and Yuchun Rao",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_schematic_diagram_of_CRISPR-Cas9.webp"
+    },
+    "deeperDive": "Natural evolution is still happening, but CRISPR adds a new layer of choice. We can now remove disease-causing mutations, change crop traits, or alter microbes in the lab. Yet every edit interacts with the rest of the genome and with the environment, so a useful change in one context may be harmful in another. Biology is not code in a vacuum.\n\nThe larger implication is philosophical as well as scientific. Once humans can edit heredity, we are no longer just observers of evolution. We are participants in it. That makes safety, ethics, regulation, and long-term monitoring as important as the molecular technique itself.",
+    "funFact": "CRISPR comes from a natural bacterial defense system.",
+    "references": [
+      "NIH - CRISPR basics",
+      "Nature - gene editing and evolution",
+      "Britannica - CRISPR-Cas9"
+    ],
     "keyElements": {
       "people": [
-        "- Jennifer Doudna (UC Berkeley) - Co-discoverer of the CRISPR-Cas9 system",
-        "- Emmanuelle Charpentier (UmeÃ¥ University, Sweden) - Co-discoverer of the CRISPR-Cas9 system",
-        "- Feng Zhang (MIT) - Contributed significantly to the development and application of CRISPR"
+        "Jennifer Doudna - key CRISPR researcher",
+        "Emmanuelle Charpentier - key CRISPR researcher",
+        "Molecular geneticists - scientists who use CRISPR",
+        "Bioethicists - people who study the consequences of editing life"
       ],
       "places": [
-        "- The Broad Institute (Boston, USA) - A leading center for genomics research and CRISPR development",
-        "- UmeÃ¥ University (Sweden) - Where Emmanuelle Charpentier made key discoveries about CRISPR-Cas9",
-        "- UC Berkeley (USA) - Where Jennifer Doudna's team uncovered the CRISPR-Cas9 system"
+        "University labs - where CRISPR is developed and tested",
+        "Agricultural research centers - where crops are edited",
+        "Medical research institutions - where disease genes are studied",
+        "Biotech companies - where gene-editing tools are commercialized"
       ],
       "years": [
-        "- 1987: J. Szybalski and colleagues first described the CRISPR system in bacteria",
-        "- 2012: The CRISPR-Cas9 system is discovered by Doudna, Charpentier, and Zhang",
-        "- 2020: CRISPR begins being used in human gene therapy trials"
+        "2012 - CRISPR-Cas9 is developed as a programmable tool",
+        "2010s - CRISPR spreads rapidly through biology",
+        "2018 - the first major human-editing controversy erupts",
+        "Present day - gene editing is a major research frontier"
       ],
       "concepts": [
-        "- Genetic engineering",
-        "- Gene editing",
-        "- Evolutionary adaptation",
-        "- Horizontal gene transfer",
-        "- Synthetic biology"
+        "Gene editing - deliberate changes to DNA",
+        "Guide RNA - the sequence that directs Cas9",
+        "Mutation - a change in genetic code",
+        "Heritable change - a change that can be passed on",
+        "Off-target effect - an unintended DNA edit"
       ]
     }
   }

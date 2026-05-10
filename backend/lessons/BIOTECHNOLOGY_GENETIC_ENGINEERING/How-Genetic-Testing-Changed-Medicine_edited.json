@@ -1,46 +1,63 @@
 {
   "topic": "Genetic Testing in Medicine",
-  "title": "Unlocking the Secrets of Human Genetics Through Genetic Testing",
+  "title": "How Reading DNA Changed Diagnosis, Screening, and Treatment",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/DNA_sequencing.jpg",
+  "imageCredit": {
+    "creator": "Linda Bartlett",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:DNA_sequencing.jpg"
+  },
   "lesson": {
-    "learn": "Genetic testing is a powerful diagnostic tool that has transformed our understanding of human genetics and disease. By analyzing an individual's DNA, genetic tests can identify inherited disorders, predict disease susceptibility, and inform personalized treatment strategies. Since the completion of the Human Genome Project in 2003, genetic testing has become a cornerstone in modern medicine, enabling healthcare professionals to provide targeted interventions and improving patient outcomes.",
-    "simpler": "Genetic testing is a sophisticated method of analyzing an individual's DNA to identify genetic anomalies and predict disease susceptibility. This process is akin to decoding a molecular blueprint of an individual's body. By understanding the instructions contained within an individual's DNA, doctors can identify potential health problems before they start and provide personalized care to each patient.",
-    "keyTakeaway": "Genetic testing has revolutionized medicine by enabling healthcare professionals to diagnose diseases more accurately and develop targeted treatment strategies. This technology has also expanded our knowledge of the human genome, leading to significant advancements in various medical fields, including cancer research and gene therapy.",
-    "deeperDive": "The Human Genome Project, launched in 1990, was a collaborative effort led by Francis Collins, the current Director of the National Institutes of Health. The project's goal was to map the entire human genome, and it was completed in 2003. Recent advances in next-generation sequencing (NGS) have enabled rapid, cost-effective analysis of entire genomes, accelerating the discovery of new disease-causing genes. Genetic testing is now used to diagnose rare genetic disorders, such as sickle cell anemia and cystic fibrosis. The technology has also improved our understanding of common conditions like heart disease and diabetes. Furthermore, genetic testing has become essential for cancer diagnosis and treatment, particularly in personalized medicine approaches like precision oncology.",
-    "funFact": "Genetic testing can identify individuals with inherited traits that increase their risk of developing certain diseases, allowing them to take proactive steps towards prevention. In fact, research has shown that individuals with a family history of certain diseases, such as Lynch syndrome, can benefit from genetic testing to identify their risk and make informed decisions about their reproductive health and family planning.",
+    "learn": "Genetic testing lets doctors look directly at DNA to find changes that may explain disease, predict risk, or guide treatment. That has transformed medicine because it moves diagnosis from guesswork toward evidence. Instead of waiting for symptoms alone, clinicians can sometimes identify inherited conditions earlier and act sooner.\n\nThe biggest change is not just speed. It is precision. Once a mutation, biomarker, or risk profile is known, treatment can be adjusted to fit the patient more closely. That has made genetic testing useful in cancer care, rare disease diagnosis, family planning, and preventive medicine.",
+    "simpler": "Genetic testing reads DNA to see what might be causing a disease or how a person might respond to treatment. It helps doctors make smarter choices earlier.",
+    "keyTakeaway": "Genetic testing changed medicine by making diagnosis and treatment more specific to the person.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Next_Gen_Sequencer_(NIH_BioArt_386).png",
+    "learnImageCredit": {
+      "creator": "Courtesy of NIAID Ryan Kissinger",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Next_Gen_Sequencer_(NIH_BioArt_386).png"
+    },
+    "deeperDive": "Modern genetic testing includes targeted panels, exome sequencing, and full genome sequencing. Each has a different tradeoff between cost, speed, and coverage. In the clinic, these tests can diagnose rare disorders, identify cancer mutations, guide drug dosing, or reveal carrier status for inherited disease.\n\nThe challenge is interpretation. A sequence result is only useful if clinicians know what it means, and many variants are still uncertain. That is why genetic counseling and clinical context matter so much. The technology is powerful, but the value comes from combining the data with careful medical judgment.",
+    "funFact": "Many genetic tests are most useful not because they give every answer, but because they narrow down the few possibilities that really matter.",
+    "references": [
+      "MedlinePlus - Genetic testing",
+      "National Human Genome Research Institute - Genetic testing",
+      "CDC - Genetic testing and health",
+      "Nature Education - Sequencing and diagnostics"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ James Watson (co-discoverer of DNA structure)",
-        "+ Francis Collins (director of the Human Genome Project)",
-        "+ Eric Lander (geneticist and director of the Broad Institute)",
-        "+ Jennifer Doudna (molecular biologist and gene editing pioneer)",
-        "+ Mario Capecchi (geneticist and Nobel laureate in Physiology or Medicine)",
-        "* **"
+        "Francis Collins - Helped bring genomics into medicine",
+        "Eric Lander - Major genomics leader",
+        "Mary-Claire King - Influential in disease gene discovery",
+        "James Watson - Helped launch the DNA era",
+        "Kary Mullis - Invented PCR, which supports testing"
       ],
       "places": [
-        "**",
-        "+ The Wellcome Sanger Institute (UK-based genetics research center)",
-        "+ The Broad Institute of MIT and Harvard (US-based genomics research center)",
-        "+ The National Institutes of Health (NIH) (primary agency for biomedical research in the US)",
-        "+ The European Molecular Biology Laboratory (EMBL) (EU-based life science research organization)",
-        "+ The Human Genome Project Information Archive (online repository of genetic data and resources)",
-        "* **"
+        "NIH - Major home of human genomics research",
+        "Wellcome Sanger Institute - Sequencing powerhouse",
+        "Broad Institute - Genomics and disease research center",
+        "Mayo Clinic - Clinical genetics and testing center",
+        "Genomics laboratories - Where most testing is processed"
       ],
       "years": [
-        "**",
-        "+ 1990: Launch of the Human Genome Project",
-        "+ 2003: Completion of the Human Genome Project",
-        "+ 2012: First use of CRISPR-Cas9 gene editing in human cells",
-        "+ 2020: Widespread adoption of genetic testing for cancer diagnosis and treatment",
-        "* **"
+        "1990 - Human Genome Project begins",
+        "2003 - Human genome reference is completed",
+        "2010s - Exome and panel testing expand quickly",
+        "2020s - Sequencing becomes faster and more accessible",
+        "2025 - Interpretation and counseling remain essential"
       ],
       "concepts": [
-        "**",
-        "+ DNA sequencing (genetic testing)",
-        "+ Gene expression (study of how genes are turned on/off)",
-        "+ Epigenetics (study of heritable changes to gene expression)",
-        "+ Genetic diversity (variation in human genetics across populations)",
-        "+ Gene editing (technologies like CRISPR-Cas9 for modifying the genome)"
+        "DNA sequencing - Reading the order of DNA bases",
+        "Variant - A difference in DNA sequence",
+        "Carrier screening - Testing for inherited risk",
+        "Genetic counseling - Help interpreting test results",
+        "Biomarker - A measurable sign used in medicine",
+        "Precision diagnostics - Testing tailored to the patient"
       ]
     }
   }

@@ -1,38 +1,66 @@
 {
-  "topic": "Why The Internet Was Designed to Prioritize Connectivity Over Security",
-  "title": "Understanding the Unintended Consequences of the Internet's Early Development",
+  "topic": "Why the Internet Wasn't Designed for Security",
+  "title": "How the Internet Grew Before Security Was the Priority",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ARPANET%20circa%201980.png",
+  "imageCredit": {
+    "creator": "Rex Reges",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:ARPANET_circa_1980.png"
+  },
   "lesson": {
-    "learn": "The internet's design, spearheaded by Vint Cerf and Bob Kahn in the 1960s, prioritized connectivity and data transfer over security. This focus emerged from the ARPANET project's primary objective: to facilitate communication between computers within the United States Department of Defense's Advanced Research Projects Agency (ARPA) network. The development of the Transmission Control Protocol/Internet Protocol (TCP/IP) reflected this aim, with security considerations being secondary. The first email system, developed in 1971 by Steve Crocker and Vint Cerf, used simple passwords and lacked encryption, making it vulnerable to hacking. This early system was later replicated on other networks, eventually contributing to the widespread adoption of insecure practices.",
-    "simpler": "Envision a network of highways without traffic laws or speed limits; that's the result of prioritizing connectivity over security in the early design of the internet. The first email system, like this hypothetical highway network, relied on basic passwords and lacked robust security measures, making it susceptible to exploitation.",
-    "keyTakeaway": "The unintended consequences of prioritizing connectivity over security in the internet's early design have led to significant vulnerabilities, which are now being addressed through modern security measures and technologies.",
-    "deeperDive": "The development of the first email system in 1971, using ARPANET, introduced several security risks. One notable example is the 'Creeper' virus, created in 1971 by Bob Thomas as an experiment. This self-replicating malware infected approximately 60 computers on the ARPANET network before being terminated by its creators. The 1988 Morris Worm incident further highlighted the need for robust security measures, prompting researchers to develop firewalls and intrusion detection systems. The rise of cloud computing, artificial intelligence, and the Internet of Things (IoT) has introduced new security challenges, prompting ongoing debate about the effectiveness of modern security measures.",
-    "funFact": "The first computer virus, 'Creeper,' was designed in 1971 by Bob Thomas to demonstrate self-replicating code. It infected around 60 computers on the ARPANET network before being terminated, showcasing the early vulnerabilities of this primitive system.",
+    "learn": "The internet was designed first for connectivity, not for trust. Early network designers wanted computers to communicate reliably across long distances, so the focus was on sharing data and keeping it moving even if parts of the network failed. Security came later, after the network had already grown into something much larger and more public.\n\nThat is why so many internet systems had to be patched with encryption, authentication, and firewalls after the fact. The original architecture assumed a far more trusted environment than the modern web actually has.",
+    "simpler": "The internet was built to connect machines, not to lock them down. Security had to be added later.",
+    "keyTakeaway": "Security was not the starting goal of the internet, so later layers had to make up the gap.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Packet%20Switching.gif",
+    "learnImageCredit": {
+      "creator": "Oddbodz",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Packet_Switching.gif"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/DMZ%20network%20diagram%202%20firewall.svg",
+    "thirdImageCredit": {
+      "creator": "en:User:Pbroks13",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DMZ_network_diagram_2_firewall.svg"
+    },
+    "deeperDive": "Packet switching and the end-to-end design philosophy made the network flexible and resilient, but also left many protocols open by default. Early services such as email and file transfer often traveled in plain text, which meant anyone in the middle could potentially read them. Over time, tools like TLS, VPNs, firewalls, and secure authentication became essential patches on top of the original design.\n\nThat history explains why internet security is still an ongoing battle. The network was not broken at the beginning; it was simply built for a different world.",
+    "funFact": "Early internet traffic often traveled with no encryption at all.",
+    "references": [
+      "Computer History Museum - ARPANET history",
+      "IETF RFC archive - internet protocol standards",
+      "NIST - TLS and network security guidance"
+    ],
     "keyElements": {
       "people": [
-        "* Vint Cerf (TCP/IP inventor and internet pioneer)",
-        "* Bob Kahn (co-inventor of TCP/IP and internet pioneer)",
-        "* Steve Crocker (email system developer and early internet researcher)",
-        "* Robert Morris Jr. (Morris Worm creator and computer security expert)",
-        "* Clifford Stoll (computer security researcher and author)"
+        "Vint Cerf - internet protocol pioneer",
+        "Bob Kahn - key ARPANET and TCP/IP architect",
+        "J. C. R. Licklider - early networking visionary",
+        "Leonard Kleinrock - packet-switching theorist"
       ],
       "places": [
-        "* ARPANET Network (US Department of Defense-funded project that laid the foundation for the modern-day internet)",
-        "* Stanford Research Institute (where Vint Cerf and Bob Kahn worked on TCP/IP development)",
-        "* MIT Artificial Intelligence Laboratory (where Steve Crocker developed the first email system)",
-        "* University of California, Berkeley (site of the 1988 Morris Worm incident)"
+        "ARPANET - early packet-switched network",
+        "UCLA - major early networking site",
+        "Stanford Research Institute - early internet node",
+        "Network security teams - later defenders of the open web"
       ],
       "years": [
-        "* 1969: First ARPANET link established",
-        "* 1971: First virus created by Bob Thomas",
-        "* 1983: Domain Name System (DNS) introduced to simplify internet addressing",
-        "* 1988: Morris Worm infects around 6,000 computers"
+        "1969 - ARPANET goes live",
+        "1983 - TCP/IP becomes the internet standard",
+        "1990s - the web expands quickly",
+        "2000s - encryption and security become mainstream"
       ],
       "concepts": [
-        "* TCP/IP (Transmission Control Protocol/Internet Protocol)",
-        "* Email system development and early internet protocols",
-        "* Cyber threats and security risks",
-        "* Firewalls and intrusion detection systems",
-        "* Cloud computing and the Internet of Things (IoT)"
+        "Packet switching - breaking data into smaller pieces",
+        "Authentication - proving identity",
+        "Encryption - hiding data from eavesdroppers",
+        "TLS - secure web communication",
+        "Firewall - filtering network traffic"
       ]
     }
   }

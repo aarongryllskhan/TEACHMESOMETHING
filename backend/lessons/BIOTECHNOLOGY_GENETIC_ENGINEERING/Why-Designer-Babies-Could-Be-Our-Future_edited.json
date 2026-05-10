@@ -1,50 +1,63 @@
 {
-  "topic": "Gene Editing and Designer Babies",
-  "title": "Understanding the Science and Ethics of CRISPR Gene Editing",
+  "topic": "Designer Babies",
+  "title": "What It Would Mean to Choose Traits Before Birth",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_Embryo.png",
+  "imageCredit": {
+    "creator": "Dr Elena Kontogianni",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Zero 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Human_Embryo.png"
+  },
   "lesson": {
-    "learn": "The concept of designer babies, made possible by advances in gene editing technologies like CRISPR, raises fundamental questions about the ethics, safety, and consequences of manipulating human genes. As of 2020, over 70 clinical trials worldwide were exploring the potential therapeutic applications of CRISPR gene editing for inherited diseases. However, the possibilities for selective advantages or enhancements have sparked heated debates about the boundaries between therapy and enhancement. In 2016, scientists successfully used CRISPR to correct a genetic mutation in human embryos, paving the way for the development of gene-edited babies. By examining the history, science, and implications of this emerging field, we can better grasp the complexities involved.",
-    "simpler": "Imagine inheriting a rare disease that was once thought incurable. Thanks to CRISPR gene editing, scientists have begun to offer new hope for patients. The technology allows for precision editing of DNA sequences, raising the possibility of eradicating inherited diseases. However, as with any powerful tool, it also raises questions about the responsible use of such technology and the potential consequences of tampering with human genes.",
-    "keyTakeaway": "The convergence of gene editing technologies and reproductive medicine has created a new frontier in human biology, challenging our understanding of identity, equality, and the human condition.",
-    "deeperDive": "The discovery of the CRISPR-Cas9 enzyme in 2012 by Jennifer Doudna and Emmanuelle Charpentier's research teams opened doors to precise gene editing, enabling scientists to modify DNA sequences with unprecedented accuracy. As a result, breakthroughs in treating genetic disorders like sickle cell anemia and muscular dystrophy are being explored. Nonetheless, debates rage about the ethics of enhancing human traits via gene editing. For instance, some experts argue that targeting diseases is morally acceptable, while others see it as a slippery slope toward eugenics and social inequality. Moreover, the potential for unintended consequences, such as mosaicism or off-target effects, highlights the need for careful consideration.",
-    "funFact": "In 2012, scientists led by Shinya Yamanaka were the first to use gene editing to introduce disease-resistant genes into human cells. Yamanaka's team used CRISPR-Cas9 to edit the dystrophin gene, crucial for treating muscular dystrophy. While the study's results are promising, ongoing research emphasizes the importance of rigorous testing to ensure that CRISPR gene editing does not create unintended risks or biases.",
+    "learn": "The idea of designer babies refers to using reproductive technology and gene editing to influence the traits of a future child. At the most basic level, this could mean selecting embryos or preventing serious inherited disease. At the most controversial level, it could mean trying to shape appearance, intelligence, or athletic ability.\n\nThe reason this topic matters is that reproductive choices happen before a child can consent. That makes the science inseparable from questions about fairness, identity, disability, and social pressure. The future of embryo selection is therefore not only a medical discussion, but a cultural one.",
+    "simpler": "Designer babies are the idea of using technology before birth to change or choose traits in a child. That sounds exciting, but it also raises major ethical questions.",
+    "keyTakeaway": "Designer-baby technology is controversial because it could move from preventing disease to trying to engineer people.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Wings_Embryoscope.jpg",
+    "learnImageCredit": {
+      "creator": "Dr.jayesh amin",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wings_Embryoscope.jpg"
+    },
+    "deeperDive": "The technical path to designer babies would likely involve embryo screening, IVF, and possibly gene editing. Some uses would clearly be therapeutic, such as preventing severe inherited disease. Others would be enhancement-oriented, such as selecting for cosmetic or performance traits. The ethical line between those two is where the debate becomes difficult.\n\nThere are also practical limits. Many traits are influenced by dozens or hundreds of genes plus environment, so prediction is not simple. That means the conversation cannot be reduced to a fantasy of perfect control. Even if the tools improve, the social consequences may be more complex than the biology.",
+    "funFact": "Many traits people imagine as simple, like height or intelligence, are actually influenced by lots of genes and environmental factors, not one switch.",
+    "references": [
+      "National Academies - Human genome editing",
+      "WHO - Human genome editing ethics",
+      "Nature - Reproductive genetics",
+      "NIH - IVF and embryo selection"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "* Dr. Jennifer Doudna (CRISPR pioneer)",
-        "* Dr. Emmanuelle Charpentier (CRISPR co-discoverer)",
-        "* James Watson (DNA structure pioneer)",
-        "* Francis Crick (DNA structure pioneer)",
-        "* David Baltimore ( Nobel laureate in genetics)",
-        "**"
+        "Jennifer Doudna - Helped make gene editing practical",
+        "Emmanuelle Charpentier - CRISPR pioneer",
+        "Francis Collins - Advocated caution in genome science",
+        "He Jiankui - Triggered global debate on embryo editing",
+        "George Daley - Important voice in stem cell and embryo ethics"
       ],
       "places": [
-        "**",
-        "* The Salk Institute for Biological Studies",
-        "* University of California, Berkeley",
-        "* Harvard Medical School",
-        "* Stanford University",
-        "* The National Institutes of Health",
-        "**"
+        "UC Berkeley - CRISPR research hub",
+        "Harvard Medical School - Ethics and genetics research center",
+        "IVF clinics - Site of embryo selection technology",
+        "NIH - Major public health research center",
+        "World Health Organization - Global ethics guidance"
       ],
       "years": [
-        "**",
-        "* 1973 â€“ First successful birth through in vitro fertilization",
-        "* 1995 â€“ CRISPR enzyme discovered",
-        "* 2012 â€“ CRISPR-Cas9 gene editing tool developed",
-        "* 2018 â€“ First human trial using CRISPR to treat inherited disease",
-        "* 2020 â€“ China becomes the first country to approve gene-edited babies for reproductive purposes",
-        "**"
+        "1978 - IVF changes reproductive medicine",
+        "2012 - CRISPR becomes a practical editing tool",
+        "2018 - First CRISPR baby case sparks outrage",
+        "2020s - Embryo screening becomes more sophisticated",
+        "2025 - Ethical debate remains unresolved"
       ],
       "concepts": [
-        "**",
-        "* Genetic engineering",
-        "* Gene editing",
-        "* CRISPR technology",
-        "* DNA modification",
-        "* Mosaicism",
-        "* Off-target effects",
-        "* Germline editing",
-        "* Somatic cell therapy"
+        "Embryo selection - Choosing among embryos before implantation",
+        "Germline editing - Changes that can be inherited",
+        "Enhancement - Editing for traits beyond disease prevention",
+        "Consent - Agreement from the person affected",
+        "Polygenic trait - A trait influenced by many genes",
+        "Reproductive ethics - Moral questions around conception and birth"
       ]
     }
   }

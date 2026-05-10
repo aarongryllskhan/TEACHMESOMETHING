@@ -1,34 +1,66 @@
 {
-  "topic": "The-Genius-of-Load-Bearing-Walls",
-  "title": "Understanding the Methods Behind Load-Bearing Walls: Engineering the Foundations of Stability",
+  "topic": "Load-Bearing Walls",
+  "title": "Why Load-Bearing Walls Matter So Much in Buildings",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Kurtulus_Loft_Interior_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Ldrey",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Kurtulus_Loft_Interior_View.jpg"
+  },
   "lesson": {
-    "learn": "Load-bearing walls have been a crucial aspect of building design for centuries, with ancient civilizations such as the Egyptians and Romans employing innovative load-bearing systems to construct imposing structures. One notable example is the ancient Greek Theater of Epidaurus, built around 350 BCE, which still stands today with its load-bearing walls intact. These walls were strategically placed to distribute loads evenly throughout a building, ensuring that it can withstand various environmental conditions, such as earthquakes and high winds.",
-    "simpler": "Imagine a giant Jenga tower - when you add more and more blocks on top of it, the structure starts to lean or even fall down. Load-bearing walls are like the strong foundation of a building, making sure it doesn't collapse under its own weight. They help spread out the heavy stuff so that everything stays stable by resisting compressive forces and distributing loads evenly.",
-    "keyTakeaway": "A critical aspect of load-bearing walls is their ability to resist compressive forces and distribute loads evenly, ensuring the stability of a building. This is achieved through the strategic placement of materials with high tensile strength and compression resistance, such as steel beams and concrete foundations.",
-    "deeperDive": "Load-bearing walls are found in various types of structures, including residential homes, commercial buildings, and even historic landmarks. In the 19th century, engineers like Gustave Eiffel developed innovative load-bearing systems using iron latticework, as seen in the Eiffel Tower (completed in 1889). Similarly, modern construction employs advanced materials and designs to create more efficient load-bearing systems, such as the use of steel beams and concrete foundations. For example, the Burj Khalifa (completed in 2010), the tallest building in the world, features a unique load-bearing system composed of steel beams and high-strength concrete.",
-    "funFact": "Some buildings, like the Guggenheim Museum Bilbao (completed in 1997), employ internal load-bearing systems to create more open floor plans while maintaining structural stability. These designs utilize advanced materials and structural techniques to minimize the visual impact of load-bearing walls.",
+    "learn": "Load-bearing walls matter because they carry weight from floors, roofs, and upper stories down to the foundation. Instead of being decorative partitions, they are part of the building’s main support system. Remove or weaken one without planning, and the structure can shift, crack, or fail.\n\nThis is one of the simplest but most important ideas in architecture: not every wall is just a wall. Some walls are part of the building’s skeleton, and they make it possible to stack space safely above the ground.",
+    "simpler": "Some walls hold up the building itself. If you remove them without support, the structure can become unsafe.",
+    "keyTakeaway": "Load-bearing walls transfer building weight downward so the rest of the structure can remain stable.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Wall_structure.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Vitruvio",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wall_structure.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/3/35/Wall_Footing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "WikiDork78",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wall_Footing.jpg"
+    },
+    "deeperDive": "A load-bearing wall collects forces from beams, joists, slabs, and roof members and passes them to the footing and foundation below. The wall has to resist compression, keep the structure aligned, and work with the rest of the frame. That is why engineers care so much about wall placement, material strength, and foundation design.\n\nIn modern construction, load-bearing walls often work alongside beams, columns, and shear systems rather than doing everything alone. But the principle is the same: buildings need a clean path for their weight to travel to the ground. A wall that carries load is doing quiet but essential structural work.",
+    "funFact": "Taking out a load-bearing wall can change the whole way a building stands.",
+    "references": [
+      "Britannica - load-bearing wall",
+      "The National Association of Home Builders - structural wall basics",
+      "Engineering Toolbox - wall and foundation loads"
+    ],
     "keyElements": {
       "people": [
-        "- Leonardo da Vinci (Renaissance architect and engineer)",
-        "- Gustave Eiffel (Structural engineer who designed iconic buildings like the Eiffel Tower)",
-        "- Robert Maillart (Swiss civil engineer known for innovative bridge designs)"
+        "Building engineers - people who calculate load paths",
+        "Architects - designers who place walls and openings carefully",
+        "Structural inspectors - professionals who verify safety",
+        "Masons and carpenters - builders who create the structure"
       ],
       "places": [
-        "- The Colosseum (Ancient Roman amphitheater with load-bearing walls supporting its massive structure)",
-        "- The Sydney Opera House (Australian performing arts center featuring a unique sail-like design and load-bearing system)",
-        "- The Guggenheim Museum Bilbao (Spanish art museum showcasing a striking example of modern architecture with load-bearing walls)"
+        "Older masonry homes - classic load-bearing construction",
+        "Apartment buildings - places where structural walls matter",
+        "Seismic retrofit projects - sites where load paths are strengthened",
+        "Foundation and footing sites - where wall loads end up"
       ],
       "years": [
-        "- 1450: Leonardo da Vinci's designs for machines and buildings emphasize the importance of structural support",
-        "- 1889: Gustave Eiffel engineers the famous iron latticework for the World's Fair in Paris, demonstrating innovative load-bearing systems",
-        "- 1952: Robert Maillart constructs a cantilevered bridge in Switzerland that showcases his expertise in advanced load-bearing designs"
+        "Ancient times - stone and masonry walls carry most building loads",
+        "19th century - framed construction becomes more common",
+        "20th century - structural engineering becomes more formal",
+        "Present day - hybrid building systems combine walls, beams, and columns"
       ],
       "concepts": [
-        "- Tensile strength (the ability of materials to resist stretching forces)",
-        "- Compression (forces that push objects together or compress them)",
-        "- Shear stress (forces applied parallel or perpendicular to the direction of an object's length)",
-        "- Load distribution (how loads are evenly dispersed across a structure)",
-        "- Structural integrity (the capacity of a building or bridge to withstand various stresses without failing)"
+        "Compression - pushing force that walls carry well",
+        "Load path - the route structural forces follow",
+        "Footing - the base that spreads wall loads into soil",
+        "Shear wall - a wall that helps resist sideways forces",
+        "Structural partition - a wall that is part of the support system"
       ]
     }
   }

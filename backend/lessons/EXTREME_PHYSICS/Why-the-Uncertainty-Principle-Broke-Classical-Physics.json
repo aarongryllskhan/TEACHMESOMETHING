@@ -1,0 +1,67 @@
+{
+  "topic": "Uncertainty Principle",
+  "title": "Why the Uncertainty Principle Changed Physics Forever",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Uncertainty_Principle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "OB1011",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Uncertainty_Principle.jpg"
+  },
+  "lesson": {
+    "learn": "Heisenberg's uncertainty principle says that certain properties of a particle, such as position and momentum, cannot both be known with unlimited precision at the same time. This is not just a problem with our instruments. It is built into the structure of quantum reality.\n\nClassical physics assumed that if you knew enough, you could predict everything exactly. Quantum physics broke that assumption. The uncertainty principle is one of the clearest signs that the microscopic world is not just a smaller version of the everyday one.",
+    "simpler": "You cannot know everything about a tiny particle at once. The more precisely you know one property, the less precisely you can know another.",
+    "keyTakeaway": "The uncertainty principle shows that nature itself limits how precisely some quantum properties can be known.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Uncertainty_principle.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Maschen",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Uncertainty_principle.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/28/Heisenbergs_uncertainty_principle.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Johannes Schneider",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Heisenbergs_uncertainty_principle.svg"
+    },
+    "deeperDive": "The principle is often misunderstood as meaning \"science is bad at measuring things.\" It actually means there is a fundamental trade-off in quantum systems. The wave nature of particles makes certain pairs of properties linked in a way that puts a hard limit on simultaneous precision. That discovery forced physicists to rethink what it means to describe reality.\n\nQuantum mechanics did not just improve classical physics. It replaced one of its deepest assumptions. The uncertainty principle sits right at the center of that revolution.",
+    "funFact": "A sharper measurement of position can blur momentum.",
+    "references": [
+      "Britannica - uncertainty principle",
+      "Stanford Encyclopedia of Philosophy - quantum mechanics",
+      "American Physical Society - Heisenberg principle"
+    ],
+    "keyElements": {
+      "people": [
+        "Werner Heisenberg - formulated the principle",
+        "Quantum physicists - scientists who use it daily",
+        "Mathematical physicists - researchers who develop the formalism",
+        "Teachers and students - people who learn why it matters"
+      ],
+      "places": [
+        "Physics classrooms - where the idea is taught",
+        "Quantum labs - where uncertainty is measured",
+        "Particle accelerators - systems where the principle matters",
+        "Research institutes - centers for quantum theory"
+      ],
+      "years": [
+        "1927 - the uncertainty principle is introduced",
+        "20th century - quantum mechanics becomes established",
+        "Late 20th century - precision experiments confirm the limits",
+        "Present day - it remains central to quantum science"
+      ],
+      "concepts": [
+        "Position - where a particle is",
+        "Momentum - how motion is changing",
+        "Complementary variables - properties linked by quantum limits",
+        "Wave-particle duality - quantum objects behaving like both waves and particles",
+        "Quantum limit - a boundary nature itself imposes"
+      ]
+    }
+  }
+}

@@ -1,64 +1,67 @@
 {
-  "topic": "How Solar Flares Can Impact Power Grids",
-  "title": "Understanding the Threat of Solar Flares to Global Infrastructure",
+  "topic": "How Solar Flares Can Knock Out Power Grids",
+  "title": "Why Space Weather Can Become a Terrestrial Infrastructure Problem",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Solar_flare_%28TRACE%29.gif",
+  "imageCredit": {
+    "creator": "NASA",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Solar_flare_(TRACE).gif"
+  },
   "lesson": {
-    "learn": "Solar flares are intense releases of electromagnetic radiation from the sun's magnetic field, which can significantly impact the Earth's technological infrastructure. These events have the potential to cause geomagnetic storms, resulting in disruptions to communication and navigation systems, as well as power grids. Since 1859, there have been over 150 documented solar flares, with the frequency and intensity of these events increasing in recent years.",
-    "simpler": "Imagine a powerful electrical surge originating from the sun, sending electromagnetic waves towards Earth. These solar flares can knock out power plants, causing widespread blackouts, similar to how a lightning strike can cause a power outage in a neighborhood. Solar flares work by releasing a massive amount of energy in a matter of seconds, causing a geomagnetic storm that can interact with the Earth's magnetic field.",
-    "keyTakeaway": "Solar flares pose a significant threat to modern society by potentially knocking out power grids and disrupting critical infrastructure, highlighting the importance of developing effective preparedness and mitigation strategies.",
-    "deeperDive": "Scientists at NASA's Space Weather Prediction Center use advanced computer models and satellite data to forecast solar flare activity. In 1989, a powerful geomagnetic storm caused by a solar flare left millions without electricity in Quebec, Canada. Research has shown that solar flares can be predicted using magnetohydrodynamic models and real-time data from space weather monitoring systems. For instance, a massive solar flare in 2012 caused by a coronal mass ejection (CME) resulted in widespread internet outages across North America. Moreover, a study by NASA scientists found that the effects of a solar flare can be minimized by using redundant power grid systems and implementing real-time geomagnetic storm monitoring.",
-    "funFact": "Solar flares are so powerful that they can cause the Earth's magnetic field to oscillate, generating electromagnetic waves detectable thousands of miles away. In 1859, a solar flare caused telegraph machines to malfunction and sparked fires at several stations, resulting in significant economic and human losses.",
+    "learn": "Solar flares are sudden bursts of energy from the Sun, but the grid risk usually comes from what happens next: a flare or associated coronal mass ejection can disturb Earth's magnetic field. That disturbance can induce currents in long conductors like power lines and pipelines. If the storm is strong enough, transformers and other grid hardware can be stressed or damaged.",
+    "simpler": "A solar flare can help trigger a magnetic storm on Earth, and that storm can push harmful currents into power lines.",
+    "keyTakeaway": "The danger to power grids comes from geomagnetic disturbance caused by solar eruptions, not from visible light alone.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/07/HENA_Earth%27s_Ring_Current_July_2000_Geomagnetic_Storm.gif",
+    "learnImageCredit": {
+      "creator": "NASA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:HENA_Earth's_Ring_Current_July_2000_Geomagnetic_Storm.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/95/Earth%27s_magnetic_shield_reacts_to_a_coronal_mass_ejection_ESA509871.gif",
+    "thirdImageCredit": {
+      "creator": "European Space Agency",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0 IGO",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Earth's_magnetic_shield_reacts_to_a_coronal_mass_ejection_ESA509871.gif"
+    },
+    "deeperDive": "Solar flares themselves release electromagnetic radiation quickly, but the engineering damage often comes from slower space-weather effects tied to geomagnetic storms. Changing magnetic fields can induce electric currents across large distances, which makes high-voltage systems especially vulnerable. Historic events such as the 1859 Carrington Event and the 1989 Quebec blackout show how space weather can move from astronomy into infrastructure risk. Modern grid planning therefore includes forecasting, redundancy, and transformer protection.",
+    "funFact": "A powerful geomagnetic storm can generate auroras far outside the polar regions and make ordinary long wires behave like antennas for unwanted currents.",
+    "references": [
+      "NOAA Space Weather Prediction Center",
+      "NASA space weather and solar flare resources",
+      "Historic Carrington Event analyses",
+      "Power-grid geomagnetic storm mitigation studies"
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Richard Mewaldt - Physicist who studies space weather and its effects on Earth",
-        "* Dr. Kate Litherland - NASA scientist researching solar flare prediction models",
-        "* Dr. Brian Anderson - Physicist who developed a computer model to predict geomagnetic storms",
-        "* Dr. Leila Mays - Climate researcher studying the impact of solar flares on global climate patterns",
-        "* Dr. Alan Title - Solar physicist at Stanford University, researching coronal mass ejections"
+        "Richard Mewaldt - space weather researcher",
+        "Alan Title - solar physics researcher",
+        "Grid engineers - mitigation and resilience planners"
       ],
       "places": [
-        "* NASA's Space Weather Prediction Center in Boulder, Colorado",
-        "* The National Solar Observatory in Sunspot, New Mexico",
-        "* The High Altitude Observatory in Boulder, Colorado",
-        "* The European Space Agency (ESA) Space Weather Centre in Darmstadt, Germany",
-        "* The National Aeronautics and Space Administration (NASA) Goddard Space Flight Center in Greenbelt, Maryland"
+        "Power transmission networks - the vulnerable infrastructure",
+        "NOAA Space Weather Prediction Center - forecasting hub",
+        "NASA solar observatories - eruption monitoring"
       ],
       "years": [
-        "* 1859 - Solar flare causes widespread damage to telegraph systems and sparks fires",
-        "* 1989 - Power grid in Quebec knocked out by geomagnetic storm caused by solar flare",
-        "* 2012 - Massive solar flare causes internet outage across North America",
-        "* 2003 - Solar flare causes significant disruptions to global communication systems",
-        "* 2020 - Scientists develop advanced computer model for predicting solar flare activity"
+        "1859 - Carrington Event",
+        "1989 - Quebec blackout",
+        "2012 - major CME narrowly misses Earth",
+        "2020s - grid resilience planning intensifies"
       ],
       "concepts": [
-        "* Geomagnetic storms",
-        "* Coronal mass ejections (CMEs)",
-        "* Space weather prediction models",
-        "* Solar flares and their impact on Earth's magnetic field",
-        "* The role of NASA in monitoring and predicting solar flare activity",
-        "* Advanced technologies used to detect and analyze solar flares"
+        "Geomagnetic storm",
+        "Coronal mass ejection",
+        "Induced current",
+        "Transformer stress",
+        "Space weather forecasting",
+        "Infrastructure resilience"
       ]
     }
-  },
-  "keyElements": {
-    "people": [
-      "Dr. Richard Mewaldt - Physicist studying space weather and its effects on Earth",
-      "Dr. Kate Litherland - NASA scientist researching solar flare prediction models",
-      "Dr. Brian Anderson - Physicist who developed a computer model to predict geomagnetic storms"
-    ],
-    "places": [
-      "NASA's Space Weather Prediction Center in Boulder, Colorado",
-      "The National Solar Observatory in Sunspot, New Mexico",
-      "The High Altitude Observatory in Boulder, Colorado"
-    ],
-    "years": [
-      "1859 - Solar flare causes widespread damage to telegraph systems and sparks fires",
-      "1989 - Power grid in Quebec knocked out by geomagnetic storm caused by solar flare",
-      "2012 - Massive solar flare causes internet outage across North America"
-    ],
-    "concepts": [
-      "Geomagnetic storms",
-      "Coronal mass ejections (CMEs)",
-      "Space weather prediction models"
-    ]
   }
 }

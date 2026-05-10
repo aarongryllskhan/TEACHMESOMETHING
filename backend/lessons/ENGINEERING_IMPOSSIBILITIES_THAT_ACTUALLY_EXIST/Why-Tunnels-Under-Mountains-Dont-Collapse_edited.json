@@ -1,29 +1,67 @@
 {
-  "topic": "Engineering Mountain Passageways",
-  "title": "Understanding the Methods Behind Tunnel Construction Under Mountains",
+  "topic": "Mountain Tunnels",
+  "title": "Why Tunnels Under Mountains Stay Standing",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gotthard_Base_Tunnel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Zacharie Grossen",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Gotthard_Base_Tunnel.jpg"
+  },
   "lesson": {
-    "learn": "Mountain passageways, also known as tunnels, are complex engineering endeavors that facilitate safe and efficient travel through rugged terrain. The world's longest mountain tunnel, the Gotthard Base Tunnel in Switzerland, exemplifies this feat, spanning 57 kilometers and taking nearly two decades to complete (2015-2022). The tunnel's construction involved 3.8 million tons of excavated rock and the use of cutting-edge tunnel boring machines.",
-    "simpler": "Compared to a simple water supply pipe, mountain tunnels are more intricate systems that require precise engineering to withstand immense pressure and stress. Imagine a massive pipe that must accommodate cars, trains, or people on foot while navigating through solid rock formations.",
-    "keyTakeaway": "Key to stable tunnel construction lies in geotechnical understanding, material selection, and meticulous design. By analyzing rock formations and exploiting the right materials, engineers can create safe and durable passages under mountains.",
-    "deeperDive": "Advancements in tunnel boring technology have significantly improved the efficiency and accuracy of large-scale tunnel projects. The Seikan Tunnel in Japan, for instance, has an impressive 53.8 kilometers of underwater passage that serves as a testament to modern tunnel engineering. Similarly, the Channel Tunnel between England and France has been upgraded to accommodate high-speed trains, reducing travel time between the two countries.",
-    "funFact": "Despite advances in tunnel engineering, unexpected geological events like subsidence or rockfalls can still occur. The Channel Tunnel, for example, has experienced such incidents, highlighting the importance of continued research and monitoring.",
+    "learn": "Tunnels under mountains survive because engineers and geologists work with the surrounding rock instead of ignoring it. The mountain itself can be part of the support system when the tunnel is bored through strong rock layers. Lining, drainage, anchoring, and careful blasting or tunneling keep the void stable so the roof does not cave in.\n\nA good tunnel is less about carving out empty space and more about controlling stress. The rock around the tunnel has to be understood, measured, and reinforced so the mountain remains structurally balanced after the opening is made.",
+    "simpler": "Mountain tunnels stay up because engineers reinforce the rock and manage the pressure around the opening. The mountain helps carry the load.",
+    "keyTakeaway": "A tunnel does not collapse when the surrounding rock and lining are engineered to share the stress safely.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/SBB_-_Gotthard_Base_Tunnel_%2830346410681%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Kecko",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:SBB_-_Gotthard_Base_Tunnel_(30346410681).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/01/Bluff_Mountain_Tunnel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Photographer: Charlie Johnson",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bluff_Mountain_Tunnel.jpg"
+    },
+    "deeperDive": "Rock is stronger in some directions than others, so tunnel design starts with geology. Engineers study fractures, groundwater, fault lines, and stress patterns before deciding how to dig. Once excavation begins, support systems such as rock bolts, shotcrete, and concrete lining help the tunnel shell resist collapse.\n\nThe deeper the tunnel, the more important pressure management becomes. Water has to be drained, vibrations must be controlled, and the construction sequence has to be precise. That is why modern mountain tunnels can run for kilometers without failing: they are carefully negotiated agreements between geology and engineering.",
+    "funFact": "Some tunnels are built so deep that the rock above them helps stabilize the structure.",
+    "references": [
+      "Britannica - tunnel engineering",
+      "The Engineering Toolbox - rock pressure and tunnel support",
+      "International Tunnelling and Underground Space Association - tunnel basics"
+    ],
     "keyElements": {
       "people": [
-        "* Karl von Terzaghi - founder of modern soil mechanics",
-        "* Othmar Ammann - Swiss-American engineer who designed iconic bridges and tunnels",
-        "* Charles Blndon - British engineer responsible for many UK tunnel projects"
+        "Modern tunnel engineers - specialists in underground stability",
+        "Geologists - people who read the rock before excavation begins",
+        "Blasting crews - teams that shape the tunnel safely",
+        "Surveyors - people who map the underground route"
       ],
       "places": [
-        "* Gotthard Base Tunnel, Switzerland - longest railway tunnel in the world",
-        "* Channel Tunnel, England/France - connecting Europe through the English Channel",
-        "* Seikan Tunnel, Japan - longest underwater railway tunnel"
+        "Gotthard Base Tunnel, Switzerland - major Alpine tunnel",
+        "Bluff Mountain Tunnel, United States - mountain roadway tunnel",
+        "SBB Gotthard rail corridor - modern underground transport",
+        "Allegheny Mountain Tunnel, United States - classic mountain passage"
       ],
       "years": [
-        "* 1819: Construction of the London and Birmingham Railway began, featuring several early tunnels under mountains",
-        "* 1873: Completion of the Gothard Railway in Switzerland marked a milestone in trans-Alpine tunnel engineering",
-        "* 1994: The Channel Tunnel between England and France was officially opened for rail traffic"
+        "19th century - early mountain tunnels expand rail travel",
+        "20th century - mechanized boring and lining improve safety",
+        "2016 - Gotthard Base Tunnel opens as a landmark project",
+        "21st century - underground transport keeps expanding globally"
       ],
-      "concepts": []
+      "concepts": [
+        "Rock bolting - anchoring loose rock to stable layers",
+        "Shotcrete - sprayed concrete used for support",
+        "Lining - the structural shell inside the tunnel",
+        "Groundwater control - drainage that prevents weakening",
+        "Geotechnical engineering - the study of soil and rock stability"
+      ]
     }
   }
 }

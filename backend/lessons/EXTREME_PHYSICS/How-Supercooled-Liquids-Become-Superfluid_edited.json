@@ -1,0 +1,67 @@
+{
+  "topic": "Superfluidity",
+  "title": "How Supercooled Liquids Become Superfluids",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Liquid_helium_superfluid_phase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Bmatulis",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Liquid_helium_superfluid_phase.jpg"
+  },
+  "lesson": {
+    "learn": "At temperatures near absolute zero, some liquids stop behaving like ordinary liquids and enter a superfluid state. In that state, they can flow with almost no viscosity, creep up container walls, and behave in ways that seem to ignore everyday experience. Liquid helium is the classic example.\n\nThe physics behind superfluidity is quantum physics on a macroscopic scale. That is why the phenomenon feels so strange: the whole liquid begins to act like one coordinated quantum system.",
+    "simpler": "When some liquids get extremely cold, they can flow with almost no friction and do weird things like climbing walls.",
+    "keyTakeaway": "Superfluidity happens when quantum behavior takes over the whole liquid.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Liquid_helium_Rollin_film.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "I, AlfredLeitner, took this photograph as part of my movie \"Liquid Helium,Superfluid\"",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Liquid_helium_Rollin_film.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/a/af/Liquid_Helium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Alfred Leitner photographed this as part of his movie \"Liquid Helium, Superfluid\".",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Liquid_Helium.jpg"
+    },
+    "deeperDive": "Viscosity can nearly vanish in a superfluid because the particles act in a highly coordinated way. Instead of random resistance, the fluid moves as if it has lost one of the normal constraints of liquid motion. That makes it useful for studying quantum mechanics on a scale you can actually observe.\n\nSuperfluid helium is not magic. It is a phase of matter with rules so unusual that our ordinary intuition breaks down. It remains one of the best demonstrations that physics can still surprise us at the coldest temperatures.",
+    "funFact": "Superfluid helium can creep up and over the side of a container.",
+    "references": [
+      "Britannica - superfluidity",
+      "NIST - liquid helium",
+      "Science - quantum fluids"
+    ],
+    "keyElements": {
+      "people": [
+        "Physicists - researchers studying quantum fluids",
+        "Cryogenic engineers - specialists in extreme cold",
+        "Materials scientists - experts in phase changes",
+        "Laboratory technicians - people handling liquid helium"
+      ],
+      "places": [
+        "Cryogenic labs - where helium is cooled to extreme temperatures",
+        "Physics departments - where superfluidity is studied",
+        "Container walls - where Rollin films become visible",
+        "Low-temperature research facilities - the main setting for the phenomenon"
+      ],
+      "years": [
+        "1937 - superfluidity is discovered",
+        "20th century - helium studies reshape low-temperature physics",
+        "2000s - superfluid research expands into modern quantum systems",
+        "Present day - quantum fluid experiments continue"
+      ],
+      "concepts": [
+        "Superfluid - a liquid with almost zero viscosity",
+        "Viscosity - resistance to flow",
+        "Phase transition - a change in a material's state",
+        "Absolute zero - the theoretical lowest temperature",
+        "Quantum coherence - coordinated behavior across many particles"
+      ]
+    }
+  }
+}

@@ -1,47 +1,66 @@
 {
-  "topic": "Computing Evolution",
-  "title": "Understanding the Pioneering Development of Modern Computing",
+  "topic": "Why the First Computer Weighed 30 Tons",
+  "title": "Why Early Computers Were So Massive",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/IBM%20701%20frame.jpg",
+  "imageCredit": {
+    "creator": "Dan",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:IBM_701_frame.jpg"
+  },
   "lesson": {
-    "learn": "The first electronic computer, ENIAC, was a massive machine that weighed over 27 tons and occupied an entire room. Developed in the 1940s by John Mauchly and J. Presper Eckert at the University of Pennsylvania's Moore School of Electrical Engineering, ENIAC used over 17,468 vacuum tubes to perform calculations. The ENIAC's massive scale was a result of its power consumption, which required a team of technicians to operate and maintain it around the clock. To maintain a stable operating temperature, ENIAC was equipped with an air conditioning system, which further reinforced the notion that its immense power consumption was a significant challenge. This behemoth of a machine played a crucial role in cracking codes for the US military during World War II, paving the way for modern computing as we know it today. By examining the development of ENIAC, we can understand the early understanding of computer science as an engineering discipline that prioritized raw processing power over efficiency.",
-    "simpler": "Imagine a large, room-sized computer that needed a team of technicians to operate continuously due to its massive power consumption. The first computers, such as ENIAC, were built with this approach due to the limitations in technology at that time. They were instrumental in supporting the US military during World War II by decrypting secret enemy messages.",
-    "keyTakeaway": "The ENIAC's development exemplifies the fundamental tradeoff between processing power and efficiency in early computer design. Its massive power consumption, although inefficient, facilitated the creation of a machine that significantly advanced the field of computing.",
-    "deeperDive": "The construction of ENIAC involved significant technical challenges. Vacuum tubes, a primary component of ENIAC, were prone to failure due to heat generation, necessitating continuous maintenance by a team of technicians. A method called 'programming by patch cord' was developed to reconfigure the machine for each new program, laying the groundwork for modern programming techniques. This innovative approach demonstrated the flexibility and versatility required for early computer development. Furthermore, ENIAC's development directly influenced the creation of the UNIVAC I, the first commercially available computer, which was released in 1951.",
-    "funFact": "ENIAC was so massive that it stood nearly 7.5 feet tall and weighed over 27 tons, requiring a dedicated air conditioning system to maintain a stable operating temperature. The machine's power consumption necessitated the continuous presence of a team of over 20 people, including technicians, engineers, and a dedicated librarian to manage the network of patch cords.",
+    "learn": "Early computers were enormous because every part had to be built from large, fragile hardware components. Vacuum tubes, power supplies, wiring, cooling systems, and memory hardware all took up space, and the machines needed careful maintenance to keep running. That is why the first generation of computers filled entire rooms.\n\nThe size was not a flaw so much as a stage in technological history. Before transistors and integrated circuits, there was no easy way to make high-speed electronics small, cool, and reliable at the same time.",
+    "simpler": "Early computers were huge because their parts were huge. Before smaller chips existed, all the electronics had to be built with bulky hardware.",
+    "keyTakeaway": "The first computers were massive because early electronics had not yet been miniaturized.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/CHM%20Artifacts%20Whirlwind%20vacuum%20tubes%20(3301174066).jpg",
+    "learnImageCredit": {
+      "creator": "Marcin Wichary from San Francisco, Calif.",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:CHM_Artifacts_Whirlwind_vacuum_tubes_(3301174066).jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/ZUSE%20Z22%20vacuum%20tube%202.jpg",
+    "thirdImageCredit": {
+      "creator": "Sammlung der Medien und Wissenschaft",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ZUSE_Z22_vacuum_tube_2.jpg"
+    },
+    "deeperDive": "Vacuum tubes generated heat, consumed power, and failed often, so they needed space and access for repair. Memory systems were also primitive, using devices such as delay lines or magnetic drums. As transistors replaced tubes, and then integrated circuits replaced individual transistors, the same computing ideas could fit into much smaller machines.\n\nThat shrinking process did not just make computers portable. It changed who could own them, where they could live, and what kinds of problems they could solve.",
+    "funFact": "Some early computers needed constant maintenance just to stay on.",
+    "references": [
+      "Computer History Museum - early computer systems",
+      "Britannica - vacuum tube computers",
+      "National Museum of American History - computing collections"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ John Mauchly (Computer scientist and co-creator of ENIAC)",
-        "+ J. Presper Eckert (Electrical engineer and co-creator of ENIAC)",
-        "+ Betty Jennings (ENIAC programmer who worked with Mauchly and Eckert)",
-        "+ Kathleen Antonelli (One of the first programmers to work on ENIAC)",
-        "+ Herman Goldstine (Mathematician and computer scientist who contributed to ENIAC's development)",
-        "* **"
+        "Howard Aiken - built the Harvard Mark series",
+        "Tommy Flowers - developed Colossus",
+        "J. Presper Eckert - helped build ENIAC",
+        "John Mauchly - helped build ENIAC"
       ],
       "places": [
-        "**",
-        "+ University of Pennsylvania (Where ENIAC was built in the 1940s)",
-        "+ Moore School of Electrical Engineering (The department at UPenn where Mauchly and Eckert worked on ENIAC)",
-        "+ US Army Ballistic Research Laboratory (ENIAC's primary user during World War II)",
-        "+ Aberdeen Proving Ground (Where ENIAC was first deployed in 1946)",
-        "+ Smithsonian Institution (Now home to the original ENIAC machine)",
-        "* **"
+        "Moore School of Electrical Engineering - ENIAC development",
+        "Harvard - Mark computer research",
+        "Bletchley Park - wartime computing work",
+        "IBM labs - later miniaturization and business computing"
       ],
       "years": [
-        "**",
-        "+ 1939 (When Mauchly and Eckert first began exploring ideas for a computer at UPenn)",
-        "+ 1943 (ENIAC's development was officially begun during World War II)",
-        "+ 1946 (ENIAC was first deployed in the field at Aberdeen Proving Ground)",
-        "+ 1951 (The release of UNIVAC I, the first commercially available computer)",
-        "+ 1970s (When ENIAC was retired and eventually donated to the Smithsonian Institution)",
-        "* **"
+        "1940s - room-sized computers dominate",
+        "1950s - commercial computers expand",
+        "1960s - transistors shrink hardware",
+        "1970s - integrated circuits and microprocessors take over"
       ],
       "concepts": [
-        "**",
-        "+ Vacuum tubes",
-        "+ Programming by patch cord",
-        "+ Electronic numerical integration",
-        "+ Codebreaking during World War II",
-        "+ The concept of a \"computer\" as we understand it today"
+        "Vacuum tube - large early electronic component",
+        "Memory drum - rotating early storage hardware",
+        "Cooling - managing heat from early electronics",
+        "Miniaturization - making components smaller",
+        "Reliability - how often a machine stays working"
       ]
     }
   }

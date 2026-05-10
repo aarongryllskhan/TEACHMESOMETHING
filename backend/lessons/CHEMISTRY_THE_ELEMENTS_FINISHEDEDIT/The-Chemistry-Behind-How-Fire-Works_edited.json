@@ -1,38 +1,66 @@
 {
   "topic": "Fundamental Chemistry of Combustion",
   "title": "Understanding the Oxidation Reaction in Combustion: A Review of the Scientific Evidence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Burning%20Fire.jpg",
+  "imageCredit": {
+    "creator": "Elias Hunziker",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Burning_Fire.jpg"
+  },
   "lesson": {
-    "learn": "Combustion is a self-sustaining, exothermic chemical reaction that involves the rapid oxidation of a fuel source, resulting in the release of energy in the form of light, heat, and sound. This process requires a finely tuned mixture of the fuel, oxygen, and heat, with specific temperatures, pressures, and concentrations of reactants.",
-    "simpler": "Combustion occurs when a fuel source undergoes pyrolysis and subsequently reacts with oxygen to produce heat and light. This process can be described by the general equation: fuel (C_xH_y) + O2 → CO2 + H2O + energy.",
-    "keyTakeaway": "The key to understanding combustion lies in the complex interplay between fuel source, oxygen, and heat, as well as the specific reaction pathways, temperature, pressure, and concentration of reactants involved.",
-    "deeperDive": "One of the earliest recorded studies on combustion was conducted by Antoine Lavoisier on September 17, 1774, when he discovered oxygen and began investigating its role in combustion. Building on Lavoisier's work, Humphry Davy and Claude Berthollet in the late 18th century demonstrated the existence of pyrolysis through a series of experiments on the combustion of wood and coal.",
-    "funFact": "The ignition temperature of a fuel source is crucial in determining the rate and efficiency of combustion. For example, the ignition temperature of gasoline is approximately 538°C (1000°F), while that of wood is around 300°C (572°F) [1].",
+    "learn": "Fire is a self-sustaining oxidation reaction. It needs fuel, oxygen, and heat, and once those ingredients reach the right threshold, the reaction can keep feeding itself. The energy released shows up as heat, light, and hot gases, which is why flames feel alive even though they are chemistry in motion.\n\nThe visible flame is not the whole reaction. What you see is the energetic byproduct of molecules rearranging themselves very quickly and releasing energy faster than it can spread away.",
+    "simpler": "Fire happens when fuel reacts with oxygen fast enough to release heat and light. If the reaction keeps feeding itself, the flame continues.",
+    "keyTakeaway": "Fire is combustion that keeps going because the reaction makes enough heat to sustain itself.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Fire_triangle.svg",
+    "learnImageCredit": {
+      "creator": "User:Gustavb",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Fire_triangle.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Fire%20photo.jpg",
+    "thirdImageCredit": {
+      "creator": "Running over the Varamin",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Fire_photo.jpg"
+    },
+    "deeperDive": "Combustion works because heat helps break bonds in the fuel, producing reactive fragments that combine with oxygen. That process is exothermic, so the reaction releases more energy than it needs once it gets started. The fire triangle captures the essentials: fuel, oxygen, and heat.\n\nRemove any one of those pieces and the flame dies. That simple rule is why fire safety, extinguishers, and controlled burners all focus on interrupting one part of the chain. The chemistry is fast, but the logic is beautifully direct.",
+    "funFact": "A flame is partly gas-phase chemistry, not just “burning stuff.”",
+    "references": [
+      "Britannica - combustion",
+      "NFPA - the fire triangle",
+      "RSC - oxidation and exothermic reactions"
+    ],
     "keyElements": {
       "people": [
-        "Antoine Lavoisier",
-        "Humphry Davy",
-        "Claude Berthollet",
-        "Joseph Priestley",
-        "Svante Arrhenius"
+        "Antoine Lavoisier - explained combustion as oxidation",
+        "Michael Faraday - studied candle and flame chemistry",
+        "Sadi Carnot - helped shape thermodynamic thinking about heat",
+        "Josiah Willard Gibbs - advanced reaction energetics"
       ],
       "places": [
-        "The University of Oxford",
-        "The Royal Institution",
-        "The Massachusetts Institute of Technology (MIT)"
+        "Laboratories studying combustion - flame chemistry research",
+        "Fire safety training centers - practical combustion control",
+        "Industrial furnaces - controlled high-temperature combustion",
+        "Everyday kitchens and engines - familiar combustion environments"
       ],
       "years": [
-        "1774",
-        "1807"
+        "1770s - modern combustion chemistry begins to form",
+        "19th century - oxidation theory replaces older phlogiston ideas",
+        "20th century - flame chemistry becomes more quantitative",
+        "21st century - combustion science supports cleaner fuels"
       ],
       "concepts": [
-        "Pyrolysis",
-        "Oxidation",
-        "Ionization",
-        "Free radicals",
-        "Excited molecules",
-        "Combustion",
-        "Exothermic reactions",
-        "Adiabatic flame temperature"
+        "Combustion - rapid oxidation that releases energy",
+        "Oxidation - loss of electrons in a reaction",
+        "Ignition temperature - the point where combustion can start",
+        "Exothermic reaction - a reaction that releases heat",
+        "Chain reaction - a reaction that sustains itself"
       ]
     }
   }

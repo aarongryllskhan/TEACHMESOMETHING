@@ -1,39 +1,66 @@
 {
   "topic": "The Formation of Carbon Allotropes",
   "title": "Understanding the Methods Behind Carbon's Versatility",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Diamond.svg",
+  "imageCredit": {
+    "creator": "Davide101",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Diamond.svg"
+  },
   "lesson": {
-    "learn": "Carbon, the sixth element on the periodic table, has a unique property that allows it to form a range of allotropes, including diamond, graphite, and fullerenes. The process of forming these allotropes involves changing the atomic arrangement of carbon atoms, resulting in distinct physical properties and uses.",
-    "simpler": "Consider the formation of a single crystal of diamond, which is the result of an intricate process of atomic packing under intense pressure. Each carbon atom contributes to a vast, complex structure that is both exceptionally hard and optically transparent. Conversely, the layered structure of graphite results in a material that is both soft and slippery. To understand these phenomena, we need to examine the precise conditions under which these allotropes form.",
-    "keyTakeaway": "The atomic arrangement of carbon atoms is the key determinant of whether they form diamond, graphite, or another allotrope, with implications for a wide range of applications, from electronics to energy storage.",
-    "deeperDive": "Diamonds are formed through the process of high-pressure high-temperature (HPHT) synthesis, typically involving temperatures above 2,000 degrees Celsius and pressures of approximately 50 kilobars. Graphite, on the other hand, crystallizes in a layered structure, allowing it to exhibit remarkable electrical conductivity. The discovery of fullerenes in 1985 by Harold Kroto, James Heath, and others has expanded our understanding of the unique properties and potential applications of carbon molecules. Furthermore, the creation of carbon nanostructures such as nanotubes and graphene has led to breakthroughs in fields such as materials science and electronics.",
-    "funFact": "Research has demonstrated that certain types of nanocrystalline diamond (NCD) exhibit superconducting properties at relatively low temperatures. Scientists have also identified that specific forms of carbon can be used as high-pressure materials, capable of withstanding enormous forces.",
+    "learn": "Carbon can become diamond, graphite, graphite-like sheets, fullerenes, or nanotubes because its atoms can bond in more than one stable pattern. In diamond, each carbon atom forms four strong bonds in a rigid three-dimensional network. In graphite, carbon atoms form flat sheets that slide easily over one another. The same element produces very different materials because the bonding changes everything.\n\nThis is why carbon is such a powerful building block in chemistry. A small change in structure can turn the same element into something hard, soft, conductive, or nearly transparent.",
+    "simpler": "Carbon can act like diamond or graphite because its atoms can connect in different patterns. Same element, very different materials.",
+    "keyTakeaway": "Carbon’s different bond structures are what make diamond and graphite behave so differently.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Graphite.png",
+    "learnImageCredit": {
+      "creator": "Amira Ben Gouider Trabelsi",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Graphite.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Fullerene.png",
+    "thirdImageCredit": {
+      "creator": "GYassineMrabet",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Fullerene.png"
+    },
+    "deeperDive": "Diamond is built from sp3 bonding, which creates a stiff three-dimensional lattice and gives it extreme hardness. Graphite uses sp2 bonding, leaving electrons delocalized across sheets, which makes it slippery and conductive. That contrast is one of the clearest examples of allotropy in chemistry.\n\nBeyond those two forms, carbon can also organize into fullerenes, graphene, and nanotubes. Those materials have become important in materials science because they combine low mass with unusual strength, conductivity, or surface behavior. Carbon is the element that keeps reminding chemists that structure matters as much as composition.",
+    "funFact": "Pencil “lead” is graphite, not the metal lead at all.",
+    "references": [
+      "Britannica - carbon allotropy",
+      "RSC - carbon chemistry",
+      "Nature Education - graphene and fullerenes"
+    ],
     "keyElements": {
       "people": [
-        "1. **Henrik Kjellander**, a Swedish chemist who first synthesized graphite in 1857.",
-        "2. **James Dewar**, a Scottish physicist and chemist who studied the properties of diamond and graphite.",
-        "3. **Rudolf Peierls**, a German-British physicist who contributed to our understanding of diamond's structure.",
-        "4. **Richard Smalley**, an American chemist who discovered fullerenes in 1985.",
-        "5. **Sumio Iijima**, a Japanese chemist who discovered carbon nanotubes in 1991."
+        "Harold Kroto - helped discover fullerenes",
+        "Sumio Iijima - advanced carbon nanotube research",
+        "Andre Geim - helped isolate graphene",
+        "Konstantin Novoselov - pioneered graphene research"
       ],
       "places": [
-        "1. **The De Beers Mine** in South Africa, where some of the world's largest diamond crystals have been found.",
-        "2. **The University of Cambridge**, where researchers have developed new techniques for creating high-quality diamonds.",
-        "3. **The Massachusetts Institute of Technology (MIT)**, where scientists are exploring the potential of graphene and other carbon-based materials.",
-        "4. **The European Organization for Nuclear Research (CERN)**, which has used diamond-like materials to develop advanced radiation detectors."
+        "University of Manchester - graphene breakthroughs",
+        "NEC laboratories, Japan - carbon nanotube research",
+        "Calcutta and industrial pencil-making centers - graphite use",
+        "Kimberley and mantle geology studies - natural diamond formation"
       ],
       "years": [
-        "1. **1857**, when Henrik Kjellander first synthesized graphite.",
-        "2. **1879**, when James Dewar discovered the properties of diamond and graphite.",
-        "3. **1950s**, when scientists began studying the structure and properties of diamond.",
-        "4. **1985**, when Richard Smalley and his team discovered fullerenes."
+        "1772 - early chemistry begins separating carbon forms",
+        "1985 - fullerenes are discovered",
+        "1991 - carbon nanotubes are identified",
+        "2004 - graphene is isolated"
       ],
       "concepts": [
-        "1. **Atomic arrangement**: The way atoms are arranged in a molecule or crystal determines its properties and behavior.",
-        "2. **Allotropes**: Different forms of an element with unique physical properties, such as diamond and graphite.",
-        "3. **Graphene**: A two-dimensional sheet of carbon atoms that exhibits remarkable strength and conductivity.",
-        "4. **Carbon nanotubes**: Rolled-up sheets of graphene that have incredible strength and potential applications in electronics and energy storage.",
-        "5. **Buckyballs**: Also known as fullerenes, these are spherical molecules made up of 60 carbon atoms.",
-        "6. **Lonsdaleite**: A hexagonal allotrope of diamond with unique properties for high-pressure applications."
+        "Allotrope - different structural form of the same element",
+        "sp3 bonding - tetrahedral bonding in diamond",
+        "sp2 bonding - planar bonding in graphite",
+        "Lattice - repeating atomic structure",
+        "Conductivity - ability to carry electric charge"
       ]
     }
   }

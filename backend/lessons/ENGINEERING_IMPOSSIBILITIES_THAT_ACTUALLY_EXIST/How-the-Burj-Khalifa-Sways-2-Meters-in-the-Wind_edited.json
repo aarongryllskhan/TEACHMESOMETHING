@@ -1,34 +1,66 @@
 {
-  "topic": "The Burj Khalifa: Engineering a Stable Giant",
-  "title": "Understanding Wind-Resistant Design: The Burj Khalifa's Structural Innovations",
+  "topic": "Burj Khalifa Wind Motion",
+  "title": "How the Burj Khalifa Stays Stable While Swaying",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Burj_Khalifa_%285810620261%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Umedha Hettigoda",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(5810620261).jpg"
+  },
   "lesson": {
-    "learn": "The Burj Khalifa, completed in 2010, is the world's tallest building at 828 meters. Designed by Skidmore, Owings & Merrill (SOM) and led by Adrian Smith, the tower's innovative design and advanced technology ensure stability despite its slender profile. In strong winds, the structure may sway up to 2 meters. This phenomenon is not unique to the Burj Khalifa; even the world's first tall building, constructed in Chicago in 1885, exhibited similar behavior.",
-    "simpler": "Think of a long, slender tree in a strong breeze. Like the tree's swaying branches, the Burj Khalifa's height and aerodynamic design make it susceptible to wind-induced movements. While it may move up to 2 meters, the building's stability is ensured by its advanced structural system.",
-    "keyTakeaway": "Engineering structures that withstand extreme wind forces requires advanced computer simulations, innovative design, and a deep understanding of aerodynamics, structural dynamics, and wind resistance.",
-    "deeperDive": "To mitigate wind-induced movements, engineers employed several strategies: optimizing the building's height-to-width ratio, incorporating a Y-shaped floor plan to dissipate wind loads, and installing tuned mass dampers (TMDs) to counterbalance the movement. Notably, the Burj Khalifa's structural system was designed to be flexible, allowing it to absorb wind forces and reduce the risk of damage or collapse. This was made possible by advances in wind-resistant design, which were researched and developed at institutions like the University of Illinois at Urbana-Champaign.",
-    "funFact": "In 2009, the Burj Khalifa withstood winds of up to 100 km/h (62 mph) without significant movement, demonstrating its advanced wind-resistance capabilities. The building's structural system was designed to withstand even more extreme conditions, such as cyclones and earthquakes.",
+    "learn": "The Burj Khalifa sways because very tall buildings cannot be perfectly rigid. Wind pushes on the tower, and the building responds by bending slightly instead of cracking. That movement is controlled by the shape of the tower, its reinforced concrete core, its tapering design, and damping systems that reduce vibration.\n\nA small amount of sway is a sign that the building is doing its job. The goal is not to stop motion entirely. The goal is to keep that motion predictable, comfortable, and safe even at extreme height.",
+    "simpler": "The Burj Khalifa moves a little in the wind because tall buildings flex. Engineers design that movement so the tower stays safe.",
+    "keyTakeaway": "Skyscrapers sway because flexibility helps them survive wind loads without structural damage.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/07/Tuned_mass_damper.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Anarchemitis at English Wikipedia",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/Burj_Khalifa_Image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Meandmybrix",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Image.jpg"
+    },
+    "deeperDive": "As a building gets taller, wind becomes one of the most important structural forces. The Burj Khalifa uses a tapering form that disrupts wind vortices and a central core that carries the main loads. Engineers also rely on damping so vibrations do not build up into uncomfortable or dangerous motion.\n\nThe principle is similar to other supertalls: stiffness matters, but so does controlled flexibility. A tower that never moved would take too much stress in high winds or seismic events. Burj Khalifa’s design shows how modern architecture turns motion into a managed engineering problem instead of a failure.",
+    "funFact": "At extreme height, even tiny wind shifts matter more than the weight of the building.",
+    "references": [
+      "Skidmore, Owings & Merrill - Burj Khalifa engineering overview",
+      "Britannica - skyscraper engineering",
+      "CTBUH - tall building performance"
+    ],
     "keyElements": {
       "people": [
-        "* Skidmore, Owings & Merrill (SOM) - Architectural firm",
-        "* Adrian Smith - Lead architect",
-        "* Greg Sangalli - Structural engineer"
+        "William F. Baker - key structural engineer on Burj Khalifa",
+        "Adrian Smith - architect of the tower",
+        "Skidmore, Owings & Merrill team - structural designers",
+        "Wind engineers - specialists in tower aerodynamics"
       ],
       "places": [
-        "* Burj Khalifa - Dubai, United Arab Emirates",
-        "* Chicago - City where the world's first tall building was constructed",
-        "* University of Illinois at Urbana-Champaign - Research institution involved in wind-resistant design development"
+        "Dubai, United Arab Emirates - site of the tower",
+        "Burj Khalifa observation levels - places where wind motion is felt",
+        "Wind tunnel labs - where tower shapes are tested",
+        "Tall-building research centers - structural engineering hubs"
       ],
       "years": [
-        "* 1994 - Design process began for the Burj Khalifa",
-        "* 2005 - Construction started on site",
-        "* 2010 - Completed and officially opened to the public"
+        "2004 - construction begins",
+        "2009 - the tower nears completion",
+        "2010 - Burj Khalifa opens",
+        "Present day - supertall design keeps evolving"
       ],
       "concepts": [
-        "* Wind resistance",
-        "* Aerodynamics",
-        "* Structural dynamics",
-        "* Tuned mass dampers (TMDs)",
-        "* Building sway"
+        "Sway - controlled motion in a tall structure",
+        "Wind load - force from moving air",
+        "Damping - reducing vibration",
+        "Tapered form - a shape that reduces wind stress",
+        "Reinforced concrete core - structural spine of the tower"
       ]
     }
   }

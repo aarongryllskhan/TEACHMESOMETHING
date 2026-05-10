@@ -1,45 +1,68 @@
 {
-  "topic": "The-Mystery-of-Animal-Tool-Use",
-  "title": "Exploring the Methods Behind Animal Tool Use",
+  "topic": "The Mystery of Animal Tool Use",
+  "title": "How Animals Turn Objects into Extensions of the Body",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Stick_tool_use_by_chimpanzees.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "William Daniel Snyder",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Stick_tool_use_by_chimpanzees.png"
+  },
   "lesson": {
-    "learn": "Animal tool use is a complex phenomenon observed in various species, where individuals utilize objects to achieve specific goals, often exhibiting advanced problem-solving abilities. By examining the tool use of species such as primates, dolphins, and birds, researchers can gain insights into the evolution of intelligence, innovation, and adaptability. For instance, studies have shown that chimpanzees use sticks to extract termites for sustenance, while crows employ rocks to crack open nuts. This behavior has been observed in over 60 species worldwide, with approximately 20 species using tools in a habitual manner.",
-    "simpler": "Much like humans finding ways to adapt tools for various tasks, animals demonstrate their resourcefulness in using objects to aid survival or accomplish specific tasks. For example, sea otters use rocks to crack open shells and retrieve prey, illustrating the importance of tool use in their ecosystem. This phenomenon is often overlooked but holds substantial implications for understanding animal cognition and behavior.",
-    "keyTakeaway": "The study of animal tool use reveals that many species exhibit advanced problem-solving abilities, which have likely contributed to the evolution of complex behavior in animals. Furthermore, the ability to innovate and adapt tools demonstrates a high degree of cognitive flexibility.",
-    "deeperDive": "Research has highlighted the diverse range of tool use exhibited by various species, including octopuses employing shells as shelters, magpies utilizing sticks to retrieve food, and sea lions using rocks to crack open shells. Moreover, studies on primates have shown that they not only learn new tools but also innovate and create their own, exhibiting a high degree of cognitive flexibility. For instance, chimpanzees have been observed using leaves as sponges to clean their food, while crows use twigs to dig up grubs from tree bark. The study of animal tool use has also shed light on the role of social learning, where individuals observe and imitate others' behaviors, resulting in cultural transmission.",
-    "funFact": "Some species of ants are capable of using tools to capture prey, such as army ants using leaves to scoop up small insects. Similarly, researchers have discovered that some species of corvids use sticks to retrieve food from crevices, emphasizing the sophistication of tool use in various animal species.",
+    "learn": "Animal tool use happens when a species uses an external object to solve a problem more effectively than bare body parts alone. That might mean a chimpanzee using a stick to fish for termites, a crow bending wire, or a sea otter cracking shellfish with a rock. Tool use matters because it reveals planning, flexibility, and the ability to match an object to a task. It also shows that intelligence is not just about having a large brain; it is about using available resources creatively.",
+    "simpler": "Some animals use sticks, rocks, or other objects to get food or solve problems. That is tool use.",
+    "keyTakeaway": "Animal tool use shows that many species can plan, learn, and adapt by using objects in smart ways.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Sea_Otter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Dave Bezaire & Susi Havens-Bezaire",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sea_Otter.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Stick%20tool%20use%20by%20chimpanzees.png",
+    "thirdImageCredit": {
+      "creator": "William Daniel Snyder",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Stick_tool_use_by_chimpanzees.png"
+    },
+    "deeperDive": "Tool use is especially interesting because it sits at the intersection of instinct, learning, and culture. Some species seem to discover useful objects on their own, while others learn by watching adults. In chimpanzees, tool traditions can vary from group to group, which looks a lot like culture. New Caledonian crows are famous for crafting and modifying tools, while sea otters and some primates use objects in more immediate ways. The broader scientific question is not only who uses tools, but how those behaviors spread, persist, and change over time.",
+    "funFact": "Tool use is not limited to primates. Birds, dolphins, octopuses, and even insects can use objects in surprisingly clever ways.",
+    "references": [
+      "Frans de Waal's primate behavior work",
+      "Jane Goodall's chimpanzee observations",
+      "Studies on corvid cognition and tool manufacture",
+      "Comparative cognition research on animal innovation"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Jane Goodall â€“ renowned primatologist who studied chimpanzee behavior",
-        "+ Dr. Alexandra Horowitz â€“ expert on animal cognition and tool use in non-human animals",
-        "+ Dr. Nikolaas Tinbergen â€“ pioneering ethologist who researched animal behavior and evolution",
-        "+ Dr. Frans de Waal â€“ prominent primatologist studying social behavior and cooperation",
-        "+ Dr. Thomas Boellstorff â€“ anthropologist examining human and non-human animal tool use",
-        "* **"
+        "Jane Goodall - chimpanzee behavior pioneer",
+        "Frans de Waal - primate cognition researcher",
+        "John Marzluff - crow intelligence researcher",
+        "Alexandra Horowitz - animal cognition researcher"
       ],
       "places": [
-        "**",
-        "+ Gombe Stream National Park in Tanzania, where Jane Goodall conducted her groundbreaking research on chimpanzees",
-        "+ The Woodland Park Zoo in Seattle, Washington, which features a renowned primate exhibit",
-        "+ The University of Oxford's Department of Zoology, known for its extensive research on animal behavior and cognition",
-        "+ The San Diego Zoo's Monkey Trails exhibit, showcasing a range of primate species and their tool use behaviors",
-        "* **"
+        "Gombe Stream National Park - classic chimpanzee studies",
+        "Coastal marine habitats - sea otter tool use",
+        "Corvid study sites - where bird innovation is observed",
+        "Primate research centers - where tool traditions are tracked"
       ],
       "years": [
-        "**",
-        "+ 1957 â€“ Jane Goodall begins her groundbreaking research on chimpanzees in Tanzania",
-        "+ 1970s â€“ Dr. Nikolaas Tinbergen publishes influential papers on animal behavior and evolution",
-        "+ 1990s â€“ Researchers begin to explore the cognitive abilities of non-human animals, including tool use",
-        "+ 2005 â€“ A study on sea otters using rocks to crack open prey is published in a leading scientific journal",
-        "* **"
+        "1960s - chimpanzee tool use becomes famous",
+        "1990s - animal cognition becomes a major field",
+        "2000s - crows and octopuses gain attention for tool behavior",
+        "2020s - tool traditions are studied as social learning"
       ],
       "concepts": [
-        "**",
-        "+ Tool use as an indicator of intelligence and adaptability",
-        "+ Social learning and cultural transmission in non-human animals",
-        "+ Evolutionary origins of complex behavior in animals",
-        "+ Cognition and problem-solving abilities in various species",
-        "+ The role of environment and ecology in shaping animal behavior"
+        "Innovation",
+        "Problem-solving",
+        "Cultural transmission",
+        "Material manipulation",
+        "Cognitive flexibility",
+        "Planning"
       ]
     }
   }

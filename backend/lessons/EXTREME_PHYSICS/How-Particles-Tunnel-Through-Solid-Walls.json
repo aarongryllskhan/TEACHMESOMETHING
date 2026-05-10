@@ -1,0 +1,67 @@
+{
+  "topic": "Quantum Tunneling",
+  "title": "How Particles Tunnel Through Solid Walls",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Quantum_Tunneling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Haade",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Quantum_Tunneling.jpg"
+  },
+  "lesson": {
+    "learn": "Quantum tunneling is one of the strangest effects in physics. In the classical world, if a particle does not have enough energy to cross a barrier, it stops. In quantum mechanics, the particle is described by a wave function, and that wave can extend through barriers. As a result, there is a real probability that the particle appears on the other side.\n\nThat does not mean the particle is cheating physics. It means the quantum world is probabilistic in a way classical intuition does not prepare us for.",
+    "simpler": "Tiny particles can sometimes pass through barriers they should not be able to cross. That is called quantum tunneling.",
+    "keyTakeaway": "Quantum tunneling happens because particles behave like waves with a chance of appearing beyond a barrier.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Quantum-tunneling.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "MikeRun",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Quantum-tunneling.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Relativistic_particle_tunnelling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Phidus",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Relativistic_particle_tunnelling.jpg"
+    },
+    "deeperDive": "Tunneling matters in nuclear fusion, scanning tunneling microscopes, radioactive decay, and many modern technologies. The barrier does not disappear. Instead, the wave function decreases inside it, leaving a nonzero chance of detection on the other side. That tiny probability can be enough when the system repeats over and over.\n\nQuantum tunneling is a perfect example of why the microscopic world is not intuitive. A wall is not always a wall to a quantum particle. Sometimes it is more like a challenge with a very small but real chance of success.",
+    "funFact": "The Sun's fusion reactions depend partly on tunneling.",
+    "references": [
+      "Britannica - quantum tunneling",
+      "NASA - fusion in stars",
+      "National Institute of Standards and Technology - scanning tunneling microscopy"
+    ],
+    "keyElements": {
+      "people": [
+        "Quantum physicists - researchers who study tunneling",
+        "Nuclear physicists - scientists who use tunneling in fusion",
+        "Engineers - people who build tunneling microscopes",
+        "Students - learners of quantum mechanics"
+      ],
+      "places": [
+        "Laboratories - where tunneling is measured",
+        "The Sun - a natural place where tunneling matters",
+        "Semiconductor devices - where tunneling affects electronics",
+        "Microscope setups - where tunneling is used for imaging"
+      ],
+      "years": [
+        "1920s - quantum tunneling emerges in theory",
+        "20th century - experiments confirm it",
+        "21st century - tunneling remains crucial in nanotech",
+        "Present day - it is taught as a core quantum phenomenon"
+      ],
+      "concepts": [
+        "Wave function - the quantum description of a particle",
+        "Probability amplitude - the quantity that determines outcomes",
+        "Barrier penetration - passing through a forbidden region",
+        "Classically forbidden - impossible under ordinary physics",
+        "Quantum behavior - rules that differ from everyday intuition"
+      ]
+    }
+  }
+}

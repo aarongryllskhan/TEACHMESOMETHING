@@ -1,47 +1,62 @@
 {
-  "topic": "The Economics Behind Rising Rents",
-  "title": "Exploring the Factors Contributing to Increasing Rent Costs",
+  "topic": "The Economics Behind Why Your Rent Keeps Rising",
+  "title": "Why housing costs keep climbing faster than wages",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/ABS-6416.0-HousePriceIndexes-EightCapitalCities-HousePriceSelectedHousingIndexesIndexNumbersPercentageChanges-PriceIndexEstablishedHouses-Adelaide-A2333550T.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Toby Hudson",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0 au",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+    "filePage": "https://commons.wikimedia.org/wiki/File:ABS-6416.0-HousePriceIndexes-EightCapitalCities-HousePriceSelectedHousingIndexesIndexNumbersPercentageChanges-PriceIndexEstablishedHouses-Adelaide-A2333550T.svg"
+  },
   "lesson": {
-    "learn": "Rising rents are a complex issue influenced by a combination of factors, including supply and demand, inflation, and government policies. Between 2010 and 2020, the median rent in Los Angeles increased by over 30%, with some neighborhoods experiencing growth rates as high as 50% (U.S. Census Bureau, 2020). In San Francisco, gentrification led to a 25% increase in rent between 2010 and 2020, displacing long-time residents and small businesses (Pew Research Center, 2020).",
-    "simpler": "Think of rent as a market force, where the price increases when demand exceeds supply. Just as a shortage of housing units leads to higher prices, a surplus can lead to lower prices. Understanding this dynamic can help mitigate rising costs for renters.",
-    "keyTakeaway": "A key driver of rising rents is the imbalance between housing supply and demand, fueled by urban migration and inflation. Addressing this issue requires a nuanced approach that considers the interplay of economic, social, and policy factors.",
-    "deeperDive": "One crucial aspect contributing to rising rents is inflation. As construction costs rise due to increased prices for materials, labor, and land, developers pass these costs on to tenants in the form of higher rents. For instance, a 10% increase in construction costs can result in a 5-7% increase in rent (Urban Institute, 2019). Furthermore, online platforms like Airbnb have disrupted traditional rental markets, driving up costs for long-term renters and contributing to gentrification. A study in New York City found that for every Airbnb unit, prices for existing rental units increased by 0.4% (NYU Furman Center, 2019).",
-    "funFact": "Did you know that the cost of building a single-family home in New York City exceeds $1 million, making it challenging for low-income families to afford homeownership? Additionally, the number of affordable housing units built in the United States decreased by 60% between 1980 and 2017, exacerbating the shortage (National Low Income Housing Coalition, 2019).",
+    "learn": "Rent rises when demand for housing grows faster than supply. If more people want to live in a city but not enough homes are built, landlords can charge more. Add zoning limits, high construction costs, land shortages, and strong population pressure, and rents can rise for years.\n\nHousing is different from many goods because you cannot easily switch to a substitute. People need somewhere to live, so even small supply problems can create large price increases.",
+    "simpler": "Rent goes up when lots of people want homes but not enough new homes are available.",
+    "keyTakeaway": "Rising rent is usually a supply problem as much as a demand problem.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/6b/ABS-6416.0-HousePriceIndexes-EightCapitalCities-HousePriceSelectedHousingIndexesIndexNumbersPercentageChanges-PriceIndexEstablishedHouses-Melbourne-A2333534T.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Toby Hudson",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0 au",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ABS-6416.0-HousePriceIndexes-EightCapitalCities-HousePriceSelectedHousingIndexesIndexNumbersPercentageChanges-PriceIndexEstablishedHouses-Melbourne-A2333534T.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/ff/ABS-6416.0-HousePriceIndexes-EightCapitalCities-HousePriceSelectedHousingIndexesIndexNumbersPercentageChanges-PriceIndexEstablishedHouses-Brisbane-A2333542T.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Toby Hudson",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0 au",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ABS-6416.0-HousePriceIndexes-EightCapitalCities-HousePriceSelectedHousingIndexesIndexNumbersPercentageChanges-PriceIndexEstablishedHouses-Brisbane-A2333542T.svg"
+    },
+    "deeperDive": "Rent pressure often comes from a mix of slow construction, job growth, migration, and tight local rules. When new homes take years to approve or build, demand can outpace supply for a long time. In that environment, even modest increases in income or population can keep pushing prices upward.\n\nThe hardest part is that housing markets are local. One city can become much more expensive even if national inflation is modest. That is why economists talk about zoning reform, transit access, and construction capacity when discussing rent, not just wages.",
+    "funFact": "A city can feel \"full\" even when a whole country is not.",
+    "references": [
+      "Brookings - housing supply and rents",
+      "Britannica - rent and housing markets",
+      "Urban economics research on housing affordability"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "- Jane Jacobs (Urban Planner): Known for her work on community development and urban renewal, highlighting the importance of affordable housing.",
-        "- Robert C. Ellickson (Economist): Contributed to the understanding of rent control policies and their effects on housing markets.",
-        "- Barbara Ehrenreich (Sociologist): Documented the struggles of low-income workers and the impact of gentrification on communities.",
-        "- David A. Mineta (Urban Planner): Worked on developing affordable housing solutions and community land trusts.",
-        "- Greg Mankiw (Economist): Wrote about the connection between inflation, rent control, and market equilibrium.",
-        "**"
+        "Urban economists - study housing supply",
+        "City planners - shape what gets built",
+        "Tenants and landlords - respond to market pressure"
       ],
       "places": [
-        "**",
-        "- San Francisco's Mission District (California, USA): An example of gentrification leading to increased rents.",
-        "- New York City (New York, USA): Home to some of the highest rents in the world.",
-        "- Los Angeles (California, USA): Experiencing rapid rent growth due to tech industry expansion.",
-        "- London (United Kingdom): Struggling with high housing costs and affordability issues.",
-        "- Barcelona (Spain): Implementing innovative affordable housing solutions through community-led development.",
-        "**"
+        "Major cities - where demand is concentrated",
+        "Suburbs - often affected by zoning decisions",
+        "Construction sites - where supply is created slowly"
       ],
       "years": [
-        "**",
-        "- 2008 (Global Financial Crisis): Highlighted the need for stable, affordable housing amidst economic downturns.",
-        "- 2010 (Rising Rents in San Francisco): Marked the beginning of severe rent increases in tech hubs like Silicon Valley and New York City.",
-        "- 2015 (Gentrification Study): Demonstrated the impact of gentrification on low-income communities worldwide.",
-        "- 2020 (COVID-19 Pandemic): Showcased the vulnerability of renters to economic shocks and housing insecurity.",
-        "**"
+        "2000s - housing affordability becomes a major issue",
+        "2010s - rent growth outpaces wages in many cities",
+        "2020s - housing shortages remain a policy focus"
       ],
       "concepts": [
-        "**",
-        "- Supply and Demand Equilibrium",
-        "- Gentrification and Urban Renewal",
-        "- Rent Control Policies vs. Market Forces",
-        "- Inflation's Impact on Housing Costs",
-        "- Community Land Trusts as Affordable Solutions",
-        "- The Role of Government Policies in Housing Markets"
+        "Supply - how many homes exist",
+        "Demand - how many people need homes",
+        "Zoning - rules about what can be built",
+        "Affordability - the gap between income and housing cost"
       ]
     }
   }

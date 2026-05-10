@@ -1,36 +1,64 @@
 {
-  "topic": "Mathematics Behind DNA's Double Helix Structure",
-  "title": "Understanding the Double Helix: A Balance of Mathematics and Biology",
-  "lesson": {
-    "learn": "The double helix structure is a fundamental concept in molecular biology, with each nucleotide base paired in a specific way to create a stable and efficient molecule. This unique arrangement is essential for the efficient storage and replication of genetic information.",
-    "simpler": "Imagine a spiral staircase with each step fitting snugly into place. The double helix is a twisted ladder that holds all the genetic instructions for life, made up of two strands of nucleotide bases, adenine (A), guanine (G), cytosine (C), and thymine (T).",
-    "keyTakeaway": "The key insight to takeaway is that DNA's double helix structure is a result of balanced complementary base pairing, where adenine pairs with thymine (A-T) and guanine pairs with cytosine (G-C). This pairing allows for the efficient and stable replication of genetic information.",
-    "deeperDive": "The double helix structure is not only aesthetically pleasing but also has significant practical applications. The pairing of complementary base pairs minimizes genetic mutations during replication, and the twisting angle between nucleotide bases (approximately 36 degrees) maximizes stability. Furthermore, the double helix's symmetry has led to the development of algorithms for predicting protein structures and gene function. Research using X-ray crystallography, a technique developed by Max Perutz and John Kendrew, has determined the precise arrangement of nucleotide bases within the double helix.",
-    "funFact": "The discovery of the double helix was made possible by X-ray crystallography images obtained from Rosalind Franklin's research at King's College London in 1952, known as \"Photograph 51.\""
+  "topic": "DNA Structure",
+  "title": "Why the Double Helix Is So Efficient for Life",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/DNA_double_helix.svg",
+  "imageCredit": {
+    "creator": "Biochemlife",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:DNA_double_helix.svg"
   },
-  "keyElements": {
-    "people": [
-      "James Watson (nucleic acid structure researcher)",
-      "Francis Crick (molecular biologist and Nobel laureate)",
-      "Rosalind Franklin (X-ray crystallographer)"
+  "lesson": {
+    "learn": "DNA stores genetic information in a shape that is both compact and highly reliable. Its double helix pairs complementary bases - adenine with thymine, and cytosine with guanine - so each strand helps verify the other during replication. That arrangement is one reason DNA can preserve information over long periods while still being copied with impressive accuracy.\n\nThe structure is efficient because the two strands are antiparallel, the sugar-phosphate backbone is stable, and the base pairs fit together in a very specific way. The helix is not magical, but it is beautifully engineered by evolution for storage, copying, and repair.",
+    "simpler": "DNA is a twisted ladder made of two matching strands. The pairs fit together in a way that makes copying genetic information reliable.",
+    "keyTakeaway": "The double helix is a stable information system because its complementary structure helps DNA copy itself accurately.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/DNA_double_helix_horizontal.png",
+    "learnImageCredit": {
+      "creator": "Jerome Walker",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DNA_double_helix_horizontal.png"
+    },
+    "deeperDive": "The geometry matters. The helix keeps the base pairs aligned and the backbone at a consistent distance, which helps enzymes read and copy the molecule. Hydrogen bonds are weak enough to separate when needed, but strong enough in groups to support stable pairing. That balance is a big reason DNA can be both durable and flexible.\n\nThe mathematical elegance of DNA also shows up in replication fidelity, repair pathways, and sequence recognition. Cells are constantly checking for mismatches, breaks, and damage, because a stable archive is only useful if it can be maintained. DNA succeeds not by being complicated for its own sake, but by being complicated in exactly the right ways.",
+    "funFact": "If you stretched out the DNA in one human cell, it would be much longer than the cell itself, yet it still has to pack neatly into the nucleus.",
+    "references": [
+      "NHGRI - DNA basics",
+      "NCBI Bookshelf - DNA structure and replication",
+      "Nature Education - The double helix",
+      "Encyclopaedia Britannica - DNA"
     ],
-    "places": [
-      "King's College London (research institution)",
-      "Cavendish Laboratory, Cambridge University (research institution)",
-      "Brookhaven National Laboratory (research institution)"
-    ],
-    "concepts": [
-      "Double Helix Structure",
-      "Complementary Base Pairing",
-      "Nucleotide Bases (A, T, G, C)",
-      "Genetic Replication and Mutation",
-      "X-ray Crystallography"
-    ],
-    "dates": [
-      "1953: The Watson-Crick model of the DNA double helix is published",
-      "1962: James Watson and Francis Crick win the Nobel Prize in Physiology or Medicine",
-      "1952: Rosalind Franklin obtains the X-ray crystallography images that help determine the double helix structure",
-      "1985: Rosalind Franklin's contributions to DNA structure are recognized with a posthumous award"
-    ]
+    "keyElements": {
+      "people": [
+        "James Watson - Co-described the DNA double helix model",
+        "Francis Crick - Co-described the DNA double helix model",
+        "Rosalind Franklin - Produced crucial X-ray diffraction evidence",
+        "Maurice Wilkins - Contributed key structural data",
+        "Erwin Chargaff - Helped reveal base-pair ratios"
+      ],
+      "places": [
+        "King's College London - Important site for DNA research",
+        "Cavendish Laboratory, Cambridge - Historic molecular biology center",
+        "NIH - Major source of genetics research",
+        "Brookhaven National Laboratory - Site of major DNA imaging work",
+        "The Human Genome Project centers - Modern DNA research hubs"
+      ],
+      "years": [
+        "1952 - Franklin's X-ray data sharpen the DNA model",
+        "1953 - The double helix model is published",
+        "1962 - Watson, Crick, and Wilkins receive the Nobel Prize",
+        "2003 - The Human Genome Project is completed",
+        "2020s - DNA continues to shape genomics and medicine"
+      ],
+      "concepts": [
+        "Base pairing - Matching A with T and C with G",
+        "Antiparallel strands - Two strands running in opposite directions",
+        "Replication - Copying DNA before cell division",
+        "Backbone - The sugar-phosphate support structure",
+        "Hydrogen bond - A weak bond that helps hold pairs together",
+        "Genetic information - The stored instructions for life"
+      ]
+    }
   }
 }

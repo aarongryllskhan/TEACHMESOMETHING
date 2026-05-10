@@ -1,44 +1,69 @@
 {
-  "topic": "Comets and Their Tails: An Investigation into the Effects of Solar Radiation Pressure and the Solar Wind",
-  "title": "Solar Forces Shaping Cometary Tails and Plasma Structures",
+  "topic": "Why Comets Have Tails That Point Away From the Sun",
+  "title": "How Solar Radiation and the Solar Wind Shape Comet Tails",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Comet_tail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Brocken Inaglory",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Comet_tail.jpg"
+  },
   "lesson": {
-    "learn": "Comets are icy remnants from the early solar system that develop striking tails when they approach the Sun. As a comet nears perihelion, solar heating causes volatile ices in its nucleus to sublimate, releasing gas and dust into space. Two dominant physical processes then shape this material into a tail: solar radiation pressure and the solar wind. Solar radiation pressure is the momentum transfer from sunlight photons to dust particles, exerting a force that preferentially accelerates smaller grains away from the Sun. Meanwhile, the solar wind—a supersonic plasma flow composed mainly of protons, electrons, and alpha particles—interacts strongly with ionized gases released from the comet, forming the ion (plasma) tail. These mechanisms naturally produce two distinct tails: a curved dust tail influenced by radiation pressure and a straighter ion tail aligned with the solar wind and interplanetary magnetic field. Observations of these structures provide direct evidence of particle physics processes operating across millions of kilometers in space.",
-    
-    "simpler": "A comet’s tail forms when it gets close to the Sun and heats up. Ice on the comet turns into gas and releases dust. Sunlight pushes on the dust, while a stream of charged particles from the Sun (the solar wind) pushes on the gas. This creates two tails: one made of dust and one made of ionized gas. Both tails always point away from the Sun because of these solar forces.",
-    
-    "keyTakeaway": "Comet tails form because two different solar effects act on released material: sunlight pressure moves dust particles, while the solar wind shapes ionized gas into a plasma tail. The difference in particle size and charge explains why comets often display two distinct tails with different shapes and behaviors.",
-    
-    "deeperDive": "When a comet approaches the inner solar system, sublimation of ices such as water, carbon dioxide, and carbon monoxide releases gas and entrained dust from the nucleus. Dust particles, typically micrometer-sized or larger, interact primarily with solar radiation pressure, which applies a force proportional to their cross-sectional area but inversely related to mass. This produces the characteristic curved dust tail that traces the comet’s orbit. In contrast, ultraviolet solar radiation ionizes part of the escaping gas, creating a plasma that couples strongly to the solar wind and the interplanetary magnetic field. This interaction results in a straight ion tail that can undergo rapid structural changes due to variations in solar wind speed, density, and magnetic field orientation. Space missions such as :contentReference[oaicite:0]{index=0} have shown that cometary outgassing is highly heterogeneous, with jets and localized activity producing complex tail dynamics. These observations help constrain models of early solar system material composition and plasma–dust interaction physics.",
-    
-    "funFact": "Comet tails can grow to enormous sizes—sometimes longer than the distance between the Earth and the Sun—even though the comet nucleus itself is often only a few kilometers wide. Despite their size, comet tails are extremely diffuse, meaning they contain very little material and would be invisible if compressed into a solid form.",
-    
+    "learn": "Comets are icy leftovers from the early Solar System, and their tails appear when they move close enough to the Sun for their frozen material to warm up and vaporize. As sunlight heats the nucleus, ices sublimate and release gas plus dust into space. That escaping material then interacts with two different solar forces. Sunlight pushes on dust grains through radiation pressure, while the solar wind pushes on ionized gas through electromagnetic interaction.\n\nThose two forces create the classic two-tail structure of many bright comets. The dust tail is usually curved because dust particles still follow the comet's orbit while being gently pushed outward by sunlight. The ion tail is often straighter and points more directly away from the Sun because charged gas is carried by the solar wind and the Sun's magnetic field. The result is one of the most striking examples of space physics visible to the naked eye.\n\nComet tails therefore reveal more than beauty. They show how sunlight, charged particles, and volatile chemistry work together to transform a small icy body into a dramatic moving system in space.",
+    "simpler": "A comet makes a tail when it gets close to the Sun and its ice starts to warm up. Gas and dust blow away from the comet, and sunlight and the solar wind push that material so the tail points away from the Sun.",
+    "keyTakeaway": "Comet tails point away from the Sun because sunlight pushes dust and the solar wind pushes ionized gas.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Comet_and_tail_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "NASA/JPL-Caltech",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Comet_and_tail_animation.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Comet_Halley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Kuiper Airborne Observatory, C141 aircraft April 8/9, 1986, New Zealand Expedition",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Comet_Halley.jpg"
+    },
+    "deeperDive": "The physics starts with sublimation. When volatile ices such as water, carbon dioxide, and carbon monoxide warm up, they change directly from solid to gas and drag dust off the comet nucleus. That material does not behave the same way. Dust grains are pushed most strongly by radiation pressure, which depends on surface area, while the ionized gas couples to the solar wind and magnetic field.\n\nThis is why the dust tail and ion tail often separate visually. The dust tail traces a more curved path because the grains retain much of the comet's orbital motion. The ion tail is usually thinner and straighter because it is continually reoriented by the solar wind. Tail structure can change quickly when the solar wind changes, so comets are useful probes of both solar radiation and plasma conditions in interplanetary space.\n\nMissions such as Rosetta showed that comet nuclei are not smooth snowballs but irregular, active bodies with jets and localized vents. That complexity helps explain why comet tails can flare, twist, or fragment. In the end, a comet tail is the visible trace of a very energetic exchange between a frozen relic and the Sun.",
+    "funFact": "A comet tail can stretch millions of kilometers, even though the comet's nucleus may be only a few kilometers wide.",
+    "references": [
+      "Rosetta mission reports on comet outgassing and tail structure.",
+      "Solar physics texts on radiation pressure and the solar wind.",
+      "Comet research review articles on dust and ion tails.",
+      "Wikimedia Commons - Image metadata, licensing, creator, source, and file-page verification."
+    ],
     "keyElements": {
       "people": [
-        "Edmond Halley – predicted the periodic return of the comet now named after him, establishing comets as repeating solar system objects",
-        "Isaac Newton – developed early gravitational theory that helped explain cometary orbits and trajectories",
-        "Fred Whipple – proposed the 'dirty snowball' model of comet nuclei, describing them as ice-rich bodies containing dust and volatile compounds",
-        "Geraint Jones – contributed to modern studies of comet–solar wind interactions and plasma environments"
+        "Edmond Halley - predicted the return of the comet that bears his name",
+        "Isaac Newton - developed gravity theory relevant to comet orbits",
+        "Fred Whipple - proposed the dirty snowball model of comets",
+        "Geraint Jones - contributed to studies of comet-solar wind interactions"
       ],
       "places": [
-        "European Space Agency (ESA) mission control centers – coordinate deep space comet missions such as Rosetta",
-        "NASA Jet Propulsion Laboratory – manages spacecraft and instruments studying cometary composition and dynamics",
-        "La Silla Observatory – site of long-term comet tracking and spectroscopic observation programs",
-        "Mount Palomar Observatory – historically significant for optical comet discovery and imaging surveys"
+        "European Space Agency mission control - supported Rosetta operations",
+        "NASA Jet Propulsion Laboratory - major center for comet mission analysis",
+        "La Silla Observatory - important site for comet tracking",
+        "Mount Palomar Observatory - historically significant for comet observation"
       ],
       "years": [
-        "1066 – Chinese astronomers record observations of Halley’s Comet, including its prominent tail structure",
-        "1705 – Edmond Halley predicts the periodic return of the comet now known as Halley’s Comet",
-        "1986 – spacecraft observations of Halley’s Comet provide first close-up measurements of a comet nucleus",
-        "2014 – Rosetta mission begins orbiting comet 67P/Churyumov–Gerasimenko and studies outgassing in detail",
-        "2015 – Rosetta lander Philae makes the first successful landing on a comet nucleus"
+        "1066 - Chinese astronomers record Halley's Comet",
+        "1705 - Halley's periodic return is predicted",
+        "1986 - close-up spacecraft observations of Halley's Comet",
+        "2014 - Rosetta begins orbiting 67P/Churyumov-Gerasimenko",
+        "2015 - Philae lands on a comet nucleus"
       ],
       "concepts": [
-        "Solar radiation pressure – momentum transfer from photons that pushes dust particles away from the Sun",
-        "Solar wind – stream of charged particles emitted by the Sun that interacts with ionized comet gases",
-        "Comet nucleus sublimation – transition of ices directly into gas when heated by solar radiation",
-        "Ion tail formation – creation of a plasma tail aligned with the solar wind and magnetic field lines",
-        "Dust tail dynamics – curved tail structure governed by gravity, orbital motion, and radiation pressure",
-        "Plasma interaction – coupling between ionized gas and electromagnetic fields in space environments"
+        "Solar radiation pressure - sunlight pushing on dust grains",
+        "Solar wind - stream of charged particles from the Sun",
+        "Sublimation - ice turning directly into gas",
+        "Ion tail - tail of charged gas aligned with the solar wind",
+        "Dust tail - curved tail shaped by gravity and radiation pressure",
+        "Plasma interaction - coupling between ionized gas and magnetic fields"
       ]
     }
   }

@@ -1,45 +1,63 @@
 {
-  "topic": "Resurrecting Extinct Species: The Science and Ethics",
-  "title": "The Methods Behind De-Extinction: Understanding the Possibility of Reviving Extinct Species",
+  "topic": "De-Extinction",
+  "title": "How Scientists Might Bring Back Lost Species Without Bringing Back the Past",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Woolly_mammoth.jpg",
+  "imageCredit": {
+    "creator": "Flying Puffin",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Woolly_mammoth.jpg"
+  },
   "lesson": {
-    "learn": "In 2020, a team of scientists led by Professor George Church at Harvard University's Wyss Institute successfully sequenced the entire genome of the woolly mammoth, a species that has been extinct for over 4,000 years. This breakthrough marked a significant step towards de-extinction, a field that has gained momentum in recent years. However, the process of reviving extinct species is complex, involving multiple disciplines, including genetics, biology, and ecology. It requires a deep understanding of the species' evolutionary history, as well as the ability to manipulate their genetic code to create viable offspring.",
-    "simpler": "Imagine taking a sample of DNA from a fossil and using it to bring back a species that has been extinct for thousands of years. This is essentially what scientists are trying to do with de-extinction. By using advanced genetic engineering techniques, they can create a hybrid embryo that combines the DNA of the extinct species with that of a closely related species. This process is analogous to baking a cake, except instead of using flour, sugar, and eggs, we're using DNA code to create a living, breathing organism.",
-    "keyTakeaway": "The primary goal of de-extinction is to restore ecosystems and learn from evolutionary history, but it also raises important questions about the ethics of genetic engineering. For example, what happens to the existing ecosystem if an invasive species is introduced? How do we ensure that the revived species does not outcompete native species for resources? Understanding the complexity of these issues is crucial to developing effective de-extinction strategies.",
-    "deeperDive": "Recent advances in DNA sequencing and genome editing have made it possible to reconstruct ancient genomes from fossil remains. This has led to a series of surprising discoveries, including the fact that the woolly mammoth had a much longer gestation period than previously thought, and that its body was adapted to extreme cold climates. To achieve de-extinction, scientists will need to use a combination of genetic engineering and other techniques, such as somatic cell nuclear transfer (SCNT), to create viable offspring. For example, in 2009, a team of scientists successfully used SCNT to bring back the Pyrenean ibex, a species that had been extinct for over 300 years, although the individual died shortly after birth.",
-    "funFact": "The Pyrenean ibex was a mountain goat that was once found in the Pyrenees between Spain and France. It was one of the first species to be attempted de-extinction, and its genome was successfully sequenced in 1997. Although the individual died shortly after birth, the achievement demonstrated the potential of genetic engineering in conservation biology.",
+    "learn": "De-extinction is the idea that science might recreate extinct species, or at least very close genetic proxies, using DNA, cloning, and genome editing. The goal is not simply novelty. Supporters argue that recovering lost species could restore ecological roles, preserve genetic diversity, and help us learn from evolutionary history.\n\nBut de-extinction is not a rewind button. A revived animal would still need a surrogate species, a suitable habitat, and a reason to exist in a changed world. That is why the field blends genetics with ecology, ethics, and conservation planning.",
+    "simpler": "Scientists may be able to use DNA and cloning tools to make animals that resemble extinct species. But even if that works, the animal still has to survive in today's world.",
+    "keyTakeaway": "De-extinction is really about rebuilding biology for the present, not perfectly recreating the past.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Somatic_Cell_Nuclear_Transfer.png",
+    "learnImageCredit": {
+      "creator": "L!ttleW0lf",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Somatic_Cell_Nuclear_Transfer.png"
+    },
+    "deeperDive": "Most de-extinction projects rely on two main ideas. One is genome reconstruction, where scientists compare ancient DNA with the DNA of living relatives. The other is somatic cell nuclear transfer or editing living cells to resemble the extinct species more closely. Either way, the result is usually a proxy rather than an exact copy.\n\nThe ethical questions are just as significant as the technical ones. Would funding be better spent protecting species that are still alive? Could a revived animal become dependent on human care? Would ecosystem restoration improve if the species it depended on no longer has its original habitat? Those questions make de-extinction less like a lab trick and more like a conservation decision.",
+    "funFact": "The famous cloned sheep Dolly is often mentioned in de-extinction discussions because cloning showed that adult DNA can be reset under the right conditions.",
+    "references": [
+      "National Geographic - De-extinction",
+      "Smithsonian Magazine - Woolly mammoths and de-extinction",
+      "Nature - Conservation genetics",
+      "Encyclopaedia Britannica - Cloning and de-extinction"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "*   Professor George Church: Developed new methods for DNA synthesis and genome editing.",
-        "*   Dr. Elizabeth Jones: Led a team that successfully sequenced the woolly mammoth genome.",
-        "*   Dr. Stephen O'Brien: Contributed to the development of SCNT technology.",
-        "*   Dr. Andrew Warren: Collaborated on the genetic analysis of ancient DNA samples.",
-        "*   Professor Jack Horner: Conducted pioneering research on dinosaur biology and genetics.",
-        "*   **"
+        "George Church - Advocated mammoth-focused de-extinction research",
+        "Beth Shapiro - Major scholar of ancient DNA",
+        "Hendrik Poinar - Ancient DNA and conservation researcher",
+        "David Reich - Helped expand paleogenomics",
+        "Oliver Ryder - Worked on endangered species genetics"
       ],
       "places": [
-        "**",
-        "*   The Salk Institute for Biological Studies, California: A leading center for genetic engineering research.",
-        "*   Harvard University's Wyss Institute, Massachusetts: Focuses on synthetic biology and bioinspired engineering.",
-        "*   The Smithsonian Institution's National Museum of Natural History, Washington D.C.: Houses a vast collection of fossil specimens.",
-        "*   The Wellcome Sanger Institute, Cambridge: A world-leading center for genome research.",
-        "*   The University of California, Berkeley: Has a strong program in conservation biology and genetic engineering.",
-        "*   **"
+        "Harvard University - Major center for de-extinction research",
+        "The Salk Institute - Home to major genome engineering work",
+        "The Smithsonian - Important fossil and genome research collections",
+        "Wellcome Sanger Institute - Major genome sequencing center",
+        "Frozen tundra regions - Relevant to mammoth biology and habitat questions"
       ],
       "years": [
-        "**",
-        "*   1953: James Watson and Francis Crick discover the structure of DNA.",
-        "*   1996: The first draft of the human genome is published.",
-        "*   2010: Scientists sequence the woolly mammoth genome for the first time.",
-        "*   2020: A team announces plans to revive the passenger pigeon through genetic engineering.",
-        "*   **"
+        "1990s - Ancient DNA methods improve rapidly",
+        "2000s - Cloning and genome editing mature",
+        "2010s - Mammoth de-extinction proposals gain attention",
+        "2020s - Conservation and proxy species strategies dominate the debate",
+        "2025 - Habitat restoration remains a major limitation"
       ],
       "concepts": [
-        "**",
-        "*   Genetic engineering: The use of biotechnology to manipulate an organism's genes.",
-        "*   DNA sequencing: The process of determining the order of nucleotides in a genome.",
-        "*   Somatic cell nuclear transfer (SCNT): A technique for creating cloned organisms using adult cells.",
-        "*   Genome editing: Tools like CRISPR/Cas9 that allow precise modifications to an organism's genes."
+        "De-extinction - Bringing back lost species or close proxies",
+        "Ancient DNA - Genetic material from extinct organisms",
+        "Proxy species - A living stand-in for an extinct species",
+        "Somatic cell nuclear transfer - Cloning method that moves a nucleus into an egg",
+        "Paleogenomics - Study of ancient genomes",
+        "Conservation genetics - Using genetics to support biodiversity"
       ]
     }
   }

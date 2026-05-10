@@ -1,12 +1,41 @@
 {
   "topic": "Mechanisms of Evolution",
   "title": "Understanding the Driving Force of Evolution: Mutations and Genetic Variation",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/DNA_double_helix.svg",
+  "imageCredit": {
+    "creator": "Biochemlife",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:DNA_double_helix.svg"
+  },
   "lesson": {
-    "learn": "Mutations are a fundamental process of DNA replication and repair that introduce genetic variation, thereby enabling the adaptation and evolution of species over time. Research suggests that every 10-20 generations, a mutation occurs that confers a selective advantage to an individual, increasing the likelihood of its survival and propagation in a population. For instance, the emergence of antibiotic-resistant bacteria is a direct result of genetic mutations that alter the target site of antibiotics, rendering them ineffective. Similarly, the evolution of the malaria parasite's chloroquine resistance is attributed to a single point mutation in its gene. Furthermore, studies have shown that mutations can occur at any point in the genome, affecting genes responsible for various traits, including eye color, skin tone, height, and disease resistance. The accumulation of mutations over generations is a critical component of the evolutionary process, driving the diversification of species and the emergence of new traits. By analyzing mutations, scientists can gain valuable insights into an organism's evolutionary history and understand its adaptability to changing environments. The discovery of CRISPR gene editing technology has not only enabled scientists to intentionally induce precise mutations in genes but has also opened up new possibilities for treating genetic disorders. Recent studies have estimated that 60-80 new mutations occur in the human genome during the first year of life, emphasizing the dynamic nature of genetic variation. In fact, research suggests that humans have around 3 million mutations in our genomes alone. Understanding the mechanisms behind mutation rates and their impact on evolution can provide essential insights into the adaptive processes that have shaped the history of life on Earth.",
-    "simpler": "Mutations can be likened to genetic 'typos' in an organism's blueprint. Just as a single typo can change the meaning of a sentence, a mutation can alter the expression of a gene, leading to changes in an organism's traits. For example, the development of blue eyes in some populations is attributed to a mutation in the OCA2 gene that controls melanin production. The study of mutations and genetic variation has shed light on the intricate relationship between genetic makeup and environmental pressures, highlighting the importance of understanding the adaptive processes that have driven the evolution of species.",
-    "keyTakeaway": "Mutations are a key driver of evolution, introducing genetic variation that allows populations to adapt and evolve over time. By analyzing the mechanisms behind mutations and their impact on organisms, scientists can appreciate the complexity and nuance of the evolutionary process.",
-    "deeperDive": "Studies have shown that mutations can be categorized into two main types: point mutations, which involve a single nucleotide change, and chromosomal mutations, which involve structural changes to the chromosome. Research has also identified that mutations can occur in different stages of the life cycle, including germ line and somatic cells. The discovery of CRISPR gene editing technology has enabled scientists to intentionally induce precise mutations in genes, opening up new possibilities for treating genetic disorders and understanding the mechanisms behind evolution. The study of mutation rates in different species has shed light on their evolutionary histories, revealing patterns of adaptation to changing environments. For instance, research has shown that the evolution of the HIV virus's resistance to antiretroviral therapy is driven by high mutation rates in the virus's genome. Similarly, the adaptation of the human immune system to different pathogens is thought to be driven by the accumulation of mutations in immune-related genes. By understanding the dynamics of mutation rates and their impact on evolution, scientists can gain valuable insights into the adaptive processes that have shaped the history of life on Earth. The study of mutation rates has also shed light on the evolutionary pressures that have driven the adaptation of species to changing environments. For example, research has shown that the adaptation of the polar bear's coat color to the Arctic environment is driven by mutations in the melanocortin 1 receptor gene. The study of mutation rates in different species has also revealed the importance of genetic variation in driving the evolution of species.",
-    "funFact": "Recent studies have shown that the human genome contains an average of 3-5 mutations per cell, emphasizing the dynamic nature of genetic variation. Research has also estimated that the rate of mutations in the human genome is about 100-200 times higher than the rate of genetic mutations in other organisms, highlighting the high degree of genetic diversity in humans.",
+    "learn": "Mutations create variation by changing the DNA sequence that cells pass on. Most changes are small, and many have no obvious effect, but some alter proteins, gene regulation, or the timing of development. Over long periods, those differences become raw material for evolution.\n\nThat is why mutation is not just damage. It is also one of the main sources of biological diversity.",
+    "simpler": "Mutations are small DNA changes. Some do nothing, some cause problems, and some create useful variation that evolution can act on.",
+    "keyTakeaway": "Mutation creates variation by introducing new genetic differences into populations.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Chromosome.svg",
+    "learnImageCredit": {
+      "creator": "Magnus Manske; upright version by Dietzel65; vector derivative by Tryphon",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Chromosome.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/DNA_double_helix_horizontal.png",
+    "thirdImageCredit": {
+      "creator": "Jerome Walker",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DNA_double_helix_horizontal.png"
+    },
+    "deeperDive": "Mutations can happen during DNA copying, from environmental damage, or through errors in repair. They may affect a single base, delete or add pieces of DNA, or rearrange larger chromosome segments. Germline mutations can be inherited, while somatic mutations stay in one body and can contribute to cancer or tissue mosaicism.\n\nNatural selection does not create the variation first; mutation does. Selection then filters which variants spread in a population. That combination is one of the main engines of biological change.",
+    "funFact": "Not every mutation is harmful; many simply become part of life’s genetic variety.",
+    "references": [
+      "Nature Education - mutation and variation",
+      "NCBI Bookshelf - DNA repair and mutation",
+      "Britannica - mutation"
+    ],
     "keyElements": {
       "people": [
         "â€¢ James Watson - Co-discoverer of DNA structure",

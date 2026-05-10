@@ -1,30 +1,68 @@
 {
-  "topic": "Why-Meteor-Showers-Happen-at-Specific-Times",
-  "title": "Understanding the Celestial Mechanics Behind Meteor Showers",
+  "topic": "Why Meteor Showers Happen at Specific Times",
+  "title": "How Earth Crosses Debris Trails to Create Predictable Sky Shows",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Perseid_meteor_shower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Jared Tennant",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Perseid_meteor_shower.jpg"
+  },
   "lesson": {
-    "learn": "Meteor showers are spectacular astronomical events where numerous meteors streak across the night sky within a short period. The timing of these events is determined by the Earth's elliptical orbit and its interaction with debris left behind by comets or asteroids. Specifically, the Earth is most likely to encounter high-speed debris as it approaches aphelion, its farthest point from the sun. This phenomenon occurs due to the planet's orbital path, which intersects with trails of debris that comets and asteroids have left in their wake. Astronomers use mathematical models and observations to predict when and where meteor showers will occur, taking into account the Earth's orbit and the speed and trajectory of incoming debris. For instance, the Perseid meteor shower occurs every year in mid-August due to the Earth passing through the debris trail of the Swift-Tuttle comet, which produces up to 60 meteors per hour. The Geminid meteor shower, on the other hand, is caused by the Earth's encounter with a fragment of the asteroid 3200 Phaethon, resulting in rates of up to 120 meteors per hour.",
-    "simpler": "Envision a cosmic 'leaf storm', where millions of tiny particles from space fall onto our planet, creating a spectacular display of bright streaks in the sky. Just as the Earth's orbit influences the timing of meteor showers, a river's course determines the timing of its tributaries. Meteor showers occur when our planet intersects with trails of debris left behind by comets or asteroids, which burn up in the atmosphere, producing the bright streaks we see as meteors.",
-    "keyTakeaway": "The timing of meteor showers is influenced by the Earth's elliptical orbit and its interaction with debris left behind by comets or asteroids. Astronomers use mathematical models and observations to predict when and where these events will occur, taking into account the Earth's orbit and the speed and trajectory of incoming debris.",
-    "deeperDive": "One of the most famous meteor showers is the Perseid meteor shower, which occurs every year in mid-August due to the Earth's passage through the debris trail of the Swift-Tuttle comet. The Swift-Tuttle comet was first discovered by Italian astronomer Giovanni Schiaparelli in 1865 and has been studied extensively since then. As the Earth encounters this debris trail, it produces up to 60 meteors per hour, creating the spectacular display we see in the night sky. Conversely, the Geminid meteor shower is caused by the Earth's encounter with a fragment of the asteroid 3200 Phaethon, resulting in rates of up to 120 meteors per hour. Recent research has revealed that asteroid trails can exceed 1,000 kilometers in length, increasing the likelihood of meteor showers occurring at specific times. This phenomenon is a testament to the immense scale and complexity of the Earth's orbit and its interaction with cosmic debris.",
-    "funFact": "Meteor showers are not always visible â€“ it takes a relatively thin atmosphere and an optimal viewing location for us to witness these spectacular events. Some areas with less light pollution offer better chances of witnessing meteor showers in their full glory, such as the remote areas of Hawaii, like Mauna Kea, which is home to some of the world's most advanced astronomical observatories.",
+    "learn": "Meteor showers happen when Earth passes through a stream of dust and rock left behind by a comet or asteroid. Those tiny particles enter the atmosphere at high speed and burn up as bright streaks of light. Because Earth follows the same orbit every year, the timing of a given shower is usually predictable. The show is not random at all; it is a scheduled encounter with debris that Earth crosses again and again.",
+    "simpler": "Meteor showers happen when Earth flies through dusty leftovers from a comet or asteroid. The particles burn up and make bright streaks in the sky.",
+    "keyTakeaway": "Meteor showers are predictable because Earth keeps crossing the same debris trails at the same point in its orbit each year.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/The_radiant_point_for_the_Perseid_meteor_shower.svg/1280px-The_radiant_point_for_the_Perseid_meteor_shower.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "learnImageCredit": {
+      "creator": "Sanu N",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_radiant_point_for_the_Perseid_meteor_shower.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Perseid_Meteor_Shower_%28NHQ202108110005%29.jpg/1280px-Perseid_Meteor_Shower_%28NHQ202108110005%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "thirdImageCredit": {
+      "creator": "NASA/Joel Kowsky",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Perseid_Meteor_Shower_(NHQ202108110005).jpg"
+    },
+    "deeperDive": "A meteor shower has three linked parts: the parent body, the debris stream, and Earth's orbit. Comets shed dust as they heat up near the Sun, and that dust spreads into a long trail that stays near the comet's path. When Earth intersects that trail, the incoming particles hit the atmosphere at tens of kilometers per second and ionize the air as they burn. The point on the sky where the meteors seem to originate is called the radiant, which is why showers are named for the constellation they appear to radiate from. Meteor shower dates are therefore tied to orbital mechanics, not to weather or chance.",
+    "funFact": "The bright streak is only the visible part of the event; the particle itself is usually no bigger than a grain of sand.",
+    "references": [
+      "NASA meteor shower guides",
+      "International Meteor Organization",
+      "Earth orbit and debris-stream modeling papers",
+      "Astronomy education resources on radiants and parent bodies"
+    ],
     "keyElements": {
       "people": [
-        "** Giovanni Schiaparelli (Italian astronomer who first described the Perseid shower), Clyde Tombaugh (discovered Pluto, which later revealed the existence of a massive asteroid belt), Halley's Comet (named after Edmond Halley, an English astronomer who predicted its return in 1758)",
-        "* **"
+        "Giovanni Schiaparelli - linked showers to comet debris",
+        "Meteor stream researchers - orbit and radiant analysts",
+        "NASA skywatch teams - public meteor guidance",
+        "Amateur astronomers - long-term shower observers"
       ],
       "places": [
-        "** Mauna Kea Observatory (a world-renowned astronomical site with excellent views for meteor shower observation), Perseid Meteor Shower (visible worldwide), Orion Nebula (located near the constellation of Orion and a rich source of interstellar gas and dust)",
-        "* **"
+        "Earth's orbit - the path that intersects debris streams",
+        "The atmosphere - where meteors burn up",
+        "The radiant point - apparent source of the shower",
+        "Dark-sky observing sites - best viewing locations"
       ],
       "years": [
-        "**",
-        "+ 1066 AD: Halley's Comet closest approach to Earth",
-        "+ 1911: Giovanni Schiaparelli discovers the first meteor shower prediction system",
-        "+ 1995: The Geminid meteor shower is linked to a specific asteroid fragment",
-        "* **"
+        "1860s - meteor stream ideas take shape",
+        "Late 1800s - showers linked to comets",
+        "2010s - better shower forecasting and imaging",
+        "2020s - meteor shower monitoring becomes widely shared"
       ],
       "concepts": [
-        "** Meteoroids (small particles that burn up in our atmosphere), Meteorites (space rocks that land on Earth's surface), Comets (icy celestial bodies with long tails of gas and dust)"
+        "Meteoroid",
+        "Meteor",
+        "Meteor shower",
+        "Radiant",
+        "Debris trail",
+        "Orbital intersection"
       ]
     }
   }

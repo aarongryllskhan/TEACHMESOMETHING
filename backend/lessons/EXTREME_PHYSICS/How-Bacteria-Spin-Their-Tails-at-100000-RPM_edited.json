@@ -1,0 +1,67 @@
+{
+  "topic": "Bacterial Flagella",
+  "title": "How Bacteria Spin Their Tails at Incredible Speed",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Physical_model_of_a_bacterial_flagellum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Alan Wolf",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Physical_model_of_a_bacterial_flagellum.jpg"
+  },
+  "lesson": {
+    "learn": "Bacteria do not have tails in the animal sense, but many have flagella - tiny rotary structures that act like propellers. These molecular motors can spin incredibly fast and let bacteria swim through liquid with surprising efficiency. The result is motion at a scale where friction dominates and every design detail matters.\n\nWhat looks simple is actually a highly engineered biological machine. Bacteria are tiny, but their motors are anything but crude.",
+    "simpler": "Bacteria swim using tiny spinning structures called flagella. These motors help them move through liquids very quickly.",
+    "keyTakeaway": "Bacterial flagella are molecular machines that turn chemical energy into rotation and movement.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/8/85/Flagellar_Motor_Assembly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "PKS615",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Flagellar_Motor_Assembly.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Difference_Between_Prokaryote_and_Eukaryote_Flagella.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Mgaetani",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Difference_Between_Prokaryote_and_Eukaryote_Flagella.svg"
+    },
+    "deeperDive": "The flagellar motor is powered by ion gradients and assembled from many specialized proteins. Different bacteria use slightly different versions, but the basic idea is the same: build a rotary machine small enough to work at the scale of a cell. Because bacteria live in fluid environments, the ability to move toward food or away from danger can make a huge difference in survival.\n\nThe broader lesson is that biology can build mechanisms that look like engineering. A bacterial flagellum is one of the strongest reminders that evolution does not only produce shapes. It also produces machines.",
+    "funFact": "Some bacteria can reverse the spin of their flagella.",
+    "references": [
+      "Britannica - flagellum",
+      "Nature Education - bacterial motility",
+      "ASM - microbial locomotion"
+    ],
+    "keyElements": {
+      "people": [
+        "Microbiologists - scientists who study bacteria",
+        "Cell biologists - researchers of molecular machines",
+        "Biophysicists - people who analyze motion at tiny scales",
+        "Medical researchers - experts who care about bacterial movement"
+      ],
+      "places": [
+        "Laboratories - where bacterial motion is studied",
+        "Body tissues - where some bacteria move during infection",
+        "Water and soil - common bacterial environments",
+        "Microscope slides - where flagella are observed"
+      ],
+      "years": [
+        "19th century - bacterial motion is described",
+        "20th century - flagellar structure is investigated",
+        "21st century - molecular motor models become precise",
+        "Present day - the flagellum remains a major research topic"
+      ],
+      "concepts": [
+        "Flagellum - a motion structure used by many bacteria",
+        "Molecular motor - a protein machine that produces movement",
+        "Ion gradient - the energy source that powers rotation",
+        "Prokaryote - a cell without a nucleus",
+        "Chemotaxis - movement in response to chemical signals"
+      ]
+    }
+  }
+}

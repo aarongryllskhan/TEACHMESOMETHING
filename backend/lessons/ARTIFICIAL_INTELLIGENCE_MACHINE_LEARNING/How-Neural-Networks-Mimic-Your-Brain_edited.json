@@ -1,43 +1,75 @@
 {
   "topic": "How Neural Networks Mimic the Human Brain",
-  "title": "Understanding the Architecture of Neural Networks: A Step-by-Step Explanation",
+  "title": "Exploring Why Neural Networks Are Inspired by Biology but Work Very Differently in Practice",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Example_of_a_neuron.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "BrunelloN",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Example_of_a_neuron.png"
+  },
   "lesson": {
-    "learn": "Neural networks are a branch of artificial intelligence inspired by the structure of the human brain. They consist of interconnected layers of nodes (often called 'neurons') that process information in stages, passing signals forward while adjusting internal connections based on feedback. The foundational idea dates back to the 1940s, when Warren McCulloch and Walter Pitts proposed a mathematical model of neurons that could perform logical operations. Later developments, including the perceptron by Frank Rosenblatt in 1958, showed that such systems could learn from data. Modern neural networks scale this idea dramatically, using many layers and large datasets to learn complex patterns. While not biologically identical to the brain, they are loosely inspired by its networked structure and adaptive learning behavior.",
-    "simpler": "Neural networks are computer systems that learn in a way that is inspired by the human brain. They are made of many small units called neurons that pass information to each other. Over time, the system learns from mistakes and improves, just like how humans learn from experience.",
-    "keyTakeaway": "Neural networks work by layering simple processing units that learn from data, allowing machines to improve performance over time and solve complex problems like vision, language, and decision-making.",
-    "deeperDive": "A neural network is typically organized into an input layer, one or more hidden layers, and an output layer. Each connection between neurons has a weight that determines how strongly signals are passed. During training, the network makes predictions, compares them to the correct answers, and adjusts these weights using backpropagation to reduce error. This process is repeated across large datasets, enabling the system to gradually improve. Breakthroughs such as convolutional neural networks (CNNs) revolutionized image processing by recognizing spatial patterns, while recurrent neural networks (RNNs) and later transformers improved sequence understanding for language tasks. Influential researchers like Geoffrey Hinton, Yann LeCun, and Yoshua Bengio helped establish deep learning as a dominant approach in AI. Today, neural networks power technologies ranging from medical imaging systems to speech recognition and autonomous vehicles.",
-    "funFact": "The term 'deep learning' became popular only in the 2000s, even though the core idea of neural networks dates back more than 70 years. Early models were so limited that they could only solve very simple problems compared to today’s systems.",
+    "learn": "Neural networks are computer systems inspired by the way biological neurons pass signals through connected layers of cells. That inspiration is real, but it is also limited: a neural network does not think, feel, or function like a human brain. Instead, it turns inputs into outputs by adjusting numerical weights across many simple processing units. The basic idea dates back to the 1940s, when Warren McCulloch and Walter Pitts proposed a mathematical model of a neuron. Later, Frank Rosenblatt's perceptron showed that a machine could learn from examples rather than rely only on fixed instructions.\n\nModern neural networks expand that concept into large layered systems that can detect patterns in data such as images, speech, text, and sensor readings. During training, the network makes a prediction, compares it with the correct answer, and uses the error to adjust its internal weights. Repeated over millions of examples, this process helps the model learn useful statistical relationships. The result can look a little like intuition from the outside, even though it is really pattern recognition at scale.\n\nThis is why neural networks are often described as brain-inspired rather than brain-equivalent. They borrow the broad idea of many connected units working together, but they are built from mathematics, optimization, and data. Their power comes not from copying the brain exactly, but from simplifying one useful principle of the brain and applying it to computation.",
+    "simpler": "Neural networks are computer systems inspired by the brain. They use many connected units to learn patterns from examples. They are not real brains, but they can become very good at tasks like recognizing images, understanding speech, and finding patterns in data.",
+    "keyTakeaway": "Neural networks mimic one key idea from the brain, many connected units working together, and turn it into a mathematical system that learns from data instead of following only fixed rules.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Artificial_neural_network.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Geetika saini",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Artificial_neural_network.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_Brain.png",
+    "thirdImageCredit": {
+      "creator": "Injurymap",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Human_Brain.png"
+    },
+    "deeperDive": "A neural network usually has three broad parts: an input layer, one or more hidden layers, and an output layer. Each connection between units has a weight, which acts like a knob controlling how strongly information flows forward. The hidden layers transform the raw input into more useful internal representations. Early layers might detect edges or simple shapes in an image, while deeper layers may recognize complex structures such as faces, handwriting, or objects.\n\nTraining depends on backpropagation, the process of sending error information backward through the network so the weights can be updated. An optimizer then nudges those weights in the direction that reduces error. This is how the model gradually improves. Activation functions add nonlinearity, which is essential because real problems are rarely solved by straight-line rules. Without nonlinearity, a deep model would collapse into something much simpler and far less powerful.\n\nDifferent architectures specialize in different kinds of data. Convolutional neural networks are especially useful for images because they exploit local spatial patterns. Recurrent networks were designed for sequences such as language and time series, though transformers later became more effective for many sequence tasks. As researchers built larger datasets, better training methods, and more powerful hardware, neural networks moved from research curiosities to core infrastructure. Today they support medical imaging, speech recognition, recommendation systems, translation, autonomous systems, and scientific analysis. The important lesson is that the brain analogy is a starting point, not the whole story: neural networks are inspired by biology, but their strength comes from computation, scale, and learning from data.",
+    "funFact": "The word neuron appears everywhere in AI, but most artificial neurons are mathematically tiny compared with biological ones. A modern network can contain millions or billions of these simple units, each doing only a small amount of work.",
+    "references": [
+      "Stanford Encyclopedia of Philosophy and foundational AI history resources on neural networks and perceptrons.",
+      "Nature and academic review articles on backpropagation, deep learning, and representation learning.",
+      "Stanford CS231n and similar course materials on convolutional neural networks and practical training.",
+      "MIT and university machine learning notes on optimization, activations, and neural network architectures.",
+      "Wikimedia Commons — Image metadata, licensing, creator, source, and file-page verification."
+    ],
     "keyElements": {
       "people": [
-        "Warren McCulloch – Co-creator of the first mathematical model of a neural network",
-        "Walter Pitts – Early researcher who helped formalize artificial neuron theory",
-        "Frank Rosenblatt – Inventor of the perceptron, an early learning neural network",
-        "Geoffrey Hinton – Pioneer of deep learning and backpropagation-based training",
-        "Yann LeCun – Developer of convolutional neural networks (CNNs)",
-        "Yoshua Bengio – Key researcher in deep learning and neural network optimization",
-        "Andrew Ng – AI researcher known for popularizing machine learning education"
+        "Warren McCulloch - Co-creator of the first formal mathematical model of a neuron",
+        "Walter Pitts - Early researcher who helped define artificial neuron logic",
+        "Frank Rosenblatt - Inventor of the perceptron, one of the first learning neural networks",
+        "Geoffrey Hinton - Pioneer of deep learning and modern neural network training",
+        "Yann LeCun - Key contributor to convolutional neural networks and computer vision",
+        "Yoshua Bengio - Major researcher in deep learning and representation learning",
+        "Andrew Ng - AI educator who helped make machine learning more accessible"
       ],
       "places": [
-        "MIT Artificial Intelligence Laboratory – Early center of AI and neural network research",
-        "Stanford Artificial Intelligence Lab – Major hub for machine learning innovation",
-        "Carnegie Mellon University Robotics Institute – Leading institution in AI and robotics",
-        "DeepMind (London, UK) – Research lab behind major deep learning breakthroughs",
-        "University of Toronto – Important center for deep learning research, especially backpropagation advances"
+        "MIT Artificial Intelligence Laboratory - Early center of neural network research",
+        "Stanford Artificial Intelligence Laboratory - Major hub for machine learning and AI",
+        "University of Toronto - Important center for deep learning research",
+        "Carnegie Mellon University - Leading institution in AI and robotics",
+        "DeepMind, London - Research lab behind major modern neural network breakthroughs"
       ],
       "years": [
-        "1943 – McCulloch and Pitts publish the first formal model of a neural network",
-        "1958 – Frank Rosenblatt develops the perceptron",
-        "1980s – Renewed interest in neural networks with improved computing power",
-        "2012 – AlexNet wins ImageNet, triggering the deep learning revolution",
-        "2020 – Neural networks achieve major advances in speech and language generation"
+        "1943 - McCulloch and Pitts publish an early mathematical model of a neuron",
+        "1958 - Frank Rosenblatt develops the perceptron",
+        "1980s - Neural network research revives with better training methods and computing power",
+        "2012 - AlexNet helps trigger the deep learning boom",
+        "2020s - Neural networks become central to vision, language, and multimodal AI"
       ],
       "concepts": [
-        "Neural network architecture – The layered structure of input, hidden, and output layers",
-        "Backpropagation – Algorithm used to adjust weights based on prediction errors",
-        "Activation functions – Mathematical functions that introduce non-linearity",
-        "Convolutional Neural Networks (CNNs) – Networks designed for image processing",
-        "Recurrent Neural Networks (RNNs) – Networks designed for sequential data like language",
-        "Transfer learning – Reusing a trained model for a new but related task"
+        "Neural network architecture - The layered structure of input, hidden, and output layers",
+        "Weights - Numerical values that control how strongly signals are transmitted",
+        "Backpropagation - The method used to adjust weights based on prediction error",
+        "Activation functions - Nonlinear functions that let networks learn complex patterns",
+        "Convolutional Neural Networks (CNNs) - Models designed for image and spatial data",
+        "Transfer learning - Reusing a trained model for a related new task",
+        "Representation learning - Learning useful internal features from raw data"
       ]
     }
   }

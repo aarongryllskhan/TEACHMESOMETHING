@@ -1,42 +1,76 @@
 {
   "topic": "The Psychology Behind Abstract Art",
   "title": "Understanding How Abstract Art Shapes Perception and Cognition",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20150208135519",
+  "imageCredit": {
+    "creator": "Wassily Kandinsky",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1913_-_Composition_7.jpg"
+  },
   "lesson": {
-    "learn": "Abstract art emerged prominently in the early 20th century (roughly 1910–1920) as artists moved away from realistic representation toward color, form, and gesture as primary means of expression. Artists such as Wassily Kandinsky, Kazimir Malevich, and Piet Mondrian rejected traditional perspective and instead explored how non-representational shapes could evoke emotion and meaning. From a psychological perspective, abstract art often creates ambiguity, requiring the viewer to actively interpret what they see. This interpretive effort can produce cognitive tension, as described by Leon Festinger’s theory of cognitive dissonance (1957), when expectations about recognizable forms do not match the visual input. In neuroscience, ambiguous or novel visual stimuli are associated with increased engagement of brain networks involved in introspection and meaning-making, including the default mode network, which becomes active during reflective thought and mind-wandering. Together, these mechanisms help explain why abstract art can feel both compelling and unsettling.",
-    "simpler": "Abstract art removes clear real-world objects and replaces them with shapes, colors, and patterns. Because the viewer cannot immediately recognize what they are seeing, the brain tries to make sense of it by searching for meaning. This process can feel confusing at first, but it also encourages imagination and personal interpretation, similar to listening to instrumental music without lyrics.",
-    "keyTakeaway": "Abstract art influences perception by removing familiar visual cues, forcing the brain to actively interpret meaning. This engages cognitive processes related to prediction, memory, and introspection, making the experience highly personal and emotionally variable between viewers.",
-    "deeperDive": "Abstract art’s psychological impact is closely tied to how the brain processes uncertainty and pattern recognition. Gestalt psychology explains that humans naturally try to organize visual input into coherent wholes, even when information is incomplete. Abstract expressionist artists such as Jackson Pollock and Mark Rothko exploited this tendency by creating works that resist simple interpretation, encouraging prolonged viewing and emotional projection. In the early 20th century, avant-garde movements such as Cubism and Suprematism further disrupted traditional representation by breaking objects into fragmented forms or reducing them to basic geometry. Neuroscientific research on visual perception suggests that ambiguous stimuli can increase activity in brain networks involved in internal thought and interpretation, particularly when viewers attempt to assign meaning without clear reference points. This makes abstract art not just a visual experience, but a cognitive one—engaging memory, emotion, and imagination simultaneously.",
-    "funFact": "Some studies in visual cognition suggest that exposure to abstract patterns and ambiguous images can temporarily enhance creative thinking by encouraging the brain to form more flexible associations between ideas.",
+    "learn": "Abstract art emerged prominently in the early 20th century as artists increasingly moved away from realistic representation and toward color, geometry, gesture, and composition as primary tools of meaning. Pioneers such as Wassily Kandinsky, Kazimir Malevich, and Piet Mondrian believed that art did not need to depict recognizable objects to communicate emotion, spirituality, or intellectual ideas. Instead, abstract forms could operate psychologically, much like music, by directly influencing perception and feeling. This represented a radical shift in visual culture: rather than recognizing familiar scenes, viewers were confronted with ambiguity and uncertainty. Because the human brain naturally seeks patterns and coherence, abstract art often activates deeper interpretive processes as viewers attempt to construct meaning from incomplete or unfamiliar stimuli. Psychological theories such as Gestalt principles suggest that the mind instinctively organizes fragmented visual input into perceived wholes, while later concepts like Leon Festinger’s cognitive dissonance explain the tension people may feel when expectations of recognizable imagery are disrupted. This makes abstract art uniquely capable of provoking introspection, imagination, and emotional variability.",
+    "simpler": "Abstract art uses shapes, colors, and patterns instead of clear real-world images. Because the brain cannot instantly identify what it sees, it works harder to interpret meaning, making the experience more personal, imaginative, and sometimes emotionally intense.",
+    "keyTakeaway": "Abstract art changes perception by removing familiar visual references, forcing the brain to actively create meaning through pattern recognition, emotion, and memory.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/57/Malevich.black-square.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20060114093208",
+    "learnImageCredit": {
+      "creator": "Kazimir Malevich",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Kasimir_Malevich,_Black_Square,_1915.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Wassily%20Kandinsky%20Composition%20VIII.jpg",
+    "thirdImageCredit": {
+      "creator": "Wassily Kandinsky",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_Composition_VIII.jpg"
+    },
+    "deeperDive": "The cognitive and psychological effects of abstract art are deeply connected to how the brain processes ambiguity, prediction, and symbolic association. Gestalt psychology explains that humans naturally search for structure, continuity, and meaningful organization even when visual information is fragmented or minimal. Abstract artists intentionally manipulated this tendency. Kandinsky associated colors and forms with emotional and spiritual resonance, often comparing painting to symphonic composition. Mondrian’s grid-based abstraction pursued universal harmony through mathematical balance, while Malevich’s Suprematism reduced visual language to geometric essentials, arguing that pure feeling could exist beyond representational imagery. His 'Black Square' (1915) became one of the most radical statements in art history, stripping away recognizable form almost entirely. Later movements such as Abstract Expressionism expanded this psychological engagement through scale, gesture, and immersion. Neuroscientific studies on ambiguous visual stimuli suggest that when clear external references are absent, the brain increasingly recruits systems involved in introspection, autobiographical memory, and the default mode network—regions associated with self-reflection and internal narrative. This means abstract art often becomes a mirror for the viewer’s own cognitive and emotional state. Different viewers may interpret identical works in dramatically different ways because meaning is not fixed by depiction, but co-created by perception. This interpretive openness is one reason abstract art can simultaneously inspire creativity, confusion, discomfort, or profound emotional response.",
+    "funFact": "Kazimir Malevich’s 'Black Square' was so radical in 1915 that some viewers saw it not as a painting, but as a philosophical challenge to the very definition of art itself.",
+    "references": [
+      "Museum of Modern Art (MoMA) — Abstract art history and psychological interpretation.",
+      "Encyclopaedia Britannica — Kandinsky, Malevich, Mondrian, and abstraction.",
+      "American Psychological Association — Gestalt psychology and visual perception.",
+      "Leon Festinger (1957) — Cognitive dissonance theory.",
+      "Tate Modern — Suprematism, abstraction, and modernist theory.",
+      "Neuroscientific studies on visual ambiguity, pattern recognition, and default mode network activity."
+    ],
     "keyElements": {
       "people": [
-        "Leon Festinger - psychologist known for cognitive dissonance theory (1957)",
-        "Wassily Kandinsky - early abstract painter who explored emotion through color and form",
-        "Piet Mondrian - artist known for geometric abstraction using grids and primary colors",
-        "Kazimir Malevich - founder of Suprematism, emphasizing basic geometric forms",
-        "Jackson Pollock - abstract expressionist known for drip painting techniques",
-        "Mark Rothko - painter known for large color-field compositions evoking emotion"
+        "Wassily Kandinsky — Pioneer of emotionally expressive abstraction",
+        "Kazimir Malevich — Founder of Suprematism",
+        "Piet Mondrian — Geometric abstraction innovator",
+        "Leon Festinger — Psychologist known for cognitive dissonance theory",
+        "Jackson Pollock — Abstract Expressionist expanding psychological engagement",
+        "Mark Rothko — Color-field painter exploring emotional immersion"
       ],
       "places": [
-        "Paris, France - early hub of modernist and avant-garde artistic experimentation",
-        "New York City, USA - center of Abstract Expressionism in the mid-20th century",
-        "Amsterdam, Netherlands - home of the De Stijl movement led by Mondrian",
-        "Moscow, Russia - early center of Suprematism and geometric abstraction",
-        "Bauhaus School, Germany - influential design movement integrating art, psychology, and structure"
+        "Paris, France — Early center of avant-garde experimentation",
+        "Moscow, Russia — Development of Suprematism",
+        "Amsterdam, Netherlands — Mondrian and De Stijl movement",
+        "Bauhaus, Germany — Integration of abstraction and design theory",
+        "New York City, USA — Center of Abstract Expressionism"
       ],
       "years": [
-        "1910–1920 - emergence of early abstract art movements in Europe",
-        "1915 - Malevich develops Suprematism, emphasizing pure geometric form",
-        "1920s - Bauhaus movement integrates abstraction into design and architecture",
-        "1957 - Leon Festinger publishes cognitive dissonance theory",
-        "1940s–1950s - rise of Abstract Expressionism in the United States"
+        "1910s — Emergence of major abstract art movements",
+        "1913 — Kandinsky’s major compositional abstractions",
+        "1915 — Malevich introduces 'Black Square' and Suprematism",
+        "1920s — Bauhaus expands abstraction into design",
+        "1940s–1950s — Abstract Expressionism transforms modern art",
+        "1957 — Festinger publishes cognitive dissonance theory"
       ],
       "concepts": [
-        "Cognitive dissonance - mental discomfort caused by conflicting expectations and perceptions",
-        "Default mode network - brain network active during introspection and self-referential thought",
-        "Gestalt principles - psychological rules describing how humans organize visual information",
-        "Non-representational art - art that does not depict recognizable objects or scenes",
-        "Visual ambiguity - lack of clear meaning in visual stimuli, requiring interpretation",
-        "Perceptual inference - the brain’s process of constructing meaning from incomplete sensory input"
+        "Gestalt principles — Psychological organization of visual information",
+        "Cognitive dissonance — Mental tension from disrupted expectation",
+        "Visual ambiguity — Unclear stimuli requiring interpretation",
+        "Suprematism — Geometric abstraction emphasizing pure feeling",
+        "Non-representational art — Art without direct depiction",
+        "Default mode network — Brain system linked to introspection",
+        "Perceptual inference — Brain’s construction of meaning from incomplete input"
       ]
     }
   }

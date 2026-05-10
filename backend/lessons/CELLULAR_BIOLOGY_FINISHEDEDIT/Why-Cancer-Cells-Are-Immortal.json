@@ -1,46 +1,41 @@
 {
   "topic": "Regulation of Cell Proliferation and Senescence in Cancer",
   "title": "Molecular Mechanisms Underlying Cancer Cell Immortality: The Interplay of TP53 Mutations and Telomerase Activity",
-  "lesson": {
-    "learn": "Cancer cells exhibit distinct genetic and epigenetic profiles, characterized by TP53 gene mutations, increased telomerase activity, and epigenetic alterations. Specifically, telomerase activity is elevated 10- to 20-fold in most human cancers (Blomberg and Worpenberg, 2000). This leads to continuous telomere lengthening, bypassing the Hayflick limit of approximately 50-70 cell divisions (Hayflick and Moorhead, 1961). Furthermore, TP53 mutations, such as the R248W mutation, abolish p53-mediated DNA damage response, enabling uncontrolled cell proliferation (Li and Carmeliet, 2017).",
-    "simpler": "Cancer cells evade programmed cell death and senescence through TP53 inactivation, telomerase overexpression, and epigenetic silencing of tumor suppressor genes. Telomerase activity enables continuous telomere lengthening, while TP53 mutations disrupt DNA damage response and cell cycle regulation.",
-    "keyTakeaway": "The intricate interplay between TP53 mutations, telomerase activity, and epigenetic changes is crucial for cancer cell immortality. Understanding these molecular mechanisms is essential for developing targeted therapies to combat cancer.",
-    "deeperDive": "The TP53 protein, a tumor suppressor, regulates cell division and prevents cancer growth through its roles in DNA repair, cell cycle arrest, and apoptosis. TP53 mutations lead to loss-of-function in the p53 protein, abolishing its ability to regulate cellular processes. Consequently, cancer cells with TP53 mutations exhibit uncontrolled proliferation and tumor development. Telomerase activity, which is normally repressed in somatic cells, is elevated in cancer cells, allowing for continuous telomere lengthening through the addition of 5-10 nucleotides to the telomere repeat (Blomberg and Worpenberg, 2000). Epigenetic changes, including DNA methylation and histone modifications, silence tumor suppressor genes, facilitating cancer cell survival and resistance to programmed cell death.",
-    "funFact": "Cancer cells hijack cellular machinery for repairing DNA damage, exploiting pathways to promote their own survival. For instance, certain types of leukemia exploit the BRCA2 gene to promote their survival (Gudmundsson et al., 2011)."
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Telomerase.png",
+  "imageCredit": {
+    "creator": "Boumphreyfr",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Telomerase.png"
   },
-  "keyElements": {
-    "people": [
-      "Emil Grubbe",
-      "Theodor Boveri",
-      "Hermann Josef Muller",
-      "James Allison",
-      "Tasuko Honjo",
-      "Barbara McClintock",
-      "J. Michael Bishop",
-      "Harold Varmus",
-      "Bert Vogelstein",
-      "James Allison"
+  "lesson": {
+    "learn": "Cancer cells survive by breaking the normal limits on division. Many of them reactivate telomerase, which helps maintain telomeres and lets the cell keep copying itself for far longer than a healthy cell should. They also weaken the usual brake systems that would send damaged cells into senescence or apoptosis.\n\nThat is why cancer is not just uncontrolled growth. It is also a problem of survival, repair avoidance, and escape from the safety checks that normally protect the body.",
+    "simpler": "Cancer cells keep dividing because they dodge the body’s stop signals. They often repair their telomeres and ignore the usual shutdown rules.",
+    "keyTakeaway": "Cancer cell immortality comes from bypassing the normal limits that stop healthy cells from dividing forever.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cellular_senescence.png",
+    "learnImageCredit": {
+      "creator": "Velichko Artem",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cellular_senescence.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Apoptosis.png",
+    "thirdImageCredit": {
+      "creator": "Emma Farmer",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Apoptosis.png"
+    },
+    "deeperDive": "Healthy cells use checkpoints to detect damage, stop the cycle, and sometimes self-destruct. Cancer cells rewrite that logic. Mutations can disable tumor suppressors, telomerase can keep chromosome ends from shortening, and survival signals can override the pathways that normally end a damaged cell’s life.\n\nThe result is dangerous adaptability. A tumor is not one identical cell repeated forever; it is a shifting population of cells that continue to evolve inside the body. That is one reason treatment is so difficult and why therapies often have to combine surgery, radiation, chemotherapy, and targeted drugs.",
+    "funFact": "Some cancer cells stay alive by turning on telomerase, an enzyme most normal cells keep quiet.",
+    "references": [
+      "NCI - hallmarks of cancer",
+      "NCBI Bookshelf - telomeres, senescence, and apoptosis",
+      "Britannica - cancer biology"
     ],
-    "places": [
-      "The Ludwig Cancer Research Institute",
-      "The Cold Spring Harbor Laboratory",
-      "The Francis Crick Institute",
-      "The National Institutes of Health",
-      "The University of California, Berkeley"
-    ],
-    "years": [
-      "1909: Emil Grubbe publishes the first description of a tumor in an animal",
-      "1911: Theodor Boveri shows that chromosomes are involved in cancer development",
-      "1950s: Hermann Josef Muller introduces the concept of genetic mutagenesis in cancer research",
-      "1984: James Allison and Tasuko Honjo discover CTLA-4, a protein that regulates T-cell activation",
-      "1961: Hayflick and Moorhead estimate the Hayflick limit to be approximately 50-70 cell divisions"
-    ],
-    "concepts": [
-      "Cellular senescence: a state of dormancy or programmed cell death in response to DNA damage (Campisi, 2005)",
-      "Apopotosis: a form of programmed cell death in response to DNA damage or other cellular stressors",
-      "Telomeres: protective caps on chromosome ends that shorten with each cell division (Blomberg and Worpenberg, 2000)",
-      "Epigenetic changes: modifications to gene expression that do not alter the underlying DNA sequence",
-      "Tumor suppressor genes: genes that regulate cell growth and prevent cancer development (Li and Carmeliet, 2017)"
-    ]
+    "keyElements": {}
   }
 }

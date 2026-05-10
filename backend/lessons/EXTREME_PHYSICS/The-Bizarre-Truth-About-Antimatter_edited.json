@@ -1,0 +1,67 @@
+{
+  "topic": "Antimatter",
+  "title": "Why Antimatter Exists and Why It Is So Hard to Keep",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Antimatter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "National Institute of Standards and Technology/emiT Team",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Antimatter.jpg"
+  },
+  "lesson": {
+    "learn": "Antimatter is real matter with opposite charge and certain other properties. Every particle of ordinary matter has an antimatter counterpart, and when the two meet, they can annihilate into energy. That sounds dramatic because it is. It also explains why antimatter is hard to store: it disappears when it touches normal matter.\n\nScientists care about antimatter because the universe should have produced nearly equal amounts of matter and antimatter. The fact that we live in a matter-dominated universe is one of modern physics' biggest puzzles.",
+    "simpler": "Antimatter is like matter's opposite. When matter and antimatter touch, they can destroy each other and release energy.",
+    "keyTakeaway": "Antimatter is both familiar and strange: it follows physics rules, but it vanishes when it meets ordinary matter.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/ALPHA-Experiment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "SimonWaldherr",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ALPHA-Experiment.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/5/5a/PositronDiscovery.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Carl D. Anderson (1905–1991)",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:PositronDiscovery.png"
+    },
+    "deeperDive": "The challenge is not only that antimatter annihilates on contact. It is also expensive and difficult to produce in useful quantities. Facilities like CERN use magnetic traps and specialized experiments to study it carefully. That work helps physicists test whether antimatter behaves exactly like matter in every respect or whether tiny differences might explain the universe's imbalance.\n\nAntimatter is one of those topics where the weirdness is not a bug. It is a clue. The universe is telling us that the story is incomplete.",
+    "funFact": "Your body produces tiny amounts of antimatter during some radioactive decays.",
+    "references": [
+      "CERN - antimatter",
+      "Britannica - antimatter",
+      "NIST - positron and matter-antimatter research"
+    ],
+    "keyElements": {
+      "people": [
+        "Particle physicists - scientists who study antimatter",
+        "CERN researchers - teams that trap and test it",
+        "NIST scientists - researchers who measure particle behavior",
+        "Theoretical physicists - people trying to explain the imbalance"
+      ],
+      "places": [
+        "CERN - a major antimatter research site",
+        "Particle accelerator labs - where antimatter is produced",
+        "Magnetic traps - places where antimatter is stored",
+        "Physics institutes - centers for antimatter studies"
+      ],
+      "years": [
+        "1932 - the positron is discovered",
+        "1950s - antimatter experiments expand",
+        "1990s - antihydrogen becomes a research focus",
+        "Present day - antimatter remains a major mystery"
+      ],
+      "concepts": [
+        "Annihilation - matter and antimatter converting to energy",
+        "Charge - an intrinsic property of particles",
+        "Positron - the antimatter counterpart of the electron",
+        "Magnetic trap - a device that keeps antimatter from touching matter",
+        "Matter-antimatter asymmetry - the universe's imbalance"
+      ]
+    }
+  }
+}

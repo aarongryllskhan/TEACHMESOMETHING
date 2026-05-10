@@ -1,55 +1,68 @@
 {
-  "topic": "Uranus Rotation Axis",
-  "title": "The Unique Rotation Axis of Uranus",
-  "lesson": {
-    "learn": "Uranus is the seventh planet in our solar system, with a mass of 8.681 × 10^25 kilograms and a radius of approximately 25,559 kilometers. One of its most distinct features is its axial tilt of 98 degrees, which causes it to spin on its side. This unusual orientation means the planet’s rotation axis is almost parallel to its orbital plane, producing extreme seasonal behavior where each pole can experience around 42 years of continuous sunlight followed by 42 years of darkness during its 84-year orbit around the Sun.",
-    
-    "simpler": "Uranus is tilted so much that it spins on its side. Because of this, each pole gets many years of sunlight and then many years of darkness, creating extreme seasons compared to Earth.",
-    
-    "keyTakeaway": "Uranus’s extreme axial tilt is most likely the result of a massive collision early in its formation, which permanently altered its rotation axis and created its unusual seasonal cycle.",
-    
-    "deeperDive": "The leading hypothesis for Uranus’s 98-degree axial tilt is a giant impact event during the late stages of planetary formation. At that time, Uranus was still accumulating material within the protoplanetary disk, making it vulnerable to collisions with large planetary embryos. Simulations suggest that an impactor with a mass comparable to Earth could have struck Uranus at a highly oblique angle, transferring enough angular momentum to tip the planet onto its side. Unlike Earth, which has a large Moon that helps stabilize its axial tilt, Uranus lacks a similarly strong stabilizing influence, allowing the extreme tilt to persist over billions of years. This orientation strongly affects heat distribution in its atmosphere, contributing to weak internal heat emission compared to other gas giants. Its atmosphere is composed mainly of hydrogen (~82%), helium (~15%), and methane (~2–3%), with methane absorbing red wavelengths of sunlight and giving Uranus its blue-green color. Beneath the atmosphere, Uranus is thought to have a rocky core surrounded by an icy mantle and an outer hydrogen-helium envelope. Its magnetic field is also unusual, being both significantly tilted and offset from the planet’s center, likely due to complex internal fluid motion.",
-    
-    "funFact": "A single season on Uranus lasts about 21 Earth years, so an entire generation could live through only one seasonal phase at a given pole."
+  "topic": "Why Uranus Rotates On Its Side",
+  "title": "The Giant Impact That Tipped Uranus Over",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hubble_Uranus_seasonal_changes.jpg",
+  "imageCredit": {
+    "creator": "Meli thev",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Hubble_Uranus_seasonal_changes.jpg"
   },
-  
-  "keyElements": {
-    "people": [
-      "Galileo Galilei (Italian astronomer who first observed Uranus in 1610)",
-      "William Herschel (British astronomer who discovered Uranus in 1781)",
-      "Christiaan Huygens (Dutch astronomer who contributed early ideas about planetary motion and structure)",
-      "Carl Sagan (American astronomer and science communicator who helped popularize planetary science)"
+  "lesson": {
+    "learn": "Uranus has an axial tilt of about 98 degrees, which means it spins almost on its side. The leading explanation is that a large collision early in the planet's history knocked it over after it had already formed. Because of that tilt, Uranus experiences extreme seasons: each pole can spend decades in sunlight, then decades in darkness.",
+    "simpler": "Uranus got hit hard early on, and the impact tipped the planet onto its side. That is why its seasons last so long and feel so extreme.",
+    "keyTakeaway": "Uranus's sideways spin is best explained by a giant collision that changed its rotation axis early in Solar System history.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/20/Uranus.gif",
+    "learnImageCredit": {
+      "creator": "JOGOS Public Assets",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Uranus.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/c9/PIA00142_Uranus_Ring_System.jpg",
+    "thirdImageCredit": {
+      "creator": "NASA/JPL",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:PIA00142_Uranus_Ring_System.jpg"
+    },
+    "deeperDive": "Most models point to a giant impact as the reason Uranus is so tilted, although the details of the collision are still being refined. A large impactor could have transferred enough angular momentum to change the planet's spin without destroying it. Because Uranus does not have a large stabilizing moon like Earth's Moon, the tilt could persist for billions of years. The orientation has major consequences for weather and heat flow, and it helps explain why Uranus's seasons are so unusual compared with the other giant planets. Its methane-rich atmosphere also gives the planet its blue-green color, while its magnetic field remains oddly tilted and offset from the center.",
+    "funFact": "A single season on Uranus lasts about 21 Earth years, so each pole spends a very long time in daylight or darkness.",
+    "references": [
+      "NASA Solar System Exploration - Uranus",
+      "Voyager 2 Uranus flyby archives",
+      "Planetary science papers on the giant impact hypothesis",
+      "Hubble observations of Uranus seasonal change"
     ],
-    "places": [
-      "Royal Observatory Greenwich (United Kingdom)",
-      "Lowell Observatory (Arizona, USA)",
-      "NASA Jet Propulsion Laboratory (California, USA)",
-      "European Space Agency mission control (Darmstadt, Germany)",
-      "Hubble Space Telescope observation program"
-    ],
-    "years": [
-      "1610 - Galileo makes early telescopic observations of Uranus",
-      "1781 - William Herschel discovers Uranus as a new planet",
-      "1986 - Voyager 2 performs the only spacecraft flyby of Uranus",
-      "2003 - Hubble Space Telescope provides improved observations of Uranus’s atmosphere and rings",
-      "2000s - Giant-impact simulations strongly support explanation for Uranus’s axial tilt"
-    ],
-    "concepts": [
-      "Axial tilt (obliquity)",
-      "Giant impact hypothesis",
-      "Angular momentum transfer",
-      "Planetary seasons and insolation extremes",
-      "Atmospheric methane absorption",
-      "Magnetic field misalignment",
-      "Planetary interior structure",
-      "Protoplanetary disk evolution"
-    ],
-    "units": [
-      "Kilometers (km) for radius",
-      "Kilograms (kg) for mass",
-      "Degrees (°) for axial tilt",
-      "Earth years for orbital and seasonal cycles",
-      "Relative atmospheric pressure compared to Earth"
-    ]
+    "keyElements": {
+      "people": [
+        "William Herschel - Uranus's discoverer",
+        "Meli thev - creator of the seasonal change montage",
+        "Planetary dynamicists - researchers who model giant impacts"
+      ],
+      "places": [
+        "Voyager 2 flyby path - the only spacecraft visit to Uranus",
+        "Hubble Space Telescope observation programs",
+        "Uranus's atmosphere and ring system"
+      ],
+      "years": [
+        "1781 - Uranus is discovered",
+        "1986 - Voyager 2 flies past Uranus",
+        "2000s - giant-impact simulations become stronger",
+        "2020s - seasonal observations continue with Hubble"
+      ],
+      "concepts": [
+        "Axial tilt",
+        "Giant impact hypothesis",
+        "Angular momentum transfer",
+        "Planetary seasons",
+        "Methane absorption",
+        "Magnetic field offset",
+        "Obliquity"
+      ]
+    }
   }
 }

@@ -1,37 +1,68 @@
 {
-  "topic": "The Nature of Cosmic Radiation",
-  "title": "Cosmic Radiation: Understanding High-Energy Particle Fluxes",
+  "topic": "The Mystery Behind Cosmic Radiation",
+  "title": "Where High-Energy Particles Come From and Why They Matter",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cosmic_ray_hit.jpg/1280px-Cosmic_ray_hit.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+  "imageCredit": {
+    "creator": "Radoslaw Ziomber",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Cosmic_ray_hit.jpg"
+  },
   "lesson": {
-    "learn": "On July 28, 1912, Victor Hess measured a cosmic ray flux of approximately 6.54 particles/cm^2/min during a balloon flight over Austria. This detection marked the beginning of a century-long investigation into the origins and implications of cosmic radiation.",
-    "simpler": "Cosmic radiation is formed by the acceleration of charged particles in the galaxy, primarily protons and electrons. These particles interact with the interstellar medium and are carried by the solar wind to the Earth.",
-    "keyTakeaway": "The cosmic ray flux is modulated by solar wind variations, which influence the Earth's atmospheric composition. Recent studies with the Voyager 1 spacecraft have revealed intensity patterns up to 25 times greater than those observed on Earth.",
-    "deeperDive": "The Cosmic Background Explorer (COBE) satellite mapped the cosmic microwave background radiation, detecting temperature fluctuations at a level of ±2.3μK. These fluctuations are thought to be evidence of the Big Bang. The Fermi Gamma-Ray Space Telescope has mapped the gamma-ray distribution across the globe, revealing nearby sources and patterns influenced by galactic magnetic fields.",
-    "funFact": "Cosmic radiation is not unique to our solar system; it is present in all galaxies throughout the observable universe. The High-Energy Particle Detector (HEPD) on the International Space Station measures cosmic particle fluxes at altitudes above 400 km.",
+    "learn": "Cosmic radiation is a broad term for energetic particles and radiation arriving from space. The most famous part of it is cosmic rays: fast-moving protons and atomic nuclei that can come from the Sun, supernova remnants, and other extreme astrophysical environments. These particles are so energetic that they can trigger particle showers in Earth's atmosphere and even affect electronics in space. Scientists study cosmic radiation to learn about both the universe and the radiation environment around Earth.",
+    "simpler": "Cosmic radiation is high-energy stuff from space. Some of it comes from the Sun, and some comes from much farther away.",
+    "keyTakeaway": "Cosmic radiation is a mix of high-energy particles and radiation from space, and it reveals both astrophysical processes and space-weather risk.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cosmic_Rays_at_Voyager_1.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "learnImageCredit": {
+      "creator": "NASA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cosmic_Rays_at_Voyager_1.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/ed/WMAP_2012.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "NASA / WMAP Science Team",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:WMAP_2012.png"
+    },
+    "deeperDive": "The origin of cosmic radiation depends on the energy range. Lower-energy particles can be accelerated by the Sun and carried outward in the solar wind, while the most energetic particles usually come from violent sources such as supernova remnants, pulsars, and possibly active galactic nuclei. Because charged particles are bent by magnetic fields, tracing them back to a single source is difficult. That is why cosmic radiation is studied with a combination of detectors, spacecraft, atmospheric cascades, and background-radiation measurements. The field connects particle physics, astronomy, and space engineering in one place.",
+    "funFact": "A single high-energy cosmic ray can create a whole shower of secondary particles when it hits Earth's atmosphere.",
+    "references": [
+      "NASA cosmic ray resources",
+      "Voyager mission particle data",
+      "Fermi Gamma-ray Space Telescope materials",
+      "Reviews on Galactic cosmic rays and space radiation"
+    ],
     "keyElements": {
       "people": [
-        "Dr. Lisa Randall - Theoretical physicist investigating the impact of cosmic radiation on particle physics",
-        "Dr. Neil deGrasse Tyson - Astrophysicist promoting public awareness of space phenomena and the consequences of cosmic radiation",
-        "Professor Brian Greene - Theoretical physicist studying the connection between black holes and cosmic radiation patterns",
-        "Dr. Natalie Batalha - Exoplanetary scientist analyzing the impact of cosmic radiation on planetary atmospheres and the search for extraterrestrial life"
+        "Victor Hess - first measured cosmic rays",
+        "NASA and ESA particle physics teams",
+        "Voyager mission scientists - heliopause particle studies",
+        "High-energy astrophysicists - source and propagation research"
       ],
       "places": [
-        "CERN (European Organization for Nuclear Research) - Leading research facility for particle physics and cosmic radiation studies",
-        "NASA's Fermi Gamma-Ray Space Telescope - Satellites monitoring gamma-ray emissions and tracing cosmic radiation sources",
-        "The Large Hadron Collider (LHC) - Particle accelerator recreating high-energy collisions to study cosmic radiation properties",
-        "The Event Horizon Telescope (EHT) - Observing the vicinity of black holes, potentially associated with cosmic radiation emission"
+        "Earth's atmosphere - where cosmic-ray showers form",
+        "The heliosphere - solar influence on particle flow",
+        "Deep space beyond the heliopause",
+        "Spaceborne detector missions"
       ],
       "years": [
-        "1912: Victor Hess measured the first cosmic ray flux during a balloon flight over Austria",
-        "1942: Victor Hess and Robert B. Brown detected cosmic rays in a series of flight experiments",
-        "1960s-1970s: NASA launched a series of spacecraft to measure cosmic radiation in space",
-        "2008: The Fermi Gamma-Ray Space Telescope was launched, greatly expanding our understanding of cosmic radiation sources"
+        "1912 - Victor Hess detects cosmic rays",
+        "1970s - spacecraft expand cosmic-ray studies",
+        "2012 - Voyager 1 reaches the heliopause",
+        "2010s-2020s - cosmic-ray models become more detailed"
       ],
       "concepts": [
-        "Cosmic ray flux - Measuring the intensity of incoming particles from space",
-        "Galactic magnetic fields - Influencing particle trajectories and cosmic radiation patterns",
-        "Supernovae explosions - Potentially producing the high-energy radiation observed on Earth",
-        "Interstellar medium - A diffuse gas that can absorb or deflect cosmic radiation particles",
-        "Particle acceleration - The process by which charged particles gain energy, contributing to cosmic radiation"
+        "Cosmic rays",
+        "Particle showers",
+        "Heliosphere",
+        "Solar modulation",
+        "Magnetic deflection",
+        "High-energy astrophysics"
       ]
     }
   }

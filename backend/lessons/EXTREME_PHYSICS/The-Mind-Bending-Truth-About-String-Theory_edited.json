@@ -1,0 +1,67 @@
+{
+  "topic": "String Theory",
+  "title": "What String Theory Actually Tries to Explain About Reality",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/String-theory-strings.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "MikeRun",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:String-theory-strings.svg"
+  },
+  "lesson": {
+    "learn": "String theory is an ambitious attempt to describe the fundamental building blocks of nature as tiny vibrating strings instead of point-like particles. Different vibration patterns would correspond to different particles, just as different notes come from different string vibrations. The idea is elegant, but also difficult to test.\n\nWhat makes string theory fascinating is not that it is proven. It is that it tries to unify gravity with quantum physics in a single framework. That goal has shaped decades of theoretical physics.",
+    "simpler": "String theory says the smallest things might be tiny vibrating strings. It is a big idea that tries to connect many parts of physics.",
+    "keyTakeaway": "String theory is a mathematical framework for unifying physics, not a finished description of nature.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/03/Dualities_in_String_Theory.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Physics.ac",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dualities_in_String_Theory.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/8a/String_theory.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "MissMJ",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:String_theory.svg"
+    },
+    "deeperDive": "The theory became attractive because particle physics and gravity are hard to reconcile in standard models. String theory introduces extra dimensions, dualities, and a rich mathematical structure that can connect many different physical pictures. But its main challenge is experimental access: if the relevant scales are too small or too energetic to probe directly, testing becomes very difficult.\n\nThat tension makes string theory an important case study in science itself. Beautiful mathematics can guide discovery, but a theory still needs contact with evidence if it is going to become part of established physics.",
+    "funFact": "String theory inspired major advances in mathematics too.",
+    "references": [
+      "Britannica - string theory",
+      "Stanford Encyclopedia of Philosophy - string theory",
+      "CERN - theoretical physics"
+    ],
+    "keyElements": {
+      "people": [
+        "Theoretical physicists - scientists building the framework",
+        "Mathematicians - researchers using the new geometry",
+        "String theorists - specialists in the model",
+        "Experimental physicists - people looking for testable predictions"
+      ],
+      "places": [
+        "University theory groups - where string theory is developed",
+        "Physics institutes - centers for high-level mathematics and theory",
+        "Particle accelerator labs - places that might someday test ideas",
+        "Research seminars - where the theory is debated"
+      ],
+      "years": [
+        "1960s - early string ideas emerge",
+        "1980s - string theory expands rapidly",
+        "1990s - dualities reshape the field",
+        "Present day - it remains a major theoretical frontier"
+      ],
+      "concepts": [
+        "Vibrating string - the basic unit in the model",
+        "Extra dimensions - dimensions beyond the familiar four",
+        "Duality - two different theories describing the same physics",
+        "Quantum gravity - the challenge of combining quantum theory and gravity",
+        "Unification - one framework explaining many forces"
+      ]
+    }
+  }
+}

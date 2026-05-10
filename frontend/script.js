@@ -1751,6 +1751,9 @@ function displayFullLesson(lesson) {
   // Preload second image too
   const _learnImageUrl = cleanImageUrl(lesson.learnImage || (lesson.lesson && lesson.lesson.learnImage));
   if (_learnImageUrl) { const _img2 = new Image(); _img2.src = _learnImageUrl; }
+  // Preload third image too
+  const _thirdImageUrl = cleanImageUrl(lesson.thirdImage || (lesson.lesson && lesson.lesson.thirdImage));
+  if (_thirdImageUrl) { const _img3 = new Image(); _img3.src = _thirdImageUrl; }
   const content = lesson.lesson || lesson;
   const keyElements = content.keyElements || lesson.keyElements;
 
@@ -1800,11 +1803,11 @@ function displayFullLesson(lesson) {
 
   const imageUrl = cleanImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image));
   const heroCredit = imageCreditHtml(lesson.imageCredit || (lesson.lesson && lesson.lesson.imageCredit));
-  const midCredit  = imageCreditHtml(content.learnImageCredit || lesson.learnImageCredit);
+  const midCredit   = imageCreditHtml(content.learnImageCredit || lesson.learnImageCredit);
+  const thirdCredit = imageCreditHtml(content.thirdImageCredit || lesson.thirdImageCredit);
   modal.innerHTML = `
-    <button class="close-btn" onclick="closeFullLesson()">←Back</button>
-
     <div class="full-lesson-header">
+      <button class="close-btn" onclick="closeFullLesson()">←Back</button>
       <div class="lesson-header-actions">
         <button class="tts-btn" id="ttsBtn" onclick="toggleTTS(currentLesson)" title="Listen">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
@@ -1847,6 +1850,13 @@ function displayFullLesson(lesson) {
       ${content.deeperDive ? `
         <div class="lesson-section">
           <div class="lesson-section-content">${content.deeperDive}</div>
+        </div>
+      ` : ''}
+
+      ${_thirdImageUrl ? `
+        <div class="lesson-mid-image">
+          <img src="${_thirdImageUrl}" alt="${cleanTitle(lesson.title, lesson.topic)} - extra" loading="lazy">
+          ${thirdCredit}
         </div>
       ` : ''}
 

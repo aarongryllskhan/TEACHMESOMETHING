@@ -1,40 +1,66 @@
 {
-  "topic": "Understanding Rogue Planets and Their Cosmic Implications",
-  "title": "The Enigmatic Wanderers of the Universe: Unraveling the Mystery of Rogue Planets",
+  "topic": "How Rogue Planets Wander the Universe",
+  "title": "Why Some Planets Drift Through Space Without a Star",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rogueplanet.jpg",
+  "imageCredit": {
+    "creator": "Pablo Carlos Budassi",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Rogueplanet.jpg"
+  },
   "lesson": {
-    "learn": "Rogue planets are a fascinating class of celestial objects that roam through the vast expanse of our universe, unbound to any star. Their existence raises significant questions about planetary formation and the potential risks they pose to nearby star systems. Recent studies suggest that rogue planets may comprise up to 10% of all planetary-mass objects in the galaxy, with some evidence even pointing to the existence of rogue planets in our own cosmic neighborhood. These enigmatic bodies can be found in various regions of the galaxy, from the densest stellar clusters to the most remote reaches of intergalactic space.",
-    "simpler": "Imagine a planet like Jupiter, but without a star to orbit. It would continue to move through space, its path influenced by the gravitational forces of other stars and galaxies. This is essentially what happens to rogue planets.",
-    "keyTakeaway": "The discovery of rogue planets highlights the complexity and diversity of planetary formation in the universe. Moreover, their existence serves as a reminder of the dynamic nature of our cosmos, where celestial bodies can be born, live, and die in a vast array of environments.",
-    "deeperDive": "Recent research has shown that rogue planets can be born through various mechanisms, including the gravitational disruption of star-forming regions or the ejection of planets from their parent systems due to violent stellar interactions. The discovery of exoplanet KELT-9b, which orbits a hot blue giant, showcases the diverse range of environments in which rogue planets can exist. Furthermore, studies of nearby star systems, such as Alpha Centauri, have revealed evidence of potential rogue planet populations lurking in the shadows. For instance, a 2020 study published in The Astronomical Journal estimated that up to 15% of stars in the Milky Way galaxy may have a rogue planet in their vicinity.",
-    "funFact": "Rogue planets are often detected indirectly through the analysis of their gravitational influence on nearby stars or the effects they have on the surrounding interstellar medium. In 2019, astronomers used this method to detect a rogue planet, named PSO J318.5-22, that is located about 80 light-years from Earth.",
+    "learn": "Rogue planets are worlds that no longer orbit a star. They can be flung out of a planetary system by gravity, born in isolation, or discovered only when they briefly reveal themselves through microlensing. Without a nearby star, they drift in darkness and rely on internal heat or buried oceans to stay active.\n\nThey are fascinating because they blur the line between planet and wanderer. A planet does not need a star to exist; it only needs gravity to give it shape.",
+    "simpler": "Rogue planets are planets without stars. They drift alone through space after being kicked out or forming on their own.",
+    "keyTakeaway": "A planet can become a loner if gravity ejects it from its system.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Icy%20Earth-mass%20Rogue%20Planet%20(SVS14380).jpg",
+    "learnImageCredit": {
+      "creator": "NASA's Scientific Visualization Studio - Chris Meaney, Scott Wiessinger, Ashley Balzer",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Icy_Earth-mass_Rogue_Planet_(SVS14380).jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20of%20the%20rogue%20planet%20Cha%201107-7626%20(eso2516a).jpg",
+    "thirdImageCredit": {
+      "creator": "ESO/L. Calçada/M. Kornmesser",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Illustration_of_the_rogue_planet_Cha_1107-7626_(eso2516a).jpg"
+    },
+    "deeperDive": "Planetary systems are not always stable. During formation, giant planets can scatter smaller worlds, and passing stars can disturb orbits enough to eject a planet entirely. Astronomers mostly find these objects through indirect methods, because rogue planets are dark and hard to spot on their own.\n\nThat makes them a reminder that the universe is full of hidden objects. Some planets are not companions at all; they are survivors of gravitational chaos.",
+    "funFact": "Some rogue planets may have internal heat for millions of years.",
+    "references": [
+      "ESO - rogue planet discoveries",
+      "Britannica - rogue planet",
+      "NASA exoplanet science resources"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "*   Dr. Sara Seager - Astrophysicist and exoplanet hunter",
-        "*   Dr. Neil deGrasse Tyson - Science communicator and astrophysicist",
-        "*   Dr. Lisa Randall - Theoretical physicist and cosmologist",
-        "*   **"
+        "Lorenzo Iorio - orbital dynamics researcher",
+        "Michael Mayor - exoplanet pioneer",
+        "N. Risinger - contributor to rogue planet sky maps",
+        "Pablo Carlos Budassi - illustrator of the rogue-planet concept"
       ],
       "places": [
-        "**",
-        "*   European Southern Observatory (ESO) - A leading astronomical research facility in Chile",
-        "*   NASA's Jet Propulsion Laboratory (JPL) - A renowned center for space exploration and scientific research",
-        "*   The International Astronomical Union (IAU) - An organization responsible for defining and promoting international cooperation in astronomy",
-        "*   **"
+        "Upper Scorpius and Ophiuchus - rogue planet search region",
+        "ESO observatories - exoplanet observations",
+        "Space telescopes - indirect discovery tools",
+        "Microlensing survey fields - where dark worlds are found"
       ],
       "years": [
-        "**",
-        "*   1992 - First exoplanet discovery by Alexander Wolszczan and Dale Frail",
-        "*   2009 - Detection of the first potentially habitable exoplanet, Gliese 581c",
-        "*   2020 - Confirmation of the existence of rogue planets in the Alpha Centauri system",
-        "*   **"
+        "1990s - exoplanet science expands quickly",
+        "2010s - rogue-planet surveys become more systematic",
+        "2020s - better sky surveys improve counts",
+        "Future - more free-floating planets should be identified"
       ],
       "concepts": [
-        "**",
-        "*   Planetary formation and migration",
-        "*   Stellar interactions and binary systems",
-        "*   Gravitational disruption and ejection of planets",
-        "*   Exoplanet detection methods and biases"
+        "Rogue planet - a planet not bound to a star",
+        "Microlensing - gravity revealing a hidden object",
+        "Ejection - being flung out of a system",
+        "Planetary formation - how worlds first assemble",
+        "Interstellar space - the cold region between stars"
       ]
     }
   }

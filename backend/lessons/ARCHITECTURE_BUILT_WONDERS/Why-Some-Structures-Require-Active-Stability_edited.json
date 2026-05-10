@@ -1,41 +1,74 @@
 {
   "topic": "Why Some Structures Require Active Stability",
   "title": "Understanding the Engineering Methods Behind Active Stability in Tall and Flexible Structures",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tour_Eiffel_Wikimedia_Commons.jpg",
+  "imageCredit": {
+    "creator": "Nitot",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg"
+  },
   "lesson": {
-    "learn": "Active stability refers to the ability of a structure to maintain safety and performance by dynamically responding to external forces such as wind, earthquakes, and vibrations rather than resisting them rigidly. In tall structures, complete rigidity is neither practical nor safe, so engineers design systems that redistribute and absorb energy through controlled movement. Early examples include the Eiffel Tower (completed in 1889), whose iron lattice structure allows wind forces to pass through while maintaining equilibrium. Modern skyscrapers and bridges extend this principle using tuned mass dampers, flexible cores, and aerodynamic shaping. These systems ensure that buildings remain stable even under extreme environmental conditions by continuously managing how forces move through the structure.",
-    "simpler": "Active stability means a building is designed to move a little instead of staying completely stiff. This movement helps it survive wind, earthquakes, and other forces without breaking. It works like a tree bending in the wind instead of snapping.",
-    "keyTakeaway": "Active stability allows structures to safely handle external forces by using controlled flexibility and force distribution instead of resisting movement entirely.",
-    "deeperDive": "Modern active stability systems rely on a combination of structural engineering, materials science, and real-time dynamic control. Tall buildings often use central reinforced cores, outrigger systems, and perimeter tube structures to distribute loads efficiently. Tuned mass dampers are commonly installed to counteract oscillations by moving opposite to the building’s sway, reducing amplitude and improving occupant comfort. Aerodynamic shaping, such as tapered forms or twisted facades, helps reduce vortex shedding by disrupting airflow patterns. In seismic zones, base isolation systems allow the foundation to move independently from the structure, reducing earthquake energy transfer. Computational simulations and wind tunnel testing are essential tools used to predict and refine these behaviours before construction.",
-    "funFact": "Some skyscrapers include massive internal weights that can weigh hundreds of tons and move in real time to counteract wind sway, acting like a giant balancing system inside the building.",
+    "learn": "Active stability is one of the most important principles in modern structural engineering, describing how buildings, towers, and bridges maintain safety not by resisting every external force rigidly, but by dynamically adapting to changing environmental conditions. Tall and flexible structures are constantly exposed to wind pressure, vortex shedding, thermal expansion, traffic vibration, and seismic forces. If engineers designed them to be completely rigid, internal stresses could accumulate to dangerous levels, increasing the risk of cracking, fatigue, or catastrophic failure. Instead, structures are often intentionally designed to flex, sway, or redistribute loads in controlled ways. Early examples include the Eiffel Tower, completed in 1889, whose iron lattice form reduces wind resistance by allowing air to pass through its open structure while maintaining remarkable strength. Over time, this philosophy evolved into increasingly sophisticated systems such as tuned mass dampers, flexible steel frames, reinforced cores, aerodynamic shaping, and active monitoring systems. These methods allow structures to maintain equilibrium under constantly changing forces.",
+    "simpler": "Active stability means a structure is designed to move safely instead of trying to stay perfectly still. Like a tree bending in strong wind, controlled movement helps buildings and towers survive powerful forces without breaking.",
+    "keyTakeaway": "Active stability protects structures by using controlled flexibility, force redistribution, and adaptive engineering systems to manage environmental forces safely instead of resisting them completely.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/4/49/Taipei_101_tuned_mass_damper.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20120811012314",
+    "learnImageCredit": {
+      "creator": "Hadge at Japanese Wikipedia",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Taipei_101_tuned_mass_damper.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuned_mass_damper.gif",
+    "thirdImageCredit": {
+      "creator": "Anarchemitis at English Wikipedia",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif"
+    },
+    "deeperDive": "Modern active stability systems combine structural dynamics, materials science, and predictive engineering. A structure’s behavior depends on the interaction of mass, stiffness, damping, and natural frequency. Wind can create oscillating forces through vortex shedding, while earthquakes introduce rapid lateral ground motion. Engineers use central reinforced concrete cores, outrigger trusses, perimeter tube systems, and moment-resisting frames to distribute these forces efficiently. Tuned mass dampers (TMDs), such as Taipei 101’s massive suspended pendulum, reduce sway by moving opposite the structure’s motion, effectively canceling oscillations. Aerodynamic shaping—through tapering, setbacks, rounded corners, or twisting—reduces organized airflow and decreases vortex formation. In seismic engineering, base isolation systems and energy-dissipating bearings decouple the structure from ground motion, dramatically reducing force transfer. Advanced skyscrapers may also incorporate sensor networks and active control technologies that monitor movement in real time. Wind tunnel testing, computational fluid dynamics, and finite element analysis allow engineers to simulate structural responses before construction. This means modern active stability is not a single system, but a layered engineering strategy combining geometry, material flexibility, damping, and environmental adaptation.",
+    "funFact": "Taipei 101’s tuned mass damper weighs about 660 tons, making it one of the world’s largest visible internal balancing systems inside a building.",
+    "references": [
+      "Council on Tall Buildings and Urban Habitat (CTBUH) — Tall-building structural systems and dynamic stability.",
+      "American Society of Civil Engineers (ASCE) — Structural dynamics, damping, and active stability principles.",
+      "Eiffel Tower official engineering history — Structural design and wind performance.",
+      "Skidmore, Owings & Merrill archives — Fazlur Rahman Khan and tube structural systems.",
+      "Taipei 101 engineering documentation — Tuned mass damper systems.",
+      "National Institute of Standards and Technology (NIST) — Wind and seismic structural response."
+    ],
     "keyElements": {
       "people": [
-        "Gustave Eiffel – engineer behind the Eiffel Tower and early lattice structure stability principles",
-        "Fazlur Rahman Khan – pioneer of modern skyscraper structural systems such as the tube structure",
-        "William LeMessurier – structural engineer known for advanced wind-load and stability design analysis",
-        "Buckminster Fuller – inventor and theorist of geodesic dome structures and efficient load distribution",
-        "Leslie E. Robertson – engineer known for innovations in tall building structural stability systems"
+        "Gustave Eiffel — Engineer of the Eiffel Tower and lattice stability pioneer",
+        "Fazlur Rahman Khan — Pioneer of tube-frame skyscraper systems",
+        "William LeMessurier — Structural engineer known for wind-load analysis",
+        "Buckminster Fuller — Innovator in structural efficiency and load distribution",
+        "Leslie E. Robertson — Engineer of advanced tall-building stability systems"
       ],
       "places": [
-        "Eiffel Tower, Paris, France",
-        "Burj Khalifa, Dubai, UAE",
-        "Willis Tower, Chicago, USA",
-        "Taipei 101, Taipei, Taiwan",
-        "Tokyo Skytree, Tokyo, Japan"
+        "Eiffel Tower, Paris, France — Early example of wind-adaptive structural design",
+        "Taipei 101, Taipei, Taiwan — Landmark tuned mass damper system",
+        "Burj Khalifa, Dubai, UAE — Aerodynamic and structural control innovation",
+        "Willis Tower, Chicago, USA — Tube structural engineering milestone",
+        "Tokyo Skytree, Tokyo, Japan — Modern seismic and wind stability example"
       ],
       "years": [
-        "1889 – completion of the Eiffel Tower, early demonstration of wind-permeable structural stability",
-        "1970s – development of modern tube structural systems for skyscrapers",
-        "1973 – completion of the Willis Tower in Chicago",
-        "2004 – completion of Taipei 101 with a large tuned mass damper system",
-        "2010 – completion of Burj Khalifa with advanced aerodynamic and structural control systems"
+        "1889 — Eiffel Tower completed",
+        "1970s — Tube structural systems revolutionize skyscraper engineering",
+        "1973 — Willis Tower completed",
+        "2004 — Taipei 101 completed",
+        "2010 — Burj Khalifa completed"
       ],
       "concepts": [
-        "Active stability – structural systems that adapt to external forces through controlled movement",
-        "Wind load distribution – spreading aerodynamic forces through a structure",
-        "Tuned mass dampers – devices that reduce structural oscillation",
-        "Aerodynamic shaping – designing forms to reduce wind resistance and turbulence",
-        "Base isolation – seismic protection method that decouples a building from ground motion",
-        "Structural flexibility – controlled movement to prevent material failure under stress"
+        "Active stability — Controlled structural adaptation to external forces",
+        "Wind load distribution — Management of aerodynamic forces",
+        "Tuned mass dampers — Oscillation reduction systems",
+        "Aerodynamic shaping — Form optimization for environmental forces",
+        "Base isolation — Seismic decoupling systems",
+        "Structural flexibility — Controlled movement under stress",
+        "Dynamic equilibrium — Balance under changing forces"
       ]
     }
   }

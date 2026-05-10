@@ -1,32 +1,66 @@
 {
-  "topic": "Bioluminescence in Comb Jellies",
-  "title": "Understanding the Complexities of Comb Jelly Bioluminescence",
+  "topic": "Comb Jelly Bioluminescence",
+  "title": "How Comb Jellies Turn Their Bodies Into Living Light Shows",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Comb_jelly_%28198583323%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Clinton &amp; Charles Robertson from RAF Lakenheath, UK &amp; San Marcos, TX, USA &amp; UK",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Comb_jelly_(198583323).jpg"
+  },
   "lesson": {
-    "learn": "Comb jellies, a group of marine organisms known as ctenophores, possess a unique ability to produce light through a process called bioluminescence. This phenomenon has been observed in over 80 species of comb jellies, with the earliest recorded discovery dating back to 1960. Biologist Walter H. Adey documented the first bioluminescent comb jelly species, and since then, scientists have been studying the intricacies of this ability.",
-    "simpler": "Imagine a tiny light bulb within a comb jelly's body, allowing it to produce light in the dark ocean. This bioluminescence serves multiple purposes, including communication, navigation, and attracting prey. Scientists have found that comb jellies can adjust the intensity and color of their glow to convey different messages, a complex process made possible by specialized organs called statocysts.",
-    "keyTakeaway": "The bioluminescence in comb jellies is a complex process involving the breakdown of high-energy molecules called ATP into light. This remarkable ability has several essential functions, including navigation, communication, and prey attraction. By studying comb jellies, scientists can gain insights into the intricacies of marine ecosystems and develop more efficient bioluminescent technologies.",
-    "deeperDive": "The statocyst, a specialized organ responsible for balance and navigation, plays a crucial role in comb jelly bioluminescence. Researchers have found that this organ is highly sensitive to changes in gravity and movement, allowing comb jellies to adjust their glow accordingly. The process of bioluminescence involves the reaction of luciferin, a molecule produced from ATP, with oxygen, resulting in the production of light. This process is highly energy-efficient, with some species of comb jellies able to produce light lasting over an hour.",
-    "funFact": "Comb jellies' ability to adjust their glow has inspired scientists to develop more energy-efficient lighting systems, including the creation of a microscale bioluminescent lighting device in 2015. This device utilizes a similar process to comb jelly bioluminescence, producing a sustainable and efficient light source.",
+    "learn": "Comb jellies are not true jellyfish, and they do something even more unusual than many people realize: they can glow. Their shimmering light comes from bioluminescence, a chemical process that produces light inside living tissue. In the dark ocean, that light can help them confuse predators, attract prey, or communicate in ways we are still working to understand.\n\nThe rows of cilia that comb jellies use to swim can also create rainbow-like flashes as they move. The result is one of the ocean's strangest and most beautiful light displays.",
+    "simpler": "Comb jellies can glow because their bodies make light chemically. In the dark sea, that glow helps them survive.",
+    "keyTakeaway": "Bioluminescence gives comb jellies a survival advantage in the dark ocean.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lobate_Comb_Jelly_%2840164874905%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "National Marine Sanctuaries",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Lobate_Comb_Jelly_(40164874905).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/24/Harp_Comb_Jelly_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "YockeyT",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Harp_Comb_Jelly_1.png"
+    },
+    "deeperDive": "The ability to make light is useful because the deep ocean is almost completely black. Light can hide, distract, lure, or signal depending on the species and the situation. For comb jellies, the glow is tied to a body plan built around delicate movement and transparency. That combination makes them both hard to see and visually stunning when they do light up.\n\nThis is a good example of evolution using chemistry as a tool. Instead of building armor or speed, some animals solve survival problems with a flash of light.",
+    "funFact": "Some comb jellies make rainbow effects just by swimming.",
+    "references": [
+      "Smithsonian Ocean - bioluminescence",
+      "Britannica - ctenophore",
+      "Monterey Bay Aquarium - comb jellies"
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Stephen Haddock, marine biologist studying comb jelly behavior",
-        "* Dr. Jennifer Schmidt, expert on bioluminescence in marine organisms",
-        "* Dr. Maria Rodriguez, researcher on the ecological importance of bioluminescence"
+        "Marine biologists - scientists who study ocean life",
+        "Biochemists - researchers who explain light-producing reactions",
+        "Deep-sea ecologists - experts in dark-ocean ecosystems",
+        "Aquarium staff - people who care for fragile specimens"
       ],
       "places": [
-        "* Monterey Bay Aquarium Research Institute (MBARI), where scientists study comb jellies",
-        "* The Sargasso Sea, a vast oceanic region known for its high concentration of comb jellies",
-        "* Woods Hole Oceanographic Institution (WHOI), where researchers have made groundbreaking discoveries on bioluminescence"
+        "Deep ocean - the dark habitat where glow matters most",
+        "Aquariums - places where comb jellies are observed alive",
+        "Coastal research labs - where bioluminescence is studied",
+        "Open ocean - the environment comb jellies drift through"
       ],
       "years": [
-        "* 1960: Discovery of the first bioluminescent species of comb jelly",
-        "* 1995: Scientists at WHOI discover that comb jellies can adjust the color and intensity of their glow",
-        "* 2010: A new species of bioluminescent comb jelly is discovered in the Sargasso Sea"
+        "19th century - comb jellies are classified as a separate group",
+        "20th century - bioluminescence becomes a major research topic",
+        "21st century - imaging reveals more about their movement and glow",
+        "Present day - their light mechanisms remain an active field of study"
       ],
       "concepts": [
-        "* Bioluminescence: the ability to produce light through a chemical reaction within an organism",
-        "* Statocyst: a specialized organ used for balance, navigation, and bioluminescence in comb jellies",
-        "* ATP (Adenosine Triphosphate): the energy molecule responsible for powering many biological processes, including bioluminescence"
+        "Bioluminescence - light made by living organisms",
+        "Cilia - tiny hairlike structures used for movement",
+        "Ctenophore - the group that includes comb jellies",
+        "Camouflage - reducing visibility to predators",
+        "Predation - the act of catching and eating prey"
       ]
     }
   }

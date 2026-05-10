@@ -1,46 +1,66 @@
 {
-  "topic": "Why-Greenhouse-Gases-Trap-Heat",
-  "title": "The Methods Behind Earth's Natural Heating System",
+  "topic": "Greenhouse Gases",
+  "title": "Why Greenhouse Gases Trap Heat in the Atmosphere",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Greenhouse_effect.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Pieter Kuiper",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Greenhouse_effect.svg"
+  },
   "lesson": {
-    "learn": "The greenhouse effect is a natural process that occurs when certain gases in the atmosphere, such as carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O), interact with solar radiation to trap heat and prevent it from escaping into space. This phenomenon is essential for life on Earth, as it maintains a habitable temperature range, making our planet suitable for living organisms to thrive. However, human activities have increased the concentration of these gases in the atmosphere, leading to an enhancement of the natural greenhouse effect. According to NASA, human activities account for approximately 65% of the warming attributed to all long-lived greenhouse gases, with CO2 being the primary contributor.",
-    "simpler": "The Earth's atmosphere can be thought of as a blanket that keeps it warm, but unlike a physical blanket, this one is composed of gases that trap heat from the sun. Imagine placing a clear plastic cover over a greenhouse to retain solar heat; this is similar to the natural greenhouse effect. However, when there are excessive amounts of greenhouse gases, it is like adding extra layers to the blanket, resulting in increased temperatures.",
-    "keyTakeaway": "A critical insight is that the increase in greenhouse gas concentrations, largely driven by human activities, has led to an amplified greenhouse effect, resulting in global warming and associated climate changes. It is essential to understand the underlying science and its consequences to make informed decisions about mitigating this issue.",
-    "deeperDive": "Recent studies have highlighted the significant role of methane (CH4) in the greenhouse effect, with some research suggesting it may be responsible for up to 30% of current warming. The Arctic region has seen a notable increase in temperatures due to rising concentrations of CO2 and CH4, leading to accelerated melting of sea ice and glaciers. This has severe consequences for ecosystems, including coral bleaching, droughts, and heatwaves. Climate models predict that if left unchecked, these changes will have far-reaching impacts. Human activities such as deforestation, industrial agriculture, and transportation have contributed to a significant increase in CO2 emissions, with some estimates suggesting a 40% rise over the past few decades. Scientists are exploring innovative solutions like carbon capture technology and reforestation efforts. For instance, Sweden's 'Bioenergy with Carbon Capture and Storage' project and the African Forest Landscape Restoration Initiative demonstrate the potential for successful mitigation strategies.",
-    "funFact": "The concentration of CO2 in the atmosphere has risen from pre-industrial levels of approximately 280 parts per million (ppm) to over 415 ppm in 2020, according to the Mauna Loa Observatory in Hawaii.",
+    "learn": "Greenhouse gases trap heat because they absorb infrared radiation leaving Earth’s surface and re-emit some of that energy back toward the ground and lower atmosphere. Without that process, Earth would be much colder and far less hospitable. The greenhouse effect is natural and essential; the problem is that human activity is increasing the amount of heat-trapping gas in the air.\n\nCarbon dioxide, methane, nitrous oxide, and water vapor all play roles in the energy balance. The physics is simple at its core: more greenhouse gas means more energy kept in the climate system.",
+    "simpler": "Greenhouse gases work like a thermal blanket. They let sunlight in, but they slow the escape of heat back out to space.",
+    "keyTakeaway": "Greenhouse gases trap heat because they absorb and re-radiate infrared energy.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Earth%27s_greenhouse_effect_%28US_EPA%2C_2012%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "US EPA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Earth's_greenhouse_effect_(US_EPA%2C_2012).png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/7/74/Climate_sensitivity_diagram.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Femkemilene",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Climate_sensitivity_diagram.svg"
+    },
+    "deeperDive": "Solar energy mostly arrives as visible light. Earth warms and then gives that energy back off as infrared radiation. Molecules such as carbon dioxide and methane interact strongly with those infrared wavelengths, which shifts the planet’s energy balance. That is why even small changes in greenhouse gas concentration can matter globally.\n\nClimate feedbacks can amplify the effect. More warming can increase water vapor and melt reflective ice, which in turn increases heat absorption. Understanding this process is essential for climate science, because it connects emissions, temperature rise, and the stability of future climate.",
+    "funFact": "The greenhouse effect is natural. The modern problem is that it is getting stronger.",
+    "references": [
+      "NASA Climate - greenhouse effect basics",
+      "NOAA - Earth energy balance",
+      "Britannica - greenhouse gas"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "- **Joseph Fourier**: French mathematician and physicist who first described the greenhouse effect in the early 19th century.",
-        "- **Svante Arrhenius**: Swedish scientist who predicted that human activities could increase global temperatures, making him one of the pioneers in understanding climate change.",
-        "- **Roger Revelle**: American oceanographer who played a crucial role in the development of modern climate science and was a key figure in alerting policymakers to the dangers of CO2 emissions.",
-        "- **Nobel Laureate William D. Nordhaus**: An economist and climate modeler who has made significant contributions to understanding the economic impacts of climate change.",
-        "- **Climate activist Greta Thunberg**: A Swedish teenager who rose to international prominence for her impassioned advocacy on behalf of climate action.",
-        "**"
+        "Svante Arrhenius - early scientist to connect CO2 and warming",
+        "John Tyndall - studied infrared absorption by gases",
+        "Syukuro Manabe - advanced climate modeling of greenhouse effects",
+        "Climate researchers - teams measuring atmospheric change"
       ],
       "places": [
-        "**",
-        "- **Mauna Loa Observatory**, Hawaii, USA â€“ a renowned research station monitoring greenhouse gas concentrations since 1958.",
-        "- **The Amazon Rainforest**, South America â€“ the world's largest tropical rainforest, which plays a critical role in absorbing CO2 and producing oxygen.",
-        "- **Greenland Ice Sheet**, Arctic Circle â€“ one of the most vulnerable regions to climate change due to rapid ice melting and rising sea levels.",
-        "- **The Hadley Centre for Climate Prediction and Research**, UK â€“ a leading research institution focused on understanding and mitigating the effects of climate change.",
-        "**"
+        "Earth’s atmosphere - the main system being warmed",
+        "NASA and NOAA labs - climate observation centers",
+        "Industrial regions - places where emissions are measured",
+        "Polar regions - where feedbacks are especially strong"
       ],
       "years": [
-        "**",
-        "- **1804**: Joseph Fourier proposes the greenhouse effect as a natural process that keeps Earth warm.",
-        "- **1896**: Svante Arrhenius predicts human activities could increase global temperatures, making him one of the first scientists to warn about climate change.",
-        "- **1958**: The Mauna Loa Observatory begins monitoring CO2 concentrations, providing crucial data for climate research.",
-        "- **1990s**: Human-caused climate change becomes a widely accepted scientific consensus, leading to international agreements like the Kyoto Protocol.",
-        "**"
+        "1859 - Tyndall demonstrates gas absorption of heat",
+        "1896 - Arrhenius links CO2 and temperature",
+        "20th century - greenhouse physics becomes central to climate science",
+        "21st century - emissions growth makes the effect more visible"
       ],
       "concepts": [
-        "**",
-        "- **Greenhouse effect**: A natural process where certain gases trap heat from the sun and prevent it from escaping back into space.",
-        "- **Carbon dioxide (CO2)**: The primary long-lived greenhouse gas responsible for around 65% of warming attributed to all long-lived greenhouse gases.",
-        "- **Methane (CH4)**: A potent short-lived greenhouse gas contributing up to 25% of current warming, often released through human activities like agriculture and fossil fuel extraction.",
-        "- **Nitrous oxide (N2O)**: A strong greenhouse gas with a global warming potential 298 times higher than CO2 over a 100-year time frame.",
-        "- **Climate sensitivity**: The amount by which the Earth's surface temperature increases in response to a doubling of CO2 levels, an essential factor in climate modeling and prediction.",
-        "- **Feedback loops**: Processes like ice-albedo feedback, where changes in one system (e.g., sea ice melting) affect another system (e.g., increased absorption of solar radiation), leading to amplified or dampened warming effects."
+        "Infrared radiation - heat energy emitted by warm objects",
+        "Energy balance - the incoming and outgoing energy of Earth",
+        "Radiative forcing - a change that alters climate energy flow",
+        "Feedback loop - a process that amplifies change",
+        "Atmospheric composition - the mix of gases in air"
       ]
     }
   }

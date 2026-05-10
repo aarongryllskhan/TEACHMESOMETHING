@@ -1,44 +1,66 @@
 {
   "topic": "Rust and Corrosion",
   "title": "Understanding the Pernicious Effects of Rust: A Chemical Analysis",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rusted%20metal.jpg",
+  "imageCredit": {
+    "creator": "Salem Ander",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Rusted_metal.jpg"
+  },
   "lesson": {
-    "learn": "Rust, also known as iron oxide, forms through a complex electrochemical reaction between iron, oxygen, and moisture. This process can cause significant damage to infrastructure and industrial equipment, resulting in an estimated $2.5 trillion in losses annually worldwide.",
-    "simpler": "Rust can be likened to a slow-moving metal disease, where iron reacts with oxygen under the right conditions, leading to its deterioration. Think of it as a gradual decay process, akin to the way wood rots when exposed to water.",
-    "keyTakeaway": "The combination of iron, oxygen, and moisture creates a highly unstable and corrosive environment, accelerating rust formation. Understanding this process allows for the development of targeted mitigation strategies.",
-    "deeperDive": "The rusting process involves a series of electrochemical reactions, where iron acts as an anode, attracting electrons and resulting in the formation of ferrous oxide (FeO) and ferric oxide (Fe2O3). Factors influencing rust growth include temperature, humidity, and the presence of other chemicals. Researchers have successfully employed nanotechnology and advanced coatings to prevent rust formation. For instance, zinc-based coatings applied at the nanoscale have demonstrated remarkable efficacy in protecting steel surfaces. Interestingly, the study of rust has led to breakthroughs in the understanding of biological processes involving iron, such as hemoglobin's function in transporting oxygen.",
-    "funFact": "Rust's destructive powers are not limited to modern structures. The ancient Roman Pantheon, for example, has exhibited signs of corrosion after nearly two millennia. Similarly, the iconic Colosseum, an engineering marvel of the ancient world, displays evidence of rust-induced damage.",
+    "learn": "Rust forms when iron, oxygen, and water work together in an electrochemical process. Iron atoms give up electrons, oxygen accepts them, and the result is iron oxide and related corrosion products. The process is slow, but it can weaken bridges, tools, vehicles, and buildings over time.\n\nRust is not just ugly damage. It is a sign that a metal surface is being transformed into a brittle, less useful material. That is why corrosion control matters so much in construction and transportation.",
+    "simpler": "Rust happens when iron reacts with oxygen and water. Over time, the metal weakens and flakes away.",
+    "keyTakeaway": "Rust is slow oxidation that turns strong iron into brittle corrosion products.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Rusted%20corroded%20metal%201578.jpg",
+    "learnImageCredit": {
+      "creator": "ImagePerson",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Rusted_corroded_metal_1578.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Rusted%20Metal%20(2465701972).jpg",
+    "thirdImageCredit": {
+      "creator": "Leonardo Aguiar from São Paulo, Brazil",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Old_Rusted_Metal_(2465701972).jpg"
+    },
+    "deeperDive": "Rusting is an electrochemical process, which means different spots on the metal surface can act as tiny anodes and cathodes. Moisture helps ions move, and oxygen helps complete the reaction. Once rust starts, it can spread more easily because the new material often traps moisture and continues the cycle.\n\nEngineers fight corrosion with paint, coatings, alloys, galvanizing, and careful design. The chemistry is unavoidable, but the damage can be slowed dramatically when the right protective layer keeps oxygen and water away from the metal.",
+    "funFact": "Rust can spread underneath paint if moisture gets trapped.",
+    "references": [
+      "Britannica - corrosion and rust",
+      "AMPP - corrosion basics",
+      "RSC - electrochemistry of rusting"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "â€¢ Larry D. Hollis â€“ contributed to understanding the mechanism of corrosion",
-        "â€¢ A.K. Tariq â€“ explored rust prevention using nanotechnology",
-        "â€¢ K.L. Mittal â€“ developed a comprehensive model for predicting rust formation",
-        "â€¢ F.W. Kent â€“ pioneered research on corrosion and protection techniques",
-        "â€¢ S.C. Dexter â€“ demonstrated the importance of surface preparation in preventing rust",
-        "* **"
+        "Michael Faraday - helped explain electrochemistry",
+        "Marcel Pourbaix - advanced corrosion diagrams",
+        "Ulick Richardson Evans - corrosion science pioneer",
+        "Henry Bessemer - industrial metal production and protection"
       ],
       "places": [
-        "**",
-        "â€¢ The University of California, Los Angeles (UCLA) â€“ conducted pioneering research on rust prevention using nanotechnology",
-        "â€¢ The National Institute of Standards and Technology (NIST) â€“ developed a comprehensive model for predicting rust formation",
-        "â€¢ The Department of Materials Science at the University of Illinois at Urbana-Champaign â€“ studied the role of iron in biological systems",
-        "â€¢ The European Corrosion Federation (EUROCORR) â€“ promotes research, education, and collaboration on corrosion-related topics",
-        "* **"
+        "Steel bridges and shipyards - common corrosion sites",
+        "Industrial plants - corrosion-monitoring locations",
+        "Coastal regions - where salt speeds rusting",
+        "Laboratories studying electrochemistry - corrosion research centers"
       ],
       "years": [
-        "**",
-        "â€¢ 1884 â€“ Charles-Adolphe Wurtz first described the chemical composition of rust",
-        "â€¢ 1925 â€“ A.K. Tariq initiated research on rust prevention using nanotechnology",
-        "â€¢ 1950s â€“ Larry D. Hollis contributed to understanding the mechanism of corrosion",
-        "â€¢ 1999 â€“ K.L. Mittal published a comprehensive model for predicting rust formation",
-        "* **"
+        "Ancient times - people notice iron decay",
+        "19th century - electrochemistry explains rusting",
+        "20th century - corrosion science becomes an engineering field",
+        "Modern era - coatings and alloys reduce corrosion risk"
       ],
       "concepts": [
-        "**",
-        "â€¢ Oxidation â€“ the chemical reaction between iron and oxygen that leads to rust formation",
-        "â€¢ Electrochemical reactions â€“ the series of reactions involved in rust formation, including anode-cathode interactions",
-        "â€¢ Nanotechnology â€“ innovative methods for preventing rust using nanoscale materials",
-        "â€¢ Corrosion â€“ the broader term encompassing rust formation as well as other metal-related phenomena"
+        "Oxidation - electron loss in iron",
+        "Corrosion - gradual chemical destruction of a metal",
+        "Electrochemistry - chemistry involving electron transfer",
+        "Passivation - a protective surface layer",
+        "Galvanization - zinc coating that slows rusting"
       ]
     }
   }

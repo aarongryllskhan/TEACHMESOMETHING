@@ -1,41 +1,74 @@
 {
   "topic": "The Genius of Floating Buildings",
   "title": "Elevating the Future of Architecture Through Floating Structural Design",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Amsterdam_airphoto.jpg/1920px-Amsterdam_airphoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20230412110937",
+  "imageCredit": {
+    "creator": "BMZ (Bureau Monumentenzorg / Bureau Monumenten & Archeologie, gemeente Amsterdam); original uploader Siebrand at nl.wikipedia",
+    "source": "Wikimedia Commons",
+    "license": "Copyrighted free use with required attribution (source acknowledgment required)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amsterdam_airphoto.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Amsterdam_airphoto.jpg"
+  },
   "lesson": {
-    "learn": "Floating buildings are an innovative architectural approach where structures are built on buoyant platforms or stilts to adapt to rising sea levels, flooding, and limited land availability. While early examples can be traced to traditional stilt houses in regions such as the Netherlands and Southeast Asia, modern floating architecture now integrates advanced materials, hydrodynamic engineering, and computational design. These systems allow buildings to remain stable on water while responding dynamically to environmental conditions such as waves, tides, and storms. Contemporary projects explore floating homes, research stations, and even entire modular floating cities as part of sustainable urban development strategies.",
-    "simpler": "Floating buildings are structures designed to stay on top of water instead of sitting on land. They work like stable platforms that can hold homes, offices, or public spaces. Just like boats float because of how they are shaped and balanced, floating buildings use special materials and designs to stay stable while being used every day.",
-    "keyTakeaway": "Floating architecture represents a sustainable response to climate change and urban expansion by allowing cities to adapt to rising sea levels and environmental pressures while reducing land dependency.",
-    "deeperDive": "Modern floating architecture combines engineering disciplines such as buoyancy control, structural load distribution, and marine materials science. Projects like Snøhetta’s underwater restaurant in Norway demonstrate how submerged and floating structures can integrate with natural ecosystems. In parallel, experimental developments in 3D-printed construction and modular floating platforms are being explored in coastal regions such as the Netherlands and parts of Asia. Research institutions are also investigating self-healing materials and bio-inspired structural systems that can extend the lifespan of floating infrastructure while reducing maintenance costs. These innovations suggest a future where entire coastal cities could be reconfigured as adaptive floating networks.",
-    "funFact": "Some experimental floating buildings are designed to generate energy from waves and tides, turning the movement of water into usable electricity while simultaneously stabilizing the structure.",
+    "learn": "As climate change, sea-level rise, coastal flooding, and urban land scarcity increasingly challenge traditional construction, floating architecture has emerged as a transformative engineering solution that rethinks how structures interact with water. Built on buoyant foundations such as reinforced concrete pontoons, steel hulls, or modular displacement platforms, floating buildings are designed to remain stable while adapting dynamically to rising and falling water levels. While traditional water-adaptive settlement systems have existed for centuries in places such as Southeast Asia and low-lying Europe, contemporary design combines naval architecture, hydrodynamics, structural engineering, and sustainability science. The Netherlands—where much of the country lies at or below sea level—has become a global leader in this field, integrating floating neighborhoods, water plazas, and adaptive urban systems into long-term resilience planning. Modern floating structures are engineered not only for buoyancy, but also for load balance, storm resilience, utility integration, and environmental compatibility, opening possibilities for homes, schools, farms, research stations, and even entire floating urban districts.",
+    "simpler": "Floating buildings are structures designed to stay on water instead of fixed land by using stable buoyant foundations, similar to very large engineered rafts. They rise and fall with changing water levels, helping communities adapt to floods or sea-level rise. Modern designs combine building engineering with boat-like principles so people can safely live or work on water.",
+    "keyTakeaway": "Floating architecture offers a practical and increasingly important response to climate adaptation by combining buoyancy engineering, hydrodynamic stability, and sustainable urban planning to expand habitable space while reducing vulnerability to flooding and rising seas.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Rotterdam_-_Drijvend_Paviljoen.jpg/1920px-Rotterdam_-_Drijvend_Paviljoen.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20190413145010",
+    "learnImageCredit": {
+      "creator": "Fred Romero",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Rotterdam_-_Drijvend_Paviljoen.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Houseboat%2C%20Amsterdam.jpg",
+    "thirdImageCredit": {
+      "creator": "Rodhullandemu",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Houseboat,_Amsterdam.jpg"
+    },
+    "deeperDive": "The engineering foundation of floating architecture is based on Archimedes’ principle, where buoyancy is achieved when a structure displaces a mass of water equal to its own weight. Modern floating systems require far more than flotation alone: engineers must carefully calculate center of gravity, center of buoyancy, live load variation, wave motion, and anchoring systems to ensure long-term habitability and safety. Concrete pontoons are widely used because they combine durability, buoyancy, and corrosion resistance. Mooring systems such as pilings, flexible tethering, or guideposts keep buildings stable while allowing vertical movement during tides or floods. Advanced hydrodynamic simulations model storm surges, wake forces, and wave resonance to optimize performance. Floating urban projects increasingly integrate renewable energy systems, rainwater harvesting, greywater recycling, and modular expansion strategies. In amphibious architecture, some structures remain grounded under normal conditions but float upward during floods. Dutch projects such as Rotterdam’s Floating Pavilion demonstrate how floating civic spaces can function as prototypes for future climate-resilient districts. Research is also exploring self-healing marine concrete, biofouling-resistant materials, and wave-energy harvesting systems. These innovations suggest that water-based urbanism may become a major strategy for future megacities facing land scarcity and climate instability.",
+    "funFact": "Some floating neighborhoods are engineered so effectively that residents may not even realize their homes are floating during calm conditions because movement can be nearly imperceptible.",
+    "references": [
+      "United Nations Human Settlements Programme (UN-Habitat) — Climate adaptation and resilient infrastructure planning.",
+      "Dutch Delta Programme — Water management, sea-level adaptation, and floating urban systems.",
+      "American Society of Civil Engineers (ASCE) — Marine structural engineering and buoyancy systems.",
+      "Rotterdam Climate Initiative — Floating Pavilion and adaptive infrastructure research.",
+      "Intergovernmental Panel on Climate Change (IPCC) — Coastal resilience and sea-level rise adaptation.",
+      "Royal Institution of Naval Architects — Principles of buoyancy, marine stability, and floating structures."
+    ],
     "keyElements": {
       "people": [
-        "Bjarke Ingels – architect known for innovative sustainable and adaptive design concepts",
-        "Ma Yansong – Chinese architect known for integrating natural landscapes into modern architecture",
-        "Patrik Schumacher – architect associated with large-scale experimental structural design",
-        "Norman Foster – architect known for high-tech and sustainable architectural systems",
-        "Thomas Heatherwick – designer known for experimental and large-scale public structures"
+        "Koen Olthuis — Dutch architect specializing in floating architecture and water-based urbanism",
+        "Bjarke Ingels — Architect known for large-scale adaptive and climate-responsive design",
+        "Norman Foster — Architect associated with sustainable infrastructure innovation",
+        "Fred Romero — Photographer documenting floating architectural developments",
+        "Modern marine and structural engineers — Specialists integrating naval and urban systems"
       ],
       "places": [
-        "Netherlands – long history of water-based housing and flood-adaptive infrastructure",
-        "Norway – site of experimental floating and underwater architectural projects",
-        "United States – location of multiple floating city and coastal resilience research projects",
-        "China – site of landscape-integrated architectural developments and water-adaptive designs",
-        "Amsterdam, Netherlands – city known for canal-based urban planning and water-adaptive housing systems"
+        "Amsterdam, Netherlands — Major center of canal-based urbanism and floating housing innovation",
+        "Rotterdam, Netherlands — Experimental hub for floating civic architecture",
+        "The Netherlands — Global leader in flood adaptation and water-based infrastructure",
+        "Southeast Asia — Historic region of water-adaptive settlement traditions",
+        "Coastal megacities worldwide — Future focus of floating resilience strategies"
       ],
       "years": [
-        "1950s – early modern experimentation with floating housing in flood-prone regions",
-        "2000s – rapid development of computational design and marine engineering for floating structures",
-        "2015 – completion of major experimental floating architecture projects in Europe",
-        "2020 – advancement of self-healing and adaptive materials research for marine construction"
+        "Traditional era — Longstanding global development of water-adaptive settlements",
+        "20th century — Early modern floating housing experimentation",
+        "2000s — Growth of computational hydrodynamic design",
+        "2010s — Expansion of floating architecture pilot projects",
+        "21st century — Climate adaptation accelerates floating urban research"
       ],
       "concepts": [
-        "Buoyancy and hydrodynamic stability",
-        "Sustainable urban development",
-        "Climate adaptation architecture",
-        "Modular construction systems",
-        "Renewable energy integration in infrastructure",
-        "Self-healing and adaptive materials",
-        "Bio-inspired engineering design"
+        "Buoyancy engineering — Structural flotation through displacement principles",
+        "Hydrodynamic stability — Management of motion caused by waves and tides",
+        "Climate adaptation architecture — Design for environmental resilience",
+        "Floating urbanism — Water-based city planning strategies",
+        "Marine materials science — Durable materials for aquatic environments",
+        "Renewable marine integration — Energy systems using aquatic environments",
+        "Amphibious architecture — Structures capable of floating during flood events"
       ]
     }
   }

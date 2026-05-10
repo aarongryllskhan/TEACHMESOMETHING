@@ -1,12 +1,41 @@
 {
   "topic": "How-Cells-Recognize-Foreign-Invaders",
   "title": "Understanding the Immune System's Surveillance Mechanisms",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Immune_Response.svg",
+  "imageCredit": {
+    "creator": "Sstern19",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Immune_Response.svg"
+  },
   "lesson": {
-    "learn": "Cells possess an extraordinary ability to detect and respond to foreign invaders, such as viruses, bacteria, and other pathogens. This recognition process, discovered in the late 19th century by Elie Metchnikoff, is pivotal for the immune system's defense mechanism against infections. The process involves intricate interactions between various cells, proteins, and molecular signals, somewhat akin to a sophisticated airport security system that can identify even the smallest suspicious cargo.",
-    "simpler": "Imagine your body as a fortified city, with cells acting as vigilant sentries patrolling the streets for intruders. These sentries, such as macrophages and dendritic cells, can distinguish foreign objects, like bacteria or viruses, and trigger an alarm to mobilize other defenders to attack. This process is akin to a multi-step protocol that requires precise communication and coordination.",
-    "keyTakeaway": "Key to the immune system's surveillance is the role of pattern recognition receptors (PRRs) that detect pathogen-associated molecular patterns (PAMPs). This interaction sets off a cascade of signals, ultimately engaging immune cells to eliminate the invaders. Understanding this intricate dance can help us develop more effective therapies.",
-    "deeperDive": "Research has shown that cells utilize PRRs, such as TLR4, to recognize specific lipopolysaccharides (LPS) from Gram-negative bacteria, leading to a strong inflammatory response. Further studies demonstrate that autophagy contributes to recognizing and eliminating intracellular pathogens. The human immune system also employs various evasion strategies to counteract pathogen-induced damage, for instance, some viruses exploit host cell signaling pathways to promote their replication. This complex interplay underscores the dynamic nature of immune defense.",
-    "funFact": "Did you know that certain plants, like Arabidopsis thaliana, have evolved sophisticated immune systems to defend against fungal infections? Scientists have discovered that these plants release specific chemical signals that activate immune responses in neighboring plants, illustrating a unique cooperation between species. Furthermore, human bodies contain approximately 100 trillion cells, each with distinct identities and functions.",
+    "learn": "Cells recognize foreign invaders by detecting molecular patterns that do not belong there. Immune receptors sense unusual proteins, sugars, or nucleic acids, then send alarm signals that activate inflammation and targeted defense. Antigen presentation helps the immune system identify what should be attacked and what should be left alone.\n\nThat recognition has to be fast and careful at the same time. If the body misses a real threat, infection spreads. If it reacts too broadly, healthy tissue can be damaged instead.",
+    "simpler": "Cells notice invaders by spotting molecules that look wrong. That warning helps the immune system attack germs and protect healthy tissue.",
+    "keyTakeaway": "Foreign-invader recognition depends on pattern detection, antigen presentation, and immune signaling.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Virus_002.png",
+    "learnImageCredit": {
+      "creator": "Sarbasst Braian",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Virus_002.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Hand_washing.png",
+    "thirdImageCredit": {
+      "creator": "James Moore200",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hand_washing.png"
+    },
+    "deeperDive": "Innate immunity gives the body its first fast response through receptors that detect common microbial patterns. Adaptive immunity then refines the response by using T cells and B cells to target specific antigens. Cytokines coordinate the message so the right cells arrive in the right place at the right time.\n\nThis is a system of recognition, memory, and restraint. The immune system has to learn what is dangerous while avoiding unnecessary attacks on the body’s own cells. That balance is what makes immune defense so effective and so easy to disturb when it goes wrong.",
+    "funFact": "Immune cells can recognize danger patterns before they know the exact germ.",
+    "references": [
+      "CDC - immune system basics",
+      "Nature Education - innate and adaptive immunity",
+      "Britannica - antigen presentation"
+    ],
     "keyElements": {
       "people": [
         "**",

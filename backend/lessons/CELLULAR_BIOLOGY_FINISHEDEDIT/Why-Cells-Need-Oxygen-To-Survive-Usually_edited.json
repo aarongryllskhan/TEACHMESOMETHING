@@ -1,12 +1,41 @@
 {
   "topic": "The Importance of Oxygen for Cellular Function",
   "title": "Understanding the Role of Oxygen in Cellular Energy Production",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitochondrion_%28standalone_version%29-en.svg",
+  "imageCredit": {
+    "creator": "Kelvinsong",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mitochondrion_(standalone_version)-en.svg"
+  },
   "lesson": {
-    "learn": "Cells, the fundamental building blocks of life, require a constant supply of oxygen to produce energy efficiently. According to research, approximately 50% of a cell's energy expenditure is dedicated to transporting oxygen from the bloodstream to its various compartments. This process, known as oxidative phosphorylation, is crucial for maintaining proper cellular function, growth, and division. In this process, oxygen acts as a co-factor for the enzyme ATP synthase, which generates energy in the form of ATP.",
-    "simpler": "To understand the importance of oxygen in cellular energy production, consider the analogy of a fire burning in a fireplace. Just as a fire needs oxygen to sustain itself, cells require oxygen to produce energy through oxidative phosphorylation. The process is vital for cellular function and survival.",
-    "keyTakeaway": "Cells require a consistent supply of oxygen to maintain energy production through oxidative phosphorylation, which is essential for cellular homeostasis, growth, and division.",
-    "deeperDive": "Mitochondrial dysfunction, often caused by inadequate oxygen delivery, is associated with various diseases, including neurodegenerative disorders (e.g., Alzheimer's, Parkinson's), cardiovascular disease, and cancer. The process of oxidative phosphorylation involves four main stages: electron transfer, chemiosmosis, ATP synthesis, and proton pumping. In plants, photosynthesis provides energy in the form of oxygen through the conversion of light into chemical bonds using water, carbon dioxide, and chlorophyll. Permeabilized cells, like those used in cellular respiration research, provide further insights into the complexities of cellular energy production.",
-    "funFact": "Antoine Lavoisier, a French chemist, discovered the essential component of oxygen in respiration in 1777. Lavoisier, often credited with the concept of oxidation, introduced the term 'oxygen' from the Greek words 'oxys' (acid) and 'genes' (producer).",
+    "learn": "Most cells depend on oxygen because oxygen lets them extract far more energy from food. In mitochondria, oxygen serves as the final electron acceptor in the electron transport chain, which allows oxidative phosphorylation to produce large amounts of ATP. Without that flow, cells can still make some energy, but far less efficiently.\n\nThat efficiency is why oxygen matters so much to animals, plants, and many microbes. It is not just about breathing; it is about keeping cellular energy production fast enough to support life.",
+    "simpler": "Cells usually need oxygen because it helps mitochondria make ATP efficiently. Without oxygen, cells can still work, but they get much less energy.",
+    "keyTakeaway": "Oxygen keeps cellular respiration efficient by letting mitochondria make far more ATP.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/ATP_synthase.svg",
+    "learnImageCredit": {
+      "creator": "TheBartgry",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ATP_synthase.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/ATP_Synthase_Model.png",
+    "thirdImageCredit": {
+      "creator": "Atpsynthesizer",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ATP_Synthase_Model.png"
+    },
+    "deeperDive": "The inner mitochondrial membrane is where the energy conversion happens. Electrons move through protein complexes, protons are pumped across the membrane, and the resulting gradient powers ATP synthase. That is a controlled energy system, not a simple burn reaction.\n\nWhen oxygen is scarce, cells can switch to less efficient backup pathways such as fermentation. That helps them survive temporarily, but it cannot sustain the same level of performance for long. The need for oxygen is really the need for high-efficiency energy production in a compact biological system.",
+    "funFact": "Oxygen is the last stop in the cell’s energy chain, which is why mitochondria depend on it so heavily.",
+    "references": [
+      "NIH - cellular respiration and mitochondria",
+      "Nature Education - oxidative phosphorylation",
+      "Britannica - mitochondria"
+    ],
     "keyElements": {
       "people": [
         "â€¢ Antonie van Leeuwenhoek - Dutch tradesman who first observed microorganisms using a microscope",

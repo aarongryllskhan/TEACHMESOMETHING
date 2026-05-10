@@ -1,0 +1,67 @@
+{
+  "topic": "Quantum Measurement",
+  "title": "Why Schrödinger's Cat Does Not Mean Reality Stops Existing",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Schr%C3%B6dinger_cat.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "File:Kamee01.jpg: Martin Bahmann File:Geiger counter.jpg: Boffy b derivative work: Anarkman",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Schr%C3%B6dinger_cat.png"
+  },
+  "lesson": {
+    "learn": "Schrödinger's cat was never meant to be a literal claim that cats are both alive and dead forever. It was a thought experiment designed to expose how strange quantum mechanics looks when you try to apply it to everyday objects. The point is the measurement problem: before observation, a quantum system can exist in a superposition of possibilities.\n\nThe cat story forces us to ask when, exactly, a quantum possibility becomes a definite outcome. That question is still debated today.",
+    "simpler": "Schrödinger's cat is a thought experiment about how quantum rules seem weird when we apply them to everyday life.",
+    "keyTakeaway": "The cat thought experiment highlights the measurement problem, not a literal claim about cats.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Collapsed-wave-function.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "MikeRun",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Collapsed-wave-function.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Schrodingers_cat.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Dhatfield",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Schrodingers_cat.svg"
+    },
+    "deeperDive": "The real issue is that quantum theory gives extremely accurate predictions, but it is not always clear what happens between the math and the measured result. Different interpretations try to explain that gap in different ways. Some say observation collapses the wave function; others say all outcomes persist in branching universes; others look for deeper hidden structures.\n\nSchrödinger's cat remains famous because it turns a subtle physics problem into a vivid image. It is still one of the cleanest ways to talk about the boundary between quantum probability and the world we experience.",
+    "funFact": "The original thought experiment used a cat, a box, and a radioactive atom.",
+    "references": [
+      "Britannica - Schrödinger's cat",
+      "Stanford Encyclopedia of Philosophy - quantum mechanics interpretations",
+      "American Physical Society - measurement problem"
+    ],
+    "keyElements": {
+      "people": [
+        "Erwin Schrödinger - proposed the thought experiment",
+        "Quantum physicists - scientists debating interpretation",
+        "Philosophers of science - people studying what the math means",
+        "Experimenters - researchers testing quantum behavior"
+      ],
+      "places": [
+        "Physics classrooms - where the thought experiment is taught",
+        "Quantum labs - where measurement is studied",
+        "Philosophy seminars - where interpretations are debated",
+        "Research institutes - where quantum theory is explored"
+      ],
+      "years": [
+        "1935 - Schrödinger introduces the cat thought experiment",
+        "20th century - interpretation debates deepen",
+        "21st century - experiments probe quantum measurement more closely",
+        "Present day - the question remains open"
+      ],
+      "concepts": [
+        "Superposition - multiple possible states at once",
+        "Measurement problem - the puzzle of how outcomes become definite",
+        "Wave function - the mathematical description of a quantum system",
+        "Interpretation - a way of understanding quantum theory",
+        "Collapse - the idea that a measurement selects one outcome"
+      ]
+    }
+  }
+}

@@ -1,42 +1,67 @@
 {
-  "topic": "The-Mystery-of-Rogue-Planets",
-  "title": "Understanding Rogue Planets: The Enigmatic Objects of Our Universe",
+  "topic": "The Mystery of Rogue Planets",
+  "title": "How Astronomers Study Planets That Drift Through Space Alone",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Rogueplanet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Pablo Carlos Budassi",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Rogueplanet.jpg"
+  },
   "lesson": {
-    "learn": "Rogue planets are planetary-mass objects that do not orbit a star, instead drifting freely through interstellar space. They may form in protoplanetary disks like normal planets and are later ejected through gravitational interactions, or they may form directly from collapsing gas clouds in a starless environment. Observational evidence is primarily indirect, with detections relying on gravitational microlensing surveys such as those conducted by large-scale sky monitoring projects. Estimates suggest that the Milky Way could contain billions to hundreds of billions of rogue planets, potentially exceeding the number of stars in the galaxy. Because they receive no steady stellar energy input, their thermal evolution is dominated by internal heat from formation and radioactive decay, making their surfaces extremely cold and dark, though subsurface oceans may still exist in some cases depending on composition and insulation.",
-    
-    "simpler": "Rogue planets are like planets that don’t belong to any solar system. Instead of orbiting a star like Earth or Jupiter, they travel alone through space. Some are thought to have been kicked out of their original systems when other planets or stars pushed them away, while others may have formed on their own from floating clouds of gas. Even though they are hard to see, scientists think there could be many of them drifting through the galaxy.",
-    
-    "keyTakeaway": "Rogue planets are important because they show that planet formation and survival is not always tied to a stable orbit around a star. Their existence suggests that planetary systems are dynamically unstable over long timescales and that free-floating planets may be one of the most common types of planetary objects in the galaxy.",
-    
-    "deeperDive": "Rogue planets are detected primarily through gravitational microlensing, where their gravity briefly bends and magnifies the light of a background star as they pass in front of it. Surveys such as OGLE and MOA have identified candidate free-floating planetary-mass objects, though distinguishing between truly unbound planets and wide-orbit planets remains challenging. The formation pathways of rogue planets are still debated: N-body simulations of young planetary systems show that close gravitational encounters between giant planets can eject lower-mass bodies into interstellar space, especially during early dynamical instabilities. Alternatively, some models propose that isolated fragmentation of molecular clouds can directly produce planetary-mass objects without a host star. Theoretical work also explores their potential for retaining subsurface oceans if they contain sufficient radioactive heating and insulating ice layers, raising speculative but scientifically grounded possibilities for transient habitability.",
-    
-    "funFact": "Astronomers estimate that there may be far more rogue planets in the Milky Way than stars, meaning that free-floating planets could be one of the most common types of objects in the galaxy.",
-    
+    "learn": "Rogue planets are planetary-mass objects that are not gravitationally bound to a star. Instead of moving around a sun like Earth or Jupiter, they travel through interstellar space on their own. Astronomers think they can form in at least two ways. Some begin life in ordinary planetary systems and are later ejected by gravitational encounters. Others may form more directly from collapsing gas clouds, in a process that looks more like star formation than planet formation.\n\nBecause rogue planets do not reflect starlight in the usual way, they are extremely hard to detect. Astronomers often find them indirectly through gravitational microlensing, when the object's gravity briefly bends and brightens the light of a background star. Those events are short, rare, and difficult to catch, which is why rogue planets remain one of the most elusive populations in astronomy.\n\nEven so, they matter because they show how dynamic planetary systems can be. A planet does not need to stay near a star forever, and the galaxy may contain far more free-floating planets than bound ones. That makes rogue planets an important clue about planetary formation, instability, and the hidden inventory of the Milky Way.",
+    "simpler": "Rogue planets are planets that do not orbit a star. They drift alone through space, and scientists think some were kicked out of their original systems while others may have formed on their own. Because they are dark and cold, astronomers usually find them by watching how their gravity bends the light from distant stars.",
+    "keyTakeaway": "Rogue planets show that planets can exist without a star, and their discovery depends mostly on indirect methods like gravitational microlensing.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/00/Gravitational_lens.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Image credit: NASA Ames/JPL-Caltech/T. Pyle",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gravitational_lens.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Locations_of_the_rogue_planets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "ESO/N. Risinger (skysurvey.org)",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Locations_of_the_rogue_planets.jpg"
+    },
+    "deeperDive": "Microlensing works because gravity curves spacetime, so even an invisible object can act like a lens. If a rogue planet passes in front of a background star, the star can briefly brighten in a characteristic way. That is why large survey programs are so important: the signal is short and easy to miss. Some detections are unambiguous, while others are candidates that could also be wide-orbit planets instead of truly free-floating worlds.\n\nThe formation question is still open. In young planetary systems, giant planets can destabilize smaller bodies and throw them into interstellar space. Simulations of crowded early systems show that this can happen more often than people once expected. Other rogue planets may have formed in isolation from a collapsing cloud fragment, blurring the line between planet and brown dwarf. Either way, these objects push astronomers to rethink where the boundary between star-like and planet-like formation really lies.\n\nThey also raise an interesting possibility about habitability. A rogue planet would be dark and frigid on the surface, but if it retained a thick atmosphere, internal heat, or an ice shell over a subsurface ocean, it might still preserve local environments with liquid water. That does not make rogue planets likely homes for life, but it does make them scientifically interesting in a very unusual way.",
+    "funFact": "There may be billions or even trillions of rogue planets in the Milky Way, which means lone planets could be far more common than the planets we see in ordinary solar systems.",
+    "references": [
+      "Review articles on rogue planets and free-floating planetary-mass objects.",
+      "Gravitational microlensing survey papers from OGLE and MOA.",
+      "Planet formation literature on ejection and cloud fragmentation.",
+      "Wikimedia Commons - Image metadata, licensing, creator, source, and file-page verification."
+    ],
     "keyElements": {
       "people": [
-        "Sara Seager – astrophysicist known for work on exoplanet atmospheres and planetary detection methods",
-        "Kaitlin Kratter – researcher specializing in planet formation and dynamical evolution of planetary systems",
-        "Simon Portegies Zwart – astrophysicist known for simulations of star clusters and dynamical ejection of planets",
-        "John Mather – Nobel Prize-winning physicist known for work on cosmic background radiation and early-universe structure"
+        "Sara Seager - researcher known for exoplanet atmospheres and detection methods",
+        "Kaitlin Kratter - researcher in planet formation and dynamical evolution",
+        "Simon Portegies Zwart - astrophysicist known for dynamical ejection simulations",
+        "John Mather - Nobel-winning physicist with major cosmology contributions"
       ],
       "places": [
-        "OGLE Survey Telescope – wide-field observatory used for detecting microlensing events that reveal hidden planetary-mass objects",
-        "Mauna Kea Observatories – major site for infrared and deep-sky astronomical observations relevant to exoplanet research",
-        "European Southern Observatory – key institution for high-precision stellar and gravitational lensing observations",
-        "Andromeda Galaxy – nearby spiral galaxy used for comparative studies of galactic structure and potential planetary populations"
+        "OGLE Survey Telescope - wide-field observatory used for microlensing studies",
+        "Mauna Kea Observatories - major site for infrared astronomical observation",
+        "European Southern Observatory - key institution for high-precision stellar studies",
+        "Andromeda Galaxy - nearby galaxy used in broader galactic comparison studies"
       ],
       "years": [
-        "1980s – early theoretical proposals suggest the existence of free-floating planets in interstellar space",
-        "1990s – development of gravitational microlensing techniques enables indirect detection of isolated planetary-mass objects",
-        "2011 – large microlensing surveys report candidate rogue planet detections in the Milky Way",
-        "2017 – statistical studies refine estimates suggesting billions of rogue planets may exist in the galaxy"
+        "1980s - early theoretical proposals suggest free-floating planets may exist",
+        "1990s - microlensing becomes a practical detection method",
+        "2011 - candidate rogue planet detections gain attention",
+        "2017 - statistical studies suggest rogue planets may be extremely common"
       ],
       "concepts": [
-        "Rogue planet formation – creation of planetary-mass objects either through ejection from star systems or direct collapse of gas clouds",
-        "Gravitational microlensing – method of detecting objects by observing light bending from background stars",
-        "Planetary ejection – process where gravitational interactions remove planets from their host system",
-        "Interstellar medium – low-density gas and dust filling space between star systems",
-        "Free-floating planetary-mass objects – bodies with planet-like mass but no gravitationally bound host star"
+        "Rogue planet formation - creation by ejection or cloud collapse",
+        "Gravitational microlensing - detecting objects by how they bend background light",
+        "Planetary ejection - removal of a planet from its host system",
+        "Interstellar medium - gas and dust between star systems",
+        "Free-floating planetary-mass object - a planet-sized body without a host star"
       ]
     }
   }

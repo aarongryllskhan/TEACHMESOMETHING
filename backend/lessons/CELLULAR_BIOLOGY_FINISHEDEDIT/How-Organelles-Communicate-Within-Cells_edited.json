@@ -1,12 +1,41 @@
 {
   "topic": "Organelle Interaction and Communication",
   "title": "Mechanisms of Organelle Interaction and Communication in Eukaryotic Cells",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Golgi_apparatus_%28standalone_version%29-en.svg",
+  "imageCredit": {
+    "creator": "Kelvinsong",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Golgi_apparatus_(standalone_version)-en.svg"
+  },
   "lesson": {
-    "learn": "Cells function as complex, dynamic systems with various organelles interactinig through signaling pathways and molecular messengers to maintain cellular homeostasis.",
-    "simpler": "Imagine a cell as an interconnected web of organelles, each with specialized functions, working together to maintain internal balance and coordinate cellular processes.",
-    "keyTakeaway": "Organelle communication occurs through specific signaling pathways, involving molecular messengers such as reactive oxygen species (ROS), nitric oxide (NO), and calcium, to regulate cellular responses to stress, metabolism, and cell division.",
-    "deeperDive": "Recent studies have elucidated the importance of mitochondrial-lysosomal interactions in autophagy, where specific molecular signals, such as Bnip3 and BNIP3L, facilitate the formation of autophagosomes and subsequent degradation of damaged or dysfunctional organelles. Additionally, research has highlighted the role of endoplasmic reticulum (ER)-mitochondria contacts in regulating calcium signaling pathways, impacting ATP production, and lipid and protein synthesis.",
-    "funFact": "The discovery of contact-dependent signaling in certain immune cells, such as macrophages, has revealed the significance of physical interactions between organelles, like mitochondria and lysosomes, in coordinating immune responses to pathogens.",
+    "learn": "Organelles communicate by sharing cargo, signals, and membrane traffic inside the cell. The endoplasmic reticulum, Golgi apparatus, mitochondria, lysosomes, and other compartments constantly exchange information so the cell can build proteins, move molecules, and stay organized. This is not random drift; it is coordinated internal logistics.\n\nThat communication lets one part of the cell influence another almost immediately. A change in energy, calcium, or protein load can ripple through the entire system.",
+    "simpler": "Organelles send messages with molecules and vesicles. They work together so the cell can build, move, and repair what it needs.",
+    "keyTakeaway": "Cells stay coordinated because organelles constantly trade signals, cargo, and energy.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Ribosome.png",
+    "learnImageCredit": {
+      "creator": "pluma",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ribosome.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitochondrion_%28standalone_version%29-en.svg",
+    "thirdImageCredit": {
+      "creator": "Kelvinsong",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mitochondrion_(standalone_version)-en.svg"
+    },
+    "deeperDive": "Communication inside the cell happens through vesicles, protein tags, membrane contact sites, and chemical gradients. The Golgi sorts and ships cargo, ribosomes build proteins, and mitochondria provide energy and metabolic signals. When these systems talk to each other well, the cell stays responsive and efficient.\n\nIf the conversation breaks down, problems spread quickly. Miscommunication can disrupt secretion, energy supply, waste disposal, or stress response. In that sense, a cell is less like a machine with isolated parts and more like a busy city where every department has to coordinate.",
+    "funFact": "A cell’s organelles are always exchanging more information than they look like from the outside.",
+    "references": [
+      "NCBI Bookshelf - organelle communication",
+      "Nature Education - intracellular trafficking",
+      "Britannica - Golgi apparatus and mitochondria"
+    ],
     "keyElements": {
       "people": [
         "Albert Claude",

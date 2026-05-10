@@ -1,46 +1,67 @@
 {
-  "topic": "The Formation and Evolution of Jupiter",
-  "title": "Jupiter's Bulk Composition and Growth Patterns",
+  "topic": "The Mystery of Why Jupiter Is So Massive",
+  "title": "How Jupiter Grew Into the Solar System's Giant",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Protoplanetary_Disk_%28Protoplanetary-Disk-EN%29.jpg",
+  "imageCredit": {
+    "creator": "NOIRLab/NSF/AURA/P. Marenfeld",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Protoplanetary_Disk_(Protoplanetary-Disk-EN).jpg"
+  },
   "lesson": {
-    "learn": "Jupiter is the largest planet in the Solar System, with a diameter of about 142,984 km—roughly 11 times that of Earth—and a mass of 1.898 × 10^27 kg, more than 300 times Earth's mass. It contains more than twice the combined mass of all other planets. Its composition is dominated by hydrogen and helium, indicating it formed early in the Solar System’s history by rapidly accumulating gas from the surrounding protoplanetary disk. Jupiter’s immense gravity allowed it to become a gas giant before the solar nebula dissipated.",
-    
-    "simpler": "Jupiter is a giant ball of mostly gas that formed very early in the Solar System. It is so massive that over 300 Earths could fit into it, and it has more mass than all the other planets combined. Scientists believe it grew quickly by pulling in huge amounts of gas and dust from the disk of material around the young Sun before that material disappeared.",
-    
-    "keyTakeaway": "Jupiter’s enormous size is the result of early, rapid formation in the protoplanetary disk, where its strong gravity allowed it to accumulate vast amounts of hydrogen and helium before the surrounding gas was gone. Its presence has also strongly shaped the structure and stability of the Solar System, influencing the orbits of other planets.",
-    
-    "deeperDive": "Current planetary formation models suggest Jupiter began forming within a few million years after the Sun, likely through core accretion followed by runaway gas capture once its core reached a critical mass. This rapid growth occurred while the protoplanetary disk was still gas-rich, allowing Jupiter to dominate local material and grow into a gas giant. Its formation significantly affected the dynamics of the early Solar System: gravitational interactions with the protoplanetary disk and neighboring planetesimals helped sculpt the asteroid belt and influenced the migration of other giant planets. Jupiter also acts as a gravitational stabilizer today, helping reduce the frequency of some comet and asteroid impacts on the inner Solar System, including Earth, while also occasionally redirecting objects inward depending on orbital resonances.",
-    
-    "funFact": "Jupiter rotates so quickly that a full day there lasts just under 10 hours, despite the planet being more than 1,300 times the volume of Earth. This rapid rotation also causes its atmosphere to bulge at the equator, making it noticeably wider than it is tall.",
-    
+    "learn": "Jupiter likely began with a solid core that formed very early in the young Solar System. Once that core became large enough, its gravity could pull in gas from the surrounding protoplanetary disk faster than the disk was being dispersed. That runaway growth is why Jupiter ended up with more mass than all the other planets combined and became the dominant planet in the Solar System.",
+    "simpler": "Jupiter got huge because it formed early, built a big core, and then grabbed a lot of gas before the young Sun's disk disappeared.",
+    "keyTakeaway": "Jupiter became massive because it formed fast enough to capture enormous amounts of hydrogen and helium before the protoplanetary disk was gone.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Protoplanet_HD_169142b.gif",
+    "learnImageCredit": {
+      "creator": "ESO VLT/SPHERE - Monash University - Iain Hammond et al., adapted and mixed by Meli_thev",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Protoplanet_HD_169142b.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Jupiter_interior.png",
+    "thirdImageCredit": {
+      "creator": "NASA/R.J. Hall",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Jupiter_interior.png"
+    },
+    "deeperDive": "The leading model for Jupiter's birth is core accretion: a solid core forms first, then a gas giant grows rapidly once it crosses a critical mass threshold. Some research also explores disk instability as a faster alternative, but core accretion remains the standard explanation because it fits the Solar System's structure well. Jupiter's gravity likely influenced the asteroid belt, shepherded material in the early disk, and affected the migration history of the other giant planets. Even today, Jupiter helps shape the impact environment of the inner Solar System by both deflecting and redirecting small bodies.",
+    "funFact": "Jupiter spins so fast that its day is just under 10 hours, even though the planet is enormous.",
+    "references": [
+      "NASA Solar System Exploration - Jupiter",
+      "Juno mission science pages",
+      "Review articles on core accretion and disk instability",
+      "NOIRLab protoplanetary disk research"
+    ],
     "keyElements": {
       "people": [
-        "Galileo Galilei - First observed Jupiter’s four largest moons (Io, Europa, Ganymede, and Callisto) in 1610, providing key evidence against Earth-centered cosmology",
-        "Gerard Kuiper - Influential planetary scientist who helped shape modern theories of planetary formation and Solar System evolution",
-        "Alan Boss - Astrophysicist known for modeling giant planet formation, including disk instability scenarios",
-        "Scott Tremaine - Theoretical astrophysicist who contributed to understanding planetary dynamics and orbital evolution",
-        "Heidi Hammel - Planetary astronomer who has extensively studied Jupiter’s atmosphere and storms"
+        "Galileo Galilei - first observed Jupiter's major moons",
+        "Alan Boss - giant planet formation researcher",
+        "Scott Tremaine - planetary dynamics theorist"
       ],
       "places": [
-        "NASA Jet Propulsion Laboratory - Major center for planetary missions, including spacecraft studying Jupiter",
-        "Keck Observatory - Provides high-resolution observations of Jupiter’s atmosphere and weather systems",
-        "University of California, Berkeley - Strong hub for planetary science and Solar System formation research",
-        "European Space Agency (ESA) mission control - Coordinates missions such as JUICE exploring Jupiter’s system",
-        "Space Telescope Science Institute - Supports space-based observations of Jupiter and its moons"
+        "NASA Jet Propulsion Laboratory - planetary mission hub",
+        "Keck Observatory - Jupiter observations",
+        "The early protoplanetary disk - Jupiter's birth environment"
       ],
       "years": [
-        "1610 - Galileo Galilei observes Jupiter’s four largest moons",
-        "1973 - Pioneer 10 becomes the first spacecraft to fly past Jupiter",
-        "1995 - Galileo spacecraft enters Jupiter orbit and begins detailed study of the planet",
-        "2016 - Juno spacecraft enters orbit around Jupiter to study its interior and magnetic field",
-        "2023 - Ongoing observations refine models of Jupiter’s core structure and formation history"
+        "Early Solar System - Jupiter begins forming",
+        "1610 - Galileo observes Jupiter's moons",
+        "2016 - Juno enters orbit around Jupiter",
+        "2020s - Interior models continue to improve"
       ],
       "concepts": [
-        "Core Accretion Model - Theory that giant planets form by building a solid core that later attracts large amounts of gas",
-        "Disk Instability - Alternative model where parts of the protoplanetary disk collapse directly under gravity to form giant planets",
-        "Protoplanetary Disk - Rotating disk of gas and dust surrounding a young star where planets form",
-        "Gas Accretion - Process by which a forming planet rapidly gathers hydrogen and helium from its surroundings",
-        "Gravitational Scattering - Interaction where massive planets like Jupiter alter the orbits of other bodies in a system",
-        "Magnetosphere - Region dominated by Jupiter’s strong magnetic field, shaping its auroras and radiation environment"
+        "Core accretion",
+        "Runaway gas capture",
+        "Protoplanetary disk",
+        "Disk instability",
+        "Gravitational scattering",
+        "Planetary migration",
+        "Planetary interior structure"
       ]
     }
   }

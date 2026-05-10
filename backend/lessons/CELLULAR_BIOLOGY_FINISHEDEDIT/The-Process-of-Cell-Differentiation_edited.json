@@ -1,12 +1,41 @@
 {
   "topic": "The-Process-of-Cell-Differentiation",
   "title": "Exploring the Methods Behind Cell Differentiation: From Stem Cells to Specialized Cells",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stem_cell_differentiation.svg",
+  "imageCredit": {
+    "creator": "Haileyfournier",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Stem_cell_differentiation.svg"
+  },
   "lesson": {
-    "learn": "Cell differentiation is the complex process by which a cell becomes specialized in structure and function to perform a specific role within an organism. According to research estimates, the human body contains approximately 37.2 trillion cells, each with unique characteristics. This multifaceted process involves a series of molecular and cellular events that ultimately lead to the formation of diverse cell types. Notably, it has been observed in several organisms that cell differentiation plays a vital role in development, tissue repair, and disease prevention. For instance, the regeneration of a salamander's limb is made possible by the presence of stem cells that can differentiate into various cell types.",
-    "simpler": "Consider the process of cell differentiation as akin to a skilled craftsman creating a customized piece of furniture. Each type of cell serves a specific function, much like the various parts of a well-designed chair. Like the assembly of a LEGO structure, cells differentiate into specialized types to build complex tissues and organs. This process is essential for understanding how organisms grow, adapt, and respond to their environment.",
-    "keyTakeaway": "A crucial aspect of cell differentiation is the ability to generate diverse cell types from a small pool of stem cells, allowing organisms to adapt and respond to changing environments. Research has demonstrated that this process involves intricate molecular interactions, where transcription factors and signaling pathways play critical roles in regulating gene expression.",
-    "deeperDive": "Studies have revealed that cell differentiation is not a one-way process but rather an ongoing dynamic interaction between the cell's genetic makeup and its environmental cues. The epigenetic modification, methylation, has been shown to influence gene expression during differentiation. Notably, a study on neural crest cells found that DNA methylation regulates the expression of genes involved in cell fate determination. Furthermore, advances in single-cell RNA sequencing have enabled researchers to map the differentiation trajectories of various cell types in unprecedented detail.",
-    "funFact": "The planarian flatworm's regenerative abilities are particularly noteworthy. These organisms can regenerate their entire body from a small piece of tissue, a process that relies heavily on stem cells. Similarly, researchers have discovered that certain differentiated cells, such as neurons and muscle cells, retain some degree of plasticity even in adult organisms.",
+    "learn": "Cell differentiation is the process that turns a flexible starting cell into a specialized one. Most cells in the body share the same DNA, but they do not use the same genes. Chemical signals, transcription factors, and tissue context tell each cell which genetic programs to switch on and which to keep quiet.\n\nThat is why one cell becomes a neuron, another becomes a muscle cell, and another becomes a skin cell. Differentiation is not about changing the genome itself; it is about changing how the genome is read.",
+    "simpler": "Cells become specialized by turning some genes on and others off. The DNA stays mostly the same, but the cell’s job changes.",
+    "keyTakeaway": "Differentiation works because cells can read the same DNA in different ways.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/DNA_double_helix.svg",
+    "learnImageCredit": {
+      "creator": "Biochemlife",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DNA_double_helix.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_brain.svg",
+    "thirdImageCredit": {
+      "creator": "InjuryMap",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Human_brain.svg"
+    },
+    "deeperDive": "Early development starts with stem cells that are broadly flexible. As signals accumulate, gene regulators push cells into narrower identities. Epigenetic marks help lock in those choices so the cell stays committed to a role. In other words, differentiation is partly about choice and partly about memory.\n\nThe process is essential for building tissues that function together. A body needs cells that contract, cells that carry oxygen, cells that sense light, and cells that secrete hormones. Differentiation lets one genome generate all of those forms without rewriting the DNA from scratch.",
+    "funFact": "A skin cell and a neuron usually carry the same DNA, but they run very different gene programs.",
+    "references": [
+      "Nature Education - cell differentiation",
+      "NCBI Bookshelf - stem cells and development",
+      "Britannica - cell specialization"
+    ],
     "keyElements": {
       "people": [
         "* Dr. Ernest McCulloch - pioneer in the study of stem cell biology",
@@ -37,27 +66,5 @@
         "* Tissue engineering - the application of engineering principles to develop functional tissues and organs for medical applications"
       ]
     }
-  },
-  "keyElements": {
-    "people": [
-      "Dr. Ernest McCulloch - pioneer in the study of stem cell biology",
-      "Dr. James Till - co-discoverer of hematopoietic stem cells",
-      "Dr. Shinya Yamanaka - Nobel laureate for inducing pluripotency in adult cells"
-    ],
-    "places": [
-      "Carnegie Institution for Science (Washington D.C.) - hub for early stem cell research",
-      "University of Toronto (Canada) - site of Dr. Till and Dr. McCulloch's pioneering work on hematopoietic stem cells",
-      "Kyoto University (Japan) - where Dr. Shinya Yamanaka conducted his groundbreaking iPSC research"
-    ],
-    "years": [
-      "1961: Dr. Ernest McCulloch and Dr. James Till isolate hematopoietic stem cells in mice",
-      "1998: Shinya Yamanaka demonstrates that adult mouse fibroblasts can be reprogrammed into embryonic-like cells",
-      "2006: The first human-induced pluripotent stem cell lines are generated by Dr. Yamanaka's group"
-    ],
-    "concepts": [
-      "Stem cells - undifferentiated cells capable of giving rise to multiple cell types",
-      "Epigenetic modifications - chemical changes to DNA that affect gene expression without altering the underlying genetic code",
-      "Transcription factors - proteins that regulate gene expression by binding to specific DNA sequences"
-    ]
   }
 }

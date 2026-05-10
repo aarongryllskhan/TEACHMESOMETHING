@@ -1,29 +1,64 @@
 {
-  "topic": "Exploring the Physics of Tornadoes",
-  "title": "Understanding the Dynamics of Rotating Storms",
+  "topic": "The Terrifying Physics of Tornadoes",
+  "title": "How rotating storms create some of the strongest winds on Earth",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tornado%20(8071795822).jpg",
+  "imageCredit": {
+    "creator": "Paul Nelhams",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tornado_(8071795822).jpg"
+  },
   "lesson": {
-    "learn": "Tornadoes are complex and destructive weather phenomena characterized by intense, rotating columns of air. Forming during severe thunderstorms, they can cause catastrophic damage and loss of life. To better comprehend these events, it's essential to understand the physics involved, including wind shear, atmospheric instability, and the role of moisture. Recent research suggests that the combination of these factors can create an environment conducive to tornado formation.",
-    "simpler": "Imagine two high-speed jets of air meeting in the sky, creating a rotating updraft. This phenomenon, known as a mesocyclone, can extend several miles into the atmosphere. As it touches the ground, it becomes a tornado, capable of causing significant damage and destruction.",
-    "keyTakeaway": "One key factor in tornado formation is the presence of wind shear, which occurs when wind speed and direction change with height. This is often accompanied by instability in the atmosphere, leading to the development of updrafts and downdrafts. By understanding the interplay between these factors, researchers can better predict the likelihood of tornadoes.",
-    "deeperDive": "According to studies published in the Journal of Applied Meteorology and Climatology, the Enhanced Fujita Scale (EF Scale) is currently the most widely used method for assessing tornado damage. The scale ranges from EF0 (light damage) to EF5 (incredible damage), with the most destructive tornadoes reaching wind speeds of up to 300 miles per hour. In the United States, Tornado Alley experiences an average of 53 tornadoes per year, with Oklahoma being one of the most affected states.",
-    "funFact": "On March 18, 1925, a devastating tornado swept across parts of Missouri, Illinois, and Indiana, killing 695 people and injuring over 2,000. Known as the Tri-State Tornado, this event remains one of the deadliest in U.S. history, spanning 219 miles and lasting a staggering 3.5 hours.",
+    "learn": "Tornadoes are violently rotating columns of air that extend from a storm cloud to the ground. They form when wind shear, instability, and storm structure line up in just the right way to create a spinning updraft. Once that rotation tightens, wind speeds can become extreme enough to strip buildings, lift vehicles, and carve out a narrow but devastating path.\n\nWhat makes tornadoes especially frightening is how concentrated the damage can be. A storm might destroy one neighborhood while leaving the next street almost untouched. That is the signature of a vortex: enormous energy packed into a small, moving core.",
+    "simpler": "A tornado is a spinning storm tube that reaches the ground. Its wind can be incredibly strong even though the path is narrow.",
+    "keyTakeaway": "Tornadoes are dangerous because they focus huge energy into a compact rotating funnel.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Joplin%20tornado%20damage%20(5884769735).jpg",
+    "learnImageCredit": {
+      "creator": "U.S. Army Corps of Engineers",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Joplin_tornado_damage_(5884769735).jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Step%203-%20Tornado%20Diagrams.png",
+    "thirdImageCredit": {
+      "creator": "Maforema",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Step_3-_Tornado_Diagrams.png"
+    },
+    "deeperDive": "The physics begins with a storm that already has strong vertical motion. Add wind shear, and the rising air starts to spin. If the spin stretches into a narrower column, the rotation speeds up, much like an ice skater pulling in their arms. That tightening can create a vortex with devastating winds at the ground.\n\nDamage is not only about wind speed. Pressure changes, flying debris, and sudden changes in direction all matter. That is why tornado safety depends on getting low, protecting the head, and staying away from windows. The storm may be brief, but the physics is brutally efficient.",
+    "funFact": "A tornado's narrow path can hide how powerful it really is.",
+    "references": [
+      "National Weather Service - tornado safety and science",
+      "Britannica - tornado",
+      "NOAA - severe weather basics"
+    ],
     "keyElements": {
       "people": [
-        "- Dr. Tetsuya Fujita (Japanese meteorologist who developed the Enhanced Fujita Scale)",
-        "- Dr. Joanne Simpson (American meteorologist who contributed to understanding of tornado formation)",
-        "- Carl-Gustaf Rossby (Swedish-American meteorologist who pioneered research on atmospheric circulation)"
+        "Meteorologists - study storm rotation",
+        "Storm chasers - document tornado structure",
+        "Emergency managers - plan shelter and response"
       ],
       "places": [
-        "- Oklahoma, USA (Tornado Alley hotspot)",
-        "- Joplin, Missouri, USA (site of devastating 2011 EF5 tornado)",
-        "- Norman, Oklahoma, USA (home to the National Weather Center and Storm Prediction Center)"
+        "Supercell storms - the classic tornado environment",
+        "Tornado alley - a frequent U.S. region",
+        "Storm shelters - where people take cover"
       ],
       "years": [
-        "- 1925: The year of the Tri-State Tornado",
-        "- 1998: The year the Enhanced Fujita Scale was introduced",
-        "- 2011: The year the devastating Joplin EF5 tornado struck"
+        "1950s - modern tornado science expands",
+        "1990s - Doppler radar improves detection",
+        "2020s - forecasting and warning systems keep improving"
       ],
-      "concepts": []
+      "concepts": [
+        "Wind shear - wind changing speed or direction with height",
+        "Rotation - spinning air column",
+        "Vortex - a whirling flow pattern",
+        "Funnel cloud - the visible cloud tube",
+        "Enhanced Fujita scale - tornado damage rating"
+      ]
     }
   }
 }

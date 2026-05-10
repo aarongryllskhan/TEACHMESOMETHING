@@ -1,33 +1,66 @@
 {
-  "topic": "Cellular Regeneration in Axolotls",
-  "title": "Exploring the Biotechnology Behind Axolotl Regeneration",
+  "topic": "Axolotl Neoteny",
+  "title": "Why Axolotls Keep Their Youthful Features for Life",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Axolotl.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "The People's Internet",
+    "source": "Wikimedia Commons",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Axolotl.svg"
+  },
   "lesson": {
-    "learn": "Axolotls (Ambystoma mexicanum) have been extensively studied for their unique ability to regrow lost limbs, resist cancer, and maintain youthful characteristics. By examining their genetic makeup and cellular regeneration abilities, researchers aim to unlock the secrets behind this phenomenon.",
-    "simpler": "Axolotls' regenerative properties are analogous to the human ability to heal wounds or repair damaged bones. However, their capacity for extensive tissue regeneration sets them apart from other animals. Through the study of axolotls, researchers are gaining insights into the cellular mechanisms underlying regeneration.",
-    "keyTakeaway": "Axolotls' ability to regenerate is attributed to their possession of the TGF-β signaling pathway, which enables the activation of stem cells and the regulation of cellular responses. This understanding has far-reaching implications for developing treatments for human age-related diseases and injuries.",
-    "deeperDive": "Scientists have long been fascinated by axolotls' ability to regenerate their eyes, parts of their brain, and even their spinal cord. Recent studies have demonstrated the role of the TGF-β pathway in regulating this process. Specifically, research conducted by Dr. Alejandro Sánchez Alvarado at the University of Colorado Boulder revealed that axolotls possess a specific gene, called Tbx2, that regulates the expression of TGF-β.",
-    "funFact": "Axolotls have been found to be capable of regenerating their entire spinal cord, including the central nervous system, in a matter of weeks.",
+    "learn": "Axolotls are famous because they keep many larval traits as adults. They do not go through the normal amphibian transformation that turns tadpole-like young into a more land-adapted adult body. Instead, they stay aquatic, keep their feathery gills, and retain a youthful appearance while still becoming fully reproductive.\n\nThat is called neoteny. It is not immortality, and it does not mean axolotls never age, but it does mean their development follows a very unusual path.",
+    "simpler": "Axolotls keep their young-looking features as adults instead of transforming like most other amphibians.",
+    "keyTakeaway": "Axolotl youthfulness is a developmental strategy, not a sign that they never grow up.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/56/Female_Axolotl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Zhagen2024",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Female_Axolotl.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b8/GFP-axolotl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Axolotover",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:GFP-axolotl.jpg"
+    },
+    "deeperDive": "Neoteny can be useful when an aquatic lifestyle remains successful, so there is no strong need to leave the water or change body form. Axolotls also became famous because they regenerate limbs and other tissues far better than humans can. That has made them important in developmental biology and regenerative medicine research.\n\nThe deeper lesson is that evolution can slow, redirect, or preserve development in surprising ways. \"Adult\" does not have to mean fully transformed in every lineage.",
+    "funFact": "Axolotls can grow up without losing their gills.",
+    "references": [
+      "Britannica - axolotl",
+      "National Geographic - neoteny",
+      "Smithsonian - regenerative biology"
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Alejandro SÃ¡nchez Alvarado - Molecular Biologist studying axolotl regeneration",
-        "* Dr. David Gardiner - Expert on salamander development and evolution",
-        "* Dr. Eric Olsen - Researcher specializing in stem cell biology"
+        "Developmental biologists - scientists studying growth patterns",
+        "Herpetologists - amphibian specialists",
+        "Regenerative medicine researchers - people exploring tissue repair",
+        "Conservation biologists - experts protecting axolotls in the wild"
       ],
       "places": [
-        "* National Zoo of Mexico - Home to a large population of axolotls",
-        "* University of Colorado Boulder - Site of extensive research on axolotl regeneration",
-        "* Instituto Mexicano del Seguro Social (IMSS) - Collaborative research center for regenerative medicine"
+        "Xochimilco - a key habitat for wild axolotls",
+        "Aquarium facilities - places where axolotls are observed",
+        "Laboratories - where regeneration is studied",
+        "Mexican lake systems - historic axolotl habitat"
       ],
       "years": [
-        "* 1915: First reported case of an axolotl undergoing limb regeneration",
-        "* 1990s: Axolotls' remarkable regenerative abilities were first documented in scientific literature",
-        "* 2019: Breakthrough discovery of TGF-Î²'s role in regulating axolotl regeneration"
+        "19th century - axolotls become a scientific curiosity",
+        "20th century - neoteny is explored in detail",
+        "21st century - regeneration research expands",
+        "Present day - wild populations remain endangered"
       ],
       "concepts": [
-        "* Regeneration - The process by which organisms replace lost or damaged tissue",
-        "* Telomere shortening - A key mechanism driving aging in many species, including humans",
-        "* Stem cells - Cells with the ability to differentiate into various cell types and tissues",
-        "* Epimorphic fields - Tissue-specific patterns of gene expression guiding regeneration"
+        "Neoteny - retaining juvenile traits in adulthood",
+        "Metamorphosis - major body change during development",
+        "Regeneration - replacing lost body parts",
+        "Amphibian - an animal group including frogs and salamanders",
+        "Developmental biology - the study of growth and form"
       ]
     }
   }

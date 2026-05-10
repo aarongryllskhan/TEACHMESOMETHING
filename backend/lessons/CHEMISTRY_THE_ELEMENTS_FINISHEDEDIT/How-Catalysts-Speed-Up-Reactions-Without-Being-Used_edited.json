@@ -1,35 +1,67 @@
 {
   "topic": "Catalytic Chemistry",
   "title": "Understanding the Langmuir-Hinshelwood Mechanism of Catalysis: A Crucial Concept in Modern Industrial Processes",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Catalysis.png",
+  "imageCredit": {
+    "creator": "Brazosport College",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Catalysis.png"
+  },
   "lesson": {
-    "learn": "Catalysts, substances that enhance the rates of chemical reactions, typically operate by lowering the activation energy by 10-30% (Balandin, 1946) without undergoing permanent changes.",
-    "simpler": "Catalysts facilitate reactions by reducing the activation energy required for reactants to form products.",
-    "keyTakeaway": "The Langmuir-Hinshelwood mechanism, proposed by Irving Langmuir (1932) and refined by Nicholas Hinshelwood (1926-1929), elucidates the adsorption of reactants onto the catalyst's surface, followed by their rearrangement and desorption as products. This fundamental concept is crucial for designing catalysts with high efficiency.",
-    "deeperDive": "The implementation of efficient catalytic systems has led to significant advancements in industrial processes, such as the commercialization of the Haber-Bosch process (Haber, 1909; Bosch, 1909) by Fritz Haber and Carl Bosch. This process, utilizing an iron catalyst, produces 75% of global nitrogen-based fertilizer (Fertilizer Industry Association, 2020). Moreover, researchers have found that palladium and platinum group metals can act as efficient catalysts for the reforming of ethanol to produce hydrogen fuel (Haldor Topsøe, 1974).",
-    "funFact": "The enzyme RNAse A, a 10^20- specificity cleaving enzyme, discovered by Arthur Kornberg (1967), exemplifies the potential of bioinspired catalytic systems.",
+    "learn": "Catalysts speed up reactions by lowering the activation energy needed for reactants to turn into products. They do this without being permanently consumed, which means the same catalyst can help over and over again. The reaction still starts and ends with the same overall ingredients, but the route between them becomes easier.\n\nThat is why catalysts matter so much in chemistry and industry. They make reactions faster, more selective, and often much more practical at ordinary temperatures and pressures.",
+    "simpler": "Catalysts help reactions happen more easily. They lower the energy barrier without getting used up themselves.",
+    "keyTakeaway": "Catalysts work by offering a lower-energy pathway for a reaction.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Catalyst%20Energy%20Diagram.png",
+    "learnImageCredit": {
+      "creator": "Emma Ambrogi",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Catalyst_Energy_Diagram.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Exothermic-catalyst-process-diagram.svg",
+    "thirdImageCredit": {
+      "creator": "MikeRun",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Exothermic-catalyst-process-diagram.svg"
+    },
+    "deeperDive": "Many catalysts work on surfaces, where reactants adsorb, rearrange, and leave as products. Enzymes do the same thing in biology, using shaped active sites to stabilize transition states and speed up life’s chemistry. The important point is that a catalyst changes the pathway, not the final chemical identity of the catalyst itself.\n\nThat principle powers the Haber-Bosch process, catalytic converters, petroleum refining, and countless laboratory reactions. Without catalysis, many important processes would be too slow, too hot, or too expensive to be practical.",
+    "funFact": "A catalyst can help millions of molecules react without being permanently changed.",
+    "references": [
+      "Britannica - catalysis",
+      "RSC - catalysts and activation energy",
+      "Chemistry LibreTexts - reaction mechanisms"
+    ],
     "keyElements": {
       "people": [
-        "Johann Berzelius",
-        "Irving Langmuir",
-        "Nicholas Hinshelwood",
-        "Fritz Haber",
-        "Carl Bosch"
+        "Jöns Jakob Berzelius - coined catalysis",
+        "Paul Sabatier - advanced hydrogenation catalysis",
+        "Irving Langmuir - studied surface adsorption",
+        "Fritz Haber - helped drive industrial catalysis",
+        "Carl Bosch - scaled catalytic ammonia production"
       ],
-      "places": [],
+      "places": [
+        "Stockholm, Sweden - early catalysis history",
+        "Toulouse, France - Sabatier’s research environment",
+        "BASF, Germany - industrial ammonia production",
+        "Modern chemical plants - catalytic process hubs"
+      ],
       "years": [
-        1835,
-        1921,
-        1926,
-        1929,
-        1932,
-        1946,
-        1967
+        "1835 - catalysis is named",
+        "1909 - Haber-Bosch chemistry matures",
+        "1910s - industrial catalytic production expands",
+        "20th century - catalysis becomes central to industry"
       ],
       "concepts": [
-        "catalysis",
-        "activation energy",
-        "Langmuir-Hinshelwood mechanism",
-        "Haber-Bosch process"
+        "Activation energy - the barrier a reaction must cross",
+        "Adsorption - molecules sticking to a surface",
+        "Selectivity - making the desired product efficiently",
+        "Turnover - repeated catalytic cycles",
+        "Enzyme - a biological catalyst"
       ]
     }
   }

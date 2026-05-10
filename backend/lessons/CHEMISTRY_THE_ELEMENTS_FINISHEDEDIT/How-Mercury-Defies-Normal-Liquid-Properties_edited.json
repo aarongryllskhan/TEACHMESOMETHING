@@ -1,46 +1,66 @@
 {
   "topic": "Understanding Mercury's Unique Properties",
   "title": "The Science of Mercury: A Metal That Defies Normal Liquid Behavior",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hydrargyrum%20(80%20Hg).jpg",
+  "imageCredit": {
+    "creator": "Hi-Res Images of Chemical Elements",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Hydrargyrum_(80_Hg).jpg"
+  },
   "lesson": {
-    "learn": "Mercury, the smallest and lightest planet in our solar system, exhibits an extraordinary liquid metal state. Its unique properties, which have been studied for centuries, make it an essential component in thermometers, barometers, and fluorescent lighting. At room temperature, mercury has a vapor pressure of approximately 1.46 × 10^-7 mbar and a melting point of -38.8°C, which is significantly lower than other metals. Additionally, mercury's high density (13.546 g/cm³) and low viscosity (1.537 × 10^-3 Pa·s) enable it to flow freely while maintaining its shape against gravity.",
-    "simpler": "Mercury's unusual liquid state can be compared to a liquid that has a very low surface tension, allowing it to flow like water but maintain its shape and not spill over the sides like a normal liquid would. This property, combined with its high density and low viscosity, makes mercury extremely useful for various scientific applications.",
-    "keyTakeaway": "Mercury's unique properties, including its low viscosity and high density, enable it to defy the normal behavior of liquids. This property makes it an essential component in various scientific instruments, such as thermometers and barometers.",
-    "deeperDive": "Mercury's exceptional fluidity is attributed to its extremely low viscosity, which allows it to flow easily without resistance. Additionally, when cooled rapidly, mercury contracts significantly, causing its volume to decrease by up to 3% within a minute. This unique behavior makes mercury an ideal substance for use in thermometers and barometers, where precise temperature measurements are crucial. Recent research has also explored new applications of mercury in the development of high-speed imaging systems and X-ray imaging devices. Moreover, the study of mercury's behavior under extreme conditions has provided valuable insights into its properties at very low temperatures and pressures.",
-    "funFact": "Mercury is one of the only two planets in our solar system that rotates in a retrograde (backward) direction around the Sun. This unusual rotation pattern, which is thought to have resulted from a massive collision in the early solar system, has puzzled scientists for centuries and has made mercury an excellent target for studying planetary formation and evolution.",
+    "learn": "Mercury is unusual because it is a metal that stays liquid at room temperature. Its atoms are held together differently from most metals, which gives it a low melting point, a high density, strong surface tension, and the ability to form rounded beads. That combination made it useful in thermometers, barometers, switches, and old laboratory equipment.\n\nIt is also hazardous, which is why many of those uses have been phased out. Mercury is a perfect example of a material that is scientifically fascinating but needs careful handling.",
+    "simpler": "Mercury is a metal that is liquid at room temperature. It flows in beads instead of behaving like most other metals.",
+    "keyTakeaway": "Mercury is liquid because its atomic bonding is unusual for a metal at normal temperatures.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Hg%20Mercury.jpg",
+    "learnImageCredit": {
+      "creator": "А",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hg_Mercury.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercury%20(Element%20-%2080)%201.jpg",
+    "thirdImageCredit": {
+      "creator": "James St. John",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mercury_(Element_-_80)_1.jpg"
+    },
+    "deeperDive": "Mercury’s electrons and atomic structure weaken the bonding that would normally keep a metal solid at room temperature. That is why it melts at a much lower temperature than most metals and why it forms droplets with a very distinctive surface shape. Its density and surface tension also made it very useful for pressure and temperature measurements.\n\nToday, mercury is studied as much for its hazards as for its usefulness. Toxicity, vapor exposure, and environmental persistence have pushed many countries to replace it with safer materials, even though its behavior still makes it an important subject in chemistry and materials science.",
+    "funFact": "Mercury beads up because its surface tension is unusually strong.",
+    "references": [
+      "Britannica - mercury",
+      "EPA - mercury basics and safety",
+      "RSC - liquid metals and bonding"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Isaac Newton - Contributed to understanding of mercury's unique properties",
-        "+ Antoine Lavoisier - Discovered mercury's elemental composition",
-        "+ Alessandro Volta - Developed the first battery using mercury",
-        "+ Marie Curie - Conducted pioneering research on mercury's radioactivity",
-        "+ Linus Pauling - Explored mercury's role in biological systems and its potential toxicity",
-        "* **"
+        "Evangelista Torricelli - pioneered the barometer",
+        "Antoine Lavoisier - helped define mercury as an element",
+        "Daniel Gabriel Fahrenheit - used mercury in temperature measurement",
+        "Robert Boyle - studied pressure and fluid behavior"
       ],
       "places": [
-        "**",
-        "+ Mercury, California - A city named after the planet, which was an important mining site for mercury",
-        "+ AlmadÃ©n Mining Area, Spain - A historic mercury mine that operated from the 16th century to the mid-20th century",
-        "+ University of California, Berkeley - Home to researchers who have made significant contributions to understanding mercury's properties",
-        "+ National Institute of Standards and Technology (NIST), USA - Develops and implements standards for mercury measurement and use",
-        "+ CERN, Switzerland - Conducts experiments that involve the study of mercury's behavior under extreme conditions",
-        "* **"
+        "Almadén, Spain - historic mercury mining region",
+        "Florence, Italy - early pressure-measurement work",
+        "Laboratories using barometers and thermometers - classic mercury applications",
+        "Industrial mining sites - sources of mercury ore"
       ],
       "years": [
-        "**",
-        "+ 1500 BCE - Mercury was first identified as an element by ancient civilizations",
-        "+ 1808 CE - Antoine Lavoisier discovered mercury's elemental composition",
-        "+ 1834 CE - Alessandro Volta developed the first battery using mercury",
-        "+ 1905 CE - Marie Curie began researching mercury's radioactivity",
-        "+ 1960s CE - Linus Pauling explored mercury's role in biological systems and its potential toxicity",
-        "* **"
+        "Ancient times - mercury is known as a strange liquid metal",
+        "1643 - Torricelli’s barometer demonstrates atmospheric pressure",
+        "18th century - chemistry clarifies mercury as an element",
+        "20th century - mercury becomes central to precision instruments"
       ],
       "concepts": [
-        "**",
-        "+ Liquid metal state: Mercury's unique ability to exist as a liquid at room temperature",
-        "+ Viscosity: The measure of a fluid's resistance to flow, which is very low in mercury",
-        "+ Surface tension: The property that allows mercury to maintain its shape against gravity",
-        "+ Amalgamation: The process by which mercury forms alloys with other metals"
+        "Surface tension - the force that makes droplets bead up",
+        "Density - mass per unit volume",
+        "Melting point - the temperature where a solid becomes liquid",
+        "Vapor pressure - how readily a liquid evaporates",
+        "Amalgam - an alloy containing mercury"
       ]
     }
   }

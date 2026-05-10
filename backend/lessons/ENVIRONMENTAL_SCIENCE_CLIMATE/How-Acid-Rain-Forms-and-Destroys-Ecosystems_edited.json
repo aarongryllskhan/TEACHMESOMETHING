@@ -1,17 +1,67 @@
 {
-  "topic": "How Acid Rain Forms and Destroys Ecosystems",
-  "title": "The Chemistry Behind Acid Rain: Understanding the Consequences of Human Activity",
+  "topic": "Acid Rain",
+  "title": "How Acid Rain Forms and Harms Ecosystems",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Origins_of_acid_rain.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Origins.gif: The original uploader was NHSavage at English Wikipedia. derivative work: Zazou (talk)",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Origins_of_acid_rain.svg"
+  },
   "lesson": {
-    "learn": "Acid rain is a type of precipitation that contains high levels of sulfuric and nitric acids, formed when pollutants in the atmosphere mix with water vapor. The phenomenon was first observed in the 19th century in Germany and England, where coal-fired power plants and industrial activities emitted sulfur dioxide and nitrogen oxides into the atmosphere. These pollutants undergo chemical reactions with water vapor, leading to a significant decrease in pH levels. According to the United States Environmental Protection Agency (EPA), acid rain can have devastating effects on ecosystems, human health, and infrastructure, leading to economic losses estimated at $200 billion annually in the US alone.",
-    "simpler": "Imagine pouring excess sugar into a glass of water - that's essentially what happens when pollutants mix with water vapor in the atmosphere, forming acid rain. However, the acidity of acid rain is much higher, with pH levels often below 4.5, threatening the health of plants and animals.",
-    "keyTakeaway": "The formation of acid rain is primarily caused by human activities, such as the combustion of fossil fuels and industrial processes, which release sulfur dioxide and nitrogen oxides into the atmosphere. For instance, the sulfur dioxide emissions from fossil fuel combustion can be up to 20 times higher than those from natural sources.",
-    "deeperDive": "Recent studies have shown that acid rain can have long-lasting impacts on forest ecosystems, leading to changes in tree growth rates and species composition. The Canadian Forest Service, for example, has reported that acid rain has caused a decline in red spruce tree growth rates by up to 30% in the Eastern Canada region. Additionally, acid rain can affect human health by increasing particulate matter and ozone exposure, leading to respiratory problems and other cardiovascular diseases. In Scandinavia, acid rain has been linked to the deterioration of ancient wood carvings on buildings, with the Royal Palace of Stockholm experiencing significant damage in the 1980s. To combat acid rain, governments have implemented policies such as reducing emissions from power plants and promoting sustainable land-use practices.",
-    "funFact": "Acid rain is not just a problem in remote areas; it can also affect urban environments, with many cities experiencing acid rain-related issues due to local pollution sources. New York City, for example, has reported acid rain-related damage to over 100 buildings in Manhattan since the 1990s, with estimated losses reaching $1 billion.",
+    "learn": "Acid rain forms when sulfur dioxide and nitrogen oxides react in the atmosphere with water, oxygen, and sunlight. The result is sulfuric and nitric acids that fall with rain, snow, fog, or dry particles. It can make lakes more acidic, damage forests, and wear away buildings and monuments.\n\nAcid rain is a good example of how pollution can travel far from its source. Smoke from power plants or factories does not stay local; it can turn into an atmospheric chemical problem that affects ecosystems many kilometers away.",
+    "simpler": "Pollution in the air can turn into acids that fall with rain. That acidic water can damage lakes, forests, and stone buildings.",
+    "keyTakeaway": "Acid rain is caused by air pollution that changes into acids before falling back to Earth.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/75/Source_of_Acid_Rain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Chan Sung-Min",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Source_of_Acid_Rain.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Acid_rain_woods1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Lovecz",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Acid_rain_woods1.JPG"
+    },
+    "deeperDive": "Once sulfur dioxide and nitrogen oxides are released, winds can carry them long distances before they transform. In the atmosphere, they react with oxidants and moisture to form acidic compounds. Sensitive lakes and soils are affected first because they have less buffering capacity. Forests can be weakened when leaves and roots are stressed and nutrients are washed away.\n\nThe problem became much better understood in the late 20th century, and pollution controls reduced emissions in many countries. That matters because acid rain shows that environmental damage can be chemical, regional, and reversible when the source is identified and regulated.",
+    "funFact": "Acid rain can travel far from the power plant or factory that created it.",
+    "references": [
+      "Britannica - acid rain",
+      "EPA - acid rain basics",
+      "UNEP - transboundary air pollution"
+    ],
     "keyElements": {
-      "people": [],
-      "places": [],
-      "years": [],
-      "concepts": []
+      "people": [
+        "Scientists studying atmospheric chemistry - the people who explained acid rain",
+        "Environmental regulators - the teams that reduced emissions",
+        "Foresters - people who observed tree damage",
+        "Hydrologists - experts tracking lake and soil acidification"
+      ],
+      "places": [
+        "Eastern North America - historic acid rain region",
+        "Northern Europe - major cross-border pollution area",
+        "The Jizera Mountains - a known forest damage site",
+        "Industrial power corridors - places where emissions were high"
+      ],
+      "years": [
+        "1970s - acid rain becomes a major environmental issue",
+        "1990s - emissions controls begin to reduce sulfur pollution",
+        "21st century - many regions see partial recovery",
+        "Present day - monitoring continues because ecosystems recover slowly"
+      ],
+      "concepts": [
+        "Sulfur dioxide - an acid rain precursor",
+        "Nitrogen oxides - another acid rain precursor",
+        "Atmospheric oxidation - chemistry in the air",
+        "Buffering capacity - a lake or soil’s resistance to acidification",
+        "Transboundary pollution - pollution that crosses borders"
+      ]
     }
   }
 }

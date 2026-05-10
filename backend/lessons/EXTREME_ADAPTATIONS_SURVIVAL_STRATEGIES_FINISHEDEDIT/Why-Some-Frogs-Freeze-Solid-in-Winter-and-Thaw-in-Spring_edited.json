@@ -1,40 +1,66 @@
 {
-  "topic": "Why-Some-Frogs-Freeze-Solid-in-Winter-and-Thaw-in-Spring",
-  "title": "Understanding the Methods Behind Cryptobiosis in Wood Frogs",
+  "topic": "Freeze Tolerance",
+  "title": "How Some Frogs Survive Being Frozen Solid in Winter",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Wood_frog.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Ontley",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Wood_frog.JPG"
+  },
   "lesson": {
-    "learn": "Wood Frogs (Rana sylvatica) have evolved an extraordinary adaptation to survive subzero temperatures, known as cryptobiosis. This state of suspended animation allows them to freeze solid during winter and thaw in spring, with their bodies converting glycogen to glucose, acting as a natural antifreeze to protect internal organs. By examining this remarkable adaptation, we gain insights into the complex interactions between environment, evolution, and life. In 2007, Dr. Gary Oakley discovered the unique ability of Wood Frogs to freeze, sparking further research into the genetic basis of cryptobiosis.",
-    "simpler": "Cryptobiosis is akin to a prolonged state of hibernation, where Wood Frogs' bodily functions slow down, and their bodies produce specialized proteins to prevent ice crystal formation, effectively turning them into 'frost-resistant' organs. When spring arrives, their thawing process is facilitated by the decomposition of glycogen, allowing them to resume normal metabolic functions. This remarkable adaptation allows Wood Frogs to survive for months or even years in a frozen state, a testament to their incredible resilience.",
-    "keyTakeaway": "Cryptobiosis in Wood Frogs serves as an example of evolutionary adaptation, where environmental pressures have driven the development of a highly specialized survival strategy, allowing them to thrive in areas where other species would perish.",
-    "deeperDive": "Studies have shown that Wood Frogs possess a unique set of genes that code for proteins capable of withstanding freezing temperatures. These proteins, known as 'antifreeze proteins,' help prevent ice crystals from forming within their cells, thereby protecting their internal organs from damage. This process is reversible, allowing them to thaw and resume normal metabolic functions when the temperature rises. Research has also revealed that some frog species can regulate their body temperature by migrating between different habitats with varying thermal conditions, further highlighting their incredible adaptability.",
-    "funFact": "Some species of frogs, like the Wood Frog, can freeze solid and still reproduce when they thaw out, showcasing their remarkable capacity to recover from extreme stressors.",
+    "learn": "Some frogs, especially wood frogs, can survive winter by freezing part of their bodies. Their hearts stop, ice forms in tissues outside their cells, and special chemicals protect delicate structures from damage. When temperatures rise in spring, they thaw and hop away as if nothing happened.\n\nThat is not the same as being dead and coming back. It is a carefully evolved survival state that lets the frog pause life until the weather improves.",
+    "simpler": "Wood frogs can survive freezing temperatures because their bodies make protective chemicals that keep their cells from being damaged by ice.",
+    "keyTakeaway": "Freeze tolerance lets some frogs pause most of their biology until spring returns.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/04/Wood_frog_%2853832836871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "U.S. Fish and Wildlife Service - Midwest Region",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wood_frog_(53832836871).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Wood_frog_%2849938330162%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "U.S. Fish and Wildlife Service - Midwest Region",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wood_frog_(49938330162).jpg"
+    },
+    "deeperDive": "The trick is controlling where ice forms. If ice stays outside the cells and the tissues are protected by cryoprotectants like glucose, the frog can survive a frozen state that would kill most animals. This adaptation works because the frog's chemistry changes with the seasons. The body prepares for freezing before winter actually hits.\n\nFreeze tolerance is one of the most astonishing examples of seasonal adaptation. It shows that life can survive conditions that seem impossible, as long as evolution has had enough time to build the right chemistry.",
+    "funFact": "A frozen wood frog can restart in spring.",
+    "references": [
+      "Britannica - wood frog",
+      "National Geographic - freeze tolerance",
+      "US Fish and Wildlife Service - amphibian adaptations"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "- Dr. Gary Oakley (Biologist who first discovered Wood Frogs' ability to freeze)",
-        "- Dr. Mary Ann McDowell (Expert on hibernation biology in frogs)",
-        "- Dr. Robert L. Smith (Scientist who studied the genetic basis of cryptobiosis)",
-        "* **"
+        "Herpetologists - scientists who study frogs and reptiles",
+        "Physiologists - experts in how bodies function",
+        "Ecologists - researchers tracking seasonal survival",
+        "Wildlife biologists - people who study frog habitats"
       ],
       "places": [
-        "**",
-        "- Algonquin Provincial Park, Canada (Habitat for Wood Frogs)",
-        "- Yellowstone National Park, USA (Location where scientists have studied frog hibernation)",
-        "* University of Toronto's Department of Ecology and Evolutionary Biology (Research institution studying frog adaptations)",
-        "* **"
+        "Boreal forests - places where freeze tolerance matters",
+        "Vernal pools - breeding waters for wood frogs",
+        "Northern wetlands - habitats with harsh winters",
+        "Field study sites - where seasonal behavior is observed"
       ],
       "years": [
-        "**",
-        "- 2007: Oakley's discovery of Wood Frogs' freezing ability",
-        "- 2015: Study published on the genetic basis of cryptobiosis in frogs",
-        "- 2020: Research findings on the temperature regulation strategies employed by various frog species",
-        "* **"
+        "Late 20th century - freeze tolerance becomes a major research topic",
+        "21st century - molecular studies explain the chemistry",
+        "Present day - the adaptation remains a model for cryobiology",
+        "Each winter - frogs repeat the survival cycle"
       ],
       "concepts": [
-        "**",
-        "* Cryptobiosis (state of suspended animation)",
-        "* Freeze Tolerance (ability to withstand subzero temperatures)",
-        "* Hibernation Biology (study of animals that hibernate or estivate during winter)",
-        "* Evolutionary Adaptation (process by which organisms adapt to their environment over time)"
+        "Freeze tolerance - surviving internal freezing without death",
+        "Cryoprotectant - a chemical that protects cells during freezing",
+        "Metabolism - the chemical processes that keep an organism alive",
+        "Seasonal adaptation - changes tied to the time of year",
+        "Thermal stress - damage caused by extreme cold or heat"
       ]
     }
   }

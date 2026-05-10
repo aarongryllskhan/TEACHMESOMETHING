@@ -1,42 +1,68 @@
 {
-  "topic": "Canine Olfaction and the Science of Smell-Color Association",
-  "title": "Exploring the Neural Bases of Olfactory-Color Synesthesia in Dogs",
+  "topic": "How Dogs Can Smell In Color",
+  "title": "Why a Dog's World Is Built from Scent, Memory, and Association",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Dog_Nose.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+  "imageCredit": {
+    "creator": "great_sea",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Dog_Nose.jpg"
+  },
   "lesson": {
-    "learn": "Dogs possess a highly developed olfactory system, comprising over 300 million olfactory receptors, which enables them to detect subtle changes in their environment and track specific substances with remarkable precision. Research has shown that dogs can associate certain scents with colors, a phenomenon known as olfactory-color synesthesia. This complex connection between smell and color is thought to be mediated by the canine olfactory bulb, a specialized brain structure that processes scents and may be responsible for the neural basis of this phenomenon.",
-    "simpler": "Imagine being able to visualize a color simply by inhaling a specific scent. Dogs can do this, and scientists have discovered that this ability is linked to the development of the canine olfactory bulb, which is larger than that of humans. By understanding how dogs process smells and associate them with colors, we can gain insights into the intricacies of canine cognition and improve our relationships with them.",
-    "keyTakeaway": "The neural basis of olfactory-color synesthesia in dogs is rooted in the development of the canine olfactory bulb and may be mediated by the convergence of olfactory and visual information in the brain.",
-    "deeperDive": "Studies have demonstrated that dogs can develop olfactory-color synesthesia through repeated exposure to specific scents and colors. This suggests a neural basis for this phenomenon, which may be related to the development of the olfactory bulb and the subsequent convergence of olfactory and visual information in the brain. Research has also shown that dogs can detect certain cancers by smelling specific volatile organic compounds (VOCs) released by cancer cells, highlighting the potential for canine-assisted diagnostics in cancer detection and treatment.",
-    "funFact": "Dogs have been used in various search and rescue operations, including detecting explosives, narcotics, and bed bugs. Their sensitivity to smells is largely due to the unique structure and function of their olfactory system, which allows them to detect minute differences in air composition.",
+    "learn": "Dogs do not literally see smells the way humans see colors, but their brains are exceptionally good at linking odor, place, emotion, and experience. Researchers often describe this as cross-modal association rather than true synesthesia. A dog's olfactory system is far more sensitive than ours, and that sensitivity lets dogs separate one scent from another with astonishing precision. In practice, smell is one of the main ways dogs gather information about the world, from other animals and food to stress, illness, and territory.",
+    "simpler": "Dogs do not really smell in color, but they can connect scents with memories and cues in a way that feels almost visual.",
+    "keyTakeaway": "Dogs experience the world primarily through scent, and their brains are excellent at turning smells into meaningful patterns and associations.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Olfactory_bulb_2_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "learnImageCredit": {
+      "creator": "Servier Medical Art by Servier",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Olfactory_bulb_2_diagram.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Dog%20Nose%20%284269788249%29.jpg",
+    "thirdImageCredit": {
+      "creator": "Bering Land Bridge National Preserve",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dog_Nose_(4269788249).jpg"
+    },
+    "deeperDive": "The key idea is not that dogs smell colors, but that they can build rich associations from scent alone. A smell can tell a dog about another animal's identity, what it ate, how long ago it passed by, and whether the trail is fresh. That is possible because the canine nose samples air differently from a human nose, and the olfactory bulb devotes a large share of processing power to those inputs. Dogs also have a vomeronasal system that helps them detect chemical signals tied to social and reproductive behavior. When training or working with dogs, humans can take advantage of this ability by pairing scents with commands, rewards, and routines. What looks like a simple sniff is often a full stream of information processing.",
+    "funFact": "Depending on the comparison, dogs can have tens of thousands to hundreds of millions of scent receptors more than humans, which is why their smell world is so much richer than ours.",
+    "references": [
+      "Monell Chemical Senses Center - canine olfaction research",
+      "NIH reviews on animal smell perception",
+      "Cornell University dog cognition resources",
+      "Veterinary neuroscience studies on the olfactory bulb"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "- John E. Smith (researcher who first discovered olfactory-color synesthesia in dogs)",
-        "- Dr. Gregory Berns (neuroscientist who studied the neural basis of canine olfaction)",
-        "- Rachel Page Hall (canine behaviorist who developed training programs for scent detection)",
-        "- Dr. Stanley Coren (expert on canine cognition and perception)",
-        "* **"
+        "Gregory Berns - canine neuroscience researcher",
+        "Alexandra Horowitz - dog cognition researcher",
+        "Stanley Coren - canine behavior writer and researcher",
+        "James Walker - early advocate for canine scent research"
       ],
       "places": [
-        "**",
-        "- The University of California, Davis (research institution where studies on olfactory-color synesthesia were conducted)",
-        "- The Canine Behavioral Institute (training center that specializes in scent detection and olfaction)",
-        "- The National Institutes of Health (funding agency for research on canine-assisted diagnostics)",
-        "* **"
+        "The olfactory bulb - smell processing center in the brain",
+        "Training fields and scent labs - where detection work is tested",
+        "Veterinary clinics - where scent detection can support diagnosis",
+        "Search-and-rescue sites - where dogs follow odor trails"
       ],
       "years": [
-        "**",
-        "- 2009: First study published on olfactory-color synesthesia in dogs",
-        "- 2015: Breakthrough discovery on the neural basis of canine olfaction",
-        "- 2020: Introduction of canine-assisted diagnostics for cancer detection",
-        "* **"
+        "1990s - modern dog cognition studies expand",
+        "2000s - canine scent detection gains broader scientific attention",
+        "2010s - neuroscience tools improve dog behavior research",
+        "2020s - scent-based medical screening attracts more study"
       ],
       "concepts": [
-        "**",
-        "- Olfactory-color synesthesia: phenomenon where smells are associated with colors",
-        "- Canine olfactory bulb: specialized brain structure that processes scents",
-        "- Volatile organic compounds (VOCs): chemical substances released by cancer cells",
-        "- Scent detection: process of identifying specific odors and substances",
-        "- Canine-assisted diagnostics: use of dogs in medical diagnosis and treatment"
+        "Olfactory bulb",
+        "Cross-modal association",
+        "Scent discrimination",
+        "Vomeronasal system",
+        "Working memory",
+        "Canine cognition"
       ]
     }
   }

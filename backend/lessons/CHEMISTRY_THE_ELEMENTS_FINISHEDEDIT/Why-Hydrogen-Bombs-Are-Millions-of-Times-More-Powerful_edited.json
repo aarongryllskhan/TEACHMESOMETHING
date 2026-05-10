@@ -1,41 +1,66 @@
 {
   "topic": "How Hydrogen Bombs Derive Their Power",
   "title": "Unlocking the Secrets of Thermonuclear Explosions",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mushroom_cloud.svg",
+  "imageCredit": {
+    "creator": "Fastfission",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mushroom_cloud.svg"
+  },
   "lesson": {
-    "learn": "Hydrogen bombs, also known as thermonuclear bombs, harness the energy released through nuclear fusion reactions. On August 11, 1952, the United States conducted the first successful nuclear test of a hydrogen bomb, code-named \"Ivy Mike.\" This 10.4-megaton explosive released an enormous amount of energy, equivalent to 50 million tons of TNT, vaporizing a small island in the Pacific Ocean and setting a new benchmark for nuclear power.",
-    "simpler": "Imagine taking a gram of hydrogen and compressing it to a point where the nuclei are just 1 meter apart, generating temperatures exceeding 100 million degrees Celsius. This immense heat triggers a nuclear fusion reaction, releasing vast amounts of energy as the hydrogen isotopes combine to form helium. This process occurs within the core of hydrogen bombs, resulting in an explosive release of radiation and heat.",
-    "keyTakeaway": "A fundamental understanding of the science behind hydrogen bombs requires recognizing the role of nuclear fusion reactions in releasing energy. These reactions involve the combination of hydrogen isotopes, resulting in a massive explosion of radiant energy and heat.",
-    "deeperDive": "Hydrogen bombs utilize a primary stage of conventional explosives or an atomic bomb to compress and heat a fusion fuel, typically a mixture of deuterium and tritium isotopes. This compression generates conditions similar to those found at the center of stars, allowing the hydrogen isotopes to fuse into helium. The energy released from this reaction is then amplified by subsequent stages of the bomb, leading to an explosive release of radiation and heat.",
-    "funFact": "The most powerful nuclear bomb ever tested, the Tsar Bomba, released an energy equivalent to approximately 50 million tons of TNT in 1953. This Russian thermonuclear bomb, designed and tested by the Soviet Union, stands as the highest-yield nuclear explosion in human history.",
+    "learn": "Hydrogen bombs are so powerful because they combine two stages of nuclear energy release. A fission explosion starts the process, but the real increase in power comes when the heat and pressure it creates force hydrogen isotopes to fuse. Fusion releases far more energy per unit mass than ordinary chemical reactions, which is why the scale jumps so dramatically.\n\nThe design is not just “bigger bomb.” It is a different physical regime. The weapon uses the first stage to create the extreme conditions needed for the second, and that second stage multiplies the energy output by an enormous margin.",
+    "simpler": "A hydrogen bomb uses one nuclear reaction to trigger another. The second stage releases far more energy than chemical explosions can.",
+    "keyTakeaway": "Hydrogen bombs are vastly more powerful because they use fission to ignite fusion.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Bravo%20Blast.jpg",
+    "learnImageCredit": {
+      "creator": "United States Department of Energy",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Castle_Bravo_Blast.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Fallout%20shelter%20(1960s).jpg",
+    "thirdImageCredit": {
+      "creator": "Unknown photographer, from the collection of Pictorial Parade/Getty Images",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Fallout_shelter_(1960s).jpg"
+    },
+    "deeperDive": "The key engineering breakthrough was staging. The primary fission stage releases x-rays and energy that compress and heat the secondary stage to fusion conditions. Once that happens, isotopes of hydrogen such as deuterium and tritium can fuse and release huge amounts of energy. The result is a weapon whose yield can be measured in megatons rather than tons.\n\nThat is also why the technology is so dangerous to control. The physics depends on extreme compression, temperature, and timing. The same principles helped scientists understand stellar fusion, but when used in weapons they produce devastation on a scale far beyond conventional explosives.",
+    "funFact": "A thermonuclear bomb can release more energy than all its fuel could as ordinary chemistry.",
+    "references": [
+      "Britannica - hydrogen bomb",
+      "U.S. Department of Energy - thermonuclear testing",
+      "Atomic Heritage Foundation - nuclear weapons history"
+    ],
     "keyElements": {
       "people": [
-        "â€¢ AndrÃ© Marie AmpÃ¨re (French physicist who laid the foundation for understanding electromagnetic induction)",
-        "â€¢ Ernest Lawrence (American physicist who invented the cyclotron and developed early concepts for particle accelerators)",
-        "â€¢ Enrico Fermi (Italian-American physicist who led the development of the first nuclear reactor)",
-        "â€¢ Lise Meitner (Austrian-Swedish physicist who discovered the nuclear fission process)",
-        "â€¢ Robert J. Van de Graaff (American physicist who developed high-voltage generators and contributed to particle accelerator technology)"
+        "J. Robert Oppenheimer - led the wartime Manhattan Project",
+        "Edward Teller - advocated thermonuclear weapons",
+        "Stanislaw Ulam - helped develop the staging concept",
+        "Andrei Sakharov - contributed to Soviet thermonuclear design"
       ],
       "places": [
-        "â€¢ Los Alamos National Laboratory (New Mexico, USA â€“ primary research site for developing atomic bombs during World War II)",
-        "â€¢ Oak Ridge National Laboratory (Tennessee, USA â€“ central research facility for nuclear energy applications)",
-        "â€¢ Trinity Site (New Mexico, USA â€“ testing grounds for the first nuclear bomb in 1945)",
-        "â€¢ Theoretical Physics Division (University of California, Berkeley, USA â€“ hub for advanced theoretical work on particle physics and materials science)",
-        "â€¢ Joint Institute for Nuclear Research (Dubna, Russia â€“ international research center focused on high-energy physics)"
+        "Los Alamos National Laboratory, New Mexico - key U.S. weapons research site",
+        "Bikini Atoll - location of major thermonuclear tests",
+        "Semipalatinsk Test Site - major Soviet testing ground",
+        "Livermore, California - long-term thermonuclear research center"
       ],
       "years": [
-        "â€¢ 1938: Albert Einstein proposes the concept of nuclear fusion",
-        "â€¢ 1942: Enrico Fermi leads the development of the first nuclear reactor at the University of Chicago",
-        "â€¢ 1952: The United States conducts the first successful test of a hydrogen bomb, known as \"Ivy Mike\"",
-        "â€¢ 1961: The Soviet Union detonates its own hydrogen bomb in Novaya Zemlya, demonstrating parity with the US",
-        "â€¢ 1995: North Korea announces the development of a hydrogen bomb capability"
+        "1945 - atomic age begins with fission weapons",
+        "1952 - the first full-scale thermonuclear device is tested",
+        "1954 - Castle Bravo shows the scale of fusion weapons",
+        "1961 - Tsar Bomba demonstrates extreme thermonuclear yield"
       ],
       "concepts": [
-        "â€¢ Nuclear fusion reactions",
-        "â€¢ Particle accelerator technology",
-        "â€¢ Materials science and high-temperature superconductors",
-        "â€¢ Energy yield and range calculations for nuclear bombs",
-        "â€¢ Critical mass and chain reaction concepts in nuclear physics",
-        "â€¢ Radiation and heat transfer phenomena"
+        "Fission - splitting heavy nuclei to release energy",
+        "Fusion - joining light nuclei to release energy",
+        "Staging - using one reaction to ignite another",
+        "Radiation implosion - compressing material with intense energy",
+        "Yield - total energy released by an explosion"
       ]
     }
   }

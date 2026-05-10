@@ -1,30 +1,68 @@
 {
-  "topic": "Animal Sleep Patterns",
-  "title": "Understanding the Methods Behind Animal Rest and Relaxation",
+  "topic": "The Mystery of Animal Sleep Patterns",
+  "title": "Why Different Species Rest in Different Ways",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Sleeping_dog.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Dre1031",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Sleeping_dog.png"
+  },
   "lesson": {
-    "learn": "The sleep patterns of animals have captivated scientists for decades, and recent research has shed light on the unique ways different species rest and relax. A study published in the journal 'Science' in 2011 discovered that dolphins sleep with only half their brain at a time, while cats can fall asleep anywhere, anytime, thanks to their polyphasic sleep patterns. Some animals, such as bears and bats, have been found to have a unique characteristic: they can slow down their heart rate dramatically during sleep, from 40 beats per minute to just 2 in the case of hibernating bears.",
-    "simpler": "Animal sleep patterns vary widely, with some species sleeping for just a few minutes at a time, while others, like armadillos, sleep with their eyes open. Even fish have been found to sleep with their eyes open, and some species, such as rabbits, take long naps during the day.",
-    "keyTakeaway": "The study of animal sleep patterns has revealed that different species have evolved unique adaptations to their environment, which can be linked to their ecology and behavior. For example, the ability of some animals to sleep with only half their brain at a time may provide them with an advantage in detecting potential predators.",
-    "deeperDive": "Recent research has shown that many animals, including primates, dolphins, and elephants, experience different stages of sleep, similar to humans. The 'sleep-wake homeostasis' theory proposes that the drive for sleep is linked to the accumulation of a chemical called adenosine in the brain. Some species, like armadillos and sloths, have been found to have unique sleep patterns adapted to their environment. For instance, armadillos sleep in short periods of 10-15 minutes, followed by brief periods of wakefulness. This pattern is thought to help them conserve energy and avoid predators.",
-    "funFact": "Some animals, like hibernating bears, can slow down their heart rate dramatically during sleep â€“ from 40 beats per minute to just 2, and some species, like tortoises, can survive for months without sleep at all!",
+    "learn": "Animal sleep is not one-size-fits-all. Some animals sleep for long continuous periods, while others nap in short bursts, rest one hemisphere of the brain at a time, or reduce their metabolism dramatically during cold seasons. These differences usually reflect survival needs. A prey animal may stay alert with lighter sleep, while a predator or sheltered species can afford deeper rest. Sleep is therefore a biological compromise between repair, memory, and safety.",
+    "simpler": "Animals do not all sleep the same way. Some take short naps, some sleep with half their brain alert, and some slow down almost completely.",
+    "keyTakeaway": "Animal sleep patterns are shaped by ecology, safety, and energy needs, not just by a universal sleep schedule.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Sleeping_Cat_%28137546402%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Domenico Salvagnin from Legnaro, Italy",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sleeping_Cat_(137546402).jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramphastos%20swainsonii%20-sleeping%20-Animal%20Kingdom-6.jpg",
+    "thirdImageCredit": {
+      "creator": "Steve",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ramphastos_swainsonii_-sleeping_-Animal_Kingdom-6.jpg"
+    },
+    "deeperDive": "Sleep serves several functions at once: memory consolidation, tissue repair, and regulation of attention and metabolism. But the way those functions are balanced changes across species. Dolphins and some birds can use unihemispheric slow-wave sleep, which keeps part of the brain available for swimming or vigilance. Bears and other hibernators enter much deeper energy-saving states in which sleep-like behavior and metabolic suppression overlap. The important scientific point is that sleep evolved under pressure from the environment, so the shape of sleep reflects the lifestyle of the animal.",
+    "funFact": "Some birds can sleep while flying, at least in short, controlled bursts, which is hard to imagine until you remember how well evolution solves problems.",
+    "references": [
+      "Sleep research reviews in comparative biology",
+      "University of California, Berkeley sleep studies",
+      "Comparative neuroscience texts on mammalian sleep",
+      "Bird and marine mammal sleep physiology research"
+    ],
     "keyElements": {
       "people": [
-        "â€¢ Dr. Matt Walker - a renowned sleep researcher who has made significant contributions to our understanding of animal sleep patterns.",
-        "â€¢ Dr. Francis Crick - a Nobel laureate who discovered the function of REM sleep and was fascinated by its connection to brain activity and memory consolidation."
+        "Matt Walker - modern sleep researcher",
+        "Francis Crick - influential sleep and memory thinker",
+        "Niels Rattenborg - unihemispheric sleep researcher",
+        "Comparative neurobiologists studying animal rest"
       ],
       "places": [
-        "â€¢ The University of California, Berkeley - a hub for groundbreaking research on animal sleep patterns and their implications for human health.",
-        "â€¢ The National Institute of Neurological Disorders and Stroke (NINDS) - a leading institution in understanding the neural mechanisms underlying sleep."
+        "Sleep laboratories - where patterns are measured",
+        "Marine habitats - where dolphins and seals rest",
+        "Bird nesting and migration sites - where sleep timing changes",
+        "Hibernation dens - where seasonal rest becomes extreme"
       ],
       "years": [
-        "â€¢ 1953 - When Dr. Francis Crick published his groundbreaking paper on REM sleep, revolutionizing our understanding of its function in memory consolidation and brain activity.",
-        "â€¢ 1990s - A period of significant research advancements in animal sleep patterns, led by pioneers like Dr. Matt Walker."
+        "1950s - REM sleep research grows",
+        "1990s - comparative animal sleep studies expand",
+        "2000s - birds and mammals are studied with better sensors",
+        "2020s - sleep research links behavior, ecology, and brain activity"
       ],
       "concepts": [
-        "â€¢ Unihemispheric slow-wave sleep (USWS) - a unique form of sleep where one half of the brain remains awake while the other is in a state of deep relaxation.",
-        "â€¢ REM and NREM sleep stages - distinct phases of sleep characterized by specific brain activity patterns and physiological responses.",
-        "â€¢ Sleep-wake homeostasis theory - a concept proposing that the drive for sleep is linked to the accumulation of adenosine in the brain.",
-        "â€¢ Hibernation and torpor - two adaptive strategies used by some animals to conserve energy during periods of food scarcity or extreme temperatures."
+        "REM sleep",
+        "NREM sleep",
+        "Unihemispheric sleep",
+        "Torpor",
+        "Hibernation",
+        "Sleep-wake homeostasis"
       ]
     }
   }

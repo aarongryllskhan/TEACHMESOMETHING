@@ -1,46 +1,62 @@
 {
-  "topic": "Why-Wetlands-Are-The-Most-Productive-Ecosystems",
-  "title": "Exploring the Crucial Role of Wetlands in Global Ecology",
+  "topic": "Why Wetlands Are The Most Productive Ecosystems",
+  "title": "How shallow water turns wetlands into biological powerhouses",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Marshland_Ecosystem.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Andevskaines",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Marshland_Ecosystem.png"
+  },
   "lesson": {
-    "learn": "Wetlands have been a cornerstone of planetary health for centuries, with evidence suggesting ancient civilizations relied heavily on these ecosystems. For instance, the Aztecs utilized wetlands in Mesamerica (present-day Mexico) for agriculture, fish farming, and ceremonial purposes. Today, wetlands continue to provide essential services, including water filtration, carbon sequestration, and habitat support for a vast array of plant and animal species. Approximately 15% of the world's terrestrial species inhabit wetlands, including the majestic Harpy Eagle (Harpia harpyja), which can be found in the Amazon River Basin.",
-    "simpler": "Wetlands function as unique combinations of land and water, providing a dynamic environment for plant growth and animal activity. They can be thought of as super-efficient filters, capable of processing pollutants and excess nutrients from the air and water. For instance, mangrove forests in Southeast Asia can process up to 80% of pollutants in water passing through their roots.",
-    "keyTakeaway": "The importance of wetlands in maintaining global ecological balance is paramount. By understanding their unique properties and contributions, we can better appreciate the necessity of wetland conservation and preservation efforts.",
-    "deeperDive": "Recent research has highlighted the significant role wetlands play in mitigating the effects of climate change. Studies have shown that wetlands can store up to 30 times more carbon than forests in the same area, primarily through the accumulation of organic matter and the sequestration of carbon dioxide in wetland soils. The Sundarbans mangrove forest, for example, is estimated to store up to 18 billion metric tons of carbon dioxide, equivalent to approximately 4.6 years of current global emissions.",
-    "funFact": "The Pantanal region in South America, the world's largest tropical wetland, is home to over 1,000 species of birds, including the majestic Jabiru (Jabiru mycteria), a large and powerful stork. This ecosystem also supports an astonishing array of aquatic life, with estimates suggesting over 3,000 species of fish inhabit the wetlands.",
+    "learn": "Wetlands are productive because they combine sunlight, water, nutrients, and abundant biological activity in one place. Plants grow quickly in shallow water, microbes break down material efficiently, and the ecosystem traps nutrients instead of letting them wash away. That makes wetlands especially good at turning energy into living biomass.\n\nThey also support huge numbers of animals, from insects and fish to birds and amphibians. In addition to productivity, wetlands provide flood control, water filtration, and nursery habitat, which is why they matter far beyond their size.",
+    "simpler": "Wetlands are busy places where plants and microbes turn sunlight and nutrients into lots of living matter.",
+    "keyTakeaway": "Wetlands are highly productive because shallow water keeps energy and nutrients circulating efficiently.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/61/Mangrove_Forest_Sungei_Buloh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Anish Sheela",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mangrove_Forest_Sungei_Buloh.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Food_web.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Mark Sharp",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Food_web.gif"
+    },
+    "deeperDive": "The productivity of wetlands comes from several advantages at once. Water slows nutrient loss, sediments collect organic material, and sunlight can reach plants in the shallow zone. That helps grow dense vegetation and support food webs that are packed with life. Decomposers also recycle material quickly, which keeps nutrients available.\n\nDifferent kinds of wetlands do different jobs, but many of them function like ecological engines. They store carbon, filter pollutants, and support species that spend part of their lives in water and part on land.",
+    "funFact": "Wetlands can store carbon while also feeding huge food webs.",
+    "references": [
+      "EPA - wetland functions and benefits",
+      "Britannica - wetland",
+      "WWF - wetland ecosystems"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Aldo Leopold - American ecologist and writer who championed the importance of wetlands",
-        "+ Rachel Carson - Marine biologist and conservationist who highlighted the dangers of pollution in wetlands",
-        "+ Jane Goodall - Primatologist and conservationist who has worked extensively on protecting wetland ecosystems",
-        "+ E.O. Wilson - Biologist and conservationist who has emphasized the importance of preserving biodiversity in wetlands",
-        "+ Carl Sauer - Geographer and ecologist who studied the role of wetlands in shaping human cultures",
-        "* **"
+        "Wetland ecologists - study water and nutrient cycling",
+        "Conservationists - protect marshes and swamps",
+        "Wildlife managers - rely on wetlands for habitat"
       ],
       "places": [
-        "**",
-        "+ The Amazon River Basin - One of the largest networks of wetlands on Earth, home to a staggering array of plant and animal life",
-        "+ The Sundarbans Mangrove Forest - A vast network of mangroves supporting an astonishing array of marine life",
-        "+ The Pantanal Region - A massive wetland area in South America, home to over 1,000 species of birds",
-        "+ The Everglades National Park - A protected area in Florida, USA, dedicated to preserving the unique ecosystem of the Everglades",
-        "+ The Wadden Sea - A shallow sea along the coasts of Denmark and Germany, supporting a rich array of marine life",
-        "* **"
+        "Marshes - grass-dominated wetland systems",
+        "Mangroves - tropical coastal wetlands",
+        "Salt marshes - productive coastal edges"
       ],
       "years": [
-        "**",
-        "+ 1864 - The year that Aldo Leopold first visited the prairies of Wisconsin, inspiring his lifelong passion for ecology and conservation",
-        "+ 1962 - The publication date of Rachel Carson's book \"Silent Spring,\" which highlighted the dangers of pollution in wetlands",
-        "+ 1970s - The decade during which many countries began to recognize the importance of wetland ecosystems and implemented conservation efforts",
-        "+ 1993 - The year that the Ramsar Convention on Wetlands was signed, recognizing the need for international cooperation in protecting wetland ecosystems",
-        "* **"
+        "1971 - Ramsar Convention highlights wetland value",
+        "2000s - wetland restoration expands",
+        "2020s - carbon storage adds new importance"
       ],
       "concepts": [
-        "**",
-        "+ Biodiversity hotspots - Areas with high levels of endemism and species richness",
-        "+ Carbon sequestration - The process by which plants absorb carbon dioxide from the atmosphere",
-        "+ Ecosystem services - The benefits that humans derive from natural ecosystems, including clean water, air, and food",
-        "+ Ecological restoration - The practice of restoring degraded or damaged ecosystems to their former state",
-        "+ Wetland hydrology - The study of the flow of water through wetlands and its impact on ecosystem processes"
+        "Primary productivity - how fast biomass is produced",
+        "Nutrient trapping - keeping resources in place",
+        "Decomposition - recycling organic material",
+        "Nursery habitat - a safe place for young animals"
       ]
     }
   }

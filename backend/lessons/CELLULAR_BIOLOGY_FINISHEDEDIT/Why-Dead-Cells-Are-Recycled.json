@@ -1,19 +1,48 @@
 {
   "topic": "Why-Dead-Cells-Are-Recycled",
   "title": "The Recycling Revolution**",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Apoptosis.png",
+  "imageCredit": {
+    "creator": "Emma Farmer",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Apoptosis.png"
+  },
   "lesson": {
-    "learn": "Cellular recycling, also known as autophagy, is a vital process in which cells break down and reuse damaged or dysfunctional components. This complex process plays a crucial role in maintaining cellular homeostasis, preventing disease, and promoting overall health. When cells recycle dead or dying components, they conserve energy, reduce oxidative stress, and recycle essential nutrients. Autophagy has been found to be involved in various physiological processes, including growth, differentiation, and adaptation to environmental changes. As a result, cellular recycling is now recognized as one of the most critical cellular functions that maintain cellular health.",
-    "simpler": "Think of your cells like a car factory where old parts are broken down and reused to build new cars. Just like how our bodies need to get rid of old or damaged car parts to make room for new ones, cells recycle their dead or dying components to stay healthy. It's like having a special cleanup crew inside each cell that takes out the trash and makes sure everything runs smoothly.",
-    "keyTakeaway": "The most important thing to remember about cellular recycling is that it plays a vital role in maintaining our overall health by breaking down and reusing damaged or dysfunctional components. Autophagy, or cellular recycling, is essential for preventing disease and promoting cellular homeostasis.",
-    "deeperDive": "Research has shown that autophagy helps maintain the balance between cell growth and death, making it a critical process in cancer prevention. In fact, studies have found that certain mutations that inhibit autophagy are associated with increased cancer risk. Additionally, recent discoveries have revealed that cellular recycling is also linked to neurodegenerative diseases such as Alzheimer's and Parkinson's. Interestingly, some research has even suggested that promoting autophagy through dietary interventions may be beneficial in treating or preventing these conditions. Furthermore, advances in technology have allowed scientists to study the intricacies of autophagy at a molecular level, revealing its complex interactions with other cellular processes. Overall, understanding cellular recycling is essential for developing novel therapeutic strategies and improving our overall health.",
-    "funFact": "Did you know that autophagy has been found to be activated in response to exercise, helping to break down damaged muscle proteins and promoting muscle growth? It's also fascinating to note that certain types of bacteria, such as Lactobacillus, have been found to induce autophagy in host cells, which may contribute to their beneficial health effects.",
+    "learn": "Dead and damaged cells are removed so they do not leak contents or inflame the tissue around them. In apoptosis, a cell packages itself into neat fragments, and nearby immune cells or scavenger cells clear those fragments away. The recycling system keeps tissues tidy and prevents unnecessary damage.\n\nThis process matters because biology is constantly replacing old parts. If cells were allowed to die messily, inflammation and tissue injury would spread through the body much more easily.",
+    "simpler": "Dead cells are recycled so they do not spill damage into the tissue. The body breaks them down and clears them away in an orderly way.",
+    "keyTakeaway": "Recycling dead cells protects tissues by removing damaged material before it becomes a problem.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Reactome_Intrinsic_Apoptosis.png",
+    "learnImageCredit": {
+      "creator": "Lisa Matthews",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Reactome_Intrinsic_Apoptosis.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cellular_senescence.png",
+    "thirdImageCredit": {
+      "creator": "Velichko Artem",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cellular_senescence.png"
+    },
+    "deeperDive": "Apoptosis creates membrane-bound fragments that are easy to clean up. Phagocytic cells recognize those fragments, engulf them, and send the contents to lysosomes for breakdown. The resulting molecules can be reused as building blocks or safely discarded.\n\nThis cleanup is especially important during development and immune defense. It also helps prevent dead cells from becoming a source of chronic inflammation. In that sense, recycling is not just housekeeping; it is one of the body’s ways of keeping repair and renewal moving smoothly.",
+    "funFact": "A lot of apoptosis happens quietly, without the redness or swelling people associate with injury.",
+    "references": [
+      "NCBI Bookshelf - apoptosis and phagocytosis",
+      "Nature Education - programmed cell death",
+      "Britannica - cell turnover"
+    ],
     "keyElements": {
       "people": [
         "**",
         "* Yoshinori Ohsumi - Nobel laureate for his discovery of autophagy and its role in cellular recycling",
         "* Julie Strome - researcher who has made significant contributions to understanding the mechanisms of autophagy",
         "* Zhijian \"James\" Chen - scientist who discovered the role of TBK1 in regulating autophagy",
-        "* Ana Jim\u00c3\u00a9nez-S\u00c3\u00a1nchez - researcher who has studied the relationship between autophagy and neurodegenerative diseases",
+        "* Ana JimÃ©nez-SÃ¡nchez - researcher who has studied the relationship between autophagy and neurodegenerative diseases",
         "* Masaaki Komatsu - expert on understanding the molecular mechanisms of autophagy",
         "**"
       ],

@@ -1,43 +1,74 @@
 {
   "topic": "Why AI Sometimes Makes Weird Mistakes",
-  "title": "Exploring the Limitations of Artificial Intelligence and Why Errors Occur",
-  "lesson": {
-    "learn": "Artificial intelligence systems can produce surprising or incorrect outputs despite being highly advanced, largely because they learn patterns from data rather than truly understanding the world. These mistakes often arise from issues such as biased training data, incomplete coverage of real-world scenarios, and limitations in how models generalize beyond what they have seen during training. Even modern systems used in image recognition, language processing, and autonomous decision-making can fail in unexpected ways when faced with unfamiliar inputs or edge cases. Understanding these failures is essential for improving AI reliability, safety, and fairness.",
-    "simpler": "AI learns by finding patterns in examples, but it doesn’t truly understand things like humans do. If the examples it learns from are biased, incomplete, or unusual, it can make strange or incorrect guesses in real situations.",
-    "keyTakeaway": "AI mistakes often come from poor or biased training data and limited generalization. Improving data quality and testing systems in diverse real-world conditions helps reduce these unexpected errors.",
-    "deeperDive": "A major cause of AI errors is overfitting, where a model learns training data too precisely instead of learning general rules that apply to new situations. This leads to strong performance in testing environments but weak performance in real-world use. Another key issue is dataset bias, where training data does not represent the full diversity of the real world, causing systematic errors. For example, image recognition systems may misclassify objects if they are shown in unusual lighting, angles, or cultural contexts not present in training data. Researchers address these problems using techniques such as data augmentation, regularization, adversarial training, and transfer learning. Large-scale datasets help but do not fully solve the issue, because real-world environments are far more complex and unpredictable than any training dataset can capture. As a result, modern AI development increasingly emphasizes robustness, interpretability, and continuous monitoring after deployment.",
-    "funFact": "Some AI systems have been known to misclassify objects in very human-like ways—for example, mistaking a slightly altered image of an object for something completely different—showing how sensitive they can be to small changes in input data."
+  "title": "Why Even Strong AI Systems Can Fail in Surprising Ways",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Illustration_of_imperceptible_adversarial_pertubation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Joshuaclymer",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Illustration_of_imperceptible_adversarial_pertubation.png"
   },
-  "keyElements": {
-    "people": [
-      "John McCarthy – pioneer of artificial intelligence and organizer of the 1956 Dartmouth conference",
-      "Yann LeCun – key researcher in convolutional neural networks and deep learning",
-      "Fei-Fei Li – leading researcher in computer vision and creator of ImageNet",
-      "Geoffrey Hinton – foundational figure in deep learning and neural network research",
-      "Andrew Ng – AI researcher and educator focused on machine learning applications"
+  "lesson": {
+    "learn": "AI systems can make strange mistakes because they learn statistical patterns rather than understanding the world the way people do. A model may look highly accurate during testing and still fail in surprising ways when the input shifts even a little. That can happen when training data is biased, incomplete, or too different from the real-world situation the system later faces.\n\nOne common cause is overfitting. A model can become very good at memorizing the examples it has seen without learning the broader rule it is supposed to generalize. Another cause is distribution shift, where real-world data differs from training data in lighting, background, formatting, language, or cultural context. In image systems, even small changes can trigger bizarre results. In language systems, ambiguous prompts or unusual phrasing can lead to confident but wrong answers.\n\nThese mistakes matter because AI is now used in high-stakes environments. When errors happen in medical, financial, or security settings, the impact can be serious. That is why researchers test models against edge cases, adversarial examples, and diverse real-world conditions instead of relying only on average benchmark scores.",
+    "simpler": "AI can make weird mistakes because it learns patterns from examples, not true understanding. If the situation changes a little, or if the data it learned from was incomplete, it can guess badly even when it seemed smart before.",
+    "keyTakeaway": "Weird AI mistakes usually come from overfitting, biased data, or unexpected input changes, which is why real-world testing and robust training matter so much.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/52/Classification_of_Failure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Mary Ann Lundteigen Marvin Rausand",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Classification_of_Failure.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/ConfusionMatrix.png",
+    "thirdImageCredit": {
+      "creator": "Jackverr",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ConfusionMatrix.png"
+    },
+    "deeperDive": "A model can fail in several distinct ways. Overfitting makes it too sensitive to the details of the training set. Spurious correlations make it rely on shortcuts that do not hold up outside the lab. Adversarial examples show that carefully designed small changes can flip a prediction even when the input looks nearly identical to a human. All of these problems point to the same underlying issue: high accuracy on a benchmark is not the same thing as dependable behavior in the world.\n\nResearchers address this with data augmentation, regularization, adversarial training, calibration, and stronger evaluation protocols. Data augmentation exposes the model to more variation. Regularization discourages it from memorizing too much. Adversarial training makes it more robust against deliberately crafted attacks. Calibration helps predictions reflect uncertainty more honestly. Together, these methods reduce but do not eliminate failure.\n\nThe practical lesson is that AI should be treated like a powerful statistical tool, not an infallible oracle. Good systems are built with monitoring, retraining, and human review so that when strange mistakes appear, they are caught early and corrected before they become harmful.",
+    "funFact": "Some adversarial examples are almost invisible to people but can still fool a model with high confidence, which is one reason AI robustness is such an active research area.",
+    "references": [
+      "Research literature on overfitting, adversarial examples, and distribution shift.",
+      "Stanford and university machine learning materials on robustness and generalization.",
+      "NIST guidance on AI testing, evaluation, and risk management.",
+      "Review articles on calibration, adversarial training, and dataset bias.",
+      "Wikimedia Commons - Image metadata, licensing, creator, source, and file-page verification."
     ],
-    "places": [
-      "MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) – major AI research institution",
-      "Stanford University – leading center for AI and machine learning research",
-      "Google DeepMind – AI research organization focused on advanced learning systems",
-      "University of California, Berkeley – influential hub for machine learning research",
-      "Carnegie Mellon University – major center for robotics and AI development"
-    ],
-    "years": [
-      "1956 – Dartmouth Conference establishes AI as a research field",
-      "1980s – resurgence of neural networks and early machine learning methods",
-      "2012 – deep learning breakthroughs significantly improve image recognition",
-      "2016 – AI systems achieve major milestones in complex game environments",
-      "2020s – widespread deployment of large-scale AI systems reveals real-world failure cases"
-    ],
-    "concepts": [
-      "Overfitting – when AI learns training data too specifically and fails on new data",
-      "Dataset Bias – when training data does not represent real-world diversity",
-      "Generalization – ability of AI to perform well on unseen data",
-      "Data Augmentation – technique for improving dataset diversity",
-      "Transfer Learning – reusing knowledge from one task for another",
-      "Adversarial Examples – inputs designed to intentionally fool AI systems",
-      "Robustness – ability of AI systems to handle unexpected or noisy inputs"
-    ]
+    "keyElements": {
+      "people": [
+        "John McCarthy - pioneer of artificial intelligence and the Dartmouth conference",
+        "Yann LeCun - key researcher in deep learning and computer vision",
+        "Fei-Fei Li - leading computer vision researcher and ImageNet creator",
+        "Geoffrey Hinton - foundational figure in neural networks and deep learning",
+        "Andrew Ng - AI researcher and educator focused on practical machine learning"
+      ],
+      "places": [
+        "MIT CSAIL - major AI research institution",
+        "Stanford University - leading center for machine learning research",
+        "Google DeepMind - AI research organization focused on advanced learning systems",
+        "University of California, Berkeley - influential hub for machine learning research",
+        "Carnegie Mellon University - major center for robotics and AI development"
+      ],
+      "years": [
+        "1956 - Dartmouth Conference establishes AI as a research field",
+        "1980s - renewed interest in neural networks and machine learning methods",
+        "2012 - deep learning dramatically improves image recognition",
+        "2016 - AI systems face new failures in complex real-world settings",
+        "2020s - large-scale AI deployment exposes edge cases and robustness issues"
+      ],
+      "concepts": [
+        "Overfitting - learning training data too specifically",
+        "Distribution shift - when real-world data differs from training data",
+        "Adversarial example - an input designed to fool a model",
+        "Spurious correlation - a shortcut pattern that does not generalize",
+        "Calibration - making predicted confidence more reliable",
+        "Robustness - ability to handle noisy or unexpected input",
+        "Generalization - performing well on unseen examples"
+      ]
+    }
   }
 }

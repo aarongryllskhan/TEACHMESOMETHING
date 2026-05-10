@@ -1,12 +1,41 @@
 {
   "topic": "Why-Stem-Cells-Can-Become-Anything",
   "title": "Understanding the Methods Behind Stem Cell Differentiation",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stem_cell_differentiation.svg",
+  "imageCredit": {
+    "creator": "Haileyfournier",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Stem_cell_differentiation.svg"
+  },
   "lesson": {
-    "learn": "Stem cells possess the extraordinary ability to differentiate into nearly any cell type in the human body due to their unique capacity for self-renewal and multi-lineage differentiation. This property enables them to play a pivotal role in both development and tissue repair. According to research published in the Journal of Cell Biology, approximately 99% of all human cells in the adult body are differentiated, while the remaining 1% are composed of stem cells, which serve as a reservoir for tissue regeneration and renewal. One of the most significant breakthroughs in stem cell research was achieved by Dr. James Thomson's team at the University of Wisconsin-Madison in 1998, who successfully isolated human embryonic stem cells (ESCs). ESCs have the ability to differentiate into various cell types, including nerve cells, muscle cells, and blood cells, among others.",
-    "simpler": "Stem cells can be thought of as master builders with an unlimited supply of LEGO bricks. They have the unique ability to become any type of cell in the body, much like how LEGO bricks can be used to construct an infinite variety of structures and functions. This versatility is made possible by the stem cell's capacity for self-renewal and multi-lineage differentiation.",
-    "keyTakeaway": "The most crucial aspect of stem cells is their capacity for self-renewal and multi-lineage differentiation, which enables them to regenerate and repair damaged tissues. This property has significant implications for regenerative medicine and tissue engineering, as scientists can harness stem cells to develop new therapies for a range of diseases and conditions.",
-    "deeperDive": "One of the most significant advances in recent years has been the discovery of induced pluripotent stem cells (iPSCs), which can be generated from adult cells using a combination of genetic reprogramming and gene expression. This breakthrough was achieved by Dr. Shinya Yamanaka in 2006, who demonstrated that adult cells can be reprogrammed to assume the properties of ESCs. Researchers have also made significant progress in using stem cells to repair damaged hearts and lungs, with some studies showing promising results in animal models. For example, a study published in the Journal of the American College of Cardiology found that stem cell therapy increased heart function in patients with ischemic heart failure. Moreover, researchers have identified specific genetic markers that can be used to track the behavior of stem cells in real-time, allowing for more precise control over their activity.",
-    "funFact": "Stem cells have been shown to play a crucial role in cancer treatment, with research indicating that they can help target and destroy tumor cells while sparing healthy tissue. Furthermore, studies have also found that stem cells can be used to repair damaged spinal cords, restoring mobility to individuals who were previously paralyzed.",
+    "learn": "Stem cells can become many different cell types because they begin with unusually flexible gene regulation. Depending on the signals they receive, they can divide, stay self-renewing, or commit to a specific lineage. That flexibility makes them central to development, repair, and tissue renewal.\n\nWhat changes is not the DNA sequence itself, but which parts of that DNA are being used. Stem cells are powerful because they can hold many options open before choosing a specialized future.",
+    "simpler": "Stem cells are flexible starting cells. They can keep dividing or turn into specialized cells when the body sends the right signals.",
+    "keyTakeaway": "Stem cells can become many things because their gene activity can still be redirected.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/DNA_double_helix_horizontal.png",
+    "learnImageCredit": {
+      "creator": "Jerome Walker",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DNA_double_helix_horizontal.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_brain.svg",
+    "thirdImageCredit": {
+      "creator": "InjuryMap",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Human_brain.svg"
+    },
+    "deeperDive": "Stem cells are often described by potency. Totipotent cells can make almost everything, pluripotent cells can make most body cells, and multipotent cells are more limited but still useful. Signals from neighboring tissue, growth factors, and epigenetic marks help move a cell from one state to another.\n\nThis is why stem cells matter so much in medicine. They offer a route to repair tissue, model disease, and test treatments, but their flexibility must be controlled carefully. The same plasticity that makes them useful can also make them risky if the signals that guide them go wrong.",
+    "funFact": "A stem cell can spend time undecided before the body tells it which path to take.",
+    "references": [
+      "NIH - stem cell basics",
+      "Nature Education - potency and differentiation",
+      "Britannica - stem cells"
+    ],
     "keyElements": {
       "people": [
         "**",
@@ -43,23 +72,5 @@
         "+ Regenerative Medicine - A field that aims to develop new therapies using stem cells and tissue engineering principles"
       ]
     }
-  },
-  "keyElements": {
-    "people": [
-      "+ Dr. James Thomson - Led the team that isolated human embryonic stem cells at the University of Wisconsin-Madison in 1998",
-      "+ Dr. Shinya Yamanaka - Discovered induced pluripotent stem cells (iPSCs) in 2006"
-    ],
-    "places": [
-      "+ University of Wisconsin-Madison - Where Dr. James Thomson's team isolated human embryonic stem cells",
-      "+ Kyoto University, Japan - Where Dr. Shinya Yamanaka made his groundbreaking discovery on iPSCs"
-    ],
-    "years": [
-      "+ 1998 - Dr. James Thomson's team isolates human embryonic stem cells at the University of Wisconsin-Madison",
-      "+ 2006 - Dr. Shinya Yamanaka discovers induced pluripotent stem cells (iPSCs)"
-    ],
-    "concepts": [
-      "+ Embryonic Stem Cells (ESCs) - Derived from embryonic tissue, have the ability to differentiate into any cell type",
-      "+ Induced Pluripotent Stem Cells (iPSCs) - Generated from adult cells, possess similar properties to ESCs"
-    ]
   }
 }

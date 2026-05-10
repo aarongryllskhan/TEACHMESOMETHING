@@ -1,33 +1,66 @@
 {
-  "topic": "Impacts of Coral Bleaching",
-  "title": "Coral Bleaching: A Consequence of Climate Change",
+  "topic": "Coral Bleaching",
+  "title": "Why Coral Bleaching Is Spreading So Fast",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Coral_Bleaching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Logwo18",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Coral_Bleaching.jpg"
+  },
   "lesson": {
-    "learn": "Coral bleaching, a phenomenon associated with rising sea temperatures, poses a significant threat to the world's coral reefs. This process involves corals expelling their algal symbionts, a critical component of their photosynthetic apparatus, resulting in the degradation of their tissues and a loss of color, hence 'bleaching.' The frequency and severity of coral bleaching events have increased due to anthropogenic climate change, leading to widespread damage to coral reef ecosystems.",
-    "simpler": "Coral bleaching occurs when corals expel their symbiotic algae, causing them to lose their color. This can be triggered by elevated sea temperatures, leading to the degradation of coral tissue and a decrease in the ecosystem's resilience.",
-    "keyTakeaway": "Coral bleaching is a widespread consequence of climate change, resulting in the degradation of coral reefs and the loss of essential ecosystem services.",
-    "deeperDive": "According to NASA's Coral Reef Watch Program (2020), coral bleaching events are becoming more frequent and severe, with the 2016 global bleaching event affecting 70% of the world's coral reefs. The Australian Government's Great Barrier Reef Marine Park Authority has reported that the 2016-2017 bleaching event caused an estimated $1.1 billion in economic losses, while the 2020 bleaching event resulted in the death of 30% of the Great Barrier Reef's coral. These events have significant cascading effects on marine life, including fish populations, which can lead to food security issues for millions of people worldwide. Coral reefs also provide critical shoreline protection, reducing the risk of coastal erosion and flooding. The loss of these ecosystems would have significant economic, social, and cultural impacts on coastal communities.",
-    "funFact": "Coral reefs cover only 0.1% of the ocean's surface area but provide habitat for 25% of all marine species. This highlights the importance of preserving these ecosystems in the face of climate change.",
+    "learn": "Coral bleaching happens when corals become stressed, usually by unusually warm water. Corals live in partnership with tiny algae that provide much of their color and a large share of their energy. When temperatures rise too high, the corals expel those algae, turning pale and struggling to survive.\n\nThe speed of bleaching has increased because ocean heat is arriving more often and lasting longer. That makes reefs more vulnerable, especially when warming combines with pollution, acidification, and repeated marine heat waves.",
+    "simpler": "Corals bleach when warm water stresses them and they lose the tiny algae they depend on. Without those algae, the coral can starve.",
+    "keyTakeaway": "Bleaching accelerates when ocean heat and stress events happen more often, giving corals less time to recover.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Colorful_Coral_Bleaching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Ryan Goehrung",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Colorful_Coral_Bleaching.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/3/32/NMSAS_-_coral_bleaching_%2827416199680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "National Marine Sanctuaries",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:NMSAS_-_coral_bleaching_(27416199680).jpg"
+    },
+    "deeperDive": "Bleaching is not just a color change. It is a breakdown in a partnership between coral and symbiotic algae. Those algae, called zooxanthellae, help feed the coral through photosynthesis. If the stress lasts too long, the coral can die; if conditions improve, some corals recover.\n\nWhat worries scientists is the frequency of modern bleaching events. Reefs that used to have years between major heat spikes may now face repeated episodes before they fully rebound. That reduces biodiversity, weakens coastal protection, and threatens fisheries and tourism. Bleaching is therefore both an ecological and an economic warning sign.",
+    "funFact": "Bleached coral is still alive at first. It often dies later if the heat keeps coming.",
+    "references": [
+      "NOAA Coral Reef Watch - bleaching basics",
+      "Britannica - coral reef ecology",
+      "WWF - coral reefs and climate stress"
+    ],
     "keyElements": {
       "people": [
-        "Dr. Mark Eakin - NASA's Coral Reef Watch Program",
-        "Dr. Ove Hoegh-Guldberg - University of Queensland, Coral Bleaching Researcher",
-        "Dr. Ellen Pikitch - Save the Sound, Ocean Conservationist"
+        "Marine biologists - scientists who study reef health",
+        "Coral reef ecologists - experts in coral-algae relationships",
+        "Climate scientists - researchers tracking ocean heat",
+        "Conservation teams - people protecting reef ecosystems"
       ],
       "places": [
-        "Great Barrier Reef, Australia",
-        "Belize Barrier Reef, Belize",
-        "Coral Triangle, Southeast Asia"
+        "The Great Barrier Reef - major coral system under stress",
+        "Florida Reef Tract - a vulnerable reef region",
+        "The Caribbean - frequent bleaching hotspot",
+        "National marine sanctuaries - monitoring and restoration sites"
       ],
       "years": [
-        "1998 - First recorded mass coral bleaching event due to El Niño",
-        "2016 - Massive bleaching event affects 70% of global coral reefs",
-        "2020 - Third consecutive year of bleaching for the Great Barrier Reef"
+        "1980s - bleaching becomes widely recognized",
+        "1998 - a major global bleaching event occurs",
+        "2016 - the Great Barrier Reef suffers severe loss",
+        "2020s - repeated marine heat waves intensify risk"
       ],
       "concepts": [
-        "Climate Change - Rising sea temperatures cause coral bleaching",
-        "Coral-Algal Symbiosis - Corals and algae live together in harmony",
-        "Ecosystem Services - Coral reefs provide shoreline protection, fisheries support, and more",
-        "Biodiversity Hotspots - Coral reefs are among the most biodiverse ecosystems on Earth"
+        "Symbiosis - two organisms living in a mutually helpful relationship",
+        "Zooxanthellae - algae that support coral",
+        "Marine heatwave - prolonged unusually warm ocean water",
+        "Ocean acidification - seawater becoming less alkaline",
+        "Resilience - the ability to recover after stress"
       ]
     }
   }

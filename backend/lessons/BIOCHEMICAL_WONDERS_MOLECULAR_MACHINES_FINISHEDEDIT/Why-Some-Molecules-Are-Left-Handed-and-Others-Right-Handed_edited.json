@@ -1,33 +1,63 @@
 {
-  "topic": "Molecular Asymmetry",
-  "title": "Exploring the Methods Behind Molecular Structure and Function",
+  "topic": "Molecular Chirality",
+  "title": "Why Left-Handed and Right-Handed Molecules Matter",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiral_molecule_example.svg",
+  "imageCredit": {
+    "creator": "Calvero",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Chiral_molecule_example.svg"
+  },
   "lesson": {
-    "learn": "Molecular asymmetry, or chirality, describes molecules that exist as non-superimposable mirror image forms. This phenomenon plays a crucial role in various biochemical processes and has significant implications for pharmacology and medicine. Since the discovery of the first optically active compound, tartaric acid, in 1760 by Italian chemist Andrea Libavius, scientists have studied the properties of chiral molecules. The sugar molecule glucose, for instance, is naturally found in its left-handed form, L-glucose, in the human body.",
-    "simpler": "To understand molecular asymmetry, consider a simple analogy: a pair of left and right gloves. Just as one glove fits a specific hand, a chiral molecule can only interact with its mirror image, resulting in unique outcomes. This quirk is essential for understanding how biological molecules work and their interactions.",
-    "keyTakeaway": "The three-dimensional shape of a molecule determines its properties and interactions, leading to distinct outcomes for left-handed and right-handed molecules. This understanding has led to significant advancements in drug development, with scientists designing molecules that target specific receptors or enzymes to minimize side effects.",
-    "deeperDive": "Recent research has shed light on the importance of molecular asymmetry in protein-ligand interactions. Studies have shown that the binding affinity of proteins to their ligands can be influenced by the handedness of the molecule. Furthermore, the presence of chiral centers in drugs can significantly impact their efficacy and toxicity. For instance, the widely used painkiller ibuprofen exists in two chiral forms: R- and S-ibuprofen. The R-form is more effective for pain relief, while the S-form is less potent.",
-    "funFact": "Linus Pauling's seminal work on the importance of chirality in biochemical processes, published in 1951, demonstrated that the stereochemistry of a molecule is crucial for its function. This understanding has had a lasting impact on the field of pharmacology, enabling the development of more effective and targeted treatments.",
+    "learn": "Some molecules come in two mirror-image forms that cannot be perfectly lined up on top of each other. That property is called chirality, and it matters because biological systems are themselves selective. A molecule's handedness can affect how it fits into an enzyme, receptor, or cell membrane.\n\nThis is why the same chemical formula can lead to different biological outcomes. In medicine, chemistry, and nutrition, shape is not just a detail; it can be the whole story.",
+    "simpler": "Some molecules exist as left-handed and right-handed versions. Even though they look similar, living things can treat them very differently.",
+    "keyTakeaway": "Molecular handedness matters because biology is shape-sensitive.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Chirality_with_hands.svg",
+    "learnImageCredit": {
+      "creator": "NASA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Chirality_with_hands.svg"
+    },
+    "deeperDive": "Chirality becomes especially important in biology because enzymes are built to recognize only certain shapes. Amino acids in proteins are mostly left-handed, while many sugars used by living systems are right-handed. This built-in preference is one of the reasons life chemistry is so orderly.\n\nThe practical impact shows up in drug design. One enantiomer may deliver the intended effect while the mirror image does little, or even causes side effects. That is why chemists pay close attention to stereochemistry when designing treatments. A tiny three-dimensional difference can change everything.",
+    "funFact": "Your left and right hands are a perfect everyday analogy for chirality: they match in parts, but they are not superimposable.",
+    "references": [
+      "NCBI Bookshelf - Chirality in chemistry",
+      "Britannica - Stereochemistry",
+      "Royal Society of Chemistry - Chirality",
+      "NIH - Drug stereochemistry"
+    ],
     "keyElements": {
       "people": [
-        "* **Emil Fischer**: Nobel laureate who pioneered the study of molecular asymmetry",
-        "* **Linus Pauling**: Scientist who demonstrated the significance of chirality in biochemical processes",
-        "* **Hermann Emil Fisher**: Chemist who discovered that many organic compounds exist as non-superimposable mirror image forms"
+        "Louis Pasteur - Early pioneer in optical activity",
+        "Emil Fischer - Advanced stereochemistry and sugar chemistry",
+        "Linus Pauling - Helped explain molecular shape in biology",
+        "V. Prelog - Major contributor to stereochemistry",
+        "Roger Y. Tsien - Showed how molecular shape matters in biology"
       ],
       "places": [
-        "* **University of Berlin**: Where Emil Fischer conducted his groundbreaking research on molecular asymmetry",
-        "* **California Institute of Technology (Caltech)**: Linus Pauling's workplace where he contributed significantly to the field",
-        "* **ETH Zurich**: Institution where Hermann Emil Fisher studied and later taught, making significant contributions to the understanding of chirality"
+        "University of Berlin - Historic chemistry center",
+        "ETH Zurich - Major site in stereochemistry research",
+        "Caltech - Important in modern molecular science",
+        "MIT - Major center for chemical biology",
+        "RCSB - Repository for 3D molecular structures"
       ],
       "years": [
-        "* 1890: Emil Fischer publishes a paper describing the concept of molecular asymmetry",
-        "* 1951: Linus Pauling demonstrates the importance of chirality in biochemical processes",
-        "* 1996: Researchers at ETH Zurich publish findings on the role of molecular asymmetry in protein-ligand interactions"
+        "1848 - Pasteur studies optical activity in tartrates",
+        "1890s - Stereochemistry becomes a formal field",
+        "1950s - Biological shape recognition becomes clearer",
+        "1970s - Drug stereochemistry gains attention",
+        "2000s - Structural biology expands shape-based medicine"
       ],
       "concepts": [
-        "* **Chirality**: The property of molecules that exist in non-superimposable mirror image forms",
-        "* **Molecular symmetry**: A concept that relates to the arrangement of atoms within a molecule and its influence on chemical properties",
-        "* **Enantiomerism**: The phenomenon where molecules with identical molecular formulae exhibit different physical and chemical properties due to their handedness",
-        "* **Stereochemistry**: The branch of chemistry dealing with the three-dimensional arrangement of atoms in molecules"
+        "Chirality - Mirror-image handedness",
+        "Enantiomer - One of a pair of mirror-image molecules",
+        "Stereochemistry - 3D arrangement of atoms",
+        "Optical activity - Interaction with polarized light",
+        "Molecular recognition - Shape-based binding",
+        "Selectivity - Preference for one form over another"
       ]
     }
   }

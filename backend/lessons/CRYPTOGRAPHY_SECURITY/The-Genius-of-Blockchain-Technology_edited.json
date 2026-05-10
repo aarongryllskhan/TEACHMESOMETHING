@@ -1,39 +1,67 @@
 {
-  "topic": "Blockchain Fundamentals",
-  "subtopics": [
-    "Decentralized Ledger Technology",
-    "Smart Contracts",
-    "Blockchain Architecture"
-  ],
-  "title": "Understanding the Basics of Blockchain Technology",
-  "lesson": {
-    "learn": "Blockchain technology is a decentralized, digital ledger that records transactions across multiple computers in a network. It ensures the integrity and immutability of data, making it an attractive solution for secure and trustworthy record-keeping. Blockchain technology allows for peer-to-peer transactions, enabling users to interact directly without the need for intermediaries.",
-    "simpler": "Imagine a digital notebook that's shared among many people, where every time someone makes a change, it gets recorded on everyone else's copy. This way, no one can cheat or alter the information without being noticed! It's like having a group of friends who keep track of each other's money and make sure everything is fair and balanced.",
-    "keyTakeaway": "The decentralized nature of blockchain technology allows for secure and transparent transactions without intermediaries. It has the potential to transform various industries by streamlining processes, increasing efficiency, and enhancing trust.",
-    "deeperDive": "Blockchain technology enables smart contracts, self-executing contracts with the terms of the agreement written directly into lines of code. This allows for automatic enforcement of rules and obligations, reducing the need for intermediaries and increasing efficiency. There are several types of blockchain networks, including public, private, and consortium blockchains. Each type has its own strengths and weaknesses, and is suited for different use cases. As blockchain technology continues to evolve, we can expect to see improved scalability, security, and usability."
+  "topic": "The Genius of Blockchain Technology",
+  "title": "How shared ledgers create trust without a central owner",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blockchain-Process.png",
+  "imageCredit": {
+    "creator": "B140970324",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Blockchain-Process.png"
   },
-  "funFact": "Did you know that the Bitcoin network processes over 300,000 transactions per day, with a total value of over $1 billion?",
-  "exercises": {
-    "keyElements": {
-      "people": {
-        "Satoshi Nakamoto": "The creator of Bitcoin, whose true identity remains a mystery.",
-        "Vitalik Buterin": "The co-founder of Ethereum, who has made significant contributions to blockchain development.",
-        "Nick Szabo": "The conceptualizer of Bit Gold, who has been an influential figure in the development of blockchain technology."
-      },
-      "concepts": {
-        "Decentralized Ledger": "A digital ledger that records transactions across multiple computers in a network.",
-        "Smart Contracts": "Self-executing contracts with the terms of the agreement written directly into lines of code.",
-        "Cryptography": "The practice of secure data transmission using encryption techniques."
-      },
-      "places": {
-        "Cambridge University": "A host of the first Blockchain Conference, where experts gathered to discuss the potential of blockchain technology.",
-        "Estonia": "A country that has implemented e-Residency, a blockchain-based digital identity system."
-      }
+  "lesson": {
+    "learn": "Blockchain technology combines data, consensus, and cryptography to create a record that many computers can agree on without one central controller. Each block points to the previous one, which makes the chain hard to alter quietly. That structure is the whole trick.\n\nThe genius is not that blockchains are magical databases. It is that they let a network coordinate around a shared history. People can verify what happened without needing to trust one single organization to keep the master copy.",
+    "simpler": "A blockchain is a shared record that many computers copy and check together. Because each block links to the one before it, changing the past gets very hard.",
+    "keyTakeaway": "Blockchain works by making agreement and history harder to fake than to verify.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blockchain%20workflow.png",
+    "learnImageCredit": {
+      "creator": "B140970324",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Blockchain_workflow.png"
     },
-    "keyTerms": {
-      "Blockchain": "A decentralized, digital ledger that records transactions across multiple computers in a network.",
-      "Node": "A computer in a blockchain network that verifies and relays transactions.",
-      "Consensus Mechanism": "A mechanism that allows different computers in a network to agree on the state of the blockchain."
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/2011-2021%20blockchain%20transactions.jpg",
+    "thirdImageCredit": {
+      "creator": "HocusPocus00",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:2011-2021_blockchain_transactions.jpg"
+    },
+    "deeperDive": "Blocks normally bundle transactions, timestamps, and a cryptographic fingerprint of the previous block. That fingerprint means a later change would ripple forward through the chain. On top of that, consensus rules decide which version of history the network accepts. The details vary by system, but the core idea is the same: the network should agree before the ledger is accepted.\n\nThat does not make every blockchain useful, and it does not remove the need for trust altogether. People still have to trust software, wallets, exchanges, and governance rules. What blockchain changes is the trust model. Instead of asking one party to be the ledger, the system asks the network to validate the ledger together.",
+    "funFact": "A blockchain is mostly a coordination system with cryptography attached.",
+    "references": [
+      "Nakamoto white paper - Bitcoin: A Peer-to-Peer Electronic Cash System",
+      "Britannica - blockchain",
+      "MIT Technology Review - blockchain systems analysis"
+    ],
+    "keyElements": {
+      "people": [
+        "Satoshi Nakamoto - introduced Bitcoin",
+        "Protocol developers - define the rules",
+        "Miners or validators - check and confirm blocks",
+        "Users - move assets and rely on the ledger"
+      ],
+      "places": [
+        "Distributed network - many nodes share the ledger",
+        "Wallet software - stores keys and balances",
+        "Exchanges - where many users first encounter blockchain",
+        "Developer communities - improve protocols and tools"
+      ],
+      "years": [
+        "2008 - Bitcoin paper appears",
+        "2009 - Bitcoin network launches",
+        "2015 - smart-contract platforms expand the idea",
+        "2020s - blockchain use cases diversify"
+      ],
+      "concepts": [
+        "Ledger - the shared record of activity",
+        "Consensus - how the network agrees",
+        "Hash linking - each block points to the last one",
+        "Immutability - old blocks are hard to change",
+        "Decentralization - no single central owner controls everything"
+      ]
     }
   }
 }

@@ -1,79 +1,63 @@
 {
   "topic": "Protein Folding",
-  "title": "Protein Structure Determination: An Overview of Biophysical Techniques",
+  "title": "How Proteins Find Their Working Shape",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Protein_folding_figure.png",
+  "imageCredit": {
+    "creator": "Kep17",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Protein_folding_figure.png"
+  },
   "lesson": {
-    "learn": "Protein folding is a critical biological process whereby a protein's primary structure, defined by the sequence of amino acids, is transformed into its tertiary structure, comprising the three-dimensional arrangement of its polypeptide chains. This structural transition is essential for determining a protein's function and stability within living organisms.",
-    "simpler": "Proteins are complex macromolecules composed of amino acids, which are connected by peptide bonds and stabilized by hydrophobic interactions. The folding process can be understood through the concepts of thermodynamics and statistical mechanics. For instance, the energy landscape model provides a framework for understanding the free energy changes associated with protein folding.",
-    "keyTakeaway": "The precision of protein structure determination is crucial for understanding protein function and interactions, enabling the design of rational therapeutic strategies and elucidating biological mechanisms in health and disease.",
-    "deeperDive": "Recent studies have harnessed advanced biophysical techniques, such as X-ray crystallography and cryo-electron microscopy, to resolve protein structures with high resolution. For example, the structure of lysozyme, an enzyme crucial for the defense against bacterial infections, was determined using cryo-electron microscopy to a resolution of 1.9 Å, revealing its intricate folding patterns and identifying essential residues for its catalytic activity.",
-    "funFact": "As of 2020, the UniProt database contains over 210,000 characterized protein entries, with numerous additional predictions generated from genomic sequences.",
+    "learn": "Proteins are made as chains of amino acids, but those chains only become useful when they fold into a precise three-dimensional shape. That final shape is not decorative; it is the difference between a protein that works and one that does not. Folding is driven by chemistry, physics, and the cellular environment, with water, charge, temperature, and amino-acid sequence all shaping the outcome.\n\nA protein often does not fold perfectly on its own in the crowded interior of a cell. Chaperone proteins help prevent misfolding and aggregation, giving fragile chains a better chance to reach a stable working form. When folding goes wrong, the consequences can be serious, which is why protein structure matters so much in biology and medicine.",
+    "simpler": "A protein starts as a long chain, then folds into a specific shape that lets it do its job. If the shape is wrong, the protein usually cannot work properly.",
+    "keyTakeaway": "Protein folding is how a simple amino-acid chain becomes a functional biological machine.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Protein_folding_schematic.png",
+    "learnImageCredit": {
+      "creator": "Tomixdf",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Protein_folding_schematic.png"
+    },
+    "deeperDive": "The main force behind folding is the search for a stable energy state. Hydrophobic amino acids tend to hide from water, charged groups interact with each other, and the chain twists until those influences reach a workable balance. That is why protein folding is often described as an energy landscape: many routes exist, but only some lead to a stable final structure.\n\nMisfolded proteins can clump together and damage cells, which is why folding is linked to disorders such as Alzheimer's disease and some forms of cystic fibrosis. Modern tools like X-ray crystallography, cryo-electron microscopy, and computational prediction have made it possible to study protein shape in far more detail than before.",
+    "funFact": "Some proteins can begin folding while they are still being built by the ribosome, so shape and synthesis happen almost at the same time.",
+    "references": [
+      "Nature Education - Protein folding",
+      "NCBI Bookshelf - Protein structure and folding",
+      "RCSB Protein Data Bank - Protein structure resources",
+      "National Institute of General Medical Sciences - Protein folding"
+    ],
     "keyElements": {
       "people": [
-        {
-          "name": "Vincent Hilser",
-          "title": "Biochemist",
-          "achievement": "Developed a statistical mechanical framework for understanding protein folding and the energy landscape model"
-        },
-        {
-          "name": "Christian Anfinsen",
-          "title": "Nobel Laureate",
-          "achievement": "Discovered the importance of disulfide bonds in protein stability"
-        },
-        {
-          "name": "Jane Richardson",
-          "title": "Structural Biologist",
-          "achievement": "Pioneered the use of ribbon diagrams to represent protein structures and developed the DSSP algorithm for secondary structure prediction"
-        }
+        "Christian Anfinsen - Showed that amino-acid sequence strongly determines protein shape",
+        "Jane Richardson - Helped popularize ribbon diagrams for protein structure",
+        "Cyrus Levinthal - Highlighted the protein folding problem",
+        "Dill and Chan - Advanced the energy landscape view of folding",
+        "Max Perutz - Helped establish structural biology as a major field"
       ],
       "places": [
-        {
-          "name": "National Institute of General Medical Sciences (NIGMS)",
-          "description": "US research institute supporting studies on protein folding and function"
-        },
-        {
-          "name": "European Molecular Biology Laboratory (EMBL)",
-          "description": "Leading international research institution for molecular biology"
-        },
-        {
-          "name": "Brookhaven National Laboratory",
-          "description": "Research center with a strong focus on X-ray crystallography and structural biology"
-        }
+        "RCSB Protein Data Bank - Global archive of protein structures",
+        "EMBL - Major center for structural biology",
+        "Brookhaven National Laboratory - Historic site in structural biology",
+        "Cambridge University - Important center for molecular biology research",
+        "National Institutes of Health - Supporter of protein research"
       ],
       "years": [
-        {
-          "year": "1961",
-          "event": "Christian Anfinsen publishes his discovery of the importance of disulfide bonds in protein stability"
-        },
-        {
-          "year": "1982",
-          "event": "Vincent Hilser develops his statistical mechanical framework for understanding protein folding"
-        },
-        {
-          "year": "2018",
-          "event": "Cryo-electron microscopy is awarded the Nobel Prize in Chemistry for its role in determining protein structures"
-        }
+        "1950s - Early protein structure studies expand",
+        "1961 - Anfinsen's work helps define folding principles",
+        "1970s - Folding becomes a major research problem",
+        "1990s - Structural biology grows rapidly",
+        "2010s - AI and better imaging improve structure prediction"
       ],
       "concepts": [
-        {
-          "name": "Primary structure",
-          "definition": "The sequence of amino acids in a protein"
-        },
-        {
-          "name": "Secondary structure",
-          "definition": "Local arrangements of amino acids, such as alpha-helices and beta-sheets"
-        },
-        {
-          "name": "Tertiary structure",
-          "definition": "The overall three-dimensional shape of a protein"
-        },
-        {
-          "name": "Quaternary structure",
-          "definition": "The arrangement of multiple polypeptide chains in a single protein molecule"
-        },
-        {
-          "name": "Energy landscape",
-          "definition": "A conceptual representation of the energy changes associated with protein folding"
-        }
+        "Primary structure - The amino-acid sequence",
+        "Secondary structure - Local alpha helices and beta sheets",
+        "Tertiary structure - The full 3D fold of one chain",
+        "Quaternary structure - Multiple chains assembled together",
+        "Chaperone protein - A helper that reduces misfolding",
+        "Energy landscape - The set of folding routes and stable states"
       ]
     }
   }

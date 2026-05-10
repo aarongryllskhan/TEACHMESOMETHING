@@ -1,37 +1,63 @@
 {
-  "topic": "Why-Capitalism-Creates-Inequality",
-  "title": "Exploring the Methods Behind Capitalism's Disparities",
+  "topic": "Why Capitalism Creates Inequality",
+  "title": "How market systems can generate wealth gaps at the same time",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/World_Map_Gini_coefficient.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Cronholm144 see also upload history",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:World_Map_Gini_coefficient.svg"
+  },
   "lesson": {
-    "learn": "Capitalism is an economic system where individuals and businesses operate in a free market, driven by the pursuit of profit. The system's fundamental principles have lifted billions out of poverty and created unprecedented wealth, with the top 7% of earners in the United States accounting for more than half of the country's total wealth. However, this wealth concentration occurs through unequal access to resources, opportunities, and education, driven by systemic issues such as limited social mobility, exploitation of workers, and concentration of wealth among the elite.",
-    "simpler": "Capitalism can be likened to a game where some players have access to better tools and training, while others are disadvantaged. A study by the Economic Policy Institute found that the average worker at a top 1% CEO's firm earned approximately $4.7 million in 2019, compared to $48,000 for a worker at a median-wage firm.",
-    "keyTakeaway": "The concentration of wealth among a small elite in capitalist systems can be explained by the interplay between limited social mobility, unequal access to resources, and the exploitation of workers. Understanding these dynamics is essential for addressing the root causes of inequality and promoting a more equitable distribution of wealth.",
-    "deeperDive": "A report by the Organization for Economic Cooperation and Development (OECD) found that the wealthiest 10% of Americans hold over 77% of the country's wealth. Meanwhile, the bottom 50% of earners possess a mere 1%. This wealth disparity is further exacerbated by tax policies and government incentives that favor the affluent, such as the US's progressive tax system, which taxes the wealthy at a lower rate than the majority of the population. For instance, in 2019, the top 0.1% of earners in the US paid an effective tax rate of just 3.7%, while the bottom 40% paid an effective rate of 24.3%. Furthermore, the exploitation of workers is facilitated by corporate power and union-busting tactics, with studies showing that companies with anti-union practices experience higher profits but lower employee satisfaction.",
-    "funFact": "According to data from the Federal Reserve, the assets of the world's billionaires increased from $1.4 trillion in 2009 to $10.4 trillion in 2020, a growth rate of over 640%. This accumulation of wealth has not only widened the wealth gap but also distorted the global economy.",
+    "learn": "Capitalism can produce inequality because markets reward owners of capital, scarce skills, and successful assets more than they reward everyone equally. If you already own property, stocks, or a profitable business, growth can compound your wealth faster than wages rise. That does not mean markets always fail; it means they distribute gains unevenly.\n\nThe system can create innovation and abundance while also concentrating power. That tension is built into the way profits, ownership, and bargaining power work.",
+    "simpler": "In capitalism, people who already own assets often benefit more from growth than people who only earn wages.",
+    "keyTakeaway": "Capitalism can grow overall wealth while still widening the gap between rich and poor.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/bd/World_Map_Gini_coefficient.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Unknown",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:World_Map_Gini_coefficient.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/cd/United_States_by_Gini_Coefficient.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Jcotter",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:United_States_by_Gini_Coefficient.png"
+    },
+    "deeperDive": "Inequality is shaped by ownership, inheritance, education, geography, and the rules of the market. Profits can scale faster than wages, and asset prices can rise faster than income. That means people who enter the system with more resources often pull even farther ahead.\n\nEconomists disagree on how much inequality is too much, but they agree that markets alone do not automatically spread gains evenly. Taxes, transfers, education, and labor rules all matter if a society wants growth without extreme concentration.",
+    "funFact": "Wealth can grow while wages barely move.",
+    "references": [
+      "Britannica - inequality",
+      "OECD - income distribution",
+      "World Bank - inequality data"
+    ],
     "keyElements": {
       "people": [
-        "+ Adam Smith - Economist who proposed the concept of laissez-faire capitalism",
-        "+ Karl Marx - Critic of capitalism and proponent of communism",
-        "+ Milton Friedman - Economist who advocated for free market policies",
-        "+ Thomas Piketty - French economist known for his work on wealth inequality",
-        "+ Joseph Stiglitz - Economist who has written extensively on the social costs of inequality",
-        "*"
+        "Economists - measure distribution and growth",
+        "Policymakers - decide on taxes and transfers",
+        "Workers - feel wage pressure directly"
       ],
       "places": [
-        "+ Wall Street, New York City - Financial hub that epitomizes capitalist excesses",
-        "+ Silicon Valley, California - Region where tech giants have driven innovation and growth",
-        "+ London's Canary Wharf - Example of gentrification and urban development",
-        "+ Amazon headquarters in Seattle - Illustrates the concentration of wealth and power in modern capitalism",
-        "+ Paris's Louvre Museum - Venue for discussions on economic inequality at the World Economic Forum",
-        "*"
+        "Global markets - where capital accumulates",
+        "Urban centers - where opportunity concentrates",
+        "Household balance sheets - where inequality becomes visible"
       ],
       "years": [
-        "+ 1776: Adam Smith publishes \"The Wealth of Nations\"",
-        "+ 1917: Russian Revolution establishes communism as a viable alternative to capitalism",
-        "+ 1979: US income inequality begins to rise sharply, marking the beginning of the current trend",
-        "+ 2008: Global financial crisis exposes systemic risks in capitalism",
-        "+ 2020: COVID-19 pandemic exacerbates existing social and economic disparities"
+        "1980s - inequality becomes a major policy debate",
+        "2008 - financial crises expose asset gaps",
+        "2020s - wealth concentration remains a major issue"
       ],
-      "concepts": []
+      "concepts": [
+        "Capital - assets that generate more wealth",
+        "Wages - income from work",
+        "Compound growth - gains building on gains",
+        "Redistribution - policies that spread gains more evenly"
+      ]
     }
   }
 }

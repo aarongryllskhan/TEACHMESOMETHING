@@ -1,40 +1,65 @@
 {
-  "topic": "The-Effect-of-Solar-Activity-On-Climate",
-  "title": "Understanding the Impact of Solar Activity on Earth's Climate",
+  "topic": "The Effect of Solar Activity On Climate",
+  "title": "How Changes in the Sun Can Nudge Earth's Climate",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Solar-cycle-data.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+  "imageCredit": {
+    "creator": "Robert A. Rohde",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Solar-cycle-data.png"
+  },
   "lesson": {
-    "learn": "Solar activity, particularly solar flares and coronal mass ejections, is a complex phenomenon that significantly affects Earth's climate. On average, solar flares produce 2.5 billion kilowatts of electromagnetic radiation, a mere fraction of the 140 trillion kilowatts emitted by the entire solar system. The resulting energy release influences Earth's magnetic field, upper atmosphere, and climate patterns. Research has shown that solar activity is responsible for up to 20% of Earth's climate variability over the past century, with significant impacts on global temperature trends and precipitation levels. Understanding these effects is crucial for developing accurate climate models and predicting future changes in Earth's climate.",
-    "simpler": "Think of solar activity like a cosmic storm that sends massive waves of energy towards our planet. For instance, a solar flare in 1859, known as the Carrington Event, caused widespread aurora displays visible in Hawaii and even the Bahamas. These solar flares can also disrupt global communication systems and cause power grid failures. To put this into perspective, consider the massive 1859 solar flare, which released an energy equivalent of an 800-kiloton nuclear bomb.",
-    "keyTakeaway": "Solar activity significantly influences climate patterns, with effects that can be both destructive and beneficial. It's essential to consider the solar cycle and its impact on Earth's atmosphere and climate to develop more accurate climate models and predict future changes.",
-    "deeperDive": "Recent studies have shown that strong solar flares can disrupt Earth's magnetic field, causing the aurora borealis to appear at lower latitudes. This phenomenon is linked to increased radiation on the surface, which can affect atmospheric circulation patterns. Researchers also discovered that intense solar radiation can stimulate plant growth, potentially enhancing crop yields and mitigating the effects of droughts. For example, a study by NASA's Goddard Space Flight Center found that during the 2003 solar maximum, increased solar radiation led to improved crop yields in some regions. However, these effects are highly dependent on factors like solar intensity, atmospheric conditions, and geographical location.",
-    "funFact": "Did you know that the longest recorded solar flare occurred in 1872 and lasted for 10 days? During this event, scientists observed a massive solar flare that caused widespread aurorae and disrupted global communication systems. This solar flare was so powerful that it could have theoretically caused $10 billion in damages.",
+    "learn": "The Sun does influence Earth's climate, but usually in subtle ways. Its energy output changes slightly across the solar cycle, and those changes can affect the upper atmosphere, ozone chemistry, and short-term climate patterns. The important point is scale: solar variability matters, but it does not explain the modern long-term warming trend on its own.",
+    "simpler": "The Sun does not stay exactly the same. When it becomes a little more or less active, Earth's atmosphere and climate can shift slightly too.",
+    "keyTakeaway": "Solar activity can affect climate, but the effect is modest compared with the much larger influence of greenhouse gases and other Earth-based drivers.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/37/Changes_in_total_solar_irradiance_and_monthly_sunspot_numbers%2C_1975-2013-da.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Hansen J, Kharecha P, Sato M, Masson-Delmotte V, Ackerman F, et al.",
+      "source": "Wikimedia Commons",
+      "license": "CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Changes_in_total_solar_irradiance_and_monthly_sunspot_numbers,_1975-2013-da.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Changes_in_mean_solar_irradiance_and_mean_global_surface_temperature_on_Earth_since_the_year_1978.png",
+    "thirdImageCredit": {
+      "creator": "Robert Simmon and David Herring, NASA and NOAA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Changes_in_mean_solar_irradiance_and_mean_global_surface_temperature_on_Earth_since_the_year_1978.png"
+    },
+    "deeperDive": "Solar activity is tracked with sunspots, solar irradiance, and flare frequency. During active periods, the Sun emits slightly more energy and particles, which can change the behavior of the upper atmosphere and influence atmospheric circulation in limited ways. The climate record, however, shows that recent warming cannot be explained by solar variability alone. Scientists use this distinction to separate natural variability from human-driven climate change when building more accurate models.",
+    "funFact": "The solar cycle is roughly 11 years long, but the effect on Earth's climate is much smaller than many people assume.",
+    "references": [
+      "NOAA Climate.gov - Human Contributions to Global Climate Change",
+      "NASA heliophysics and solar cycle resources",
+      "IPCC climate attribution summaries",
+      "Global Warming Art solar cycle data background"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "1. **Dr. Judith Lean**: Solar physicist who pioneered research on solar irradiance variability and its impact on climate.",
-        "2. **Dr. David Hathaway**: NASA scientist who studied the 11-year solar cycle and its effects on Earth's climate.",
-        "3. **Dr. William Livingston**: Physicist who developed models to predict solar activity and its influence on atmospheric circulation.",
-        "**"
+        "Robert A. Rohde - climate data visualizer",
+        "David Herring - NASA climate communicator",
+        "Judith Lean - solar irradiance researcher"
       ],
       "places": [
-        "**",
-        "1. **Mauna Loa Observatory**, Hawaii: Site of a network of sensors monitoring Earth's atmosphere, including those tracking the impact of solar activity on climate.",
-        "2. **High Altitude Observatory**, Colorado: Research facility studying solar flares and coronal mass ejections' effects on upper atmospheric circulation.",
-        "**"
+        "Earth's upper atmosphere - where solar changes show up first",
+        "NOAA Climate.gov - climate analysis resource",
+        "NASA heliophysics centers - solar monitoring and modeling"
       ],
       "years": [
-        "**",
-        "1. **1979**: First satellite (ISEE-3) launched to study solar activity's impact on Earth's magnetic field.",
-        "2. **2003**: Largest solar flare ever recorded occurs, causing widespread disruptions.",
-        "3. **2010s**: Scientists begin exploring the link between solar activity and climate change using advanced models.",
-        "**"
+        "1978 - satellite irradiance monitoring becomes available",
+        "2000s - solar-climate attribution studies improve",
+        "2010s - climate models separate solar and greenhouse effects more clearly"
       ],
       "concepts": [
-        "**",
-        "1. **Solar Flares**: Brief, intense releases of energy from the sun's surface.",
-        "2. **Coronal Mass Ejections (CMEs)**: Large-scale expulsions of hot plasma from the sun's corona.",
-        "3. **Sunspot Activity**: Cycles of increased and decreased sunspot activity influencing solar radiation levels.",
-        "4. **Magnetic Reconnection**: Process by which magnetic fields in space become unstable, releasing energy.",
-        "5. **Solar Irradiance Variability**: Changes in the amount of solar radiation reaching Earth's surface."
+        "Solar cycle",
+        "Solar irradiance",
+        "Sunspot activity",
+        "Upper atmosphere",
+        "Climate attribution",
+        "Natural variability"
       ]
     }
   }

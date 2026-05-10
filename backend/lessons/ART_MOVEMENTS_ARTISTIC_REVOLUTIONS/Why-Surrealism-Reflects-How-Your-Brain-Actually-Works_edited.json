@@ -1,43 +1,77 @@
 {
   "topic": "The Methods Behind Surrealism: Exploring the Creative Subconscious",
   "title": "Understanding Surrealism as a Gateway to the Subconscious Mind and Creative Experimentation",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Yvan_Goll%2C_Surr%C3%A9alisme%2C_Manifeste_du_surr%C3%A9alisme%2C_Volume_1%2C_Number_1%2C_October_1%2C_1924%2C_cover_by_Robert_Delaunay.jpg",
+  "imageCredit": {
+    "creator": "Robert Delaunay",
+    "source": "Wikimedia Commons",
+    "license": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Yvan_Goll,_Surr%C3%A9alisme,_Manifeste_du_surr%C3%A9alisme,_Volume_1,_Number_1,_October_1,_1924,_cover_by_Robert_Delaunay.jpg"
+  },
   "lesson": {
-    "learn": "Surrealism emerged in the early 1920s in Paris as a radical artistic and literary movement that aimed to challenge rationalism and conventional logic in post–World War I society. Led by André Breton, surrealists sought to unlock the creative power of the unconscious mind, drawing heavily on the psychoanalytic theories of Sigmund Freud, particularly his ideas about dreams, repression, and hidden desire.\n\nArtists and writers developed techniques intended to bypass conscious control, including automatic writing, automatic drawing, dream journaling, and unexpected juxtaposition of imagery. These methods allowed chance, instinct, and subconscious association to shape artistic output. Artists such as Salvador Dalí and René Magritte produced works that distorted reality, combined impossible elements, and created dream-like visual logic. For example, Dalí’s “The Persistence of Memory” (1931), with its melting clocks, visually represents the instability of time and perception within a dream state.\n\nSurrealism was not only a style but also a philosophical approach, aiming to dissolve the boundary between dream and reality and expand human creativity beyond rational constraints.",
-    "simpler": "Surrealism is an art movement where artists try to show what the mind might create in dreams or imagination instead of real life. They use strange combinations of objects, unexpected scenes, and dream-like ideas to express thoughts from the subconscious part of the brain.",
-    "keyTakeaway": "Surrealism shows that creativity can come from the subconscious mind, and that breaking normal rules of logic and reality can lead to powerful new ways of thinking and creating art.",
-    "deeperDive": "Surrealism developed out of earlier movements like Dada, which already questioned logic and traditional art systems. André Breton’s 1924 Surrealist Manifesto formally defined the movement as an exploration of “pure psychic automatism,” meaning creativity free from conscious control.\n\nArtists experimented with psychological techniques inspired by Freud’s theories of dreams and repression. Salvador Dalí developed the “paranoiac-critical method,” deliberately inducing hallucination-like interpretations of reality to generate imagery. René Magritte, in works like “The Treachery of Images,” challenged how language and visual representation relate, showing that images are not the same as the objects they depict.\n\nSurrealist influence extended beyond painting into cinema, literature, and later advertising and digital media. Filmmakers such as Luis Buñuel used fragmented narrative structures and shocking imagery to disrupt viewer expectations. The movement also influenced later psychological art practices and contemporary experimental media, where randomness, AI systems, and generative processes continue surrealism’s interest in the unconscious and chance.",
-    "funFact": "Some surrealist artists intentionally used random or accidental techniques—such as rubbing textures onto paper or scraping paint—to force unexpected images to emerge, believing that “mistakes” could reveal hidden ideas from the subconscious.",
+    "learn": "Surrealism emerged in the early 1920s in Paris as a radical artistic and literary movement that challenged rationalism, conventional logic, and the cultural confidence that had been shaken by World War I. Led most famously by André Breton, surrealists wanted to unlock the creative power of the unconscious mind, drawing heavily on Sigmund Freud's theories of dreams, repression, desire, and hidden mental life.\n\nInstead of treating art as something controlled only by planning and technique, surrealists experimented with methods designed to bypass conscious control. These included automatic writing, automatic drawing, dream journaling, collage, chance procedures, and startling combinations of unrelated images. The goal was not simply to make things look strange. It was to let unexpected associations reveal how thought actually moves beneath the surface of ordinary awareness.\n\nArtists such as Salvador Dalí, René Magritte, Max Ernst, and Joan Miró created images where familiar objects behave in impossible ways: clocks melt, rooms become dream stages, bodies shift into symbols, and ordinary language suddenly feels unstable. Dalí's The Persistence of Memory (1931), with its soft clocks, is one famous example of surrealism's interest in time, perception, and dream logic.\n\nSurrealism was therefore both an art movement and a philosophy of creativity. It tried to dissolve the boundary between dream and waking life, reason and imagination, accident and intention. Its central idea is still powerful today: the mind does not create only through neat logic. It also creates through association, memory, emotion, surprise, and the strange leaps that happen before we can fully explain them.",
+    "simpler": "Surrealism is an art movement where artists show dreamlike scenes, strange combinations, and impossible images to explore the hidden parts of the mind. Instead of copying real life exactly, surrealist artists try to reveal how imagination, dreams, memories, and subconscious thoughts can shape creativity.",
+    "keyTakeaway": "Surrealism shows that creativity often begins below the level of conscious control. By breaking ordinary rules of logic and reality, artists can reveal surprising connections inside the mind and create powerful new ways of seeing.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/63/Andr%C3%A9_Breton_1924.jpg",
+    "learnImageCredit": {
+      "creator": "André Bretonr",
+      "source": "Réunion des musées nationaux via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9_Breton_1924.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Son%20of%20Man.jpg",
+    "thirdImageCredit": {
+      "creator": "Molly Des Jardin",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_Son_of_Man.jpg"
+    },
+    "deeperDive": "Surrealism grew out of Dada, an earlier avant-garde movement that rejected traditional art values and questioned the logic of a society capable of catastrophic war. Where Dada often used absurdity as protest, surrealism pushed further into psychology. André Breton's 1924 Surrealist Manifesto described surrealism as a form of psychic automatism: a way of expressing thought without the usual control of reason, aesthetics, or moral judgment.\n\nThat idea led to practical creative experiments. Automatic writing asked writers to record words as they arrived, before editing could tame them. Automatic drawing invited the hand to move before the conscious mind had decided what the image should become. Max Ernst developed frottage, rubbing paper over textured surfaces to discover unexpected forms, and grattage, scraping paint to let hidden textures emerge. These techniques treated chance as a collaborator.\n\nSurrealist painting often looks polished, but its logic is unstable. René Magritte used crisp, ordinary-looking images to make viewers doubt the relationship between words, pictures, and reality. Salvador Dalí developed his paranoiac-critical method, deliberately encouraging irrational associations and double images. Luis Buñuel brought surrealist disruption into film, using abrupt edits, dream sequences, and shocking juxtapositions to unsettle the viewer's expectations.\n\nThe movement also matters because it anticipated how modern psychology, advertising, cinema, digital art, and even generative media think about creativity. Surrealism recognized that the mind is not a simple machine for rational decisions. It is a layered system of memory, sensation, emotion, symbolism, and pattern-making. That is why surrealist images can feel bizarre and familiar at the same time: they imitate the way dreams and associations already work inside us.",
+    "funFact": "Surrealists loved creative games. One famous method, the exquisite corpse, had several people contribute to a drawing or sentence without seeing the whole thing. The result was often strange, funny, and unexpectedly poetic because no single person fully controlled the final image.",
+    "references": [
+      "Tate — Surrealism art movement overview and historical context.",
+      "Museum of Modern Art (MoMA) — Surrealism collection and movement framework.",
+      "Encyclopaedia Britannica — Surrealism history, Breton, automatism, and Freudian influence.",
+      "The Metropolitan Museum of Art — Surrealist artists, techniques, and modern art context.",
+      "Centre Pompidou — Surrealism, André Breton, and European avant-garde collections.",
+      "Wikimedia Commons — Image metadata, licensing, creator, source, and file-page verification."
+    ],
     "keyElements": {
       "people": [
-        "André Breton - founder of Surrealism and author of the Surrealist Manifesto (1924)",
-        "Salvador Dalí - Spanish surrealist painter known for dreamlike and symbolic imagery",
-        "René Magritte - Belgian surrealist known for philosophical and paradoxical paintings",
-        "Luis Buñuel - filmmaker who brought surrealist ideas into cinema",
-        "Max Ernst - artist who developed experimental techniques like frottage and collage",
-        "Sigmund Freud - psychoanalyst whose theories of dreams and the unconscious influenced Surrealism"
+        "André Breton - French writer, theorist, and author of the Surrealist Manifesto",
+        "Salvador Dalí - Spanish surrealist painter known for dreamlike imagery and symbolic distortions",
+        "René Magritte - Belgian surrealist painter known for visual paradoxes and philosophical images",
+        "Luis Buñuel - filmmaker who brought surrealist disruption into cinema",
+        "Max Ernst - artist who developed experimental techniques such as frottage, grattage, and collage",
+        "Sigmund Freud - psychoanalyst whose theories of dreams and the unconscious influenced surrealist thinking"
       ],
       "places": [
-        "Paris, France - central hub where Surrealism was founded in the 1920s",
-        "New York City, USA - major center where Surrealist artists relocated during World War II",
-        "Centre Pompidou, Paris, France - major collection of modern and surrealist works",
-        "MoMA (Museum of Modern Art), New York City, USA - influential institution showcasing Surrealist art",
-        "Dalí Theatre-Museum, Figueres, Spain - museum dedicated to Salvador Dalí’s work and legacy"
+        "Paris, France - central hub where surrealism was formally organized in the 1920s",
+        "New York City, United States - major wartime and postwar center for surrealist artists and influence",
+        "Centre Pompidou, Paris, France - museum with major modern and surrealist collections",
+        "Museum of Modern Art, New York City, United States - influential institution for modern and surrealist art",
+        "Dalí Theatre-Museum, Figueres, Spain - museum dedicated to Salvador Dalí's work and legacy"
       ],
       "years": [
-        "1924 - André Breton publishes the Surrealist Manifesto",
-        "1920s - Surrealism formally emerges as a movement in Paris",
+        "1924 - André Breton publishes the first Surrealist Manifesto",
+        "1920s - surrealism formally emerges as a movement in Paris",
         "1931 - Salvador Dalí paints The Persistence of Memory",
-        "1930s - Surrealist cinema develops through works by Luis Buñuel",
-        "1940s - Surrealist artists spread internationally due to World War II",
-        "1950s - Surrealism influences later movements such as Abstract Expressionism"
+        "1930s - surrealist film develops through works by Luis Buñuel and others",
+        "1940s - surrealist artists spread internationally during and after World War II",
+        "1950s - surrealism influences later movements, including Abstract Expressionism and experimental media"
       ],
       "concepts": [
-        "Subconscious mind - part of the mind containing hidden thoughts, desires, and memories",
-        "Automatism - creating art without conscious control or deliberate planning",
-        "Dream imagery - visual representation of dream-like or irrational scenes",
-        "Juxtaposition - placing unrelated elements together to create new meaning",
-        "Paranoiac-critical method - Dalí’s technique for generating irrational interpretations of reality",
-        "Psychological symbolism - using images to represent hidden emotional or mental states"
+        "Unconscious mind - hidden mental processes involving memory, desire, fear, and association",
+        "Automatism - creating words or images without deliberate conscious control",
+        "Dream logic - the strange but emotionally meaningful structure of dreams",
+        "Juxtaposition - placing unrelated elements together to create surprise or new meaning",
+        "Paranoiac-critical method - Dalí's technique for generating irrational interpretations and double images",
+        "Exquisite corpse - a collaborative surrealist game built from hidden contributions",
+        "Frottage - Max Ernst's rubbing technique for turning accidental textures into images",
+        "Psychological symbolism - using visual forms to suggest hidden emotional or mental states"
       ]
     }
   }

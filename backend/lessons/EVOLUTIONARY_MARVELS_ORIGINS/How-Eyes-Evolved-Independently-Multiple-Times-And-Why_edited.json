@@ -1,33 +1,66 @@
 {
-  "topic": "The Evolution of Eyes",
-  "title": "Understanding the Independent Development of Eyes Across Species",
+  "topic": "Eye Evolution",
+  "title": "Why Eyes Evolved Independently More Than Once",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Diagram_of_eye_evolution.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Matticus78 at English Wikipedia",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Diagram_of_eye_evolution.svg"
+  },
   "lesson": {
-    "learn": "Eyes have evolved independently in various species, showcasing the incredible adaptability and diversity of life on Earth. This phenomenon is a testament to the power of convergent evolution, where unrelated organisms develop similar traits in response to environmental pressures. By studying eye evolution, scientists can gain insights into the fundamental principles governing life's development.",
-    "simpler": "Think of eyes as complex optical systems that have evolved to optimize visual perception in different environments. Just as different cameras are designed to capture specific types of images, eyes have developed unique features to adapt to various ecological niches.",
-    "keyTakeaway": "The most important thing to remember is that eye evolution is a prime example of convergent evolution, where unrelated species develop similar traits independently. This process is facilitated by the shared genetic toolkit of life, which allows for the recombination of existing genetic mechanisms to create new visual systems.",
-    "deeperDive": "Recent studies on the development of compound eyes in insects have revealed the intricate processes involved in optic cup formation and lens development. For example, research on the fruit fly's compound eyes has shown that the development of a lens is a highly conserved process, with similar genetic mechanisms used across different species. In addition, scientists have discovered that some species, like the blind mole rat, have evolved unique adaptations for low-light vision. This is achieved through the development of larger eyes and more sensitive photoreceptors, allowing for better light gathering and detection.",
-    "funFact": "Did you know that the mantis shrimp has the most advanced eyes of any animal, capable of detecting polarized light and perceiving a wide range of colors? This is due to the development of a highly sensitive visual system that includes multiple types of photoreceptors and a complex lens that allows for precise focusing.",
+    "learn": "Eyes evolved independently many times because even a simple light-sensing patch can offer a survival advantage. From there, natural selection can gradually shape a shallow cup, a pinhole eye, a lens, or a compound eye depending on the organism's needs. Different lineages solved the same problem in different ways.\n\nThat is why eyes are such a classic example of convergent evolution. They are not one design copied everywhere. They are a family of solutions built under similar physical rules.",
+    "simpler": "Eyes did not evolve just once. Different animals independently evolved ways to detect light and form images.",
+    "keyTakeaway": "Eyes evolved more than once because light detection is so useful that natural selection repeatedly found ways to improve it.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Schematic_diagram_of_the_human_eye.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Delta G",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Schematic_diagram_of_the_human_eye.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/01/Insect_compound_eye_diagram.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Bugboy52.40",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Insect_compound_eye_diagram.svg"
+    },
+    "deeperDive": "The eye shows how complexity can emerge step by step. A light-sensitive patch can help an animal tell day from night; a cup shape adds direction; a lens adds focus. Insects and many other arthropods took a different route with compound eyes, which can be excellent for motion detection and wide fields of view.\n\nThe important point is that \"eye\" is not one thing. It is a category of solutions to the same problem. Evolution can independently arrive at similar answers when the environment creates similar demands, which is exactly what makes eyes so fascinating.",
+    "funFact": "Your eyes and an insect's compound eye solve the same problem in very different ways.",
+    "references": [
+      "Britannica - eye evolution",
+      "Nature Education - convergent evolution",
+      "Smithsonian - visual systems in animals"
+    ],
     "keyElements": {
       "people": [
-        "* **Simon Conway Morris**, British paleontologist known for his work on convergent evolution",
-        "* **Douglas Fox**, American science writer who has extensively covered the topic of eye evolution",
-        "* **Ji Qiang**, Chinese molecular biologist who has made significant contributions to our understanding of genetic mechanisms in eye development"
+        "Evolutionary biologists - scientists who study convergent evolution",
+        "Neurobiologists - researchers studying vision systems",
+        "Comparative anatomists - experts comparing eyes across species",
+        "Paleontologists - scientists tracing visual structures through time"
       ],
       "places": [
-        "* **The University of Cambridge**, where researchers have made groundbreaking discoveries about eye evolution and development",
-        "* **The Field Museum of Natural History** in Chicago, which houses an extensive collection of fossilized eyes from ancient species",
-        "* **The National Museum of Natural History** in Washington D.C., which features exhibits on the biology of vision and eye evolution"
+        "Marine environments - where many eye types originated",
+        "Insect habitats - where compound eyes excel",
+        "Laboratories and museums - where visual systems are compared",
+        "Fossil-bearing rocks - where early eye evolution evidence appears"
       ],
       "years": [
-        "* **600 million years ago**, when the first simple light-sensitive organs appeared in early animal life forms",
-        "* **350 million years ago**, during the Devonian period, when complex eyes began to evolve in ancient fish-like species",
-        "* **250 million years ago**, when the first modern-style eyes emerged in tetrapods (four-legged vertebrates)"
+        "Early life - light sensing likely begins very simply",
+        "Hundreds of millions of years ago - complex eyes evolve in multiple lineages",
+        "19th century - eyes become a major evolution debate",
+        "Present day - genetics and fossils explain eye diversity together"
       ],
       "concepts": [
-        "* **Convergent evolution**: The process by which unrelated organisms develop similar traits in response to environmental pressures.",
-        "* **Optic cup formation**: The developmental process that gives rise to the eye's light-sensitive retina.",
-        "* **Lens development**: The growth and differentiation of lens cells, crucial for focusing light onto the retina.",
-        "* **Polarized vision**: A type of visual perception that allows some animals to detect the orientation of light waves."
+        "Convergent evolution - different lineages reaching similar solutions",
+        "Photoreceptor - a cell that detects light",
+        "Lens - structure that focuses light",
+        "Compound eye - many small visual units working together",
+        "Selective advantage - a trait that improves survival and reproduction"
       ]
     }
   }

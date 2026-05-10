@@ -1,42 +1,67 @@
 {
   "topic": "The-Properties-of-Liquid-Nitrogen",
   "title": "Understanding the Cryogenic Chemistry of Liquid Nitrogen: Applications and Insights",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20nitrogen.jpg",
+  "imageCredit": {
+    "creator": "Ryabitskii",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Liquid_nitrogen.jpg"
+  },
   "lesson": {
-    "learn": "Liquid nitrogen, a cryogenic substance with a boiling point of 77.3 K (-195.8 °C), has been a cornerstone in various scientific fields. Its extremely low temperature allows it to become a versatile coolant, preserver, and facilitator of unique laboratory experiments. The liquid's physical properties, such as thermal expansion and contraction, have led researchers to develop innovative applications in cryogenic storage and experimentation. Understanding the chemistry behind liquid nitrogen is crucial in unlocking its potential in preserving biological samples, studying superconductivity, and exploring new materials.",
-    "simpler": "Liquid nitrogen is an extremely cold fluid, maintained at a temperature of -196 °C, which offers numerous opportunities for scientists to study materials in extraordinary conditions. This unique substance has been employed in the preservation of biological samples, materials science research, and cryosurgery. For instance, biological samples frozen using liquid nitrogen have been effectively preserved for several years, allowing for further analysis. Additionally, researchers have utilized liquid nitrogen to study superconductivity and investigate its applications in materials.",
-    "keyTakeaway": "The versatility and potential of liquid nitrogen arise from its unique physical properties and cryogenic temperature. The substance's ability to maintain materials at extremely low temperatures, facilitate thermal expansion and contraction, and enable cryogenic storage have made it a crucial element in various scientific and medical applications.",
-    "deeperDive": "One significant aspect of liquid nitrogen lies in its ability to induce thermal expansion. When cooled, the substance expands upon exposure to atmospheric conditions. This property has led researchers to use liquid nitrogen in cryogenic storage facilities, where materials can be preserved at cryogenic temperatures. Moreover, exposing certain materials to liquid nitrogen can alter their structural properties. For instance, diamonds, when exposed to liquid nitrogen, undergo a phase transition from diamond to graphite. Additionally, scientists have utilized liquid nitrogen in cryosurgery, a technique where diseased tissues are frozen to destroy cancer cells or stop bleeding. The substance's cryogenic temperature also allows researchers to study superconductivity in various materials, which has far-reaching implications in materials science and energy applications. Furthermore, scientists are exploring the potential applications of liquid nitrogen in space exploration, as its low boiling point and versatility make it an attractive substance for use in space.",
-    "funFact": "Liquid nitrogen is often used in laboratory experiments that involve thermal shock, a phenomenon where metal objects become brittle and shatter upon sudden exposure to extreme temperature fluctuations. For instance, researchers have used liquid nitrogen to demonstrate the effects of thermal shock on various metal alloys, providing valuable insights into material properties and structural integrity.",
+    "learn": "Liquid nitrogen is nitrogen cooled until it becomes a liquid at extremely low temperature. Because its boiling point is so low, it absorbs heat rapidly and can freeze materials almost instantly. That makes it valuable for cryopreservation, medical procedures, materials testing, and classroom demonstrations.\n\nThe chemistry is simple to describe but dramatic to watch. Liquid nitrogen is not reactive in the everyday sense; its power comes from how fast it removes heat from whatever it touches.",
+    "simpler": "Liquid nitrogen is nitrogen in liquid form at very low temperature. It freezes things quickly by pulling heat away very fast.",
+    "keyTakeaway": "Liquid nitrogen is useful because its extremely low boiling point makes it a powerful cooling tool.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquidnitrogen.jpg",
+    "learnImageCredit": {
+      "creator": "Cory Doctorow",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Liquidnitrogen.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20nitrogen%20(7357146304).jpg",
+    "thirdImageCredit": {
+      "creator": "Jessica Spengler",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Liquid_nitrogen_(7357146304).jpg"
+    },
+    "deeperDive": "At standard pressure, liquid nitrogen boils at about minus 196 degrees Celsius. That low boiling point creates a big temperature gap between the liquid and ordinary room-temperature materials, so heat transfer happens very quickly. As it warms, it expands dramatically into gas, which is why proper handling matters.\n\nScientists use it to preserve biological samples, cool sensors, study superconductivity, and explore how materials behave under thermal shock. It is a reminder that chemistry often becomes most interesting when temperature changes the rules.",
+    "funFact": "Liquid nitrogen can make some materials crack because the cooling is so sudden.",
+    "references": [
+      "Britannica - liquid nitrogen",
+      "NIH - cryopreservation basics",
+      "NIST - cryogenics and low-temperature physics"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "* Dr. Ray Davis (chemist who first isolated liquid nitrogen in the early 20th century)",
-        "* Lord Rayleigh (physicist who discovered the existence of argon, an essential element for liquefying air and producing liquid nitrogen)",
-        "* James Dewar (Scottish chemist and physicist who made significant contributions to low-temperature physics and invented the vacuum flask)",
-        "* **"
+        "Carl von Linde - industrial air liquefaction pioneer",
+        "James Dewar - advanced low-temperature science",
+        "Heike Kamerlingh Onnes - studied cryogenic physics",
+        "William Hampson - early liquefaction work"
       ],
       "places": [
-        "**",
-        "* University of Oxford (where Lord Rayleigh worked on his groundbreaking experiments with argon)",
-        "* Institute of Cryogenics at the College of William & Mary (a leading research center for cryogenic studies)",
-        "* NASA's Jet Propulsion Laboratory (involved in liquid nitrogen-related space exploration projects)",
-        "* **"
+        "Leiden University - historic cryogenic research",
+        "Oxford, England - Dewar’s scientific work",
+        "Industrial gas laboratories - liquid air production",
+        "Medical and biological storage facilities - cryopreservation sites"
       ],
       "years": [
-        "**",
-        "* 1902 - Lord Rayleigh discovers argon, a crucial step towards understanding and producing liquid nitrogen",
-        "* 1913 - James Dewar invents the vacuum flask to store liquid nitrogen safely",
-        "* 1960s - Liquid nitrogen becomes widely used in cryogenic research and applications"
+        "1895 - industrial liquefaction methods advance",
+        "1898 - liquid nitrogen is produced in quantity",
+        "1908 - low-temperature physics accelerates",
+        "20th century - cryogenics becomes a major research field"
       ],
-      "concepts": []
+      "concepts": [
+        "Cryogenics - the study of very low temperatures",
+        "Boiling point - the temperature where liquid becomes gas",
+        "Phase change - matter moving between states",
+        "Thermal shock - cracking caused by rapid temperature change",
+        "Cryopreservation - preserving material by freezing"
+      ]
     }
-  },
-  "tags": [
-    "liquid nitrogen",
-    "cryogenic substances",
-    "cryogenic chemistry",
-    "materials science",
-    "superconductivity",
-    "cryosurgery"
-  ]
+  }
 }

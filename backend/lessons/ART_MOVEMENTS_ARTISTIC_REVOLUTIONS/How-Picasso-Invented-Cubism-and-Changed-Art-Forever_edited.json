@@ -1,42 +1,75 @@
 {
   "topic": "The Evolution of Cubism",
   "title": "How Picasso and Braque Rewired Visual Reality Through Cubism",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Les_Demoiselles_d%27Avignon_%287925004644%29.jpg/960px-Les_Demoiselles_d%27Avignon_%287925004644%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20220826193356",
+  "imageCredit": {
+    "creator": "Cliff from Arlington, Virginia, USA (photograph of Pablo Picasso’s original painting)",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Les_Demoiselles_d%27Avignon_(7925004644).jpg"
+  },
   "lesson": {
-    "learn": "Emerging in the early 20th century through the collaboration of Pablo Picasso and Georges Braque, Cubism marked a radical break from traditional Western art. Instead of portraying subjects from a single fixed viewpoint, Cubist artists fractured objects into geometric planes and reassembled them to show multiple perspectives at once. This approach was influenced by developments in modern science, photography, and exposure to non-Western art forms, particularly African sculpture. Cubism reshaped the foundations of modern visual language and became one of the most influential movements in 20th-century art, affecting painting, sculpture, architecture, design, and even literature.",
-    "simpler": "Cubism is a style of art where artists break things apart into shapes and show many viewpoints at the same time. Instead of painting something exactly as it looks, Picasso and Braque showed how it might look from different angles all at once.",
-    "keyTakeaway": "Cubism changed art by rejecting single-point perspective and replacing it with fragmented, multi-view representations, creating a completely new way of seeing and understanding visual reality.",
-    "deeperDive": "Cubism developed in stages, beginning with Analytic Cubism (around 1907–1912), where objects were broken into overlapping geometric fragments and muted tones were used to emphasize structure over color. Works like Picasso’s 'Les Demoiselles d’Avignon' signaled this shift by abandoning classical perspective entirely. Influences included Paul Cézanne’s geometric simplification of nature and exposure to African and Iberian masks, which inspired abstraction and symbolic distortion. Later, Synthetic Cubism introduced collage elements, incorporating real-world materials like newspaper and wallpaper into artworks, further blurring the boundary between representation and reality. This evolution directly influenced later movements such as Futurism, Constructivism, and Surrealism, and laid conceptual groundwork for abstract and conceptual art in the 20th century.",
-    "funFact": "During the height of Cubism, some paintings were so abstract that viewers struggled to recognize everyday objects, leading critics to joke that Cubist paintings looked like 'broken glass versions of reality.'",
+    "learn": "In the early 20th century, Cubism emerged as one of the most revolutionary artistic transformations in Western visual culture, fundamentally altering how reality could be represented. Developed primarily through the groundbreaking collaboration between Pablo Picasso and Georges Braque in Paris, Cubism rejected centuries of Renaissance-based single-point perspective, which had dominated European art since the 15th century. Instead of depicting subjects from one fixed angle, Cubist artists fragmented forms into geometric planes and reconstructed them to present multiple viewpoints simultaneously. A face, guitar, or bottle could be shown from front, side, and above all at once, challenging the assumption that visual reality should imitate direct observation. Influenced by Paul Cézanne’s structural simplification of natural forms, the rise of photography, modern scientific thought, and encounters with African and Iberian sculpture, Cubism became an intellectual reimagining of perception itself. Rather than simply painting what something looked like, Cubists explored how reality could be conceptually understood across time, space, and perspective.",
+    "simpler": "Cubism changed art by breaking objects into shapes and showing them from different angles at the same time. Picasso and Braque stopped trying to copy exactly what the eye sees and instead explored new ways of understanding form.",
+    "keyTakeaway": "Cubism transformed visual art by abandoning single-point realism and introducing fragmented, multi-perspective representation, reshaping how artists and audiences understood reality itself.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/67/Juan_Gris_-_Violin_and_Checkerboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20080717051556",
+    "learnImageCredit": {
+      "creator": "Juan Gris",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Juan_Gris_-_Violin_and_Checkerboard.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20demoiselles%20d%27Avignon%20%2822081773936%29.jpg",
+    "thirdImageCredit": {
+      "creator": "Christian Hornick from Aubenas (Sud-Ardeche), France",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Les_demoiselles_d%27Avignon_(22081773936).jpg"
+    },
+    "deeperDive": "Cubism developed in major phases, beginning with Analytic Cubism (c. 1907–1912), where Picasso and Braque deconstructed objects into intersecting geometric fragments, often using muted browns, grays, and ochres to focus attention on structure rather than color. Picasso’s 'Les Demoiselles d’Avignon' (1907) is often seen as the catalytic moment, radically flattening figures and drawing influence from African masks and Iberian sculpture. During this phase, recognizable subjects became increasingly abstract, forcing viewers to actively reconstruct meaning. Around 1912, Synthetic Cubism emerged, introducing brighter colors, simplified forms, and collage techniques using newspaper, wallpaper, labels, and other real-world materials. This was revolutionary because it blurred distinctions between representation and reality itself—an artwork could literally incorporate pieces of the world it depicted. Juan Gris refined Cubism with greater compositional clarity, while Fernand Léger adapted it toward machine-age modernism. Cubism’s impact spread beyond painting into sculpture, architecture, typography, literature, and design. It directly influenced Futurism’s movement obsession, Constructivism’s structural emphasis, and later abstract movements. By dismantling traditional perspective, Cubism helped establish the conceptual foundations for modernism, proving that art could represent thought and perception rather than merely appearance.",
+    "funFact": "Some early critics mocked Cubist works as if artists had shattered reality into geometric shards and glued it back together incorrectly.",
+    "references": [
+      "Museum of Modern Art (MoMA) — Cubism and early modernism archives.",
+      "Encyclopaedia Britannica — Cubism history and artistic phases.",
+      "The Metropolitan Museum of Art — Picasso, Braque, and Cubist innovation.",
+      "Tate Modern — Analytic and Synthetic Cubism studies.",
+      "Guggenheim Museum — Cubism’s influence on modern art.",
+      "Art Institute of Chicago — Cézanne’s role in Cubist development."
+    ],
     "keyElements": {
       "people": [
-        "Pablo Picasso - Co-founder of Cubism and one of the most influential artists of the 20th century",
-        "Georges Braque - Picasso’s collaborator who helped develop Cubist techniques",
-        "Juan Gris - Key Cubist painter who refined and structured the movement’s visual language",
-        "Fernand Léger - Artist influenced by Cubism who developed a more mechanical, modern style",
-        "Paul Cézanne - Post-Impressionist painter whose work influenced Cubist structure and geometry",
-        "Salvador Dalí - Surrealist artist indirectly influenced by Cubism’s abstraction of reality"
+        "Pablo Picasso — Co-founder of Cubism",
+        "Georges Braque — Co-developer of Cubist technique",
+        "Juan Gris — Major Cubist innovator",
+        "Fernand Léger — Modernist artist influenced by Cubism",
+        "Paul Cézanne — Structural precursor to Cubism",
+        "Salvador Dalí — Later artist shaped indirectly by Cubist abstraction"
       ],
       "places": [
-        "Paris, France - Center of the Cubist movement and avant-garde experimentation",
-        "Montmartre, Paris - Artistic hub where Picasso and Braque worked and collaborated",
-        "Barcelona, Spain - Early creative environment of Picasso before moving to Paris",
-        "Madrid, Spain - Location connected to Picasso’s later major works and political expression",
-        "Parisian salons and studios - Spaces where Cubism was developed and exhibited"
+        "Paris, France — Center of Cubist innovation",
+        "Montmartre, Paris — Key collaborative artistic district",
+        "Barcelona, Spain — Picasso’s formative artistic environment",
+        "Parisian salons — Major exhibition spaces",
+        "European avant-garde studios — Spread of Cubist experimentation"
       ],
       "years": [
-        "1907 - Picasso paints 'Les Demoiselles d’Avignon,' a foundational step toward Cubism",
-        "1908 - Braque and Picasso begin close collaboration on Cubist experimentation",
-        "1910–1912 - Analytic Cubism develops, emphasizing fragmented forms and structure",
-        "1912 - Synthetic Cubism emerges, introducing collage and mixed materials",
-        "1937 - Picasso paints 'Guernica,' showing Cubism’s evolution into political expression"
+        "1907 — 'Les Demoiselles d’Avignon'",
+        "1908 — Picasso and Braque collaboration intensifies",
+        "1910–1912 — Analytic Cubism",
+        "1912 — Synthetic Cubism emerges",
+        "20th century — Cubism shapes global modernism"
       ],
       "concepts": [
-        "Fragmentation - Breaking objects into geometric components to represent structure and form",
-        "Multiple perspectives - Showing several viewpoints of a subject simultaneously",
-        "Analytic Cubism - Early phase focusing on deconstructed forms and muted tones",
-        "Synthetic Cubism - Later phase introducing collage and simplified shapes",
-        "Geometric abstraction - Using basic shapes to represent complex reality",
-        "Visual perception - The study of how viewers interpret fragmented imagery"
+        "Fragmentation — Breaking form into geometric structures",
+        "Multiple perspectives — Simultaneous viewpoints",
+        "Analytic Cubism — Structural deconstruction",
+        "Synthetic Cubism — Collage and reconstruction",
+        "Geometric abstraction — Simplification into form",
+        "Visual perception — Interpretation of fragmented imagery",
+        "Modernism — Radical departure from traditional representation"
       ]
     }
   }

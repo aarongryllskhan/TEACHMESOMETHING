@@ -1,0 +1,67 @@
+{
+  "topic": "Pandemics and Emerging Disease Risk",
+  "title": "Why Pandemics Are Becoming More Likely",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Virus%20002.png",
+  "imageCredit": {
+    "creator": "Sarbasst Braian",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Virus_002.png"
+  },
+  "lesson": {
+    "learn": "Pandemics are not random disasters appearing out of nowhere. They are made more likely by the way modern societies move people, animals, food, and microbes around the planet. Deforestation and habitat loss bring wildlife and humans into closer contact, dense cities help pathogens spread quickly, global travel carries infections across borders in hours, and antibiotic misuse encourages resistant strains.\n\nThe lesson is not that every outbreak becomes a pandemic. It is that the conditions for spillover and spread are increasing, which means prevention, surveillance, and public health infrastructure matter more than ever.",
+    "simpler": "We are giving germs more chances to jump from animals to people and spread quickly. Crowded cities, travel, and antibiotic resistance make outbreaks harder to control.",
+    "keyTakeaway": "Pandemics are becoming more likely because human activity creates more spillover opportunities and faster global transmission.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Hand%20washing.png",
+    "learnImageCredit": {
+      "creator": "James Moore200",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hand_washing.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Vaccination_sequence.gif",
+    "thirdImageCredit": {
+      "creator": "ExplicitImplicity",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Vaccination_sequence.gif"
+    },
+    "deeperDive": "The path from outbreak to pandemic often begins with spillover, when a pathogen jumps from animals into people. Land-use change, wildlife trade, industrial farming, and climate stress can all increase the chances of that happening. Once a pathogen enters a dense population, modern transport networks can turn a local outbreak into a global event very quickly.\n\nPublic health systems can slow that process through surveillance, testing, vaccination, clean water, ventilation, and rapid communication. Genomic sequencing now helps scientists track how pathogens evolve and spread. The broader lesson is not pessimism. It is that prevention is easier than repair, and that the best time to stop a pandemic is before it starts spreading widely.",
+    "funFact": "Most newly emerging infectious diseases begin in animals before moving into people.",
+    "references": [
+      "WHO outbreak preparedness and response guidance",
+      "Research on zoonotic spillover and land-use change",
+      "Antimicrobial resistance surveillance guidance"
+    ],
+    "keyElements": {
+      "people": [
+        "Anthony Fauci - public health leader during major modern outbreaks",
+        "Maria Van Kerkhove - epidemiologist focused on outbreak response",
+        "Peter Daszak - researcher on spillover and zoonotic disease",
+        "Frontline health workers - the people who detect and contain outbreaks"
+      ],
+      "places": [
+        "Wuhan, China - location of a major modern outbreak",
+        "The Amazon Basin - an example of habitat change affecting disease risk",
+        "New York City - a dense global hub where spread can accelerate",
+        "International airports - places where pathogens can travel quickly"
+      ],
+      "years": [
+        "1918 - influenza shows how fast a pandemic can spread",
+        "2003 - SARS demonstrates modern outbreak control challenges",
+        "2020 - COVID-19 changes global life",
+        "Present day - surveillance systems become more important than ever"
+      ],
+      "concepts": [
+        "Zoonotic spillover - disease jumping from animals to humans",
+        "Urbanization - population density that speeds transmission",
+        "Antimicrobial resistance - microbes evolving beyond available drugs",
+        "Genomic surveillance - tracking pathogens through sequencing",
+        "Public health preparedness - systems that reduce outbreak impact"
+      ]
+    }
+  }
+}

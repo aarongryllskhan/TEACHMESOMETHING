@@ -1,39 +1,66 @@
 {
-  "topic": "Magellan's Circumnavigation of the World",
-  "title": "A Maritime Achievement in the Age of Exploration",
+  "topic": "Circumnavigation",
+  "title": "How Magellan's Crew Circumnavigated the World Against the Odds",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ferdinand_Magellan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Unknown authorUnknown author",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Ferdinand_Magellan.jpg"
+  },
   "lesson": {
-    "learn": "On August 10, 1519, Ferdinand Magellan's expedition set out from Sanlúcar de Barrameda in Spain with the goal of finding a new trade route to Asia. The crew consisted of over 270 men from various countries, including Portugal, Spain, Italy, and the Philippines, who sailed on five ships with a total tonnage of 3,500 tons.",
-    "simpler": "Magellan's crew was one of the first groups of humans to successfully circumnavigate the world. They faced numerous challenges, including strong winds, rough seas, and indigenous attacks. Despite these obstacles, they were able to navigate the treacherous Strait of Magellan at the tip of South America and cross the vast Pacific Ocean.",
-    "keyTakeaway": "The most significant aspect of Magellan's circumnavigation was the demonstration of maritime navigation and cartography capabilities. By charting the coastlines of South America, navigating the Strait of Magellan, and crossing the Pacific Ocean, Magellan and his crew expanded global understanding of geographical and astronomical knowledge.",
-    "deeperDive": "Magellan's expedition was a groundbreaking achievement in the field of maritime exploration. The crew encountered various indigenous cultures, including the Guamans in the Pacific Islands and the Cebuanos in the Philippines. Additionally, they discovered several new islands and coastlines, including the Baja California Peninsula and the island of Timor. The expedition also marked the beginning of European colonization in the Philippines, with Magellan establishing trade missions and diplomatic relations with local leaders.",
-    "funFact": "The Victoria, the sole ship to complete the circumnavigation, returned to Spain on September 6, 1522, with a crew of just 54 men, having lost over 200 crew members and spent nearly three years at sea.",
+    "learn": "Magellan's expedition did not prove that one heroic person conquered the planet. It showed how navigation, endurance, discipline, and sheer luck could combine to carry a crew around the world. The voyage crossed unfamiliar seas, endured mutiny, survived hunger and scurvy, and left only a fraction of the original fleet to finish the journey.\n\nCircumnavigation mattered because it turned the globe from an idea into a lived route. Once people could travel all the way around Earth, the planet was no longer just a map. It was a connected system.",
+    "simpler": "Magellan's crew went around the world by using ships, planning, and a lot of persistence. It was a brutal journey with huge risks.",
+    "keyTakeaway": "Circumnavigation became possible when skilled sailing met enough endurance to survive a global route.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/36/Magellan-Map-En.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Knutux",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Magellan-Map-En.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/64/Magellan%27s_voyage_EN.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "MesserWoland and Petr Dlouhý",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Magellan's_voyage_EN.svg"
+    },
+    "deeperDive": "The expedition is famous because it exposed how large the world really was. Even with strong ships and expert seamanship, the crew had to deal with storms, unfamiliar currents, and long stretches without resupply. The voyage also changed knowledge itself: maps, trade routes, and political ambitions all had to be rethought once global continuity became undeniable.\n\nMagellan did not personally finish the circumnavigation, but the crew's journey still became one of the greatest demonstrations of human navigation ever completed. The historical importance lies not in perfection, but in the fact that the trip was actually possible.",
+    "funFact": "Only one of the original ships finished the journey.",
+    "references": [
+      "Britannica - Ferdinand Magellan",
+      "National Geographic - circumnavigation",
+      "Royal Museums Greenwich - global exploration"
+    ],
     "keyElements": {
       "people": [
-        "* Ferdinand Magellan - Portuguese explorer and leader of the expedition",
-        "* Juan Sebastián Elcano - Spanish explorer who took over leadership after Magellan's death",
-        "* Tomás de Berlanga - Spanish chaplain who helped negotiate with indigenous peoples",
-        "* Rafael de Figueroa - Spanish captain who played a key role in the expedition"
+        "Ferdinand Magellan - expedition leader",
+        "Juan Sebastian Elcano - leader who completed the voyage",
+        "Sailors - the crew that endured the journey",
+        "Cartographers - people who updated maps after the voyage"
       ],
       "places": [
-        "* Strait of Magellan - narrow waterway at the tip of South America",
-        "* Guam - island in the Pacific where Magellan's crew encountered fierce battles",
-        "* Manila - capital city of the Philippines, where Magellan was killed",
-        "* Cebu - island in the Philippines where Magellan established a trade mission",
-        "* Spain - where the Victoria finally returned with its skeleton crew"
+        "Spain - launch point for the expedition",
+        "Strait of Magellan - a key passage in South America",
+        "Pacific Ocean - an enormous and unfamiliar crossing",
+        "The Philippines - a major turning point in the voyage"
       ],
       "years": [
-        "* 1519 - Magellan sets sail from Spain with his expedition",
-        "* 1521 - Magellan is killed in battle in the Philippines",
-        "* 1522 - The Victoria returns to Spain, becoming the first ship to circumnavigate the world"
+        "1519 - the expedition sets sail",
+        "1520 - the route through the strait is found",
+        "1522 - the circumnavigation is completed",
+        "Modern era - the voyage becomes a symbol of global exploration"
       ],
       "concepts": [
-        "* Maritime exploration and trade routes",
-        "* Navigation and cartography",
-        "* Indigenous peoples and their cultures",
-        "* European colonization and imperialism",
-        "* Mutiny and leadership challenges at sea",
-        "* Disease outbreaks and medical challenges on long voyages",
-        "* Cultural exchange and conflict between Europeans and indigenous peoples"
+        "Circumnavigation - traveling all the way around the Earth",
+        "Global route - a path that circles the planet",
+        "Resupply - taking on food, water, and equipment",
+        "Navigation - keeping course over long distances",
+        "Fleet - a group of ships sailing together"
       ]
     }
   }

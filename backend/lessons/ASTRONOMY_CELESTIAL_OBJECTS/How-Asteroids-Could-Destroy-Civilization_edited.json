@@ -1,41 +1,71 @@
 {
-  "topic": "Planetary Defense: The Physics and Engineering of Cosmic Impact Mitigation",
-  "title": "The Gravity of Survival: Shielding Earth from Near-Earth Objects",
+  "topic": "Planetary Defense and Asteroid Impact Risk",
+  "title": "How Astronomers Assess the Danger of Near-Earth Asteroids",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Earth_Impacting_Asteroid_%2827953609286%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Kevin M. Gill",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Earth_Impacting_Asteroid_(27953609286).png"
+  },
   "lesson": {
-    "learn": "The solar system is far from an empty void. It is a shooting gallery of remnants from the protoplanetary disk. Asteroids are classified by their composition: C-type (carbonaceous), S-type (stony), and M-type (metallic). Each presents unique challenges for mitigation. While a metallic asteroid is a cohesive projectile, many are 'rubble piles' held together only by weak self-gravity. When these objects enter Earth's atmosphere, they undergo extreme compression. This often results in an 'airburst,' which is a massive explosion caused by the rapid transfer of kinetic energy into the surrounding air. This creates a shockwave that can level cities before the rock even touches the ground. Understanding the structural integrity of these objects is the first step in deciding how to push them away.",
-    "simpler": "Space is full of leftover building blocks called asteroids. If one of these hits Earth, it does not just make a hole. It releases a massive blast of heat and wind. Some are solid rocks, while others are just loose piles of gravel held together by gravity. Because they move so fast, we do not need to blow them up. Instead, we just need to give them a tiny sideways tap years before they reach us so they sail safely past our planet.",
-    "keyTakeaway": "Modern planetary defense focuses on precision nudging rather than destruction. We use orbital mechanics to turn a direct hit into a near miss.",
-    "deeperDive": "Deflecting an asteroid is a masterclass in Newtonian physics. The primary method being developed is the Kinetic Impactor, which relies on the formula for momentum: $p = mv$. By slamming a spacecraft into an asteroid, we transfer momentum to change its velocity by a fraction of a millimeter per second. Over millions of miles, that tiny change adds up to a massive detour. However, if the asteroid is a rubble pile, a kinetic impact might just bury the spacecraft like a pebble in sand. In these cases, we look at the Gravity Tractor method. This involves hovering a massive spacecraft near the asteroid for several years. The mutual gravitational attraction is incredibly weak, but it acts like an invisible tow rope that slowly tugs the asteroid into a new orbit. For the most urgent threats, Enhanced Gravity Tractors could even pick up a boulder from the asteroid's surface to increase the spacecraft's mass and pulling power.",
-    "funFact": "If you stood on a small asteroid, you could literally jump into orbit. Because the gravity is so weak, a person could reach escape velocity with just their leg muscles. You would essentially be jumping off the planet and into space forever. Also, some asteroids are 'super-fast rotators.' Imagine a rock the size of eight football fields spinning so fast it completes a full day every two minutes!",
+    "learn": "Asteroids become dangerous when their orbits bring them close enough to Earth that a collision is possible. The real threat depends on size, composition, speed, and warning time. Small objects often break apart in the atmosphere and create airbursts, like the Chelyabinsk event, while larger objects can reach the ground and produce regional or global devastation. The energy released is enormous because asteroid speeds are measured in kilometers per second, not in ordinary aircraft speeds.\n\nPlanetary defense is therefore less about blasting asteroids apart and more about changing their orbit early enough that Earth and the object no longer meet at the same point in space. Scientists track near-Earth objects with surveys and telescopes, model their orbits, and estimate impact probabilities over long time spans. If a real threat appears, the preferred response is usually a small nudge delivered years in advance. That tiny change can become a huge miss distance over time.\n\nThe main challenge is timing. A small push works only if astronomers discover the object early and understand its orbit well enough to predict where it will go. That is why asteroid defense depends on both astronomy and engineering.",
+    "simpler": "Asteroids are dangerous because they move very fast and can hit Earth with huge energy. Some explode in the air, while bigger ones can hit the ground. The best defense is to find them early and gently change their path before they get close.",
+    "keyTakeaway": "Asteroid defense is mostly about early detection and tiny orbit changes, not blowing things up at the last minute.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/52/Dart_impact_replay.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "NASA/Johns Hopkins APL",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dart_impact_replay.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/7/72/Dart-five-minutes-impact.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "NASA/Johns Hopkins APL",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dart-five-minutes-impact.png"
+    },
+    "deeperDive": "The physics of impact risk starts with kinetic energy. Because velocity is squared in the energy equation, even a relatively small asteroid can release the energy of a large bomb if it enters Earth's atmosphere at cosmic speed. Whether it bursts high in the air or survives to ground level depends on its size, strength, angle of entry, and composition. Rubble-pile asteroids can fragment, while denser bodies can remain more intact.\n\nThe planetary defense toolkit has several approaches. The most practical is the kinetic impactor, which intentionally strikes an asteroid to change its velocity by a tiny amount. That amount may look trivial, but over months or years it becomes a large positional offset. Other ideas include gravity tractors, laser ablation, and, in the most extreme cases, nuclear deflection concepts. None of these are fast fixes. They all depend on lead time.\n\nThat is why survey programs and orbit tracking matter so much. The sooner an object is discovered, the less force is needed to make it miss Earth. Planetary defense is therefore a long game of measurement, prediction, and careful intervention, not a movie-style explosion in the sky.",
+    "funFact": "A very small change in an asteroid's speed, if applied years in advance, can move it far enough that Earth is completely out of the way by the time it arrives.",
+    "references": [
+      "NASA Planetary Defense Coordination Office resources.",
+      "Studies on impact physics, airbursts, and asteroid deflection methods.",
+      "NEO survey and orbit determination literature.",
+      "Wikimedia Commons - Image metadata, licensing, creator, source, and file-page verification."
+    ],
     "keyElements": {
       "people": [
-        "Dr. Alice Gorman (Space archaeologist who studies the human footprint in space and impact history)",
-        "Dr. Ed Lu (Former astronaut and co-founder of the B612 Foundation, dedicated to planetary defense)",
-        "Dr. Carolyn Shoemaker (Co-discoverer of over 800 asteroids and 32 comets)",
-        "Dr. Alan Harris (Renowned expert in asteroid rotation rates and thermal forces)",
-        "Dr. Harrison Schmitt (The only geologist to walk on the Moon, advocate for impact research)"
+        "Ed Lu - astronaut and planetary defense advocate",
+        "Carolyn Shoemaker - co-discoverer of many asteroids and comets",
+        "Alan Harris - expert on asteroid rotation and thermal forces",
+        "Harrison Schmitt - geologist and lunar researcher",
+        "Alice Gorman - space archaeologist and impact history researcher"
       ],
       "places": [
-        "Vredefort Crater, South Africa (The largest verified impact crater on Earth, over 300km wide)",
-        "Nördlinger Ries, Germany (A town built entirely inside an ancient impact crater)",
-        "Goldstone Deep Space Communications Complex (Uses high-power radar to track NEO trajectories)",
-        "Sudbury Basin, Canada (A major nickel mining site created by an ancient meteorite impact)",
-        "Vera C. Rubin Observatory (A future wide-angle camera for the sky that will catalog millions of NEOs)"
+        "Vredefort Crater, South Africa - largest verified impact crater on Earth",
+        "Sudbury Basin, Canada - ancient impact structure and mining district",
+        "Goldstone Deep Space Communications Complex - radar tracking site for NEOs",
+        "Vera C. Rubin Observatory - future survey telescope for sky monitoring",
+        "Chelyabinsk, Russia - site of the 2013 airburst event"
       ],
       "years": [
-        "1908 (The Tunguska event: A 12-megaton airburst that remains the largest impact in recorded history)",
-        "1998 (The year the Spaceguard Survey was officially funded by NASA)",
-        "2013 (Chelyabinsk airburst occurs, injuring over 1,500 people and shattering windows across 6 cities)",
-        "2022 (DART mission impacts the moonlet Dimorphos, successfully changing its orbital period by 32 minutes)",
-        "2029 (Asteroid Apophis will pass within 19,000 miles of Earth)"
+        "1908 - Tunguska airburst devastates a remote region in Siberia",
+        "1998 - Spaceguard-style survey efforts gain major support",
+        "2013 - Chelyabinsk airburst injures more than 1,000 people",
+        "2022 - DART changes the orbit of Dimorphos",
+        "2029 - Apophis makes a close but safe Earth flyby"
       ],
       "concepts": [
-        "Momentum Transfer (The physical exchange of energy during a high-speed collision)",
-        "Rubble Pile vs. Monolith (The structural difference between a loose cluster and a solid rock)",
-        "Thermal Inertia (How an asteroid stores and releases heat, affecting its drift in space)",
-        "Airburst Dynamics (The physics of an asteroid exploding in the atmosphere due to pressure)",
-        "Delta-v (The change in velocity required to successfully divert an object from its path)",
-        "Infrared Detection (Using heat signatures to find dark asteroids that reflect very little sunlight)"
+        "Kinetic energy - the energy released by a fast-moving asteroid",
+        "Airburst - atmospheric explosion before ground impact",
+        "Rubble pile - asteroid made of loosely bound fragments",
+        "Delta-v - change in velocity needed for deflection",
+        "Kinetic impactor - spacecraft designed to nudge an asteroid",
+        "Orbit prediction - estimating where a near-Earth object will go"
       ]
     }
   }

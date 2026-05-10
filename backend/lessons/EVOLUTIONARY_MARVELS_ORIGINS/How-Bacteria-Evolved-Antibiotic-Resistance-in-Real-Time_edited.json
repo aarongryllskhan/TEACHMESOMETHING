@@ -1,36 +1,66 @@
 {
-  "topic": "Understanding the Evolution of Antibiotic Resistance in Bacteria",
-  "title": "Exploring the Methods Behind Antibiotic Resistance",
+  "topic": "Antibiotic Resistance",
+  "title": "How Bacteria Evolve Antibiotic Resistance in Real Time",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Antibioticresistance_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "CDC",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Antibioticresistance_diagram.png"
+  },
   "lesson": {
-    "learn": "Bacteria have developed antibiotic resistance through a complex process involving genetic mutations and adaptations in real-time, compromising the effectiveness of antibiotics in treating bacterial infections. This phenomenon is well-documented and has significant implications for human health.",
-    "simpler": "Antibiotic resistance in bacteria can be understood through the analogy of a garden. Imagine a garden with plants (bacteria) that can adapt and grow back quickly. Antibiotics are like specialized herbicides that help control the growth of these weeds. However, some weeds have evolved to become resistant, making them impervious to the herbicides.",
-    "keyTakeaway": "A key insight is that antibiotic resistance evolves rapidly due to the emergence of novel resistance mechanisms, primarily through horizontal gene transfer and genetic mutations, leading to a significant decrease in antibiotic effectiveness over time. Understanding this complex process is crucial for developing targeted strategies to combat bacterial infections.",
-    "deeperDive": "Recent studies have shown that antibiotic-resistant bacteria can emerge within just a few years. For instance, the SARS-CoV-2 pandemic accelerated the spread of ESBL-producing E. coli. Researchers have identified various mechanisms, including gene duplication and gene transfer, that contribute to the development of resistance. Moreover, the misuse and overuse of antibiotics in agriculture and medicine have been directly linked to the increased prevalence of resistant bacteria. The 2015 World Health Organization's report 'Global Action Plan on Antimicrobial Resistance' further emphasized the need for concerted global efforts to combat the proliferation of antibiotic-resistant bacteria.",
-    "funFact": "Interestingly, research has found that E. coli can share their resistance genes with other bacteria, making them more resilient to antibiotics through a process called conjugation. This phenomenon highlights the importance of understanding the complex microbial interactions that contribute to antibiotic resistance.",
+    "learn": "Bacteria can evolve antibiotic resistance astonishingly fast because they reproduce quickly and exchange genetic material efficiently. When an antibiotic kills susceptible bacteria, any cell with a helpful mutation, resistance gene, or protective mechanism is more likely to survive and multiply. Over time, the population shifts toward resistance.\n\nThis is evolution you can measure in hospitals, farms, and laboratories. The lesson is not that bacteria are magical. It is that selection pressure can act very quickly when populations are huge and the generation time is short.",
+    "simpler": "Bacteria can become resistant because the ones that survive antibiotics reproduce and spread their resistance to the next generation.",
+    "keyTakeaway": "Antibiotic resistance is natural selection happening fast in a microbial population.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Antibiotic_resistance.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Wykis",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Antibiotic_resistance.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/c8/MecA_Resistance.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Mcstrother",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:MecA_Resistance.svg"
+    },
+    "deeperDive": "Resistance can appear in several ways: bacteria may mutate the target of the drug, pump the drug out of the cell, break the drug down, or share resistance genes on plasmids. Misuse and overuse of antibiotics make the problem worse by giving resistant microbes more chances to win. That is why stewardship matters in medicine and agriculture.\n\nThe important idea is that antibiotics do not just kill bacteria; they reshape the evolutionary landscape. If we use them carelessly, we help select the very organisms we are trying to stop.",
+    "funFact": "Some bacteria can share resistance genes like trading cards.",
+    "references": [
+      "CDC - antibiotic resistance basics",
+      "WHO - antimicrobial resistance",
+      "Britannica - natural selection and bacteria"
+    ],
     "keyElements": {
       "people": [
-        "*   Alexander Fleming: Scottish scientist who discovered penicillin",
-        "*   Selman Waksman: Russian-born American microbiologist who developed streptomycin",
-        "*   Frederick Robbins: American virologist and Nobel laureate who studied viral resistance",
-        "*"
+        "Microbiologists - scientists studying bacterial evolution",
+        "Physicians - clinicians dealing with resistant infections",
+        "Public health workers - people tracking outbreaks and stewardship",
+        "Laboratory researchers - teams testing resistance mechanisms"
       ],
       "places": [
-        "*   Alexander Fleming's laboratory at St. Mary's Hospital in London, where penicillin was first discovered",
-        "*   Selman Waksman's research institute at Rutgers University",
-        "*   The World Health Organization (WHO) headquarters in Geneva, which has launched global initiatives to combat antibiotic resistance",
-        "*"
+        "Hospitals - major sites of resistance pressure",
+        "Farms and livestock operations - where antibiotic use matters",
+        "Wastewater systems - places where microbes mix",
+        "Research labs - where resistance is tested and monitored"
       ],
       "years": [
-        "*   1928: Alexander Fleming discovers penicillin",
-        "*   1943: Selman Waksman develops streptomycin",
-        "*   2015: WHO launches the Global Action Plan on Antimicrobial Resistance",
-        "*"
+        "1940s - antibiotics become widely used",
+        "1960s - resistant strains are already a major concern",
+        "21st century - resistance is a global health threat",
+        "Present day - stewardship and surveillance remain essential"
       ],
       "concepts": [
-        "*   Horizontal gene transfer",
-        "*   Genetic mutations and adaptations",
-        "*   Antibiotic resistance mechanisms (e.g., efflux pumps, enzymatic inactivation)",
-        "*   Overuse and misuse of antibiotics"
+        "Natural selection - resistant organisms survive and reproduce",
+        "Mutation - a change in DNA",
+        "Plasmid - a mobile DNA molecule that can carry resistance",
+        "Antimicrobial stewardship - careful antibiotic use",
+        "Horizontal gene transfer - gene sharing between bacteria"
       ]
     }
   }

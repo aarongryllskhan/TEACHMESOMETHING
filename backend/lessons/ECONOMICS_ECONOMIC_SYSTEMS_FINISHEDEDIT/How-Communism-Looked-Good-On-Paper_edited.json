@@ -1,37 +1,63 @@
 {
-  "topic": "Exploring Communal Economic Systems",
-  "title": "Understanding the Theory and History of Communism",
+  "topic": "How Communism Looked Good On Paper",
+  "title": "Why a planned economy can sound fair before it meets reality",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Communism.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Claritas",
+    "source": "Wikimedia Commons",
+    "license": "CC SA 1.0",
+    "licenseUrl": "http://creativecommons.org/licenses/sa/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Communism.svg"
+  },
   "lesson": {
-    "learn": "Communism is an economic and social system that, in theory, aims to create a classless, stateless society where resources are shared equally among members. This system was first proposed by Karl Marx and Friedrich Engels in their book “The Communist Manifesto” in 1848. By 1885, 17 European languages had translated the manifesto, with over 300,000 copies sold. The idea of communism gained significant traction in the late 19th and early 20th centuries, with a notable appeal among intellectuals and workers.",
-    "simpler": "Imagine a large-scale cooperative where members pool resources, share skills, and work together to meet common needs. This model is comparable to the idealized version of communism, where resources are shared and there is no concept of ownership or power disparities. A notable example of such a cooperative is the Israeli kibbutz movement, which began in the early 20th century and involved thousands of members working together to farm and maintain small settlements.",
-    "keyTakeaway": "The central tenet of communism is the theoretical goal of creating a classless, stateless society with shared resources. However, the actual implementation has been marred by contradictions, particularly in regards to authoritarianism, inefficiency, and individual freedoms.",
-    "deeperDive": "One crucial aspect of communism is the concept of collective ownership, which advocates that the means of production should be owned and controlled by the community at large. This idea was influenced by the French utopian socialist Charles Fourier, who envisioned large communities living in harmony through cooperative labor. However, the planned economy implemented in the Soviet Union under Vladimir Lenin's leadership revealed significant flaws, including widespread corruption, inefficiency, and limitations on individual freedom. The system's shortcomings led many economists to argue that communism is inherently flawed due to its lack of incentives for innovation and suppression of individual creativity.",
-    "funFact": "Mongolia was the first country to adopt communism in 1921, however, this experiment was short-lived. China's subsequent adoption under Mao Zedong led to one of the most devastating episodes in human history: the Great Leap Forward, which resulted in an estimated 45 million deaths between 1958 and 1962.",
+    "learn": "Communism looked appealing on paper because it promised equality, shared ownership, and an end to exploitation. In theory, if the state planned production for everyone, resources could be distributed fairly and no one would control wealth privately. That made it sound like a clean solution to poverty and inequality.\n\nIn practice, however, central planning often struggled with incentives, information, and political power. The gap between the ideal and the implementation is why the idea remains one of the most debated in economics and political history.",
+    "simpler": "Communism promised fairness and shared ownership. The hard part was making one central plan work for millions of people.",
+    "keyTakeaway": "Communism sounded fair in theory, but real economies are too complex for perfect central control.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/55/Communism.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Sjorskingma",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Communism.PNG"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Towards_Socialism_or_Capitalism%3F.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Leon Trotsky",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Towards_Socialism_or_Capitalism%3F.png"
+    },
+    "deeperDive": "The basic problem was not just ideology. It was information. A planner has to know what people need, what factories can make, and how preferences change across regions and seasons. Markets do that through prices, but planned systems often had to guess. Over time, shortages, low incentives, and political repression could follow.\n\nThat does not mean every communist idea was nonsense. It means the promise of equality had to confront the reality of messy human behavior and limited information.",
+    "funFact": "The hardest part was not the slogan - it was the logistics.",
+    "references": [
+      "Britannica - communism",
+      "Library of Economics and Liberty - central planning",
+      "History.com - communist states and planning"
+    ],
     "keyElements": {
       "people": [
-        "+ Karl Marx: Philosopher and economist who proposed the idea of communism",
-        "+ Friedrich Engels: Co-author of \"The Communist Manifesto\" with Marx",
-        "+ Vladimir Lenin: Leader of the Soviet Union's communist revolution",
-        "+ Mao Zedong: Leader of China's communist revolution",
-        "+ Rosa Luxemburg: Marxist theorist and activist who criticized Lenin's authoritarianism",
-        "*"
+        "Karl Marx - shaped the original theory",
+        "Vladimir Lenin - translated theory into revolution",
+        "Planners and party officials - ran command systems"
       ],
       "places": [
-        "+ Paris, France: Birthplace of the French Revolution and a hub for socialist and communist thought",
-        "+ Moscow, Russia: Capital city of the Soviet Union during its communist era",
-        "+ Beijing, China: Capital city where Mao Zedong implemented communist policies",
-        "+ Budapest, Hungary: City that was heavily affected by the rise and fall of communism in Eastern Europe",
-        "+ Potsdam, Germany: Site of the 1945 conference where the Allied powers discussed post-war reconstruction and the future of Europe",
-        "*"
+        "Soviet Union - the major planning experiment",
+        "Eastern Europe - many planned economies emerged here",
+        "China - mixed planning and market reform evolved over time"
       ],
       "years": [
-        "+ 1848: Year \"The Communist Manifesto\" was published",
-        "+ 1917: Year the Soviet Union's communist revolution began",
-        "+ 1921: Year Mongolia adopted communism",
-        "+ 1949: Year China adopted communism under Mao Zedong",
-        "+ 1989: Year the Berlin Wall fell, marking the end of communism in Eastern Europe"
+        "1848 - Communist Manifesto is published",
+        "1917 - the Russian Revolution changes history",
+        "1991 - the Soviet Union collapses"
       ],
-      "concepts": []
+      "concepts": [
+        "Central planning - one authority directing production",
+        "Incentives - what motivates behavior",
+        "Shortage - demand outstrips supply",
+        "Information problem - no planner knows everything"
+      ]
     }
   }
 }

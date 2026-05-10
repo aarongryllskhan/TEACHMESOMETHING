@@ -1,32 +1,66 @@
 {
-  "topic": "How Mysteriously Silent, Airborne Trains Work",
-  "title": "The Science Behind Magnetically Levitated Trains",
+  "topic": "Maglev Trains",
+  "title": "How Magnetically Levitated Trains Float Above the Track",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Shanghai_maglev_train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Andreas Krebs.",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Shanghai_maglev_train.jpg"
+  },
   "lesson": {
-    "learn": "Magnetically levitated trains, or maglevs, use magnetic forces to lift and propel trains at high speeds, eliminating the need for traditional wheels and rail systems. These innovative transportation systems have been successfully tested and implemented in various countries, providing unparalleled speeds and energy efficiency.",
-    "simpler": "Imagine a train floating above a track using magnetic forces, much like a magnetic levitation system in a laboratory. Maglev trains work on this principle, employing strong magnetic fields to suspend and propel the train without friction, making them remarkably quiet and smooth.",
-    "keyTakeaway": "One key benefit of maglev trains is their ability to minimize frictional resistance, enabling them to reach high speeds efficiently and quietly.",
-    "deeperDive": "Advanced maglev systems harness electromagnets and superconducting materials to generate powerful magnetic fields. For instance, the L0 Series maglev train in Japan utilizes a 28-tonne superconductor to produce a magnetic field capable of lifting the entire train. In China, a new high-speed maglev line is under construction, aiming to achieve speeds of up to 600 km/h.",
-    "funFact": "The concept of magnetic levitation dates back to the 1970s, when a team of engineers at the German Aerospace Center successfully demonstrated the principle. Since then, researchers have developed and refined the technology, with several countries now incorporating it into their transportation systems.",
+    "learn": "Maglev trains work by using magnets to lift, guide, and propel the vehicle without ordinary wheel contact. Because the train floats above the track, friction drops dramatically. That lets maglev systems reach very high speeds with less mechanical wear than traditional rail.\n\nThe idea sounds futuristic, but the physics is straightforward. Magnetic fields can create controlled attraction and repulsion, and those forces are strong enough to hold a train in a stable position while it moves forward.",
+    "simpler": "Maglev trains float on magnets instead of rolling on wheels. Less friction means smoother and faster travel.",
+    "keyTakeaway": "Maglev works because magnetic forces can both lift the train and push it forward.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/da/JR_Maglev-Lev.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Zirguezi",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:JR_Maglev-Lev.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Maglev_Train_%287%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Jerine Victor",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Maglev_Train_(7).png"
+    },
+    "deeperDive": "There are different maglev approaches, including electromagnetic suspension and electrodynamic suspension. In one system, magnets on the train attract a guideway; in another, induced currents create lift. In all cases, computers constantly adjust the spacing so the train stays stable and centered.\n\nThe real engineering challenge is not just speed. It is control. Power supply, heat, switching, guideway precision, and braking all have to work together. That is why maglev remains a specialized technology rather than a universal rail replacement, even though its speed and smoothness make it remarkable.",
+    "funFact": "Some maglev trains never touch the track while cruising.",
+    "references": [
+      "Britannica - magnetic levitation",
+      "Encyclopaedia of Transportation - maglev systems",
+      "JR Central - SCMaglev technology overview"
+    ],
     "keyElements": {
       "people": [
-        "* Professor Robert Goddard (American engineer who pioneered magnetic levitation research)",
-        "* Dr. Eiji Arai (Japanese engineer responsible for the development of the L0 Series maglev train)",
-        "* Hermann Kemper (German engineer who led the team that first tested maglev technology)"
+        "Eric Laithwaite - major maglev advocate and researcher",
+        "James Powell - co-inventor associated with modern maglev",
+        "Gordon Danby - co-inventor associated with modern maglev",
+        "Rail engineers - the teams who build and control guideways"
       ],
       "places": [
-        "* German Aerospace Center (where the first maglev tests took place)",
-        "* Shanghai Maglev Train Test Track (one of the world's longest and fastest maglev test tracks)",
-        "* National Institute for Materials Science (Japan, where researchers have developed advanced materials for maglev applications)"
+        "Shanghai, China - home to a major commercial maglev line",
+        "Japan - active maglev research and high-speed development",
+        "Germany - early Transrapid work",
+        "Rail test tracks - where levitation systems are refined"
       ],
       "years": [
-        "* 1971: First successful maglev test at the German Aerospace Center",
-        "* 1994: Shanghai Maglev Train Test Track is opened in China",
-        "* 2015: L0 Series maglev train starts commercial operation in Japan"
+        "1910s - early magnetic suspension concepts appear",
+        "1960s - modern maglev research intensifies",
+        "2004 - Shanghai maglev begins service",
+        "21st century - new systems push higher speeds"
       ],
       "concepts": [
-        "* Electromagnetism: The interaction between electric currents and magnetic fields that allows for levitation.",
-        "* Superconductivity: A state of matter where materials can conduct electricity with zero resistance, used to create powerful magnetic fields.",
-        "* Magnetic Induction: The process by which a changing magnetic field induces an electromotive force in another material."
+        "Levitation - floating above a surface",
+        "Electromagnetism - force between electric and magnetic fields",
+        "Guideway - the track-like structure that guides the train",
+        "Friction - resistance that maglev largely avoids",
+        "Propulsion - the force that moves the train forward"
       ]
     }
   }
