@@ -1790,6 +1790,7 @@ function displayFullLesson(lesson) {
 
       ${content.simpler ? `
         <div class="lesson-section">
+          <div class="lesson-section-title">TL;DR</div>
           <div class="lesson-section-content">${content.simpler}</div>
         </div>
       ` : ''}
