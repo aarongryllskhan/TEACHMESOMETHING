@@ -1232,7 +1232,10 @@ header p {
   color: #1a1a1a;
   margin-bottom: 5px;
   line-height: 1.35;
-  word-break: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .explore-category-desc {
