@@ -1162,46 +1162,68 @@ async function loadAllTopicsView() {
   const grid = document.getElementById('topicsGrid');
   const header = container.querySelector('.explore-header h2');
   if (header) header.textContent = 'All Topics';
-  grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Loading...</div>';
+  grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Loading…</div>';
 
   try {
     const data = await loadCategories();
     const categories = data.categories || [];
+
+    // Load all lessons from every category in parallel
+    const allLessons = (await Promise.all(
+      categories.map(cat => loadCategoryLessons(cat.id).catch(() => []))
+    )).flat();
+
+    // Store globally so the click handler can use them
+    currentLessonsArray = allLessons;
+    currentCategory = '__all__';
 
     const backBtn = `<button class="explore-back-btn" onclick="loadLessonCards()">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
       Back
     </button>`;
 
-    const CHEVRON = `<svg class="explore-category-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`;
+    const ACCENT_COLORS = [
+      '#667eea','#f59e0b','#10b981','#ef4444','#8b5cf6',
+      '#06b6d4','#f97316','#ec4899','#14b8a6','#6366f1'
+    ];
 
-    const allSubcategoryCards = categories.flatMap(cat =>
-      cat.subCategories.map(subFolder => {
-        const meta = subcategoryMeta[subFolder] || { icon: '📚', color: '#ede9fe' };
-        const rawName = subFolder
-          .replace(/_FINISHEDEDITED_FINISHEDEDIT$/, '')
-          .replace(/_FINISHEDEDITED$/, '')
-          .replace(/_FINISHEDEDIT$/, '')
-          .replace(/_PARTIAL$/, '')
-          .replace(/_/g, ' ');
-        const displayName = meta.name || toTitleCase(rawName);
-        return `
-          <div class="explore-category-card" onclick="loadSubcategoryLessons('${cat.id}', '${subFolder}', '${displayName}', '${cat.name}')">
-            <div class="explore-category-icon" style="background:${meta.color}">${meta.icon}</div>
-            <div class="explore-category-card-text">
-              <div class="explore-category-card-title">${displayName}</div>
-              <div class="explore-category-card-count">${cat.name}</div>
-            </div>
-            ${CHEVRON}
-          </div>`;
-      })
-    ).sort(() => 0).join(''); // preserve natural order (by category)
+    const rows = allLessons.map((lesson, idx) => {
+      const color = ACCENT_COLORS[idx % ACCENT_COLORS.length];
+      const rawText = typeof lesson.lesson === 'string' ? lesson.lesson : (lesson.lesson?.learn || '');
+      const preview = (typeof rawText === 'string' ? rawText : '').substring(0, 100);
+      const imgUrl = cleanImageUrl(lesson.image);
+      const thumbHtml = imgUrl
+        ? `<img class="lesson-thumb" src="${imgUrl}" alt="" loading="lazy" onerror="this.style.display='none'">`
+        : '';
+      return `
+      <div class="explore-category-row" onclick="selectAllTopicsLesson(${idx})">
+        <div class="lesson-accent-bar" style="background:${color};"></div>
+        <div class="explore-category-info">
+          <div class="explore-category-name">${cleanTitle(lesson.title, lesson.topic)}</div>
+          <div class="explore-category-desc">${preview}${preview.length >= 100 ? '…' : ''}</div>
+        </div>
+        ${thumbHtml}
+        ${isLessonRead(lesson)
+          ? `<svg class="lesson-read-tick" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#ecfdf5"/><polyline points="7 12 10.5 15.5 17 9" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`
+          : `<svg class="lesson-chevron" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2.5" style="width:18px;height:18px;"><polyline points="9 18 15 12 9 6"/></svg>`
+        }
+      </div>`;
+    }).join('');
 
-    grid.innerHTML = backBtn + '<div class="explore-grid">' + allSubcategoryCards + '</div>';
+    grid.innerHTML = backBtn + (rows || '<p style="text-align:center;color:#bbb;padding:40px 0;">No lessons found.</p>');
   } catch (error) {
     console.error('Error loading all topics:', error);
     grid.innerHTML = '<p style="color:#f00;text-align:center;">Failed to load topics</p>';
   }
+}
+
+function selectAllTopicsLesson(index) {
+  const lesson = currentLessonsArray[index];
+  if (!lesson) return;
+  currentCardIndex = index;
+  saveLessonToStreak(lesson.topic || lesson.title, `all-${index}`, lesson);
+  updateStreakDisplay();
+  displayFullLesson(lesson);
 }
 
 function renderCategoryList(categories) {
