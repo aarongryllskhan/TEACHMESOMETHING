@@ -1,35 +1,65 @@
 {
-  "topic": "Understanding the Complexity of Dust Storms",
-  "title": "Exploring the Formation and Severity of Dust Storms",
+  "topic": "Incredible Natural Phenomena",
+  "title": "How Dust Storms Can Swallow Entire Cities",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Phoenix_Dust_Storm_(1)_(5999766358).jpg",
+  "imageCredit": {
+    "creator": "Alan Stark",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Phoenix_Dust_Storm_(1)_(5999766358).jpg"
+  },
+  "summary": "Dust storms can engulf cities when strong winds lift loose soil into dense walls of particles that spread fast, reduce visibility, and degrade air quality.",
   "lesson": {
-    "learn": "Dust storms are massive dust-laden clouds that can engulf entire cities in a matter of minutes. These natural disasters have devastating effects on the environment and human populations. Understanding the causes, impacts, and forecasting techniques for dust storms is crucial for disaster preparedness and mitigation.",
-    "simpler": "A dust storm is similar to a massive dust-laden vortex that forms over dry, arid regions. This phenomenon occurs when strong winds lift large amounts of dust and sand into the atmosphere, creating massive clouds that can cover entire cities. For instance, the 1938 Black Sunday dust storm in the American Midwest is estimated to have blanketed over 100 million acres of land.",
-    "keyTakeaway": "Dust storms are influenced by atmospheric conditions, such as temperature gradients, and can be predicted using advanced forecasting techniques. Understanding the interplay between these factors is crucial for mitigating their effects.",
-    "deeperDive": "Research has shown that climate change is exacerbating the frequency and severity of dust storms due to increased aridity and temperature fluctuations. For example, a massive dust storm that hit Beijing in 2013 was so severe that it forced the government to shut down all airports and highways. Similarly, a 2009 study published in the Journal of Applied Meteorology and Climatology found that changes in wind patterns due to climate change increased the severity of dust storms in North Africa.",
-    "funFact": "Interestingly, some regions of the world have experienced dust storms for centuries. For instance, the Sahara Desert has been known for producing massive dust storms since the 13th century, with records showing that the area's dust production increased during periods of drought and famine.",
+    "learn": "A dust storm begins when wind overcomes the forces holding dry soil, sand, silt, or clay in place. The first grains bounce along the ground in a process called saltation. Each impact knocks more particles loose, and finer dust can rise high into the air, forming a dense moving wall. In deserts and semi-arid regions, thunderstorms can make this happen suddenly. A collapsing storm sends cold dense air outward as a gust front; if that outflow races across dry, loose ground, it can lift a haboob thousands of feet high and miles wide. To a city, the storm arrives like a curtain: daylight dims, visibility collapses, air becomes gritty, and transportation becomes dangerous. Large dust events can also travel far beyond their source, crossing oceans and fertilizing ecosystems or worsening air quality downwind. They are natural, but land disturbance, drought, overgrazing, water mismanagement, and climate shifts can increase the supply of exposed dust.",
+    "simpler": "Dust storms swallow cities when strong winds, often from thunderstorm outflows, lift dry loose soil into a tall moving wall. Visibility can drop to near zero within minutes.",
+    "keyTakeaway": "City-sized dust storms require strong wind, exposed dry sediment, unstable weather, and enough fine particles to stay suspended as a fast-moving wall.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Haboob_(dust_storm)_in_suburbs_of_Phoenix_Arizona.jpg",
+    "learnImageCredit": {
+      "creator": "Ckazilek",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Haboob_(dust_storm)_in_suburbs_of_Phoenix_Arizona.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Approaching_dust_storm_(haboob)%2C_Cimarron_County%2C_OK.jpg",
+    "thirdImageCredit": {
+      "creator": "OKJaguar",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Approaching_dust_storm_(haboob),_Cimarron_County,_OK.jpg"
+    },
+    "deeperDive": "Dust movement is size-selective. Sand grains are often too heavy to remain suspended for long, but their bouncing motion dislodges smaller silt and clay particles that can loft into turbulent air. Thunderstorm outflow is especially efficient because it supplies a fast, dense pool of air near the ground. The leading edge acts like a bulldozer for dust, rolling particles upward into a wall cloud of sediment. Once airborne, fine dust affects more than visibility. It carries minerals, microbes, pollutants, and allergens; it changes radiation balance by absorbing and reflecting sunlight; and it can darken snow or ice after deposition. Forecasting depends on soil moisture, vegetation cover, wind speed, gust fronts, drought state, and land use. The storm looks sudden, but the risk is prepared by months or years of surface conditions.",
+    "funFact": "A haboob can turn noon into twilight in just a few minutes.",
+    "references": [
+      {
+        "title": "National Weather Service: Dust Storms and Haboobs",
+        "url": "https://www.weather.gov/safety/wind-dust-storm"
+      },
+      {
+        "title": "WHO: Sand and dust storms",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/sand-and-dust-storms"
+      }
+    ],
     "keyElements": {
       "people": [
-        "Dr. Kathryn Sullivan - First American woman in space and expert on atmospheric science",
-        "Mark DeMaria - Research meteorologist who has studied severe dust storms",
-        "Professor Colin Price - Expert on climate change impacts on weather patterns"
+        "Hugh Hammond Bennett - soil conservationist linked to Dust Bowl erosion response",
+        "National Weather Service forecasters - issue dust storm warnings in high-risk regions"
       ],
       "places": [
-        "Beijing, China",
-        "Arizona, USA",
-        "Sahara Desert, North Africa",
-        "American Midwest"
+        "Phoenix, Arizona - city frequently affected by monsoon-season haboobs",
+        "Sahara Desert - major global source of mineral dust"
       ],
       "years": [
-        "1938",
-        "2013",
-        "2005",
-        "2009"
+        "1935 - Black Sunday became one of the Dust Bowl’s defining storms",
+        "2011 - a major Phoenix haboob produced an enormous wall of dust"
       ],
       "concepts": [
-        "Hadley cell circulation - Atmospheric phenomenon contributing to dust storm formation",
-        "Moisture gradient - Key factor in the intensification of dust storms",
-        "Wind shear - Important aspect of predicting dust storm severity",
-        "Climate change - Exacerbating dust storm frequency and severity"
+        "Haboob - dust wall driven by thunderstorm outflow",
+        "Saltation - bouncing movement of sand grains that helps launch dust",
+        "Gust front - leading edge of thunderstorm outflow winds",
+        "Particulate matter - airborne particles that affect visibility and health"
       ]
     }
   }

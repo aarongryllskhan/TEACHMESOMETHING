@@ -1,28 +1,79 @@
 {
-  "topic": "Early Insights into Human Psychology: Dostoevsky's Lasting Contributions",
-  "title": "The Pioneering Literary Psychologist",
+  "topic": "Dostoevsky and Literary Psychology",
+  "title": "How Dostoevsky Understood Psychology 150 Years Early",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dostoevsky%201872.jpg",
+  "imageCredit": {
+    "creator": "Vasily Perov",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Dostoevsky_1872.jpg"
+  },
+  "summary": "Dostoevsky anticipated modern psychological fiction by dramatizing divided motives, self-deception, compulsion, guilt, and moral rationalization from the inside.",
   "lesson": {
-    "learn": "In his novels, Russian author Fyodor Dostoevsky pioneered a profound understanding of human psychology, predating modern psychology by centuries. His works, characterized by nuanced portrayals of the human mind, remain a rich resource for insights into human nature. One of Dostoevsky's most significant contributions is his depiction of the struggle between free will and determinism, a theme explored in several of his notable works, including \"The Brothers Karamazov\" and \"Crime and Punishment\".",
-    "simpler": "Imagine reading a story where characters' thoughts and emotions are so vividly rendered that their complexities become a mirror for our own. This was the unique gift of Fyodor Dostoevsky, who, in his novels, masterfully captured the intricacies of the human mind. By examining his literary creations, we can discover early prototypes of modern psychological theories and gain a deeper understanding of the human psyche.",
-    "keyTakeaway": "Dostoevsky's lasting legacy in psychology resides in his ability to illuminate the complexities of the human mind, foreshadowing key concepts such as free will, determinism, and the 'double' (dual identity) phenomenon. His works continue to be studied as seminal explorations of human psychology, yielding valuable insights into the nature of human suffering and the mind's propensity for both good and evil.",
-    "deeperDive": "One of the most striking aspects of Dostoevsky's oeuvre is his capacity to craft characters embodying various psychological disorders. For instance, Raskolnikov in \"Crime and Punishment\" exemplifies a compelling case study on narcissistic personality disorder, while Svidrigailov in \"Idiot\" showcases traits characteristic of a sociopath. Dostoevsky's exploration of the human psyche also led him to create a fictional character with epilepsy, exemplifying the psychological distress associated with the condition.",
-    "funFact": "Dostoevsky's intense personal life, including his experiences in Siberian prison camps, deeply influenced his writing and his understanding of human psychology. His own experiences with psychological torture allowed him to create a nuanced portrayal of the human psyche, marked by its capacity for both immense suffering and profound resilience.",
+    "learn": "Dostoevsky understood psychology early because he treated thought as conflict rather than simple explanation. In Crime and Punishment, Raskolnikov does not merely commit a crime and feel remorse; he builds theories to authorize himself, then discovers that intellect cannot silence conscience, fear, or need for connection. In Notes from Underground, the narrator sabotages himself while analyzing his own sabotage with painful brilliance. In The Brothers Karamazov, belief, resentment, sensuality, guilt, and love collide across a family system. Long before clinical language became common, Dostoevsky portrayed the mind as layered, contradictory, embodied, and morally unstable.",
+    "simpler": "Dostoevsky made inner conflict the action of the story, showing how people rationalize, split against themselves, and suffer under guilt and desire.",
+    "keyTakeaway": "His psychological insight lies in showing that people often use ideas to hide from themselves, while their actions reveal needs and fears they cannot fully control.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Crime%20and%20Punishment-1.png",
+    "learnImageCredit": {
+      "creator": "Russian Messenger; digitized scan via Wikimedia Commons",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Crime_and_Punishment-1.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Dostoevsky%20notes%20Brothers%20Karamazov.jpg",
+    "thirdImageCredit": {
+      "creator": "Fyodor Dostoevsky",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dostoevsky_notes_Brothers_Karamazov.jpg"
+    },
+    "deeperDive": "It is tempting to diagnose Dostoevsky's characters with modern labels, but the stronger reading is literary and philosophical. He was fascinated by confession, pride, humiliation, addiction, epilepsy, religious doubt, and the social conditions that intensify psychic pressure. His own imprisonment, mock execution, debt, gambling, and illness gave him firsthand knowledge of extremity. Later thinkers, including Freud, Nietzsche, and existentialist writers, found in him a model of consciousness under stress: not a tidy case history, but a mind arguing with itself in real time.",
+    "funFact": "Dostoevsky survived a staged execution before being sent to Siberian prison.",
+    "references": [
+      {
+        "title": "Encyclopaedia Britannica: Fyodor Dostoyevsky",
+        "url": "https://www.britannica.com/biography/Fyodor-Dostoyevsky"
+      },
+      {
+        "title": "Project Gutenberg: Crime and Punishment",
+        "url": "https://www.gutenberg.org/ebooks/2554"
+      },
+      {
+        "title": "Project Gutenberg: Notes from Underground",
+        "url": "https://www.gutenberg.org/ebooks/600"
+      }
+    ],
     "keyElements": {
       "people": [
-        "Fyodor Dostoevsky (Russian author)",
-        "Sigmund Freud (Austrian psychoanalyst)"
+        "Fyodor Dostoevsky",
+        "Raskolnikov",
+        "Ivan Karamazov",
+        "Sigmund Freud",
+        "Friedrich Nietzsche"
       ],
       "places": [
-        "St. Petersburg, Russia",
-        "Siberia, Russia"
+        "St. Petersburg",
+        "Moscow",
+        "Omsk",
+        "Siberia",
+        "Russian Empire"
       ],
       "years": [
-        "1821 (Fyodor Dostoevsky's birth year)",
-        "1849 (Fyodor Dostoevsky's death sentence for participating in a rebellion against the Russian government)"
+        "1821",
+        "1849",
+        "1864",
+        "1866",
+        "1880"
       ],
       "concepts": [
-        "Free will vs. determinism",
-        "The concept of the 'double' (dual identity)"
+        "moral psychology",
+        "self-deception",
+        "guilt",
+        "polyphony",
+        "free will"
       ]
     }
   }

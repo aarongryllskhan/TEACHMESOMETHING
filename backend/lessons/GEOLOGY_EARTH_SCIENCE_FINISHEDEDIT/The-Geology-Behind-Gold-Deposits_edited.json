@@ -1,42 +1,66 @@
 {
-  "topic": "The Geology Behind Gold Deposits",
-  "title": "Understanding the Complex Processes that Form Gold Deposits",
+  "topic": "Gold Deposits",
+  "title": "How Gold Deposits Form in the Earth",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gold_ore_samples_%28Empire_Mine_museum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Викидим",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Gold_ore_samples_(Empire_Mine_museum).jpg"
+  },
   "lesson": {
-    "learn": "Gold deposits have been a vital component of human history, with the discovery of gold often triggering significant economic and social changes. The geology behind gold deposits is a multifaceted process involving the interaction of plate tectonics, magma movement, and geochemical reactions. A notable example of this process is the Witwatersrand Basin in South Africa, which contains an estimated 200,000 metric tons of gold. This enormous deposit is thought to have formed as a result of the interaction between tectonic uplift, erosion, and the precipitation of gold into the sedimentary rocks. The study of gold deposits has led to significant advances in our understanding of geology, allowing us to better predict where gold may be found and how it is formed.",
-    "simpler": "Gold formation involves a combination of geological processes that are similar to those responsible for creating other minerals. Imagine a series of complex chemical reactions that occur when metals from the Earth's crust interact with each other and with the surrounding rocks. This process can result in the concentration of gold in specific areas over millions of years.",
-    "keyTakeaway": "The key to understanding gold deposit geology lies in recognizing the crucial role that plate tectonics and geochemical reactions play in creating environments conducive to gold formation. By studying these processes, scientists can better predict where new gold deposits may be found and develop strategies for their sustainable exploitation.",
-    "deeperDive": "Advances in 3D imaging and geophysical surveys have revealed the complex networks of fractures and faults that provide pathways for gold-bearing fluids to migrate through the Earth's crust. These insights have been instrumental in understanding the formation of gold deposits in locations such as the Super Pit Gold Mine at Kalgoorlie, Australia, and the Grasberg mine in Indonesia. Research has also highlighted the importance of microbial communities in the formation of gold deposits, with some scientists suggesting that microbes may play a crucial role in precipitating gold out of solution.",
-    "funFact": "In addition to terrestrial gold deposits, significant gold deposits have been found on the ocean floor, with hydrothermal vents and deep-sea ridges hosting substantial amounts of gold. The largest gold deposit in the world is the Grasberg mine in Indonesia, which has produced over 100 million ounces of gold since its discovery.",
+    "learn": "Gold does not usually appear as giant pure lumps waiting underground. It is often concentrated by hot fluids, pressure changes, magmatic processes, and later erosion. Hydrothermal systems can move dissolved gold through cracks and veins, then deposit it when temperature, pressure, or chemistry changes. Later, weathering can concentrate the metal further in stream beds and placer deposits.\n\nThat is why gold geology is a story about movement. Gold is often found where Earth's fluids and rocks have done a lot of work over a long time.",
+    "simpler": "Gold deposits form when hot fluids move gold through rock and later concentrate it in veins or sediment.",
+    "keyTakeaway": "Gold is concentrated by geologic processes, not magically created in place.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sample_of_gold_ore_from_the_Boundary_Red_Mountain_Mine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "User:Rpersonal2",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sample_of_gold_ore_from_the_Boundary_Red_Mountain_Mine.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Gold_ore_%28Camp_Bird_Vein%2C_Tertiary%3B_Camp_Bird_Mine%2C_San_Juan_Mountains%2C_Colorado%2C_USA%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "James St. John",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gold_ore_(Camp_Bird_Vein%2C_Tertiary%3B_Camp_Bird_Mine%2C_San_Juan_Mountains%2C_Colorado%2C_USA)_1.jpg"
+    },
+    "deeperDive": "Primary gold deposits often form in quartz veins or altered rock around hydrothermal systems. Erosion can then break those veins apart and carry the gold downstream, where density helps concentrate it in placer deposits. That is why some gold is mined in hard rock and some is panned from gravel. In both cases, the ore is the result of concentration, transport, and separation.\n\nGold is valuable partly because Earth rarely concentrates it in high amounts. The planet makes tiny amounts available; geology has to gather them into something worth mining.",
+    "funFact": "Most gold starts out scattered very thinly through rock.",
+    "references": [
+      "Britannica - gold deposit",
+      "USGS - mineral resources",
+      "National Geographic - gold mining geology"
+    ],
     "keyElements": {
       "people": [
-        "- James Hutton (Scottish geologist who first proposed the concept of uniformitarianism)",
-        "- Charles Lyell (English geologist who developed the theory of deep-seated geological processes)",
-        "- John Tuzo Wilson (Canadian geologist who contributed significantly to the understanding of plate tectonics)",
-        "- George Plafker (American geologist known for his work on subduction zones and their relation to gold deposits)",
-        "- Brian Skinner (American geologist who has made significant contributions to our understanding of gold deposit formation)"
+        "Economic geologists - scientists who study ore bodies",
+        "Miners - people who extract gold",
+        "Prospectors - people who search for deposits",
+        "Environmental scientists - people who study mining impacts"
       ],
       "places": [
-        "- Witwatersrand Basin, South Africa",
-        "- Super Pit Gold Mine, Kalgoorlie, Australia",
-        "- Grasberg mine, Indonesia",
-        "- Carlin Trend, Nevada, USA (an example of a sedimentary rock-hosted gold deposit)",
-        "- Porcupine District, Ontario, Canada (a significant volcanic-hosted gold district)"
+        "Quartz veins - common hosts for gold",
+        "Hydrothermal systems - hot fluid pathways",
+        "River gravels - where placer gold accumulates",
+        "Old mines - places that reveal ore bodies"
       ],
       "years": [
-        "- 1785: James Hutton publishes \"Theory of the Earth\"",
-        "- 1830s: Charles Lyell develops his theory of deep-seated geological processes",
-        "- 1960s: Plate tectonics emerges as a leading theory in geology",
-        "- 1980s: Advances in geochemical analysis reveal new insights into gold deposit formation",
-        "- Present day: Continued exploration and research efforts aim to better understand the complexities of gold deposit geology"
+        "1800s - gold rushes drive ore geology",
+        "1900s - hydrothermal theory develops",
+        "2000s - geochemistry improves exploration",
+        "Present day - gold deposits are mapped with geoscience tools"
       ],
       "concepts": [
-        "- Plate tectonics",
-        "- Magma movement and interaction with the Earth's crust",
-        "- Geochemical reactions and precipitation of gold",
-        "- Hydrothermal activity and its role in gold deposit formation",
-        "- The concept of \"super-giant\" deposits and their relation to major geological events",
-        "- Microbial communities and their potential role in gold precipitation",
-        "- Deep-seated processes such as subduction, rifting, and collisional orogenesis"
+        "Hydrothermal fluid - hot mineral-rich water",
+        "Vein - a crack filled with minerals",
+        "Placer deposit - gold concentrated by water and gravity",
+        "Weathering - rock breakdown that frees gold",
+        "Ore - rock containing enough metal to mine"
       ]
     }
   }

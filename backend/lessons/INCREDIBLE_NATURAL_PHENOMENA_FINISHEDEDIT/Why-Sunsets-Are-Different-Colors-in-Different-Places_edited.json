@@ -1,32 +1,61 @@
 {
-  "topic": "Why Sunsets Are Different Colors in Different Places",
-  "title": "Understanding the Methods Behind Varying Sunset Colors",
+  "topic": "Incredible Natural Phenomena",
+  "title": "Why Sunsets Are Different Colors in Different Places",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rayleigh_scattering_after_sunset_at_500m_altitude-2008.jpg",
+  "imageCredit": {
+    "creator": "Brocken Inaglory",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Rayleigh_scattering_after_sunset_at_500m_altitude-2008.jpg"
+  },
+  "summary": "Sunset colors vary because sunlight travels through different amounts of air, aerosols, dust, water vapor, clouds, and pollution before reaching each observer.",
   "lesson": {
-    "learn": "Sunsets exhibit a diverse range of colors due to the complex interaction of light, atmosphere, and particle characteristics. On average, a single sunset witnessed by the human eye consists of approximately 3000 to 4000 different wavelengths of light.",
-    "simpler": "Consider a prism splitting white light into its colored components. This phenomenon, known as dispersion, occurs when sunlight encounters tiny particles in the atmosphere. The degree of separation between wavelengths determines the observed color.",
-    "keyTakeaway": "The colors visible during sunset are a direct result of the differential scattering of light by atmospheric particles and gases, influenced by variables such as pollution, dust, and water vapor.",
-    "deeperDive": "A key aspect of sunsets is the Mie scattering effect, where shorter wavelengths like blue and violet are dispersed more than longer wavelengths, typically resulting in hues of orange and red. This phenomenon occurs when particles measuring 0.1-10µm in diameter intercept sunlight. Research on Mie scattering has been conducted by atmospheric scientists such as John E. Westphal, who studied pollution's impact on sunset colors.",
-    "funFact": "NASA's Curiosity rover captured photographs of Martian sunsets, showcasing more vibrant hues due to the planet's thin atmosphere. The average temperature at Martian sunrise and sunset varies by as much as -10°C (18°F) due to seasonal variations.",
+    "learn": "A sunset is a long atmospheric filter. When the Sun sits low on the horizon, its light travels through much more air than it does at noon. Air molecules scatter short blue and violet wavelengths more efficiently, leaving more orange and red light to travel forward toward your eyes. That basic Rayleigh scattering explains why sunsets often warm in color, but local conditions decide the final palette. Aerosols, smoke, sea salt, volcanic particles, dust, pollution, and water droplets scatter light differently from clean air. Thin clouds can catch sunlight from below and turn pink, gold, or purple. A dry desert sunset may look coppery because dust changes the scattering. A humid coastal sunset may glow softly through haze. After major wildfires or eruptions, suspended particles can intensify reds or produce unusual purples. Different places see different sunsets because every atmosphere has its own mixture of molecules, particles, clouds, and viewing geometry.",
+    "simpler": "Sunsets change color because low sunlight passes through a long path of air. Molecules remove much of the blue light, while dust, smoke, haze, clouds, and humidity reshape the reds, oranges, pinks, and purples.",
+    "keyTakeaway": "Sunset color is local atmospheric chemistry made visible, with Rayleigh scattering setting the baseline and aerosols, clouds, dust, smoke, and humidity tuning the final sky.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Rayleigh_sunlight_scattering.svg",
+    "learnImageCredit": {
+      "creator": "Cburnett",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Rayleigh_sunlight_scattering.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_vs._noon.svg",
+    "thirdImageCredit": {
+      "creator": "E L Yekutiel",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sunset_vs._noon.svg"
+    },
+    "deeperDive": "Rayleigh scattering is strongest when particles are much smaller than the wavelength of visible light, which is true for air molecules. It preferentially redirects blue light out of the direct solar beam. Aerosols are larger, so Mie scattering becomes important; it is less wavelength-selective and often sends light forward, creating haze, glare, or muted colors. Volcanic sulfate aerosols and wildfire smoke can create vivid afterglows because particles remain high in the atmosphere after sunset and continue scattering sunlight. Clouds matter too: high clouds can stay illuminated after the surface is in shadow, while low thick clouds may block color entirely. The best sunsets often require a clean western horizon, high clouds, and just enough aerosol to enrich the light without turning the sky gray.",
+    "funFact": "A brilliant sunset often depends on particles too small to see directly.",
+    "references": [
+      {
+        "title": "NOAA Global Monitoring Laboratory: Global Radiation and Aerosols",
+        "url": "https://gml.noaa.gov/grad/about/redsky/"
+      }
+    ],
     "keyElements": {
       "people": [
-        "John E. Westphal, atmospheric scientist who studied the effects of pollution on sunset colors",
-        "Maria Zuber, planetary scientist researching Martian geology and sunset patterns",
-        "Marko Seppänen, Finnish atmospheric physicist investigating Mie scattering"
+        "Lord Rayleigh - physicist whose work explains molecular light scattering",
+        "Gustav Mie - physicist whose theory describes scattering by larger particles"
       ],
       "places": [
-        "Mauna Kea Observatory, Hawaii, which has hosted research on sunset color variations due to clear skies",
-        "Mount Wilson Observatory, California, a hub for extensive research on sunset colors and atmospheric conditions",
-        "The Grand Canyon, United States, a popular spot for capturing vibrant sunset displays"
+        "Coasts - humid aerosol-rich regions that often produce hazy sunsets",
+        "Deserts - dusty regions where particles can deepen warm tones"
       ],
       "years": [
-        "1969: NASA's Apollo 11 mission captured stunning images of lunar sunsets during the first manned moon landing",
-        "1980s: Scientists began studying Mie scattering and its effects on sunset colors",
-        "2015: Research revealed changes in temperature and humidity impacting sunset patterns due to climate change"
+        "1871 - Rayleigh explained why small particles scatter blue light strongly",
+        "1908 - Mie published scattering theory for larger particles"
       ],
       "concepts": [
-        "Mie Scattering, the phenomenon where shorter wavelengths are scattered more than longer wavelengths",
-        "Atmospheric Interference, the influence of particles and gases on our visual experience of sunsets",
-        "Rayleigh Scattering, a different scattering mechanism affecting shorter wavelengths like blue light"
+        "Rayleigh scattering - wavelength-selective scattering by air molecules",
+        "Mie scattering - scattering by larger particles such as aerosols",
+        "Aerosols - tiny suspended particles that alter sky color",
+        "Afterglow - post-sunset light scattered by high clouds or particles"
       ]
     }
   }

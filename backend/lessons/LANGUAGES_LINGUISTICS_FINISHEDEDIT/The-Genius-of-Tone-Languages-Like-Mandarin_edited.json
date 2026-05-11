@@ -1,34 +1,61 @@
 {
-  "topic": "The-Genius-of-Tone-Languages-Like-Mandarin",
-  "title": "Understanding the Role of Tones in Mandarin Chinese: A Linguistic Perspective",
+  "topic": "The Genius of Tone Languages Like Mandarin",
+  "title": "How Mandarin Turns Pitch Into Meaning",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandarin_tones_in_musical_notation.svg",
+  "imageCredit": {
+    "creator": "Everlong",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported / GNU Free Documentation License",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mandarin_tones_in_musical_notation.svg"
+  },
+  "summary": "Mandarin uses pitch contours as part of word identity, turning tone into a precise linguistic system rather than a decorative feature of pronunciation.",
   "lesson": {
-    "learn": "Mandarin Chinese, spoken by over 1 billion people worldwide, relies heavily on the use of tones to convey meaning. Research has shown that the same word can have multiple meanings depending on the pitch and intonation used to pronounce it, making tone a fundamental aspect of Mandarin's linguistic structure. For example, the word  (dōng) can mean 'east' when pronounced level, but 'rise' when pronounced with a rising tone. This tonal system allows speakers to convey complex emotions and nuances in a single utterance, making communication more efficient and expressive. The use of tones in Mandarin is not only essential for understanding and conveying meaning but also plays a significant role in maintaining social harmony and respect. Studies have also shown that learning tone languages like Mandarin can have cognitive benefits, improving memory and attention skills. For instance, a study found that speakers of tone languages like Mandarin exhibit improved memory recall compared to speakers of non-tone languages.",
-    "simpler": "Mandarin Chinese is a language where the same word can have different meanings based on how high or low you say it. It's like having multiple flavors in one cookie - it's all about the tone!",
-    "keyTakeaway": "The key takeaway from this topic is that Mandarin Chinese uses tones to convey meaning, which is a fundamental aspect of its linguistic structure. Understanding and mastering these tones is essential for effective communication in Mandarin.",
-    "deeperDive": "Research has shown that the use of tones in Mandarin can have significant effects on emotional expression and social interaction. For example, a study by Guan Feng found that when speakers used rising tones to ask questions, it conveyed a sense of politeness and respect, whereas falling tones were associated with assertiveness and authority. In addition, the use of tones can also affect cognitive processing, with studies showing that tone language speakers exhibit improved memory recall and attention skills compared to non-tone language speakers. Furthermore, the linguistic complexity of Mandarin has led to its adoption as a tool for music therapy, with researchers using tones to create therapeutic melodies.",
-    "funFact": "Researchers have discovered that some people can differentiate up to 20 different tones in a single syllable. This is known as 'tone perception' and is an extraordinary ability possessed by many Mandarin speakers!",
+    "learn": "In Mandarin, pitch is not merely emotional color; it is lexical information. A syllable such as ma can mean different things depending on whether it is high-level, rising, low-dipping, falling, or unstressed in a neutral tone. The tones are part of the syllable just as consonants and vowels are. That is why tone mistakes can change meaning rather than simply sound foreign. The system is elegant because Mandarin has relatively limited syllable shapes compared with many languages, so pitch contours help multiply contrasts. But tone is not rigid musical singing. Real speech compresses, adjusts, and reshapes pitch depending on speed, stress, sentence intonation, and neighboring tones. Tone sandhi is the classic example: two third tones in a row cause the first to surface more like a rising tone. Fluent speakers are therefore tracking both stored word tones and live pronunciation rules at once. The genius lies in how the language uses the human voice in multiple dimensions simultaneously.",
+    "simpler": "Mandarin tones are pitch patterns that change word meaning. They work like part of the word itself, and they also shift in real sentences depending on context.",
+    "keyTakeaway": "Tone languages like Mandarin show that pitch can be a core building block of vocabulary, adding meaning through controlled contours rather than through melody alone.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/First_tone_(Mandarin).svg",
+    "learnImageCredit": {
+      "creator": "Saurmandal",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:First_tone_(Mandarin).svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Third_tone_(Mandarin).svg",
+    "thirdImageCredit": {
+      "creator": "Saurmandal",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Third_tone_(Mandarin).svg"
+    },
+    "deeperDive": "Mandarin is often described as having four main tones plus a neutral tone, but the real system is dynamic. Tones interact with phrase rhythm, focus, emotional intonation, and tone sandhi. The third tone, for example, is frequently not pronounced as a full fall-rise in ordinary connected speech; it may be low, shortened, or changed before another third tone. Learners sometimes treat tones as isolated marks over syllables, but native perception integrates them with timing, vowel quality, context, and expectation. Many other languages, from Yoruba to Thai to Cantonese, use tone differently, with different numbers of contrasts and different contour or register systems. Mandarin is a clear entry point into a much larger fact: human languages can make pitch grammatical.",
+    "funFact": "The same Mandarin syllable can carry different dictionary meanings just by changing pitch contour.",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7077082/"
+    ],
     "keyElements": {
       "people": [
-        "Li Shuangqing",
-        "Guan Feng",
-        "Zhou Xicheng",
-        "Qian Nanyan"
+        "Yuen Ren Chao - linguist who developed influential tone-number notation",
+        "Duanmu San - phonologist known for work on Mandarin sound structure",
+        "Saurmandal - creator of clear Commons diagrams of Mandarin tone contours"
       ],
       "places": [
-        "Beijing Normal University",
-        "Nanjing University",
-        "The Forbidden City"
+        "Beijing - reference point for Standard Mandarin pronunciation",
+        "China - largest Mandarin-speaking region",
+        "Taiwan - major Mandarin-speaking society with its own pronunciation norms"
       ],
       "years": [
-        "1000 BCE",
-        "1912 CE",
-        "1958 CE"
+        "1930 - Chao tone letters help formalize pitch-contour notation",
+        "1958 - Hanyu Pinyin is officially adopted in mainland China",
+        "1968 - Chao describes Mandarin tones in a foundational grammar"
       ],
       "concepts": [
-        "Tonal contrast",
-        "Tone sandhi",
-        "Lexical tones",
-        "Pinyin Romanization system"
+        "Lexical tone - pitch pattern that distinguishes word meaning",
+        "Tone sandhi - tone change triggered by neighboring tones",
+        "Neutral tone - unstressed syllable tone shaped by context",
+        "Pitch contour - the movement of pitch across a syllable"
       ]
     }
   }

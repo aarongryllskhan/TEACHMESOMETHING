@@ -1,40 +1,66 @@
 {
-  "topic": "The Intersection of Art and Engineering",
-  "title": "Exploring the Engineer's Mindset of Leonardo da Vinci",
+  "topic": "Leonardo da Vinci",
+  "title": "Why Leonardo Was an Engineer Before He Was a Painter",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Self-portrait_Leonardo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "http://www.ntv.ru/novosti/151536/",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Self-portrait_Leonardo.jpg"
+  },
   "lesson": {
-    "learn": "Leonardo da Vinci (1452-1519), a polymath of the Italian Renaissance, is renowned as a master artist, but his lesser-known expertise as an engineer and inventor has left a lasting impact on modern technology. Da Vinci's inventive designs for machines and mechanisms demonstrate a profound grasp of engineering principles, predating many of his contemporaries. His artistic talent allowed him to create detailed drawings and sketches that visualized his ideas, while his curiosity-driven nature led him to experiment with various materials and techniques.",
-    "simpler": "Imagine a master builder designing an entire city with intricate bridges, roads, and mechanisms that can move objects. This is essentially what Leonardo da Vinci did as an engineer, utilizing his creativity to craft innovative solutions to everyday problems.",
-    "keyTakeaway": "Da Vinci's work as an engineer and inventor showcases a deep understanding of mechanical advantage, aerodynamics, and kinematics, which have profoundly influenced the development of modern engineering.",
-    "deeperDive": "One of Da Vinci's notable designs is the self-propelled cart, which utilized pulleys and levers to move without animals or human power. His drawings also depict sophisticated machines for lifting heavy loads and constructing buildings. Moreover, Da Vinci explored aerodynamics by designing flying machines, including a human-powered ornithopter. In his notes, he emphasized the importance of understanding the natural world through observation and experimentation. He was intrigued by the potential of water as a source of energy, leading him to design various devices for harnessing its power.",
-    "funFact": "Leonardo da Vinci was a skilled musician who played the lyre and composed music. His musical talents even influenced his art, as he incorporated musical elements into some of his paintings.",
+    "learn": "Leonardo da Vinci is famous as a painter, but his notebooks show that he thought like an engineer first. He filled page after page with machine sketches, hydraulic ideas, anatomy studies, fortification designs, and flight experiments. Art and engineering were not separate worlds for him. They were two ways of understanding how form, motion, and proportion worked.\n\nThat is why Leonardo still feels modern. He was less interested in finished masterpieces than in systems: how bodies move, how water flows, how machines lift, how a wing might work, and how observation turns into design.",
+    "simpler": "Leonardo studied machines, bodies, and movement like an engineer. Painting was only one part of his much bigger way of thinking.",
+    "keyTakeaway": "Leonardo's genius came from using art, observation, and engineering as one connected habit of thought.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Leonardo_da_vinci%2C_Flying_machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Web Gallery of Art: Image Info about artworkwga QS:P11807,\"l/leonardo/12engine/3flying1\"",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Flying_machine.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Vitruvian_Man_Measurements.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Unitfreak",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Vitruvian_Man_Measurements.png"
+    },
+    "deeperDive": "Leonardo's notebooks reveal a mind obsessed with mechanism. He wanted to know how things worked, not just how they looked. That is why he explored bridges, gears, water channels, armored vehicles, and flying devices. Many of the ideas were far ahead of the tools available in his lifetime, but the sketches themselves show a disciplined, experimental intelligence.\n\nThe common mistake is to think Leonardo was \"just\" a painter who also doodled machines. The better view is the opposite: he was a systems thinker who used art to investigate engineering, anatomy, and motion.",
+    "funFact": "Leonardo drew flying machines centuries before human flight.",
+    "references": [
+      "Britannica - Leonardo da Vinci",
+      "The Met - Leonardo notebooks",
+      "BBC - Leonardo as engineer"
+    ],
     "keyElements": {
       "people": [
-        "â€¢ Leonardo da Vinci - Polymath, artist, engineer",
-        "â€¢ Vitruvius - Roman architect whose work inspired Da Vinci's designs",
-        "â€¢ Michelangelo - Rival artist and sculptor who collaborated with Da Vinci on various projects",
-        "â€¢ Galileo Galilei - Scientist who built upon Da Vinci's observations of the natural world",
-        "â€¢ Isaac Newton - Physicist who was influenced by Da Vinci's studies of mechanics"
+        "Leonardo da Vinci - Renaissance engineer and artist",
+        "Patrons - rulers who funded his work",
+        "Modern historians - scholars who read his notebooks",
+        "Engineers - people who see his methods as design thinking"
       ],
       "places": [
-        "â€¢ Florence, Italy - City where Da Vinci grew up and began his artistic career",
-        "â€¢ Milan, Italy - City where Da Vinci worked as an engineer for the Duke of Milan",
-        "â€¢ Amboise, France - Chateau where Da Vinci spent his final years",
-        "â€¢ Rome, Italy - City where Vitruvius' works were studied by Da Vinci",
-        "â€¢ Venice, Italy - City that inspired Da Vinci's designs for machines and mechanisms"
+        "Florence - Leonardo's early workshop world",
+        "Milan - where he worked for the Sforza court",
+        "France - where he spent his final years",
+        "Museums and archives - where his drawings are preserved"
       ],
       "years": [
-        "â€¢ 1452 - Year of Leonardo da Vinci's birth in Vinci, Italy",
-        "â€¢ 1503 - Year when Da Vinci began working as an engineer for the Duke of Milan",
-        "â€¢ 1519 - Year of Da Vinci's death in Amboise, France",
-        "â€¢ 1470s - Period during which Da Vinci made detailed drawings of machines and mechanisms",
-        "â€¢ 1550s - Century after Da Vinci's death when his designs began to influence modern engineering"
+        "1480s - Leonardo's engineering notes expand",
+        "1490s - major machine and anatomy studies",
+        "Early 1500s - flight and water projects intensify",
+        "Present day - Leonardo is studied as a polymath"
       ],
       "concepts": [
-        "â€¢ Aerodynamics - Study of air and its interaction with objects",
-        "â€¢ Mechanical advantage - Principle used in machines to amplify force or motion",
-        "â€¢ Kinematics - Branch of physics dealing with the study of motion",
-        "â€¢ Friction - Force that opposes movement between two surfaces",
-        "â€¢ Hydrostatics - Study of fluids at rest and their pressure on surfaces"
+        "Engineering - applying science and design to practical problems",
+        "Observation - careful attention to what the world does",
+        "Proportion - relationships among parts",
+        "Mechanism - a system of moving parts",
+        "Polymath - a person skilled in many fields"
       ]
     }
   }

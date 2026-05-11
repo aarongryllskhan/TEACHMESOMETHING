@@ -1,17 +1,67 @@
 {
-  "topic": "Genetic Counseling and Disease Prevention",
-  "title": "Understanding the Methods Behind Genetic Counseling",
+  "topic": "Genetic Counseling",
+  "title": "How Genetic Counseling Helps Prevent Disease",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Geneticcounseling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "United States National Institutes for Health, Center for Hearing and Communication Disorders",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Geneticcounseling.jpg"
+  },
   "lesson": {
-    "learn": "Genetic counseling is a specialized field that enables individuals and families to grasp their genetic risk for certain diseases or conditions. By analyzing an individual's genetic makeup, counselors employ a combination of genetic testing, medical history, and family tree analysis to identify potential health risks. The field has become increasingly important since the Human Genome Project's completion in 2003, which laid the groundwork for modern genetic testing. For instance, the National Institutes of Health estimates that more than 600 genetic disorders are linked to genetic mutations. Genetic counseling has become even more crucial with advancements in genetic technology, allowing for earlier diagnosis and treatment of diseases at the genetic level. By comprehending an individual's genetic profile, they can proactively manage their health and well-being.",
-    "simpler": "Genetic counseling can be seen as forensic analysis for one's DNA, identifying specific genetic mutations that may contribute to health issues. This process is akin to a genetic map, allowing individuals to pinpoint potential problems and address them before they become severe.",
-    "keyTakeaway": "The primary advantage of genetic counseling is that it empowers individuals with the knowledge and tools to make informed decisions about their lifestyle choices and health management. Genetic counselors can help individuals assess their genetic risk and suggest preventive measures or early interventions.",
-    "deeperDive": "Genetic counseling has evolved significantly with the advent of next-generation sequencing technologies, such as whole-exome sequencing (WES) and whole-genome sequencing (WGS). These technologies enable the analysis of entire genomes or exomes to identify genetic variants associated with disease. Recent studies have shown that genetic testing can improve patient outcomes in diseases such as breast cancer and sickle cell anemia. For example, a study published in 2019 in the Journal of Clinical Oncology found that genetic counseling reduced the risk of inherited breast cancer by 40%. Moreover, genetic counselors are now working closely with primary care physicians to integrate genetic information into routine medical care. The field of genetic counseling is rapidly expanding, with many universities and research institutions offering specialized training programs.",
-    "funFact": "The first reported case of genetic testing dates back to 1882, when the German pediatrician Georg Friedrich Heinrich Schweickert diagnosed a child with a rare genetic disorder. Today, genetic testing can identify thousands of genetic mutations and predict the likelihood of developing certain diseases based on an individual's genetic profile.",
+    "learn": "Genetic counseling helps people understand inherited risk before a disease becomes a surprise. Counselors do not just read DNA results. They help families interpret probability, family history, reproductive choices, and medical options in a way that is practical and humane. The goal is informed decision-making, not pressure.\n\nThat matters because genetic risk is often confusing. A test result can sound alarming until it is explained in the context of inheritance patterns, actual disease likelihood, and what can be done next.",
+    "simpler": "Genetic counseling helps people understand inherited health risks and make informed medical choices.",
+    "keyTakeaway": "Counseling turns genetic information into usable, human-scale guidance.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/fc/202206_genetic_counseling01.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "DataBase Center for Life Science (DBCLS)",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:202206_genetic_counseling01.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/85/202206_genetic_counseling04.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "DataBase Center for Life Science (DBCLS)",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:202206_genetic_counseling04.svg"
+    },
+    "deeperDive": "A counselor may build a pedigree, discuss testing options, explain what a variant does or does not mean, and help people think through screening or treatment. This is especially important for families with cancer risk, rare disorders, or complex inheritance. Counseling also protects against overreading tests, because not every genetic variant is dangerous and not every risk can be eliminated.\n\nThe broader public-health value is straightforward: better understanding leads to better planning. That can mean earlier screening, better reproductive planning, or simply less fear caused by uncertainty.",
+    "funFact": "Genetic counseling is as much about interpretation as it is about testing.",
+    "references": [
+      "Britannica - genetic counseling",
+      "NHGRI - genetic counseling and testing",
+      "MedlinePlus Genetics - counseling"
+    ],
     "keyElements": {
-      "people": [],
-      "places": [],
-      "years": [],
-      "concepts": []
+      "people": [
+        "Genetic counselors - specialists who explain risk",
+        "Patients and families - people making decisions",
+        "Doctors - clinicians who coordinate care",
+        "Laboratory scientists - people who generate test results"
+      ],
+      "places": [
+        "Genetics clinics - counseling takes place there",
+        "Hospitals - where risk is discussed with care teams",
+        "Family homes - where decisions affect real life",
+        "Screening programs - where counseling supports testing"
+      ],
+      "years": [
+        "1960s - genetic counseling emerges as a field",
+        "1990s - testing expands rapidly",
+        "2000s - genomics becomes more personal",
+        "Present day - counseling is central to preventive medicine"
+      ],
+      "concepts": [
+        "Risk - probability of a health outcome",
+        "Pedigree - a family inheritance chart",
+        "Variant - a DNA change that may or may not matter",
+        "Screening - checking before symptoms appear",
+        "Informed choice - deciding with clear information"
+      ]
     }
   }
 }

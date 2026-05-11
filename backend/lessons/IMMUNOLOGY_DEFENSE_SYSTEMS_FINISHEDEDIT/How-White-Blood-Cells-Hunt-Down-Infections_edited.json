@@ -1,41 +1,67 @@
 {
-  "topic": "Immune Response to Infections",
-  "title": "Understanding the Methods Behind Your Immune System's Response to Infections",
+  "topic": "White Blood Cell Defense",
+  "title": "How White Blood Cells Hunt Down Infections",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Neutrophil%20(NIH%20BioArt%20381%20-%20632906).png",
+  "imageCredit": {
+    "creator": "Courtesy of NIAID Ryan Kissinger",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Neutrophil_(NIH_BioArt_381_-_632906).png"
+  },
+  "summary": "White blood cells hunt infections by sensing chemical trails, leaving the bloodstream, engulfing microbes, killing infected cells, coordinating signals, and building immune memory.",
   "lesson": {
-    "learn": "White blood cells, also known as leukocytes, are a crucial component of the immune system, protecting our bodies from invaders by identifying and eliminating microorganisms such as bacteria, viruses, and fungi. The three primary types of white blood cells - neutrophils, lymphocytes, and monocytes - operate distinctively to combat different pathogens. Neutrophils use NETosis, a unique mechanism, to form sticky traps that ensnare and eliminate bacteria. Lymphocytes can recall specific pathogens, enabling them to mount a swift response upon subsequent exposures. Monocytes differentiate into macrophages, which engulf and digest foreign particles.",
-    "simpler": "Imagine your body as a city with a robust defense system, comprising specialized forces such as police officers, firefighters, and doctors. White blood cells, like these responders, patrol your body to identify and combat intruders. Neutrophils focus on bacterial threats, while lymphocytes concentrate on viral infections. Monocytes help with clean-up, eliminating foreign debris.",
-    "keyTakeaway": "White blood cells work in concert to recognize, respond to, and remember pathogens, utilizing distinct mechanisms to combat different types of infections.",
-    "deeperDive": "Recent research has elucidated the role of neutrophils in forming NETosis traps, which ensnare and eliminate bacteria. Lymphocytes' ability to recognize and remember specific pathogens is attributed to their T-cell and B-cell receptors. Monocytes differentiate into macrophages, which ingest and digest foreign particles. The spleen, a vital organ, filters the blood, removing damaged red blood cells and storing lymphocytes for potential reuse. Exercise has been shown to increase immune cell production, enhancing overall immune function.",
-    "funFact": "Some individuals possess an increased number of neutrophils, which can provide protection against certain bacterial infections. However, excess neutrophils have also been associated with conditions such as cancer and autoimmune diseases.",
+    "learn": "White blood cells are mobile defenders with different jobs. Neutrophils are rapid responders that follow chemical signals into infected tissue, engulf microbes, release antimicrobial granules, and sometimes cast DNA-based traps. Monocytes can become macrophages that swallow debris, digest pathogens, and help shape inflammation. Dendritic cells collect antigen evidence and carry it to lymph nodes. Natural killer cells inspect stressed or infected cells and can trigger their death. T cells recognize infected cells or coordinate other immune cells, while B cells become antibody-producing plasma cells. Hunting an infection is therefore not a single chase. It is a coordinated search using chemical gradients, adhesion molecules, tissue entry, receptor recognition, and communication. Each cell type sees a different part of the problem, and the immune response works when those views are integrated.",
+    "simpler": "White blood cells find infections by following chemical signals, entering tissues, attacking microbes or infected cells, and coordinating with other immune cells.",
+    "keyTakeaway": "White blood cells hunt infections through specialized teamwork: some arrive fast and engulf threats, some kill infected cells, and others coordinate targeted memory responses.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Natural%20Killer%20Cell%20(NIH%20BioArt%20376%20-%20632636).png",
+    "learnImageCredit": {
+      "creator": "Courtesy of NIAID Ryan Kissinger",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Natural_Killer_Cell_(NIH_BioArt_376_-_632636).png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Dying%20Neutrophil%20(NIH%20BioArt%20136).png",
+    "thirdImageCredit": {
+      "creator": "Courtesy of NIAID Ryan Kissinger",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dying_Neutrophil_(NIH_BioArt_136).png"
+    },
+    "deeperDive": "The journey from blood to infection site is tightly controlled. Inflammation makes nearby blood vessels express adhesion molecules, causing leukocytes to slow, roll, stick, and squeeze between endothelial cells in a process called extravasation. Chemokines then guide them toward higher concentrations of danger signals. Neutrophils dominate many early bacterial responses, while macrophages clear material and release signals that shape repair. Natural killer cells are especially important early in some viral infections because they detect cells with abnormal stress signals or reduced MHC-I display. Adaptive lymphocytes take longer to expand but can deliver extraordinary specificity. Cytotoxic T cells kill infected host cells, helper T cells coordinate responses, and B cells produce antibodies that neutralize or tag targets. White blood cells can also cause harm if they overreact; pus, swelling, tissue damage, and sepsis all reflect defense mechanisms pushed too far. Effective immunity depends on finding the target and knowing when to stop.",
+    "funFact": "Pus is made largely of dead neutrophils, microbes, tissue debris, and inflammatory fluid.",
+    "references": [
+      "NCBI Bookshelf - innate immunity",
+      "NIAID - immune cell types",
+      "Britannica - white blood cell"
+    ],
     "keyElements": {
       "people": [
-        "* Robert Koch - a German physician who discovered the role of white blood cells in fighting infection",
-        "* Elie Metchnikoff - a Russian scientist who first described phagocytosis, the process by which white blood cells engulf foreign particles",
-        "* Paul Ehrlich - a German scientist who developed the concept of immunological memory",
-        "* Elizabeth Blackburn - an Australian-American scientist who discovered telomeres, which protect chromosomes from damage caused by infections",
-        "* Barry Marshall - an Australian physician who demonstrated the role of Helicobacter pylori in stomach ulcers"
+        "Elie Metchnikoff - discovered phagocytosis as a central immune defense",
+        "Paul Ehrlich - helped classify blood cells and immune concepts",
+        "Ralph Steinman - discovered dendritic cells and their immune role",
+        "Hematologists - physicians and scientists who study blood cells"
       ],
       "places": [
-        "* National Institutes of Health (NIH) - a research institution that has made significant contributions to understanding white blood cell function",
-        "* Rockefeller University - a renowned institution that has conducted groundbreaking research on immunology and disease mechanisms",
-        "* Pasteur Institute - a leading center for vaccine development and research on infectious diseases",
-        "* Salk Institute for Biological Studies - a private research institute dedicated to basic and translational biology, including immunology",
-        "* Harvard Medical School - one of the most prestigious medical schools in the world, with significant contributions to understanding white blood cell function"
+        "Bloodstream - transport route for circulating white blood cells",
+        "Endothelium - blood-vessel lining crossed during inflammation",
+        "Infected tissue - target site for recruited immune cells",
+        "Bone marrow - production site for many white blood cells"
       ],
       "years": [
-        "* 1882 - Robert Koch discovers the role of white blood cells in fighting infection",
-        "* 1905 - Elie Metchnikoff first describes phagocytosis, the process by which white blood cells engulf foreign particles",
-        "* 1916 - Paul Ehrlich develops the concept of immunological memory",
-        "* 1973 - Elizabeth Blackburn discovers telomeres, which protect chromosomes from damage caused by infections",
-        "* 2005 - Barry Marshall demonstrates the role of Helicobacter pylori in stomach ulcers"
+        "1880s - phagocytosis is described by Metchnikoff",
+        "1908 - Nobel Prize recognizes work on immunity by Metchnikoff and Ehrlich",
+        "1973 - dendritic cells are identified by Steinman and Cohn",
+        "Present day - live imaging reveals immune-cell movement in tissues"
       ],
       "concepts": [
-        "* Phagocytosis - the process by which white blood cells engulf foreign particles",
-        "* NETosis - a unique mechanism used by neutrophils to form sticky traps that ensnare and eliminate bacteria",
-        "* Immunological memory - the ability of lymphocytes to recognize and remember specific pathogens, allowing them to mount an effective response even years after initial exposure",
-        "* Telomeres - protective caps on chromosomes that prevent damage caused by infections",
-        "* Macrophages - large white blood cells that engulf and digest foreign particles",
-        "* Cytokines - signaling molecules produced by immune cells that communicate with each other and coordinate the immune response"
+        "Chemotaxis - movement along chemical signals",
+        "Extravasation - white blood cells leaving blood vessels",
+        "Phagocytosis - engulfing and digesting particles",
+        "Natural killer cell - innate cell that kills stressed or infected cells",
+        "NETosis - neutrophil release of DNA traps"
       ]
     }
   }

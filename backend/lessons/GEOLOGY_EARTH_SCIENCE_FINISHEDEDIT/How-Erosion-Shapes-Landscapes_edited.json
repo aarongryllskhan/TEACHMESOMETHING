@@ -1,46 +1,66 @@
 {
-  "topic": "Understanding Geologic Erosion: The Dynamic Shaping of Our Planet",
-  "title": "Exploring the Methods Behind Erosion: Landscapes Shaped by Natural Forces",
+  "topic": "Erosion",
+  "title": "How Erosion Shapes Landscapes Over Time",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Landscape_Arch%2C_Arches_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Rachel from Los Angeles, California, USA",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Landscape_Arch%2C_Arches_National_Park.jpg"
+  },
   "lesson": {
-    "learn": "Erosion is the cumulative effect of natural forces that wear away rock, soil, and other materials from the Earth's surface. This process has been responsible for shaping an incredible range of landscapes, from the majestic Grand Canyon to the towering sand dunes of the Sahara Desert. Erosion occurs through the interactions of wind, water, ice, and gravity, which break down and transport rocks and soil fragments over time. Understanding erosion is essential for managing natural resources, mitigating environmental hazards, and appreciating the dynamic nature of our planet.",
-    "simpler": "To grasp the concept of erosion, imagine a gentle stream flowing through a valley. As the water picks up speed and volume, it begins to erode the surrounding rocks, transporting them to new locations. This gradual wearing away of the landscape is a powerful force that shapes our environment and creates diverse features.",
-    "keyTakeaway": "The key takeaway from understanding erosion is that it is an ongoing process that has shaped our planet's surface over millions of years. This dynamic process continues to influence the natural world, creating unique landscapes and features that are essential for our planet's ecosystems.",
-    "deeperDive": "Erosion has played a critical role in shaping some of the most iconic natural wonders on Earth. The Grand Canyon, for example, was carved by the Colorado River over a period of 6 million years, with an average erosion rate of 1 foot per year. Weathering, a key component of erosion, occurs through both mechanical and chemical processes. Mechanical weathering involves physical forces breaking down rocks into smaller fragments, while chemical weathering involves the breakdown of minerals through chemical reactions with water and air. The rate of erosion can be influenced by various factors, including climate change, vegetation cover, and human activities like deforestation and mining. Erosion also plays a critical role in shaping coastlines, where waves and tides constantly reshape the shoreline. The Delicate Arch in Utah's Arches National Park, for instance, was formed through the erosive action of wind and water over millions of years.",
-    "funFact": "Did you know that erosion is responsible for creating approximately 75% of the world's sedimentary rocks? These rocks provide valuable insights into the Earth's geological history and can help us understand the processes that have shaped our planet over millions of years.",
+    "learn": "Erosion reshapes landscapes by removing rock and soil through water, wind, ice, gravity, and chemical weathering. It does not build from scratch so much as it carves away what is already there. That carving can create arches, canyons, hoodoos, valleys, and river terraces depending on the rock type and climate.\n\nThe surprising part is that erosion is creative. By taking material away, it reveals structure, layers, and form that were hidden before.",
+    "simpler": "Erosion changes landscapes by wearing away rock and soil with water, wind, ice, and gravity.",
+    "keyTakeaway": "Landscapes are sculpted by removal as much as by building.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Bryce_Canyon_Hoodoos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "“Jon Zander(digon3)”",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bryce_Canyon_Hoodoos.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hoodoos_in_Bryce_Canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Paxson Woelber",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hoodoos_in_Bryce_Canyon.jpg"
+    },
+    "deeperDive": "Different agents of erosion leave different signatures. Rivers cut channels and canyons. Ice carves broad U-shaped valleys. Wind can sandblast exposed rock into arches and fins. Rainwater dissolves some rocks chemically, especially limestone. In each case, the pattern depends on rock hardness, climate, uplift rate, and time.\n\nThat is why erosion is one of geology's most visible processes. It works slowly, but it leaves dramatic results.",
+    "funFact": "Erosion is why some of Earth's most famous rock shapes exist.",
+    "references": [
+      "Britannica - erosion",
+      "USGS - weathering and erosion",
+      "National Park Service - Arches and Bryce Canyon geology"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "* William Morris Davis (American geologist who contributed to the development of erosion theory)",
-        "* Alfred Wegener (German meteorologist and geophysicist who proposed the theory of continental drift)",
-        "* Jean-Baptiste Lamarck (French biologist who proposed the concept of inheritance of acquired characteristics)",
-        "* Robert E. Dickinson (American geologist who studied river erosion)",
-        "* Marston Morse (American mathematician who contributed to the development of modern geomorphology)",
-        "* **"
+        "Geomorphologists - scientists who study landforms",
+        "Hydrologists - experts in water movement",
+        "Glaciologists - researchers studying ice erosion",
+        "Park geologists - interpreters of landscape change"
       ],
       "places": [
-        "**",
-        "* Grand Canyon National Park (Arizona, USA - iconic example of erosion by rivers)",
-        "* Arches National Park (Utah, USA - site of famous Delicate Arch formation)",
-        "* Mount Everest Base Camp (Nepal/China - location where glaciers and rockfall shape the landscape)",
-        "* Niagara Falls (New York/Ontario border - site of significant water erosion)",
-        "* Badlands National Park (South Dakota, USA - area with extensive fossil record shaped by erosion)",
-        "* **"
+        "River valleys - carved by flowing water",
+        "Canyonlands - where erosion is dramatic",
+        "Deserts - where wind erosion is strong",
+        "Mountain slopes - where gravity and water move material"
       ],
       "years": [
-        "**",
-        "* 1644: The first recorded observation of glacier movement in the Swiss Alps",
-        "* 1776: James Hutton's theory on the age of the Earth and geological processes like erosion are proposed",
-        "* 1907: Robert E. Dickinson publishes a seminal paper on river erosion",
-        "* 1929: Jean-Baptiste Lamarck's concept of inheritance of acquired characteristics is disputed by modern genetics",
-        "* **"
+        "1800s - erosion becomes a core geology concept",
+        "1900s - landscape evolution is quantified",
+        "2000s - satellite imagery improves studies",
+        "Present day - erosion is tracked globally"
       ],
       "concepts": [
-        "**",
-        "* Weathering (processes that break down rocks into smaller fragments)",
-        "* Transportation (carrying away rock and soil fragments to new locations)",
-        "* Erosion cycle (series of processes that shape landscapes over time)",
-        "* Geomorphology (study of the physical features of the Earth's surface)",
-        "* Plate tectonics (theory explaining the movement of the Earth's crust)"
+        "Weathering - breaking down rock in place",
+        "Erosion - moving broken material away",
+        "Arches - rock windows carved by erosion",
+        "Hoodoos - tall eroded rock spires",
+        "Landscape evolution - long-term change in landforms"
       ]
     }
   }

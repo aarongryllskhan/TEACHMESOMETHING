@@ -1,48 +1,66 @@
 {
-  "topic": "How-Nikola-Tesla-Created-Modern-Electricity",
-  "title": "Exploring the Methods Behind Nikola Tesla's Alternating Current Revolutions",
+  "topic": "Nikola Tesla",
+  "title": "How Nikola Tesla Helped Build the Electrical World We Live In",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Blue_Portrait_of_Nikola_Tesla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Vilma Lwoff-Parlaghy",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Blue_Portrait_of_Nikola_Tesla.jpg"
+  },
   "lesson": {
-    "learn": "Nikola Tesla (1856-1943) was a renowned inventor and engineer who transformed the world by creating modern alternating current (AC) systems, revolutionizing the transmission of electricity over long distances. By harnessing the principles of electromagnetism and developing polyphase systems, Tesla enabled efficient and practical electrical power distribution, illuminating homes, industries, and entire cities. His work laid the foundation for modern electrical engineering, shaping the course of technological advancements in fields like electrical power, telecommunications, and medical imaging.",
-    "simpler": "Nikola Tesla's discovery of alternating current (AC) can be likened to sending water through pipes. However, instead of water, he made it work with electricity, allowing for efficient transmission of power over vast distances. This concept is based on the fundamental laws of electromagnetism, which dictate the behavior of electric currents. Tesla's innovative work enabled the widespread use of electrical energy, transforming the way we live, work, and interact.",
-    "keyTakeaway": "The key to understanding Nikola Tesla's impact lies in his pioneering work on polyphase AC systems, which enabled the efficient transmission and distribution of electricity. This breakthrough allowed for the mass use of electrical power, transforming industries and enabling unprecedented economic growth.",
-    "deeperDive": "Tesla's work on AC systems, particularly his development of polyphase systems, was a pivotal moment in the history of electrical engineering. By introducing the concept of multiple currents at different frequencies, Tesla increased transmission efficiency and reduced energy losses. His designs were first showcased at the 1893 World's Columbian Exposition in Chicago, demonstrating the capabilities of his AC system to a global audience. The adoption of Tesla's ideas by pioneers like Thomas Edison and the development of the Niagara Falls Power Plant marked a significant milestone in the widespread use of electrical power.",
-    "funFact": "Nikola Tesla held over 300 patents in his name, including the concept of transmitting electrical energy wirelessly through the air. His pioneering work on wireless energy transfer and X-ray technology pushed the boundaries of electrical engineering, leading to groundbreaking innovations in medical imaging and renewable energy sources.",
+    "learn": "Nikola Tesla did not single-handedly create modern electricity, but he helped make the electrical system we use today practical at scale. His work on alternating current, motors, transformers, and high-voltage systems helped move electricity from a curiosity into a reliable infrastructure. That infrastructure made long-distance power transmission much more workable.\n\nTesla was also a showman and a visionary. He imagined wireless power, dramatic high-voltage experiments, and a future where electricity would be everywhere. Some of his ideas were ahead of their time, but many of his engineering contributions became essential to the modern electric age.",
+    "simpler": "Tesla helped make electricity useful on a big scale by improving alternating current systems and inventing important electrical devices.",
+    "keyTakeaway": "Tesla mattered because he turned electricity into a practical system for homes, factories, and cities.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Tesla123.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Joshtesla",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tesla123.JPG"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tesla_coil.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Biezl (translation: Jacopo Werther)",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tesla_coil.svg"
+    },
+    "deeperDive": "Tesla's greatest influence was on alternating current, which made it easier to send power over long distances with manageable losses. His motors and transformers fit into a much larger system that included other inventors and engineers, especially the industrial and financial support that made large electrical grids possible. The famous Tesla coil became a symbol of that era's fascination with high-voltage power.\n\nThe deeper lesson is that modern technology is almost never the work of one genius alone. Tesla was brilliant, but his impact came from ideas that could be built, scaled, and adopted by an entire electrical civilization.",
+    "funFact": "Tesla's coil became a symbol of the electric age.",
+    "references": [
+      "Britannica - Nikola Tesla",
+      "Smithsonian - Tesla and electricity",
+      "Tesla Science Center - Wardenclyffe and AC"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Nikola Tesla - Inventor and engineer who revolutionized electricity",
-        "+ Thomas Edison - Pioneering inventor and businessman who supported AC systems",
-        "+ George Westinghouse - Entrepreneur and engineer who developed Tesla's ideas into commercial products",
-        "+ Cyrus Field - Businessman and engineer who sponsored Tesla's work on underwater telegraph cables",
-        "+ William Stanley - Inventor and engineer who worked with Tesla to develop the first practical AC motor",
-        "* **"
+        "Nikola Tesla - inventor and electrical engineer",
+        "George Westinghouse - helped commercialize AC power",
+        "Engineers - people who built the grid",
+        "Industrialists - investors who financed expansion"
       ],
       "places": [
-        "**",
-        "+ Wardenclyffe Tower - Experimental station in Long Island, New York, where Tesla demonstrated wireless energy transfer",
-        "+ Niagara Falls Power Plant - First commercial power plant using Tesla's AC system",
-        "+ Colorado Springs - Location of Tesla's laboratory and experimentation site",
-        "+ Budapest University of Technology and Economics - Where Tesla studied electrical engineering as a young man",
-        "+ World's Columbian Exposition in Chicago - Venue for Tesla's 1893 demonstration of his AC system",
-        "* **"
+        "Colorado Springs - Tesla's famous high-voltage experiments",
+        "Wardenclyffe - the wireless power project site",
+        "Power stations - places where AC systems scaled up",
+        "Cities and factories - the places electrification transformed"
       ],
       "years": [
-        "**",
-        "+ 1856 - Year Nikola Tesla was born in Smiljan, Croatia",
-        "+ 1884 - Year Tesla emigrated to the United States to work on electrical engineering projects",
-        "+ 1887 - Year Tesla patented his AC motor and generator designs",
-        "+ 1893 - Year Tesla demonstrated his AC system at the World's Columbian Exposition",
-        "+ 1915 - Year Nikola Tesla passed away in New York City",
-        "* **"
+        "1880s - Tesla develops AC motor ideas",
+        "1890s - AC power systems win the current war",
+        "1901-1905 - Wardenclyffe is built and then falters",
+        "Present day - Tesla's name remains linked to electricity"
       ],
       "concepts": [
-        "**",
-        "+ Alternating Current (AC) systems",
-        "+ Polyphase systems",
-        "+ Tesla coil",
-        "+ Wireless energy transfer",
-        "+ Electromagnetic induction",
-        "+ X-ray technology"
+        "Alternating current - electricity that reverses direction",
+        "Transformer - a device that changes voltage",
+        "Motor - a machine that turns electricity into motion",
+        "High voltage - electricity at large potential difference",
+        "Electrification - the spread of electrical power into daily life"
       ]
     }
   }

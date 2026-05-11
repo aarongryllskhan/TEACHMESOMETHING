@@ -1,32 +1,65 @@
 {
-  "topic": "Bioluminescent Algae: The Science Behind Glowing Waves",
-  "title": "Understanding the Chemistry of Bioluminescent Algae",
+  "topic": "Incredible Natural Phenomena",
+  "title": "How Bioluminescent Algae Create Glowing Waves",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Tears_in_the_Matsu_Islands.jpg",
+  "imageCredit": {
+    "creator": "e_ella",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Blue_Tears_in_the_Matsu_Islands.jpg"
+  },
+  "summary": "Glowing waves occur when dense blooms of bioluminescent plankton flash blue light as wave motion, paddles, or swimmers mechanically disturb their cells.",
   "lesson": {
-    "learn": "Bioluminescent algae, found in various parts of the world, including the waters around Japan and Puerto Rico, produce light through a process called chemiluminescence. This phenomenon occurs when the algae's luciferin reacts with oxygen, resulting in the emission of light. A 2020 study in the journal Science Advances revealed that certain species of bioluminescent algae can produce different colors, from pink to yellow, through the alteration of their biochemical pathways.",
-    "simpler": "Think of bioluminescent algae like tiny light-producing factories in the ocean, powered by a chemical reaction between luciferin and oxygen. Just as fireflies light up in summer nights, bioluminescent algae create a breathtaking display of blue-green light when disturbed.",
-    "keyTakeaway": "The most important aspect to understand is that bioluminescent algae employ chemiluminescence to produce light, which is crucial for their survival and is influenced by changes in water temperature and nutrient levels.",
-    "deeperDive": "In addition to its applications in research and monitoring ocean health, bioluminescence has the potential to be used in medical imaging and environmental monitoring. For instance, scientists have explored the use of luciferin-based assays to detect cancer cells. Moreover, the bioluminescent signals of these algae have been used to monitor water quality and track ocean currents.",
-    "funFact": "Mosquito Bay in Puerto Rico, also known as La Parguera, is one of the most famous destinations for witnessing bioluminescent waves, with concentrations of dinoflagellate algae reaching up to 10,000 cells per liter. This phenomenon was first described by Spanish naturalist José Curbelo in the 1970s.",
+    "learn": "Glowing waves are usually made by microscopic plankton, especially dinoflagellates such as Noctiluca scintillans or related luminous species. During the day, a dense bloom may look like discolored water. At night, mechanical disturbance from breaking waves, footsteps, boat wakes, or swimming can trigger flashes of blue light. Inside the cell, motion-sensitive processes help activate a chemical reaction involving luciferin, oxygen, and enzymes such as luciferase. The emitted light is commonly blue because blue-green wavelengths travel well through seawater. The flash may function as defense: a sudden sparkle can startle grazers, make tiny predators more visible to larger predators, or signal that the organism is not an easy meal. These displays are beautiful, but blooms can also indicate ecological imbalance. Some Noctiluca blooms are linked to nutrient changes and can contribute to harmful red tides or oxygen-poor conditions. The glow is wonder and warning at once: living chemistry made visible by moving water.",
+    "simpler": "Glowing waves happen when lots of bioluminescent plankton are disturbed. Wave motion triggers a chemical reaction inside the cells, producing brief blue flashes in the water.",
+    "keyTakeaway": "Bioluminescent waves are created when dense plankton blooms convert mechanical disturbance into blue chemical light through luciferin-based reactions.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Noctiluca_scintillans.jpg",
+    "learnImageCredit": {
+      "creator": "Hans Hillewaert",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Noctiluca_scintillans.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Arabiansea_vir_2019123_lrg.jpg",
+    "thirdImageCredit": {
+      "creator": "NASA Earth Observatory",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Arabiansea_vir_2019123_lrg.jpg"
+    },
+    "deeperDive": "Dinoflagellate bioluminescence is controlled at tiny scales. Mechanical stress changes conditions near the cell membrane and can trigger electrical and chemical events that acidify light-producing compartments. That acidity helps activate luciferase and allows luciferin to release photons as it reacts with oxygen. The flashes are brief because they are metabolically costly and most useful when timed to disturbance. Blooms require favorable conditions: nutrients, temperature, sunlight, water-column stability, and currents that concentrate cells near shore. Satellite sensors usually cannot see the night glow directly, but they can track blooms, chlorophyll, and ocean color patterns associated with luminous organisms. The same biology that enchants beachgoers can matter to fisheries and water quality because dense blooms alter food webs and oxygen dynamics.",
+    "funFact": "One breaking wave can trigger millions of single-celled flashes at once.",
+    "references": [
+      {
+        "title": "NOAA Ocean Service: What is bioluminescence?",
+        "url": "https://oceanservice.noaa.gov/facts/biolum.html"
+      },
+      {
+        "title": "NASA Earth Observatory: Tracking Blue Tear Blooms",
+        "url": "https://science.nasa.gov/earth/earth-observatory/tracking-blue-tear-blooms-145687"
+      }
+    ],
     "keyElements": {
       "people": [
-        "José Curbelo"
+        "E. Newton Harvey - early bioluminescence researcher",
+        "Steven Haddock - marine scientist known for bioluminescence research"
       ],
       "places": [
-        "Japan",
-        "Puerto Rico",
-        "Mosquito Bay",
-        "La Parguera"
+        "Matsu Islands - famous blue-tears bioluminescence site",
+        "Gulf of Oman - region where satellites track large Noctiluca blooms"
       ],
       "years": [
-        "1970s",
-        "2020"
+        "2019 - NASA highlighted satellite tracking of blue-tear blooms",
+        "2024 - NOAA updated public guidance on marine bioluminescence"
       ],
       "concepts": [
-        "Chemiluminescence",
-        "Luciferin",
-        "Dinoflagellate algae",
-        "Medical imaging",
-        "Environmental monitoring"
+        "Dinoflagellates - single-celled plankton often responsible for glowing waves",
+        "Luciferin - light-producing molecule in bioluminescent reactions",
+        "Luciferase - enzyme that helps catalyze light production",
+        "Mechanical stimulation - motion or shear that triggers flashes"
       ]
     }
   }

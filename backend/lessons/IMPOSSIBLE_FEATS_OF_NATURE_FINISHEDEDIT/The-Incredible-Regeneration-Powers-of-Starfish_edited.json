@@ -1,33 +1,67 @@
 {
   "topic": "Regenerative Biology of Starfish",
   "title": "Understanding the Methods Behind Starfish Regeneration",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20star%20regenerating%20legs.jpg",
+  "imageCredit": {
+    "creator": "Brocken Inaglory",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Sea_star_regenerating_legs.jpg"
+  },
+  "summary": "Sea stars regenerate lost arms by sealing wounds, reorganizing tissues, activating growth programs, and rebuilding nerves, skeleton, muscles, and tube feet over weeks to months.",
   "lesson": {
-    "learn": "Starfish, or sea stars, possess a remarkable capacity for regeneration, with some species able to regrow an entire limb or even a new starfish from a single arm within a span of two weeks. This ability is rooted in their distinct cellular structure and the presence of stem cells throughout their bodies. By exploring the processes underlying starfish regeneration, researchers aim to unlock new possibilities for regenerative medicine and tissue engineering.",
-    "simpler": "Starfish regeneration can be likened to a complex, highly efficient manufacturing process, where damaged tissues are rapidly replaced with new ones, often using pre-existing cells as building blocks.",
-    "keyTakeaway": "Starfish regeneration is facilitated by their ability to activate and reorganize stem cells, which differentiate into various cell types to restore damaged tissue.",
-    "deeperDive": "Studies have revealed that starfish-derived growth factors and proteins hold promise for developing novel treatments for human diseases. For instance, researchers have identified a protein called \"Starbase\" with anti-inflammatory properties, which may be leveraged to address conditions such as arthritis. Additionally, certain species of starfish can regenerate their eyes and internal organs, highlighting the intricacies of their regenerative abilities. The presence of stem cells throughout their bodies enables starfish to regenerate lost or damaged body parts, showcasing an unparalleled capacity for tissue repair.",
-    "funFact": "Starfish have been observed regrowing an entire new starfish from a single arm, a feat achievable by a select few species.",
+    "learn": "Sea stars make regeneration look effortless, but the process is a disciplined biological reconstruction project. When an arm is damaged or lost, the animal first closes the wound and protects exposed tissue. Cells near the injury then change behavior: some divide, some migrate, and some help form new structures in the correct order. The arm is not just a simple limb. It contains nerves, muscles, digestive branches, skeletal plates, water-vascular canals, and tube feet, all of which must reconnect into a functional pattern. In many species, an arm can regrow from the central disc outward; in a smaller number, a detached arm can form a new animal if enough central tissue is attached. The feat depends on body plan, stored energy, species, injury location, and environmental conditions. Regeneration is therefore not magic or instant healing, but coordinated development reactivated after injury.",
+    "simpler": "Sea stars can regrow lost arms because their tissues can seal wounds, restart growth programs, and rebuild complex body parts in the right pattern.",
+    "keyTakeaway": "Sea star regeneration works because wound repair, cell growth, tissue patterning, and nervous-system rebuilding are coordinated well enough to restore a lost arm as a working part of the body.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Broken%20starfish.jpg",
+    "learnImageCredit": {
+      "creator": "384",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Broken_starfish.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Starfish%20Unidirectional%20Regen.png",
+    "thirdImageCredit": {
+      "creator": "HDRB",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Starfish_Unidirectional_Regen.png"
+    },
+    "deeperDive": "Regeneration in sea stars belongs to a broader echinoderm talent for rebuilding tissue after injury, but species differ greatly in how much they can replace. The first priority is survival: the wound must close, infection risk must fall, and the animal must keep feeding if possible. Later, a growth zone forms where new tissue is added and patterned. Researchers study sea stars because they are deuterostomes, meaning they sit on the same broad evolutionary branch as vertebrates. That makes their repair biology especially interesting for comparing how animals control body plans. Their regeneration also has limits. Rebuilding costs energy, and severe injury, poor nutrition, disease, or environmental stress can slow or prevent recovery. The most useful lesson is not that humans can copy sea stars directly, but that adult bodies can sometimes reopen developmental instructions that most animals keep tightly restricted.",
+    "funFact": "Some sea stars can regrow several arms at once, but the process is slow and energy-hungry.",
+    "references": [
+      "BMC Biology - sea star larval regeneration",
+      "PubMed - arm-tip regeneration in sea stars",
+      "Wikimedia Commons - sea star regeneration images"
+    ],
     "keyElements": {
       "people": [
-        "- Dr. Maria Rodriguez (marine biologist studying starfish regeneration)",
-        "- Dr. Tom Bradley (regenerative medicine expert exploring human applications)",
-        "- Dr. Emily Chan (cell biologist researching starfish stem cells)"
+        "Veronica Hinman - researcher studying sea star regeneration and development",
+        "Philip Mladenov - researcher associated with sea star arm regeneration studies",
+        "Marine biologists - scientists who study sea star injury and recovery",
+        "Regenerative biologists - researchers comparing repair across animal groups"
       ],
       "places": [
-        "- The Woods Hole Oceanographic Institution (studying marine regeneration in the wild)",
-        "- The University of California, San Diego (researching regenerative medicine using starfish models)",
-        "- The Monterey Bay Aquarium Research Institute (conducting field research on starfish populations)"
+        "Tide pools - habitats where sea stars often lose arms to predators or injury",
+        "Central disc - body region needed for many whole-animal regeneration events",
+        "Tube feet - hydraulic structures that must be rebuilt for movement",
+        "Marine laboratories - places where sea star regeneration is observed under controlled conditions"
       ],
       "years": [
-        "- 1985: First documented case of starfish regeneration",
-        "- 2000s: Emergence of research on starfish stem cells and growth factors",
-        "- 2018: Discovery of the \"Starbase\" protein with anti-inflammatory properties"
+        "1989 - research describes mechanisms of sea star arm-tip regeneration",
+        "2007 - widely used images document sea stars regrowing lost arms",
+        "2019 - modern work compares sea star regeneration with broader whole-body regeneration",
+        "Present day - regeneration research links marine biology with developmental genetics"
       ],
       "concepts": [
-        "- Tissue engineering: The process of creating new tissues or organs using living cells.",
-        "- Regenerative medicine: A field that aims to repair or replace damaged tissues in humans using various techniques.",
-        "- Stem cell biology: The study of cells with the ability to differentiate into different cell types.",
-        "- Cellular reorganization: The process by which starfish cells reorganize and regenerate lost tissue."
+        "Regeneration - rebuilding lost or damaged body parts",
+        "Wound closure - sealing injury before rebuilding begins",
+        "Patterning - organizing new tissue into the correct shape",
+        "Water vascular system - hydraulic system that powers tube feet",
+        "Deuterostome - evolutionary group that includes echinoderms and vertebrates"
       ]
     }
   }

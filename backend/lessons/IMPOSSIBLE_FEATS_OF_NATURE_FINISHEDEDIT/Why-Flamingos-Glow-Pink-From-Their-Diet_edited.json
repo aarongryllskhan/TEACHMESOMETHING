@@ -1,33 +1,67 @@
 {
-  "topic": "Why-Flamingos-Glow-Pink-From-Their-Diet",
-  "title": "Understanding the Science Behind Flamingos' Pink Coloration",
+  "topic": "Flamingo Coloration",
+  "title": "Why Flamingos Turn Pink From Their Diet",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%20at%20Lake%20Bogoria.jpg",
+  "imageCredit": {
+    "creator": "Miken0520",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Flamingos_at_Lake_Bogoria.jpg"
+  },
+  "summary": "Flamingos become pink because carotenoid pigments from algae and small aquatic animals are absorbed, chemically modified, and deposited into growing feathers and skin.",
   "lesson": {
-    "learn": "Flamingos' distinctive pink feathers have captivated humans for centuries. But how do these birds acquire this vibrant coloration? The key lies in their diet, which is rich in carotenoid pigments. Specifically, astaxanthin and canthaxanthin, responsible for the pink and reddish hues found in flamingos' feathers, are derived from aquatic plants, brine shrimp, and plankton. For instance, researchers have documented that flamingos that feed on algae rich in astaxanthin in Lake Natron, Tanzania, can accumulate the pigment in their liver and deposit it into their feathers within several months to a year.",
-    "simpler": "Just as beets contain betalains, which can stain hands reddish, carotenoid-rich foods like algae and small crustaceans can impart a similar red or pink hue to flamingos. This pigment deposition process is a natural adaptation that helps flamingos blend in with their aquatic environment.",
-    "keyTakeaway": "The pink coloration of flamingos is primarily dependent on their diet, which contains carotenoid pigments. In particular, the presence of astaxanthin and canthaxanthin in their diet facilitates the transfer of these pigments to their feathers, resulting in the distinctive pink coloration.",
-    "deeperDive": "Carotenoids are essential dietary components for many animals, including birds. Flamingos obtain their carotenoid-rich diet from various sources, including aquatic plants, brine shrimp, and plankton. Notably, researchers have identified the key role that carotenoids play in maintaining the coloration and health of these birds. For example, a study published in the Journal of Experimental Biology (2019) demonstrated that flamingos that were fed diets rich in carotenoids developed more intense pink coloration compared to those fed standard commercial diets.",
-    "funFact": "Interestingly, flamingos have a specialized gland above their beak, called the salt-excreting gland, which helps filter out excess salt from their diet. This unique adaptation is essential for their survival in salt-rich environments.",
+    "learn": "Flamingos are not born bright pink. Their color develops from food. Algae, cyanobacteria, brine shrimp, and small crustaceans contain carotenoid pigments, and flamingos filter these foods from shallow salty or alkaline water. After digestion, the pigments are absorbed, carried through the body, and deposited into feathers and skin, especially when new feathers grow during molt. A richer supply of carotenoids can produce deeper pink, orange, or reddish tones, while a poor pigment supply can make birds look pale. The color is therefore a visible record of diet, metabolism, habitat, and condition.",
+    "simpler": "Flamingos turn pink because they eat carotenoid-rich algae and tiny aquatic animals, then build those pigments into feathers and skin.",
+    "keyTakeaway": "Flamingo color is dietary chemistry made visible, as carotenoids from algae and small crustaceans are absorbed and deposited into new feathers and skin.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Greater%20Flamingo%20Feeding%20(19155314570).jpg",
+    "learnImageCredit": {
+      "creator": "Mike Prince from Bangalore, India",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Greater_Flamingo_Feeding_(19155314570).jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Lesser%20Flamingo%20Feeding.jpg",
+    "thirdImageCredit": {
+      "creator": "Savithri Singh",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Lesser_Flamingo_Feeding.jpg"
+    },
+    "deeperDive": "Carotenoids are made mostly by plants, algae, and microbes, so flamingos must obtain them from food rather than manufacture them from scratch. Their bills are specialized filters, with comb-like lamellae that strain tiny food from water and mud. Different flamingo species feed on somewhat different mixtures of algae and invertebrates, but the pigment pathway is similar. Captive flamingos can fade without enough carotenoids, which is why managed diets include pigment sources. In the wild, color can also act as a condition signal because a bird with vivid plumage has found and processed enough pigment-rich food. The pink is not decoration added after the fact; it is ecology written into tissue.",
+    "funFact": "A flamingo can fade toward pale pink or white if its diet lacks enough carotenoids.",
+    "references": [
+      "San Diego Zoo Wildlife Alliance - flamingo diet and color",
+      "Britannica - flamingo",
+      "Wikimedia Commons - flamingo feeding images"
+    ],
     "keyElements": {
       "people": [
-        "1. Dr. Thomas Scott, ornithologist who studied the unique feeding habits of flamingos",
-        "2. Dr. Lisa Taylor, marine biologist who researched carotenoid pigments in aquatic plants",
-        "3. David Attenborough, naturalist and broadcaster who showcased flamingos' pink coloration on camera"
+        "Ornithologists - scientists who study flamingo behavior and color",
+        "Animal nutritionists - specialists who design pigment-rich diets for captive flamingos",
+        "Field ecologists - researchers who study alkaline lakes and flamingo feeding",
+        "Conservation biologists - scientists who monitor flamingo habitats"
       ],
       "places": [
-        "1. Lake Natron, Tanzania - a shallow lake known for its high salt concentration and unique ecosystem",
-        "2. Everglades National Park, Florida - home to the largest population of wild flamingos in North America",
-        "3. Lake Bogoria, Kenya - a Rift Valley lake where flamingos have been observed feeding on algae"
+        "Lake Bogoria - East African lake famous for flamingo gatherings",
+        "Alkaline lakes - pigment-rich feeding habitats for many flamingos",
+        "Bill lamellae - filter structures used to strain food",
+        "Growing feathers - tissues where dietary pigment becomes visible"
       ],
       "years": [
-        "1. 1960s: The first studies on carotenoid pigments and their role in animal coloration began to emerge",
-        "2. 1980s: Flamingo populations started declining due to habitat loss and pollution, prompting conservation efforts",
-        "3. 2019: A breakthrough study revealed the specific mechanism by which flamingos obtain carotenoids from their diet"
+        "20th century - carotenoids become central to studies of bird coloration",
+        "1960s - pigment chemistry expands in avian nutrition research",
+        "2010s - flamingo color is widely studied as a condition signal",
+        "Present day - habitat conservation protects flamingo food webs"
       ],
       "concepts": [
-        "1. Carotenoid pigments - a group of yellow, orange, and red pigments found in plants and animals",
-        "2. Astaxanthin - a specific carotenoid pigment responsible for pink coloration in flamingos",
-        "3. Canthaxanthin - another carotenoid pigment found in algae and small crustaceans consumed by flamingos",
-        "4. Adaptation - the process by which an organism develops a trait to survive or thrive in its environment"
+        "Carotenoid - pigment obtained from food",
+        "Astaxanthin - red-orange carotenoid found in aquatic food webs",
+        "Filter feeding - straining food from water or mud",
+        "Molt - feather replacement period when color is deposited",
+        "Condition signal - visible trait linked to health or nutrition"
       ]
     }
   }

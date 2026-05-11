@@ -1,41 +1,66 @@
 {
-  "topic": "Why Diamonds Form Under Extreme Pressure",
-  "title": "Understanding the High-Pressure, High-Temperature Synthesis of Diamonds",
+  "topic": "Diamond Formation",
+  "title": "Why Diamonds Need Extreme Pressure to Form",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Carbon_basic_phase_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "User name at English Wikipedia",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Carbon_basic_phase_diagram.png"
+  },
   "lesson": {
-    "learn": "Diamonds are formed through a geological process that involves intense heat and pressure deep within the Earth's mantle. This process, known as high-pressure-high-temperature (HPHT) synthesis, transforms carbon-containing minerals into crystalline structures with exceptional hardness and brilliance. Specifically, diamonds are formed when carbon atoms are subjected to temperatures above 2000°F (1093°C) and pressures exceeding 45 kilobars (kbar). This unique combination of conditions creates a diamond crystal structure with a Mohs hardness of 10, making diamonds the hardest naturally occurring substance on Earth.",
-    "simpler": "Imagine taking a lump of carbon-containing minerals, such as graphite or hydrocarbons, and subjecting it to the extreme conditions found deep within the Earth's mantle. Here, temperatures can reach upwards of 2000°F (1093°C) and pressures can exceed 45 kilobars (kbar). Over millions of years, these conditions transform the carbon into a diamond crystal structure, a process that has been verified through numerous geological and laboratory studies.",
-    "keyTakeaway": "The unique combination of high pressure and high temperature required for diamond formation creates a crystalline structure with exceptional hardness and brilliance. This process, which occurs deep within the Earth's mantle, has been verified through geological and laboratory studies, and is responsible for the formation of diamonds throughout the Earth's history.",
-    "deeperDive": "Diamonds can also be formed through volcanic activity, where magma from deep within the Earth's mantle is brought to the surface, carrying diamond-forming minerals with it. For example, the Volcanic Pipe at Kimberley Mine in South Africa, discovered in 1886, produced some of the largest diamonds ever discovered. Researchers have also used advanced technologies like high-pressure presses and laser-induced breakdown spectroscopy (LIBS) to simulate diamond formation in laboratories, providing further insights into the conditions required for diamond formation.",
-    "funFact": "Diamonds are incredibly durable, with a Mohs hardness of 10, making them the hardest naturally occurring substance on Earth. This durability is due to the unique arrangement of carbon atoms in the diamond crystal structure, which is resistant to scratching and wear.",
+    "learn": "Diamonds are simply carbon arranged under the right combination of heat and pressure. Deep inside the Earth, carbon can be squeezed into a tightly bonded crystal structure that is much harder than graphite. When those diamonds are brought to the surface, they can survive because the crystal lattice is stable, even though the conditions that made them are extreme.\n\nThis is why diamonds are so fascinating. They are ordinary atoms arranged in an extraordinary structure, formed far below where most people ever look.",
+    "simpler": "Diamonds form when carbon is forced into a tight crystal structure under intense pressure deep underground.",
+    "keyTakeaway": "Diamond is a form of carbon that needs very special conditions to become stable.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/21/Diamond_Crystal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "User: Pieter Kuiper; USGS",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Diamond_Crystal.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Diamond_crystal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Nicholas Longo",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Diamond_crystal.png"
+    },
+    "deeperDive": "The key idea is that carbon has more than one crystal form. Graphite is stable at the surface, but diamond becomes stable at much higher pressures. That means depth matters. Most natural diamonds form deep in the mantle and are later transported upward by fast-moving volcanic rocks such as kimberlite.\n\nThe transition is a good example of how chemistry and geology meet. The same element can become a very different mineral when pressure changes, and the crystal structure is what gives diamond its famous hardness and brilliance.",
+    "funFact": "Diamond and graphite are both made of carbon.",
+    "references": [
+      "Britannica - diamond",
+      "USGS - carbon minerals",
+      "Geology.com - diamond formation"
+    ],
     "keyElements": {
       "people": [
-        "* James Watson (Geologist who discovered diamonds in South Africa)",
-        "* Robert Bunsen (Chemist who discovered the unique properties of diamonds)",
-        "* Harry Winston (Jeweler who discovered the famous 100-carat Cullinan Diamond)",
-        "* Arthur L. Robinson (Geologist who studied diamond formation through volcanic activity)",
-        "* Jeffrey Post (Curator at the Smithsonian National Museum of Natural History, expert on diamonds)"
+        "Mineralogists - scientists who study crystals",
+        "Geologists - people who study deep Earth conditions",
+        "Diamond miners - people who find diamond-bearing rock",
+        "Material scientists - researchers who study hardness"
       ],
       "places": [
-        "* Kimberley Mine in South Africa (largest diamond-producing mine in the world)",
-        "* Argyle Diamond Mine in Australia (produced 90% of the world's pink diamonds)",
-        "* De Beers Diamond Mines in South Africa (discovered many famous diamonds, including the Cullinan Diamond)",
-        "* University of California, Berkeley (research institution that has studied diamond formation through high-pressure presses)",
-        "* Smithsonian National Museum of Natural History (houses a vast collection of diamonds and other precious stones)"
+        "Earth's mantle - where diamonds form",
+        "Kimberlite pipes - fast pathways to the surface",
+        "Mining regions - where diamonds are recovered",
+        "Laboratories - where carbon phases are studied"
       ],
       "years": [
-        "* 1886: Diamonds were first discovered in South Africa by James Watson",
-        "* 1902: The discovery of the Cullinan Diamond sparked a global fascination with diamonds",
-        "* 1950s-60s: De Beers Company dominated the diamond market, controlling supply and prices",
-        "* 1990s: The Argyle Diamond Mine was discovered in Australia, producing some of the world's rarest diamonds",
-        "* 2008: A new type of diamond, called a \"nanodiamond,\" was discovered in space rocks"
+        "1800s - diamond origins become more scientific",
+        "1900s - pressure experiments explain phase changes",
+        "2000s - deep Earth models improve",
+        "Present day - diamond formation is understood through phase diagrams"
       ],
       "concepts": [
-        "* High-pressure-high-temperature (HPHT) synthesis: the process by which diamonds are formed deep within the Earth's mantle",
-        "* Diamond faceting: the art of cutting and polishing diamonds to reveal their brilliance and fire",
-        "* Carbon isotope analysis: a technique used to study the origin and formation of diamonds",
-        "* Hydrothermal activity: the interaction between magma and water that can lead to diamond formation",
-        "* Diamond inclusions: tiny imperfections within diamonds that provide clues about their history and formation",
-        "* Kimberlite pipes: volcanic formations that bring diamond-bearing rocks to the surface"
+        "Carbon - the element diamonds are made of",
+        "Crystal structure - the arrangement of atoms",
+        "Pressure - the force that changes carbon form",
+        "Graphite - the softer carbon form at the surface",
+        "Kimberlite - a rock that carries diamonds upward"
       ]
     }
   }

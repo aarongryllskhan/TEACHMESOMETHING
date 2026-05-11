@@ -1,34 +1,79 @@
 {
-  "topic": "Why-Orwells-Predictions-Are-Accurately-Alarming",
-  "title": "Understanding the Timeless Relevance of 1984",
+  "topic": "Orwell and Political Language",
+  "title": "Why Orwell's Predictions Are Scarily Accurate",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1984%20first%20edition%20cover.jpg",
+  "imageCredit": {
+    "creator": "Secker & Warburg jacket design; scan via Wikimedia Commons",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:1984_first_edition_cover.jpg"
+  },
+  "summary": "Orwell's warnings remain potent because he understood how surveillance, propaganda, fear, and distorted language can make domination feel normal.",
   "lesson": {
-    "learn": "George Orwell's 1949 novel, 1984, is a thought-provoking analysis of totalitarianism, examining how governments exercise control over their citizens through censorship, surveillance, and propaganda. Orwell's depiction of a dystopian future Britain, where the government monitors citizens' every move, has become increasingly familiar. This is exemplified by the use of algorithms to filter information, creating \"echo chambers\" where people are only exposed to information that confirms their existing views.",
-    "simpler": "Orwell predicted that people would become so engrossed in their technology that they would give up their freedom without realizing it. He wrote about a world where the government monitors citizens' every move, punishing those who speak out against them. This is eerily similar to our current digital landscape, where social media platforms and data collection companies can track our online activities.",
-    "keyTakeaway": "Orwell's predictions in 1984 serve as a warning about the dangers of totalitarianism, surveillance, and manipulation of information. His work highlights the importance of protecting individual freedoms and critical thinking in our modern world.",
-    "deeperDive": "One of the most striking aspects of Orwell's novel is his concept of \"Newspeak,\" where language is deliberately distorted to restrict thought and expression. This is reflected in the way social media algorithms are designed to prioritize sensational content over nuanced discussions. Additionally, the novel explores the role of propaganda in shaping public perception, which has become increasingly prevalent through social media manipulation. Orwell's depiction of a future where people are encouraged to report on their neighbors' transgressions, rather than standing up for what's right, highlights the dangers of societal normalization of oppression. The novel has been used as a teaching tool in schools to educate students about the importance of critical thinking and media literacy. Interestingly, many politicians have cited 1984 as an inspiration for their own policies, including Margaret Thatcher, who famously said that \"some animals are more equal than others\" â€“ a phrase directly from the book. Orwell's prediction that totalitarian regimes would use surveillance and propaganda to control citizens has been supported by the Snowden revelations, which exposed the extent of government surveillance programs.",
-    "funFact": "Orwell's inspiration for writing 1984 came after witnessing the Nazi regime's use of propaganda and censorship during World War II. He also drew parallels with Stalin's Soviet Union, where he saw similar patterns of government control and manipulation.",
+    "learn": "Orwell's predictions feel accurate because Nineteen Eighty-Four was not merely a guess about gadgets; it was an analysis of political control. The novel shows how a regime can narrow reality by controlling records, language, public emotion, and private fear. Telescreens are memorable, but Newspeak and doublethink are just as important: they show that domination works best when people lose the words and habits needed to think against it. Modern surveillance systems, algorithmic feeds, disinformation campaigns, and data profiling are not identical to Orwell's fictional state, yet they make his central warning newly legible: power becomes more dangerous when information systems shape what people can know, say, and imagine.",
+    "simpler": "Orwell still feels relevant because he showed that control depends on surveillance, propaganda, fear, and the corruption of language.",
+    "keyTakeaway": "The novel's real accuracy lies in its understanding that political freedom depends not only on privacy, but on truthful records, usable language, and the ability to doubt official narratives.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/George%20Orwell%20press%20photo.jpg",
+    "learnImageCredit": {
+      "creator": "Branch of the National Union of Journalists (BNUJ)",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:George_Orwell_press_photo.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Bigbrother.jpg",
+    "thirdImageCredit": {
+      "creator": "Wikimedia Commons contributor",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bigbrother.jpg"
+    },
+    "deeperDive": "The book grew from Orwell's experience of fascism, Stalinism, wartime propaganda, censorship, and ideological betrayal during the Spanish Civil War. Its details should not be flattened into a claim that every modern technology equals Big Brother. Orwell's deeper point is institutional: when authority controls evidence, rewards conformity, punishes dissent, and makes contradiction emotionally exhausting, citizens can be trained to participate in their own disorientation. That is why the novel is invoked across the political spectrum, sometimes carelessly, but remains valuable when read as a study of power over truth.",
+    "funFact": "The phrase 'Big Brother' became a shorthand for intrusive surveillance.",
+    "references": [
+      {
+        "title": "Orwell Foundation: Nineteen Eighty-Four",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/nineteen-eighty-four/"
+      },
+      {
+        "title": "Encyclopaedia Britannica: George Orwell",
+        "url": "https://www.britannica.com/biography/George-Orwell"
+      },
+      {
+        "title": "Project Gutenberg Australia: Nineteen Eighty-Four",
+        "url": "https://gutenberg.net.au/ebooks01/0100021.txt"
+      }
+    ],
     "keyElements": {
       "people": [
         "George Orwell",
-        "Margaret Thatcher",
-        "Winston Smith"
+        "Winston Smith",
+        "Julia",
+        "O'Brien",
+        "Joseph Stalin"
       ],
       "places": [
-        "Britain",
         "London",
-        "Airstrip One"
+        "Airstrip One",
+        "Oceania",
+        "Spain",
+        "the Ministry of Truth"
       ],
       "years": [
+        "1936",
+        "1945",
+        "1948",
         "1949",
-        "1956"
+        "1984"
       ],
       "concepts": [
-        "totalitarianism",
-        "censorship",
         "Newspeak",
+        "doublethink",
         "surveillance",
         "propaganda",
-        "echo chambers"
+        "historical revisionism"
       ]
     }
   }

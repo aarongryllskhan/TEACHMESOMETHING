@@ -1,37 +1,79 @@
 {
-  "topic": "The Enduring Insights of Jane Austen",
-  "title": "How Jane Austen Observed and Analyzed Social Dynamics",
+  "topic": "Jane Austen and Social Intelligence",
+  "title": "How Jane Austen Predicted Modern Social Dynamics",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jane%20Austen.jpg",
+  "imageCredit": {
+    "creator": "Based on a drawing by Cassandra Austen",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Jane_Austen.jpg"
+  },
+  "summary": "Austen's novels remain modern because they analyze how status, money, gender expectations, conversation, and reputation shape private choices.",
   "lesson": {
-    "learn": "Jane Austen, an astute observer of human behavior, wrote novels that offer profound insights into modern social dynamics. Published between 1796 and 1817, her works provide a unique perspective on class, relationships, and individuality. Through her fictional portrayals of society, Austen revealed a deep understanding of the complex social hierarchies that existed in late 18th-century England, where people were sorted into distinct classes based on their wealth, education, and occupation.",
-    "simpler": "Imagine analyzing human behavior through the lens of sociology. Jane Austen, a 19th-century English author, used her writing to study and explain the social dynamics of her time. By examining the relationships, behaviors, and choices of her fictional characters, Austen developed a nuanced understanding of the social conventions that governed her society.",
-    "keyTakeaway": "Jane Austen's novels provide a unique perspective on social dynamics, highlighting the complexities of relationships, class structures, and women's roles in society. Her works remain relevant today due to their timeless exploration of human behavior and emotions.",
-    "deeperDive": "Austen's works are notable for their keen observations on the social conventions of her time. Her novels, such as \"Pride and Prejudice\" and \"Sense and Sensibility,\" critique societal norms through fictional characters who embody the contradictions of class and individuality. The concept of the \"Estate,\" a grand property that symbolized social status, reflects Austen's commentary on the class system. Furthermore, her portrayal of strong female characters, such as Elizabeth Bennet and Elinor Dashwood, underscores the changing roles of women in society during this period. Additionally, Austen's exploration of love and relationships anticipates modern debates around romance, intimacy, and personal agency. Her nuanced depiction of social dynamics also reveals a keen understanding of human psychology, making her works both entertaining and thought-provoking.",
-    "funFact": "Jane Austen predicted the rise of the \"singleton,\" a single woman living independently, a concept that would become more common in modern society. She also accurately depicted the complexities of online dating through the fictional character of Lady Russell in \"Persuasion,\" who struggled with the notion of selecting a suitable partner based on appearance and social status.",
+    "learn": "Jane Austen seems modern because she understood social life as a system of incentives, performances, and constrained choices. Her characters do not simply fall in love; they read rooms, weigh reputations, manage family pressure, interpret ambiguous signals, and calculate the risks of dependence. In a society where women's legal and economic options were limited, marriage was both emotional and structural. Austen's irony exposes how politeness can hide aggression, how charm can disguise selfishness, and how class confidence can distort moral judgment. That is why her novels still feel recognizable in workplaces, dating cultures, family networks, and status-conscious communities.",
+    "simpler": "Austen saw that relationships are shaped by money, status, reputation, gender rules, and the small social signals people constantly interpret.",
+    "keyTakeaway": "Her modernity comes from revealing that private feelings are never purely private; they are negotiated inside social systems that reward perception, performance, and strategic restraint.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Pride%20and%20Prejudice%20first%20edition%20title%20page.jpg",
+    "learnImageCredit": {
+      "creator": "T. Egerton, Whitehall; scan via Wikimedia Commons",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Pride_and_Prejudice_first_edition_title_page.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Chatsworth%20House%202013.jpg",
+    "thirdImageCredit": {
+      "creator": "Rob Bendall",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Chatsworth_House_2013.jpg"
+    },
+    "deeperDive": "Austen did not predict online dating or modern sociology in a literal sense; her accuracy comes from observing recurring human patterns. Pride and Prejudice turns first impressions into a study of bias and self-correction. Emma examines matchmaking, gossip, and the misuse of social power. Persuasion explores regret, timing, and the pressure of advice from one's social circle. Across the novels, conversation is data: who speaks, who listens, who interrupts, who flatters, and who can afford honesty all reveal the hidden structure of the room.",
+    "funFact": "Austen published her major novels anonymously as 'By a Lady.'",
+    "references": [
+      {
+        "title": "Jane Austen's House: Jane Austen biography",
+        "url": "https://janeaustens.house/jane-austen/jane-austens-life/"
+      },
+      {
+        "title": "Project Gutenberg: Pride and Prejudice",
+        "url": "https://www.gutenberg.org/ebooks/1342"
+      },
+      {
+        "title": "British Library: Jane Austen",
+        "url": "https://www.bl.uk/people/jane-austen"
+      }
+    ],
     "keyElements": {
       "people": [
-        "Jane Austen (author)",
-        "Elizabeth Bennet (fictional protagonist, Pride and Prejudice)",
-        "George Austen (Jane Austen's father)",
-        "Cassandra Austen (Jane Austen's sister)"
+        "Jane Austen",
+        "Elizabeth Bennet",
+        "Mr. Darcy",
+        "Emma Woodhouse",
+        "Anne Elliot"
       ],
       "places": [
-        "England (Austen's homeland and setting for many novels)",
-        "Chatsworth House (inspiration for Pemberley in Pride and Prejudice)",
-        "Longbourn (fictional estate in Pride and Prejudice)",
-        "Hunsford (fictional location in Pride and Prejudice)"
+        "Hampshire",
+        "Bath",
+        "London",
+        "Longbourn",
+        "Pemberley"
       ],
       "years": [
-        "1775: Publication of Elinor and Marianne, one of Austen's earliest works",
-        "1796: Publication of Sense and Sensibility",
-        "1813: Release of Pride and Prejudice, one of Austen's most celebrated novels",
-        "1817: Publication of Northanger Abbey"
+        "1775",
+        "1811",
+        "1813",
+        "1815",
+        "1817"
       ],
       "concepts": [
-        "Social Hierarchy",
-        "Class Structure",
-        "Women's Roles in Society",
-        "Romance and Relationships",
-        "Personal Agency"
+        "status signaling",
+        "marriage market",
+        "reputation",
+        "irony",
+        "social perception"
       ]
     }
   }

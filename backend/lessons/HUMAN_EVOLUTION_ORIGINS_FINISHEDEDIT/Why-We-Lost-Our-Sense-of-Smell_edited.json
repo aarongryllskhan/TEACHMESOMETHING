@@ -1,41 +1,67 @@
 {
-  "topic": "Why We Lost Our Sense of Smell",
-  "title": "The Evolution of Smell: Understanding the Causes of Anosmia",
+  "topic": "Human Smell",
+  "title": "Why Human Smell Became Less Powerful Over Time",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Olfactory_System_Large_Unlabeled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Andrewmeyerson",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Olfactory_System_Large_Unlabeled.jpg"
+  },
+  "summary": "Human smell became less dominant as primates relied more on vision, social learning, and language, but olfaction still shapes food choice, danger detection, emotion, and memory.",
   "lesson": {
-    "learn": "Studies suggest that up to 70% of the human population may be living with anosmia, a condition characterized by the impaired or absent sense of smell. This phenomenon has puzzled scientists and historians for centuries, but research has shed light on the complex factors contributing to this decline. According to a 2018 study, published in the journal Nature Communications, the loss of smell in humans can be linked to changes in lifestyle, environment, and genetics over thousands of years.",
-    "simpler": "In the past, our sense of smell played a crucial role in survival. Imagine being a hunter-gatherer, where the ability to detect the scent of game or danger was essential for survival. In contrast, today we may rely more on visual cues, like food packaging or GPS coordinates, to navigate our environment. This shift in reliance on our senses has been influenced by changes in diet, lifestyle, and cultural practices.",
-    "keyTakeaway": "The loss of our sense of smell is a gradual process influenced by a combination of factors, including changes in diet, lifestyle, and environment. This decline is not a sudden event, but rather a gradual adaptation to new circumstances over thousands of years.",
-    "deeperDive": "Research has shown that the loss of smell in humans may be linked to changes in the shape and size of the olfactory bulb, which is responsible for processing smells. Studies have also identified genetic mutations that can affect our ability to detect odors. Furthermore, the development of agriculture and the rise of urbanization have contributed to the decline of our sense of smell as we relied less on it for survival. For instance, a study published in the journal PLOS ONE in 2019 found that individuals who consumed a diet rich in fruits and vegetables had a higher density of olfactory receptors, suggesting that a diet high in fiber and nutrients may support olfactory function.",
-    "funFact": "Some individuals are born with hyperosmia, an unusually keen sense of smell. According to a 2015 study published in the journal Chemical Senses, one person was able to detect odor molecules at concentrations 100 times weaker than those detected by the average person.",
+    "learn": "Humans did not lose the sense of smell; we lost its dominance. Many mammals build their world primarily through odor, using scent to track prey, mark territory, recognize mates, and follow trails. Primates moved in a different direction. As forward-facing eyes, color vision, facial recognition, manual exploration, and social intelligence became more important, smell carried less of the survival burden. The human genome reflects that shift: many olfactory receptor genes are inactive pseudogenes, meaning they look like old sensory equipment partly retired by evolution. Yet smell remains powerful in quieter ways. It helps identify spoiled food, smoke, disease cues, kinship, body chemistry, and environmental danger. Odor pathways also connect closely with the limbic system, which is why a scent can trigger a vivid emotional memory before we can name it. The real story is not disappearance, but rebalancing: humans became more visual and linguistic while smell stayed woven into appetite, warning, intimacy, and memory.",
+    "simpler": "Humans rely less on smell than many mammals because vision and social communication became more important, but smell still affects food, danger, memory, and emotion.",
+    "keyTakeaway": "Human smell became less central as vision and social cognition expanded, but it remains a biologically important sense tied to safety, appetite, emotion, and memory.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/20/Olfactory_system.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Chabacano",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.5 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Olfactory_system.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Olfactory_bulb_2_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Servier Medical Art by Servier",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Olfactory_bulb_2_diagram.png"
+    },
+    "deeperDive": "Olfaction begins when airborne molecules bind to receptors in the nasal cavity. Those receptors send signals to the olfactory bulb, which communicates with brain regions involved in emotion, memory, and decision-making. Compared with many mammals, humans have a reduced olfactory apparatus and a high proportion of inactive odor receptor genes, but the idea that our smell is useless is outdated. People can detect many odors at extremely low concentrations, learn odor categories, and use scent in social judgments more than they realize. The evolutionary reduction likely unfolded as primates invested more heavily in daylight vision, color discrimination, and complex social signals. When faces, gestures, tools, language, and shared attention became central, smell no longer needed to dominate navigation and communication. There may also have been tradeoffs in skull and brain organization: as the visual system expanded, olfactory structures became relatively smaller. Still, smell kept its direct route into emotional memory. This is why odor can feel older and more immediate than words. It is a reduced sense in comparative terms, not a broken one.",
+    "funFact": "A smell can trigger memory quickly because odor pathways connect closely to emotion centers.",
+    "references": [
+      "Britannica - olfaction",
+      "Nature Reviews Neuroscience - human olfaction",
+      "Smithsonian Human Origins - primate senses"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "*   Dr. Leslie Vosshall, a neuroscientist who studies the biology of smell",
-        "*   Dr. Noam Sobel, an expert on the genetics of olfaction",
-        "*   Paul Ennis, a neuroanatomist who has studied the development of the olfactory bulb",
-        "**"
+        "Linda Buck - Nobel Prize-winning researcher of odor receptors and olfactory biology",
+        "Richard Axel - Nobel Prize-winning researcher who helped explain odor receptor coding",
+        "Neuroscientists - scientists who study smell pathways and sensory processing",
+        "Geneticists - researchers who compare active and inactive olfactory receptor genes"
       ],
       "places": [
-        "**",
-        "*   The University of California, San Francisco (UCSF), where researchers have made significant breakthroughs in understanding anosmia",
-        "*   The Max Planck Institute for Brain Research, which is dedicated to studying the neural basis of behavior and perception",
-        "*   The ancient city of Pompeii, where archaeologists have discovered well-preserved food and household artifacts that demonstrate the importance of smell in ancient cultures",
-        "**"
+        "Olfactory epithelium - nasal tissue where odor molecules are detected",
+        "Olfactory bulb - brain structure that first processes smell information",
+        "Limbic system - brain network linking smell with emotion and memory",
+        "Primate habitats - environments where vision and smell carried different survival roles"
       ],
       "years": [
-        "**",
-        "*   10,000 BCE: Early humans begin to domesticate plants and animals, leading to changes in their diet and lifestyle.",
-        "*   5,000 BCE: Agriculture becomes a dominant source of food for human societies.",
-        "*   1,500 CE: The rise of urbanization begins, with more people living in cities and relying on indoor environments.",
-        "**"
+        "Millions of years ago - primate sensory systems shift toward vision-heavy perception",
+        "1991 - Buck and Axel publish landmark research on odor receptor genes",
+        "2004 - Nobel Prize recognizes discoveries about the olfactory system",
+        "Present day - human smell is studied through genetics, neuroscience, and behavior"
       ],
       "concepts": [
-        "**",
-        "*   Anosmia: the loss or impairment of the sense of smell",
-        "*   Olfactory receptors: specialized cells that detect odor molecules",
-        "*   Olfactory bulb: a structure in the brain responsible for processing smells",
-        "*   Hyperosmia: an extremely keen sense of smell",
-        "*   Axons: long, thin extensions of neurons that transmit signals to other parts of the body."
+        "Olfaction - the biological sense of smell",
+        "Olfactory receptor - protein that detects odor molecules",
+        "Pseudogene - inactive gene that preserves traces of evolutionary history",
+        "Sensory tradeoff - evolutionary shift in emphasis among senses",
+        "Odor memory - strong association between scent, emotion, and recollection"
       ]
     }
   }

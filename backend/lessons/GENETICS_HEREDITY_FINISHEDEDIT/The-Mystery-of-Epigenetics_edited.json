@@ -1,47 +1,66 @@
 {
-  "topic": "The-Methods-Behind-Epigenetics",
-  "title": "How Environmental Factors Shape Gene Expression",
+  "topic": "Epigenetics",
+  "title": "The Mystery of Epigenetics and Gene Control",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Epigenetic_mechanisms.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "National Institutes of Health",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Epigenetic_mechanisms.png"
+  },
   "lesson": {
-    "learn": "Epigenetics is a rapidly advancing field of study that investigates how environmental factors such as diet, stress, and toxin exposure influence gene expression, without altering the underlying DNA sequence. By understanding the intricate mechanisms of epigenetics, researchers have made significant breakthroughs in uncovering the causes of developmental disorders, cancer, and neurodegenerative diseases. For instance, epigenetic changes have been linked to the increased risk of breast cancer in women subjected to a diet high in processed meat. Similarly, epigenetic modifications have been found to play a crucial role in the development of neurodegenerative diseases such as Alzheimer's.",
-    "simpler": "Consider a building project where the blueprints remain unchanged, but the construction process is influenced by environmental factors. Analogously, epigenetics is like adding environmental notes to the genetic blueprint that dictate how genes are expressed, without altering the blueprint itself. This concept is exemplified by the study of histone acetylation, a type of epigenetic modification that can either activate or repress gene expression.",
-    "keyTakeaway": "Epigenetics reveals the intricate interplay between environmental factors and gene expression, highlighting the dynamic nature of genetic regulation. Furthermore, the study of epigenetics has led to the development of innovative therapeutic approaches to address complex diseases.",
-    "deeperDive": "Recent studies have elucidated the crucial role of histone modifications, DNA methylation patterns, and non-coding RNA mechanisms in regulating gene expression. For instance, methylation of the DNA sequence has been shown to silence gene expression, whereas histone acetylation can enhance gene expression. Additionally, the Human Genome Project has significantly contributed to the understanding of epigenetics, providing a comprehensive map of the human genome and its regulatory elements. Emerging technologies such as CRISPR-Cas9 have enabled precise editing of epigenetic marks, offering new avenues for treating genetic diseases.",
-    "funFact": "Research has shown that exposure to grandparental diet during fetal development can have a lasting impact on the epigenetic landscape of the subsequent generations. This phenomenon has been observed in both human and animal studies.",
+    "learn": "Epigenetics is the study of how cells turn genes on or off without changing the DNA sequence itself. Chemical tags, packaging proteins, and cellular context can all influence which genes are active. That means two cells with the same DNA can behave very differently because they are reading the same code in different ways.\n\nThis is why epigenetics matters so much in development, disease, and inheritance. Biology is not only about what the genome says. It is about how the genome is interpreted.",
+    "simpler": "Epigenetics changes how genes work without changing the DNA code itself.",
+    "keyTakeaway": "Gene activity depends on chemical tags and cellular context, not just sequence.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/2b/DNA_Methylation_%2827715615182%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "National Human Genome Research Institute (NHGRI) from Bethesda, MD, USA",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DNA_Methylation_(27715615182).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Spatial_dna_methylation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Am245871",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Spatial_dna_methylation.png"
+    },
+    "deeperDive": "DNA methylation and histone modification are two of the best-known epigenetic mechanisms. They can help cells specialize, respond to the environment, or silence genes that should not be active. In some cases these marks are stable through cell division; in others they are reset. That flexibility is what makes epigenetics so powerful and so complicated.\n\nScientists study epigenetics because it helps explain why identical DNA does not always produce identical outcomes. It also offers clues about cancer, aging, development, and the way environment can leave a molecular imprint on biology.",
+    "funFact": "Your cells can read the same DNA in very different ways.",
+    "references": [
+      "Britannica - epigenetics",
+      "NHGRI - epigenetic mechanisms",
+      "MedlinePlus Genetics - gene regulation"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "* Barbara McClintock, Nobel laureate for her pioneering work on epigenetic regulation",
-        "* James Watson, discoverer of DNA structure and contributor to epigenetics research",
-        "* Eric Lander, geneticist and leader in the Human Genome Project",
-        "* Carol Greider, molecular biologist and researcher on telomere shortening and aging",
-        "* David Sinclair, geneticist and advocate for senolytic therapy",
-        "**"
+        "Epigenetic researchers - scientists studying gene regulation",
+        "Developmental biologists - experts in cell specialization",
+        "Medical researchers - people linking epigenetics to disease",
+        "Students - learners seeing genetics beyond sequence"
       ],
       "places": [
-        "**",
-        "* Cold Spring Harbor Laboratory (CSHL), site of major epigenetic discoveries",
-        "* Wellcome Trust Sanger Institute, pioneering genome sequencing and epigenomics research",
-        "* University of California, San Francisco (UCSF), hub for cancer epigenetics research",
-        "* The Francis Crick Institute, a leading center for genomic and epigenomic studies",
-        "* Harvard Medical School, where groundbreaking work on epigenetic therapy has been conducted",
-        "**"
+        "Cell nuclei - where gene regulation happens",
+        "Developing tissues - where epigenetic marks matter",
+        "Laboratories - where methylation is mapped",
+        "Chromatin - the packaged DNA environment"
       ],
       "years": [
-        "**",
-        "* 1941: Barbara McClintock's discovery of transposons and gene regulation begins the field of epigenetics",
-        "* 1953: James Watson and Francis Crick describe DNA structure, laying groundwork for epigenetics research",
-        "* 1988: The first genome sequence is published, marking the beginning of large-scale genomics projects",
-        "* 2012: The Nobel Prize in Physiology or Medicine is awarded to Robert Shatzman et al. for their discoveries on histone modification and chromatin regulation",
-        "* 2020: CRISPR-Cas9 gene editing technology is used to correct epigenetic marks in human cells",
-        "**"
+        "1990s - epigenetics gains wide attention",
+        "2000s - methylation mapping expands",
+        "2010s - spatial and developmental studies grow",
+        "Present day - epigenetics is a major field"
       ],
       "concepts": [
-        "**",
-        "* Epigenetic inheritance: passing environmental influences through generations",
-        "* Gene expression: the process of converting DNA into protein",
-        "* Histone modifications: chemical changes affecting chromatin structure and function",
-        "* DNA methylation: addition of methyl groups, influencing gene regulation",
-        "* Non-coding RNA: regulatory molecules controlling gene expression without coding for proteins"
+        "Epigenetics - regulation without sequence change",
+        "Methylation - a chemical tag on DNA",
+        "Histone modification - changing DNA packaging",
+        "Gene expression - how genes are used",
+        "Cell differentiation - cells becoming specialized"
       ]
     }
   }

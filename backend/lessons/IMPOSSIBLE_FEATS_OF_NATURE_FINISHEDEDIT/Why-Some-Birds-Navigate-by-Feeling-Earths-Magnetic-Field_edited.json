@@ -1,32 +1,67 @@
 {
-  "topic": "Why Some Birds Navigate by Feeling the Earth's Magnetic Field",
-  "title": "Understanding Avian Magnetoreception: The Methods Behind Bird Navigation",
+  "topic": "Avian Magnetoreception",
+  "title": "Why Some Birds Navigate by Feeling Earth's Magnetic Field",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Robin%20-%20Erithacus%20rubecula.jpg",
+  "imageCredit": {
+    "creator": "Vanja Kovac",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:European_Robin_-_Erithacus_rubecula.jpg"
+  },
+  "summary": "Migratory birds use magnetic information alongside the sun, stars, smell, landmarks, and memory, with evidence pointing to light-sensitive cryptochrome proteins in the eye.",
   "lesson": {
-    "learn": "Avian navigation is a highly complex process that relies on the integration of multiple sensory systems, including visual, auditory, and magnetic field detection. Notably, research has demonstrated that approximately 20 bird species, including the European robin and the Arctic tern, possess a remarkable ability to detect the Earth's magnetic field and utilize it to guide their long-distance migrations. In fact, studies have shown that these birds are capable of traversing thousands of miles each year with remarkable accuracy, often returning to their migratory destinations within a narrow window of time. By examining the mechanisms underlying avian magnetoreception, scientists can gain novel insights into the evolution of avian behavior and the cognitive processes that govern bird migration patterns.",
-    "simpler": "Migratory birds such as the European robin and the Arctic tern have been observed to harness the Earth's magnetic field as a guidance system during their long-distance journeys. This phenomenon has been extensively documented using radiotelemetry and geolocation tracking, which has revealed that these birds can detect and respond to the magnetic field lines in their environment. Interestingly, the process of magnetoreception is thought to be mediated by specialized cells located in the birds' beaks, which are capable of detecting the subtle variations in the Earth's magnetic field.",
-    "keyTakeaway": "The critical insight to remember is that avian magnetoreception is a multi-faceted phenomenon that involves the integration of magnetic field detection, visual cues, and cognitive processing. This complex process enables migratory birds to navigate efficiently and accurately over long distances, often relying on subtle changes in the Earth's magnetic field to guide their migratory routes.",
-    "deeperDive": "Studies have shown that migratory birds exhibit a circadian rhythm, which enables them to synchronize their migratory behavior with the changing seasons. For example, research conducted by Dr. Henrik Mouritsen and his team has demonstrated that European robins are capable of detecting the magnetic field lines and utilizing them to guide their migration routes. Furthermore, scientists have identified specialized magnetoreceptors in the beaks of several bird species, which are thought to be responsible for detecting the Earth's magnetic field. Notably, some bird species have been found to have an innate ability to detect the magnetic field even in areas with strong artificial magnetic interference, such as near power lines or high-rise buildings.",
-    "funFact": "Research has revealed that some bird species, including the Arctic tern, can detect the Earth's magnetic field even at very high latitudes, where the magnetic field lines are most pronounced. This remarkable ability has been documented using advanced tracking technologies, which have enabled scientists to visualize the migratory routes of these birds in unprecedented detail.",
+    "learn": "Some birds travel across continents and oceans with no road map, and Earth’s magnetic field appears to be one part of their navigation system. The field can provide directional and positional information, especially when landmarks are absent. Birds do not rely on magnetism alone; they combine the sun, stars, polarized light, smell, wind, geography, inherited programs, and learned experience. A leading mechanism involves cryptochrome proteins in the retina, whose light-driven chemistry may be subtly affected by Earth’s weak magnetic field. The result is not a mystical sense, but a biological compass woven into a larger navigation toolkit.",
+    "simpler": "Migrating birds use Earth’s magnetic field as one cue, combining it with light, stars, landmarks, smell, and memory.",
+    "keyTakeaway": "Bird magnetoreception is best understood as one input in a multi-sensory navigation system, with retinal cryptochrome proteins offering a plausible way to detect Earth’s weak magnetic field.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Earth's%20Magnetic%20Field.svg",
+    "learnImageCredit": {
+      "creator": "Carie Frantz (Carie027)",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Earth's_Magnetic_Field.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Arctic%20Tern%20(30063826108).jpg",
+    "thirdImageCredit": {
+      "creator": "Shiloh Schulte / U.S. Fish and Wildlife Service",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Arctic_Tern_(30063826108).jpg"
+    },
+    "deeperDive": "European robins have been especially important because they can be tested in orientation experiments. Work on cryptochrome 4 suggests that this light-sensitive protein has properties consistent with magnetic sensitivity, though connecting molecule-level chemistry to perception remains difficult. The radical-pair model is fascinating because it links quantum-scale spin chemistry to whole-animal navigation. Still, navigation is redundant. Young birds may begin with inherited direction, while experienced adults refine routes with winds, landmarks, and memory. The marvel is integration, not a single compass needle in the head.",
+    "funFact": "Earth’s magnetic field is weak, but some migrating birds can still use it as a compass cue.",
+    "references": [
+      "Nature - avian cryptochrome and magnetoreception",
+      "Annual Review of Biophysics - animal magnetoreception",
+      "Wikimedia Commons - European robin and magnetic field images"
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Elizabeth Adkins-Regan, a leading expert on bird navigation and magnetoreception",
-        "* Dr. Henrik Mouritsen, a Danish biologist who has conducted extensive research on migratory birds",
-        "* Dr. Chris Wylie, a British ornithologist who has studied the use of magnetic fields in bird navigation"
+        "Henrik Mouritsen - biologist known for bird navigation research",
+        "Klaus Schulten - scientist who proposed radical-pair magnetoreception mechanisms",
+        "Peter Hore - biophysicist studying cryptochrome-based magnetic sensing",
+        "Ornithologists - scientists who study migration routes and navigation behavior"
       ],
       "places": [
-        "* The Arctic tundra, where many migratory birds stop to rest and refuel during their journeys",
-        "* The Amazon rainforest, which provides crucial habitat for many bird species that rely on magnetic field detection",
-        "* The research laboratory at the University of Lund, Sweden, where scientists have made significant breakthroughs in understanding magnetoreception"
+        "Retina - proposed site of light-dependent magnetic sensing",
+        "Migratory flyways - routes followed by birds across continents",
+        "Arctic breeding grounds - starting points for long-distance migrants",
+        "Earth magnetic field - global cue used by many migrating animals"
       ],
       "years": [
-        "* 1970: The first studies were conducted on the use of magnetic fields by migratory birds",
-        "* 1990s: Scientists began to identify specific receptors and mechanisms involved in magnetoreception",
-        "* 2015: A team of researchers published a study demonstrating that some bird species can detect the Earth's magnetic field even at very high latitudes"
+        "1970s - magnetic compass experiments in birds expand",
+        "1978 - radical-pair idea is proposed for magnetic sensing",
+        "2021 - Nature work strengthens evidence for robin cryptochrome 4 sensitivity",
+        "Present day - tracking and molecular biology refine migration research"
       ],
       "concepts": [
-        "* Magnetoreception: the ability to detect and respond to the Earth's magnetic field",
-        "* Avian navigation: the process by which birds determine their location, distance, and direction during migration",
-        "* Circadian rhythm: an internal biological clock that regulates daily activities and migratory patterns in birds"
+        "Magnetoreception - biological detection of magnetic fields",
+        "Cryptochrome - light-sensitive protein linked to magnetic sensing",
+        "Radical pair - paired molecules whose spin chemistry can be field-sensitive",
+        "Sun compass - navigation using the sun position",
+        "Flyway - broad migration route used by birds"
       ]
     }
   }

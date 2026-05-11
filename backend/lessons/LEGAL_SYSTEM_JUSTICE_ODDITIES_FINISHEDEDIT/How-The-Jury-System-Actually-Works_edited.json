@@ -1,30 +1,61 @@
 {
-  "topic": "Understanding the Jury System",
-  "title": "A Deliberative Process: Exploring the Methods Behind the Jury System",
+  "topic": "How The Jury System Actually Works",
+  "title": "How Juries Turn Evidence Into Verdicts",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boone_County_Courthouse_jury_box.jpg",
+  "imageCredit": {
+    "creator": "Brandonrush",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Boone_County_Courthouse_jury_box.jpg"
+  },
+  "summary": "The jury system works by asking selected citizens to evaluate evidence under legal instructions, deliberate privately, and apply different proof standards in criminal and civil cases.",
   "lesson": {
-    "learn": "In the United States, a group of 6 to 12 randomly selected citizens, known as a jury, is tasked with deciding the outcome of a trial by evaluating evidence and testimony presented in court. This system has been in use for over 340 years, dating back to 1676, when it was first implemented in colonial Virginia. The jury system relies on the principle of due process, ensuring that all parties are treated fairly and with respect for their rights.",
-    "simpler": "A jury can be thought of as a collaborative decision-making process, where all members work together to reach a verdict based on the credibility of evidence and the law. This process is not unlike a science experiment, where variables are examined and conclusions are drawn.",
-    "keyTakeaway": "The key takeaway from understanding the jury system is the importance of civic engagement and informed decision-making. Jury members must remain impartial, evaluating evidence based on the law, rather than personal opinions or biases.",
-    "deeperDive": "The jury system has been influenced by various historical events and social movements. The Bill of Rights, which includes the Sixth Amendment, was passed in 1791 to protect individual rights and ensure fair justice. Modern juries often consist of diverse members with unique backgrounds and experiences, bringing new perspectives to the decision-making process. Research has shown that engaged jurors who feel connected to their fellow jurors are more likely to make accurate decisions.",
-    "funFact": "Some countries, such as Iran and North Korea, do not utilize a jury system, relying instead on judges or other forms of justice. Iran has faced criticism for its lack of due process and fairness in its judicial system.",
+    "learn": "A jury is not a public opinion poll. It is a temporary legal body selected from the community, screened for bias, instructed by a judge, and limited to evidence presented in court. In a federal criminal trial, a petit jury usually has 12 members and must decide whether the government proved guilt beyond a reasonable doubt. In a civil trial, jurors decide whether the plaintiff proved the claim by a lower standard, usually preponderance of the evidence. Grand juries are different: they do not decide guilt; they decide whether prosecutors have probable cause to bring serious charges. Trial juries hear both sides, assess credibility, review exhibits, deliberate privately, and return a verdict. The system is imperfect because jurors bring human assumptions and may struggle with complex evidence, but it also forces the state or litigants to persuade ordinary citizens rather than only officials.",
+    "simpler": "Juries are groups of citizens who hear evidence, follow the judges legal instructions, deliberate in private, and decide whether the required proof standard has been met.",
+    "keyTakeaway": "The jury system turns legal judgment into a civic process, requiring government or litigants to prove their case to ordinary citizens under formal rules of evidence and proof.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Jury_box_cropped.jpg",
+    "learnImageCredit": {
+      "creator": "Ken Lund",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Jury_box_cropped.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Supreme_Court_Building.JPG",
+    "thirdImageCredit": {
+      "creator": "Laura Choate",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:United_States_Supreme_Court_Building.JPG"
+    },
+    "deeperDive": "The most misunderstood part is deliberation. Jurors do not investigate independently, search online, or decide based on personal sympathy. They are supposed to apply the law given by the judge to the facts they find credible. In criminal cases, the beyond-a-reasonable-doubt standard protects liberty by making conviction harder than civil liability. Jury unanimity rules vary by jurisdiction and case type, but federal criminal verdicts require unanimity. The system also uses voir dire, challenges for cause, and limited peremptory challenges to shape impartial panels. When it works well, a jury checks government power and brings community judgment into court; when it works poorly, bias or confusion can distort justice.",
+    "funFact": "Federal grand juries usually have 16 to 23 members and can serve for months while hearing multiple cases.",
+    "references": [
+      "https://www.uscourts.gov/court-programs/jury-service/types-juries"
+    ],
     "keyElements": {
       "people": [
-        "Daniel Weeden",
-        "Elizabeth Warren"
+        "Judges - instruct jurors on the law and manage trials",
+        "Jurors - citizens temporarily empowered to decide facts",
+        "Attorneys - present evidence and arguments within procedural rules"
       ],
       "places": [
-        "United States",
-        "Colonial Virginia",
-        "United States Supreme Court",
-        "Harvard Law School"
+        "Federal trial courts - where petit and grand juries serve",
+        "Jury room - private space for deliberation",
+        "Supreme Court - institution that defines constitutional jury protections"
       ],
       "years": [
-        "1676",
-        "1791"
+        "1215 - Magna Carta becomes part of the long jury-rights tradition",
+        "1791 - Bill of Rights protects jury rights in federal cases",
+        "2020 - Ramos v. Louisiana requires unanimous state criminal jury verdicts for serious offenses"
       ],
       "concepts": [
-        "Due process",
-        "Impeachment of evidence"
+        "Petit jury - trial jury that decides verdicts",
+        "Grand jury - body deciding probable cause for charges",
+        "Reasonable doubt - criminal proof standard",
+        "Voir dire - juror questioning for bias and suitability"
       ]
     }
   }

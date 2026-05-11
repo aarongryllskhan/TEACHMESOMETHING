@@ -1,35 +1,61 @@
 {
-  "topic": "Why Some Storms Produce Hail the Size of Softballs",
-  "title": "Exploring the Formation of Large Hailstones in Thunderstorms",
+  "topic": "Incredible Natural Phenomena",
+  "title": "Why Some Storms Produce Hail the Size of Softballs",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hail_-NOAA.jpg",
+  "imageCredit": {
+    "creator": "NOAA National Severe Storms Laboratory",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Hail_-NOAA.jpg"
+  },
+  "summary": "Softball-sized hail forms when supercell thunderstorms suspend ice in powerful updrafts long enough for repeated layers of supercooled water to freeze onto it.",
   "lesson": {
-    "learn": "Thunderstorms with hailstones as large as softballs are rare, yet awe-inspiring phenomena that form through a complex interplay of atmospheric conditions. A study published in 2020 in the Journal of Applied Meteorology and Climatology found that large hailstones are typically associated with strong updrafts and the presence of supercooled water droplets in the storm cloud. This occurs when warm, moist air rises into the freezing levels of the atmosphere, where water droplets freeze into small balls of ice. As the storm cloud continues to grow and intensify, the hailstones are carried upward by strong updrafts, where they are repeatedly frozen and melted, growing larger and more angular. The largest hailstones have been recorded in countries such as the United States, where a massive hailstorm in Vivian, South Dakota in 2013 dropped hailstones weighing up to 1.9 kg (4.2 lbs).",
-    "simpler": "Thunderstorms can be thought of as massive mixing vessels, where warm air rises and cools, causing water droplets to freeze into small balls of ice. As the storm intensifies, the hailstones are carried upward by strong updrafts and repeatedly frozen and melted, growing larger and more angular.",
-    "keyTakeaway": "The presence of strong updrafts and supercooled water droplets in the storm cloud are the primary factors influencing the formation of large hailstones. Understanding these conditions is crucial for predicting and preparing for devastating hailstorms.",
-    "deeperDive": "Several studies have highlighted the importance of low-level wind shear in the formation of large hailstones. For instance, a severe thunderstorm in Colorado in June 2020 was characterized by a strong low-level jet, which led to the formation of large hailstones in excess of 5 cm (2 in) in diameter. Research has also shown that hailstones form through a process known as accretion, where multiple small balls of ice stick together to form larger stones. This process can occur repeatedly, resulting in hailstones with diameters much larger than their individual components.",
-    "funFact": "According to records from the National Oceanic and Atmospheric Administration (NOAA), the largest hailstone ever recorded weighed 1.9 kg (4.2 lbs) and fell in Vivian, South Dakota in 2013.",
+    "learn": "Giant hail is a sign that a thunderstorm has built a powerful vertical engine. Hail begins with a small ice embryo such as a frozen raindrop, graupel pellet, or bit of ice. Inside a severe storm, especially a supercell, strong updrafts lift that embryo through regions filled with supercooled liquid water: droplets that remain liquid below freezing. When those droplets hit the ice, they freeze onto it. If the updraft is strong and broad enough, the hailstone stays aloft instead of falling out. It may cycle through different temperature and moisture zones, collecting clear or cloudy layers depending on how quickly water freezes and how much air gets trapped. Softball-sized hail requires an unusually favorable balance: intense lift, abundant supercooled water, cold upper levels, and storm structure that keeps the growing stone in the growth zone. Eventually gravity wins. The hailstone falls when it becomes too heavy or exits the updraft, striking the ground at dangerous speeds.",
+    "simpler": "Huge hail forms when a strong storm updraft keeps ice floating inside the cloud while supercooled droplets freeze onto it again and again. The bigger the updraft and growth zone, the larger the hail can get.",
+    "keyTakeaway": "Softball-sized hail needs a rare combination of strong sustained updrafts, supercooled water, ice embryos, and storm organization that keeps stones growing before they fall.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Granizo.jpg",
+    "learnImageCredit": {
+      "creator": "NOAA National Severe Storms Laboratory",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Granizo.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Low_Precipitation_Supercell_Thunderstorm.jpg",
+    "thirdImageCredit": {
+      "creator": "Stefan Klein",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Low_Precipitation_Supercell_Thunderstorm.jpg"
+    },
+    "deeperDive": "Supercells are especially good hail factories because wind shear separates the updraft from the downdraft and lets the storm persist for hours. A rotating updraft can be both strong and organized, creating a protected region where hail embryos avoid being swept out too quickly. Growth happens by accretion: supercooled droplets collide with the ice and freeze. Wet growth can produce clearer layers when water spreads before freezing; dry growth traps more air and looks cloudy. Very large hail does not simply bounce up and down like a cartoon elevator. Modern research emphasizes paths through complex storm airflow, including broad updrafts, recycling zones, and interactions with melting, shedding, and collisions. The Vivian, South Dakota hailstone of July 23, 2010 measured 8 inches across, a reminder that rare storms can build ice far beyond ordinary hail size.",
+    "funFact": "The U.S. record hailstone from Vivian, South Dakota was about the size of a volleyball.",
+    "references": [
+      {
+        "title": "NOAA NSSL: Severe Weather 101 - Hail Forecasting",
+        "url": "https://www.nssl.noaa.gov/education/svrwx101/hail/forecasting/"
+      }
+    ],
     "keyElements": {
       "people": [
-        "Roger Edwards",
-        "Robert Henson",
-        "John Nelson"
+        "Charles Knight - scientist known for major hailstone research",
+        "Leslie Lemon - meteorologist associated with supercell storm structure studies"
       ],
       "places": [
-        "National Center for Atmospheric Research (Boulder, CO)",
-        "National Weather Service (Norman, OK)",
-        "Storm Prediction Center (Nashville, TN)",
-        "United States",
-        "Vivian, South Dakota"
+        "Vivian, South Dakota - site of the 2010 U.S. record hailstone",
+        "Great Plains - region where supercells often produce large hail"
       ],
       "years": [
-        "2013",
-        "2020"
+        "2010 - Vivian, South Dakota hailstone set a U.S. size record",
+        "1970s - supercell structure research improved severe-storm understanding"
       ],
       "concepts": [
-        "Supercells",
-        "Updrafts",
-        "Wind shear",
-        "Supercooled water droplets",
-        "Accretion"
+        "Supercell - long-lived thunderstorm with a rotating updraft",
+        "Updraft - rising air current that supports hail growth",
+        "Supercooled water - liquid droplets below freezing temperature",
+        "Accretion - growth by droplets freezing onto an ice particle"
       ]
     }
   }

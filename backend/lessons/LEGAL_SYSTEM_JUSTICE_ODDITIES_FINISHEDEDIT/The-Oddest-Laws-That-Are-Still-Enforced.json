@@ -1,33 +1,62 @@
 {
-  "topic": "Legislative Systems and Historical Context",
-  "title": "Exploring the Evolution of Enacted Laws: Understanding Historical Context and Societal Factors",
+  "topic": "The Oddest Laws That Are Still Enforced",
+  "title": "Why Strange Laws Sometimes Still Matter",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MRT_in_Singapore.jpg",
+  "imageCredit": {
+    "creator": "Mokkie",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://commons.wikimedia.org/wiki/File:MRT_in_Singapore.jpg"
+  },
+  "summary": "Odd laws can remain enforceable when old public-order, morality, or infrastructure rules stay on the books after social conditions change.",
   "lesson": {
-    "learn": "The United States, with an extensive record of over 60,000 enacted laws, demonstrates the complexities of legislative systems. To grasp the nuances of these regulations, it is crucial to examine their historical context. The Salem witch trials, which took place in 1692-1693, provide a striking example of how societal pressures can influence legislative decisions. Notably, the witch-hunting law was signed by William Bradford, the Governor of the Massachusetts Bay Colony, in 1692. The law's enactment was closely tied to the intense social and economic pressures experienced during the colonial era. Similarly, the Singaporean law restricting gum-chewing unless in a designated area highlights the importance of understanding the historical context and societal factors contributing to their enactment. This law, enacted in 1992, reflects the government's concerns about the impact of chewing gum on public health and infrastructure.",
-    "simpler": "Understanding enacted laws requires considering their historical context, societal factors, and the values that influenced their creation. Enacted laws often reflect the concerns and values of the society that created them, similar to how a rule book from an outdated textbook contains regulations that are no longer relevant. Regular review and updates of these laws ensure they remain relevant and fair.",
-    "keyTakeaway": "The persistence of enacted laws despite their potential for controversy or obsolescence underscores the need for adaptive and inclusive legislative systems. By examining the historical context and societal factors that contribute to their enactment, we can better understand the complexities of legislative systems and the role of social control, cultural heritage, and legislative adaptability in shaping the laws we live by.",
-    "deeperDive": "The ongoing evolution of legislative systems is exemplified by the introduction of new laws and regulations in response to changing social, economic, and technological conditions. For instance, the first traffic light, invented by Garrett Morgan in 1912, introduced significant changes to urban transportation and regulation, requiring the adaptation of existing laws and regulations. Similarly, the development of the internet and e-commerce in the 1990s led to the creation of new regulations and laws aimed at protecting consumers and ensuring online safety.",
-    "funFact": "The first traffic light, invented by Garrett Morgan in 1912, was a significant innovation that transformed urban transportation and led to the creation of numerous regulations and laws governing road safety. This example highlights the dynamic nature of legislative systems and the need for ongoing adaptation and innovation in response to changing societal needs and technological advancements.",
+    "learn": "Odd laws survive because legal systems are layered rather than freshly rewritten from scratch. A rule may begin as a practical response to a real local problem, then remain after the original problem fades. Singapore controls chewing-gum import and sale because gum litter once damaged public infrastructure, including train-door sensors. Older Sunday trading rules, alcohol restrictions, animal-control ordinances, and dress or public-order laws often come from earlier moral, religious, or public-health assumptions. They may look bizarre when separated from their context, but many are still enforceable if officials choose to apply them. The key is not that lawmakers are silly; it is that repeal is slow, politically unglamorous, and sometimes risky because an old rule may still support some other legal arrangement. Modern legal housekeeping requires review, consolidation, and careful repeal, not just laughter at strange statutes.",
+    "simpler": "Odd laws usually began as practical or moral responses to a specific time and place. They survive because deleting old rules takes effort, and sometimes nobody notices until enforcement makes them visible.",
+    "keyTakeaway": "Strange laws persist when legal cleanup lags behind social change, leaving old rules available for modern enforcement even after their original purpose has faded.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Inside_the_MRT_train%2C_Singapore.jpg",
+    "learnImageCredit": {
+      "creator": "ProjectManhattan",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Inside_the_MRT_train%2C_Singapore.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Law_book.jpg",
+    "thirdImageCredit": {
+      "creator": "Nikowsk",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Law_book.jpg"
+    },
+    "deeperDive": "The phrase odd law can be misleading because enforceability depends on text, jurisdiction, discretion, and constitutional limits. A statute may remain printed but be functionally dead; another may be obscure yet actively enforced. Courts may narrow old laws, legislatures may repeal them, and agencies may simply stop prioritizing them. The hard part is knowing whether a rule is genuinely active or just a myth repeated online. Good legal reform distinguishes between harmless leftovers, confusing provisions that should be consolidated, and old statutes that still cause real harm. The Law Commission model in the United Kingdom shows why repeal work is technical: removing one provision can accidentally disturb rights, duties, or definitions elsewhere.",
+    "funFact": "Some obsolete-law repeal bills remove hundreds of dead provisions at once.",
+    "references": [
+      "https://www.customs.gov.sg/businesses/national-single-window/tradenet/competent-authorities-requirements/chewing-gum/",
+      "https://www.gov.uk/government/organisations/law-commission/about"
+    ],
     "keyElements": {
       "people": [
-        "William Bradford",
-        "Garrett Morgan",
-        "Justice Ruth Bader Ginsburg"
+        "Law reform commissioners - specialists who identify obsolete or confusing laws",
+        "Local legislators - officials who create and repeal municipal rules",
+        "Judges - interpreters who decide whether old statutes can still apply"
       ],
       "places": [
-        "Salem, Massachusetts",
-        "Singapore"
+        "Singapore - known for chewing-gum import controls tied to public infrastructure",
+        "United Kingdom - home to formal statute-law repeal work",
+        "Local municipalities - where unusual ordinances often survive longest"
       ],
       "years": [
-        "1692",
-        "1912",
-        "1992"
+        "1824 - Vagrancy Act shows how old public-order laws can persist",
+        "1965 - UK Law Commission established",
+        "1992 - Singapore chewing-gum controls take effect"
       ],
       "concepts": [
-        "Social Control",
-        "Cultural Heritage",
-        "Legislative Adaptability",
-        "Rule of Law",
-        "Evolving Societal Norms"
+        "Statute-book cleanup - reviewing and repealing obsolete law",
+        "Enforcement discretion - official choice about when to apply a rule",
+        "Public-order law - rules aimed at maintaining order in shared spaces",
+        "Legal myth - popular claim about law that may be exaggerated or false"
       ]
     }
   }

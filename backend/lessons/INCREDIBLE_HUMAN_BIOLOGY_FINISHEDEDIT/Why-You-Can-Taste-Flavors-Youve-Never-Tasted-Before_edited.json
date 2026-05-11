@@ -1,99 +1,66 @@
 {
-  "topic": "Understanding Flavor Memory",
-  "title": "The Neuroscience of Flavor Memory: Exploring the Science Behind Familiar Tastes",
+  "topic": "Incredible Human Biology",
+  "title": "Why You Can Taste Flavors You Have Never Tasted Before",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Taste_bud.svg",
+  "imageCredit": {
+    "creator": "NEUROtiker",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Taste_bud.svg"
+  },
+  "summary": "Novel flavors are possible because taste, smell, texture, temperature, irritation, and memory combine chemical features into new sensory patterns.",
   "lesson": {
-    "learn": "The ability to recognize and distinguish between different flavors involves a complex interplay between the brain, taste buds, and memory. This phenomenon is known as flavor memory or flavor recognition, and it plays a crucial role in our culinary experiences. Research has shown that our brains can recall familiar flavors even if we've never tasted them before, due to their connections to past experiences and associations.",
-    "simpler": "When trying a new food, our brain processes the chemical signals from the volatile molecules, which are detected by the olfactory receptors in the nose. This information is then transmitted to the brain, where it is associated with past experiences, emotions, and cultural background. For instance, eating a matcha green tea-flavored cookie might remind us of a similar experience we had while traveling to Japan, even if we've never had matcha ice cream before.",
-    "keyTakeaway": "The key to understanding flavor memory lies in the neural pathways involved in processing sensory information, particularly those associated with smell. By exploring the connection between taste and smell, we can gain insights into how our brains create associations between flavors and memories, allowing us to recall familiar tastes even in unfamiliar situations.",
-    "deeperDive": "Recent studies have demonstrated that flavor memory is linked to brain regions involved in emotion, personal experience, and cultural background. For example, research has shown that people who have strong emotional associations with certain foods are more likely to remember their flavors accurately. Additionally, advances in neuroscience have led to the development of new technologies that can manipulate flavor perception, such as using virtual reality to alter taste sensations.",
-    "funFact": "Interestingly, flavor memory can be influenced by external factors, like the presence of other people or the environment in which we eat. A study conducted at the Monell Chemical Senses Center found that people who ate a meal in a crowded restaurant were more likely to remember the flavors of their food than those who ate alone.",
+    "learn": "You do not need a separate receptor for every possible food. The brain recognizes flavor by combining signals from several sensory systems. Taste buds detect broad chemical categories such as sweet, salty, sour, bitter, and umami. Smell receptors detect volatile molecules rising from food, especially through retronasal smell as aromas travel from the mouth into the nasal cavity. The trigeminal system adds texture, temperature, fizz, burn, coolness, and irritation. Vision, sound, expectation, and memory also shape the final experience. That is why a new fruit, spice blend, cheese, or fermented food can taste unfamiliar but still meaningful. Your brain breaks it into features: acidity, sweetness, bitterness, aroma notes, mouthfeel, fat, heat, freshness, and aftertaste. Then it compares that pattern with past experiences and builds a new percept. Flavor is therefore not a fixed dictionary; it is a flexible neural construction. You can taste something new because your sensory systems are feature detectors, and the brain is excellent at composing new combinations from old building blocks.",
+    "simpler": "New flavors work because the brain mixes taste, smell, texture, temperature, irritation, and memory. You recognize chemical features first, then experience their combination as something new.",
+    "keyTakeaway": "Flavor feels like one sensation, but it is a constructed experience built from taste receptors, smell, trigeminal signals, texture, expectation, and memory.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/1402_The_Tongue.jpg",
+    "learnImageCredit": {
+      "creator": "OpenStax",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:1402_The_Tongue.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Tongue_and_taste_buds.jpg",
+    "thirdImageCredit": {
+      "creator": "Saurabh R. Patil",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tongue_and_taste_buds.jpg"
+    },
+    "deeperDive": "Taste is narrower than flavor. Gustatory cells respond to tastants dissolved in saliva, sending signals through cranial nerves to the brainstem and onward to cortical regions. Smell contributes much of what people casually call taste; blocking the nose makes many foods seem flat because retronasal aroma is reduced. The trigeminal nerve adds another dimension by detecting chemical and physical sensations such as capsaicin heat, menthol cooling, carbonation, astringency, and texture. The brain integrates these inputs with learning. If a flavor predicts nourishment, danger, illness, or social pleasure, future perception changes. This explains acquired tastes: bitterness in coffee, complexity in fermented foods, or pungency in spices can become enjoyable when the brain learns context and reward. Novel flavors are not mysterious new senses; they are new arrangements in a rich multisensory code.",
+    "funFact": "Much of what you call taste is actually smell arriving from the back of the mouth.",
+    "references": [
+      {
+        "title": "NCBI Bookshelf: The Organization of the Taste System",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK11018/"
+      },
+      {
+        "title": "NIDCD Taste and Smell Program",
+        "url": "https://www.nidcd.nih.gov/research/extramural/taste-and-smell-program"
+      }
+    ],
     "keyElements": {
       "people": [
-        "â€¢ **Linda Buck**: Neuroscientist and Nobel laureate known for her work on the genetics of smell",
-        "â€¢ **Gordon Shepherd**: Cognitive neuroscientist and expert on flavor perception",
-        "â€¢ **Charles Spence**: Psychologist studying the intersection of taste, smell, and cognition"
+        "Charles Zuker - researcher associated with molecular studies of taste receptors",
+        "Linda Buck - Nobel laureate for work on odor receptors"
       ],
       "places": [
-        "â€¢ **The Monell Chemical Senses Center** (Philadelphia): A leading research institution focused on chemical senses and their applications",
-        "â€¢ **The University of Oxford's Department of Experimental Psychology**: Home to renowned researchers in flavor perception and cognitive neuroscience",
-        "â€¢ **The International Association of Culinary Professionals** (IACP) (Chicago): An organization dedicated to promoting culinary arts, food culture, and related sciences"
+        "Tongue - contains taste buds that detect dissolved tastants",
+        "Olfactory epithelium - nasal tissue containing smell receptors"
       ],
       "years": [
-        "â€¢ 1964: The discovery of the first odorant receptor, marking a significant breakthrough in understanding the biology of smell",
-        "â€¢ 1996: Linda Buck's Nobel Prize-winning research on the genetics of smell reveals key insights into flavor perception",
-        "â€¢ 2005: A groundbreaking study shows that flavor memory is linked to brain regions involved in emotion and personal experience"
+        "1991 - odorant receptor gene family was described",
+        "2009 - researchers identified how carbonation activates taste pathways"
       ],
       "concepts": [
-        "â€¢ **Flavor Memory**: The ability to recall and distinguish between different flavors based on past experiences",
-        "â€¢ **Olfactory Receptors**: Specialized cells in the nose responsible for detecting volatile molecules from food",
-        "â€¢ **Neural Pathways**: Complex networks of interconnected brain regions involved in processing sensory information, including flavor perception",
-        "â€¢ **Chemical Signaling**: The process by which molecular signals from food bind to olfactory receptors and trigger neural responses",
-        "â€¢ **Synesthesia**: A phenomenon where one sense is stimulated and another sense is experienced (e.g., tasting colors)"
+        "Retronasal olfaction - aroma sensing from the mouth through the nasal cavity",
+        "Trigeminal sense - detection of irritation, temperature, texture, and chemical bite",
+        "Tastants - molecules that activate taste receptor cells",
+        "Flavor integration - brain process combining multiple sensory inputs into one experience"
       ]
     }
-  },
-  "keyElements": {
-    "people": [
-      {
-        "name": "Linda Buck",
-        "title": "Neuroscientist and Nobel laureate",
-        "achievement": "Discovery of the first odorant receptor"
-      },
-      {
-        "name": "Gordon Shepherd",
-        "title": "Cognitive neuroscientist",
-        "achievement": "Expert on flavor perception"
-      },
-      {
-        "name": "Charles Spence",
-        "title": "Psychologist",
-        "achievement": "Studying the intersection of taste, smell, and cognition"
-      }
-    ],
-    "places": [
-      {
-        "name": "Monell Chemical Senses Center",
-        "location": "Philadelphia",
-        "description": "Leading research institution focused on chemical senses and their applications"
-      },
-      {
-        "name": "University of Oxford's Department of Experimental Psychology",
-        "location": "Oxford",
-        "description": "Home to renowned researchers in flavor perception and cognitive neuroscience"
-      },
-      {
-        "name": "International Association of Culinary Professionals (IACP)",
-        "location": "Chicago",
-        "description": "Organization dedicated to promoting culinary arts, food culture, and related sciences"
-      }
-    ],
-    "years": [
-      {
-        "year": "1964",
-        "event": "Discovery of the first odorant receptor"
-      },
-      {
-        "year": "1996",
-        "event": "Linda Buck's Nobel Prize-winning research on the genetics of smell"
-      },
-      {
-        "year": "2005",
-        "event": "Groundbreaking study shows flavor memory linked to brain regions involved in emotion and personal experience"
-      }
-    ],
-    "concepts": [
-      {
-        "name": "Flavor Memory",
-        "definition": "Ability to recall and distinguish between different flavors based on past experiences"
-      },
-      {
-        "name": "Olfactory Receptors",
-        "definition": "Specialized cells in the nose responsible for detecting volatile molecules from food"
-      },
-      {
-        "name": "Neural Pathways",
-        "definition": "Complex networks of interconnected brain regions involved in processing sensory information, including flavor perception"
-      }
-    ]
   }
 }

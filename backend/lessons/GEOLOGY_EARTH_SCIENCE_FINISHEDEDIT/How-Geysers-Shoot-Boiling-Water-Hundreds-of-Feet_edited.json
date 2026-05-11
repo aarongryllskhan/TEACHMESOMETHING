@@ -1,47 +1,66 @@
 {
-  "topic": "Exploring the Dynamics of Geothermal Systems",
-  "title": "The Methods Behind Earth's Boiling Springs: Understanding Geyser Activity",
+  "topic": "Geysers",
+  "title": "How Geysers Shoot Boiling Water into the Air",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Old_Faithful_Geyser_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "James St. John",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Old_Faithful_Geyser_1.jpg"
+  },
   "lesson": {
-    "learn": "A geyser is a natural fountain of hot water and steam that periodically erupts, driven by the interaction of groundwater with magma or hot rocks deep within the Earth's interior. This phenomenon is characterized by a unique combination of geological and thermodynamic processes. By understanding how geysers are formed, we can gain insights into the internal dynamics of the Earth, including plate tectonics, volcanic activity, and the Earth's thermal energy budget.",
-    "simpler": "Think of a geyser like a pressure cooker where groundwater comes into contact with hot rocks, causing it to boil and eventually burst forth through a narrow vent or fissure. The resulting eruption is a manifestation of the immense pressure and heat generated within the Earth's interior.",
-    "keyTakeaway": "Geyser activity is a window into the Earth's internal dynamics, showcasing the complex interplay between plate tectonics, volcanic processes, and geothermal energy. By studying geysers, we can better understand the Earth's thermal energy budget, plate boundary processes, and the role of magma in shaping our planet's surface.",
-    "deeperDive": "Old Faithful, located in Yellowstone National Park, Wyoming, is one of the most well-known geysers in the world, erupting approximately 17 times a day with a reliability tracked since 1870. Similarly, the Strokkur geyser in Iceland and the Monarch Geyser in New Zealand are notable examples of geyser activity on other continents. Researchers have identified several key factors that contribute to geyser formation, including the presence of fractures or faults, a sufficient water supply, and suitable geothermal conditions. For instance, the Waimangu Volcanic Rift Valley in New Zealand hosts the largest recorded geyser eruption, which occurred in 1886, reaching an impressive height of 440 meters (1,444 feet). Furthermore, some geysers are capable of producing complex, multi-phase flows that can carry heat and chemicals across long distances, providing valuable insights into the Earth's internal heat budget and the role of magma in shaping our planet's surface.",
-    "funFact": "The world's highest-temperature geyser is located in Kamchatka, Russia, and has been recorded to reach temperatures of up to 109°C (228°F). Additionally, geysers can serve as natural indicators of seismic activity, providing early warnings for earthquakes and volcanic eruptions.",
+    "learn": "Geysers erupt because underground water is heated by geothermal energy, trapped in narrow plumbing, and suddenly released when pressure becomes unstable. Water can superheat below the surface, then flash into steam and expand violently when the system opens. That is what launches the fountain above ground.\n\nThe result looks playful, but it is really a pressure-and-heat machine operating inside the Earth. Geysers are rare because the plumbing has to be just right.",
+    "simpler": "Geysers erupt when underground water is heated, trapped, and suddenly released under pressure.",
+    "keyTakeaway": "A geyser is a natural pressure valve for underground heat and water.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Old_Faithful_Geyser_%2811936417546%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Yellowstone National Park from Yellowstone NP, USA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Old_Faithful_Geyser_(11936417546).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/7/76/Old_Faithful_Geyser_%2848942391536%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Yellowstone National Park",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Old_Faithful_Geyser_(48942391536).jpg"
+    },
+    "deeperDive": "Most geysers need three things: heat, water, and a narrow plumbing system. Heat often comes from shallow magma or hot rock. The water has to be replenished, but it also has to be trapped long enough to build pressure. If the plumbing is too open, you get a hot spring instead. If it is too closed, the system cannot erupt. Geysers are the narrow middle ground.\n\nThat is why Old Faithful is famous: it shows a dependable version of a process that is still partly controlled by hidden underground geometry.",
+    "funFact": "Old Faithful is popular because its eruptions are surprisingly predictable.",
+    "references": [
+      "Britannica - geyser",
+      "NPS - Yellowstone geysers",
+      "USGS - geothermal features"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "1. **Geologist Thomas Dinsdale**: Discovered the first geyser in New Zealand in 1886.",
-        "2. **Volcanologist Dr. Haraldur SigurÃ°sson**: Led a team of scientists that studied Old Faithful's eruption patterns from 1963 to 1965.",
-        "3. **Professor David J. Stevenson**: Contributed significantly to our understanding of geysers and their role in plate tectonics.",
-        "4. **Dr. Brian Wernicke**: Conducted extensive research on the structural controls of geyser formation.",
-        "5. **Geologist Dr. Catherine Chauvel**: Investigated the geochemical processes that drive geyser activity.",
-        "**"
+        "Geologists - scientists studying geothermal systems",
+        "Volcanologists - experts in heat from below",
+        "Park rangers - people who explain geysers to visitors",
+        "Visitors - people who witness eruptions"
       ],
       "places": [
-        "**",
-        "1. **Yellowstone National Park, Wyoming**: Home to Old Faithful and numerous other geysers.",
-        "2. **Waimangu Volcanic Rift Valley, New Zealand**: Site of the largest recorded geyser eruption in 1886.",
-        "3. **Kamchatka Peninsula, Russia**: Location of the world's highest-temperature geyser.",
-        "4. **Haukadalur, Iceland**: Famous for its Strokkur geyser and geothermal area.",
-        "5. **Monument Valley, USA/Canada Border**: Shared by both countries, featuring a unique geological formation.",
-        "**"
+        "Yellowstone - the world's most famous geyser field",
+        "Underground reservoirs - where hot water builds pressure",
+        "Hot spring systems - cousins of geysers",
+        "Geothermal fields - places where Earth's heat is close to the surface"
       ],
       "years": [
-        "**",
-        "1. **1886**: The year the largest recorded geyser eruption occurred in New Zealand's Waimangu Volcanic Rift Valley.",
-        "2. **1870**: Old Faithful was first tracked and documented in Yellowstone National Park.",
-        "3. **1963-1965**: A team of scientists led by Dr. Haraldur SigurÃ°sson studied Old Faithful's eruption patterns.",
-        "4. **1999**: The world's highest-temperature geyser was discovered in Kamchatka, Russia.",
-        "**"
+        "1800s - geysers become scientific wonders",
+        "1872 - Yellowstone becomes a national park",
+        "1900s - subsurface plumbing is better understood",
+        "Present day - geysers remain rare and studied"
       ],
       "concepts": [
-        "**",
-        "1. **Geothermal energy**: Heat from the Earth's interior that drives geyser activity.",
-        "2. **Plate tectonics**: Processes that shape our planet's surface, including seafloor spreading and subduction.",
-        "3. **Magma**: Melted rock beneath the Earth's surface that can interact with groundwater to create geysers.",
-        "4. **Groundwater circulation**: The movement of water through underground aquifers, which feeds geyser activity.",
-        "5. **Volcanology**: The study of volcanoes and their associated geological processes.",
-        "6. **Earth's internal heat budget**: The total amount of thermal energy generated by the Earth's interior."
+        "Geothermal heat - energy from Earth's interior",
+        "Pressure - force trapped underground",
+        "Superheating - water above its normal boiling point",
+        "Steam expansion - the explosive part of eruptions",
+        "Plumbing system - the cracks and chambers below ground"
       ]
     }
   }

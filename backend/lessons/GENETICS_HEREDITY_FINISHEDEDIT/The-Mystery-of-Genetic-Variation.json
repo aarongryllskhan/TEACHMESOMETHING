@@ -1,47 +1,66 @@
 {
-  "topic": "Genetic Variation and Its Significance",
-  "title": "The Molecular Basis of Genetic Variation",
+  "topic": "Genetic Variation",
+  "title": "Why Genetic Variation Is the Engine of Biology",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Genetic_variation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Арина Буфетова",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Genetic_variation.png"
+  },
   "lesson": {
-    "learn": "Genetic variation refers to the differences in nucleotide sequences between individuals, populations, and species, resulting from mutations, gene flow, and genetic drift.",
-    "simpler": "Genetic variation occurs when small changes, known as mutations, occur in the DNA sequence. This can result in differences in gene expression and protein function.",
-    "keyTakeaway": "Genetic variation is a fundamental aspect of genetic biology, essential for adaptation and evolution.",
-    "deeperDive": "Recent studies have demonstrated the critical role of genetic variation in disease susceptibility, agricultural productivity, and biotechnology. For example, the BRCA1 gene variant has been linked to breast and ovarian cancer risk. Similarly, crop yield and resistance to pests are influenced by genetic variation in plant genomes. Gene editing technologies, such as CRISPR-Cas9, are being used to manipulate genetic variation for therapeutic and agricultural purposes.",
-    "funFact": "The first recorded example of genetic variation was observed by Gregor Mendel in 1865, in his experiments with pea plants. Mendel's work demonstrated the existence of discrete genetic traits and provided the foundation for modern genetics.",
+    "learn": "Genetic variation is the raw material evolution works with. Without differences among individuals, natural selection would have nothing to sort, and populations would struggle to adapt to new environments. Variation comes from mutation, recombination, inheritance, and the movement of genes through populations.\n\nThat is why variation matters so much. It is the reason populations are not copies of one another, and it is the reason biology can respond to change.",
+    "simpler": "Genetic variation gives populations the differences they need to survive change and evolve over time.",
+    "keyTakeaway": "Variation is not noise. It is the fuel of adaptation.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Evolution_theory_300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Kamsster",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Evolution_theory_300.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Mutation_and_selection_diagram_%282%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Elembis",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mutation_and_selection_diagram_(2).svg"
+    },
+    "deeperDive": "Some variation is obvious, like differences in beak shape or eye color. Other variation is hidden at the DNA level until it affects traits or disease risk. Recombination mixes alleles every generation, while mutation creates new ones. Selection then acts on the resulting mix. The amount of variation a population carries can strongly shape its long-term resilience.\n\nThis is why conservation biologists care so much about preserving diversity. A population with little variation may survive for a while, but it can be far less able to handle disease, climate shifts, or other shocks.",
+    "funFact": "Variation is what makes populations adaptable instead of identical.",
+    "references": [
+      "Britannica - genetic variation",
+      "NHGRI - variation and evolution",
+      "Nature Education - population genetics"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Gregor Mendel - Founder of Genetics",
-        "+ James Watson - Co-discoverer of DNA structure",
-        "+ Francis Collins - Director of the National Institutes of Health (NIH)",
-        "+ Rosalind Franklin - Pioneering X-ray crystallographer",
-        "+ Craig Venter - Genomics pioneer",
-        "* **"
+        "Population geneticists - scientists studying variation",
+        "Evolutionary biologists - researchers tracking change",
+        "Conservation biologists - people protecting diversity",
+        "Field biologists - observers of natural populations"
       ],
       "places": [
-        "**",
-        "+ University of Cambridge - Discovery site of DNA's double helix structure",
-        "+ Cold Spring Harbor Laboratory - Location of the Human Genome Project",
-        "+ National Institutes of Health (NIH) - Primary funding source for genetic research",
-        "+ The Sanger Centre - Genomics research facility",
-        "+ Harvard University - Hub for genetic research and innovation",
-        "* **"
+        "Wild populations - where variation appears naturally",
+        "Isolated islands - places where variation is easy to study",
+        "Genomic labs - where variation is measured",
+        "Conservation programs - where diversity is preserved"
       ],
       "years": [
-        "**",
-        "+ 1865 - Publication of Mendel's paper on pea plant variation",
-        "+ 1953 - Description of DNA structure by Watson and Crick",
-        "+ 2003 - Completion of the Human Genome Project",
-        "+ 2012 - First human genome sequenced using CRISPR-Cas9",
-        "* **"
+        "1850s-1860s - natural selection is proposed",
+        "1900s - genetics explains variation more deeply",
+        "2000s - sequencing reveals vast diversity",
+        "Present day - variation is studied at genome scale"
       ],
       "concepts": [
-        "**",
-        "+ Mutation: Random change in nucleotide sequence",
-        "+ Gene flow: Transfer of genes between populations",
-        "+ Genetic drift: Random changes in allele frequencies",
-        "+ Heritability: Measure of genetic influence on traits",
-        "+ Epigenetics: Study of gene expression and modification",
-        "+ Genomics: Field of study focused on the structure and function of genomes."
+        "Variation - differences among individuals",
+        "Mutation - source of new alleles",
+        "Recombination - shuffling genetic material",
+        "Selection - filtering variants by success",
+        "Resilience - the ability to handle change"
       ]
     }
   }

@@ -1,37 +1,62 @@
 {
-  "topic": "Exploring Variations in U.S. State-Level Death Penalty Rates",
-  "title": "Understanding the Complexities of State-Level Death Penalty Rates",
+  "topic": "Why Death Penalty Rates Vary By State",
+  "title": "Why Capital Punishment Is So Uneven Across States",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Death_penalty_in_the_United_States.svg",
+  "imageCredit": {
+    "creator": "JayCoop",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Death_penalty_in_the_United_States.svg"
+  },
+  "summary": "Death-penalty rates vary by state because capital punishment depends on local statutes, prosecutors, juries, appellate courts, political culture, resources, and execution capacity.",
   "lesson": {
-    "learn": "The disparity in death penalty rates across U.S. states stems from a combination of factors, including varying laws, societal values, and economic concerns. According to data from the Death Penalty Information Center, 27 states in the United States have the death penalty, whereas 23 states and the District of Columbia have abolished it. A notable exception is Texas, which has executed more people than any other state since 1976, with over 550 inmates on death row currently. The recent shift towards reconsidering capital punishment, exemplified by California's abolition of the death penalty in 2019, highlights the complexities of this issue. The debate surrounding the death penalty raises essential questions about justice, morality, and human rights.",
-    "simpler": "The death penalty in the United States can be likened to a patchwork system, with varying rules and approaches from state to state. This disparity is exemplified by the fact that some states impose the death penalty for crimes such as murder, while others focus on life imprisonment without parole. Similarly, the methods used for lethal injections differ across jurisdictions, with some employing a combination of chemicals, while others use alternative methods like electric chairs or gas chambers.",
-    "keyTakeaway": "A critical takeaway from examining state-level death penalty rates is that cultural and historical contexts play a significant role in shaping these policies. For instance, southern states tend to have higher rates of executions due to their historical adherence to capital punishment. Furthermore, economic factors, such as budget constraints, can influence a state's decision to utilize the death penalty.",
-    "deeperDive": "The cultural and historical context of each state contributes to the variability in death penalty rates. For example, California and New York have abolished the death penalty, while Texas and Oklahoma continue to prioritize capital punishment. Recent studies suggest that states with higher rates of poverty and lower levels of education are more prone to imposing the death penalty. Additionally, advancements in DNA technology have led courts to re-examine past convictions and executions, raising concerns about the fairness and effectiveness of capital punishment systems.",
-    "funFact": "The federal government reinstated the death penalty for certain crimes, including murder and espionage, in 1994. Notably, Timothy McVeigh's execution by lethal injection for the Oklahoma City bombing in 2001 served as a pivotal event in the ongoing debate about capital punishment.",
+    "learn": "The death penalty in the United States is not one national system but many state systems operating under constitutional limits. Some states have abolished capital punishment; others authorize it but rarely use it; a smaller group accounts for most executions. The differences come from law, politics, local prosecutorial choices, jury attitudes, appellate review, defense funding, race and geography, and the practical ability to carry out executions. A state may technically retain death sentences while governors pause executions, courts scrutinize procedures, or prosecutors prefer life without parole. Another state may have statutory aggravating factors, elected prosecutors, and political support that make death notices more common. County-level variation matters too: a small number of local jurisdictions have historically produced a disproportionate share of death sentences. That is why state rates reflect more than murder rates. They reveal legal culture, institutional capacity, and local definitions of justice.",
+    "simpler": "Death-penalty use varies because each state has its own laws, prosecutors, juries, appeals, politics, and execution machinery. Having the death penalty on paper does not mean a state uses it often.",
+    "keyTakeaway": "State death-penalty rates differ because capital punishment is filtered through local law, local discretion, and local political culture long before any execution occurs.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_chair.jpg",
+    "learnImageCredit": {
+      "creator": "Unknown / pdimages.com archive",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Electric_chair.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/United_states_supreme_court_building.png",
+    "thirdImageCredit": {
+      "creator": "Jeff Kubina",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:United_states_supreme_court_building.png"
+    },
+    "deeperDive": "Modern capital punishment is shaped by the Supreme Courts post-1976 framework, which allows guided discretion but forbids arbitrary or cruel application. In practice, that leaves enormous room for state variation. Prosecutors decide whether to seek death; jurors must accept aggravating factors; appellate courts review errors; governors can grant clemency or impose moratoriums; departments of correction must obtain drugs or maintain protocols. Cost also matters because death cases require specialized defense, lengthy appeals, and secure confinement. As of 2026, the Death Penalty Information Center lists 23 states without the death penalty, while many states with death statutes have had no recent executions. The system is legally national but operationally local.",
+    "funFact": "Most U.S. states either have no death penalty or have gone at least a decade without an execution.",
+    "references": [
+      "https://deathpenaltyinfo.org/state-and-federal-info/state-by-state",
+      "https://files.deathpenaltyinfo.org/documents/pdf/FactSheet-2026-04-30.pdf"
+    ],
     "keyElements": {
       "people": [
-        "John Grisham",
-        "Timothy McVeigh",
-        "Justice Stephen Breyer",
-        "Bryan Stevenson"
+        "Justice William Brennan - leading critic of the modern death penalty",
+        "Bryan Stevenson - lawyer and advocate in capital cases",
+        "State prosecutors - local officials whose charging choices shape death-penalty use"
       ],
       "places": [
-        "Texas Department of Criminal Justice",
-        "Oklahoma State Penitentiary",
-        "Supreme Court of the United States",
-        "Death Row, Parchman Penitentiary"
+        "Texas - state with the largest number of modern executions",
+        "Oklahoma - high execution rate per capita in the modern era",
+        "Supreme Court of the United States - sets constitutional boundaries for capital punishment"
       ],
       "years": [
-        "1976",
-        "1994",
-        "2001",
-        "2019"
+        "1972 - Furman v. Georgia invalidates existing death-penalty schemes",
+        "1976 - Gregg v. Georgia allows revised capital statutes",
+        "2026 - DPIC fact sheet reports 23 states without the death penalty"
       ],
       "concepts": [
-        "Lethal injection",
-        "Innocence and guilt",
-        "Justice vs. revenge",
-        "Capital punishment",
-        "Life imprisonment without parole"
+        "Capital punishment - legal execution as a criminal sentence",
+        "Aggravating factors - statutory facts that can make a case death-eligible",
+        "Clemency - executive power to reduce or commute a sentence",
+        "Moratorium - official pause on executions"
       ]
     }
   }

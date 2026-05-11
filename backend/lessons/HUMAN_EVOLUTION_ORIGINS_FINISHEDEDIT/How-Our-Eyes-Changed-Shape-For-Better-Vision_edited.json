@@ -1,36 +1,67 @@
 {
-  "topic": "The Biological Evolution of Human Vision",
-  "title": "Understanding the Adaptations that Enhanced Human Vision",
+  "topic": "Vision Evolution",
+  "title": "How Human Eyes Changed Shape for Better Vision",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Diagram_of_eye_evolution.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Matticus78 at English Wikipedia",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Diagram_of_eye_evolution.svg"
+  },
+  "summary": "Human vision became sharper and more spatially precise as primates evolved forward-facing eyes, refined color perception, and neural systems built for depth, detail, and social reading.",
   "lesson": {
-    "learn": "Approximately 3.5 million years ago, early human ancestors living in Africa evolved significant changes in the shape and structure of their eyes to adapt to environmental pressures, leading to enhanced vision and improved survival. A distinctive example of this adaptation is the forward-facing orientation of the human eye, permitting binocular vision and depth perception. This unique arrangement enabled our ancient ancestors to efficiently detect predators and navigate dense forests with increased accuracy. Consequently, the shape and size of the eye have evolved over time to provide improved visual acuity and sensitivity to light. To illustrate this transformation, consider the following comparison: ancient human ancestors possessed vision comparable to individuals wearing goggles with limited peripheral vision, hindering their ability to see objects at varying distances. Their eyes were designed to excel in bright light conditions but struggled in dim environments. As a result, their eyes underwent a gradual transformation, resulting in improved visual capabilities, enabling them to more effectively navigate and acquire food.",
-    "simpler": "The evolution of human vision is a testament to the remarkable adaptability of our species. Over 2 million years ago, early human ancestors began to migrate out of Africa, confronting diverse environmental challenges, such as navigating through dense forests and distinguishing objects in low-light conditions. Through a series of incremental changes, their eyes evolved to better suit these demands, resulting in the exceptional vision we possess today.",
-    "keyTakeaway": "The shape and structure of the human eye have undergone significant transformations throughout human evolution, ultimately leading to enhanced vision and improved survival. By examining the adaptability of our eyes, we gain a profound understanding of the intricate relationship between vision and environment.",
-    "deeperDive": "Research indicates that the human retina has undergone substantial changes, particularly in bright light conditions, where visual acuity has increased notably since the emergence of early humans. Furthermore, studies suggest that the sclera, the white part of the eye, has expanded in size, likely contributing to enhanced depth perception. Additionally, the evolution of the eye is closely linked to changes in brain structure and function, as evidenced by the expansion of areas dedicated to processing visual information, such as the visual cortex. Notably, recent findings suggest that certain eye diseases, including myopia (nearsightedness), may result from maladaptive evolutionary changes. By examining the complex interactions between vision and environment, scientists can gain a deeper comprehension of human evolution and its implications for vision.",
-    "funFact": "Historically, there was considerable variation in human vision, with some individuals exhibiting exceptional visual acuity, similar to 20/20 vision, while others struggled to see objects clearly at close or far distances.",
+    "learn": "Human vision is the product of millions of years of anatomical fine-tuning rather than one dramatic redesign. Early primates lived in visually complex habitats where judging distance, detecting ripe fruit, reading movement, and recognizing faces could shape survival. Forward-facing eyes improved binocular overlap, allowing the brain to compare two slightly different images and calculate depth with unusual precision. The retina also became highly specialized: cone cells supported daylight color discrimination, while the fovea packed photoreceptors densely enough to make fine detail possible. These changes mattered for climbing, reaching, foraging, tool handling, and social life. A face, a branch, a fruit skin, or a small stone edge could carry useful information. The human eye kept the broad primate pattern but paired it with a brain increasingly skilled at interpreting visual scenes, turning sight into a powerful system for navigation, communication, craft, and culture.",
+    "simpler": "Human eyes became better at depth, color, and fine detail because primates depended heavily on vision for movement, food, tools, and social cues.",
+    "keyTakeaway": "Human eyes did not simply become sharper; they evolved into a coordinated optical and neural system for judging distance, reading detail, and making sense of complex social and physical environments.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Modele_eye_evolution_Nilsson_Pelger_1994.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Gagea",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Modele_eye_evolution_Nilsson_Pelger_1994.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Schematic_diagram_of_the_human_eye_en.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Rhcastilhos and Jmarchn",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Schematic_diagram_of_the_human_eye_en.svg"
+    },
+    "deeperDive": "The eye is often used as an example of biological complexity, but its history is best understood as a chain of functional intermediate steps. Light-sensitive cells can first distinguish brightness from darkness. A shallow cup can indicate direction. A narrowing opening can sharpen an image. A transparent covering can become a lens that bends light more efficiently. Primates inherited and refined this deeper vertebrate toolkit, especially through binocular vision and high-acuity daylight sight. The orbital shift toward the front of the skull increased overlap between the two visual fields, while the brain expanded its ability to merge those signals into stereoscopic depth. Color vision added another advantage: many primates can distinguish red and green wavelengths, which helps in detecting ripe fruit, young leaves, skin flushing, and other subtle cues. In humans, vision also became inseparable from cognition. Hands, eyes, and brain worked together in toolmaking, tracking, imitation, symbolic markings, reading facial expressions, and eventually written language. The result is not a perfect camera, but a living compromise: a retina with a blind spot, lenses that stiffen with age, and visual processing that can be fooled by illusions, yet still provides extraordinary detail and interpretation. Its power comes from the whole system, not just the eyeball.",
+    "funFact": "The sharpest part of your vision comes from the fovea, a tiny retinal pit packed with cone cells.",
+    "references": [
+      "Britannica - human eye",
+      "Nature Education - eye evolution",
+      "Smithsonian Human Origins - primate vision"
+    ],
     "keyElements": {
       "people": [
-        "+ E.O. Wilson - biologist and evolutionary theorist who contributed significantly to understanding human evolution",
-        "+ Francis Crick - molecular biologist and Nobel laureate who discovered the structure of DNA and its implications for vision",
-        "+ Steven Oggier - ophthalmologist who studied the relationship between eye shape and visual acuity in early humans",
-        "*"
+        "Charles Darwin - naturalist who argued that complex eyes could evolve through gradual functional stages",
+        "Dan-Eric Nilsson - vision scientist known for influential models of eye evolution",
+        "Susanne Shultz - primate researcher whose work connects ecology, social behavior, and sensory evolution",
+        "Neuroscientists - researchers who study how the brain turns retinal signals into perception"
       ],
       "places": [
-        "+ The Serengeti National Park in Tanzania, where early human ancestors evolved to adapt to savannah environments",
-        "+ The Ethiopian Highlands, where fossils of early human ancestors were discovered",
-        "+ The Harvard Medical School, where researchers studied the evolution of the eye and its relationship to brain structure",
-        "*"
+        "Retina - light-sensitive tissue where rods and cones begin visual processing",
+        "Fovea - central retinal region responsible for the sharpest detailed sight",
+        "Visual cortex - brain area that interprets edges, motion, depth, and objects",
+        "Primate forest habitats - visually complex environments where distance and color cues mattered"
       ],
       "years": [
-        "+ 3.5 million years ago - when early human ancestors first emerged in Africa",
-        "+ 1.8 million years ago - when Homo habilis evolved with more advanced tools and adaptations for vision",
-        "+ 500,000 years ago - when Homo sapiens began to migrate out of Africa and adapt to new environments",
-        "*"
+        "Over 500 million years ago - early animal light-sensing systems begin diversifying",
+        "55 million years ago - early primates rely heavily on vision in arboreal environments",
+        "1994 - Nilsson and Pelger publish a famous model showing plausible stages in camera-type eye evolution",
+        "Present day - genetics, fossils, and neuroscience are combined to study visual evolution"
       ],
       "concepts": [
-        "+ Binocular vision: the ability to see objects in three dimensions using both eyes",
-        "+ Depth perception: the ability to judge distances and spatial relationships between objects",
-        "+ Evolutionary adaptation: changes that occur over time as species adapt to their environment",
-        "+ Retinal adaptation: changes in the structure of the retina to improve visual acuity under different light conditions"
+        "Binocular vision - overlapping fields of view that allow depth perception",
+        "Fovea - dense photoreceptor region for high-acuity sight",
+        "Cone cells - retinal cells used for color and daylight vision",
+        "Stereopsis - depth perception created by comparing both eyes' images",
+        "Visual acuity - the ability to resolve fine detail"
       ]
     }
   }

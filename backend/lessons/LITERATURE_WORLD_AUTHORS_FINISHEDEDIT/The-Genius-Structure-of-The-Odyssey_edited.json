@@ -1,68 +1,77 @@
 {
-  "topic": "The-Structure-of-The-Odyssey",
-  "title": "Understanding the Epic Masterpiece: The Odyssey's Complex Structure",
+  "topic": "Ancient Epic Structure",
+  "title": "The Genius Structure of The Odyssey",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Odyssey%20manuscript.jpg",
+  "imageCredit": {
+    "creator": "British Library manuscript; uploaded to Wikimedia Commons by Odysses",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Odyssey_manuscript.jpg"
+  },
+  "summary": "The Odyssey is built as a layered epic of returns, delays, flashbacks, tests, and recognitions rather than a simple travel diary.",
   "lesson": {
-    "learn": "The Odyssey, an ancient Greek epic poem attributed to the poet Homer, is estimated to have been composed around 800 BC. This rich and complex work tells the story of Odysseus' journey home after the Trojan War. With its intricate plot structure, The Odyssey explores universal themes of heroism, identity, and the human condition.",
-    "simpler": "Imagine a long journey home after a war, facing challenges and obstacles along the way. The Odyssey is like this story, but in poetic style. It's a tale of a hero's quest to overcome difficulties and reach his goal, similar to Odysseus' experiences in Homer's epic poem.",
-    "keyTakeaway": "The Odyssey's structure is characterized by its use of multiple storylines, which allows the poet to explore a range of themes and motifs. This technique, known as episodic narrative, enables Homer to showcase Odysseus' cunning and intelligence, while also examining the human condition.",
-    "deeperDive": "The Odyssey's narrative structure consists of 24 numbered books, each representing a separate adventure or journey for Odysseus. Homer employs ring composition, a technique where events are mirrored at the beginning and end of the narrative, creating a sense of circularity and unity. This structural approach is a hallmark of ancient Greek epic poetry and reflects the poet's mastery of storytelling.",
-    "funFact": "Recent scholarship has highlighted the Odyssey's connections to ancient Greek mythology, particularly in its depiction of Poseidon as a powerful sea god. Additionally, researchers have discovered that Homer drew inspiration from real-life events, such as the eruption of Mount Thera on Santorini, which may have influenced his descriptions of natural disasters and divine interventions.",
-    "keyTakeaways": [
-      "The Odyssey is an epic masterpiece with a complex structure that explores universal themes of heroism, identity, and the human condition.",
-      "Homer's use of episodic narrative allows him to showcase Odysseus' cunning and intelligence, while also examining the human condition."
-    ],
-    "importantDates": {
-      "people": {
-        "Homer": " Ancient Greek poet and attributed author",
-        "Odysseus": "Hero of the Odyssey",
-        "Athena": "Greek goddess of wisdom and war"
-      },
-      "places": {
-        "Ithaca": "Odysseus' homeland and kingdom",
-        "Troy": "City conquered by the Greeks during the Trojan War",
-        "Santorini": "Greek island where the Minoan civilization flourished before the eruption of Mount Thera",
-        "Mount Thera": "Volcano that erupted around 1500 BC"
-      },
-      "years": {
-        "800 BC": "Estimated date of The Odyssey's composition",
-        "1200 BC": "Approximate date of the Trojan War",
-        "1500 BC": "Date of the eruption of Mount Thera"
-      },
-      "concepts": {
-        "Epic poetry": "Ancient Greek narrative poetry",
-        "Ring composition": "Narrative technique where events are mirrored at the beginning and end of the narrative",
-        "Episodic narrative": "Technique used in The Odyssey to tell the story of Odysseus' journey home after the Trojan War"
-      }
+    "learn": "The Odyssey is structurally brilliant because it makes homecoming feel psychological as well as geographical. Instead of beginning with Odysseus sailing away from Troy, the poem opens years later in crisis: Ithaca is overrun by suitors, Telemachus is searching for identity, and Odysseus is trapped far from home. Only after this pressure is established does Odysseus narrate his earlier adventures in a long flashback. The design creates suspense on several levels at once: whether the hero will reach Ithaca, whether his household can survive, whether his son can mature, and whether a man changed by war can become a husband, father, and king again.",
+    "simpler": "The Odyssey is powerful because it tells the journey out of order, making the return home a test of identity, family, memory, and authority.",
+    "keyTakeaway": "The poem's structure turns a wandering adventure into a study of restoration, showing that coming home requires narrative recognition, moral testing, and social repair.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Odysseus%20Sirens%20BM%20E440%20n2.jpg",
+    "learnImageCredit": {
+      "creator": "Siren Painter; photograph by Jastrow",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Odysseus_Sirens_BM_E440_n2.jpg"
     },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Arnold%20B%C3%B6cklin%20-%20Odysseus%20und%20Polyphemus%20(1896).jpg",
+    "thirdImageCredit": {
+      "creator": "Arnold Bocklin",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Arnold_B%C3%B6cklin_-_Odysseus_und_Polyphemus_(1896).jpg"
+    },
+    "deeperDive": "The poem's 24-book arrangement balances three movements: Telemachus' search, Odysseus' delayed return, and the recovery of the household. Its famous episodes are not random obstacles; they test qualities the final homecoming will require, including endurance, restraint, cunning, and the ability to conceal or reveal identity at the right moment. Recognition scenes with Telemachus, Eurycleia, Penelope, and Laertes then convert adventure into social proof. The structure is therefore less episodic than it first appears: each delay sharpens the question of what kind of order can exist after violence and absence.",
+    "funFact": "Odysseus tells many of his own adventures as a flashback inside the poem.",
+    "references": [
+      {
+        "title": "Perseus Digital Library: Homer, Odyssey",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hom.+Od."
+      },
+      {
+        "title": "Encyclopaedia Britannica: Odyssey",
+        "url": "https://www.britannica.com/topic/Odyssey-epic-by-Homer"
+      },
+      {
+        "title": "The British Library: Harley MS 6325",
+        "url": "https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Harley_MS_6325"
+      }
+    ],
     "keyElements": {
       "people": [
-        "* Homer (Ancient Greek poet and attributed author)",
-        "* Odysseus (Hero of the Odyssey)",
-        "* Athena (Greek goddess of wisdom and war)",
-        "* Poseidon (Greek god of the sea)",
-        "* Calypso (Siren who falls in love with Odysseus)"
+        "Homer",
+        "Odysseus",
+        "Penelope",
+        "Telemachus",
+        "Athena"
       ],
       "places": [
-        "* Ithaca (Odysseus' homeland and kingdom)",
-        "* Troy (City conquered by the Greeks during the Trojan War)",
-        "* Phaeacia (Island where Odysseus is shipwrecked and meets Nausicaa)",
-        "* Aeaea (Island of the Sirens, where Odysseus encounters Calypso)",
-        "* Mount Olympus (Home of the Greek gods)"
+        "Ithaca",
+        "Troy",
+        "Phaeacia",
+        "Ogygia",
+        "the Cyclopes' island"
       ],
       "years": [
-        "* 1200 BC (Approximate date of the Trojan War)",
-        "* 800 BC (Estimated date of The Odyssey's composition)",
-        "* 750 BC (Date of Homer's death, according to ancient sources)",
-        "* 500 BC (Time period when The Odyssey was likely written down in its final form)",
-        "* 700 BC (Period of ancient Greek literature's flourishing)"
+        "c. 8th century BCE",
+        "c. 12th century BCE",
+        "3rd quarter of the 15th century"
       ],
       "concepts": [
-        "* Epic poetry",
-        "* Ring composition",
-        "* Episodic narrative",
-        "* Hospitality and xenia",
-        "* Divine interventions",
-        "* Natural disasters and their symbolism"
+        "nostos",
+        "xenia",
+        "in medias res",
+        "flashback",
+        "recognition scene"
       ]
     }
   }

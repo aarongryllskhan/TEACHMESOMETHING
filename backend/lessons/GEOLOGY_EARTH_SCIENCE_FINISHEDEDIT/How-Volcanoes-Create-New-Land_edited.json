@@ -1,46 +1,66 @@
 {
-  "topic": "How Volcanoes Create New Land",
-  "title": "Understanding Volcanic Land Formation Through Geological Processes",
+  "topic": "Volcanoes and New Land",
+  "title": "How Volcanoes Create New Land",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Basaltic_lava_flow_%286763132567%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "USFWSAlaska",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Basaltic_lava_flow_(6763132567).jpg"
+  },
   "lesson": {
-    "learn": "Volcanoes have been shaping our planet's landscape for approximately 4.5 billion years, contributing to the creation of new land, reshaping coastlines, and influencing the Earth's climate. When volcanic eruptions occur, they release massive quantities of molten rock, ash, and gas into the atmosphere, which can lead to the formation of new land through processes such as lava flows, pyroclastic flows, and lahars. For example, the 1963 eruption that created Surtsey Island off the coast of Iceland was one of the most significant volcanic events of the 20th century, adding approximately 2 square kilometers of land to the Icelandic landscape. This geological process has resulted in the creation of some of the most spectacular landscapes on our planet, including towering volcanic mountains, sprawling island chains, and vast oceanic plateaus. Volcanoes also contribute to the global sedimentary cycle, adding nutrients to the oceans and influencing marine ecosystems.",
-    "simpler": "Imagine a massive factory that spews out hot, melted rock called lava, creating new land as it cools down. This process is similar to how a river delta forms, with sediment deposits accumulating over time. However, volcanic eruptions can happen much faster, sometimes creating new land in just a few years. Volcanoes are like nature's sculptors, shaping our planet's surface through their eruptions.",
-    "keyTakeaway": "One key aspect to understand is that volcanoes are a vital component of the Earth system, influencing both the creation and destruction of land through their eruptions. By understanding the geological processes involved in volcanic land formation, we can gain insights into the Earth's history, climate, and the evolution of life on our planet.",
-    "deeperDive": "A notable example of volcanic land formation is the Hawaiian Islands, which were created through an ongoing process of volcanic activity spanning millions of years. This process includes the creation of new land through lava flows, the eruption of volcanic ash and gas, and the subsequent collapse of volcanic structures. Another example is the island of Surtsey, which emerged from the sea in 1963 after a series of powerful eruptions. Studies of Surtsey Island provide valuable insights into the geological processes that shape our planet, including the creation of new land, the formation of oceanic crust, and the impact of volcanic activity on the environment. The largest volcano in our solar system, Olympus Mons on Mars, is also thought to have been formed through similar processes as those on Earth. Volcanoes have played a crucial role in creating the very fabric of our planet's surface, including the formation of oceanic and continental crusts.",
-    "funFact": "Volcanoes can create new land so quickly that it's possible for a new island to emerge in just a few years. For instance, the island of Nishinoshima off Japan's coast has been growing by about 100 meters every year due to volcanic eruptions since 2013.",
+    "learn": "Volcanoes create new land when lava cools and solidifies into fresh rock. That can happen on land, at the edge of the ocean, or even under water if eruptions build up enough material to rise above sea level. Over time, repeated eruptions stack layer on layer and produce islands, lava plains, and new coastlines.\n\nThis is one of geology's most dramatic ideas: the planet is not just being worn down. In places, it is being built up right now.",
+    "simpler": "Volcanoes create new land when hot lava cools into solid rock and builds up layer by layer.",
+    "keyTakeaway": "Volcanic eruptions can build brand-new ground from molten rock.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/d7/New_Volcanic_Island_%28BM_1871%2C0812.5325%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Print made by: Louis Haghe Printed by: Day &amp; Co Published by: Ackermann",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:New_Volcanic_Island_(BM_1871%2C0812.5325).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/La_Palma_lava_flows_into_the_sea_%2851564701938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "European Space Agency",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:La_Palma_lava_flows_into_the_sea_(51564701938).jpg"
+    },
+    "deeperDive": "Lava can form new land in several ways. Basalt flows can spread into broad plains, explosive eruptions can build volcanic cones, and underwater eruptions can eventually form islands. When lava enters the sea, it cools fast and may create a lava delta that extends the shoreline. Over long periods, erosion and vegetation then begin to reshape the raw volcanic surface.\n\nSo volcanic land is young, but not unfinished. It starts rough, then gradually becomes part of the normal landscape.",
+    "funFact": "Some islands are literally younger than the people who study them.",
+    "references": [
+      "Britannica - volcano",
+      "USGS - volcanic landforms",
+      "National Geographic - volcanic islands"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "1. **Icelandic geologist Haraldur Sigurdsson**, who studied the 1963 eruption that created Surtsey Island.",
-        "2. **Volcanologist Dr. Wendy McCaffrey**, an expert on Hawaiian volcanoes and their role in shaping the islands' landscapes.",
-        "3. **Dr. David Rothery**, a planetary scientist who has researched volcanic activity on Mars, including Olympus Mons.",
-        "4. **Geologist Bruce Fenton**, who studied the formation of oceanic crust at mid-ocean ridges.",
-        "5. **Dr. Maria Rodriguez**, an expert on climate regulation and the role of volcanoes in influencing atmospheric circulation.",
-        "**"
+        "Volcanologists - scientists studying eruptions",
+        "Geologists - experts in lava and landforms",
+        "Island residents - people living on volcanic ground",
+        "Emergency planners - people monitoring eruptive hazards"
       ],
       "places": [
-        "**",
-        "1. **Surtsey Island**, Iceland - a volcanic island that emerged from the sea in 1963.",
-        "2. **Hawaii Volcanoes National Park**, USA - home to some of the most active volcanoes on Earth, including Kilauea and Mauna Loa.",
-        "3. **Olympus Mons**, Mars - the largest volcano in our solar system.",
-        "4. **Mid-ocean ridges**, global - where new oceanic crust is created through volcanic activity.",
-        "**"
+        "Volcanic arcs - chains of volcanoes near subduction zones",
+        "Ocean coasts - where lava can make new shoreline",
+        "Basalt fields - broad lava landscapes",
+        "Volcanic islands - land built from eruptions"
       ],
       "years": [
-        "**",
-        "1. **1963**: The year Surtsey Island emerged from the sea after a series of powerful eruptions.",
-        "2. **1815**: Mount Tambora erupted in Indonesia, causing widespread destruction and influencing global climate patterns for years to come.",
-        "3. **1980**: Mount St. Helens erupted in Washington State, USA, creating one of the most iconic volcanic landscapes on Earth.",
-        "4. **2018**: Kilauea volcano began a 36-day-long eruption that created new land and influenced local ecosystems.",
-        "**"
+        "1963-1967 - Surtsey forms in real time",
+        "2010s - more lava deltas are documented",
+        "2020s - active eruptions continue to build land",
+        "Present day - volcanism still creates new surfaces"
       ],
       "concepts": [
-        "**",
-        "1. **Lava flows**: The process by which molten rock cools and solidifies, creating new land.",
-        "2. **Pyroclastic flows**: Fast-moving currents of hot ash, gas, and rock that can destroy everything in their path.",
-        "3. **Lahars**: Mudflows caused by volcanic ash mixing with water, often leading to devastating consequences for nearby communities.",
-        "4. **Island formation**: The process by which new land is created through volcanic activity, including the growth of coral reefs and the emergence of new islands.",
-        "5. **Volcanic arcs**: Chains of volcanoes that form when tectonic plates move over a hotspot or zone of mantle upwelling.",
-        "6. **Seafloor spreading**: The process by which new oceanic crust is created at mid-ocean ridges through volcanic activity and plate tectonics."
+        "Lava flow - molten rock moving at the surface",
+        "Lava delta - new land formed where lava enters water",
+        "Volcanic island - land created by eruptions",
+        "Basalt - common rock made from lava",
+        "Eruption - the release of magma at the surface"
       ]
     }
   }

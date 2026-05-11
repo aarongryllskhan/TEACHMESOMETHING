@@ -1,62 +1,61 @@
 {
-  "topic": "The Biology of Thought",
-  "title": "Exploring the Energy Efficiency of the Human Brain",
+  "topic": "Incredible Human Biology",
+  "title": "Why Your Brain Uses 20 Percent of Your Body’s Energy",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Complete_neuron_cell_diagram_numbered.svg",
+  "imageCredit": {
+    "creator": "LadyofHats / Mariana Ruiz Villarreal",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Complete_neuron_cell_diagram_numbered.svg"
+  },
+  "summary": "The brain’s large energy budget mainly pays for electrical signaling, synaptic maintenance, ion pumping, prediction, and background regulation, not just conscious thought.",
   "lesson": {
-    "learn": "The human brain is a remarkable organ that consumes approximately 20% of the body's total energy expenditure, despite accounting for only about 2% of its mass. This high energy consumption is primarily due to the brain's role in processing vast amounts of information, controlling bodily functions, and facilitating thought. According to a study published in the journal Nature, the brain's energy expenditure is comparable to running a small computer, with approximately 10-20 watts of power used to process information and control the body.\n\nOne of the key reasons for the brain's high energy efficiency is its ability to form and reorganize neural connections, a process known as synaptic plasticity. This allows the brain to adapt and learn throughout life, and is thought to be a key factor in the development of cognitive abilities such as memory and problem-solving. Researchers have found that this process can be enhanced through exercise, which increases blood flow and oxygenation to the brain.\n\nThe brain's energy efficiency has also been linked to its role in regulating sleep and wakefulness. Studies have shown that the brain is active even during sleep, with neural activity increasing during the rapid eye movement (REM) stage. During this stage, the brain is thought to be processing and consolidating memories, and is essential for learning and memory.\n\nIn addition to its role in regulating sleep and wakefulness, the brain's energy efficiency is also affected by diet and lifestyle. Research has shown that a diet rich in omega-3 fatty acids and antioxidants can help support cognitive function, while a lack of these nutrients can lead to cognitive decline. Furthermore, studies have found that a sedentary lifestyle can lead to a decline in brain function, highlighting the importance of regular physical activity for maintaining brain health.",
-    "simpler": "Imagine your brain is like a computer that runs 24/7, using up lots of energy to process information and control your body. This high energy consumption is due to the brain's ability to form and reorganize neural connections, which allows it to learn and adapt throughout life. Just like how your phone needs electricity to function, your brain needs energy to work efficiently.",
-    "keyTakeaway": "The brain's high energy efficiency is primarily due to its role in processing vast amounts of information, controlling bodily functions, and facilitating thought. This is thought to be a key factor in the development of cognitive abilities such as memory and problem-solving.",
-    "deeperDive": "Recent studies have shown that the brain's energy efficiency can be improved through exercise, which increases blood flow and oxygenation to the brain. This concept has led to the development of neuroprotective strategies aimed at reducing the risk of neurodegenerative diseases such as Alzheimer's and Parkinson's. Research also suggests that a diet rich in omega-3 fatty acids and antioxidants may help support cognitive function. Furthermore, advances in neuroscience have enabled us to better understand how neural connections are formed and maintained, leading to breakthroughs in fields like psychology and artificial intelligence.",
-    "funFact": "Interestingly, the brain uses more energy when we're asleep than when we're awake, with neural activity increasing during the rapid eye movement (REM) stage.",
+    "learn": "The adult human brain is only a small fraction of body weight, yet it consumes roughly a fifth of resting energy. That sounds as if deep thinking must be metabolically expensive, but the truth is stranger. Most of the bill is paid before conscious thought even enters the room. Neurons maintain steep ion gradients across their membranes, restore those gradients after electrical activity, recycle neurotransmitters, support synapses, and keep vast networks ready to respond. The brain also runs continuous background work: predicting sensory input, regulating breathing and heart rate, monitoring the body, managing attention, consolidating memory, and maintaining wakefulness. Hard mental effort can raise activity in specific networks, but it usually does not double the brain’s total energy use. The organ is already operating near a high baseline. Conscious reasoning is like changing the pattern of lights in a city that is already fully powered. Your brain spends so much energy because information processing requires readiness, rapid signaling, and chemical precision every second you are alive.",
+    "simpler": "Your brain uses so much energy because neurons are always maintaining electrical gradients, synapses, body regulation, memory, attention, and prediction. Conscious thinking is only part of an already expensive system.",
+    "keyTakeaway": "The brain’s energy demand comes less from occasional hard thinking than from nonstop electrical maintenance, synaptic signaling, prediction, and life-support control.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Neuron_synapse.svg",
+    "learnImageCredit": {
+      "creator": "Original: Curtis Neveu; vector: Pixelsquid",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Neuron_synapse.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Metabolism_diagram.svg",
+    "thirdImageCredit": {
+      "creator": "Zlir’a",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Metabolism_diagram.svg"
+    },
+    "deeperDive": "Neural computation is energetically expensive because signals are physical events. Action potentials move ions across membranes, synapses release and clear neurotransmitters, and pumps then restore the electrochemical gradients that make the next signal possible. Glial cells also consume energy as they support neurotransmitter recycling, metabolic supply, and local homeostasis. A large share of energy use is tied to synaptic transmission and the maintenance of resting potentials, which explains why the brain remains costly even during quiet rest. Functional imaging often measures changes in blood flow or oxygen use, but those changes ride on top of a high baseline. This is why mental fatigue can feel profound even when total calories burned barely change. The limiting resource is not only fuel; it is coordination, neurotransmitter balance, sleep pressure, attention, and the ability to sustain accurate signaling without noise overwhelming the system.",
+    "funFact": "Thinking harder burns fewer extra calories than most people expect.",
+    "references": [
+      {
+        "title": "Brain energy budget review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3900881/"
+      }
+    ],
     "keyElements": {
       "people": [
-        {
-          "name": "Donald Hebb",
-          "bio": "Neuroscientist who discovered that neurons that fire together wire together"
-        },
-        {
-          "name": "Santiago RamÃ³n y Cajal",
-          "bio": "Nobel laureate who pioneered the discovery of neural connections"
-        },
-        {
-          "name": "V.S. Ramachandran",
-          "bio": "Neuroscientist who explored the neural basis of perception and cognition"
-        },
-        {
-          "name": "John Watson",
-          "bio": "Physician and psychologist who studied the behavior and cognition of humans"
-        },
-        {
-          "name": "Edward Tolman",
-          "bio": "Psychologist who studied the behavioral aspects of learning and cognition"
-        }
+        "Marcus Raichle - neuroscientist known for work on resting brain activity and default mode networks",
+        "David Attwell - researcher associated with brain energy budget studies"
       ],
       "places": [
-        "University of California, San Diego",
-        "University of Oxford",
-        "Harvard University",
-        "Stanford University",
-        "University of Cambridge"
+        "Cerebral cortex - region supporting perception, planning, language, and reasoning",
+        "Synapse - junction where neurons communicate chemically or electrically"
       ],
       "years": [
-        {
-          "year": 1865,
-          "event": "Santiago RamÃ³n y Cajal first discovers neural connections in frog brains"
-        },
-        {
-          "year": 1950,
-          "event": "Donald Hebb publishes his groundbreaking book \"The Organization of Behavior\""
-        },
-        {
-          "year": 1990,
-          "event": "Brain imaging techniques like fMRI become widely used in neuroscience research"
-        }
+        "2001 - default mode network research reshaped thinking about resting brain activity",
+        "2012 - brain energy studies emphasized synaptic and ion-pump costs"
       ],
       "concepts": [
-        "Synaptic plasticity",
-        "Neural adaptation",
-        "Cerebral cortex",
-        "Cognitive abilities",
-        "Neurodegenerative diseases"
+        "Ion gradients - electrical-chemical differences neurons must maintain",
+        "Synaptic transmission - neuron-to-neuron signaling process",
+        "Resting metabolism - baseline energy use while the body is at rest",
+        "Default mode network - active brain network involved in internal thought and memory"
       ]
     }
   }

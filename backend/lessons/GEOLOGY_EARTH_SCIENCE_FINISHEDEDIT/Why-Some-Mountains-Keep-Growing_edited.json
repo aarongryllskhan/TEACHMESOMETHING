@@ -1,33 +1,66 @@
 {
-  "topic": "Why-Some-Mountains-Keep-Growing",
-  "title": "Understanding the Enduring Uplift of Mountains: The Role of Tectonic Plate Movement",
+  "topic": "Mountains Still Rising",
+  "title": "Why Some Mountains Keep Growing Today",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Some_Types_of_Orogen_-_Cross-section_Diagrams.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "O. Adrian Pfiffner",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Some_Types_of_Orogen_-_Cross-section_Diagrams.png"
+  },
   "lesson": {
-    "learn": "The Earth's surface undergoes constant transformation due to geological processes, with some mountains experiencing perpetual growth as a result of tectonic plate movement and orogenesis. This phenomenon has puzzled scientists for centuries, as it challenges the conventional understanding of mountain formation as a static process. By investigating the intricate dynamics between plate movement and mountain growth, researchers have shed light on the underlying mechanisms driving this process. Recent studies have revealed that the growth of certain mountain ranges, such as the Himalayas, is largely driven by continental collision and orogenesis. For instance, the Tibetan Plateau has been growing at an astonishing rate of 1-2 centimeters per year due to ongoing tectonic uplift.",
-    "simpler": "Envision the Earth's surface as a dynamic, ever-changing puzzle. Tectonic plates, the 'pieces' of this puzzle, are constantly shifting and colliding, causing some areas to rise up like mountains. This process is similar to adding new layers to a structure, making it grow taller over time. By understanding the mechanisms driving this process, scientists can gain insights into the Earth's geological history and potentially forecast future changes.",
-    "keyTakeaway": "A critical understanding of why some mountains keep growing reveals the essential dynamic nature of the Earth's geology. Recognizing that mountains are shaped by the relentless forces of tectonic plate movement provides a framework for comprehending the Earth's surface evolution.",
-    "deeperDive": "Studies have shown that the growth of the Himalayas is largely driven by the collision of the Indian and Eurasian tectonic plates. This process began around 50 million years ago and has resulted in the formation of the world's highest mountain range. The Tibetan Plateau, which has been growing at a rate of 1-2 centimeters per year, is a prime example of a region experiencing ongoing tectonic uplift. Furthermore, research has revealed that tectonic uplift has a significant impact on the Earth's climate, influencing global atmospheric circulation patterns.",
-    "funFact": "The Andes mountain range has been growing at an incredible rate of 5-10 millimeters per year due to the subduction of the Nazca Plate beneath the South American Plate. This phenomenon is a direct result of the ongoing process of plate tectonics, which continues to shape our planet's surface.",
+    "learn": "Some mountain ranges are still growing because the tectonic forces that built them have not finished. If plates keep converging or the crust is still rebounding and thickening, uplift can continue even while erosion tries to wear the range down. Mountains are always in a tug-of-war between building and destruction.\n\nThat means the range we see today is just a snapshot. The rocks are still moving, even if the motion is too slow for human eyes.",
+    "simpler": "Some mountains keep growing because tectonic forces are still pushing the crust upward.",
+    "keyTakeaway": "Mountain growth continues wherever uplift outpaces erosion.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/77/Formation_of_Cape_Fold_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Oggmus",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Formation_of_Cape_Fold_Mountains.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/20/Taconic_orogeny.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Lyn Topinka, United States Geological Survey. Modified from Plank and Schenck, 1998, Delaware Piedmont Geology, Delaware Geological Society.",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Taconic_orogeny.png"
+    },
+    "deeperDive": "Ranges can keep rising for several reasons: crustal shortening at a collision zone, subduction-related compression, mantle dynamics, or isostatic rebound after ice or erosion removes weight from the crust. The exact mechanism depends on the region. In places like the Himalayas, plate collision is still active. In others, old mountain belts may rise slowly because the crust is still adjusting.\n\nSo mountains are not finished products. They are processes made visible.",
+    "funFact": "Some mountain ranges are still being pushed upward right now.",
+    "references": [
+      "Britannica - orogeny",
+      "USGS - mountain uplift",
+      "National Geographic - plate tectonics"
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Jean-Jacques Moorbath â€“ Geologist and expert in tectonic processes",
-        "* Dr. Susan Nielsen â€“ Geophysicist studying mountain growth mechanisms",
-        "* Dr. Peter Molnar â€“ Researcher on orogenesis and its impact on climate"
+        "Geophysicists - scientists measuring crustal motion",
+        "Geologists - researchers studying uplift",
+        "Glaciologists - scientists tracking erosion by ice",
+        "Mountain communities - people living with changing landscapes"
       ],
       "places": [
-        "* The Himalayas â€“ A prime example of a region experiencing ongoing tectonic uplift",
-        "* The Tibetan Plateau â€“ Continuously growing due to continental collision",
-        "* The Andes Mountain Range â€“ Resulting from subduction processes"
+        "The Himalayas - one of the fastest-growing ranges",
+        "Fold belts - classic compressional mountain zones",
+        "Uplifted plateaus - regions still rebounding",
+        "Active fault systems - places where mountains can rise"
       ],
       "years": [
-        "* 1912 â€“ The discovery of the Indian plate beneath the Eurasian Plate by Alfred Wegener",
-        "* 1960s â€“ The development of plate tectonics theory revolutionizing our understanding of Earth's geology",
-        "* 1985 â€“ The first GPS measurements confirmed the growth rate of the Himalayas"
+        "Late 1900s - GPS reveals ongoing uplift",
+        "2000s - mountain growth is measured more precisely",
+        "Present day - ranges are tracked in real time",
+        "Future - mountain building will continue as long as plates move"
       ],
       "concepts": [
-        "* Continental collision and orogenesis",
-        "* Subduction processes and plate movement",
-        "* Tectonic uplift and its effects on climate and mountain formation",
-        "* Geodynamics and its role in shaping our planet's surface"
+        "Uplift - upward movement of crust",
+        "Orogen - a mountain belt",
+        "Compression - squeezing of rock layers",
+        "Isostasy - crustal balance and rebound",
+        "Erosion - the force that counteracts growth"
       ]
     }
   }

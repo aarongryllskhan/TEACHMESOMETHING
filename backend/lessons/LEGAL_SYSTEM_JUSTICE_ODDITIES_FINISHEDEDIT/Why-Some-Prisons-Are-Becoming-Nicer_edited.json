@@ -1,34 +1,63 @@
 {
-  "topic": "Why-Some-Prisons-Are-Becoming-Nicer",
-  "title": "Exploring the Methods Behind Prison Reform and Rehabilitation",
+  "topic": "Why Some Prisons Are Becoming Nicer",
+  "title": "Why Some Prisons Focus on Rehabilitation",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Interior_in_Halden_prison.jpg",
+  "imageCredit": {
+    "creator": "Justis- og beredskapsdepartementet / Norwegian Correctional Service",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Interior_in_Halden_prison.jpg"
+  },
+  "summary": "Some prisons are becoming less brutal because evidence and human-rights principles increasingly frame rehabilitation as a public-safety strategy, not a luxury.",
   "lesson": {
-    "learn": "The modern prison system is undergoing a significant transformation, with a growing emphasis on rehabilitation over punishment. According to the Pew Research Center, the number of correctional facilities offering educational programs has increased by 55% since 2000, with many institutions upgrading their facilities to create more conducive environments for inmates to reintegrate into society. This shift involves implementing innovative programs, such as job training, counseling services, and access to education, to reduce recidivism rates and promote positive behavior. For instance, the San Quentin State Prison in California has introduced programs like yoga classes, gardening projects, and art therapy to reduce stress and promote mindfulness, resulting in a 25% decrease in disciplinary incidents in 2020.",
-    "simpler": "Prisons are evolving from correctional facilities to learning environments, where inmates can acquire new skills, improve their mental health, and become productive members of society upon release. Take the example of the Sønder Omme Prison in Denmark, which has transitioned its focus from punishment to rehabilitation, featuring state-of-the-art facilities and a unique 'open prison' system.",
-    "keyTakeaway": "The most essential aspect of prison reform is the recognition that rehabilitation is a long-term investment. By providing inmates with access to education, job training, and counseling services, we can help them develop the skills and confidence necessary to succeed upon release, ultimately reducing recidivism rates and promoting community safety.",
-    "deeperDive": "The Norwegian Correctional Service has pioneered a groundbreaking program called 'Restorative Justice,' which involves offenders making amends with their victims through dialogue and mutual understanding. This approach has been shown to result in a 30% decrease in recidivism rates and a 40% decrease in victimization among victims of crime. Similarly, facilities like the Oregon State Correctional Institution have implemented evidence-based treatment programs for substance abuse and mental health disorders, leading to a 25% decrease in violence and improved overall well-being within correctional facilities. Additionally, research has demonstrated that exposure to natural light, fresh air, and green spaces can significantly improve mood and cognitive function in prisoners, with some prisons incorporating green roofs, gardens, and courtyard spaces to promote inmate well-being.",
-    "funFact": "Did you know that the United States has one of the highest incarceration rates in the world, yet many prisons still lack basic amenities and resources to support prisoners' well-being? According to the ACLU, nearly 1 in 5 prisoners in the US lack access to educational programs, while 1 in 3 lack access to mental health services.",
+    "learn": "Nicer prisons are not built on the idea that crime has no consequences. They are built on the idea that punishment is the loss of liberty, not the destruction of a persons ability to return to society. Norway calls this the principle of normality: life inside should resemble life outside as much as security allows, because most incarcerated people will eventually leave. That logic has influenced interest in education, treatment, family contact, mental-health care, work training, and less degrading physical environments. Research on correctional education also supports the practical case: programs that build skills can reduce recidivism after release. The public-safety argument is simple. A prison that produces more trauma, illness, and isolation may make reentry harder; a prison that builds stability and responsibility may reduce future harm.",
+    "simpler": "Some prisons are becoming more humane because most prisoners eventually come home. Education, treatment, normal routines, and dignity can make reentry safer for everyone.",
+    "keyTakeaway": "Humane prison design treats rehabilitation as a security strategy, using dignity, education, treatment, and gradual reentry to reduce future harm.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/San_Quentin_State_Prison.jpg",
+    "learnImageCredit": {
+      "creator": "Frank Schulenburg",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:San_Quentin_State_Prison.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/US_federal_prison_education.jpg",
+    "thirdImageCredit": {
+      "creator": "U.S. Department of Justice, Bureau of Prisons",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:US_federal_prison_education.jpg"
+    },
+    "deeperDive": "The challenge is that nicer conditions alone do not guarantee better outcomes. A modern building without meaningful programs can still warehouse people. Effective reform links environment to staffing culture, risk-needs assessment, education, addiction treatment, mental-health care, family support, and post-release housing or work. It also has to protect victims and staff safety. The strongest model is not comfort for its own sake; it is a sentence structured around accountability and reintegration. The evidence base is uneven across programs, but the direction is clear: prisons that prepare people for lawful community life are more rational than prisons that intensify the problems that helped produce crime.",
+    "funFact": "Norways correctional principle says officials need a reason to deny rights, not a reason to grant them.",
+    "references": [
+      "https://www.kriminalomsorgen.no/about-the-norwegian-correctional-service.6327382-536003.html",
+      "https://www.ojp.gov/library/publications/evaluating-effectiveness-correctional-education-meta-analysis-programs-provide",
+      "https://bjs.ojp.gov/library/publications/recidivism-prisoners-released-24-states-2008-10-year-follow-period-2008-2018"
+    ],
     "keyElements": {
       "people": [
-        "Robert Martinson",
-        "Tony Ryan",
-        "Martin Seligman"
+        "Norwegian Correctional Service - agency associated with the normality principle",
+        "Lois Davis - RAND researcher on correctional education",
+        "Correctional educators - staff who turn incarceration time into skill-building time"
       ],
       "places": [
-        "San Quentin State Prison, California, USA",
-        "Sønder Omme Prison, Denmark",
-        "Oregon State Correctional Institution"
+        "Halden Prison - Norwegian facility associated with rehabilitative design",
+        "San Quentin - U.S. prison known for reform programs and media projects",
+        "Federal prisons - institutions where education and reentry programs are debated"
       ],
       "years": [
-        1970,
-        1990,
-        2000,
-        2020
+        "2010 - Halden Prison opens",
+        "2013 - RAND meta-analysis reports benefits of correctional education",
+        "2021 - BJS 10-year recidivism study highlights reentry challenges"
       ],
       "concepts": [
-        "Restorative Justice",
-        "Evidence-based treatment programs",
-        "Green spaces in corrections",
-        "Rehabilitation over punishment"
+        "Normality principle - prison life resembling outside life where security allows",
+        "Rehabilitation - reducing future crime by addressing risks and needs",
+        "Recidivism - return to criminal behavior after sanction",
+        "Reentry - transition from custody back to community"
       ]
     }
   }

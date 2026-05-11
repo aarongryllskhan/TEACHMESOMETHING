@@ -1,46 +1,79 @@
 {
-  "topic": "Why-Shakespeare-Invented-1700-Words-We-Still-Use",
-  "title": "\"The Bard of Avon\" Leaves Lasting Marks on Language**",
+  "topic": "Shakespeare and the English Language",
+  "title": "Why Shakespeare Invented 1,700 Words We Still Use",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakespeare.jpg",
+  "imageCredit": {
+    "creator": "Attributed to John Taylor; National Portrait Gallery",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Shakespeare.jpg"
+  },
+  "summary": "Shakespeare did not single-handedly invent modern English, but his plays and poems helped preserve, popularize, and display an extraordinary range of words.",
   "lesson": {
-    "learn": "William Shakespeare, widely regarded as the greatest writer in the English language, is credited with inventing over 1,700 words that we still use today. His extensive contributions to the English lexicon have made his impact on literature and language profound and enduring. Through his works, Shakespeare not only captivated audiences with his masterful storytelling but also shaped the very fabric of our language. As a playwright, poet, and actor, he defied conventions and explored new forms of expression that continue to inspire writers and artists around the world. His influence can be seen in many aspects of modern literature, from poetry to drama, and even music.",
-    "simpler": "Think of Shakespeare like a master chef who invented 1,700 new recipes for words! He used these words to create amazing stories that people loved, and now we still use those words every day. His words are like magic spells that bring characters to life on stage or page.",
-    "keyTakeaway": "Shakespeare's incredible legacy lies in the over 1,700 words he coined, which continue to enrich our language today. This enduring impact is a testament to his boundless creativity and innovative spirit as a writer and artist.",
-    "deeperDive": "Recent studies have confirmed that Shakespeare's linguistic innovations have been adopted into modern English at an astonishing rate. His use of metaphor, imagery, and wordplay has influenced generations of writers and poets, from John Milton to Emily Dickinson. The words \"assassination\" and \"lonely\" are just two examples of the many terms he introduced to describe human emotions. Shakespeare's works also contain some of the most famous phrases in English literature, such as \"to be or not to be,\" which have become ingrained in our collective cultural consciousness. His iconic characters like Hamlet, Macbeth, and Othello continue to captivate audiences worldwide, demonstrating his profound grasp of human psychology and emotion. Furthermore, Shakespeare's plays often explored complex themes like power, politics, and social inequality, making him a pioneering figure in the development of English drama.",
-    "funFact": "Did you know that some words coined by Shakespeare have multiple meanings, reflecting the complexities of the human experience? For instance, his word \"bedazzled\" originally meant to be dazzled or bewildered but now has a more nuanced connotation of being utterly fascinated.",
+    "learn": "The claim that Shakespeare invented 1,700 words needs nuance. Scholars often mean that his works contain the first recorded uses of many words in surviving English sources, not that he personally coined every one from nothing. Early modern English was unusually flexible: writers converted nouns into verbs, added prefixes and suffixes, borrowed from Latin and French, and experimented with compound forms. Shakespeare was exceptionally visible because his plays were printed, performed, quoted, and later indexed by dictionaries. His genius was not just making words, but placing them in dramatic situations where audiences could instantly feel their force.",
+    "simpler": "Shakespeare's works preserve many early uses of English words, and his popularity helped those words and phrases travel widely.",
+    "keyTakeaway": "His linguistic legacy comes from turning the experimental energy of early modern English into memorable dramatic speech that later readers, actors, and lexicographers kept alive.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/First%20Folio%20title%20page%20William%20Shakespeare%201623.jpg",
+    "learnImageCredit": {
+      "creator": "Martin Droeshout",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:First_Folio_title_page_William_Shakespeare_1623.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakespeare's%20Globe%20Theatre%2C%20London.JPG",
+    "thirdImageCredit": {
+      "creator": "Sourav Niyogi",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Shakespeare's_Globe_Theatre%2C_London.JPG"
+    },
+    "deeperDive": "Because dictionaries rely on written evidence, famous authors can appear to 'invent' words that may already have circulated in speech. That does not diminish Shakespeare's achievement. Words such as 'lonely,' 'majestic,' and 'bedazzled' are powerful in his work because they arrive inside conflicts of love, ambition, jealousy, grief, and performance. The plays also made language itself theatrical: puns, insults, metaphors, legalisms, songs, and rhetorical games become tools by which characters test power and identity.",
+    "funFact": "The First Folio preserved many plays that might otherwise have been lost.",
+    "references": [
+      {
+        "title": "Shakespeare Birthplace Trust: Shakespeare's words",
+        "url": "https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-words/"
+      },
+      {
+        "title": "Folger Shakespeare Library: First Folio",
+        "url": "https://www.folger.edu/explore/shakespeare-in-print/first-folio/"
+      },
+      {
+        "title": "Oxford English Dictionary: Shakespeare",
+        "url": "https://www.oed.com/information/understanding-entries/shakespeare/"
+      }
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "- William Shakespeare (English playwright and poet)",
-        "- John Milton (English epic poet influenced by Shakespeare's works)",
-        "- Emily Dickinson (American poet whose work was shaped by Shakespeare's style)",
-        "- Samuel Johnson (English writer who compiled the first dictionary of English words, including those coined by Shakespeare)",
-        "- Harold Bloom (American literary critic and scholar who studied Shakespeare's influence on literature)",
-        "* **"
+        "William Shakespeare",
+        "Martin Droeshout",
+        "Ben Jonson",
+        "Samuel Johnson",
+        "John Heminge and Henry Condell"
       ],
       "places": [
-        "**",
-        "- Stratford-upon-Avon (Shakespeare's birthplace and hometown in Warwickshire, England)",
-        "- The Globe Theatre (London playhouse where many of Shakespeare's works were first performed)",
-        "- Oxford University (where Shakespeare's plays and poems were studied and analyzed by scholars)",
-        "- The British Library (home to rare editions of Shakespeare's works and manuscripts)",
-        "* **"
+        "Stratford-upon-Avon",
+        "London",
+        "the Globe Theatre",
+        "Blackfriars Theatre",
+        "the Folger Shakespeare Library"
       ],
       "years": [
-        "**",
-        "- 1564 (Shakespeare's birth year)",
-        "- 1589 (Shakespeare married Anne Hathaway in a traditional English wedding ceremony)",
-        "- 1603 (Queen Elizabeth I died, marking the beginning of James I's reign)",
-        "- 1610 (Shakespeare retired to Stratford-upon-Avon and returned to his hometown permanently)",
-        "* **"
+        "1564",
+        "1599",
+        "1616",
+        "1623",
+        "1755"
       ],
       "concepts": [
-        "**",
-        "- Metaphor",
-        "- Imagery",
-        "- Wordplay",
-        "- Alliteration",
-        "- Assonance",
-        "- Sonnet structure"
+        "first recorded use",
+        "early modern English",
+        "neologism",
+        "wordplay",
+        "lexicography"
       ]
     }
   }

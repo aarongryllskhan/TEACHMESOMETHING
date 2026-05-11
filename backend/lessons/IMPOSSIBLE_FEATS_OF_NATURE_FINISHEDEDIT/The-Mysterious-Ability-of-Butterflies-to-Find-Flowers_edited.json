@@ -1,33 +1,67 @@
 {
-  "topic": "Navigating the Unknown",
-  "title": "Understanding the Methods Behind Butterfly Migration",
+  "topic": "Butterfly Flower-Finding",
+  "title": "How Butterflies Find Flowers With Color, Smell, and Memory",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Butterfly%20flower.jpg",
+  "imageCredit": {
+    "creator": "Arthi Subramaniam",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Butterfly_flower.jpg"
+  },
+  "summary": "Butterflies find flowers by combining color vision, scent, nectar cues, learned routes, landing behavior, and sensory feedback from their antennae, feet, and proboscis.",
   "lesson": {
-    "learn": "Butterflies have been observed to migrate thousands of miles each year, traversing vast distances with remarkable accuracy. The migratory patterns of the monarch butterfly, for example, have been extensively studied since the work of Dr. Rosalind Harding in the 1970s. Her research demonstrated that these butterflies travel from Canada to Mexico each fall in a single generation, a feat that would be equivalent to a human covering the distance between New York and Los Angeles in under two weeks.",
-    "simpler": "Consider the challenge of migrating thousands of miles each year, relying only on innate navigational abilities and spatial memory. Butterflies accomplish this remarkable feat by leveraging a combination of visual cues, such as the position of the sun and polarized light, as well as an innate sense of magnetic field orientation.",
-    "keyTakeaway": "Butterflies possess an innate sense of navigation that enables them to locate food sources, including nectar-rich flowers, by employing spatial memory and visual cues.",
-    "deeperDive": "Studies have revealed that monarch butterflies utilize a magnetic compass-like system to navigate during their migrations. This is achieved through the detection of magnetite, a magnetically sensitive mineral found in the butterflies' bodies. Furthermore, research has identified specific brain regions in butterflies responsible for processing spatial information and navigating complex routes. The migratory patterns of certain butterfly species have also been found to be influenced by their genetic makeup, with some species exhibiting strong photoperiodism, which affects their sensitivity to light and darkness.",
-    "funFact": "Butterflies are not unique in their navigational abilities, as bees have also been observed using similar skills to locate nectar-rich flowers in complex environments. In fact, research has shown that bumblebees use visual and olfactory cues to navigate and communicate with one another.",
+    "learn": "A butterfly does not find a flower by one sense alone. It searches with a layered sensory system tuned for daylight foraging. Vision is crucial: many butterflies see colors humans cannot, including ultraviolet patterns that can act like nectar guides. Bright clustered flowers offer landing platforms and visual targets, while flower shape helps determine whether a butterfly can reach nectar with its long proboscis. Smell also matters, especially at closer range, because floral scents and plant chemicals help distinguish rewarding flowers from empty or unsuitable ones. After landing, taste receptors on the feet and proboscis can confirm whether nectar is present. Learning sharpens the process. Butterflies can remember profitable colors, flower types, and patches, then adjust foraging choices as rewards change. Their success comes from combining instinctive preferences with flexible experience.",
+    "simpler": "Butterflies find flowers by using color, ultraviolet patterns, scent, taste, flower shape, and memory of which blooms gave nectar before.",
+    "keyTakeaway": "Butterfly flower-finding is a sensory decision system in which color vision points the way, scent and taste confirm the reward, and memory improves future choices.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Butterfly%20flowers.jpg",
+    "learnImageCredit": {
+      "creator": "Navi8apr",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Butterfly_flowers.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue%20butterfly%20flower.jpg",
+    "thirdImageCredit": {
+      "creator": "KISHAN MUNDHRA",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Blue_butterfly_flower.jpg"
+    },
+    "deeperDive": "Butterfly foraging reveals a tight relationship between pollinators and flowers. Many butterfly-visited flowers are open during the day, brightly colored, clustered, and shaped to provide a landing surface. Their nectar is often hidden deep enough that a proboscis becomes useful. Butterflies are generally less efficient pollen carriers than bees because their bodies do not collect pollen as heavily, but they can still transfer pollen while feeding. Color preference is not fixed across all species; it varies with ecology, learning, season, and available plants. Some butterflies favor yellow or orange flowers in experiments, while others respond strongly to red, purple, or ultraviolet cues. Scent can be especially useful when many flowers look similar. A butterfly moving through a meadow is therefore performing rapid sensory ranking: approach, inspect, land, taste, feed, remember, and move on.",
+    "funFact": "Many flowers have ultraviolet patterns that can guide butterflies toward nectar.",
+    "references": [
+      "USDA Forest Service - butterfly pollination",
+      "PubMed - flower color and nectaring in butterflies",
+      "ScienceDirect - butterfly bush scent, color, and nectar"
+    ],
     "keyElements": {
       "people": [
-        "1. Dr. Rosalind Harding - Entomologist who studied monarch butterfly migration",
-        "2. Professor Kenneth Walker - Expert on butterfly navigation and spatial memory",
-        "3. Dr. Susan Jones - Biologist studying the role of genetics in butterfly migration"
+        "Karl von Frisch - pioneer of insect sensory research",
+        "Entomologists - scientists who study butterfly foraging behavior",
+        "Pollination ecologists - researchers who study flower-pollinator relationships",
+        "Botanists - scientists who study floral traits and nectar rewards"
       ],
       "places": [
-        "1. Mexico's Monarch Butterfly Reserve - Site of massive migratory gatherings",
-        "2. The Amazon Rainforest - Home to a vast array of butterfly species",
-        "3. The University of California, Berkeley - Center for advanced research on butterfly biology"
+        "Flower meadows - habitats where butterflies compare many blooms",
+        "Proboscis - feeding tube used to reach nectar",
+        "Antennae - sensory organs involved in smell and orientation",
+        "Landing platforms - flower structures that support feeding butterflies"
       ],
       "years": [
-        "1. 1975 - Discovery of monarch butterfly migration patterns by Dr. Rosalind Harding",
-        "2. 2008 - Publication of groundbreaking study on butterfly navigation and spatial memory",
-        "3. 2019 - Release of comprehensive guide to butterfly conservation efforts worldwide"
+        "20th century - insect color vision becomes a major research field",
+        "2014 - studies examine butterfly bush scent, color, and nectar traits",
+        "2023 - research documents flower color effects on butterfly nectaring",
+        "Present day - pollination research combines behavior, chemistry, and conservation"
       ],
       "concepts": [
-        "1. Spatial Memory: Ability of butterflies to remember complex routes and locations",
-        "2. Magnetic Compass Navigation: System used by monarch butterflies to navigate magnetic fields",
-        "3. Photoperiodism: Sensitivity of butterflies to light and darkness, influencing migratory patterns",
-        "4. Hibernation: Period of dormancy in certain butterfly species during winter months"
+        "Nectar guide - visual pattern that directs pollinators",
+        "Ultraviolet vision - ability to see wavelengths beyond human sight",
+        "Proboscis - long feeding tube used by butterflies",
+        "Foraging memory - learned information about profitable flowers",
+        "Pollination - transfer of pollen during animal visits to flowers"
       ]
     }
   }

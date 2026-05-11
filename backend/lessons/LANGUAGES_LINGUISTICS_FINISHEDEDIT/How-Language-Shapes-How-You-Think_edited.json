@@ -1,34 +1,61 @@
 {
-  "topic": "Language and Thought",
-  "title": "Understanding the Relationship Between Language and Cognition",
+  "topic": "How Language Shapes How You Think",
+  "title": "How Words Guide Attention Without Trapping Thought",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Color_Wheel_2026.jpg",
+  "imageCredit": {
+    "creator": "Danny William Wilson",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Color_Wheel_2026.jpg"
+  },
+  "summary": "Language shapes thought by guiding attention, memory, categories, and habitual description, while leaving people able to learn new patterns and think beyond their first language.",
   "lesson": {
-    "learn": "Since Benjamin Lee Whorf first proposed the idea in 1917, linguists and cognitive scientists have extensively studied the relationship between language and cognition. Whorf's groundbreaking paper, \"The Relation of Habitual Thought and Behavior to Language,\" published in the American Anthropologist, laid the foundation for this research. Studies have consistently shown that speakers of different languages exhibit distinct thought patterns, problem-solving abilities, and spatial reasoning skills. For example, research conducted by cognitive scientist Stephen Levinson found that speakers of languages with grammatical gender tend to have a stronger association between words and concepts, leading to more nuanced and detailed thinking. In contrast, speakers of languages without grammatical gender tend to rely more on context and imagery when processing information. The impact of language on thought is a complex and multifaceted topic, with far-reaching implications for our understanding of human cognition and behavior.",
-    "simpler": "Imagine learning a new language that changes how you perceive and understand the world. Language acts as a lens through which we view reality, influencing what we notice and how we process information. Just as a camera's lens can change the perspective of the image, language shapes our perception of the world by affecting how we categorize and conceptualize objects and events. For instance, the Hopi Native American language has a specific word for \"slow down\" or \"take your time,\" which doesn't exist in many other languages, highlighting the unique cultural values and priorities of the Hopi people.",
-    "keyTakeaway": "The key takeaway from this topic is that language has a profound impact on our cognition and behavior. By recognizing the complex relationship between language and thought, we can develop more effective communication strategies and improve our understanding of others. Furthermore, acknowledging the role of language in shaping our perception of reality can help us appreciate the diversity of human experiences and cultures.",
-    "deeperDive": "Research has also explored the role of language in shaping our moral and ethical judgments. Studies have found that speakers of languages with more nuanced grammatical structures tend to exhibit more complex and context-dependent moral reasoning. For example, a bilingual person may use more analytical reasoning in English but more holistic reasoning in their native language. The study of linguistic relativity has far-reaching implications for education, communication, and our understanding of human behavior.",
-    "funFact": "Did you know that researchers have found that bilingual individuals often switch between language-specific thought patterns depending on the language they are speaking or thinking in? This phenomenon highlights the adaptability and complexity of human cognition and the impact of language on thought.",
+    "learn": "The serious version of linguistic relativity is not the claim that language imprisons thought. It is subtler and more interesting: languages make some distinctions easy to notice, remember, and talk about, so speakers practice attending to them. A language with grammatical evidentiality may require speakers to mark whether they saw an event, heard about it, or inferred it. A language with absolute direction terms may train speakers to track north, south, east, and west in daily life. Color vocabularies can sharpen category boundaries; number words can make exact quantity easier to hold in memory; grammatical gender can nudge associations around objects. None of this means speakers are unable to understand concepts their language does not encode. People translate, learn, invent, and adapt constantly. But language is a habit of attention. It tells the brain what distinctions are normally worth packaging, and repeated packaging can influence perception, memory, and reasoning.",
+    "simpler": "Language does not lock your mind in a box. It nudges what you notice and remember by making certain distinctions easier to say over and over.",
+    "keyTakeaway": "Language shapes thought as a system of practiced attention, making some categories, memories, and contrasts more mentally available without making other ideas impossible.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Colorwheel.png",
+    "learnImageCredit": {
+      "creator": "Mirtlie",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Colorwheel.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_Language_Families_Map.PNG",
+    "thirdImageCredit": {
+      "creator": "Industrius and contributors",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported / GNU Free Documentation License",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Human_Language_Families_Map.PNG"
+    },
+    "deeperDive": "Modern research moved beyond the strongest early Sapir-Whorf claims by using experiments rather than anecdotes. Studies compare how speakers categorize colors, remember agents in events, arrange time, or navigate space under different linguistic conditions. The results usually show influence, not destiny. Bilingual speakers can shift patterns depending on language context, and people can learn new categories when taught new words. That flexibility is the key point: language is one layer of cognition interacting with perception, culture, schooling, and environment. It matters because it changes the mental tools people use most often, not because it builds walls around what they can think.",
+    "funFact": "Some communities use cardinal directions for everyday space, saying the equivalent of move your cup north instead of move it left.",
+    "references": [
+      "https://pubmed.ncbi.nlm.nih.gov/21319543/"
+    ],
     "keyElements": {
       "people": [
-        "Benjamin Lee Whorf",
-        "Edward Sapir",
-        "Stephen Levinson"
+        "Edward Sapir - linguist associated with early linguistic relativity",
+        "Benjamin Lee Whorf - developed influential claims about language and habitual thought",
+        "Lera Boroditsky - cognitive scientist known for experimental work on language and thought"
       ],
       "places": [
-        "Harvard University",
-        "Yale University",
-        "Max Planck Institute for Psycholinguistics in Nijmegen",
-        "University of California, Berkeley"
+        "Pormpuraaw, Australia - community often discussed in research on absolute spatial language",
+        "Amazon Basin - region central to studies of number vocabulary and cognition",
+        "Stanford University - institution associated with modern experimental work on linguistic relativity"
       ],
       "years": [
-        "1917",
-        "1942",
-        "1956"
+        "1956 - Whorfs collected writings popularize linguistic relativity",
+        "2000s - experimental work renews interest in language and cognition",
+        "2011 - Boroditskys synthesis brings modern evidence to a broad scientific audience"
       ],
       "concepts": [
-        "Linguistic relativity",
-        "Grammatical structure",
-        "Cognitive development",
-        "Language acquisition"
+        "Linguistic relativity - language influences habitual thought",
+        "Evidentiality - grammar marking source of knowledge",
+        "Categorical perception - sharper perception across named categories",
+        "Bilingual cognition - flexible shifts across language contexts"
       ]
     }
   }

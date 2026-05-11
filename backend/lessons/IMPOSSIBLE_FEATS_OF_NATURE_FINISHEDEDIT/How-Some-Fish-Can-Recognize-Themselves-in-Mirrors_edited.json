@@ -1,33 +1,67 @@
 {
-  "topic": "Mirrors in the Water: Unveiling Self-Recognition in Aquatic Animals",
-  "title": "Understanding Mirror Self-Recognition in Some Fish Species",
+  "topic": "Fish Mirror Self-Recognition",
+  "title": "How Some Fish Can Recognize Themselves in Mirrors",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Labroides%20dimidiatus%20164.JPG",
+  "imageCredit": {
+    "creator": "Daniel Devos",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.5 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Labroides_dimidiatus_164.JPG"
+  },
+  "summary": "Cleaner wrasse have challenged assumptions about fish cognition by using mirrors to inspect body marks, suggesting sophisticated visual self-referencing without proving human-like self-awareness.",
   "lesson": {
-    "learn": "Mirrors are not just for humans; some fish species have demonstrated the ability to recognize themselves in reflection, a cognitive feat with significant implications for their social behavior and problem-solving skills.",
-    "simpler": "Take, for example, the African cichlid. Studies have shown that this species can differentiate its own reflection from other cichlids, using visual cues to understand its place within the social hierarchy.",
-    "keyTakeaway": "One key takeaway is that mirror self-recognition in fish, while distinct from that in primates and humans, shares an essential component: the integration of complex visual information. This insight into fish cognition has sparked research on the evolutionary pressures that drive the development of self-awareness in various species.",
-    "deeperDive": "Researchers at the University of Cambridge have extensively studied the cichlids' mirror self-recognition abilities, using experiments to demonstrate their capacity for self-awareness. One notable example from Dr. Diana Reiss's research involved placing zebrafish in front of a mirror; the fish would inspect their reflection, then use its visual cues to navigate around objects in its environment. Furthermore, a 2018 study published in the journal Science confirmed that octopuses, too, exhibit self-awareness when encountering mirrors, displaying a level of intelligence comparable to that of some primates.",
-    "funFact": "According to a 1990 study by Dr. Mark R. Rosenblatt, mirror self-recognition has also been observed in primates, with the first reported case of a rhesus macaque recognizing its own reflection in 1970.",
+    "learn": "Mirror self-recognition was once treated as a club for a few large-brained animals, but cleaner wrasse have complicated that story. In experiments, fish first react to a mirror as if it shows another fish, then gradually change behavior. Some inspect themselves, adjust posture, and respond to marks placed on parts of the body they can see only in reflection. That does not mean the fish has human-like self-awareness or inner language. It does suggest the animal can connect the mirror image to its own body well enough to guide action. Cleaner wrasse may be especially suited to this because their social life depends on close visual inspection of other fish.",
+    "simpler": "Cleaner wrasse can use mirrors to inspect marks on their bodies, showing advanced body awareness even if it is not the same as human self-awareness.",
+    "keyTakeaway": "Cleaner wrasse mirror behavior shows that some fish can use reflected visual information as self-related body information, challenging simple assumptions about animal intelligence.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/XRF-Labroides%20dimidiatus.png",
+    "learnImageCredit": {
+      "creator": "Xavier Romero-Frias",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:XRF-Labroides_dimidiatus.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Labroides%20dimidiatus%20455695737.jpg",
+    "thirdImageCredit": {
+      "creator": "Erwin Sieben",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Labroides_dimidiatus_455695737.jpg"
+    },
+    "deeperDive": "The mirror test was originally designed around animals that groom or touch visible marks, such as apes. Fish cannot touch themselves with hands, so researchers looked for species-appropriate behavior: scraping a marked area after seeing it in a mirror. Critics argue that passing the test may not equal rich self-consciousness, while supporters argue that dismissing fish performance exposes bias in how cognition is measured. Later studies have explored whether cleaner wrasse can recognize themselves in photographs or use mirrors for body-size judgments. The strongest interpretation is careful: some fish can integrate reflection, body map, and action in ways once thought unlikely.",
+    "funFact": "Cleaner wrasse normally inspect other fish for parasites, which may help explain their mirror-test skill.",
+    "references": [
+      "PLOS Biology - cleaner wrasse mirror self-recognition",
+      "Scientific Reports - cleaner fish body-size self-referencing",
+      "National Geographic - cleaner wrasse mirror test debate"
+    ],
     "keyElements": {
       "people": [
-        "*   Dr. Marc Bekoff, animal psychologist who has extensively studied the self-recognition abilities of animals",
-        "*   Dr. Diana Reiss, primatologist who conducted groundbreaking research on mirror self-recognition in primates and fish",
-        "*   Dr. Frans de Waal, ethologist known for his work on primate social behavior and self-awareness"
+        "Masanori Kohda - researcher on cleaner wrasse mirror self-recognition",
+        "Redouan Bshary - biologist known for cleaner fish social cognition research",
+        "Gordon Gallup - psychologist who developed the classic mirror mark test",
+        "Animal cognition researchers - scientists who compare self-recognition across species"
       ],
       "places": [
-        "*   The University of Cambridge, where researchers have studied the cognitive abilities of various aquatic animals",
-        "*   The Max Planck Institute for Ornithology, which has conducted research on bird intelligence and social behavior",
-        "*   The Aquarium of New York City, where scientists have observed self-recognition in cichlids"
+        "Coral reefs - natural habitat of cleaner wrasse",
+        "Cleaning stations - reef sites where fish inspect clients for parasites",
+        "Mirror-test tanks - experimental settings for self-recognition studies",
+        "Body marks - visual cues used to test mirror-guided behavior"
       ],
       "years": [
-        "*   1970: Mark R. Rosenblatt's initial study on mirror self-recognition in primates sparks a wave of interest in animal cognition",
-        "*   1990s: Research on fish self-awareness begins to gain momentum, with studies on zebrafish and cichlids",
-        "*   2015: A landmark paper published in the journal Science reveals that octopuses also exhibit mirror self-recognition"
+        "1970 - classic mirror mark test is introduced for chimpanzees",
+        "2019 - cleaner wrasse mirror-test results are published in PLOS Biology",
+        "2024 - cleaner fish research explores body-size self-referencing",
+        "Present day - mirror tests are debated across animal cognition"
       ],
       "concepts": [
-        "*   Self-recognition: The ability of an individual to recognize itself in a mirror or through other visual cues",
-        "*   Cognitive abilities: The mental processes and behaviors exhibited by animals, such as problem-solving and social learning",
-        "*   Social behavior: The interactions between individuals within a group, including communication, cooperation, and conflict resolution",
-        "*   Brain-to-body mass ratio: A measure of the size of an animal's brain relative to its body size, often used as an indicator of cognitive abilities"
+        "Mirror self-recognition - using reflection as information about oneself",
+        "Mark test - experiment involving hidden body marks",
+        "Self-referencing - relating sensory information to one own body",
+        "Cleaner wrasse - reef fish known for parasite-removal behavior",
+        "Cognitive ecology - study of how mental abilities fit natural lifestyles"
       ]
     }
   }

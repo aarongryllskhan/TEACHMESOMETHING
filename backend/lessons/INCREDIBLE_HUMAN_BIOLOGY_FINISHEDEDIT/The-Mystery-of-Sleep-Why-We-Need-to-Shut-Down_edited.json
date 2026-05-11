@@ -1,34 +1,62 @@
 {
-  "topic": "The-Mystery-of-Sleep-Why-We-Need-to-Shut-Down",
-  "title": "Understanding the Essential Functions of Sleep and the Brain",
+  "topic": "Incredible Human Biology",
+  "title": "The Mystery of Sleep: Why We Need to Shut Down",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Person_Sleeping.JPG",
+  "imageCredit": {
+    "creator": "Panduh562",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Person_Sleeping.JPG"
+  },
+  "summary": "Sleep is an active biological state that restores brain function, supports memory, regulates immunity and metabolism, and coordinates repair across the body.",
   "lesson": {
-    "learn": "Sleep is a fundamental physiological process that plays a critical role in maintaining our physical and mental health. During sleep, the body undergoes a series of reparative processes, including the renewal of damaged cells, the rebuilding of bone and muscle tissue, and the enhancement of immune function.",
-    "simpler": "Similar to how a smartphone requires recharging to function optimally, our bodies need sleep to recharge and restore our mental and physical energy. When we don't get adequate sleep, we may experience fatigue, difficulty concentrating, and decreased productivity.",
-    "keyTakeaway": "The importance of sleep cannot be overstated, as it is essential for our brains to clear waste products, consolidate memories, and refine learning and problem-solving abilities.",
-    "deeperDive": "Recent studies have shed light on the intricate relationship between sleep and brain function. Research has shown that during sleep, the brain undergoes synaptic pruning, a process where unnecessary neural connections are eliminated, allowing for more efficient communication between neurons. Moreover, sleep deprivation has been linked to an increased risk of neurodegenerative diseases, such as Alzheimer's and Parkinson's. Furthermore, sleep plays a critical role in the regulation of hormones, growth factors, and other physiological processes that govern our overall health.",
-    "funFact": "Dolphins and whales have been observed sleeping with only half their brain at a time, allowing them to remain vigilant to potential predators. This unique ability suggests that some animals have adapted their sleep patterns to suit their specific environments and survival needs.",
+    "learn": "Sleep looks passive from the outside, but inside the body it is one of the most active maintenance states humans enter. The brain cycles through non-REM and REM sleep several times each night, shifting between slow-wave recovery, memory processing, emotional regulation, and vivid dreaming. During non-REM sleep, large-scale brain rhythms help stabilize newly learned information and reduce some forms of neural noise. During REM sleep, the brain becomes highly active while most skeletal muscles are inhibited, a pattern linked to emotional processing and dream experience. Sleep also reaches beyond the brain. It influences immune defenses, hormone release, appetite regulation, glucose metabolism, cardiovascular function, and tissue repair. Research has also highlighted a housekeeping role: sleep appears to support clearance of waste products from brain tissue through glymphatic-like fluid movement. The mystery is not whether sleep matters; the mystery is why so many essential systems are bundled into a state that leaves an animal less responsive to the outside world. Evolution kept sleep because the internal work is worth the risk.",
+    "simpler": "Sleep is not wasted time. It is an active repair and regulation state that helps the brain learn, clears waste, steadies emotions, supports immunity, and keeps metabolism working properly.",
+    "keyTakeaway": "Sleep survives as a biological necessity because it coordinates memory, brain maintenance, immune balance, hormones, metabolism, and recovery in ways wakefulness cannot fully replace.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sleep_Hypnogram.svg",
+    "learnImageCredit": {
+      "creator": "RazerM",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sleep_Hypnogram.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sleep_EEG_Stage_2.jpg",
+    "thirdImageCredit": {
+      "creator": "MrSandman",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sleep_EEG_Stage_2.jpg"
+    },
+    "deeperDive": "Sleep is governed by two major pressures: the circadian clock, which aligns physiology with day-night timing, and homeostatic sleep pressure, which builds during wakefulness. These systems interact with brainstem, hypothalamic, thalamic, and cortical circuits to produce changing sleep stages. Deep non-REM sleep is associated with slow synchronized waves and is especially important for physical restoration and some memory processes. REM sleep has a more wake-like EEG pattern and helps integrate emotion, learning, and internal simulation. Sleep loss therefore produces broad effects: slower reaction time, weaker attention, impaired learning, immune disruption, appetite changes, and worse metabolic control. The lesson is more precise than “the body shuts down.” Sleep is a controlled change in operating mode, redistributing energy and neural activity toward maintenance tasks that are hard to complete during active wakefulness.",
+    "funFact": "Your brain remains busy during sleep; it simply changes jobs.",
+    "references": [
+      {
+        "title": "NINDS Brain Basics: Understanding Sleep",
+        "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+      }
+    ],
     "keyElements": {
       "people": [
-        "Nathaniel Kleitman",
-        "Dr. Robert Stickgold",
-        "Dr. Francisco Calejas"
+        "Eugene Aserinsky - helped identify REM sleep",
+        "Nathaniel Kleitman - pioneer of scientific sleep research",
+        "Maiken Nedergaard - researcher associated with glymphatic clearance studies"
       ],
       "places": [
-        "Salk Institute for Biological Studies",
-        "University of California, Berkeley",
-        "National Sleep Foundation"
+        "Hypothalamus - helps regulate sleep timing and arousal",
+        "Brainstem - contributes to REM sleep and wake-sleep transitions"
       ],
       "years": [
-        "1950s",
-        "1970s",
-        "2015"
+        "1953 - REM sleep was described in modern sleep research",
+        "2013 - glymphatic clearance during sleep drew major scientific attention"
       ],
       "concepts": [
-        "Sleep Stage Cycles",
-        "REM Sleep",
-        "Circadian Rhythm",
-        "Synaptic Pruning",
-        "Sleep Deprivation"
+        "REM sleep - sleep stage with vivid dreaming and high brain activity",
+        "Non-REM sleep - staged sleep including deep slow-wave sleep",
+        "Circadian rhythm - internal clock aligning physiology with day and night",
+        "Sleep pressure - biological need for sleep that builds during wakefulness"
       ]
     }
   }

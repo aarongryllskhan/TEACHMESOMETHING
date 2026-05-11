@@ -1,17 +1,67 @@
 {
-  "topic": "The-Story-Rocks-Tell-About-Earths-History",
-  "title": "Unveiling the Secrets of the Ancient Past**",
+  "topic": "Rocks and Earth History",
+  "title": "How Rocks Record the Story of Earth",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Layers_of_sedimentary_rock_formed_on_the_earth%27s_surface._5033.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "AlixSaz",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Layers_of_sedimentary_rock_formed_on_the_earth's_surface._5033.jpg"
+  },
   "lesson": {
-    "learn": "The story rocks tell about Earth's history is a fascinating tale of continents moving, oceans forming, and life evolving over millions of years. By analyzing the layers of sedimentary rock, scientists can reconstruct the past environment, climate, and life forms that once existed on our planet. This field of study, known as geologic time scale, allows us to understand the Earth's evolution through time, from the formation of the continents to the rise and fall of ancient civilizations. By studying the rocks, we can also learn about the processes that shaped our planet, such as plate tectonics, volcanic eruptions, and sea-level changes. This knowledge helps us comprehend the Earth's dynamic nature and how it has been constantly changing over billions of years.",
-    "simpler": "Think of rocks like a giant history book. Just like how pages turn to reveal new stories, rocks have layers that show us what happened on Earth in the past. These layers are like a puzzle, and scientists use them to understand how continents moved, oceans formed, and life evolved over millions of years.",
-    "keyTakeaway": "The most important thing to remember is that rocks hold secrets about the Earth's history, and by studying them, we can reconstruct the past environment, climate, and life forms. This knowledge helps us comprehend the Earth's dynamic nature and how it has been constantly changing over billions of years.",
-    "deeperDive": "One of the most significant discoveries in geology is plate tectonics, which suggests that the continents are moving at a rate of about 2-3 centimeters per year. This movement leads to the formation of mountain ranges, volcanoes, and earthquakes. The geologic time scale is divided into eons, eras, periods, and epochs, with each unit representing a specific period in Earth's history. For example, the Cambrian Period, which occurred around 541 million years ago, saw the rapid evolution of life on Earth, including the emergence of complex body structures and diversity of species. The Permian-Triassic extinction event, also known as the \"Great Dying,\" was a massive extinction that wiped out over 90% of all life on Earth around 252 million years ago. Today, scientists are studying the rocks to understand how climate change has affected our planet in the past and how it will continue to do so in the future. By analyzing fossil records, we can also learn about the evolution of different species and their adaptations to changing environments.",
-    "funFact": "Did you know that some rocks are millions of years older than the Earth itself? Scientists have discovered fossils of ancient life forms in rocks that date back over 4 billion years. These discoveries challenge our understanding of the age of the Earth and the origins of life on our planet.",
+    "learn": "Rocks are historical documents. Their layers, minerals, fossils, cracks, and chemical signatures record the conditions under which they formed. Sedimentary layers can show ancient seas, rivers, deserts, or floodplains. Metamorphic rocks reveal pressure and heat. Igneous rocks preserve volcanic or deep crustal cooling. Put together, they let geologists reconstruct Earth's changing surface.\n\nThe trick is learning to read the clues in the right order. A rock is not just something solid under our feet. It is evidence.",
+    "simpler": "Rocks preserve clues about ancient environments, because their layers and minerals formed under specific conditions.",
+    "keyTakeaway": "Geology turns rocks into a record of time.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/8/80/Layers_of_sedimentary_rock_formed_on_the_earth%27s_surface._5034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "AlixSaz",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Layers_of_sedimentary_rock_formed_on_the_earth's_surface._5034.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Layers_of_sedimentary_rock_formed_on_the_earth%27s_surface._5097.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "AlixSaz",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Layers_of_sedimentary_rock_formed_on_the_earth's_surface._5097.jpg"
+    },
+    "deeperDive": "The simplest clue is superposition: in undisturbed sedimentary layers, the oldest layers are usually at the bottom. Fossils add more information by showing which organisms lived when the layer formed. Chemical clues can reveal past oceans, climates, and volcanic events. Radiometric dating then gives those layers an actual age, turning relative history into a timeline.\n\nThis is why geology is part detective work and part time machine. Each outcrop is a page, and the whole planet is the book.",
+    "funFact": "A rock layer can be older than the mountains above it.",
+    "references": [
+      "Britannica - stratigraphy",
+      "USGS - rock layers and geologic time",
+      "National Park Service - geologic history"
+    ],
     "keyElements": {
-      "people": [],
-      "places": [],
-      "years": [],
-      "concepts": []
+      "people": [
+        "Geologists - readers of Earth history",
+        "Paleontologists - scientists who study fossils",
+        "Stratigraphers - experts in rock layering",
+        "Students - learners decoding the past"
+      ],
+      "places": [
+        "Sedimentary basins - where layers build up",
+        "Outcrops - exposed rock faces",
+        "Fossil beds - places where life is preserved",
+        "Cliff sections - natural cross-sections of time"
+      ],
+      "years": [
+        "1700s - modern geology begins to form",
+        "1800s - stratigraphy becomes foundational",
+        "1900s - radiometric dating transforms timelines",
+        "Present day - Earth history is reconstructed layer by layer"
+      ],
+      "concepts": [
+        "Stratigraphy - the study of rock layers",
+        "Superposition - older layers lie beneath younger ones",
+        "Fossil - preserved evidence of past life",
+        "Radiometric dating - measuring age with isotopes",
+        "Outcrop - exposed rock at the surface"
+      ]
     }
   }
 }

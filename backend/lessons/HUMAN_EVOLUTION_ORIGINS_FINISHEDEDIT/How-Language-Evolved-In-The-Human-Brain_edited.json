@@ -1,50 +1,67 @@
 {
-  "topic": "The Evolution of Language in the Human Brain",
-  "title": "Understanding the Complexities of Language Acquisition",
+  "topic": "Language Evolution",
+  "title": "How Language Took Shape in the Human Brain",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Brain_-_Broca%27s_and_Wernicke%27s_area_Diagram.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "UX Stalin",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Brain_-_Broca%27s_and_Wernicke%27s_area_Diagram.svg"
+  },
+  "summary": "Human language emerged from coordinated changes in brain networks for sound, gesture, memory, motor control, social inference, and symbolic thought rather than from a single isolated language center.",
   "lesson": {
-    "learn": "Language evolution in the human brain is a complex and multifaceted process that has spanned millions of years. Research suggests that language emerged around 50,000-100,000 years ago, likely as a result of increased cognitive abilities, social complexity, and environmental pressures. Studies have shown that the earliest human languages shared grammatical structures and phonological patterns, with researchers identifying similarities between ancient languages such as Sumerian and Sanskrit. The evolution of language is intricately linked with brain development, particularly in areas responsible for speech production, comprehension, and processing. The discovery of the FOXP2 gene, for example, has provided insights into the genetic basis of language development. Recent studies in paleolinguistics, led by researchers such as Derek Bickerton, have shed light on the earliest forms of human communication, including the use of proto-languages and gesture systems.",
-    "simpler": "Language evolved over time like a tree growing its branches, with early humans using gestures and vocalizations to communicate basic needs and emotions. Think of it like learning a new game - at first, we understand the basic rules, but as we play more, we discover more complex strategies and ways to express ourselves. Our brains are wired to learn language, just like how a child learns to ride a bike by watching others. In fact, research has shown that infants as young as six months old can distinguish between different languages.",
-    "keyTakeaway": "The key takeaway is that language evolution is closely tied to cognitive development, social complexity, and environmental pressures. Understanding this interplay can provide insights into the neural basis of language processing and its connection to other cognitive abilities.",
-    "deeperDive": "Studies have revealed that language acquisition involves a network of brain regions, including Broca's area, Wernicke's area, and the left inferior frontal gyrus. Research has also shown that humans possess a unique capacity for linguistic creativity, allowing us to invent new words, grammatical structures, and even entire languages. The evolution of writing systems, which emerged around 5,000 years ago in ancient civilizations such as Egypt and Mesopotamia, further facilitated the spread and diversification of languages. Additionally, advances in genetic research have led to a greater understanding of how language processing is influenced by genetics, with studies revealing specific genetic variants associated with language abilities.",
-    "funFact": "Did you know that some of the oldest known languages, such as ancient Sumerian and Egyptian hieroglyphs, have been deciphered through linguistic and paleographic analysis? Moreover, research has shown that language is an integral part of our brain's default mode network, which also governs memory, attention, and self-awareness.",
+    "learn": "Language is one of humanity's most powerful adaptations because it turns private thought into shared structure. Its evolution did not depend on one magical brain region suddenly appearing. Instead, multiple systems became increasingly coordinated: auditory processing for speech sounds, motor control for breath and articulation, memory for word learning, social cognition for intention, and sequencing networks for grammar. Broca's area and Wernicke's area are famous because damage to them can disrupt speech production or comprehension, but modern neuroscience shows that language depends on a wider circuit linking frontal, temporal, parietal, and motor regions. This matters because spoken communication is not just sound. It requires predicting what another person means, combining words into flexible patterns, remembering symbols, and adjusting speech to a social situation. As human groups became more cooperative and culturally complex, better communication made teaching, planning, storytelling, and shared identity far more powerful.",
+    "simpler": "Language evolved as brain networks for sound, movement, memory, and social understanding became coordinated enough to support words, grammar, and shared ideas.",
+    "keyTakeaway": "Human language emerged from connected brain systems that linked voice, meaning, memory, gesture, and social inference into a flexible tool for cooperation and culture.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Broca%27s_area_sagittal_sections.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Danielsabinasz",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Broca%27s_area_sagittal_sections.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Wernicke%27s_area_-_posterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Polygon data generated by Database Center for Life Science (DBCLS)",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.1 Japan",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wernicke%27s_area_-_posterior_view.png"
+    },
+    "deeperDive": "The older textbook picture divided language into two main centers: Broca's area for producing speech and Wernicke's area for understanding it. That model remains useful, but it is incomplete. Real language depends on distributed networks that manage sound perception, motor planning, working memory, syntax, semantics, attention, and social prediction. The arcuate fasciculus and other white-matter pathways help connect regions involved in hearing and speaking, while motor areas coordinate the mouth, tongue, larynx, and breathing. Evolution also involved the body: a descended larynx, fine breath control, facial expressiveness, and hands capable of gesture all contributed to communication. Genes such as FOXP2 show that speech and language have biological roots, but no single gene creates grammar. The more convincing picture is cumulative: vocal learning, imitation, symbolic behavior, cooperative childcare, tool teaching, and group planning all rewarded brains that could share increasingly precise meanings. Once language became reliable, it transformed evolution culturally. Knowledge no longer had to be rediscovered by each generation; it could be named, corrected, remembered, and passed forward.",
+    "funFact": "Your brain understands speech through a network, not one single language spot.",
+    "references": [
+      "Britannica - language and the brain",
+      "Nature Reviews Neuroscience - language networks",
+      "Smithsonian Human Origins - language and cognition"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Noam Chomsky (linguist who proposed the theory of universal grammar)",
-        "+ Steven Pinker (cognitive scientist who studied language acquisition and evolution)",
-        "+ Daniel Everett (linguist who discovered a previously unknown language in Brazil)",
-        "+ Derek Bickerton (paleolinguist who researched early human communication systems)",
-        "+ Jean Aitchison (historical linguist who studied the origins of writing systems)",
-        "* **"
+        "Paul Broca - physician linked to research on speech production and frontal brain damage",
+        "Carl Wernicke - neurologist linked to research on language comprehension",
+        "Linguists - scholars who study grammar, meaning, and language structure",
+        "Cognitive neuroscientists - researchers who map language across brain networks"
       ],
       "places": [
-        "**",
-        "+ Africa (birthplace of humanity and early human languages)",
-        "+ Europe (home to ancient civilizations that developed writing systems)",
-        "+ Mesopotamia (region where cuneiform script was invented)",
-        "+ China (where logographic scripts like Chinese characters emerged)",
-        "+ Amazon Rainforest (location where linguists discovered previously unknown languages)",
-        "* **"
+        "Broca's area - frontal brain region involved in speech planning and language production",
+        "Wernicke's area - temporal region historically associated with comprehension",
+        "Auditory cortex - brain tissue that processes speech sounds",
+        "Arcuate fasciculus - white-matter pathway linking major language-related regions"
       ],
       "years": [
-        "**",
-        "+ 50,000-100,000 years ago (estimated emergence of language in humans)",
-        "+ 5,000 years ago (invention of writing systems in ancient civilizations)",
-        "+ 19th century (development of structural linguistics and phonetics)",
-        "+ 1960s (introduction of generative grammar by Noam Chomsky)",
-        "+ Present day (ongoing research in language acquisition, evolution, and processing)",
-        "* **"
+        "1861 - Paul Broca reports a famous case linking frontal damage to impaired speech",
+        "1874 - Carl Wernicke describes a language comprehension syndrome",
+        "1990s - FOXP2 research connects genetics with speech and language abilities",
+        "Present day - brain imaging shows language as a distributed network"
       ],
       "concepts": [
-        "**",
-        "+ Universal Grammar",
-        "+ Language Acquisition Device",
-        "+ Proto-languages",
-        "+ Gesture systems",
-        "+ Paleolinguistics",
-        "+ Generative Grammar",
-        "+ Neuroplasticity",
-        "+ Cognitive Development Theory"
+        "Syntax - rules for arranging words into structured phrases and sentences",
+        "Semantics - meaning carried by words and combinations of words",
+        "Symbolic thought - using signs, sounds, or gestures to represent ideas",
+        "Vocal learning - modifying sounds through listening and practice",
+        "Distributed network - multiple connected brain areas working together"
       ]
     }
   }

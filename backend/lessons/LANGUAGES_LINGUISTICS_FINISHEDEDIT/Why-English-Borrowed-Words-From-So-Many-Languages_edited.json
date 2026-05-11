@@ -1,34 +1,61 @@
 {
-  "topic": "Language Contact and Lexical Borrowing in English",
-  "title": "Exploring the Multicultural Roots of the English Language",
+  "topic": "Why English Borrowed Words From So Many Languages",
+  "title": "Why English Became a Vocabulary Magnet",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg",
+  "imageCredit": {
+    "creator": "Original barons and King John of England; uploaded by Earthsound / British Library",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg"
+  },
+  "summary": "English absorbed vocabulary from many languages because conquest, trade, scholarship, empire, migration, and media repeatedly placed its speakers in multilingual contact.",
   "lesson": {
-    "learn": "The English language is distinguished by its remarkable diversity, with approximately 30-40% of its words borrowed from other languages. This linguistic phenomenon has been shaped by centuries of cultural exchange, trade, and colonization. According to estimates, English has borrowed words from over 350 languages, making it one of the most multilingual languages in the world. This linguistic diversity reflects England's complex history as a global trading power and colonial empire.",
-    "simpler": "Imagine English words as a rich tapestry, woven from threads of various languages. A significant portion of its vocabulary comes from Latin, Greek, French, German, Italian, and many others. This borrowing of words from other languages has not only enriched the English language but also provided a unique window into the history and culture of different civilizations.",
-    "keyTakeaway": "The extensive lexical borrowing in English has resulted in a distinct linguistic feature - flexibility. This phenomenon allows the language to adapt and incorporate new words from other languages, making it an essential aspect of its evolution.",
-    "deeperDive": "One of the earliest examples of lexical borrowing in English dates back to the Roman occupation of Britain (43-410 CE). The Roman Empire introduced Latin words related to law, medicine, and science, which were incorporated into the English language. The Norman Conquest of 1066 introduced French influence, with over 30% of modern English vocabulary derived from Old French. Italian and German words entered the language during the Renaissance, while Hindi and Urdu words came in during the British Raj (1858-1947). This linguistic diversity has created a unique feature of English - its ability to adapt and incorporate new words from other languages.",
-    "funFact": "The word 'curry' comes from the Tamil language of southern India, while the word 'thug' originated in Hindi as a term for a group of robbers. The use of loanwords has not only enriched the English language but also created interesting cultural and historical connections between languages.",
+    "learn": "English borrowed so heavily because its history repeatedly put different speech communities in close contact. Old English began as a Germanic language, but Norse settlement added everyday words such as sky, they, and take. After the Norman Conquest of 1066, French became the language of law, administration, aristocratic culture, and cuisine, leaving English with layers such as court, judge, government, beef, and beauty. Latin and Greek entered through religion, scholarship, medicine, and science; later trade, empire, migration, and popular culture brought words from Arabic, Hindi, Nahuatl, Yoruba, Japanese, Italian, and many more. This does not mean English is shapeless. Its grammar remained broadly Germanic, but its vocabulary became unusually open to adoption. Borrowing let speakers name new foods, technologies, legal concepts, animals, plants, institutions, and cultural practices without inventing every term from scratch. The result is a language where plain Germanic words often sit beside French or Latin alternatives: ask, question, and interrogate carry different tones even when they overlap in meaning.",
+    "simpler": "English has so many borrowed words because invasions, trade, scholarship, colonization, migration, and global media kept bringing English speakers into contact with other languages. Its core grammar stayed Germanic, but its vocabulary became a historical archive of contact.",
+    "keyTakeaway": "English became a borrowing powerhouse because each major contact event added a new vocabulary layer while speakers kept adapting those words to English grammar and pronunciation.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Middle_English_Dialects.png",
+    "learnImageCredit": {
+      "creator": "CelticBrain",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Middle_English_Dialects.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/English_language_distribution.svg",
+    "thirdImageCredit": {
+      "creator": "TUBS and contributors",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:English_language_distribution.svg"
+    },
+    "deeperDive": "Borrowed words often arrive with social labels attached. Norman French terms entered domains of power, food, law, and refinement, which is why English still distinguishes animal names such as cow and pig from meat words such as beef and pork. Latin and Greek later supplied technical precision, especially in medicine and science. Modern borrowing works differently: words can spread through music, food culture, migration, online communities, and international Englishes. Once borrowed, a word is domesticated. Speakers reshape its pronunciation, plural forms, spelling, and meaning until it behaves like English. Quarantine, for example, comes through Italian roots connected to a forty-day isolation period, but most speakers now use it without thinking of Italian at all. Borrowing is not linguistic weakness; it is one of the main ways languages record contact and expand expressive range.",
+    "funFact": "English can stack near-synonyms from different sources: kingly is Germanic, royal is French, and regal is Latin.",
+    "references": [
+      "https://www.oed.com/discover/borrowed-words/"
+    ],
     "keyElements": {
       "people": [
-        "William Caxton (Printer who introduced French and Latin words into English)",
-        "King Alfred the Great ( Introduced Latin words into Old English)",
-        "Samuel Johnson ( Lexicographer who compiled the first comprehensive English dictionary)"
+        "William the Conqueror - the Norman ruler whose 1066 conquest reshaped English vocabulary",
+        "Geoffrey Chaucer - Middle English writer whose work shows French, Latin, and English layers mixing",
+        "Samuel Johnson - lexicographer whose dictionary helped standardize English vocabulary"
       ],
       "places": [
-        "The British Museum Library ( One of the oldest and largest libraries in the world, with a vast collection of linguistic texts)",
-        "The University of Oxford ( A leading center for linguistic research and language teaching)",
-        "England (As a global trading power and colonial empire)"
+        "England - the contact zone where Old English, Norse, French, and Latin layers accumulated",
+        "Normandy - source of the ruling French-speaking elite after 1066",
+        "London - a major center for Middle English standardization and later print culture"
       ],
       "years": [
-        "43-410 CE (Roman occupation of Britain)",
-        "1066 CE (Norman Conquest introduces French influence on English language)",
-        "1858-1947 (British Raj, with Hindi and Urdu words entering English language)"
+        "793 - Viking raids mark the beginning of intense Norse contact in England",
+        "1066 - Norman Conquest brings massive French influence",
+        "1476 - William Caxton introduces printing to England, helping stabilize written English"
       ],
       "concepts": [
-        "Language contact",
-        "Lexical borrowing",
-        "Linguistic diversity",
-        "Linguistic imperialism",
-        "Language evolution"
+        "Loanword - a word adopted from another language",
+        "Doublet - related words entering through different historical routes",
+        "Semantic shift - change in meaning after borrowing",
+        "Register - differences in tone or formality among word choices"
       ]
     }
   }

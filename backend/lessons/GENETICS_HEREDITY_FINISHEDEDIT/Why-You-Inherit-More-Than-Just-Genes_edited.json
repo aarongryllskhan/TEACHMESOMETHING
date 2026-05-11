@@ -1,45 +1,66 @@
 {
-  "topic": "Why-You-Inherit-More-Than-Just-Genes",
-  "title": "Exploring the Methods Behind Heritability: Factors Beyond DNA",
+  "topic": "Inheritance Beyond DNA",
+  "title": "Why You Inherit More Than Just Genes",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Maternal_Inheritance_-_mitochondrial_DNA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Sciencia58",
+    "source": "Wikimedia Commons",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Maternal_Inheritance_-_mitochondrial_DNA.png"
+  },
   "lesson": {
-    "learn": "The human genome contains approximately 20,000 genes, yet it only accounts for around 10% of our overall heritability. The remaining 90% is attributed to the complex interplay between genetic and environmental factors, as first identified by Francis Galton's pioneering work on heredity in the late 19th century. Galton's observations laid the groundwork for modern understanding of epigenetics, environmental influences, and social conditioning that shape our traits.",
-    "simpler": "Imagine a DNA blueprint as a template for building a house. The genetic code provides the foundation, but external factors like weather, soil quality, and architectural style significantly influence the final product. Similarly, our inherited traits are affected by a combination of genetic predisposition, epigenetic changes, and environmental conditioning. For instance, identical twins separated at birth exhibit striking similarities in personality and habits, highlighting the impact of shared environmental influences.",
-    "keyTakeaway": "Heritability encompasses a wide range of factors, including lifestyle choices, coping mechanisms, personality traits, and even susceptibility to certain diseases. By understanding the complex interplay between genetics, epigenetics, and environmental influences, we can develop targeted strategies to improve public health and mitigate the effects of inherited traits.",
-    "deeperDive": "Numerous studies have demonstrated the transgenerational effects of environmental toxins, such as pesticides and heavy metals, which can increase the risk of diseases in offspring. For example, a landmark study by the University of California, San Francisco, revealed that maternal pesticide exposure during pregnancy was linked to increased risk of autism in children. Epigenetic changes, such as those resulting from maternal nutrition and stress, can also be passed down through generations, influencing gene expression without altering the underlying DNA sequence. Furthermore, research on identical twins separated at birth and reared apart has shown that they exhibit significant similarities in career choices, educational attainment, and even socioeconomic status, underscoring the importance of environmental and social conditioning in shaping our traits.",
-    "funFact": "Recent discoveries have revealed that certain bacteria can be inherited from mothers, playing a crucial role in modulating the gut microbiome. Additionally, epigenetic changes have been shown to affect our response to food cravings, with some individuals exhibiting altered gene expression in response to specific diets.",
+    "learn": "You inherit DNA from your parents, but biology does not stop there. Cells also inherit chemical tags, mitochondrial DNA, early developmental conditions, and sometimes biological patterns that shape how genes are used. That means heredity is not only about which genes you get. It is also about how those genes are regulated and what cellular context they arrive in.\n\nThis is where epigenetics and maternal inheritance become important. Two people can share the same gene sequence and still express those genes differently because their cells are reading the instructions in different ways.",
+    "simpler": "Inheritance includes genes, but also chemical tags, cell machinery, and biological context that affect how genes work.",
+    "keyTakeaway": "What you inherit is bigger than DNA sequence alone.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Mitochondrial_DNA_%2827249944414%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "National Human Genome Research Institute (NHGRI) from Bethesda, MD, USA",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mitochondrial_DNA_(27249944414).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/8e/MtDNA_inheritance.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Jordi picart",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:MtDNA_inheritance.svg"
+    },
+    "deeperDive": "Epigenetic mechanisms such as DNA methylation and histone modification can help switch genes on or off. Those signals can be influenced by development, environment, nutrition, stress, and age. Mitochondrial DNA adds another layer, because it is inherited differently from nuclear DNA and can shape energy use and some disease risks. None of this replaces genes. It changes how genes behave in living systems.\n\nThe important idea is that heredity is layered. DNA provides the code, but the cell provides the reading context. That is why two organisms with nearly identical sequences can still develop differently.",
+    "funFact": "Not all inherited biological information lives in the nucleus.",
+    "references": [
+      "Britannica - epigenetics",
+      "NHGRI - mitochondrial inheritance",
+      "MedlinePlus Genetics - heredity and regulation"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "*   Francis Galton - pioneer in understanding heredity and its influence on traits",
-        "*   Barbara McClintock - Nobel laureate for discovering transposons, mobile genetic elements that can alter gene expression",
-        "*   E.O. Wilson - biologist who coined the term \"sociobiology\" to study the interplay between biology and society",
-        "*   Epigeneticist Marianne Jorgensen for her work on environmental influences on gene expression",
-        "*   Geneticist Robert Plomin, known for his studies on epigenetics and twin research",
-        "*   **"
+        "Geneticists - scientists studying heredity",
+        "Epigenetic researchers - experts in gene regulation",
+        "Parents - sources of inherited DNA and cell context",
+        "Developing embryos - where inheritance is shaped early"
       ],
       "places": [
-        "**",
-        "*   The Wellcome Sanger Institute in the UK - a leading center for genomics research",
-        "*   The Francis Crick Institute in London - a hub for molecular biology and genetics",
-        "*   Harvard University's Department of Genetics, where many influential geneticists have taught and researched",
-        "*   The Max Planck Institute for Developmental Biology in Germany, known for its epigenetics and developmental biology research",
-        "*   **"
+        "Cell nuclei - where most DNA lives",
+        "Mitochondria - energy centers with their own DNA",
+        "Developing tissues - where epigenetic marks matter",
+        "Laboratories - where epigenetic changes are measured"
       ],
       "years": [
-        "**",
-        "1869 - Francis Galton publishes \"Hereditary Genius,\" a foundational work on heredity and traits",
-        "1950s - E.O. Wilson begins his sociobiology research",
-        "1983 - Barbara McClintock is awarded the Nobel Prize in Physiology or Medicine for discovering transposons",
-        "1994 - The Human Genome Project is launched, aiming to map human DNA",
-        "*   **"
+        "1990s - epigenetics becomes more widely discussed",
+        "2000s - mitochondrial inheritance is better mapped",
+        "2010s - gene regulation research expands rapidly",
+        "Present day - inheritance is understood as layered"
       ],
       "concepts": [
-        "**",
-        "*   Epigenetics: the study of gene expression changes without altering DNA sequence",
-        "*   Heritability: the proportion of traits that can be attributed to genetic factors",
-        "*   Transposons: mobile genetic elements that can alter gene expression",
-        "*   Sociobiology: the interplay between biology and society",
-        "*   Genomics: the study of an organism's complete DNA sequence"
+        "Epigenetics - gene regulation without DNA sequence change",
+        "Methylation - a chemical mark affecting gene activity",
+        "Mitochondrial DNA - separate inherited DNA in cells",
+        "Gene expression - how a gene is used",
+        "Inheritance context - the cellular setting around DNA"
       ]
     }
   }

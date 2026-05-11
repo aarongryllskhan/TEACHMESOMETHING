@@ -1,46 +1,66 @@
 {
-  "topic": "Understand How Fault Lines Shape Earth's Terrain",
+  "topic": "Fault Lines",
+  "title": "Why Earthquakes Happen on Fault Lines",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Fault_line.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "MagentaGreen",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Fault_line.svg"
+  },
   "lesson": {
-    "learn": "Earthquakes are a complex phenomenon resulting from the movement of tectonic plates. Research indicates that approximately 75% of all earthquakes occur along fault lines, which are fractures in the Earth's crust where rocks on either side have moved past each other. According to the United States Geological Survey (USGS), the primary cause of earthquakes on fault lines is the accumulation of stress as the plates slowly move over time. This accumulated stress is released suddenly in the form of an earthquake, with energies measured in billions of kilowatt-hours. By studying the science behind earthquake-prone areas, we can develop strategies to mitigate their impact on communities.",
-    "simpler": "Think of the Earth's crust as a vast, fragmented mosaic with multiple layers of rocks. Fault lines occur where these rock layers shift or rub against each other, creating potential pathways for earthquakes to occur. A notable analogy is to compare the movement of tectonic plates to the flow of a river. Just as water currents flow over boulders or around bends, tectonic plates move over each other, resulting in the creation of mountains and the occurrence of earthquakes. By grasping this fundamental process, we can better predict and prepare for earthquakes.",
-    "keyTakeaway": "Understanding the role of stress accumulation and the underlying mechanisms of earthquake activity on fault lines is crucial for effective mitigation measures. This includes identifying high-risk areas, developing early warning systems, and creating emergency response plans tailored to local conditions. A key takeaway is that recognizing the specific characteristics of each fault line, such as its location, type, and historical activity, allows policymakers and geologists to make informed decisions about resource allocation and land use planning.",
-    "deeperDive": "The San Andreas Fault is a prominent example of a transform fault in California, spanning over 1,200 kilometers. This fault has experienced several significant earthquakes throughout history, demonstrating the complex interactions between tectonic plates and the resulting geological consequences. Research has revealed that the movement of tectonic plates is not uniform and can be influenced by various factors such as climate change, sedimentation, and anthropogenic activities. To accurately anticipate seismic activity, scientists utilize advanced technologies like GPS monitoring, seismic tomography, and computational simulations, allowing for targeted mitigation efforts and informed decision-making.",
-    "funFact": "A notable event occurred on March 28, 1964, off the coast of Alaska, where a massive earthquake struck with an estimated magnitude of 9.2 on the Richter scale, unleashing a tsunami that affected several states and resulted in the loss of over 100 lives. Earthquakes have the power to reshape landscapes and create new landforms. For instance, a 1952 earthquake in Kamchatka Peninsula created a new island due to the displacement of tectonic plates.",
+    "learn": "Earthquakes happen when stress builds up in Earth's crust until rocks suddenly slip along a fault. The fault line is the surface expression of a break in the crust, but the real action happens where rocks lock, bend, and then release energy. That release travels as seismic waves, which we feel as shaking.\n\nFault lines matter because they are where plate motion becomes visible. The Earth is always moving; earthquakes are what it looks like when that motion is not smooth.",
+    "simpler": "Earthquakes happen when rocks suddenly slip along faults after stress builds up underground.",
+    "keyTakeaway": "Fault lines are places where stored-up tectonic stress can suddenly escape.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Nankai_Trough_Fault_line.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "The NanTroSEIZE Scientific Team",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Nankai_Trough_Fault_line.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/4/41/Normal_fault_diagram.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Ralph L. Dawes, Ph.D. and Cheryl D. Dawes",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0 us",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Normal_fault_diagram.gif"
+    },
+    "deeperDive": "Not every fault behaves the same way. Normal faults, reverse faults, and strike-slip faults each move differently, depending on whether the crust is stretching, compressing, or sliding sideways. Some faults creep slowly, while others lock for years and then rupture in a much larger quake. That variability is one reason earthquake prediction is hard.\n\nStill, the pattern is consistent: stress accumulates, rocks resist, and then the system fails. The shaking is not random. It is the sound of Earth's crust adjusting itself.",
+    "funFact": "An earthquake is basically a sudden release of stored rock stress.",
+    "references": [
+      "Britannica - earthquake",
+      "USGS - fault lines",
+      "National Geographic - plate boundaries"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ John Wesley Powell, geologist who mapped the Grand Canyon and contributed significantly to our understanding of fault lines.",
-        "+ Charles Francis Richter, seismologist who developed the Richter scale for measuring earthquake intensity.",
-        "+ Maurice Ewing, geophysicist who pioneered research on oceanic crustal structure and plate tectonics.",
-        "+ Lynn Sykes, geologist who played a crucial role in developing the theory of plate tectonics.",
-        "+ Susan Hough, seismologist who has worked extensively on earthquake science and its applications to urban planning and emergency preparedness.",
-        "* **"
+        "Seismologists - scientists who study earthquakes",
+        "Geologists - people who map faults",
+        "Engineers - experts in building for shaking",
+        "Emergency planners - people who prepare communities"
       ],
       "places": [
-        "**",
-        "+ The San Andreas Fault in California, USA â€“ one of the most well-studied fault lines globally.",
-        "+ The North Anatolian Fault Zone in Turkey â€“ a prominent transform fault that has experienced several devastating earthquakes.",
-        "+ The Cascadia Subduction Zone along the Pacific coast of North America â€“ a major fault line prone to megathrust earthquakes.",
-        "+ The Himalayan mountain range, formed by the collision between the Indian and Eurasian plates.",
-        "+ The Rio Grande Rift in New Mexico, USA â€“ an active rift zone that provides valuable insights into continental rifting processes.",
-        "* **"
+        "Fault zones - where the crust breaks and moves",
+        "Subduction zones - places of powerful quakes",
+        "Transform boundaries - sideways plate motion",
+        "Fault scarps - surface traces of movement"
       ],
       "years": [
-        "**",
-        "+ 1952: A significant earthquake off Kamchatka Peninsula creates a new island due to tectonic plate movement.",
-        "+ 1960: Chile experiences the largest earthquake ever recorded at magnitude 9.5 on the Richter scale.",
-        "+ 1989: The Loma Prieta earthquake occurs in California, causing widespread damage and loss of life.",
-        "+ 1994: The Northridge earthquake in California highlights the importance of seismic retrofitting for buildings.",
-        "+ 2004: A massive undersea earthquake off Indonesia triggers a devastating tsunami that affects several countries across Southeast Asia.",
-        "* **"
+        "1906 - the San Francisco quake raises awareness",
+        "1960s - plate tectonics explains faults",
+        "2000s - GPS measures crustal motion",
+        "Present day - fault monitoring is global"
       ],
       "concepts": [
-        "**",
-        "+ Plate tectonics â€“ the theory explaining Earth's surface is divided into large, moving plates.",
-        "+ Transform faulting â€“ a type of plate boundary where two plates slide past each other horizontally.",
-        "+ Continental rifting â€“ the process of continental break-up and formation of new oceans.",
-        "+ Seismic tomography â€“ a technique using seismic waves to map internal structure of Earth's interior.",
-        "+ Stress accumulation â€“ the gradual buildup of stress in fault zones, often leading to earthquakes."
+        "Fault - a break in rock where movement occurs",
+        "Seismic wave - energy released by an earthquake",
+        "Stress - force stored in rock",
+        "Slip - sudden movement along a fault",
+        "Plate boundary - where tectonic plates meet"
       ]
     }
   }

@@ -1,17 +1,67 @@
 {
-  "topic": "Why-Joan-of-Arcs-Trial-Mattered",
-  "title": "Understanding the Significance of Joan of Arc's Trial in 1431",
+  "topic": "Joan of Arc",
+  "title": "Why Joan of Arc's Trial Changed Everything",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Joan_of_arc.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Andrew C.P. Haggard (1854–1923), modified and colorized by Rinaldum",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Joan_of_arc.png"
+  },
   "lesson": {
-    "learn": "Jean d'Arc, also known as Joan of Arc or the Maid of Orléans, was a French heroine who led the French army to several victories during the Hundred Years' War (1337-1453). Specifically, she won several battles in northeastern France, including the Siege of Orléans, which began in October 1428 and ended in May 1429. Unfortunately, her military success was short-lived, as she was captured by Burgundian forces in May 1430 and later sold to the English. Her trial began in Rouen, Normandy, in February 1431, lasting approximately 13 months, with five different judges hearing her case.",
-    "simpler": "Imagine being a young woman who, at the age of 17, hears voices from God instructing her to drive the English out of France. This was the reality for Joan of Arc, who, despite limited education and experience, rose to prominence during the Hundred Years' War, ultimately leading the French army to victory at the Siege of Orléans in 1429. However, her subsequent capture by the English led to a series of interrogations and accusations of heresy, which would put her life at risk.",
-    "keyTakeaway": "Joan of Arc's trial in 1431 serves as a prime example of how the English attempted to discredit her through manipulation, coercion, and false accusations, ultimately exemplifying the vulnerability of individuals in the medieval judicial system.",
-    "deeperDive": "The trial of Joan of Arc was a complex affair, involving multiple interrogations, hearings, and court proceedings. On five separate occasions between February and May 1431, Joan, who claimed to have heard voices from Saint Catherine, Saint Margaret, and the Archangel Michael, was questioned by the English. The judges, attempting to prove her heresy, exploited inconsistencies in her testimony and presented coerced confessions, ultimately resulting in her conviction. Yet, what appeared to be an insurmountable defeat for Joan was later proved to be a turning point in French history, as her conviction sparked outrage among the French populace and galvanized support for Charles VII, King of France.",
-    "funFact": "The ashes of Joan of Arc, collected by a sympathizer and buried in the Cathedral of Saint Catherine in Domremy in 1920, were later analyzed using radiocarbon dating in the 20th century, confirming their authenticity.",
+    "learn": "Joan of Arc's trial did more than condemn one young woman. It created a political and religious record that still shapes how people understand her. The court tried to reduce Joan to heresy, but the proceedings exposed the fear she inspired, the authority she challenged, and the limits of the institutions judging her.\n\nLater transcripts and retrials made her story even bigger. She became a symbol of conscience, national identity, and the power of a person who refuses to say what authorities want to hear.",
+    "simpler": "Joan's trial mattered because it turned her into a long-lasting symbol of courage, faith, and political conflict.",
+    "keyTakeaway": "Joan's trial changed history because it was as much about power and identity as it was about religion.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/70/P582-Burning_of_Joan_of_Arc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "John Cassell",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:P582-Burning_of_Joan_of_Arc.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Joan_of_Arc%27s_Tower%2C_Rouen%2C_France-LCCN2001698690.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Unknown artistUnknown artist",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Joan_of_Arc's_Tower%2C_Rouen%2C_France-LCCN2001698690.jpg"
+    },
+    "deeperDive": "The record of the trial is valuable because it preserves Joan's voice through hostile questioning. That gives historians an unusual window into medieval law, gender expectations, and wartime propaganda. Her execution did not erase her influence; instead, it made her even more difficult to contain in later memory. The rehabilitation trial years later showed how legal records can be rewritten by changing politics.\n\nJoan's case reminds us that trials can become historical documents that outlive the verdict. In her case, the paper trail became part of the legend.",
+    "funFact": "Joan's own answers at trial helped build her legend.",
+    "references": [
+      "Britannica - Joan of Arc",
+      "National Archives - Joan of Arc trial",
+      "The History Press - Joan of Arc and Rouen"
+    ],
     "keyElements": {
-      "people": [],
-      "places": [],
-      "years": [],
-      "concepts": []
+      "people": [
+        "Joan of Arc - French military and religious figure",
+        "Judges and clerics - people who prosecuted her",
+        "Charles VII - the king her mission supported",
+        "Historians - scholars who study the trial records"
+      ],
+      "places": [
+        "Rouen - the site of the trial and execution",
+        "Orléans - a key victory in Joan's military story",
+        "France - the kingdom she helped unify",
+        "Church courts - the institutions judging her"
+      ],
+      "years": [
+        "1431 - Joan is tried and executed",
+        "1456 - her conviction is reconsidered",
+        "1920 - she is canonized as a saint",
+        "Present day - the trial remains central to her legacy"
+      ],
+      "concepts": [
+        "Heresy - beliefs judged unacceptable by church authorities",
+        "Martyrdom - dying for a cause or faith",
+        "Transcript - a written record of spoken testimony",
+        "Rehabilitation - a later clearing of a conviction",
+        "Symbolism - a person representing an idea larger than themselves"
+      ]
     }
   }
 }

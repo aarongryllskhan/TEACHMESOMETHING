@@ -1,34 +1,61 @@
 {
-  "topic": "The Biology of Photoreception",
-  "title": "Understanding the Human Eye's Ability to Detect Single Photons",
+  "topic": "Incredible Human Biology",
+  "title": "How Your Eyes Can Detect a Single Photon",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rod_Cell.svg",
+  "imageCredit": {
+    "creator": "Madhero88",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Rod_Cell.svg"
+  },
+  "summary": "A rod photoreceptor can respond to a single photon, but conscious detection usually requires the retina and brain to separate that tiny signal from biological noise.",
   "lesson": {
-    "learn": "The human eye is capable of detecting a single photon due to the intricate structures within the eye, particularly the highly sensitive nature of photoreceptors and retinal ganglion cells. This ability allows for exceptional visual acuity and sensitivity, enabling us to perceive changes in light levels as subtle as 1% or less.",
-    "simpler": "Think of it like listening to a whispered conversation in a quiet room. Your ear can pick up the faint sounds, but your brain needs to process and amplify them. Similarly, the human eye is designed to detect the tiny particles of light called photons, which are essential for vision.",
-    "keyTakeaway": "The human eye's ability to detect single photons is a testament to the complexity and sensitivity of the photoreception process. By understanding the mechanisms behind this process, we can develop new technologies and improve our understanding of the human visual system.",
-    "deeperDive": "Research has shown that the human eye can detect single photons in as little as 100 milliseconds. This sensitivity is essential for tasks such as reading Braille, where changes in light levels can result in different letters being perceived. Recent studies have also demonstrated the potential for single-photon detectors using advanced techniques like superconducting nanowire detectors. In fact, scientists have estimated that it would take approximately 1 million photons to produce a visible effect on a digital camera, highlighting the eye's incredible sensitivity.",
-    "funFact": "Hermann von Helmholtz, a German physicist and physiologist, published his groundbreaking work on the human eye in 1890. His research laid the foundation for our understanding of the eye's photoreception process. Other notable researchers, such as Edwin Land and Maria Goeppert Mayer, have also contributed significantly to our understanding of the human visual system.",
+    "learn": "Human vision reaches astonishing sensitivity in darkness. At the level of biology, a rod photoreceptor can respond when a single photon changes one molecule of rhodopsin. That molecular event triggers a phototransduction cascade, amplifying a tiny physical hit into an electrical change the retina can process. But detecting a photon in a rod is not the same as consciously seeing one. The visual system is noisy: molecules can activate spontaneously, neurons have baseline activity, and light scatters before reaching the retina. To avoid hallucinating flashes from random noise, the brain usually requires enough coordinated evidence across retinal circuits before perception crosses awareness. Classic experiments in the 1940s found that people could report extremely faint flashes involving only a small number of photons reaching the retina. Modern experiments have pushed the question further, showing that humans can perform above chance when single-photon events are carefully controlled. The miracle is not that the eye is perfect; it is that it is sensitive while still filtering uncertainty.",
+    "simpler": "Rod cells can react to single photons, but seeing one consciously is harder because the retina and brain must decide whether the signal is real or just noise.",
+    "keyTakeaway": "Single-photon vision is possible because rod cells amplify tiny molecular events, while retinal and brain circuits filter those events before they become conscious perception.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Structure_rods_cones.png",
+    "learnImageCredit": {
+      "creator": "Spigget",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Structure_rods_cones.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhodopsin.jpg",
+    "thirdImageCredit": {
+      "creator": "S. Jahnichen",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Rhodopsin.jpg"
+    },
+    "deeperDive": "Rods are specialized for low-light vision. Each rod contains stacks of membrane discs packed with rhodopsin, a light-sensitive protein bound to retinal. When a photon is absorbed, retinal changes shape, activating rhodopsin and starting a biochemical cascade that reduces cyclic GMP, closes ion channels, and changes the cell’s electrical output. This amplification makes a single photon biologically meaningful. The retina then pools and compares rod signals through bipolar, horizontal, amacrine, and ganglion cells. Pooling improves sensitivity but reduces detail, which is why dim vision is grainy and color-poor. Perception depends on signal detection: the nervous system must balance sensitivity against false alarms from thermal noise and spontaneous molecular activity. That tradeoff explains why the eye can approach quantum limits without making every random fluctuation visible.",
+    "funFact": "In deep darkness, your eyes are sensitive enough to operate near the edge of physics.",
+    "references": [
+      {
+        "title": "Tinsley et al., Direct detection of a single photon by humans",
+        "url": "https://www.nature.com/articles/ncomms12172"
+      }
+    ],
     "keyElements": {
       "people": [
-        "Hermann von Helmholtz",
-        "Edwin Land",
-        "Maria Goeppert Mayer"
+        "Selig Hecht - coauthor of classic threshold vision experiments",
+        "Simon Tinsley - coauthor of modern single-photon vision research"
       ],
       "places": [
-        "Harvard University",
-        "Bell Labs",
-        "Max Planck Institute for the History of Science"
+        "Retina - light-sensitive neural tissue at the back of the eye",
+        "Rod outer segment - rhodopsin-rich structure where photon detection begins"
       ],
       "years": [
-        1890,
-        1954,
-        2009
+        "1942 - classic experiments estimated the faintest light humans can see",
+        "2016 - modern work tested human responses to single-photon stimuli"
       ],
       "concepts": [
-        "photoreceptors",
-        "retinal ganglion cells",
-        "signal amplification",
-        "signal processing",
-        "superconducting nanowire detectors"
+        "Photon - quantum packet of light",
+        "Rod photoreceptor - retinal cell specialized for dim light",
+        "Rhodopsin - light-sensitive protein in rod cells",
+        "Phototransduction - biochemical conversion of light into neural signal"
       ]
     }
   }

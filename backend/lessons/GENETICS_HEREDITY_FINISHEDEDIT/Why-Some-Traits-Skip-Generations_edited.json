@@ -1,46 +1,66 @@
 {
-  "topic": "Why Some Traits Skip Generations",
-  "title": "Exploring the Methods Behind Transgenerational Epigenetic Inheritance",
+  "topic": "Recessive Traits",
+  "title": "Why Some Traits Skip Generations",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Punnett_square_%28PSF%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Pearson Scott Foresman",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Punnett_square_(PSF).png"
+  },
   "lesson": {
-    "learn": "The traditional view of genetics as a straightforward, DNA-based process has been challenged by recent discoveries in epigenetics. One of the most significant findings in this field is the phenomenon of transgenerational epigenetic inheritance, where environmental factors can affect gene expression in ways that transcend the original genetic material. This complex interplay between genetics and environment has been observed in various species, including humans. In fact, research on twin studies has shown that identical twins can develop different traits due to differences in their early life experiences, even if they share the same DNA sequence. For example, a study published in 2019 in the journal 'eLife' found that identical twins who were discordant for obesity had distinct epigenetic signatures in their fat tissue, despite sharing the same genetic makeup.",
-    "simpler": "Our DNA contains instructions, known as genes, that determine various traits. However, environmental factors can affect how these instructions are used, without altering the underlying DNA sequence. This process is similar to how a recipe book can be modified by adding notes or changing the cooking method, without altering the original recipe. In the context of epigenetics, these environmental factors can lead to heritable changes in gene expression, resulting in traits that may skip generations. For instance, a mother's diet during pregnancy can influence the epigenetic profile of her offspring, which may, in turn, affect their health and susceptibility to certain diseases.",
-    "keyTakeaway": "Epigenetic traits can skip generations because environmental factors can influence gene expression without altering the underlying DNA sequence, leading to heritable changes in gene expression.",
-    "deeperDive": "The study of epigenetics has led to a greater understanding of how environmental factors can affect gene expression and has significant implications for our understanding of human health and disease. Research has shown that epigenetic modifications can be influenced by a range of factors, including diet, stress, and exposure to toxins. For example, a study published in 2018 in the journal 'Nature Communications' found that exposure to air pollution during pregnancy was associated with changes in the epigenetic profile of offspring, which may increase their risk of developing respiratory diseases. Additionally, the discovery of specific epigenetic markers associated with certain diseases has opened up new avenues for treatment and prevention. The Human Epigenome Project, launched in 2003, aims to create a comprehensive map of human epigenomes, shedding light on the complex interactions between genetics and environment.",
-    "funFact": "Some studies have shown that epigenetic changes can be passed on to future generations through a process called 'epigenetic inheritance.' For example, research on the effects of maternal nutrition on epigenetic development has shown that the children of mothers who experienced famine during the Dutch Hunger Winter of 1944-45 had distinct epigenetic signatures in their blood cells, which may increase their risk of developing certain diseases.",
+    "learn": "Traits appear to skip generations when they are recessive and can hide inside carriers who do not show the trait themselves. A recessive allele can move quietly through a family until two copies meet in one child. Then the trait suddenly appears again, even though it looked absent for years.\n\nThis is not a trick of memory. It is the logic of inheritance. What seems to vanish is often still there, simply masked by a dominant allele or hidden in the family tree.",
+    "simpler": "Some traits seem to skip generations because recessive versions can hide in carriers before showing up again later.",
+    "keyTakeaway": "A trait can disappear from view without disappearing from the genes.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Autosomal_recessive_inheritance%2C_pedigree_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Rollcloud",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Autosomal_recessive_inheritance%2C_pedigree_example.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Pedigree_chart.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Edpedrero",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Pedigree_chart.png"
+    },
+    "deeperDive": "Punnett squares and pedigree charts make the pattern easier to see. If both parents carry a recessive allele, their children can inherit the trait even when the parents do not show it. That is why families can be surprised by conditions that appear after several unaffected generations. The pattern is especially clear in single-gene traits, but real family history can get more complex when multiple genes or environment are involved.\n\nThis lesson is also a reminder that genetics is about probabilities, not certainty. Parents pass on alleles randomly, and the outcome for each child is a new draw from the same rules.",
+    "funFact": "Carriers often look completely unaffected by recessive traits.",
+    "references": [
+      "Britannica - dominant and recessive inheritance",
+      "NHGRI - inheritance patterns",
+      "MedlinePlus Genetics - recessive traits"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "- Barbara McClintock (pioneered work on transposons and their role in epigenetics)",
-        "- Randy Jirtle (researched the impact of maternal nutrition on epigenetic development)",
-        "- Moshe Szyf (studied the role of DNA methylation in epigenetic regulation)",
-        "- Wolf Reik (investigated epigenetic reprogramming during early development)",
-        "- Steven Clark (worked on understanding the mechanisms behind epigenetic inheritance)",
-        "* **"
+        "Gregor Mendel - foundational genetics thinker",
+        "Genetic counselors - people who explain inheritance patterns",
+        "Parents - carriers of hidden alleles",
+        "Children - where recessive traits can reappear"
       ],
       "places": [
-        "**",
-        "- The Rockefeller University (hosted McClintock's research on transposons)",
-        "- The Francis Crick Institute (UK-based research center focused on epigenetics and genomics)",
-        "- Harvard Medical School (site of Jirtle's studies on maternal nutrition and epigenetic development)",
-        "- Cold Spring Harbor Laboratory (home to Reik's work on epigenetic reprogramming)",
-        "- McGill University (location of Szyf's research on DNA methylation)",
-        "* **"
+        "Family pedigrees - diagrams of inherited traits",
+        "Pea plant studies - the classic model system",
+        "Human families - where recessive conditions appear",
+        "Genetics clinics - where inheritance is explained"
       ],
       "years": [
-        "**",
-        "- 1950s: McClintock's discovery of transposons marked the beginning of modern epigenetics research",
-        "- 2003: Launch of the Human Epigenome Project",
-        "- 2011: Publication of a landmark study linking maternal nutrition to epigenetic changes in offspring",
-        "- 2015: Identification of specific epigenetic markers associated with certain diseases",
-        "* **"
+        "1860s - Mendel establishes inheritance rules",
+        "1900s - Mendelian genetics is rediscovered",
+        "1950s onward - pedigree analysis becomes standard",
+        "Present day - recessive inheritance is routinely tested"
       ],
       "concepts": [
-        "**",
-        "- Epigenetics (study of heritable changes in gene expression)",
-        "- DNA methylation (process by which methyl groups modify gene expression)",
-        "- Histone modification (regulation of gene expression through histone protein modifications)",
-        "- Transposons (mobile genetic elements that can affect gene expression)",
-        "- Environmental epigenomics (study of how environmental factors influence epigenetic traits)"
+        "Recessive - needing two copies to show",
+        "Carrier - someone with one hidden copy",
+        "Pedigree - a family inheritance chart",
+        "Allele - a version of a gene",
+        "Probability - the math behind inheritance"
       ]
     }
   }

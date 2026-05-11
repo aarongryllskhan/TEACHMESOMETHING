@@ -1,44 +1,67 @@
 {
-  "topic": "The Mechanism Behind Autoimmune Diseases",
+  "topic": "Autoimmune Disease Mechanisms",
   "title": "Understanding the Immune System's Error: How Autoimmune Diseases Develop",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Autoimmune%20disease.jpg",
+  "imageCredit": {
+    "creator": "National Institute of Environmental Health Sciences",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Autoimmune_disease.jpg"
+  },
+  "summary": "Autoimmune disease develops when immune tolerance fails, allowing self-reactive T cells, B cells, antibodies, and inflammatory signals to attack healthy tissues.",
   "lesson": {
-    "learn": "Autoimmune diseases occur when the body's immune system fails to distinguish between self and non-self, leading to a chronic inflammatory response and tissue damage. This phenomenon is a result of an intricate interplay between genetic predisposition, environmental triggers, and immune system dysregulation. Research has shown that approximately 10% of the global population will develop an autoimmune disease at some point in their lives, with the incidence increasing by 3-5% per decade.",
-    "simpler": "Imagine your immune system as a finely tuned defense network, tasked with protecting against foreign invaders. However, in autoimmune diseases, this network becomes faulty, causing the immune cells to mistake the body's own cells and tissues for invaders. This is analogous to a security system mistakenly identifying its own building as a threat and attacking it.",
-    "keyTakeaway": "The key takeaway from autoimmune diseases is that they arise from a complex interplay of genetic, environmental, and immune system factors, leading to a chronic inflammatory response and tissue damage. Furthermore, understanding the underlying mechanisms of these diseases is crucial for developing targeted treatments that address the root causes of the condition.",
-    "deeperDive": "Recent studies have highlighted the critical role of the gut microbiome in autoimmune disease development. A 2018 study published in the journal Nature found that changes in the gut microbiota can trigger an immune response against self-antigens, leading to the development of autoimmune diseases such as rheumatoid arthritis and type 1 diabetes. Additionally, research has shown that the presence of specific autoantibodies and self-reactive T-cells is a hallmark of autoimmune diseases. For example, in multiple sclerosis, the immune system attacks the protective myelin sheath surrounding nerve fibers, leading to communication disruptions between the brain and spinal cord. Researchers are exploring novel treatments that target specific components of the immune response, such as B-cell depletion therapies and immune modulators.",
-    "funFact": "Autoimmune diseases can be triggered by infections, such as Lyme disease, which can activate self-reactive T-cells and lead to a lifelong autoimmune response. The presence of certain autoantibodies, such as antinuclear antibodies, can also be a marker for autoimmune diseases. Interestingly, some autoimmune diseases, like Hashimoto's thyroiditis, are more common in certain geographic regions due to environmental factors.",
+    "learn": "A healthy immune system must solve a difficult problem: attack dangerous invaders without attacking the body that houses it. Autoimmune disease begins when that self-tolerance breaks down. During immune cell development, many self-reactive T cells and B cells are deleted, silenced, or controlled by regulatory mechanisms, but the process is not perfect. Genetics can make certain self-antigens easier to present to immune cells, while infections, tissue injury, hormones, microbiome changes, or environmental exposures may provide the inflammatory spark. Once activated, self-reactive cells can produce autoantibodies, recruit inflammatory cells, and damage organs such as joints, skin, thyroid, nerves, pancreas, or kidneys. The exact pattern depends on which tissue is targeted and which immune pathways dominate. Autoimmunity is not one disease but a family of conditions caused by mistaken recognition, poor regulation, and chronic immune activation.",
+    "simpler": "Autoimmune disease happens when immune tolerance fails and the body treats some of its own tissues as if they were threats.",
+    "keyTakeaway": "Autoimmune disease develops when genetic risk, environmental triggers, and failed immune tolerance allow self-reactive cells and autoantibodies to create chronic tissue-damaging inflammation.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/T%20Cell%20(NIH%20BioArt%20508%20-%20636213).png",
+    "learnImageCredit": {
+      "creator": "Courtesy of NIAID Ryan Kissinger",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:T_Cell_(NIH_BioArt_508_-_636213).png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Dividing%20B%20Cell%20(NIH%20BioArt%20122%20-%20629185).png",
+    "thirdImageCredit": {
+      "creator": "Courtesy of NIAID Ryan Kissinger",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dividing_B_Cell_(NIH_BioArt_122_-_629185).png"
+    },
+    "deeperDive": "Immune tolerance works through several checkpoints. Central tolerance removes many dangerous lymphocytes in the thymus and bone marrow, while peripheral tolerance restrains self-reactive cells that escape into the body. Regulatory T cells, inhibitory receptors, anergy, deletion, and controlled inflammation all help preserve this balance. Autoimmune disease can emerge when multiple safeguards weaken at once. In type 1 diabetes, immune attack damages insulin-producing beta cells. In rheumatoid arthritis, joint tissues become sites of persistent inflammation. In multiple sclerosis, immune responses damage myelin in the central nervous system. Autoantibodies can be diagnostic clues, but they are not always the whole mechanism; T cells, cytokines, complement, and local tissue vulnerability also matter. Modern treatments increasingly target specific pathways, such as B cells, TNF, IL-6, JAK signaling, or lymphocyte trafficking, reflecting the fact that autoimmunity is a misdirected immune network rather than a simple overactive immune system.",
+    "funFact": "Many healthy people carry a few self-reactive immune cells, but tolerance systems usually keep them quiet.",
+    "references": [
+      "NIAID - immune tolerance",
+      "NIEHS - autoimmune diseases",
+      "NIAMS - autoimmune disease overview"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "â€¢ Dr. Barry Bluestone, immunologist who pioneered the concept of autoantibodies",
-        "â€¢ Dr. Cynthia Guiducci, researcher who identified key genetic markers for autoimmune disease susceptibility",
-        "â€¢ Dr. Noga Alon, expert on T-cell biology and immune system regulation",
-        "â€¢ Dr. Jane McSweeney, leader in multiple sclerosis research and treatment development",
-        "**"
+        "Noel Rose - immunologist associated with modern autoimmune disease research",
+        "Peter Medawar - scientist linked to foundational tolerance concepts",
+        "Regulatory T cell researchers - scientists who study immune restraint",
+        "Rheumatologists - physicians who treat many systemic autoimmune diseases"
       ],
       "places": [
-        "**",
-        "â€¢ The Rockefeller University Hospital, site of early autoimmunity research",
-        "â€¢ Harvard Medical School, hub for immunology and autoimmune disease studies",
-        "â€¢ National Institutes of Health (NIH), leading center for autoimmune disease research",
-        "â€¢ The European Centre for Disease Prevention and Control (ECDC), coordinating international efforts to combat autoimmune diseases",
-        "**"
+        "Thymus - organ where many self-reactive T cells are removed",
+        "Bone marrow - site of B cell development and tolerance checkpoints",
+        "Joints - common targets in rheumatoid arthritis",
+        "Central nervous system - target tissue in multiple sclerosis"
       ],
       "years": [
-        "**",
-        "â€¢ 1940s: Discovery of autoantibodies by Dr. Barry Bluestone",
-        "â€¢ 1960s: Development of the first treatments for multiple sclerosis",
-        "â€¢ 1980s: Identification of genetic predisposition in autoimmune disease susceptibility",
-        "â€¢ 1990s: Recognition of the role of gut microbiome in autoimmune disease development",
-        "**"
+        "1950s - immune tolerance becomes a central concept in immunology",
+        "1956 - Hashimoto thyroiditis helps establish autoimmunity as real disease mechanism",
+        "1990s - biologic therapies begin changing autoimmune treatment",
+        "Present day - precision immune therapies target specific inflammatory pathways"
       ],
       "concepts": [
-        "**",
-        "â€¢ Autoantibodies and self-reactive T-cells",
-        "â€¢ Immune system dysregulation and hyperactivation",
-        "â€¢ Chronic inflammation and tissue damage",
-        "â€¢ Genetic predisposition and environmental triggers",
-        "â€¢ The role of the gut microbiome in autoimmune disease development"
+        "Immune tolerance - prevention of harmful responses against self",
+        "Autoantibody - antibody that binds the body own molecules",
+        "Regulatory T cell - cell type that restrains immune responses",
+        "Molecular mimicry - similarity between microbial and self targets",
+        "Chronic inflammation - persistent immune activity that damages tissue"
       ]
     }
   }

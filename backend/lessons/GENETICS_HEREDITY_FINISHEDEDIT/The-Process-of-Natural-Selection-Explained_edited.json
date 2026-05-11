@@ -1,45 +1,66 @@
 {
-  "topic": "The-Process-of-Natural-Selection-Explained",
-  "title": "Understanding the Mechanisms Behind 'Survival of the Fittest'",
+  "topic": "Natural Selection",
+  "title": "How Natural Selection Actually Works",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Peppered_Moth_%2852923128954%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Ben Sale from Stevenage, UK",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Peppered_Moth_(52923128954).jpg"
+  },
   "lesson": {
-    "learn": "Natural selection is a fundamental concept in evolutionary biology that explains how populations adapt to their environments over time. The process was first proposed by Charles Darwin in 1859, following his five-year voyage on the HMS Beagle from 1835 to 1840. Darwin's theory posits that individuals with favorable traits are more likely to reproduce, passing those characteristics on to their offspring. This process has shaped the diversity of life on Earth, from the simplest bacteria to complex organisms like humans.",
-    "simpler": "Consider the case of the finches on the Galapagos Islands, where distinct beak shapes allowed different species to exploit unique food sources. This is a direct result of adaptive radiation driven by natural selection. Similarly, in the human population, the presence of lactase persistence, an ability to digest lactose into adulthood, is a trait that has evolved over time due to natural selection. This adaptation allowed individuals to access a vital source of nutrition.",
-    "keyTakeaway": "The process of natural selection drives evolution by favoring individuals with traits that increase their chances of survival and reproduction in their ecological niches. As a result, populations adapt to their environments, leading to the creation of new species.",
-    "deeperDive": "Recent studies have demonstrated that natural selection can act on various levels, from individual organisms to entire populations. For example, the evolution of antibiotic resistance in bacteria, first observed in 1945, is a direct result of natural selection favoring individuals with genes conferring resistance to antibiotics. Another intriguing example is the concept of \"heterozygote advantage,\" where individuals with one copy of a beneficial gene (heterozygotes) have higher fitness than those without it (homozygotes). This phenomenon has been observed in various species, including humans, and has significant implications for our understanding of genetic diversity.",
-    "funFact": "Did you know that the first recorded example of natural selection in action dates back to 1908, when the British biologist Ronald Fisher observed the adaptation of the peppered moth in England? In a span of only 50 years, the moth population shifted from having lighter-colored wings to darker-colored ones, in response to the industrial revolution's pollution of the environment.",
+    "learn": "Natural selection is the process by which traits become more common because they help organisms survive and reproduce in a specific environment. It is not a conscious force. It is the result of individuals with different traits leaving different numbers of offspring over time.\n\nThat process explains how populations adapt without needing a planner. If some variants are better suited to the environment, they tend to persist. Over many generations, that slowly changes the population's average traits.",
+    "simpler": "Natural selection means helpful inherited traits become more common because the organisms with them leave more offspring.",
+    "keyTakeaway": "Selection is about differential survival and reproduction across generations.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/8/84/Adaptive_radiation_of_Darwin%27s_finches.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Bioanthropologist1",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Adaptive_radiation_of_Darwin's_finches.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Finchadaptiveradiation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Jackie malvin",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Finchadaptiveradiation.png"
+    },
+    "deeperDive": "For selection to work, variation has to be inherited, and the environment has to favor some variants over others. The classic peppered moth example shows how a change in conditions can change which form is more successful. Darwin's finches show how different environments can favor different beak shapes. The result is not perfection, just relative advantage.\n\nNatural selection is slow when generation times are long and fast when generation times are short. That is why the same evolutionary logic can shape bacteria, birds, and humans, even though the timescales look very different.",
+    "funFact": "Natural selection has no plan; it only keeps what works better right now.",
+    "references": [
+      "Britannica - natural selection",
+      "National Geographic - evolution",
+      "Smithsonian - evolution and adaptation"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Charles Darwin (Evolutionary Biologist and Naturalist)",
-        "+ Gregor Mendel (Geneticist and Botanist)",
-        "+ Stephen Jay Gould (Paleontologist and Evolutionary Biologist)",
-        "+ Richard Dawkins (Biologist and Science Writer)",
-        "+ E.O. Wilson (Biologist and Entomologist)",
-        "* **"
+        "Charles Darwin - explained the process",
+        "Alfred Russel Wallace - independent co-discoverer",
+        "Evolutionary biologists - modern researchers",
+        "Field naturalists - people who observe selection in the wild"
       ],
       "places": [
-        "**",
-        "+ Galapagos Islands (Ecuador) â€“ site of Darwin's inspiration for evolution",
-        "+ HMS Beagle (British Ship) â€“ where Darwin developed the theory of natural selection",
-        "+ Cambridge University (UK) â€“ where Mendel conducted his groundbreaking experiments",
-        "+ Harvard University (USA) â€“ where Wilson and Dawkins taught evolutionary biology",
-        "* **"
+        "Habitats - environments where selection acts",
+        "Industrial England - a historic selection example",
+        "The Galápagos Islands - a famous adaptation setting",
+        "Laboratories and field stations - where selection is studied"
       ],
       "years": [
-        "**",
-        "+ 1835 â€“ Darwin begins his voyage on the HMS Beagle",
-        "+ 1859 â€“ Darwin publishes \"On the Origin of Species\"",
-        "+ 1866 â€“ Mendel's laws of inheritance are rediscovered",
-        "+ 1953 â€“ Watson and Crick discover the structure of DNA, revolutionizing our understanding of genetics and evolution",
-        "* **"
+        "1859 - Darwin's theory is published",
+        "1900s - genetics strengthens the theory",
+        "Late 20th century - selection is observed in real time",
+        "Present day - selection is central to biology"
       ],
       "concepts": [
-        "**",
-        "+ Variation â€“ genetic diversity within a population",
-        "+ Heritability â€“ degree to which traits are passed on from parents to offspring",
-        "+ Adaptation â€“ process by which organisms become better suited to their environments",
-        "+ Speciation â€“ formation of new species through the accumulation of genetic differences",
-        "+ Co-evolution â€“ evolution of two or more species that interact and influence each other's evolution"
+        "Selection - differential reproductive success",
+        "Fitness - reproductive success in context",
+        "Adaptation - a trait favored over time",
+        "Variation - differences that selection can work on",
+        "Population - the unit that evolves"
       ]
     }
   }

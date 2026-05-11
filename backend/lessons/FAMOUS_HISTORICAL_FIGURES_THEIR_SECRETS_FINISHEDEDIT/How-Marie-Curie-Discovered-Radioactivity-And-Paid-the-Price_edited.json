@@ -1,41 +1,66 @@
 {
-  "topic": "How-Marie-Curie-Discovered-Radioactivity-And-Paid-the-Price",
-  "title": "The Trailblazing Pioneer**",
+  "topic": "Marie Curie and Radioactivity",
+  "title": "How Marie Curie Discovered Radioactivity and Paid the Price",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Mariecurie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Unknown authorUnknown author",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mariecurie.jpg"
+  },
   "lesson": {
-    "learn": "Marie Curie was a Polish-born physicist and chemist who pioneered radioactivity research in the late 19th and early 20th centuries. Her groundbreaking work laid the foundation for modern physics, chemistry, and medicine, earning her two Nobel Prizes \u00e2\u20ac\u201c one in Physics (1903) and another in Chemistry (1911). Curie's discovery of radioactivity revealed that atoms could emit energy, leading to a deeper understanding of the structure of matter. Through her tireless efforts and unwavering dedication, she paved the way for future generations of scientists. Her research also had significant implications for medicine, enabling the development of cancer treatments and medical imaging technologies.",
-    "simpler": "Imagine you're playing with glow-in-the-dark toys \u00e2\u20ac\u201c that's basically what Marie Curie discovered, but instead of just glowing, certain atoms can actually release energy. This phenomenon is called radioactivity, and it's like a tiny explosion happening inside the atom. Think of it like a volcano erupting, but much smaller.",
-    "keyTakeaway": "Marie Curie's discovery of radioactivity revolutionized our understanding of matter and paved the way for significant advancements in medicine. Her pioneering work came at a great personal cost due to her prolonged exposure to radioactive materials, ultimately leading to her untimely death from radiation poisoning.",
-    "deeperDive": "Curie's research on radioactivity began in 1898 when she isolated two previously unknown elements \u00e2\u20ac\u201c polonium (named after her homeland) and radium. Her meticulous experiments involved measuring the levels of radiation emitted by these elements using an electrometer, a device that detects electrical charges. The data collected from these experiments led to the development of the first X-ray machines, which were used in medical imaging for the first time during World War I. Her research also spawned new fields like nuclear physics and nuclear medicine. Curie's work inspired a generation of scientists, including her own daughter Ir\u00c3\u00a8ne Joliot-Curie, who followed in her footsteps to win another Nobel Prize in Chemistry. Additionally, Curie's pioneering spirit led to the establishment of mobile X-ray units during World War I, providing medical care to soldiers on the front lines.",
-    "funFact": "Marie Curie's notebooks and papers from her research are still radioactive today, making them highly valued by scientists and historians alike. Her legacy extends beyond science; she was also a devoted mother and wife who balanced her demanding career with family life.",
+    "learn": "Marie Curie's work transformed science because she treated radioactivity as a measurable physical phenomenon, not a curiosity. Working with Pierre Curie, she studied uranium ores, isolated new elements, and helped prove that atoms can emit energy on their own. Her discoveries opened new paths in physics, chemistry, medicine, and cancer treatment.\n\nBut the price was enormous. Curie worked with radioactive material long before scientists understood the health risks, and the damage to her body eventually reflected the danger of the work itself.",
+    "simpler": "Marie Curie showed that some elements naturally give off radiation. Her discoveries changed science, but the work was dangerous.",
+    "keyTakeaway": "Curie made radioactivity visible to science, and her career showed both the power and the cost of discovery.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Marie_and_Ir%C3%A8ne_Curie_at_the_Institute_of_Radium%2C_1919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Unknown authorUnknown author",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Marie_and_Ir%C3%A8ne_Curie_at_the_Institute_of_Radium%2C_1919.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Pierre_and_Marie_Curie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Unknown photographer",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Pierre_and_Marie_Curie.jpg"
+    },
+    "deeperDive": "Curie's breakthrough was not just finding radium and polonium. It was proving that radiation came from the atom itself. That changed how scientists thought about matter. She also organized laboratory work with remarkable precision, turning messy mineral samples into evidence. Her later life, including her wartime medical work, showed how discovery can serve humanity even when the danger is poorly understood.\n\nThe story of Curie is both triumphant and sobering. She expanded the frontiers of science, but she did so in an era before safety standards could protect her from the consequences.",
+    "funFact": "Marie Curie carried radium samples in her pocket.",
+    "references": [
+      "Britannica - Marie Curie",
+      "Nobel Prize - Marie Curie",
+      "Institut Curie - Curie history"
+    ],
     "keyElements": {
       "people": [
-        "+ Marie Curie (physicist and chemist)",
-        "+ Pierre Curie (Marie's husband, physicist)",
-        "+ Henri Becquerel (French physicist who discovered radioactivity before Curie)",
-        "+ Ir\u00c3\u00a8ne Joliot-Curie (Marie's daughter, Nobel Prize winner in Chemistry)",
-        "+ Ernest Rutherford (New Zealand-born British physicist and chemist)",
-        "*"
+        "Marie Curie - physicist and chemist",
+        "Pierre Curie - scientific partner and husband",
+        "Laboratory assistants - people who helped isolate elements",
+        "Medical researchers - later users of Curie's discoveries"
       ],
       "places": [
-        "+ Sorbonne University (Paris, France \u00e2\u20ac\u201c where Curie conducted her research)",
-        "+ Warsaw, Poland (Curie's hometown)",
-        "+ The Pasteur Institute (Paris, France \u00e2\u20ac\u201c a hub for medical research during World War I)",
-        "+ the United States National Archives (Washington D.C. \u00e2\u20ac\u201c where some of Curie's papers are stored)",
-        "*"
+        "Paris - Curie's research base",
+        "Institut du Radium - center of her later work",
+        "Europe during World War I - where her medical devices were used",
+        "Radium laboratories - spaces where radiation was studied"
       ],
       "years": [
-        "+ 1898: Curie isolates polonium and radium",
-        "+ 1903: Curie wins her first Nobel Prize in Physics, along with Pierre and Henri Becquerel",
-        "+ 1911: Curie wins her second Nobel Prize in Chemistry",
-        "+ 1934: Marie Curie passes away due to radiation poisoning",
-        "*"
+        "1898 - polonium and radium are announced",
+        "1903 - Curie wins the Nobel Prize in Physics",
+        "1911 - Curie wins the Nobel Prize in Chemistry",
+        "Present day - her work remains foundational"
       ],
       "concepts": [
-        "+ Radioactivity: the phenomenon of atoms emitting energy",
-        "+ Electrometer: a device that detects electrical charges",
-        "+ X-ray machines: medical imaging technology developed from Curie's research",
-        "+ Polonium and Radium: elements discovered by Marie Curie",
-        "+ Nuclear physics: field of study spawned by Curie's work on radioactivity"
+        "Radioactivity - spontaneous emission of radiation",
+        "Element - a substance defined by atomic number",
+        "Ionizing radiation - high-energy radiation that can damage tissue",
+        "Isolation - separating a substance from a mixture",
+        "Scientific method - careful testing and measurement"
       ]
     }
   }

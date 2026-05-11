@@ -1,30 +1,65 @@
 {
-  "topic": "Why-Yawning-Is-Contagious-We-Still-Dont-Know",
-  "title": "Understanding the Contagious Nature of Yawning: Insights from Science and Research",
+  "topic": "Incredible Human Biology",
+  "title": "Why Yawning Is Contagious: We Still Do Not Know",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bostezo_de_mujer.JPG",
+  "imageCredit": {
+    "creator": "Lusb",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Bostezo_de_mujer.JPG"
+  },
+  "summary": "Contagious yawning appears to blend attention, social mirroring, arousal, and possibly thermoregulation, but no single theory explains every case.",
   "lesson": {
-    "learn": "According to a 1969 study by American neuroscientist Dr. Robert Provine, yawning is a complex behavior that affects humans across cultures and ages. Research suggests that yawning may serve multiple purposes, including regulating brain temperature and facilitating social bonding.",
-    "simpler": "The contagious nature of yawning can be likened to a social mirroring effect, where we observe and mimic others' behaviors, including yawning. This is consistent with neuroscientific findings on facial expression recognition and the neural basis of empathy.",
-    "keyTakeaway": "The study of contagious yawning highlights the intricate workings of the human brain, particularly in areas related to social cognition and emotional regulation. Research has shown that contagious yawning can be a useful indicator of social connection and stress relief, but its full purpose remains to be determined.",
-    "deeperDive": "Recent studies suggest a link between yawning and brain cooling, which may be essential for maintaining optimal neural function. Observations have also shown that contagious yawning is more common among individuals with autism spectrum disorder (ASD) and can even be a symptom of anxiety or stress in certain individuals. Furthermore, research has discovered that yawns can spread between people through facial expressions and body language, emphasizing the importance of nonverbal communication in social interactions.",
-    "funFact": "Notably, contagious yawning has been observed in non-human primates, such as chimpanzees and bonobos, with studies indicating a shared brain basis for this behavior across species. This phenomenon has sparked interest in the evolution of contagious yawning and its significance across the animal kingdom.",
+    "learn": "Yawning is familiar enough to feel simple, yet contagious yawning remains scientifically slippery. People yawn when tired, bored, waking up, changing activity states, or sometimes for no obvious reason. A yawn involves a deep inhalation, jaw stretching, brief eye closure, and a shift in arousal. It is not just a sign of needing oxygen; that old explanation does not fit the evidence well. Contagious yawning is different: seeing, hearing, reading about, or imagining a yawn can trigger one. The strongest explanations involve attention and social mirroring. Humans are more likely to catch yawns when they notice the cue, and some studies suggest familiarity or social closeness can increase the effect. Empathy may play a role, but results are mixed and should not be oversold. Another hypothesis argues that yawning helps regulate brain temperature or alertness, which could make group yawning useful for synchronizing vigilance. The honest answer is that contagious yawning probably has more than one cause. It sits at the intersection of physiology, perception, and social behavior.",
+    "simpler": "Yawning spreads because the brain is highly responsive to other people’s actions. Attention, social mirroring, arousal, and maybe brain cooling all seem involved, but the full explanation is still unsettled.",
+    "keyTakeaway": "Contagious yawning is not a solved reflex; it likely combines automatic mimicry, attention, social context, arousal regulation, and body-state control.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Bored.gif",
+    "learnImageCredit": {
+      "creator": "British Film Institute / Wikimedia Commons",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bored.gif"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mirror_neurons.png",
+    "thirdImageCredit": {
+      "creator": "Psihedelisto",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mirror_neurons.png"
+    },
+    "deeperDive": "The empathy explanation became popular because contagious yawning is socially patterned and appears in some other social animals. But the evidence is more cautious than the myth. Attention to the yawning face is essential, and differences across age, neurodevelopment, fatigue, and context complicate interpretation. Brain imaging and behavioral studies point toward networks involved in action perception, self-other mapping, and arousal, but there is no single yawn center that settles the matter. Thermoregulation research adds another layer: yawning may increase alertness or help cool the brain under certain conditions, and contagious yawning could spread an arousal adjustment through a group. The best modern reading is pluralistic. A yawn can be physiological, a caught yawn can be perceptual and social, and both can be influenced by fatigue, temperature, and attention.",
+    "funFact": "Reading about yawning is enough to make many people yawn.",
+    "references": [
+      {
+        "title": "Mafessoni and Lachmann, emotional contagion and contagious yawning",
+        "url": "https://www.nature.com/articles/s41598-019-41835-5"
+      },
+      {
+        "title": "Gallup and Gallup, yawning as a brain cooling mechanism",
+        "url": "https://journals.sagepub.com/doi/10.1177/147470490700500109"
+      }
+    ],
     "keyElements": {
       "people": [
-        "Dr. Robert Provine",
-        "Dr. Paul MacLean",
-        "Dr. Michael Persinger"
+        "Andrew Gallup - researcher associated with brain-cooling hypotheses of yawning",
+        "Gordon Gallup - coauthor on thermoregulation studies of yawning"
       ],
-      "places": [],
+      "places": [
+        "Motor cortex - helps execute the facial and respiratory movement pattern",
+        "Social brain networks - circuits involved in perceiving and mirroring others"
+      ],
       "years": [
-        "1969"
+        "2007 - brain-cooling experiments tested contagious yawning conditions",
+        "2019 - research connected contagious yawning with broader emotional contagion theory"
       ],
       "concepts": [
-        "Social bonding",
-        "Brain cooling",
-        "Empathy",
-        "Facial expression recognition",
-        "Neural basis of emotions",
-        "Autism spectrum disorder",
-        "Contagious yawning in non-human primates"
+        "Contagious yawning - yawning triggered by perceiving or thinking about yawns",
+        "Social mirroring - automatic tendency to echo observed actions",
+        "Arousal regulation - shifting alertness or behavioral state",
+        "Thermoregulation hypothesis - proposal that yawning helps regulate brain temperature"
       ]
     }
   }

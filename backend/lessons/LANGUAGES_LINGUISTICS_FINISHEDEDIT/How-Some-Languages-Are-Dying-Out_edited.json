@@ -1,32 +1,61 @@
 {
-  "topic": "Language Endangerment and Conservation",
-  "title": "Understanding Language Extinction and Its Consequences",
+  "topic": "How Some Languages Are Dying Out",
+  "title": "Why Languages Disappear and How Communities Revive Them",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bar_chart_showing_count_of_UNESCO_endangered_languages_for_each_status_broken_down_by_continent.png",
+  "imageCredit": {
+    "creator": "NavinoEvans",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Bar_chart_showing_count_of_UNESCO_endangered_languages_for_each_status_broken_down_by_continent.png"
+  },
+  "summary": "Languages die when communities are pressured to stop transmitting them, but revitalization can succeed when speakers regain daily use, education, status, and intergenerational support.",
   "lesson": {
-    "learn": "The world's linguistic diversity is under threat, with approximately 43 languages disappearing each year. This phenomenon is often linked to globalization, urbanization, and the dominance of English as a global language. For instance, in Papua New Guinea, more than 800 languages are spoken in a region roughly the size of Texas, but many are at risk of disappearing due to urbanization and English-medium education. Language loss erodes not only cultural identity but also our understanding of human history and experience.",
-    "simpler": "Language is like a fingerprint – unique and essential for identification. Just as losing a species affects biodiversity, the loss of languages can compromise our understanding of the world's cultural and linguistic heritage. Think of languages as musical keys; when we lose one, the entire repertoire becomes diminished.",
-    "keyTakeaway": "Language extinction undermines our understanding of human history, cultural identity, and biodiversity. Efforts to document, record, and promote endangered languages are essential for preserving linguistic diversity.",
-    "deeperDive": "Language loss is often the result of language shift, where speakers switch from their native language to a more widely spoken one, often due to economic or social pressures. According to a 2019 United Nations report, linguistic diversity is a critical component of cultural heritage. The Ainu language, once spoken in Japan, was declared extinct by UNESCO in 2008, but efforts are being made to revive and document this language through online resources. Researchers like David Crystal have highlighted the importance of preserving language data through online archives and multimedia resources.",
-    "funFact": "Did you know that some languages have not been documented in writing? For example, the Pirahã language, spoken in Brazil, was not written down until the 1980s. This highlights the urgent need for language documentation and preservation efforts.",
+    "learn": "A language usually does not disappear because speakers simply forget it. It disappears when social conditions make another language feel necessary for safety, school, work, government, religion, media, or prestige. Children then grow up hearing the ancestral language less often, families shift to the dominant language, and the speaker base ages. Policies of assimilation, boarding schools, forced migration, stigma, urbanization, and economic pressure can accelerate the break. When the last fluent speakers die without new generations using the language, a whole system of memory goes with them: place names, ecological knowledge, jokes, songs, kinship terms, ceremonial speech, and ways of classifying experience. Yet decline is not always final. Communities have revived and strengthened languages through immersion schools, master-apprentice programs, dictionaries, recordings, radio, apps, official recognition, and everyday use at home. Documentation matters, but living use matters more.",
+    "simpler": "Languages fade when children stop learning them because another language becomes socially or economically dominant. Revival works best when communities can bring the language back into homes, schools, media, and public life.",
+    "keyTakeaway": "Language loss is driven by interrupted transmission, so revitalization depends on restoring everyday use, community pride, and practical spaces where younger speakers need the language.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Upgraded_Human_Language_Families_(wikicolors).png",
+    "learnImageCredit": {
+      "creator": "User:Erinthecute",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Upgraded_Human_Language_Families_(wikicolors).png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Dictionnaire_Pirah%C3%A3.pdf",
+    "thirdImageCredit": {
+      "creator": "Treehill",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported / GNU Free Documentation License",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dictionnaire_Pirah%C3%A3.pdf"
+    },
+    "deeperDive": "Endangerment is best understood as a continuum. Some languages are vulnerable because children speak them only in limited settings; others are critically endangered because only elders remain fluent. Revitalization also has levels. A community may begin by recording elders, then build teaching materials, then create immersion spaces, then expand into courts, signage, music, or digital media. Outside researchers can help, but the strongest programs are community-led because language belongs to its speakers. The goal is not to preserve a language like an artifact. It is to make it usable, loved, and useful enough that children inherit it as part of ordinary life.",
+    "funFact": "Hebrew is the most famous large-scale modern language revival, but many smaller community-led revivals are happening worldwide.",
+    "references": [
+      "https://www.unesco.org/en/languages"
+    ],
     "keyElements": {
       "people": [
-        "David Crystal - linguist who highlighted the importance of preserving language data",
-        "Kofi Awoonor - poet who advocated for Ghana's indigenous languages",
-        "Maria Polinsky - researcher specializing in endangered languages"
+        "David Crystal - linguist who wrote widely on language death",
+        "Leanne Hinton - scholar associated with language revitalization and master-apprentice methods",
+        "Daryl Baldwin - Miami language revitalization leader and educator"
       ],
       "places": [
-        "Papua New Guinea - region with over 800 languages spoken",
-        "Japan - home to Ainu language, once declared extinct by UNESCO",
-        "Brazil - country where Pirahã language was not written down until the 1980s"
+        "Papua New Guinea - one of the worlds most linguistically diverse countries",
+        "Aotearoa New Zealand - home to Maori language revitalization efforts",
+        "North America - region with many Indigenous language reclamation programs"
       ],
       "years": [
-        "2019 - United Nations report emphasized the importance of preserving linguistic diversity",
-        "2008 - Ainu language was declared extinct by UNESCO",
-        "1980s - Pirahã language was written down for the first time"
+        "1992 - Ubykh loses its last native speaker, often cited in language-death discussions",
+        "2019 - International Year of Indigenous Languages raises global attention",
+        "2022-2032 - UN International Decade of Indigenous Languages"
       ],
       "concepts": [
-        "Language shift - change from native language to more widely spoken one",
-        "Language documentation - recording and preserving endangered languages",
-        "Language conservation - efforts to protect and promote linguistic diversity"
+        "Language shift - moving from one community language to a dominant language",
+        "Intergenerational transmission - children learning the language naturally from older speakers",
+        "Revitalization - organized work to restore use and fluency",
+        "Documentation - recording grammar, vocabulary, stories, and speech for future use"
       ]
     }
   }

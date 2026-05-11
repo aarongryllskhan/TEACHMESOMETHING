@@ -1,46 +1,62 @@
 {
-  "topic": "Exploring the Causes and Consequences of Wrongful Convictions",
-  "title": "The Methods Behind Wrongful Convictions: Understanding the Complexities",
+  "topic": "How Wrongful Convictions Happen",
+  "title": "How Innocent People Can Be Convicted",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trialcourtroom.JPG",
+  "imageCredit": {
+    "creator": "Cstpierre",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Trialcourtroom.JPG"
+  },
+  "summary": "Wrongful convictions happen when fallible evidence, institutional pressure, weak defense, misconduct, and human bias align inside a process designed to look authoritative.",
   "lesson": {
-    "learn": "Wrongful convictions occur when systemic flaws, human error, and external pressures converge, often resulting in the conviction of an innocent individual. Research suggests that up to 4% of individuals incarcerated in the United States may be innocent.",
-    "simpler": "The process of wrongful conviction can be likened to a chain reaction. If one link in the chain is flawed, the entire process can be compromised. For instance, a false confession may lead to eyewitness misidentification, which can result in an innocent person being accused and convicted.",
-    "keyTakeaway": "To understand wrongful convictions, one must consider the intersection of factors such as coerced confessions, eyewitness misidentification, and flawed forensic evidence. By examining these factors, we can identify the root causes of wrongful convictions and work towards preventing such injustices.",
-    "deeperDive": "Recent studies have shown that coerced confessions are a significant contributing factor to wrongful convictions, particularly among vulnerable populations. In 1981, the US Supreme Court ruled in the case of Brown v. Mississippi that coerced confessions are inadmissible in court. However, despite this ruling, coerced confessions continue to be a problem, with studies estimating that up to 23% of prisoners may have given false confessions during interrogation.",
-    "funFact": "It takes an average of 14 years for a wrongful conviction to be overturned in the United States, with some cases taking up to 30 years or more. Research also suggests that up to 25% of prisoners may have been wrongly convicted.",
+    "learn": "Wrongful convictions rarely come from one dramatic mistake. They usually form through a chain of ordinary-looking failures: an eyewitness becomes more certain after a suggestive lineup, a suspect confesses after exhaustion or pressure, a forensic method is overstated, a jailhouse informant is rewarded, a defense lawyer lacks resources, or prosecutors fail to disclose evidence that points away from guilt. Each step can seem plausible in isolation, which is why the final conviction may look solid even when the foundation is cracked. DNA exonerations exposed this pattern by showing that confident testimony and courtroom certainty can be wrong. The deeper lesson is structural: criminal procedure depends on people making judgments under stress, incentives, time pressure, and limited information. Safeguards such as recorded interrogations, blind lineups, open discovery, forensic standards, and post-conviction review matter because they reduce the chance that one error becomes irreversible.",
+    "simpler": "Wrongful convictions happen when bad evidence and bad incentives reinforce each other. A mistaken ID, false confession, weak forensic claim, or hidden evidence can snowball into a conviction that feels certain but is not.",
+    "keyTakeaway": "A wrongful conviction is usually a system failure: several human, scientific, and procedural errors align until doubt is converted into official certainty.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/CBP_chemist_reads_a_DNA_profile.jpg",
+    "learnImageCredit": {
+      "creator": "U.S. Customs and Border Protection",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:CBP_chemist_reads_a_DNA_profile.jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg",
+    "thirdImageCredit": {
+      "creator": "Joe Gratz",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg"
+    },
+    "deeperDive": "The most dangerous feature of wrongful convictions is confirmation bias. Once investigators settle on a suspect, later evidence may be interpreted through that assumption. Ambiguous forensic results become stronger than they are; witness memory hardens after feedback; alternative suspects receive less attention. Reform therefore focuses on procedure before trial, not only appeals after trial. Blind lineup administration, better forensic validation, defense funding, conviction-integrity units, and databases of exonerations all aim to catch errors earlier. Even then, exoneration is difficult because courts value finality and because new evidence often appears years after memories, records, and witnesses have faded.",
+    "funFact": "DNA testing has freed people decades after conviction, but most criminal cases have no DNA evidence at all.",
+    "references": [
+      "https://innocenceproject.org/the-issues/",
+      "https://exonerationregistry.org/about"
+    ],
     "keyElements": {
       "people": [
-        "Ray Krone",
-        "Gerald Amaro",
-        "Kenneth Waters",
-        "Henry Lee Lucas",
-        "Samuel Ayodeji Bakre",
-        "Barry Scheck",
-        "Peter Neufeld"
+        "Barry Scheck - co-founder of the Innocence Project",
+        "Peter Neufeld - co-founder of the Innocence Project",
+        "Samuel Gross - co-founder of the National Registry of Exonerations"
       ],
       "places": [
-        "The United States",
-        "New York City",
-        "Chicago",
-        "Los Angeles",
-        "Pittsburgh",
-        "The Innocence Project",
-        "The National Registry of Exonerations"
+        "Innocence Project - legal organization focused on post-conviction innocence claims",
+        "National Registry of Exonerations - database of known U.S. exonerations",
+        "Trial courts - where evidence is tested before a jury or judge"
       ],
       "years": [
-        "1981",
-        "1915",
-        "1930s",
-        "1960s",
-        "1990s",
-        "2000s"
+        "1989 - modern DNA exoneration era begins",
+        "1992 - Innocence Project founded",
+        "2012 - National Registry of Exonerations launched"
       ],
       "concepts": [
-        "Coerced Confessions",
-        "Eyewitness Misidentification",
-        "Flawed Forensic Evidence",
-        "False Confessions",
-        "Wrongful Convictions",
-        "Systemic Flaws"
+        "Eyewitness misidentification - mistaken identification by a witness",
+        "False confession - admission to a crime by an innocent person",
+        "Brady disclosure - prosecution duty to reveal favorable evidence",
+        "Forensic validation - testing whether a method reliably supports its claims"
       ]
     }
   }

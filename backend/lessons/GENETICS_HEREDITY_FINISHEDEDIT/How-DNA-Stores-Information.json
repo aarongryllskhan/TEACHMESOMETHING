@@ -1,42 +1,66 @@
 {
-  "topic": "The Molecular Basis of Genetic Information",
-  "title": "Genetic Information in DNA",
+  "topic": "DNA and Information",
+  "title": "How DNA Stores Information So Efficiently",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/DNA_Double_Helix_%2820468181866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "NIH Image Gallery from Bethesda, Maryland, USA",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:DNA_Double_Helix_(20468181866).jpg"
+  },
   "lesson": {
-    "learn": "DNA is a linear polymer composed of four nucleotide bases - adenine (A), guanine (G), cytosine (C), and thymine (T) - linked by phosphodiester bonds. The arrangement of these bases in a specific sequence, known as a nucleotide sequence, contains the genetic instructions used in the development and function of all living organisms.",
-    "simpler": "DNA is a molecule composed of long chains of nucleotide bases. The sequence of these bases determines the genetic information that's encoded within our DNA. This information is used by our cells to create proteins, which perform various functions necessary for life.",
-    "keyTakeaway": "The nucleotide sequence of DNA serves as a template for protein synthesis, allowing our cells to create unique proteins that enable us to adapt to our environment. The unique combination of nucleotides in our DNA determines the genetic traits we inherit from our parents.",
-    "deeperDive": "The double helix structure of DNA was first visualized by James Watson and Francis Crick in 1953 using X-ray crystallography data from Rosalind Franklin and Maurice Wilkins. The sequence of nucleotide bases is read from one end to the other, with each gene containing thousands or even millions of base pairs. This information is used by enzymes called polymerases to replicate DNA during cell division. Recent studies have also shown that epigenetic modifications, such as DNA methylation and histone modification, can influence how genes are expressed without altering their underlying DNA code.",
-    "funFact": "The human genome is composed of approximately 3.2 billion base pairs, with around 20,000-25,000 protein-coding genes. The first human genome sequencing project was initiated in 1990 and was completed in 2003 by the Human Genome Project.",
+    "learn": "DNA stores biological information in a compact chemical language built from four bases arranged along a double helix. The order of those bases acts like a code, and cells read that code to build proteins, regulate development, and keep organisms alive. DNA is efficient because it is both stable enough to preserve information and flexible enough to be copied and used.\n\nThat balance is the real genius of DNA. It is not just a molecule. It is a storage system, a copying template, and an instruction set all at once.",
+    "simpler": "DNA stores information in the order of its bases, which cells can copy and read to build living things.",
+    "keyTakeaway": "DNA works because its structure makes biological information durable and readable.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/b8/DNA-structure-and-bases.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Wikimedia Commons contributor",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DNA-structure-and-bases.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Chromosome_structure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Ultrabem",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Chromosome_structure.png"
+    },
+    "deeperDive": "The sequence of bases carries instructions, but packaging matters too. DNA is wrapped around proteins, folded into chromosomes, and organized so cells can access the right instructions at the right time. That packaging helps fit enormous amounts of information inside a tiny nucleus while still allowing repair and replication.\n\nThis is one reason genetics feels like information science as much as chemistry. DNA stores a library of instructions, but cells also need indexing, access control, copying, and error correction to use that library well.",
+    "funFact": "One tiny cell can store billions of bases of information.",
+    "references": [
+      "Britannica - DNA",
+      "NHGRI - DNA structure and function",
+      "MedlinePlus Genetics - chromosome biology"
+    ],
     "keyElements": {
       "people": [
-        "* James Watson - Co-discoverer of DNA structure and Nobel laureate",
-        "* Francis Crick - Co-discoverer of DNA structure and Nobel laureate",
-        "* Rosalind Franklin - Contributed to the discovery of DNA's double helix structure using X-ray crystallography",
-        "* Max Perutz - Contributed to the understanding of protein structures using X-ray crystallography",
-        "* Jennifer Doudna - Developed the CRISPR-Cas9 gene editing tool"
+        "Molecular biologists - researchers who study DNA",
+        "Geneticists - scientists who interpret sequences",
+        "Cell biologists - experts in chromosome organization",
+        "Students and doctors - users of genetic information"
       ],
       "places": [
-        "* Cavendish Laboratory, Cambridge University - Where Watson and Crick developed their model of DNA",
-        "* King's College London - Where Rosalind Franklin worked on X-ray diffraction images",
-        "* Oak Ridge National Laboratory - A leading research center for genetic engineering",
-        "* Cold Spring Harbor Laboratory - A premier research institution for molecular biology",
-        "* Salk Institute for Biological Studies - A world-renowned research center for genetics and cancer"
+        "Cell nucleus - where most DNA is stored",
+        "Chromosomes - organized packages of DNA",
+        "Laboratories - where sequences are read",
+        "Genomes - the full information systems of organisms"
       ],
       "years": [
-        "* 1953 - Watson and Crick's publication of the DNA structure model",
-        "* 1977 - First cloning of a mammalian gene (insulin)",
-        "* 1990 - Initiation of the Human Genome Project",
-        "* 2003 - Completion of the draft human genome sequence",
-        "* 2012 - CRISPR-Cas9 gene editing tool developed"
+        "1953 - DNA structure is famously described",
+        "1970s - sequencing methods begin to mature",
+        "2000s - genomes become readable at scale",
+        "Present day - DNA is studied as an information system"
       ],
       "concepts": [
-        "* DNA replication and transcription",
-        "* Genetic code and mutations",
-        "* Gene expression and regulation",
-        "* Epigenetics and gene-environment interactions",
-        "* Protein synthesis and function",
-        "* Genome assembly and sequencing",
-        "* Genetic inheritance and variation"
+        "Base pair - the matched units of DNA",
+        "Double helix - DNA's twisted ladder structure",
+        "Chromosome - a packaged DNA molecule",
+        "Sequence - the order that carries code",
+        "Replication - copying DNA accurately"
       ]
     }
   }

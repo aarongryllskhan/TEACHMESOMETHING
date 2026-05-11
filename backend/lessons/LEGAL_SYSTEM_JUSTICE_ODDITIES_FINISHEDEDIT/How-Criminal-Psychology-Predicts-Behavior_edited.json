@@ -1,29 +1,62 @@
 {
-  "topic": "Criminal Psychology and Prediction",
-  "title": "Exploring the Methods Behind Criminal Behavior Prediction",
+  "topic": "How Criminal Psychology Predicts Behavior",
+  "title": "How Risk Assessment Tries to Forecast Crime",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_brain_lateral_view.JPG",
+  "imageCredit": {
+    "creator": "John A. Beal, PhD, LSU Health Sciences Center Shreveport",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.5 Generic",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Human_brain_lateral_view.JPG"
+  },
+  "summary": "Criminal psychology predicts behavior probabilistically by combining past behavior, environment, mental health, substance use, social ties, and decision patterns rather than claiming to read minds.",
   "lesson": {
-    "learn": "Criminal psychology is a crucial field of study that aims to comprehend the motivations, thoughts, and actions of individuals who commit crimes. According to the FBI, an estimated 15% of the population exhibits antisocial personality disorder (ASPD), increasing the likelihood of criminal behavior. Notably, research by Robert Hare, a renowned Canadian psychologist, reveals that individuals with ASPD exhibit higher rates of aggression and violence.",
-    "simpler": "Just as a skilled burglar assesses a potential target's security measures, law enforcement agencies can employ similar principles to identify and prevent future crimes by studying the thought processes and behaviors of individuals who commit them.",
-    "keyTakeaway": "A critical finding from this topic is that human behavior can be predicted and understood through meticulous analysis of an individual's psychological makeup, combined with a thorough examination of environmental and situational factors.",
-    "deeperDive": "Studies have shown that certain personality traits, such as narcissism and psychopathy, are overrepresented among repeat offenders. Recent research utilizing functional magnetic resonance imaging (fMRI) scans has elucidated the brain regions involved in decision-making processes, providing critical insights for developing targeted rehabilitation programs. Moreover, environmental factors, including exposure to domestic violence or substance abuse, significantly contribute to aggression and delinquency.",
-    "funFact": "A significant proportion of violent offenders, approximately 15%, exhibit antisocial personality disorder. Notably, research suggests that this disorder is linked to increased impulsivity, lack of empathy, and aggression.",
+    "learn": "Criminal psychology does not predict behavior like a crystal ball. It estimates risk by studying patterns that make future offending more or less likely: prior arrests, age at first offense, substance use, impulsivity, antisocial peers, employment, family stability, trauma, mental illness, and response to supervision or treatment. The best tools are probabilistic. They sort people into risk groups and identify changeable needs, but they cannot say with certainty what one person will do on a specific day. That distinction matters because risk assessment can guide resources, parole decisions, and treatment plans, yet it can also become unfair if biased data, poor training, or overconfident interpretation turn probability into destiny. Good practice combines structured tools with professional judgment, transparency, regular reassessment, and awareness that people can desist from crime.",
+    "simpler": "Criminal psychology predicts risk, not fate. It looks for patterns linked to future offending, then uses them to guide supervision and treatment while leaving room for change.",
+    "keyTakeaway": "Behavior prediction in criminal justice is useful only when treated as probabilistic, evidence-based risk estimation rather than a fixed label of dangerousness.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brain_human_lateral_view.svg",
+    "learnImageCredit": {
+      "creator": "Patrick J. Lynch and C. Carl Jaffe, Yale Center for Advanced Instructional Media",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.5 Generic",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Brain_human_lateral_view.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Air_Force_gavel.JPG",
+    "thirdImageCredit": {
+      "creator": "U.S. Air Force photo / Airman 1st Class Grace Lee",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Air_Force_gavel.JPG"
+    },
+    "deeperDive": "Modern risk assessment grew because unstructured intuition was inconsistent. Structured instruments ask the same questions across cases and separate static factors, such as criminal history, from dynamic factors, such as substance use or employment. The most constructive systems use risk-needs-responsivity: match intervention intensity to risk, target needs that drive offending, and deliver services in ways the person can actually use. The hard ethical question is how to act on group-level probability without punishing someone for crimes they have not committed. That is why transparency, validation, appeals, and human review matter as much as the score itself.",
+    "funFact": "A low-risk person can still offend, and a high-risk person can still change.",
+    "references": [
+      "https://nij.ojp.gov/topics/corrections/recidivism",
+      "https://pubmed.ncbi.nlm.nih.gov/32948097/"
+    ],
     "keyElements": {
       "people": [
-        "Hans Eysenck",
-        "Robert Hare"
+        "Robert Hare - psychologist associated with psychopathy research",
+        "Daryl Kroner - researcher on risk-assessment consistency",
+        "Hans Eysenck - psychologist who studied personality and crime"
       ],
       "places": [
-        "The University of Oxford's Department of Experimental Psychology"
+        "Courts - settings where risk evidence may influence sentencing or bail",
+        "Probation departments - agencies that use risk tools for supervision planning",
+        "Correctional treatment programs - settings that target dynamic risk factors"
       ],
       "years": [
-        "1947",
-        "1980"
+        "1980s - structured risk tools become more common in corrections",
+        "2021 - BJS 10-year recidivism findings highlight long-term risk patterns",
+        "2022 - research continues on consistency in applying risk instruments"
       ],
       "concepts": [
-        "Antisocial Personality Disorder",
-        "Behavioral Analysis",
-        "Decision-Making Processes",
-        "Functional Magnetic Resonance Imaging (fMRI)"
+        "Risk assessment - estimating likelihood of future offending",
+        "Dynamic risk factor - changeable condition linked to offending",
+        "Desistance - process of stopping criminal behavior",
+        "Risk-needs-responsivity - matching treatment to risk, needs, and learning style"
       ]
     }
   }

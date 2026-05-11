@@ -1,48 +1,66 @@
 {
-  "topic": "How-Limestone-Caves-Form-Over-Millennia",
-  "title": "The Hidden Wonders of the Underground**",
+  "topic": "Limestone Caves",
+  "title": "How Limestone Caves Form Over Millennia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Limestone_formations_in_cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Andrew McMillan",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Limestone_formations_in_cave.jpg"
+  },
   "lesson": {
-    "learn": "Limestone caves, also known as karst caves, are fascinating natural formations that have been shaped by millions of years of geological processes. These intricate networks of passageways and caverns are created when acidic water dissolves limestone rocks, gradually carving out a complex system over time. This process is crucial for understanding the Earth's history, as it reveals hidden stories about ancient landscapes, climates, and ecosystems. The formation of limestone caves also highlights the dynamic relationship between water, rock, and atmosphere, making them an essential part of geology and earth science research.",
-    "simpler": "Imagine a powerful eraser slowly carving out a intricate picture over thousands of years - that's basically how limestone caves are formed! Acidic water is like a tiny drill, wearing down the limestone rocks bit by bit. This process creates vast underground spaces that were once hidden beneath our feet.",
-    "keyTakeaway": "The formation of limestone caves is a slow and steady process that has been occurring over millions of years, revealing intricate details about the Earth's history and geological processes. Understanding how these caves are formed helps us appreciate the dynamic relationship between water, rock, and atmosphere.",
-    "deeperDive": "Recent discoveries in the field of geology have shown that limestone caves can provide valuable insights into ancient climates and ecosystems. For instance, the analysis of speleothems (calcite formations) within cave walls has helped scientists reconstruct past temperatures and atmospheric conditions. Limestone caves also play a crucial role in groundwater filtration and storage, making them essential for human water supply systems. In some regions, like Carlsbad Caverns in New Mexico, USA, the massive underground spaces have become popular tourist attractions and offer opportunities for scientific research. Additionally, cave formations can be used to study the movement of magma and the formation of mineral deposits, expanding our knowledge of geological processes.",
-    "funFact": "The longest cave system in the world is the Mammoth Cave System in Kentucky, USA, spanning over 643 miles! Limestone caves also have their own unique ecosystems, including rare species of bats, salamanders, and even blind fish.",
+    "learn": "Limestone caves form when slightly acidic water dissolves rock over extremely long periods of time. Rain picks up carbon dioxide from air and soil, becomes weak carbonic acid, and slowly widens cracks in limestone. As those cracks grow, they become passages, chambers, and entire cave systems. Later, mineral-rich water dripping through the cave can build stalactites, stalagmites, and flowstone.\n\nCaves are therefore both carved and decorated by water. They are geological spaces and chemical archives at the same time.",
+    "simpler": "Limestone caves form when acidic water slowly dissolves rock, then deposits minerals as drips and formations.",
+    "keyTakeaway": "Caves are made by dissolution first and decoration later.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Luray_cavern_stalactites_and_stalagmites.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Tomandjerry211",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Luray_cavern_stalactites_and_stalagmites.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Stalactites_and_developed_karst_formations_on_the_ceiling_and_walls_of_the_Gadime_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Mozaikuks",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Stalactites_and_developed_karst_formations_on_the_ceiling_and_walls_of_the_Gadime_Cave.jpg"
+    },
+    "deeperDive": "The process depends on karst chemistry. Limestone is soluble enough that groundwater can enlarge cracks and joints over time, especially where water keeps moving through the same pathways. Once a cave exists, the chemistry changes: dripping water loses carbon dioxide and leaves behind calcite. That is how delicate speleothems grow one tiny layer at a time.\n\nBecause the process is so slow, caves are records of enormous patience. A single cave system can reflect climate, water flow, and rock chemistry over huge stretches of time.",
+    "funFact": "Most cave formations grow far more slowly than trees.",
+    "references": [
+      "Britannica - cave",
+      "USGS - karst and cave formation",
+      "National Park Service - limestone caves"
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Edward Gardner (British geologist who pioneered cave exploration)",
-        "+ Jean-Baptiste Lamarck (French naturalist who studied the formation of limestone caves)",
-        "+ John Wesley Powell (American explorer and geologist who mapped the Grand Canyon's karst features)",
-        "+ Howard Carter (British archaeologist who discovered Tutankhamun's tomb, also explored Egyptian caverns)",
-        "+ Giovanni Battista Beccari (Italian explorer and geologist who documented Indonesian cave formations)",
-        "* **"
+        "Speleologists - people who study caves",
+        "Geologists - scientists who study karst",
+        "Cave explorers - people who map underground systems",
+        "Hydrologists - experts in groundwater flow"
       ],
       "places": [
-        "**",
-        "+ Mammoth Cave System, Kentucky, USA",
-        "+ Carlsbad Caverns, New Mexico, USA",
-        "+ Jenolan Caves, Australia",
-        "+ Waitomo Glowworm Caves, New Zealand",
-        "+ Cuevas de Garc\u00c3\u00ada-Lorca, Spain",
-        "* **"
+        "Karst regions - where limestone caves are common",
+        "Limestone bedrock - the rock caves dissolve in",
+        "Cave chambers - the spaces created underground",
+        "Dripstone environments - where formations grow"
       ],
       "years": [
-        "**",
-        "+ 400 million years ago (formation of the first limestone rocks)",
-        "+ 10,000 BCE (early human exploration and utilization of caves for shelter)",
-        "+ 19th century (scientific study and mapping of cave systems began in earnest)",
-        "+ 1950s-60s (development of new techniques for cave exploration and research)",
-        "+ Present day (ongoing studies on limestone cave ecosystems and formation processes)",
-        "* **"
+        "1800s - cave science becomes more formal",
+        "1900s - groundwater chemistry is understood better",
+        "2000s - cave mapping becomes more precise",
+        "Present day - caves are studied as climate archives"
       ],
       "concepts": [
-        "**",
-        "+ Acid dissolution: the process by which acidic water dissolves limestone rocks",
-        "+ Karst topography: the landscape formed by the dissolution of soluble rocks like limestone",
-        "+ Speleogenesis: the scientific study of cave formation and development",
-        "+ Geochemistry: the analysis of chemical processes in geological systems, including cave formations",
-        "+ Paleoclimatology: the reconstruction of past climates using evidence from caves and other geological features",
-        "+ Groundwater flow: the movement of water beneath the Earth's surface through aquifers and rock layers"
+        "Karst - terrain shaped by dissolving rock",
+        "Calcite - the mineral that forms many cave features",
+        "Stalactite - a formation hanging from the ceiling",
+        "Stalagmite - a formation growing from the floor",
+        "Dissolution - rock being chemically dissolved"
       ]
     }
   }

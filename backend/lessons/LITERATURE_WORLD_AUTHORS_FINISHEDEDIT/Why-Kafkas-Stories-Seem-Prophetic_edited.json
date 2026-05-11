@@ -1,38 +1,79 @@
 {
-  "topic": "Why Kafka's Stories Seem Prophetic",
-  "title": "Understanding Kafka's Unique Vision: A Haunting Sense of Reality",
+  "topic": "Kafka and Modern Anxiety",
+  "title": "Why Kafka's Stories Seem Prophetic",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kafka%20portrait.jpg",
+  "imageCredit": {
+    "creator": "Atelier Jacobi: Sigismund Jacobi",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Kafka_portrait.jpg"
+  },
+  "summary": "Kafka feels prophetic because he turned early twentieth-century bureaucracy, alienation, and guilt into images that later readers recognized in modern institutions.",
   "lesson": {
-    "learn": "Franz Kafka's works are renowned for their uncanny ability to anticipate modern anxieties and societal issues. His stories often explored themes of alienation, bureaucracy, and the human condition, making them both unsettling and thought-provoking. The German author's writing style, which blended psychological insight with philosophical commentary, has captivated readers for generations. By examining Kafka's stories, we can gain a deeper understanding of the human experience and the ways in which society reflects itself through art.",
-    "simpler": "Kafka's stories can be understood as a reflection of the modern condition, where individuals feel disconnected and isolated despite being surrounded by others. Consider his depiction of the 'indefinite postponement' in 'The Trial', where characters are trapped in a never-ending bureaucratic process. This sense of delay and disorientation eerily mirrors our contemporary experience with red tape and administrative delays.",
-    "keyTakeaway": "Kafka's stories seem prophetic because they tap into universal human fears and anxieties that are still relevant today, such as the dehumanizing effects of technology, consumerism, and totalitarian regimes. His writing continues to resonate with readers worldwide because it offers a nuanced understanding of the human condition.",
-    "deeperDive": "Kafka's works, including 'The Metamorphosis' (1912) and 'The Trial' (1925), have been praised for their ability to predict modern concerns like the dehumanizing effects of technology, consumerism, and the dehumanizing effects of totalitarian regimes. His exploration of themes like existentialism and absurdism has influenced generations of writers, including Albert Camus and Jean-Paul Sartre. In 'The Castle', Kafka's characters struggle with feelings of alienation and disconnection that echo our contemporary understanding of loneliness and social isolation. The story's use of symbolism and metaphor allows readers to interpret the narrative on multiple levels, adding to its timelessness. Kafka's prophetic vision can be attributed to his unique blend of psychological insight and philosophical commentary. His writings also reflect the anxieties of his own era, including the rise of fascist regimes and the decline of traditional values.",
-    "funFact": "Kafka's stories have been credited with predicting the Holocaust, as they contain themes of persecution, marginalization, and the dehumanizing effects of bureaucracy. Additionally, Kafka's exploration of existentialism and absurdism has influenced many other writers, including Samuel Beckett and Martin Heidegger.",
+    "learn": "Kafka's stories seem prophetic because they describe a pattern that became central to modern life: people trapped inside systems they cannot understand, appeal to, or escape. In The Trial, authority is everywhere and nowhere; in The Castle, access is endlessly deferred; in The Metamorphosis, a private catastrophe becomes an administrative and family problem almost immediately. Kafka was not predicting specific technologies or regimes in a literal way. He was dramatizing the psychological experience of impersonal power, where rules exist but remain unreadable, responsibility is demanded but never clearly defined, and the individual is slowly reduced to a case, file, function, or burden.",
+    "simpler": "Kafka feels modern because his characters face faceless systems, unclear rules, and a crushing sense of guilt that no one can explain.",
+    "keyTakeaway": "His work endures because it captures the emotional logic of bureaucratic power: confusion itself becomes a form of control.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Franz%20Kafka%20(1910).jpg",
+    "learnImageCredit": {
+      "creator": "Unknown photographer",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Franz_Kafka_(1910).jpg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Prague%20-%20Franz%20Kafka%20Museum%2001.jpg",
+    "thirdImageCredit": {
+      "creator": "Jorge Lascar",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Prague_-_Franz_Kafka_Museum_01.jpg"
+    },
+    "deeperDive": "Kafka wrote from Prague as a German-speaking Jewish author in the Austro-Hungarian world, and his professional life in insurance gave him direct contact with paperwork, workplace injury, legal procedure, and administrative language. That background matters more than the idea that he somehow foresaw every later dictatorship or digital system. The prophetic feeling comes from abstraction: he removes just enough historical detail that readers in different eras can recognize their own offices, courts, platforms, and institutions in his fictional machines.",
+    "funFact": "Kafka asked Max Brod to burn his unpublished manuscripts; Brod refused.",
+    "references": [
+      {
+        "title": "The Kafka Project: Franz Kafka biography",
+        "url": "https://www.kafka.org/index.php?biography"
+      },
+      {
+        "title": "Encyclopaedia Britannica: Franz Kafka",
+        "url": "https://www.britannica.com/biography/Franz-Kafka"
+      },
+      {
+        "title": "Project Gutenberg: Metamorphosis",
+        "url": "https://www.gutenberg.org/ebooks/5200"
+      }
+    ],
     "keyElements": {
       "people": [
-        "Franz Kafka (author)",
-        "Albert Camus (influenced by Kafka's work)",
-        "Jean-Paul Sartre (influenced by Kafka's philosophy)",
-        "Samuel Beckett (influenced by Kafka's existentialism)",
-        "Martin Heidegger (influenced by Kafka's absurdism)"
+        "Franz Kafka",
+        "Max Brod",
+        "Gregor Samsa",
+        "Josef K.",
+        "Albert Camus"
       ],
       "places": [
-        "Prague, Czech Republic (Kafka's hometown and inspiration for many stories)",
-        "Berlin, Germany (site of Kafka's early career as a writer)",
-        "Paris, France (city that influenced Kafka's writing style)",
-        "Vienna, Austria (city that influenced Kafka's intellectual development)"
+        "Prague",
+        "Austro-Hungarian Empire",
+        "Bohemia",
+        "Vienna",
+        "Berlin"
       ],
       "years": [
-        "1883: The year Franz Kafka was born",
-        "1912: The publication date of 'The Metamorphosis'",
-        "1925: The year Kafka died",
-        "1933: The year Hitler came to power in Germany"
+        "1883",
+        "1912",
+        "1915",
+        "1924",
+        "1925"
       ],
       "concepts": [
-        "Alienation (Kafka's exploration of feelings of disconnection and isolation)",
-        "Absurdism (Kafka's use of humor to highlight the illogical nature of human existence)",
-        "Existentialism (Kafka's exploration of individual freedom and responsibility)",
-        "Critique of bureaucracy (Kafka's satirical exploration of administrative systems)",
-        "Dehumanizing effects of technology (Kafka's foreshadowing of modern societal issues)"
+        "bureaucracy",
+        "alienation",
+        "absurdity",
+        "indeterminate guilt",
+        "impersonal authority"
       ]
     }
   }
