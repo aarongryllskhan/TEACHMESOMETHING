@@ -22,7 +22,9 @@
 <body>
   <div class="container">
     <div class="app-topbar">
+      <button class="topbar-back-btn" id="topbarBackBtn" style="visibility:hidden" onclick="">←&nbsp;Back</button>
       <img src="images/PocketTopicsTEXTLOGO.png" class="app-logo" alt="Pocket Topics">
+      <div class="topbar-back-spacer"></div>
     </div>
 
     <nav class="nav-tabs">
@@ -43,20 +45,21 @@
     <!-- Daily Lesson Tab -->
     <section id="daily" class="tab-content active">
       <div id="dailyLessonContainer" class="daily-lesson-container" style="display: none;">
-        <div class="daily-lesson-card" onclick="openDailyLesson()">
-          <div class="daily-header">
+        <div class="daily-card-wrapper">
+          <div class="daily-lesson-card" onclick="openDailyLesson()">
+            <div class="daily-header">
+            </div>
+
+            <div class="daily-content">
+              <div class="daily-topic-label">Random topic</div>
+              <h2 id="dailyTitle" class="daily-title"><span class="daily-loading-spinner"></span></h2>
+              <div id="dailyIcon" class="daily-icon"><img src="images/book.png" alt="book" class="daily-lesson-img" style="object-fit:contain;padding:8px;"></div>
+              <p id="dailyDescription" class="daily-description">Learn something new</p>
+            </div>
+
+            <p class="daily-hint">Tap to learn more</p>
           </div>
-
-          <div class="daily-content">
-            <div class="daily-topic-label">Random topic</div>
-            <h2 id="dailyTitle" class="daily-title"><span class="daily-loading-spinner"></span></h2>
-            <div id="dailyIcon" class="daily-icon"><img src="images/book.png" alt="book" class="daily-lesson-img" style="object-fit:contain;padding:8px;"></div>
-            <p id="dailyDescription" class="daily-description">Learn something new</p>
-          </div>
-
-
-          <p class="daily-hint">Tap to learn more</p>
-          <button class="daily-skip-btn" onclick="event.stopPropagation(); getDailyLessonAuto()">Skip</button>
+          <button class="daily-skip-btn" onclick="getDailyLessonAuto()">Skip →</button>
         </div>
       </div>
 
@@ -66,7 +69,7 @@
     <section id="explorer" class="tab-content">
       <div class="explore-container">
         <div class="explore-header">
-          <h2>Explore</h2>
+          <h2 id="exploreTitle">Explore</h2>
         </div>
         <div class="explore-search">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>

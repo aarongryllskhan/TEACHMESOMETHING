@@ -935,6 +935,65 @@ Format:
   }
 });
 
+// Share page: returns HTML with OG meta tags so Discord/Slack/WhatsApp generate rich embeds
+app.get('/share/:folder/:id', (req, res) => {
+  const { folder, id } = req.params;
+  const folderPath = resolveFolder(folder);
+  if (!folderPath) return res.redirect('/');
+
+  const filePath = path.join(folderPath, `${id}.json`);
+  if (!fs.existsSync(filePath)) return res.redirect('/');
+
+  try {
+    const lesson = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const content = lesson.lesson || lesson;
+    const title   = (lesson.title || 'Pocket Topics').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+    const funFact = (content.funFact || '').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+    const image   = content.image || '';
+    const siteUrl = process.env.SITE_URL || 'https://teachmesomething.onrender.com';
+    const pageUrl = `${siteUrl}/share/${encodeURIComponent(folder)}/${encodeURIComponent(id)}`;
+    const openUrl = `${siteUrl}/?open=${encodeURIComponent(folder)}/${encodeURIComponent(id)}`;
+
+    res.setHeader('Content-Type', 'text/html');
+    res.send(`<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>${title} · Pocket Topics</title>
+  <meta name="description" content="${funFact}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Pocket Topics">
+  <meta property="og:title" content="${title}">
+  <meta property="og:description" content="${funFact}">
+  <meta property="og:url" content="${pageUrl}">
+  ${image ? `<meta property="og:image" content="${image}">` : ''}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${title}">
+  <meta name="twitter:description" content="${funFact}">
+  ${image ? `<meta name="twitter:image" content="${image}">` : ''}
+  <style>
+    body{font-family:sans-serif;background:#0B1220;color:#f2f2f5;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;margin:0;padding:24px;box-sizing:border-box}
+    .card{background:#1A2233;border-radius:16px;max-width:540px;width:100%;padding:32px;text-align:center}
+    .label{color:#F5B041;font-size:12px;font-weight:700;letter-spacing:3px;margin-bottom:16px}
+    h1{font-size:22px;margin:0 0 16px}
+    p{font-size:16px;line-height:1.6;color:#c9c9d9;margin:0 0 28px}
+    a{display:inline-block;background:#667eea;color:#fff;text-decoration:none;padding:12px 28px;border-radius:50px;font-weight:600}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="label">💡 DID YOU KNOW?</div>
+    <h1>${title}</h1>
+    <p>${funFact}</p>
+    <a href="${openUrl}">Read full lesson →</a>
+  </div>
+</body>
+</html>`);
+  } catch (e) {
+    res.redirect('/');
+  }
+});
+
 // Serve index.html for any unmatched routes (SPA fallback)
 app.get('*', (req, res) => {
   const html = fs.readFileSync(path.join(frontendPath, 'index.html'), 'utf8');

@@ -162,114 +162,115 @@ function stopTTS() {
 // ── Share Fact Card ───────────────────────────────────────────────────────────
 function shareFactCard(lesson) {
   const c = lesson.lesson || lesson;
-  const funFact = c.funFact || '';
-  const title = cleanTitle(lesson.title, lesson.topic);
+  const funFact  = c.funFact || '';
+  const title    = cleanTitle(lesson.title, lesson.topic);
+  const image    = cleanImageUrl(c.image || lesson.image);
+  const folder   = lesson.subcategory || '';
+  const id       = lesson._id || '';
+  const shareUrl = folder && id
+    ? `${window.location.origin}/share/${encodeURIComponent(folder)}/${encodeURIComponent(id)}`
+    : window.location.origin;
 
-  const W = 1080, H = 1080;
-  const canvas = document.createElement('canvas');
-  canvas.width = W; canvas.height = H;
-  const ctx = canvas.getContext('2d');
+  const existing = document.getElementById('shareModal');
+  if (existing) existing.remove();
 
-  // Background gradient
-  const grad = ctx.createLinearGradient(0, 0, W, H);
-  grad.addColorStop(0, '#667eea');
-  grad.addColorStop(1, '#764ba2');
-  ctx.fillStyle = grad;
-  ctx.roundRect(0, 0, W, H, 0);
-  ctx.fill();
+  const modal = document.createElement('div');
+  modal.id = 'shareModal';
 
-  // Subtle noise overlay
-  ctx.fillStyle = 'rgba(255,255,255,0.03)';
-  for (let i = 0; i < 800; i++) {
-    ctx.fillRect(Math.random()*W, Math.random()*H, 2, 2);
+  // Build the inner card
+  const inner = document.createElement('div');
+  inner.className = 'share-modal';
+
+  const header = document.createElement('div');
+  header.className = 'share-modal-header';
+  header.innerHTML = '<span>Share</span>';
+  const closeBtn = document.createElement('button');
+  closeBtn.className = 'share-close-btn';
+  closeBtn.textContent = '✕';
+  header.appendChild(closeBtn);
+
+  const preview = document.createElement('div');
+  preview.className = 'share-embed-preview';
+  if (image) {
+    const img = document.createElement('img');
+    img.className = 'share-embed-img';
+    img.src = image;
+    img.alt = '';
+    img.loading = 'lazy';
+    preview.appendChild(img);
+  }
+  const body = document.createElement('div');
+  body.className = 'share-embed-body';
+  body.innerHTML = `<div class="share-embed-site">pocket topics</div>
+    <div class="share-embed-title">${title}</div>
+    <div class="share-embed-desc">${funFact}</div>`;
+  preview.appendChild(body);
+
+  const urlRow = document.createElement('div');
+  urlRow.className = 'share-url-row';
+  const urlInput = document.createElement('input');
+  urlInput.className = 'share-url-input';
+  urlInput.value = shareUrl;
+  urlInput.readOnly = true;
+  const copyBtn = document.createElement('button');
+  copyBtn.className = 'share-copy-btn';
+  copyBtn.textContent = 'Copy';
+  urlRow.appendChild(urlInput);
+  urlRow.appendChild(copyBtn);
+
+  const hint = document.createElement('div');
+  hint.className = 'share-hint';
+  hint.textContent = 'Paste this link into Discord, WhatsApp, iMessage etc — it will show the embed above.';
+
+  const actions = document.createElement('div');
+  actions.className = 'share-actions';
+  if (navigator.share) {
+    const nativeBtn = document.createElement('button');
+    nativeBtn.className = 'share-native-btn';
+    nativeBtn.textContent = 'Share via…';
+    nativeBtn.addEventListener('click', () => {
+      navigator.share({ title: '💡 ' + title, text: '💡 ' + funFact, url: shareUrl }).catch(() => {});
+    });
+    actions.appendChild(nativeBtn);
   }
 
-  // White card
-  ctx.fillStyle = 'rgba(255,255,255,0.12)';
-  ctx.beginPath();
-  ctx.roundRect(60, 60, W-120, H-120, 40);
-  ctx.fill();
+  inner.appendChild(header);
+  inner.appendChild(preview);
+  inner.appendChild(urlRow);
+  inner.appendChild(hint);
+  inner.appendChild(actions);
 
-  // "DID YOU KNOW?" label
-  ctx.fillStyle = 'rgba(255,255,255,0.65)';
-  ctx.font = 'bold 38px Inter, sans-serif';
-  ctx.textAlign = 'center';
-  ctx.letterSpacing = '4px';
-  ctx.fillText('DID YOU KNOW?', W/2, 200);
+  const overlay = document.createElement('div');
+  overlay.className = 'share-overlay';
 
-  // Fun fact text — word wrap
-  ctx.fillStyle = '#ffffff';
-  ctx.font = 'bold 52px Inter, sans-serif';
-  ctx.letterSpacing = '-1px';
-  const maxW = W - 160;
-  const words = funFact.split(' ');
-  let line = '', lines = [], y = 300;
-  for (const word of words) {
-    const test = line + (line ? ' ' : '') + word;
-    if (ctx.measureText(test).width > maxW && line) {
-      lines.push(line); line = word;
-    } else { line = test; }
-  }
-  if (line) lines.push(line);
-  const lineH = 70;
-  const totalH = lines.length * lineH;
-  let startY = (H - totalH) / 2 - 30;
-  for (const l of lines) { ctx.fillText(l, W/2, startY); startY += lineH; }
+  modal.appendChild(overlay);
+  modal.appendChild(inner);
+  document.body.appendChild(modal);
 
-  // Divider
-  ctx.strokeStyle = 'rgba(255,255,255,0.25)';
-  ctx.lineWidth = 2;
-  ctx.beginPath();
-  ctx.moveTo(W/2 - 120, H - 240); ctx.lineTo(W/2 + 120, H - 240);
-  ctx.stroke();
+  // Wire up close actions
+  const close = () => modal.remove();
+  overlay.addEventListener('click', close);
+  closeBtn.addEventListener('click', close);
 
-  // Lesson title
-  ctx.fillStyle = 'rgba(255,255,255,0.65)';
-  ctx.font = '32px Inter, sans-serif';
-  ctx.letterSpacing = '0px';
-  // truncate title
-  let displayTitle = title;
-  while (ctx.measureText(displayTitle).width > maxW && displayTitle.length > 10) {
-    displayTitle = displayTitle.slice(0, -1);
-  }
-  if (displayTitle !== title) displayTitle += '…';
-  ctx.fillText(displayTitle, W/2, H - 190);
-
-  // Branding
-  ctx.fillStyle = 'rgba(255,255,255,0.5)';
-  ctx.font = 'bold 30px Inter, sans-serif';
-  ctx.letterSpacing = '1px';
-  ctx.fillText('Pocket Topics', W/2, H - 100);
-
-  canvas.toBlob(async blob => {
-    const file = new File([blob], 'pocket-topics-fact.png', { type: 'image/png' });
-
-    // 1. Try image file share (Android Chrome 75+, modern iOS)
-    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
-      try { await navigator.share({ files: [file], title: 'Did you know?', text: funFact }); return; }
-      catch (e) { if (e.name === 'AbortError') return; } // user dismissed — don't fall through
-    }
-
-    // 2. Try text-only share (supported on almost all mobile browsers)
-    if (navigator.share) {
-      try { await navigator.share({ title: 'Did you know?', text: funFact + '\n\n— Pocket Topics' }); return; }
-      catch (e) { if (e.name === 'AbortError') return; }
-    }
-
-    // 3. Try clipboard copy (desktop)
+  // Copy button
+  copyBtn.addEventListener('click', () => {
     if (navigator.clipboard) {
-      try { await navigator.clipboard.writeText(funFact + '\n\n— Pocket Topics'); showToast('Fact copied to clipboard!'); return; }
-      catch {}
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        copyBtn.textContent = 'Copied!';
+        setTimeout(() => { copyBtn.textContent = 'Copy'; }, 2000);
+      }).catch(() => {
+        urlInput.select();
+      });
+    } else {
+      urlInput.select();
+      document.execCommand('copy');
+      copyBtn.textContent = 'Copied!';
+      setTimeout(() => { copyBtn.textContent = 'Copy'; }, 2000);
     }
+  });
 
-    // 4. Last resort: download the image
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'pocket-topics-fact.png';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  }, 'image/png');
+  // Auto-select URL on desktop for easy manual copy
+  setTimeout(() => urlInput.select(), 50);
 }
 
 // ── Quiz ──────────────────────────────────────────────────────────────────────
@@ -649,6 +650,24 @@ async function loadCategoryLessons(category) {
   }
 }
 
+// Silently warm the lesson cache for all categories in the background
+let _prefetchStarted = false;
+async function prefetchAllCategories() {
+  if (_prefetchStarted) return;
+  _prefetchStarted = true;
+  try {
+    const data = await loadCategories();
+    const cats = (data.categories || []);
+    for (const cat of cats) {
+      if (!LESSONS_CACHE[cat.id]) {
+        // Small delay between fetches to avoid hammering the server
+        await new Promise(r => setTimeout(r, 120));
+        loadCategoryLessons(cat.id).catch(() => {});
+      }
+    }
+  } catch {}
+}
+
 /**
  * Get a random lesson from all categories
  */
@@ -818,6 +837,19 @@ document.addEventListener('DOMContentLoaded', () => {
   displayAchievements();
   getDailyLessonAuto();
   loadProfileName();
+
+  // Handle share-page redirect: /?open=folder/id
+  const openParam = new URLSearchParams(window.location.search).get('open');
+  if (openParam) {
+    const slash = openParam.indexOf('/');
+    if (slash !== -1) {
+      const folder = decodeURIComponent(openParam.slice(0, slash));
+      const id     = decodeURIComponent(openParam.slice(slash + 1));
+      window.history.replaceState({}, '', '/');
+      // Wait for categories to load before opening
+      setTimeout(() => window.openLessonFromNative(folder, id), 800);
+    }
+  }
 });
 
 document.addEventListener('visibilitychange', () => {
@@ -843,7 +875,7 @@ function switchTab(tabName) {
   else if (event && event.target) event.target.closest('.tab-btn').classList.add('active');
 
   if (tabName === 'daily' && !currentDailyLesson) { getDailyLessonAuto(); }
-  if (tabName === 'explorer') loadLessonCards();
+  if (tabName === 'explorer') { loadLessonCards(); prefetchAllCategories(); }
   if (tabName === 'profile') { updateStreakDisplay(); displayAchievements(); }
 }
 
@@ -1148,10 +1180,26 @@ function getCategoryImage(categoryName) {
 
 let allCategories = [];
 
+function setExploreBack(fn) {
+  const btn = document.getElementById('topbarBackBtn');
+  if (!btn) return;
+  btn.style.visibility = 'visible';
+  btn.onclick = fn;
+}
+
+function hideExploreBack() {
+  const btn = document.getElementById('topbarBackBtn');
+  if (btn) btn.style.visibility = 'hidden';
+}
+
+function setExploreTitle(text) {
+  const el = document.getElementById('exploreTitle');
+  if (el) el.textContent = text;
+}
+
 async function loadLessonCards() {
-  const container = document.getElementById('explorer');
-  const header = container.querySelector('.explore-header h2');
-  if (header) header.textContent = 'Explore';
+  hideExploreBack();
+  setExploreTitle('Explore');
 
   const grid = document.getElementById('topicsGrid');
   grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Loading...</div>';
@@ -1172,10 +1220,10 @@ let _allTopicsLessons = [];
 let _allTopicsFolderView = true;
 
 async function loadAllTopicsView(folderView) {
-  const container = document.getElementById('explorer');
   const grid = document.getElementById('topicsGrid');
-  const header = container.querySelector('.explore-header h2');
-  if (header) header.textContent = 'All Topics';
+  window.scrollTo({ top: 0, behavior: 'instant' });
+  setExploreBack(() => loadLessonCards());
+  setExploreTitle('All Topics');
 
   if (folderView === undefined) folderView = _allTopicsFolderView;
   _allTopicsFolderView = folderView;
@@ -1188,11 +1236,6 @@ async function loadAllTopicsView(folderView) {
       _allTopicsCategories = data.categories || [];
     }
     const categories = _allTopicsCategories;
-
-    const backBtn = `<button class="explore-back-btn" onclick="loadLessonCards()">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
-      Back
-    </button>`;
 
     const toggleBtn = `<button class="all-topics-toggle" onclick="loadAllTopicsView(${!folderView})">
       ${folderView ? 'Show All Lessons' : 'Show Folders'}
@@ -1223,7 +1266,7 @@ async function loadAllTopicsView(folderView) {
             </div>`;
         })
       ).join('');
-      grid.innerHTML = backBtn + toggleBtn + '<div class="explore-grid">' + cards + '</div>';
+      grid.innerHTML = toggleBtn + '<div class="explore-grid">' + cards + '</div>';
     } else {
       // Flat view: every individual lesson
       if (!_allTopicsLessons.length) {
@@ -1256,7 +1299,7 @@ async function loadAllTopicsView(folderView) {
           }
         </div>`;
       }).join('');
-      grid.innerHTML = backBtn + toggleBtn + (rows || '<p style="text-align:center;color:#bbb;padding:40px 0;">No lessons found.</p>');
+      grid.innerHTML = toggleBtn + (rows || '<p style="text-align:center;color:#bbb;padding:40px 0;">No lessons found.</p>');
     }
   } catch (error) {
     console.error('Error loading all topics:', error);
@@ -1488,17 +1531,14 @@ const subcategoryMeta = {
 };
 
 async function loadCategoryLessonsView(categoryId, categoryName) {
-  const container = document.getElementById('explorer');
   const grid = document.getElementById('topicsGrid');
-
-  // Update explore header
-  const header = container.querySelector('.explore-header h2');
-  if (header) header.textContent = categoryName;
+  window.scrollTo({ top: 0, behavior: 'instant' });
+  setExploreBack(() => loadLessonCards());
+  setExploreTitle(categoryName);
 
   grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Loading...</div>';
 
   try {
-    // Get the category data from cache
     const data = await loadCategories();
     const categories = data.categories || [];
     const parentCategory = categories.find(c => c.id === categoryId);
@@ -1507,11 +1547,6 @@ async function loadCategoryLessonsView(categoryId, categoryName) {
       grid.innerHTML = '<p style="color:#f00;text-align:center;">Category not found</p>';
       return;
     }
-
-    const backBtn = `<button class="explore-back-btn" onclick="loadLessonCards()">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
-      Back
-    </button>`;
 
     const CHEVRON = `<svg class="explore-category-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`;
 
@@ -1539,7 +1574,7 @@ async function loadCategoryLessonsView(categoryId, categoryName) {
         </div>`;
     }).join('');
 
-    grid.innerHTML = backBtn + '<div class="explore-grid">' + subcategoryCards + '</div>';
+    grid.innerHTML = '<div class="explore-grid">' + subcategoryCards + '</div>';
   } catch (error) {
     console.error('Error:', error);
     grid.innerHTML = '<p style="color:#f00;text-align:center;">Failed to load subcategories</p>';
@@ -1547,24 +1582,16 @@ async function loadCategoryLessonsView(categoryId, categoryName) {
 }
 
 async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategoryName, parentCategoryName) {
-  const container = document.getElementById('explorer');
   const grid = document.getElementById('topicsGrid');
-
-  const header = container.querySelector('.explore-header h2');
-  if (header) header.textContent = subcategoryName;
+  window.scrollTo({ top: 0, behavior: 'instant' });
+  setExploreBack(() => loadCategoryLessonsView(categoryId, parentCategoryName));
+  setExploreTitle(subcategoryName);
 
   grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Loading...</div>';
 
   try {
     const lessons = await loadCategoryLessons(categoryId);
-
-    // Filter lessons to only those from this subcategory
     const subcategoryLessons = lessons.filter(l => l.subcategory === subcategoryFolder);
-
-    const backBtn = `<button class="explore-back-btn" onclick="loadCategoryLessonsView('${categoryId}', '${parentCategoryName}')">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
-      Back
-    </button>`;
 
     const ACCENT_COLORS = [
       '#667eea','#f59e0b','#10b981','#ef4444','#8b5cf6',
@@ -1595,7 +1622,7 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
       </div>`;
     }).join('');
 
-    grid.innerHTML = backBtn + (rows || '<p style="text-align:center;color:#bbb;padding:40px 0;">No lessons found.</p>');
+    grid.innerHTML = rows || '<p style="text-align:center;color:#bbb;padding:40px 0;">No lessons found.</p>';
   } catch (error) {
     console.error('Error:', error);
     grid.innerHTML = '<p style="color:#f00;text-align:center;">Failed to load lessons</p>';
