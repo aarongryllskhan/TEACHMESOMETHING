@@ -1353,14 +1353,13 @@ let searchDebounceTimer = null;
 async function filterTopics(query) {
   const grid = document.getElementById('topicsGrid');
 
+  clearTimeout(searchDebounceTimer);
+
   if (!query || !query.trim()) {
     searchResults = [];
     renderCategoryList(allCategories);
     return;
   }
-
-  // Debounce: wait 300ms after user stops typing
-  clearTimeout(searchDebounceTimer);
   searchDebounceTimer = setTimeout(async () => {
     grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Searching...</div>';
 
