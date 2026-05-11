@@ -1157,6 +1157,53 @@ async function loadLessonCards() {
   }
 }
 
+async function loadAllTopicsView() {
+  const container = document.getElementById('explorer');
+  const grid = document.getElementById('topicsGrid');
+  const header = container.querySelector('.explore-header h2');
+  if (header) header.textContent = 'All Topics';
+  grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Loading...</div>';
+
+  try {
+    const data = await loadCategories();
+    const categories = data.categories || [];
+
+    const backBtn = `<button class="explore-back-btn" onclick="loadLessonCards()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      Back
+    </button>`;
+
+    const CHEVRON = `<svg class="explore-category-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`;
+
+    const allSubcategoryCards = categories.flatMap(cat =>
+      cat.subCategories.map(subFolder => {
+        const meta = subcategoryMeta[subFolder] || { icon: '📚', color: '#ede9fe' };
+        const rawName = subFolder
+          .replace(/_FINISHEDEDITED_FINISHEDEDIT$/, '')
+          .replace(/_FINISHEDEDITED$/, '')
+          .replace(/_FINISHEDEDIT$/, '')
+          .replace(/_PARTIAL$/, '')
+          .replace(/_/g, ' ');
+        const displayName = meta.name || toTitleCase(rawName);
+        return `
+          <div class="explore-category-card" onclick="loadSubcategoryLessons('${cat.id}', '${subFolder}', '${displayName}', '${cat.name}')">
+            <div class="explore-category-icon" style="background:${meta.color}">${meta.icon}</div>
+            <div class="explore-category-card-text">
+              <div class="explore-category-card-title">${displayName}</div>
+              <div class="explore-category-card-count">${cat.name}</div>
+            </div>
+            ${CHEVRON}
+          </div>`;
+      })
+    ).sort(() => 0).join(''); // preserve natural order (by category)
+
+    grid.innerHTML = backBtn + '<div class="explore-grid">' + allSubcategoryCards + '</div>';
+  } catch (error) {
+    console.error('Error loading all topics:', error);
+    grid.innerHTML = '<p style="color:#f00;text-align:center;">Failed to load topics</p>';
+  }
+}
+
 function renderCategoryList(categories) {
   const grid = document.getElementById('topicsGrid');
 
@@ -1169,7 +1216,18 @@ function renderCategoryList(categories) {
 
   const CHEVRON = `<svg class="explore-category-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`;
 
-  grid.innerHTML = '<div class="explore-grid">' + sorted.map((cat, idx) => {
+  const totalTopics = allCategories.reduce((sum, c) => sum + (c.count || 0), 0);
+  const allTopicsCard = `
+    <div class="explore-category-card" onclick="loadAllTopicsView()">
+      <div class="explore-category-icon" style="background:#1a1a2e">🗂️</div>
+      <div class="explore-category-card-text">
+        <div class="explore-category-card-title">All Topics</div>
+        <div class="explore-category-card-count">${totalTopics || ''} topics</div>
+      </div>
+      ${CHEVRON}
+    </div>`;
+
+  grid.innerHTML = '<div class="explore-grid">' + allTopicsCard + sorted.map((cat, idx) => {
     const name = cat.name;
     const imageFile = getCategoryImage(name);
     const meta = categoryMeta(name, idx);
