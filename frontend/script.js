@@ -35,6 +35,16 @@ function toggleDarkMode() {
 }
 
 // ── Text-to-Speech ────────────────────────────────────────────────────────────
+const TTS_ICON_PLAY  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>`;
+const TTS_ICON_PAUSE = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>`;
+
+function setTTSBtnState(playing) {
+  const btn = document.getElementById('ttsBtn');
+  if (!btn) return;
+  btn.innerHTML = playing ? TTS_ICON_PAUSE : TTS_ICON_PLAY;
+  btn.classList.toggle('tts-active', playing);
+}
+
 let ttsPlaying = false;
 function getTTSText(lesson) {
   const c = lesson.lesson || lesson;
@@ -90,12 +100,11 @@ function showToast(msg) {
 
 function toggleTTS(lesson) {
   if (!('speechSynthesis' in window)) { showToast('Text-to-speech not supported on this browser'); return; }
-  const btn = document.getElementById('ttsBtn');
   if (ttsPlaying) {
     speechSynthesis.cancel();
     clearInterval(ttsKeepAlive);
     ttsPlaying = false;
-    if (btn) btn.classList.remove('tts-active');
+    setTTSBtnState(false);
     return;
   }
   const text = getTTSText(lesson);
@@ -116,13 +125,13 @@ function toggleTTS(lesson) {
     if (voice) utt.voice = voice;
   }
 
-  utt.onstart = () => { ttsPlaying = true; if (btn) btn.classList.add('tts-active'); };
-  utt.onend   = () => { clearInterval(ttsKeepAlive); ttsPlaying = false; if (btn) btn.classList.remove('tts-active'); };
+  utt.onstart = () => { ttsPlaying = true; setTTSBtnState(true); };
+  utt.onend   = () => { clearInterval(ttsKeepAlive); ttsPlaying = false; setTTSBtnState(false); };
   utt.onerror = (e) => {
     if (e.error === 'interrupted' || e.error === 'canceled') return;
     clearInterval(ttsKeepAlive);
     ttsPlaying = false;
-    if (btn) btn.classList.remove('tts-active');
+    setTTSBtnState(false);
     showToast('Could not play audio — check device TTS settings');
   };
 
@@ -138,7 +147,7 @@ function toggleTTS(lesson) {
   speechSynthesis.speak(utt);
   // Optimistically mark as playing (onstart may not fire on all browsers)
   ttsPlaying = true;
-  if (btn) btn.classList.add('tts-active');
+  setTTSBtnState(true);
 }
 
 function stopTTS() {
@@ -146,6 +155,7 @@ function stopTTS() {
     speechSynthesis.cancel();
     clearInterval(ttsKeepAlive);
     ttsPlaying = false;
+    setTTSBtnState(false);
   }
 }
 
@@ -1909,9 +1919,7 @@ function displayFullLesson(lesson) {
     <div class="full-lesson-header">
       <button class="close-btn" onclick="closeFullLesson()">←Back</button>
       <div class="lesson-header-actions">
-        <button class="tts-btn" id="ttsBtn" onclick="toggleTTS(currentLesson)" title="Listen">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
-        </button>
+        <button class="tts-btn" id="ttsBtn" onclick="toggleTTS(currentLesson)" title="Listen">${TTS_ICON_PLAY}</button>
         <button class="share-fact-btn" onclick="shareFactCard(currentLesson)" title="Share fact card">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
         </button>
