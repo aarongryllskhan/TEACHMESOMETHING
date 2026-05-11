@@ -1702,12 +1702,19 @@ window.openLessonFromNative = async function(folder, id) {
   try {
     const categoriesData = await loadCategories();
     if (!categoriesData) return;
+
+    // Strip _FINISHEDEDIT / _PARTIAL / _FINISHEDEDITED suffixes for loose matching
+    const normalize = s => s.replace(/_(FINISHEDEDIT|FINISHEDEDITED|PARTIAL)$/i, '');
+    const folderBase = normalize(folder);
+
     const parent = categoriesData.categories.find(c =>
-      c.subCategories && c.subCategories.some(s => s === folder || s.startsWith(folder))
+      c.subCategories && c.subCategories.some(s =>
+        s === folder || normalize(s) === folderBase
+      )
     );
     if (!parent) return;
     const lessons = await loadCategoryLessons(parent.id);
-    const lesson = lessons.find(l => l._id === id || l.subcategory === folder && l.title === id);
+    const lesson = lessons.find(l => l._id === id);
     if (lesson) {
       currentLessonsArray = lessons.filter(l => l.subcategory === lesson.subcategory);
       currentCardIndex = currentLessonsArray.indexOf(lesson);
