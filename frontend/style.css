@@ -1281,6 +1281,26 @@ header p {
   stroke: currentColor;
 }
 
+.all-topics-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(102,126,234,0.12);
+  border: 1px solid rgba(102,126,234,0.3);
+  border-radius: 20px;
+  color: #667eea;
+  font-size: 0.85em;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 6px 14px;
+  margin-bottom: 16px;
+}
+body.dark .all-topics-toggle {
+  background: rgba(102,126,234,0.18);
+  border-color: rgba(102,126,234,0.35);
+  color: #9ba8f0;
+}
+
 /* ── SWIPE / DISCOVER ── */
 .swipe-container {
   display: flex;
