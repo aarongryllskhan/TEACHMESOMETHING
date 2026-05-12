@@ -1,40 +1,68 @@
 {
-  "topic": "Understanding Pandemic Viruses",
-  "title": "Exploring the Science Behind Mass Outbreaks",
+  "topic": "Pandemic Viruses",
+  "title": "Why Some Viruses Become Global Outbreaks",
   "lesson": {
-    "learn": "Pandemic viruses are infectious agents that have caused countless epidemics throughout human history, from the Black Death in the 14th century to COVID-19 in the 21st century. These microscopic entities spread globally, causing widespread illness and death. By examining the origins, transmission, and adaptability of pandemic viruses, scientists have made significant progress in understanding these viruses, but much remains unknown about their behavior and potential for mutation. Recent discoveries have highlighted the importance of global surveillance, rapid diagnosis, and vaccine development in preventing and controlling pandemics.",
-    "simpler": "Imagine a tiny invader that can multiply quickly and spread easily from person to person, causing big problems for humans. Pandemic viruses are like these invisible enemies, which can make people sick and even kill them. They're often hard to track down because they can be carried by animals or transmitted through contaminated food and water.",
-    "keyTakeaway": "The key takeaway is that pandemic viruses are highly adaptable and can spread rapidly across the globe, making global cooperation and rapid response essential in controlling outbreaks. Understanding the origins and transmission of these viruses is crucial for developing effective prevention strategies, such as vaccination and social distancing.",
-    "deeperDive": "Research has shown that many pandemic viruses originate from animal hosts, such as bats and birds, before jumping to humans through various routes. The SARS-CoV-2 virus, responsible for COVID-19, likely originated in a bat population in Wuhan, China, before spreading globally. Scientists have identified several key factors contributing to the rapid spread of pandemics, including global travel, trade, and urbanization. In recent years, advances in genomics and computational modeling have enabled researchers to track the evolution of pandemic viruses in real-time. For instance, the COVID-19 pandemic accelerated the development of mRNA vaccines, which have been instrumental in controlling outbreaks worldwide.",
-    "funFact": "Some pandemic viruses can remain dormant for years before reactivating, causing unexpected outbreaks. For example, smallpox was thought to be eradicated but re-emerged in a few isolated cases after its supposed elimination. This highlights the importance of continued surveillance and vaccination efforts even after outbreaks are thought to be under control.",
+    "learn": "A virus becomes pandemic when biology and human behavior line up in its favor. It must spread efficiently between people, adapt well enough to a new host, and move through a connected world before containment can catch up. Some viruses begin in animals and spill into humans after a change in ecology or exposure. Others mutate within humans until they become easier to transmit. What makes pandemics so disruptive is not only the virus itself, but the speed at which travel, cities, workplaces, and social networks can carry it. A pathogen that is only moderately contagious can still become global if it reaches enough people fast enough.\nA virus becomes pandemic only after it clears several barriers at once. It has to infect a new host efficiently, spread from person to person, and exploit social conditions that let it move faster than containment. That is why a pandemic is never only about the virus; it is also about the network the virus enters.\nA virus does not become global simply because it is present. It becomes global when its transmission style, its ability to adapt to humans, and the density of human networks all line up in its favor. That is why spillover from animals is so important: the first jump is often only the beginning of a much larger adaptation process.",
+    "simpler": "A virus can become pandemic when it spreads easily, adapts to humans, and moves faster than containment can stop it. The outbreak becomes global because people, travel, and biology all help it spread.",
+    "keyTakeaway": "Pandemic viruses are not just dangerous microbes; they are viruses that have found a successful way to move through human networks before the world can shut the door.",
+    "deeperDive": "The key ingredients are transmission, host adaptation, and opportunity. Transmission includes how the virus enters the body, how long someone stays contagious, and whether droplets, aerosols, contact, or vectors can spread it. Host adaptation includes receptor binding, immune evasion, and replication in human cells. Opportunity includes dense populations, travel, poor surveillance, and delayed response. That is why disease ecologists pay so much attention to spillover, crowding, and animal reservoirs. A pandemic usually starts as a local event, but the biology has to be just right for it to scale. Once that happens, the outbreak is no longer only a virology problem. It becomes a public-health, political, and logistical problem at the same time.\nSpillover, human crowding, travel, and delayed detection all matter because they give a virus room to scale. A pathogen that is ordinary in one setting can become extraordinary when the right ecological and behavioral conditions let it multiply faster than public-health systems can respond.\nPandemic risk grows when a pathogen can travel faster than public health systems can identify and contain it. Respiratory spread, long infectious periods, immune evasion, and connected cities all make that easier. The lesson is that pandemics are never only a virology story; they are also stories about ecology, mobility, surveillance, and how quickly societies can recognize a threat before it scales.",
+    "funFact": "A virus can circulate quietly in animals for years before the right human conditions turn it into a global emergency.",
+    "references": [
+      "WHO pandemic preparedness resources",
+      "CDC outbreak and viral transmission resources",
+      "PMC reviews on spillover and epidemic spread"
+    ],
     "keyElements": {
       "people": [
-        "Dr. Anthony Fauci",
-        "Dr. Peter Piot",
-        "Dr. Maria Van Kerkhove",
-        "Dr. David Ho",
-        "Dr. Ian Lipkin"
+        "Nathan Wolfe - Researcher whose work helped clarify pandemic spread and host adaptation from a different angle",
+        "Ralph Baric - Researcher whose work helped clarify pandemic spread and host adaptation from a different angle",
+        "Peter Palese - Researcher whose work helped clarify pandemic spread and host adaptation from a different angle",
+        "Anthony Fauci - Researcher whose work helped clarify pandemic spread and host adaptation from a different angle"
       ],
       "places": [
-        "Wuhan Institute of Virology, China",
-        "Centers for Disease Control and Prevention (CDC), Atlanta, USA",
-        "World Health Organization (WHO) Headquarters, Geneva, Switzerland",
-        "National Institutes of Health (NIH) Bethesda Campus, Maryland, USA"
+        "WHO - A setting where the biology of pandemic spread and host adaptation becomes visible",
+        "CDC - A setting where the biology of pandemic spread and host adaptation becomes visible",
+        "Animal reservoirs - A setting where the biology of pandemic spread and host adaptation becomes visible",
+        "Dense urban networks - A setting where the biology of pandemic spread and host adaptation becomes visible"
       ],
       "years": [
-        "1346: The Black Death pandemic",
-        "1918: The Spanish Flu pandemic",
-        "1981: The first reported case of AIDS (Acquired Immune Deficiency Syndrome)",
-        "2019: The COVID-19 pandemic begins with a cluster of cases in Wuhan, China"
+        "1918 - A turning point in modern research on pandemic spread and host adaptation",
+        "2003 - A turning point in modern research on pandemic spread and host adaptation",
+        "2020 - A turning point in modern research on pandemic spread and host adaptation",
+        "2025 - A turning point in modern research on pandemic spread and host adaptation"
       ],
       "concepts": [
-        "Mutation: The process by which viruses adapt and change over time",
-        "Transmission: The spread of disease from one host to another",
-        "Vaccination: The use of vaccines to prevent or control outbreaks",
-        "Herd Immunity: A phenomenon where a sufficient percentage of a population is immune to a virus, reducing its transmission",
-        "Zoonosis: The transmission of diseases from animals to humans",
-        "Phylogenetic Analysis: A method for studying the evolutionary relationships between different viral strains"
+        "Spillover - One of the mechanisms that makes pandemic spread and host adaptation possible",
+        "Host adaptation - One of the mechanisms that makes pandemic spread and host adaptation possible",
+        "Reservoir host - One of the mechanisms that makes pandemic spread and host adaptation possible",
+        "Transmission route - One of the mechanisms that makes pandemic spread and host adaptation possible",
+        "Containment - One of the mechanisms that makes pandemic spread and host adaptation possible",
+        "Pandemic potential - One of the mechanisms that makes pandemic spread and host adaptation possible"
       ]
+    },
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/e/e4/H1N1_virus_particles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "NIAID",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:H1N1_virus_particles.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/1/1a/MERS_Virus_Particles_(43761510372).jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "NIAID",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:MERS_Virus_Particles_(43761510372).jpg"
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/1918_H1N1_Virus_Particles_(30012820867).jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "NIAID",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:1918_H1N1_Virus_Particles_(30012820867).jpg"
   }
 }

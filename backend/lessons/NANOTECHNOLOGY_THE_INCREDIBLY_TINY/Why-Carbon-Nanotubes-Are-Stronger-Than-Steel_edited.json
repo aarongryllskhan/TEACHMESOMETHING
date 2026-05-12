@@ -1,28 +1,67 @@
 {
   "topic": "Why Carbon Nanotubes Are Stronger Than Steel",
-  "title": "How Carbon Nanotubes Overcome Material Challenges: A Scientific Exploration",
+  "title": "How Carbon Nanotubes Get Their Extraordinary Strength",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Multi-walled%20Carbon%20Nanotube.png",
+  "imageCredit": {
+    "creator": "Eric Wieser",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Multi-walled%20Carbon%20Nanotube.png"
+  },
   "lesson": {
-    "learn": "Carbon nanotubes possess exceptional strength, stiffness, and conductivity due to their unique structure and properties. Measured at 1-100 nanometers in diameter, these tiny tubes are composed of rolled-up sheets of carbon atoms. According to studies, a single-walled carbon nanotube can withstand forces up to 40 times greater than steel without breaking (Iijima & Ichihashi, 1993; Terrones & Elias, 2000). This remarkable strength, combined with their lightweight nature, makes carbon nanotubes an attractive material for various applications, including electronics, energy storage, and medical devices.",
-    "simpler": "Carbon nanotubes can be thought of as super-strong threads made up of tiny carbon atoms. Their exceptional strength-to-weight ratio is comparable to that of steel, but with a significantly smaller size. For instance, a single sheet of carbon nanotubes could potentially hold 100 times its own weight without breaking.",
-    "keyTakeaway": "Carbon nanotubes' unique properties, such as their exceptional mechanical strength and conductivity, make them a game-changer in various industries. When properly engineered, carbon nanotubes can be used to create ultra-strong composites, enhance energy storage capabilities, and even develop advanced medical devices.",
-    "deeperDive": "Researchers have discovered that the structure of carbon nanotubes gives rise to their exceptional mechanical properties. Specifically, the carbon-carbon bonding and van der Waals forces that govern their interactions enable them to withstand extraordinary forces. This understanding has led to potential applications in the aerospace, automotive, and energy sectors. Furthermore, scientists have explored the use of carbon nanotubes as electrodes in lithium-ion batteries, which has significantly enhanced their energy density and efficiency.",
-    "funFact": "Carbon nanotubes were first discovered by accident in 1991 by Sumio Iijima, a Japanese scientist, while he was attempting to synthesize fullerene at Rice University's Department of Materials Science and Nanoengineering.",
+    "learn": "Carbon nanotubes are remarkable because carbon atoms in a rolled graphene sheet can create a structure with extraordinary tensile strength, stiffness, and low weight. Their strength does not come from magic; it comes from the same kind of sp2 carbon bonding that makes graphene so impressive, combined with a geometry that distributes stress very efficiently along a tiny cylindrical wall. In theory, an ideal nanotube can outperform steel by an enormous margin relative to weight. In practice, the story is more complicated, because real materials contain defects, tube alignment issues, and manufacturing limits. Still, the basic reason carbon nanotubes attract so much attention is clear: they offer a way to build materials that are both very light and very strong, while also conducting heat and electricity unusually well.",
+    "simpler": "Carbon nanotubes are rolled-up carbon structures that are incredibly strong for their weight. Their strength comes from tight atomic bonding and a shape that spreads force very efficiently.",
+    "keyTakeaway": "Carbon nanotubes are stronger than steel not because they are bigger or denser, but because their carbon bonding and cylindrical geometry create an exceptional strength-to-weight ratio.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Carbon%20nanotube.svg",
+    "learnImageCredit": {
+      "creator": "Guillaume Paumier",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Carbon%20nanotube.svg"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/FlyingThroughNanotube.png",
+    "thirdImageCredit": {
+      "creator": "Mstroeck at English Wikipedia",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:FlyingThroughNanotube.png"
+    },
+    "deeperDive": "A nanotube’s properties depend on how its atoms are arranged, how many walls it has, how aligned it is in a material, and how many defects interrupt the lattice. That is why the gap between laboratory promise and bulk manufacturing is so important. A single perfect nanotube can be astonishingly strong, but a practical composite needs many nanotubes to work together without slipping, clustering, or breaking load transfer. Researchers therefore focus not only on the nanotube itself but on interfaces, dispersion, and matrix design. The same structure that makes nanotubes mechanically impressive also supports thermal transport and electron motion, which is why they are studied for electronics, batteries, sensors, and composites. Carbon nanotubes are a perfect example of nanoscale engineering: tiny structure, huge consequences, and real-world performance that depends on getting the details right.",
+    "funFact": "A carbon nanotube can be far stronger than steel while being so small that millions of them could fit across a human hair.",
+    "references": [
+      "Original nanotube discovery papers and later review literature.",
+      "Materials science references on graphene, carbon bonding, and composites.",
+      "Wikimedia Commons file pages for nanotube and graphene images.",
+      "NIST and nanomaterials reference materials."
+    ],
     "keyElements": {
       "people": [
-        "Sumio Iijima - Japanese scientist who first discovered multi-walled carbon nanotubes",
-        "Andre Geim - Nobel Prize-winning physicist who pioneered research on carbon nanotubes"
+        "Sumio Iijima - Scientist credited with discovering carbon nanotubes.",
+        "Shin-ichi Iijima? - Not needed; keep focus on Sumio Iijima and later materials scientists.",
+        "Don Eigler - His atom-scale work helped inspire nanoscale imagination generally.",
+        "Materials scientists - Researchers who study how nanotubes behave in composites and devices."
       ],
       "places": [
-        "Rice University (USA) - where the first multi-walled carbon nanotubes were discovered",
-        "Imperial College London (UK) - home of the world's leading research on single-walled carbon nanotubes"
+        "NEC laboratories - Where early nanotube discovery work took place.",
+        "Rice University - A major center for later nanotube research in the United States.",
+        "Materials science labs - Where nanotube properties are measured and tested.",
+        "Composite manufacturing lines - Where nanotubes must be dispersed well to be useful."
       ],
       "years": [
-        "1991 - discovery of multi-walled carbon nanotubes by Sumio Iijima",
-        "1993 - synthesis of single-walled carbon nanotubes by Iijima and coworkers"
+        "1991 - Multi-walled carbon nanotubes are identified.",
+        "1993 - Single-walled nanotubes are reported.",
+        "2000s - Nanotubes become a major subject in materials and electronics.",
+        "Today - The biggest challenge is turning laboratory properties into reliable products."
       ],
       "concepts": [
-        "Carbon-carbon bonding - the strong chemical bonds between carbon atoms that give rise to carbon nanotube structure and properties",
-        "Van der Waals forces - weak intermolecular forces responsible for the interaction between adjacent layers in multi-walled carbon nanotubes"
+        "sp2 bonding - The strong carbon bonding pattern that supports graphene and nanotubes.",
+        "Tensile strength - Resistance to being pulled apart.",
+        "Aspect ratio - The relationship between length and diameter that affects performance.",
+        "Defects - Imperfections that can weaken real materials.",
+        "Composite reinforcement - Using nanotubes to strengthen another material."
       ]
     }
   }

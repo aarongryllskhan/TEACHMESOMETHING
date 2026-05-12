@@ -1,39 +1,68 @@
 {
-  "topic": "Understanding Immune Recognition Mechanisms",
-  "title": "The Methods Behind Immune Cell Recognition",
+  "topic": "Immune Recognition",
+  "title": "How Immune Cells Recognize Pathogens",
   "lesson": {
-    "learn": "The human immune system consists of approximately 100 billion immune cells that cooperate to protect against pathogens, such as bacteria, viruses, and other foreign substances. The immune response is a complex, multi-step process that involves the coordinated action of various immune cells, signaling pathways, and molecular interactions. For example, studies have shown that dendritic cells can process and present antigens from pathogens to T-cells, which then activate the adaptive immune response. According to a 2019 study published in the journal Nature, the activation of Toll-like receptors (TLRs) plays a crucial role in the initiation of the innate immune response against bacterial infections.",
-    "simpler": "The immune system can be thought of as a sophisticated network of cells, tissues, and organs that work together to defend the body against pathogens. One way to understand how immune cells recognize threats is to consider the example of an airport security system. Just as security personnel use identification documents and screening devices to verify the identity and security risk associated with each traveler, immune cells use specific markers and receptors to identify and respond to pathogens.",
-    "keyTakeaway": "The immune system uses a multi-faceted approach to recognize and respond to pathogens, involving the interaction of various immune cells, signaling pathways, and molecular mechanisms.",
-    "deeperDive": "The process of immune cell recognition involves several stages, including the detection of pathogen-associated molecular patterns (PAMPs) by pattern recognition receptors such as Toll-like receptors (TLRs). These receptors activate downstream signaling pathways that ultimately lead to the production of cytokines and chemokines. Dendritic cells play a crucial role in processing and presenting antigens from pathogens to T-cells, which then activate the adaptive immune response. Research has shown that defects in these mechanisms can lead to immunodeficiency diseases or autoimmune disorders.",
-    "funFact": "Edward Jenner's development of the first vaccine against smallpox in 1796 laid the foundation for modern vaccine development. According to the World Health Organization, Jenner's vaccine has prevented an estimated 330 million cases of smallpox between 1967 and 1977.",
+    "learn": "Immune cells recognize pathogens by looking for molecular patterns that indicate danger and by comparing them against what the body should already know to be self. The first layer of defense is innate recognition, where receptors detect common microbial features. The second layer is adaptive recognition, where antigen-presenting cells show pathogen fragments to T cells and B cells. That creates specificity and memory. The whole system depends on speed, accuracy, and restraint. If it misses a threat, infection can spread. If it overreacts, the body can damage itself.\nImmune cells recognize pathogens by sensing danger patterns and by learning specific targets. Innate receptors catch broad signs of microbial threat, while antigen presentation helps T cells and B cells learn exactly what to attack. That combination gives the body both fast response and lasting memory.\nImmune recognition works because the body combines broad danger sensing with highly specific learning. Innate receptors catch common microbial patterns quickly, while antigen presentation teaches T cells and B cells what to attack more precisely. That two-layer design is what gives immunity both speed and memory.",
+    "simpler": "Immune cells spot pathogens by detecting danger patterns and learning specific targets. That lets the body attack germs and remember them later.",
+    "keyTakeaway": "Immune recognition works because the body combines fast pattern sensing with slower learned specificity, giving it both immediate defense and long-term memory.",
+    "deeperDive": "Recognition is not one event but a chain. Innate receptors sense danger signals, antigen-presenting cells process and display pathogen pieces, T cells evaluate the signal, and B cells make antibodies that can bind the target directly. Once the response is underway, memory cells preserve the information for the future. That system is elegant because it can respond to new threats without needing to know every pathogen in advance. It also explains why vaccines work: they train recognition before the real infection arrives. When recognition fails or becomes misdirected, the consequences range from recurrent infection to autoimmunity. In other words, immune recognition is one of the body's most important decision systems.\nRecognition is a chain of decisions. Cells detect danger, display pathogen pieces, compare them against self, and build a response that can be amplified or restrained. That chain is why vaccines work and why immune failure can lead either to infection or autoimmunity. The system is powerful because it is precise, but that precision has to be constantly managed.\nRecognition is a chain of decisions rather than a single switch. Cells detect suspicious signals, compare them against self, amplify the response if needed, and then store a memory of the encounter for next time. That is why vaccines work so well and why failures in recognition can lead either to recurrent infection or to the immune system attacking the body itself.",
+    "funFact": "Some immune cells can remember a pathogen for years and respond much faster the next time they see it.",
+    "references": [
+      "NIAID: Immune System Overview",
+      "CDC vaccine and immunity resources",
+      "NCBI Bookshelf: antigen presentation and immune recognition"
+    ],
     "keyElements": {
       "people": [
-        "Louis Pasteur",
-        "Robert Koch",
-        "Edward Jenner"
+        "Charles Janeway - Researcher whose work helped clarify immune recognition and pathogen detection from a different angle",
+        "Bruce Beutler - Researcher whose work helped clarify immune recognition and pathogen detection from a different angle",
+        "Jules Hoffmann - Researcher whose work helped clarify immune recognition and pathogen detection from a different angle",
+        "Peter Doherty - Researcher whose work helped clarify immune recognition and pathogen detection from a different angle"
       ],
       "places": [
-        "Pasteur Institute, Paris, France",
-        "Robert Koch Institute, Berlin, Germany"
+        "NIAID - A setting where the biology of immune recognition and pathogen detection becomes visible",
+        "Vaccination clinics - A setting where the biology of immune recognition and pathogen detection becomes visible",
+        "Lymph nodes - A setting where the biology of immune recognition and pathogen detection becomes visible",
+        "Research laboratories - A setting where the biology of immune recognition and pathogen detection becomes visible"
       ],
       "years": [
-        "1796",
-        "1877",
-        "2019"
+        "1980s - A turning point in modern research on immune recognition and pathogen detection",
+        "1996 - A turning point in modern research on immune recognition and pathogen detection",
+        "2011 - A turning point in modern research on immune recognition and pathogen detection",
+        "2025 - A turning point in modern research on immune recognition and pathogen detection"
       ],
       "concepts": [
-        "Pattern recognition receptors (PRRs)",
-        "Toll-like receptors (TLRs)",
-        "Dendritic cells",
-        "T-cells",
-        "Antigens",
-        "Cytokines",
-        "Chemokines",
-        "Immune response",
-        "Innate immunity",
-        "Adaptive immunity"
+        "Innate recognition - One of the mechanisms that makes immune recognition and pathogen detection possible",
+        "Antigen presentation - One of the mechanisms that makes immune recognition and pathogen detection possible",
+        "T cells - One of the mechanisms that makes immune recognition and pathogen detection possible",
+        "B cells - One of the mechanisms that makes immune recognition and pathogen detection possible",
+        "Immunological memory - One of the mechanisms that makes immune recognition and pathogen detection possible",
+        "Self versus non-self - One of the mechanisms that makes immune recognition and pathogen detection possible"
       ]
+    },
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/98/Antigen_presentation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "National Institutes of Health",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Antigen_presentation.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Antigen_presentation.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "user:Sjef",
+      "source": "Wikimedia Commons",
+      "license": "GNU Free Documentation License, version 1.2 or later; Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Antigen_presentation.svg"
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Antigen_Presentation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Graham Colm",
+    "source": "Wikimedia Commons",
+    "license": "GNU Free Documentation License, version 1.2 or later; Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Antigen_Presentation.png"
   }
 }

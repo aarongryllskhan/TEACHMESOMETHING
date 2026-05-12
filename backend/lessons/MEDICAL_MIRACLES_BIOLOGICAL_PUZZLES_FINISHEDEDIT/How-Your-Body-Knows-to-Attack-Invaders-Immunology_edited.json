@@ -1,37 +1,68 @@
 {
-  "topic": "Understanding Immunology",
-  "title": "The Complex Mechanisms Behind Your Body's Defense Against Infectious Diseases",
+  "topic": "Immunology",
+  "title": "How Your Body Knows to Attack Invaders",
   "lesson": {
-    "learn": "The human immune system is a sophisticated network of cells, tissues, and organs that work in concert to defend the body against foreign invaders, such as bacteria, viruses, and other pathogens. Since the 19th century, scientists like Louis Pasteur and Robert Koch have made significant contributions to understanding the role of microorganisms in disease. Their work laid the foundation for the development of vaccines and treatments against infectious diseases.",
-    "simpler": "Imagine the body as a highly secured fortress, with multiple layers of defense. The immune system is like an advanced surveillance system and defense force that collaborates to detect and neutralize any potential threats that attempt to breach the body's barriers.",
-    "keyTakeaway": "A pivotal aspect of immunology is the concept of immunological memory, which enables the immune system to recall past infections and mount a more effective response against future encounters with the same pathogens.",
-    "deeperDive": "Scientists have advanced our understanding of how the immune system adapts to various pathogens. For instance, researchers have discovered that T-cells can differentiate between self-antigens and non-self-antigens, a crucial distinction that allows the immune system to distinguish between the body's own proteins and foreign substances. Additionally, breakthroughs in immunotherapy have been achieved through the discovery of immune-checkpoint molecules, while gene editing technologies like CRISPR are being explored for their potential to modify genes involved in the immune response.",
-    "funFact": "Your immune system is capable of storing a record of previously encountered pathogens, which enables it to mobilize an even stronger defense against future infections.",
+    "learn": "The immune system knows how to attack invaders because it combines fast built-in defenses with slower, highly specific ones. Innate immunity recognizes danger patterns and reacts quickly, while adaptive immunity learns from exposure and builds targeted responses with memory. That means the body is not guessing in the dark. It is constantly sampling signals, comparing them to stored experience, and deploying the right cells and molecules in response. Antibodies, T cells, cytokines, antigen presentation, and memory cells all work together to keep microbes under control. Immunology is really the study of how the body balances speed, accuracy, and restraint.",
+    "simpler": "Your immune system uses quick built-in defenses and slower learned responses to detect and attack germs. It can also remember past infections.",
+    "keyTakeaway": "The immune system protects us by combining rapid detection with learned specificity, so defense works as a layered decision process rather than a single alarm.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Immune_Response.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Sstern19",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Immune_Response.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Innate_and_Adaptive_Immunity.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "SGUL lymres",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Innate_and_Adaptive_Immunity.png"
+    },
+    "deeperDive": "The innate system relies on pattern-recognition receptors, inflammation, and cells such as neutrophils and macrophages to react quickly to danger. If that is not enough, adaptive immunity steps in with B cells, antibodies, and T cells that recognize specific antigens and can remember them for later. Antigen presentation is the bridge between those two arms, because it helps show the adaptive system what it needs to target. The system is powerful but must also be restrained, because overreaction can damage healthy tissue. That is why immunology is as much about regulation as attack. The most important lesson is that the body is not defending itself with one mechanism; it is running a coordinated network that can change as the threat changes.",
+    "funFact": "Your adaptive immune system can remember some infections for years or even decades.",
+    "references": [
+      "NIAID: Overview of the immune system",
+      "NCBI Bookshelf: Basic Concepts in Immunology",
+      "NIAID resources on innate and adaptive immunity"
+    ],
     "keyElements": {
       "people": [
-        "Louis Pasteur (1822-1895) - A pioneer in vaccination and germ theory.",
-        "Robert Koch (1843-1910) - Made significant contributions to understanding the role of microorganisms in disease.",
-        "Jane Goodall (1934-present) - Renowned primatologist who has contributed to our understanding of animal immunology."
+        "Elie Metchnikoff - Early immunologist whose work helped define innate immunity",
+        "Frank Macfarlane Burnet - Scientist whose ideas shaped adaptive immunity and immune memory",
+        "Peter Medawar - Researcher whose work helped explain immune tolerance",
+        "Bruce Beutler - Immunologist whose discoveries clarified how innate receptors detect danger"
       ],
       "places": [
-        "The Pasteur Institute (Paris, France) - Founded by Louis Pasteur to advance medical research and education.",
-        "The Centers for Disease Control and Prevention (Atlanta, USA) - A leading institution in global disease surveillance and control.",
-        "The Salk Institute for Biological Studies (La Jolla, California, USA) - Known for pioneering work in immunology and cancer research."
+        "NIAID - NIH institute focused on allergy, infectious disease, and immune function",
+        "Laboratories studying immunology - Research settings where immune pathways are mapped",
+        "Medical centers - Places where immune disorders and infections are treated",
+        "The body itself - The living system where immune decisions happen continuously"
       ],
       "years": [
-        "1796: Edward Jenner develops the cowpox vaccine against smallpox.",
-        "1960s: Researchers discover the role of T-cells in immune response.",
-        "1995: The Human Genome Project begins, paving the way for gene editing technologies."
+        "1882 - Metchnikoff's work helps establish the study of phagocytes and innate defense",
+        "1950s - Adaptive immunity and immune memory become more formalized",
+        "1996 - Innate immune receptor biology accelerates with major discoveries",
+        "2025 - Immunology remains central to vaccines, infection control, and cancer therapy"
       ],
       "concepts": [
-        "Immunological memory - The ability of the immune system to recall past infections.",
-        "Antigens - Foreign substances that trigger an immune response.",
-        "Antibodies - Proteins produced by B-cells to neutralize pathogens.",
-        "T-cells - Specialized immune cells that play a crucial role in recognizing and responding to pathogens.",
-        "Self-antigens - The body's own proteins that are recognized as non-threatening by the immune system.",
-        "Immune-checkpoint molecules - Proteins that regulate the immune response and are being explored for their potential in immunotherapy.",
-        "CRISPR - A gene editing technology that enables scientists to modify genes involved in the immune response."
+        "Innate immunity - The fast, built-in layer of immune defense",
+        "Adaptive immunity - The learned, specific layer that creates immune memory",
+        "Antigen presentation - The process of showing immune cells what to target",
+        "Antibody - A protein that binds specific threats",
+        "Cytokine - A signaling molecule that helps immune cells coordinate",
+        "Immune memory - The ability to respond more quickly after prior exposure"
       ]
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Innate_immune_system.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Architha Srinivasan",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Innate_immune_system.png"
   }
 }

@@ -1,40 +1,67 @@
 {
-  "topic": "Understanding Information Filtering in the Human Brain",
-  "title": "The Cognitive Mechanisms Behind Information Filtering",
+  "topic": "Attention and Sensory Filtering",
+  "title": "How the Brain Filters Out Unnecessary Information",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/EEG_Brainwaves.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Laurens R. Krol",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Zero 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:EEG%20Brainwaves.svg"
+  },
   "lesson": {
-    "learn": "Approximately 38 billion synapses in the human brain process vast amounts of information every second, equivalent to 70 gigabytes of data per day. However, this capacity is not utilized efficiently in daily life due to the brain's ability to filter out unnecessary information. This filtering process allows us to focus on what is truly important and respond quickly to threats or opportunities. Research suggests that the brain achieves this through a complex interplay between attention, perception, and memory systems. For instance, a study published in the journal <i>Neuron</i> in 2018 found that the brain's attentional network can filter out irrelevant information in as little as 30 milliseconds.",
-    "simpler": "The brain's filtering process can be understood as a dynamic and adaptive system that prioritizes relevant information. Just as a well-designed filter can selectively allow important information to pass through while blocking irrelevant details, the brain focuses on critical information and suppresses unnecessary stimuli. This allows us to stay focused and avoid getting overwhelmed by too much noise.",
-    "keyTakeaway": "The brain's filtering process is influenced by various factors, including genetics, age, experience, and learning. We can optimize this process by training ourselves to focus, practicing mindfulness, and developing strategies for effective decision-making. Additionally, research suggests that cognitive training programs can improve attentional abilities and enhance working memory capacity.",
-    "deeperDive": "The brain's filtering process involves multiple stages of processing, from initial sensory input to higher-level cognitive evaluations. The prefrontal cortex plays a crucial role in regulating attention and suppressing irrelevant information. Studies have also identified distinct neural networks responsible for automatic vs. controlled processing, with the former being more prone to biases and distractions. Interestingly, research has shown that the brain's filtering process can be influenced by factors such as emotions, expectations, and prior knowledge.",
-    "funFact": "According to a study published in <i>Science</i>, the human brain processes around 100 billion pieces of information every day, but our conscious awareness is limited to approximately 40 bits per second. This highlights the brain's remarkable ability to filter out unnecessary information and focus on what is truly important.",
+    "learn": "The brain receives far more information than it can consciously process, so it has to filter aggressively. Attention is the system that decides what gets priority. Some filtering is driven by goals, such as listening for your name in a noisy room. Some is driven by salience, when a sudden sound or movement pulls focus automatically. Other filters happen earlier in the pathway, as the thalamus and inhibitory circuits reduce noise before it ever reaches full awareness. This is why most of the world stays in the background while a small slice of it becomes vivid experience. Filtering is not a flaw in perception. It is what makes perception usable, because a brain that noticed everything equally would be overwhelmed almost immediately. In practice, attention is a survival tool as much as a thinking tool. It is the difference between a world you can act in and a flood of signals you cannot use.",
+    "simpler": "The brain does not process everything equally. It filters most incoming information so you can focus on what matters right now.",
+    "keyTakeaway": "Selective attention keeps the brain usable by prioritizing some signals and suppressing others, turning raw sensation into manageable experience.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Diagram_of_Synapse.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Unknown author",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Diagram%20of%20Synapse.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/87/Functional_magnetic_resonance_imaging.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Washington irving at English Wikipedia",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:FMRI.jpg"
+    },
+    "deeperDive": "Filtering is a partnership between top-down control and bottom-up interruption. Goal-directed attention lets you focus on what you want, while surprise and urgency can break through that focus when the environment changes. Neuroscientists often describe this as gating, inhibition, or competition between signals. The brain is not trying to perceive everything perfectly; it is trying to perceive enough, quickly, to act well. That is why fatigue, stress, and overload reduce filtering quality. When the system is strained, irrelevant information leaks in more easily, and the experience of focus becomes harder to hold together. Habituation also plays a role, because repeated harmless signals gradually stop demanding attention. In everyday life, the success of attention is mostly invisible because good filtering feels like seamless awareness rather than visible effort. The better the filter, the less the brain has to spend on noise. That efficiency is what keeps concentration from collapsing under the weight of constant input.",
+    "funFact": "You notice only a tiny fraction of the information your senses take in.",
+    "references": [
+      "NIH review literature on attention and sensory gating",
+      "NINDS resources on perception and attention",
+      "PubMed reviews on thalamic filtering and selective attention"
+    ],
     "keyElements": {
       "people": [
-        "* Antonio Damasio - neuroscientist who contributed significantly to understanding the neural basis of emotions and decision-making",
-        "* Francis Crick - Nobel laureate who proposed the idea of a \"binding problem\" in neuroscience, relating to how the brain filters information",
-        "* Michael Posner - pioneer in attention research who developed key concepts like \"top-down\" processing",
-        "* Susan Greenfield - neuroscientist and author who has written extensively on the importance of cognitive training for improved brain function",
-        "* Vilayanur Ramachandran - neuroscientist known for his work on synesthesia, which helps us understand how our brains filter sensory information"
+        "Donald Broadbent - Early theorist of selective attention.",
+        "Anne Treisman - Researcher whose work refined how attention filters information.",
+        "Michael Posner - Scientist known for attention networks and orienting.",
+        "W. James - Early psychologist who described the attention problem with unusual clarity."
       ],
       "places": [
-        "* University of California, Los Angeles (UCLA) - home to renowned neuroscience research programs and facilities like the Brain Research Institute",
-        "* Harvard University's Center for Brain Science - a hub for interdisciplinary research in brain function and behavior",
-        "* The Wellcome Trust - a UK-based charity that supports innovative neuroscience research and public engagement initiatives",
-        "* Boston Children's Hospital - a leading institution for pediatric neurology and cognitive development research",
-        "* The Salk Institute for Biological Studies - home to Nobel laureates like Francis Crick, who pioneered our understanding of the brain's filtering mechanisms"
+        "The thalamus - A relay hub that helps gate sensory information.",
+        "Attention networks - Distributed systems that allocate focus.",
+        "Sensory cortex - Where raw inputs first become organized perception.",
+        "Noisy environments - Real-world settings that reveal how selective attention works."
       ],
       "years": [
-        "* 1879: William James publishes \"The Principles of Psychology,\" laying foundational concepts for neuroscience and cognition",
-        "* 1926: Charles Scott Sherrington wins the Nobel Prize in Physiology or Medicine for his work on neural control systems",
-        "* 1981: Michael Posner introduces the concept of \"top-down\" processing, which revolutionizes our understanding of attentional mechanisms",
-        "* 2004: Antonio Damasio publishes \"Looking for Spinoza,\" exploring the interplay between emotions and decision-making"
+        "1958 - Broadbent formalizes selective attention.",
+        "1980s - Attention becomes a network science problem.",
+        "1990s - Imaging helps separate top-down and bottom-up control.",
+        "2020s - Research links attention to prediction and brain state."
       ],
       "concepts": [
-        "* Selective attention - the ability to focus on relevant information while filtering out distractions",
-        "* Pre-frontal cortex (PFC) - a brain region crucial for regulating attention, memory, and executive function",
-        "* Working memory capacity - our ability to hold and manipulate information in short-term memory",
-        "* Top-down processing - how higher-level cognitive processes guide perception and action",
-        "* Attention-deficit/hyperactivity disorder (ADHD) - a neurological disorder affecting attentional mechanisms",
-        "* Cognitive training programs - exercises designed to improve cognitive performance and filter out unnecessary information"
+        "Selective attention - Focusing on some signals while ignoring others.",
+        "Sensory gating - Preprocessing that reduces irrelevant input.",
+        "Top-down control - Goal-driven attention.",
+        "Bottom-up salience - Stimuli that grab attention automatically.",
+        "Inhibitory circuits - Neural mechanisms that suppress noise.",
+        "Habituation - Reduced attention to signals that prove unimportant."
       ]
     }
   }

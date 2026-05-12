@@ -1,32 +1,67 @@
 {
-  "topic": "Why-We-Still-Dont-Know-How-Stonehenge-Was-Built",
-  "title": "The Methods Behind Stonehenge's Construction: Unraveling the Mysteries",
+  "topic": "Stonehenge and Prehistoric Engineering",
+  "title": "Why We Still Don't Know How Stonehenge Was Built",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Stonehenge_Heel_Stone.jpg/960px-Stonehenge_Heel_Stone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "imageCredit": {
+    "creator": "DeFacto",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Stonehenge_Heel_Stone.jpg"
+  },
   "lesson": {
-    "learn": "The construction of Stonehenge, a UNESCO World Heritage Site, poses a profound challenge to archaeologists and historians. Despite over seven decades of excavation and research, the exact methods used to build this massive structure remain unclear. Between 3000 and 1500 BCE, thousands of tons of stones were transported from quarries located over 150 miles away and assembled with unprecedented precision. This feat is particularly remarkable considering the technology and materials available at the time. For example, the largest stones weigh up to 50 tons, and their surfaces display intricate carvings and engravings, indicating a high level of craftsmanship. Recent studies suggest that the builders may have used advanced techniques, such as the use of rollers and pulleys, to move the stones into place. Yet, the exact methods and organization behind this massive project continue to elude us.",
-    "simpler": "Building Stonehenge is comparable to constructing a massive puzzle, with each piece weighing hundreds of tons. The people who built it left behind no instructions or blueprints, much like an architect designing a futuristic skyscraper without revealing their plans. This puzzle has been a subject of fascination for centuries, but its solution remains an enigma.",
-    "keyTakeaway": "The construction of Stonehenge is a testament to the ingenuity and capabilities of our ancient ancestors, yet the exact methods used to build it remain a mystery. Understanding the organization, technology, and human endeavor involved in this project can provide insights into the cultures and societies that built it.",
-    "deeperDive": "Recent excavations at Stonehenge and nearby sites have revealed evidence of extensive quarrying and transportation networks, further complicating our understanding of the construction process. The structure's unique design and alignment with celestial bodies imply a sophisticated understanding of astronomy and mathematics. New discoveries also suggest that the builders may have used a combination of ramps, levers, and rollers to move the stones into place, yet the exact sequence of events remains unclear. Researchers are continuing to analyze data and excavate sites to piece together the story of Stonehenge's construction.",
-    "funFact": "Despite its massive size, estimates suggest that the construction of Stonehenge may have required a relatively small team of skilled laborers, perhaps around 1,000 workers over several decades.",
+    "learn": "Stonehenge remains mysterious not because nothing is known about it, but because too much of the evidence is partial. Archaeologists know the monument was built in stages, that its stones came from different places, and that the landscape around it was carefully arranged for human movement, ceremony, and sightlines. What they do not know with certainty is the exact combination of labor methods, transport systems, planning structures, and social organization used to move and raise the stones. The site has been studied for generations, yet it still resists a single neat explanation because it was probably built by many people over a long period using methods that could vary from stone to stone. That uncertainty is part of the monument's power. The site is not just a puzzle about lifting rocks; it is a record of changing communities, changing purposes, and changing technical choices over centuries.",
+    "simpler": "We still do not know Stonehenge's exact building method because the monument was built in stages, over a long time, and the evidence does not preserve one clear answer.",
+    "keyTakeaway": "Stonehenge stays unsolved because it is a multi-stage project with incomplete evidence, so the real story is less a single construction trick than a long, collective engineering process.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Stonehenge_from_the_Heel_Stone.jpg/960px-Stonehenge_from_the_Heel_Stone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "learnImageCredit": {
+      "creator": "TobyEditor",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Stonehenge_from_the_Heel_Stone.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Heel_Stone_and_Stonehenge.jpg/960px-Heel_Stone_and_Stonehenge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "thirdImageCredit": {
+      "creator": "Mball93",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Heel_Stone_and_Stonehenge.jpg"
+    },
+    "deeperDive": "The monument's stone sources tell us a great deal. The sarsens came from nearby regions, while the bluestones were brought from the Preseli Hills in Wales, which implies long-distance transport and organized labor. But moving a stone is only part of the problem. Builders also had to position the megaliths, shape joints, raise lintels, and align the circle within a ritual landscape that changed over time. That means the question is not simply \"How did they lift one stone?\" but \"How did they coordinate a monument across generations?\" The absence of written records means archaeologists infer methods from postholes, tool marks, quarry evidence, and experimental archaeology. Those clues can narrow the possibilities, but they rarely yield a single final answer. Stonehenge remains compelling precisely because it is both familiar and incomplete. Its unfinished mystery is actually a clue that the monument evolved through many hands and many centuries, not through one heroic build.",
+    "funFact": "Some of Stonehenge's stones were brought from Wales, hundreds of kilometers from the site.",
+    "references": [
+      "Britannica: Stonehenge",
+      "English Heritage: Stonehenge research",
+      "Archaeological studies on megalith transport and construction"
+    ],
     "keyElements": {
       "people": [
-        "Mike Parker Pearson, archaeologist who led the recent excavations at Stonehenge",
-        "Timothy Darvill, expert on prehistoric monuments and construction techniques",
-        "Rodney Castleden, researcher who has extensively studied the history of Stonehenge"
+        "Neolithic builders - The anonymous communities who planned, moved, and raised the stones",
+        "Archaeologists such as Mike Parker Pearson - Researchers who study the site as a changing ritual landscape",
+        "Experimental archaeologists - Specialists who test how stones could have been transported and raised",
+        "Local prehistoric communities - The social groups whose labor and traditions made the monument possible"
       ],
       "places": [
-        "Avebury, a nearby Neolithic site with similar earthworks and structures",
-        "Salisbury Plain, where Stonehenge is located and features numerous other ancient monuments",
-        "Skara Brae, an Orkney Island settlement that provides insights into prehistoric construction techniques"
+        "Salisbury Plain - The chalk landscape that holds Stonehenge and its associated monuments",
+        "Preseli Hills - The Welsh source area for many of the bluestones",
+        "Durrington Walls - Nearby site that helps show the wider ceremonial landscape",
+        "The Stonehenge circle - The specific monument whose phases of building remain only partly understood"
       ],
       "years": [
-        "3000 BCE: The construction of the first phase of Stonehenge begins",
-        "2500 BCE: The second phase of construction starts, with the addition of larger stones and earthworks",
-        "1500 CE: The final stage of construction is completed, including the iconic circular shape we see today"
+        "c. 3000 BCE - Early earthworks and first monument phases begin",
+        "c. 2500 BCE - Major stone-setting phases transform the site",
+        "19th and 20th centuries - Archaeology begins turning speculation into evidence-based study",
+        "2020s - New surveys and analyses continue to refine how the monument was built and used"
       ],
       "concepts": [
-        "Megalithic architecture: a style of building using massive stones and earthworks",
-        "Prehistoric engineering: the study of how ancient societies built structures like Stonehenge",
-        "Archaeoastronomy: the investigation of how ancient cultures used celestial bodies in their construction and design"
+        "Megalith transport - The movement of very large stones over long distances",
+        "Ritual landscape - A broader sacred environment rather than a single isolated monument",
+        "Bluestone - The smaller stones brought from Wales to Stonehenge",
+        "Sarsen - The larger sandstone blocks that form the iconic outer ring",
+        "Experimental archaeology - Testing possible ancient methods with practical reconstructions",
+        "Multi-phase construction - Building that happens over generations, not in one project"
       ]
     }
   }

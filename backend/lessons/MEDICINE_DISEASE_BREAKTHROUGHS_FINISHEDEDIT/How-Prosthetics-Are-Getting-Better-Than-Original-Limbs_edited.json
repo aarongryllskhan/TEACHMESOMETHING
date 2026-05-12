@@ -1,41 +1,68 @@
 {
-  "topic": "How Prosthetic Limbs Are Advancing Beyond Original Limbs",
+  "topic": "Advanced Prosthetics and Human Enhancement",
   "title": "Advances in Prosthetic Technology: Enhancing Human Potential",
   "lesson": {
-    "learn": "The field of prosthetics has experienced rapid advancements since its inception in the 1960s, driven by breakthroughs in robotics, artificial intelligence, and biomaterials. Modern prosthetic limbs have improved dramatically in terms of functionality, dexterity, and user experience. According to the National Institutes of Health (NIH), approximately 1.9 million people in the United States live with limb loss, with the demand for assistive technologies driving innovation in prosthetic design and manufacturing. Prosthetic limbs are now designed to mimic the natural movement and sensation of real limbs, enabling users to regain independence and confidence. Recent developments in neural-controlled prosthetics have enabled users to control their limbs with greater precision and accuracy. For instance, Dr. Todd Kuiken's neural-controlled prosthetic arm, developed in the late 1990s, has allowed users to regain control over their limbs with remarkable results. Additionally, advancements in biomaterials and 3D printing have made it possible to create customized prosthetic limbs that can adapt to individual users' needs. The integration of AI and machine learning has also enabled prosthetic devices to learn and adapt to users' behavior over time, leading to a greater emphasis on user-centered design.",
-    "simpler": "Imagine wearing a robotic exoskeleton that can help you walk or run with ease. Modern prosthetic limbs have made tremendous strides in technology and design, with some devices even allowing users to feel sensations like touch and pressure. This is achieved through the use of advanced materials and systems that mimic the natural movement and sensation of real limbs.",
-    "keyTakeaway": "One key takeaway from the advancements in prosthetic technology is the importance of personalized medicine in prosthetic design. By tailoring prosthetic devices to individual users' specific needs, we can improve the overall quality of life for individuals with limb loss. This can be accomplished through the use of advanced imaging techniques, such as MRI and CT scans, to create precise, customized prosthetic limbs.",
-    "deeperDive": "The use of electromyography (EMG) sensors has enabled more intuitive control over prosthetic limbs, allowing users to control their devices with greater precision and accuracy. This is achieved through the use of microcontrollers and advanced algorithms that enable real-time processing of sensor data. For example, researchers have developed a robotic hand that can grip objects with the same dexterity as a human hand. This is achieved through the use of microcontrollers and advanced algorithms that enable real-time processing of sensor data. Furthermore, advancements in 3D printing and biomaterials have made it possible to create customized prosthetic limbs that are tailored to individual users' specific needs. The integration of AI and machine learning has also enabled prosthetic devices to learn and adapt to users' behavior over time, leading to a greater emphasis on user-centered design.",
-    "funFact": "Researchers are developing prosthetic limbs that can regrow or replace damaged tissue, effectively allowing users to regain the use of their original limb. This is achieved through the use of advanced biomaterials and 3D printing technologies. Additionally, some researchers are working on developing prosthetic limbs that can be controlled using brain signals alone, offering hope for individuals who have lost their ability to control their muscles.",
+    "learn": "Modern prosthetics are getting better in a very specific sense: they can now exceed natural limbs in some tasks. A prosthetic can be tuned for endurance, stiffness, or precision in ways a biological limb cannot. Sensors, microprocessors, myoelectric control, and increasingly sophisticated materials allow devices to respond to movement and terrain with remarkable adaptability. Some systems can even restore a degree of touch or feedback through neural or haptic interfaces. That does not mean a prosthetic is simply superior to a natural limb in every way. Biology still has the richest touch, the most seamless sensory integration, and the deepest adaptability. But in terms of specific functions such as running efficiency, load-bearing, or repeated precise control, prosthetics are rapidly closing the gap and, in some cases, pushing beyond it.\nWhat makes modern prosthetics exciting is that they are no longer trying only to mimic anatomy. They are increasingly trying to optimize function. That can mean more stability, more endurance, better software control, or a more predictable response to the user's signals. In that narrow but important sense, a prosthesis can outperform a biological limb that was never designed for the same task.",
+    "simpler": "Prosthetic limbs are becoming smarter, lighter, and more responsive. In some tasks they can even outperform biological limbs, especially when the device is tuned for a specific job.",
+    "keyTakeaway": "Prosthetics are improving because engineers can optimize them for specific functions, turning them from replacements into performance tools in some contexts.",
+    "deeperDive": "The real story is not that artificial limbs are replacing biological ones everywhere. It is that prosthetic design is becoming more personalized and more integrated with the nervous system. Microprocessors can adjust gait and stability, targeted sensors can improve control, and interfaces can translate muscle or nerve signals into movement. Researchers are also working on better attachment systems, better durability, and better sensory feedback so a prosthesis feels less like a tool and more like part of the body. The future of prosthetics will likely be defined by tradeoffs: weight versus power, flexibility versus control, and sensory richness versus reliability. The remarkable progress so far comes from treating the prosthesis as an engineered system rather than a passive replacement.\nThe future of prosthetics is likely to be hybrid rather than purely mechanical or purely biological. The best systems will combine better attachment, better sensing, and better software with a closer relationship to the nervous system. That is how a replacement becomes something more like an extension of the person. The real benchmark is not whether a device looks human. It is whether it gives the user more control over daily life.",
+    "funFact": "Some advanced prosthetic knees can adapt in real time to walking speed, stairs, and uneven ground.",
+    "references": [
+      "NIH NIBIB: Robotic and Bionic Medical Devices",
+      "NIH research on creating an artificial sense of touch",
+      "NIH research on improving control of bionic prosthetic hands"
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Todd Kuiken - Developed the first neural-controlled prosthetic arm",
-        "* Dr. Hugh Herr - Founded the MIT Media Lab's Biomechatronics group, which focuses on developing advanced prosthetics",
-        "* Dr. Kevin Otto - Led the development of the DEKA Arm System, a highly advanced prosthetic limb",
-        "* Dr. Maryam Tabyanian - Developed a robotic hand that can be controlled using EMG sensors",
-        "* Dr. Robert Sanchez - Works on developing prosthetic limbs that can regrow or replace damaged tissue"
+        "Hugh Herr - Biomechanics researcher whose work helped define advanced prosthetics as a human-machine interface challenge",
+        "Todd Kuiken - Clinician-researcher known for work on targeted muscle reinnervation and prosthetic control",
+        "José Contreras-Vidal - Engineer whose work links brain signals, movement, and prosthetic control",
+        "James W. Gnadt - Neuroscientist associated with research on prosthetic control and sensory feedback"
       ],
       "places": [
-        "* Massachusetts Institute of Technology (MIT) Media Lab - A hub for research and development in advanced prosthetics",
-        "* University of California, Los Angeles (UCLA) - A leading center for prosthetics research and development",
-        "* The Johns Hopkins University School of Medicine - A renowned institution for medical research and innovation",
-        "* The Hadassah Medical Center in Israel - A hospital that has pioneered the use of advanced prosthetic limbs",
-        "* The Rehabilitation Institute of Chicago - A leading center for rehabilitation and assistive technology"
+        "MIT Media Lab - Major research environment for bionics and human-machine design",
+        "Johns Hopkins Applied Physics Laboratory - A key site in advanced prosthetic and limb-control development",
+        "NIH/NIBIB - U.S. research centers supporting robotics, touch, and prosthetic medicine",
+        "University of Pittsburgh - A major academic center for neural prosthetics and assistive technology"
       ],
       "years": [
-        "* 1960s: The first robotic arms were developed, marking the beginning of modern prosthetics",
-        "* 1980s: EMG sensors were introduced, allowing for more intuitive control over prosthetic limbs",
-        "* 2000s: Advances in biomaterials and 3D printing enabled the creation of customized prosthetic limbs",
-        "* 2010s: AI and machine learning were integrated into prosthetic devices, enabling them to learn and adapt to users' behavior"
+        "2010 - Advanced bionic prosthetics begin moving into more realistic day-to-day use",
+        "2018 - Neural and sensory-feedback research makes prosthetic control more intuitive",
+        "2025 - NIH reports highlight artificial touch and better prosthetic control",
+        "2026 - Prosthetics continue improving as sensors, software, and interfaces converge"
       ],
       "concepts": [
-        "* Electromyography (EMG) sensors - Allow for more intuitive control over prosthetic limbs",
-        "* Biomaterials - Used in the development of customized prosthetic limbs that can mimic the natural movement and sensation of real limbs",
-        "* 3D printing - Enables the rapid creation of customized prosthetic devices",
-        "* Artificial intelligence (AI) - Integrated into prosthetic devices to enable them to learn and adapt to users' behavior",
-        "* Machine learning - Allows prosthetic devices to adjust their performance in response to changing user needs",
-        "* Neuroplasticity - The ability of the brain to reorganize itself in response to injury or disease, which is being harnessed in the development of advanced prosthetics."
+        "Myoelectric control - Using muscle signals to move a prosthetic",
+        "Haptic feedback - Sensory information that helps a user feel what the prosthesis is doing",
+        "Osseointegration - Direct attachment of a prosthesis to bone for improved stability",
+        "Microprocessor knee - A knee joint that uses computing to adapt to movement and terrain",
+        "Neural interface - A connection that lets the nervous system communicate with a device",
+        "Biomechanics - The science of how forces move through the body and through prosthetic systems"
       ]
+    },
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/25/3-D_Printed_Prosthetic_Hand_%285229%29_%2818306292659%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "The U.S. Food and Drug Administration",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:3-D_Printed_Prosthetic_Hand_(5229)_(18306292659).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Myoelectric_prosthetic_arm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Petty Officer 2nd Class Greg Mitchell of the United States Navy",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Myoelectric_prosthetic_arm.jpg"
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Brain-Controlled_Prosthetic_Arm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Photo courtesy of The Johns Hopkins University Applied Physics Laboratory (JHU/APL)",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Brain-Controlled_Prosthetic_Arm.jpg"
   }
 }

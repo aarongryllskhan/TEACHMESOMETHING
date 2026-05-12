@@ -1,32 +1,66 @@
 {
-  "topic": "The Impact of Brain Damage on Individuals",
-  "title": "Exploring the Complexities of Brain Function and Injury",
+  "topic": "Brain Injury and Recovery",
+  "title": "Why Brain Damage Affects People So Differently",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Brain_MRI_143620_cr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Nevit Dilmen",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Brain_MRI_143620_cr.png"
+  },
   "lesson": {
-    "learn": "The human brain, consisting of approximately 86 billion neurons and 100 trillion synapses, is a marvel of intricate complexity. It consumes about 20% of the body's energy, yet accounts for only 2% of its mass. Brain damage can arise from a multitude of causes, including injury, stroke, infection, and neurodegenerative diseases like Alzheimer's and Parkinson's. Notably, the brain's adaptability, or neuroplasticity, is a crucial aspect of recovery. However, the extent of this adaptation varies significantly between individuals, influenced by genetic factors, environmental conditions, and the unique neural connections in each person's brain.",
-    "simpler": "Think of the brain as a sophisticated metropolis with numerous interconnected districts. When a major road is obstructed, the city's traffic pattern adjusts, but the surrounding areas generally continue to function normally. However, if multiple critical roads are impeded, the entire city's operations become severely disrupted. Similarly, when brain damage occurs, various regions and systems can be affected differently, leading to diverse degrees of impairment.",
-    "keyTakeaway": "The variability in brain damage effects stems from individual differences in genetics, environment, and unique brain wiring, rendering each person's response to injury or disease distinctive. Understanding these variations is essential for developing customized treatment plans that account for the specific needs and limitations of each individual.",
-    "deeperDive": "Recent studies have demonstrated that even with extensive damage to certain areas, other regions of the brain can compensate by assuming new functions through a process called cross-talk, where different regions communicate more efficiently. For instance, individuals with severe brain injuries have exhibited exceptional abilities, such as savant syndrome, where they display remarkable skills or talents despite their injuries. Additionally, researchers have identified key molecular and cellular mechanisms that contribute to neuroplasticity and adaptation after brain damage, including the discovery of neural stem cells, which has opened up new avenues for repair and regeneration in damaged brains. Advances in brain-computer interfaces (BCIs) have also enabled individuals with paralysis or other motor disorders to interact with their environment more effectively.",
-    "funFact": "Research has shown that some individuals with extensive brain damage can recover significant amounts of function through intensive therapy and rehabilitation, known as neurorehabilitation. Furthermore, even in individuals with severe brain injuries, small areas of intact tissue can serve as a \"hub\" for recovery and adaptation.",
+    "learn": "Two people can suffer injuries that look similar on a scan and still have very different outcomes. The reason is that the brain is not a set of identical spare parts. Different regions have different jobs, networks overlap, and the injury itself can vary in size, location, timing, and cause. A small lesion in one place can be devastating if it hits a critical pathway, while a larger injury somewhere else may leave more function intact. Age, health, previous experience, and rehabilitation also matter. The brain can sometimes reroute tasks through alternate circuits, but that compensation has limits. Brain damage is therefore not just about what tissue was lost. It is about what functions were interrupted, what pathways remain available, and how much the rest of the brain can adapt. The same injury can also feel different over time, because symptoms, swelling, and recovery all change the picture. That is why the first scan rarely tells the whole story on its own.",
+    "simpler": "Brain injuries do not affect everyone the same way because location, severity, age, and recovery all change the outcome. The brain can sometimes compensate, but not always.",
+    "keyTakeaway": "Brain damage produces different results because the brain works as a network of specialized, overlapping systems, so the same injury can interrupt very different kinds of function.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/e/e4/BrainAtrophy%28exvacuo%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "James Heilman, MD",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:BrainAtrophy(exvacuo).png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/90/Brainlobes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Washington irving",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Brainlobes.png"
+    },
+    "deeperDive": "One of the most important ideas in brain injury research is that function is distributed but not evenly distributed. Language, movement, vision, memory, and attention each rely on different pathways, and the effect of damage depends on whether the injury cuts through a hub, a bridge, or a more redundant route. That is why two strokes can look similar in size but produce very different symptoms. Plasticity also changes the story: younger brains and brains with more reserve can sometimes reorganize better than older or more fragile ones. Rehabilitation matters because it helps the nervous system practice alternative routes, strengthen surviving networks, and avoid giving up too early on recovery. Doctors also pay attention to inflammation, bleeding, oxygen loss, and the time elapsed before treatment, because these factors can change the final outcome as much as the original lesion. The deeper lesson is that the brain is resilient in some ways and unforgiving in others. Damage can be local, but its effects are always network-wide, and the network often determines the final shape of recovery.",
+    "funFact": "A tiny injury in the wrong spot can cause bigger problems than a much larger injury elsewhere.",
+    "references": [
+      "NINDS: brain injury and stroke resources",
+      "NIH review literature on lesion location and recovery",
+      "PubMed: brain reserve and functional compensation"
+    ],
     "keyElements": {
       "people": [
-        "Paul Broca",
-        "Santiago Ramón y Cajal",
-        "Dr. Oliver Sacks",
-        "Dr. David Eagleman"
+        "Paul Broca - Clinician whose work connected a specific brain region with speech production.",
+        "Wilder Penfield - Neurosurgeon whose mapping work revealed how stimulation can evoke memory and sensation.",
+        "Norman Geschwind - Neurologist who helped explain how distributed networks shape deficits and recovery.",
+        "Oliver Sacks - Physician who made the clinical diversity of brain injury understandable to a wider audience."
       ],
       "places": [
-        "University of California, Los Angeles (UCLA) Brain Research Institute",
-        "National Institutes of Health (NIH)"
+        "Montreal Neurological Institute - A historic center for brain mapping and injury research.",
+        "Broca’s area - A language-related region whose injury can disrupt speech production.",
+        "Stroke rehabilitation clinics - Where recovery depends on repeated retraining and compensation.",
+        "The cerebral white matter - Pathways that can be disrupted even when gray matter seems relatively intact."
       ],
       "years": [
-        "1861",
-        "1907"
+        "1861 - Broca links left frontal injury to speech loss.",
+        "1950s - Brain mapping and lesion studies accelerate understanding of function.",
+        "1990s - Imaging reveals how networks compensate after injury.",
+        "2010s - Rehabilitation research emphasizes plasticity and individualized recovery."
       ],
       "concepts": [
-        "Neuroplasticity",
-        "Cross-talk",
-        "Neural stem cells",
-        "Brain-computer interfaces (BCIs)"
+        "Lesion location - Where the injury occurs, often the biggest predictor of symptoms.",
+        "Brain reserve - The extra capacity that can buffer damage.",
+        "Network compensation - Alternate routes taking over some lost function.",
+        "Lateralization - The tendency for some functions to be stronger in one hemisphere.",
+        "White matter tract - A communication pathway connecting brain regions."
       ]
     }
   }

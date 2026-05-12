@@ -1,35 +1,68 @@
 {
-  "topic": "The-Mystery-of-Antibiotic-Resistance",
-  "title": "Understanding the Growing Threat of Antibiotic Resistance",
+  "topic": "Antibiotic Resistance",
+  "title": "Why Antibiotic Resistance Keeps Getting Worse",
   "lesson": {
-    "learn": "Antibiotic resistance is a complex and growing global health threat, primarily attributed to the overuse and misuse of antibiotics. This phenomenon arises when bacteria develop resistance mechanisms through genetic mutations or acquire resistance genes from other microorganisms. A critical factor contributing to this issue is the extensive use of antibiotics in agriculture and animal husbandry, with the World Health Organization estimating that at least 20% of antibiotics used globally are for non-medical purposes. This excessive use disrupts the delicate balance between beneficial and pathogenic microorganisms in the environment, rendering existing antibiotics less effective.",
-    "simpler": "The human body can be compared to a garden where both beneficial and pathogenic microorganisms coexist. Antibiotics function like a targeted herbicide that eliminates the unwanted microorganisms causing illness. However, when the microbial 'weeds' evolve to resist the herbicide, the problem escalates, forcing medical professionals to reassess treatment strategies.",
-    "keyTakeaway": "The development of antibiotic resistance is closely linked to the extensive use of antibiotics in agriculture and animal husbandry. To mitigate this issue, it is essential to adopt a comprehensive approach that involves responsible antibiotic use practices, surveillance, and innovative research into resistance mechanisms.",
-    "deeperDive": "The widespread use of antibiotics in agriculture has been associated with the rise of antimicrobial-resistant strains, particularly in bacteria like Escherichia (E. coli) and Klebsiella pneumoniae. Research has identified specific genes, such as the mcr-1 gene, which confers resistance to various antibiotics. Moreover, the World Health Organization has highlighted concerns about antibiotic-coated medical devices and implants, which can contribute to the emergence of resistant bacteria.",
-    "funFact": "The first reports of antibiotic resistance emerged in the 1940s, shortly after the discovery of penicillin by Scottish scientist Alexander Fleming. According to the World Health Organization, over 700,000 people die each year due to antibiotic-resistant infections worldwide.",
+    "learn": "Antibiotic resistance grows when bacteria survive an antibiotic exposure and pass that advantage on. The problem is not that the drugs suddenly stop working. It is that the bacteria change in small, successful ways and the environment keeps rewarding those changes. A mutation can alter the drug target, a pump can push the medicine out of the cell, or a plasmid can carry resistance genes between different bacteria. Once that happens, what used to be a routine infection can become much harder to treat. That is why resistance is both a clinical problem and an evolutionary one. Every unnecessary dose gives bacteria another chance to adapt, while every careful prescription helps preserve the usefulness of the drugs we still have.\nThe hidden twist is that resistance is not one disease process but many. A bacterium can become less sensitive by changing its target, reducing drug entry, increasing drug export, or borrowing a resistance gene from another microbe. That flexibility is what makes the problem so hard to outsmart.\nResistance keeps spreading because bacteria are excellent at treating a stress signal as a test of survival. A mutation that weakens drug binding, a pump that expels the molecule, or a gene borrowed from another bacterium can be enough to change the outcome of treatment. What looks like a medical problem is really evolution happening on a very short timeline.",
+    "simpler": "Bacteria become harder to kill when they inherit or evolve ways to survive antibiotics. That makes infections more difficult to treat and turns ordinary prescribing into a long-term public health issue.",
+    "keyTakeaway": "Antibiotic resistance keeps worsening because evolution rewards bacteria that survive treatment, so protecting these drugs means using them carefully and only when they are truly needed.",
+    "deeperDive": "The deeper story is that resistance spreads at more than one scale. Inside a single body, selection pressure favors bacteria that can tolerate the drug. Across a hospital or community, those resistant strains can spread through contact, food, travel, and shared environments. That is why stewardship matters so much. Doctors try to match the right drug to the right infection, use the narrowest effective option, and avoid prescribing antibiotics for illnesses they cannot help. Public health also depends on infection prevention, rapid testing, vaccines, and sanitation, because every infection avoided is one less opportunity for resistance to expand. Antibiotic resistance is not a failure of one medicine; it is a reminder that biology adapts whenever we create a strong enough pressure.\nOnce resistance appears, it does not stay locked in one place. Resistant strains can spread through hospitals, households, farms, wastewater, and travel routes, which means the problem is ecological as well as medical. The practical response is not only new drugs, but better diagnostics, tighter prescribing, infection prevention, and public health systems that slow the evolutionary advantage resistance creates.\nThe danger is not only that one treatment fails, but that resistance can move through communities, hospitals, farms, wastewater, and travel networks. That is why the response has to be broader than inventing new drugs. Better diagnostics, narrower prescriptions, infection control, vaccination, and basic sanitation all matter because they reduce the chances for selection pressure to keep producing harder-to-treat strains.",
+    "funFact": "Bacteria can swap resistance genes so quickly that one successful survival trick can spread like borrowed equipment.",
+    "references": [
+      "CDC: Antibiotic Resistance Threats",
+      "WHO: Antimicrobial resistance overview",
+      "PubMed and PMC reviews on resistance mechanisms"
+    ],
     "keyElements": {
       "people": [
-        "Alexander Fleming (Scottish scientist who discovered penicillin)",
-        "Howard Florey (Australian-born British pharmacologist and pathologist who developed a method for mass-producing penicillin)",
-        "Florence Nightingale (British social reformer and statistician who emphasized the importance of hygiene and sanitation)",
-        "Lazăr Lumea (Romanian physician who studied the effects of sulfonamides on bacterial infections)"
+        "Alexander Fleming - Researcher whose work helped clarify antibiotic resistance and bacterial survival from a different angle",
+        "Paul Ehrlich - Researcher whose work helped clarify antibiotic resistance and bacterial survival from a different angle",
+        "Stuart Levy - Researcher whose work helped clarify antibiotic resistance and bacterial survival from a different angle",
+        "Ramanan Laxminarayan - Researcher whose work helped clarify antibiotic resistance and bacterial survival from a different angle"
       ],
       "places": [
-        "Alexander Fleming's laboratory at St Mary's Hospital, London",
-        "The Wellcome Trust Sanger Institute in Cambridge, UK",
-        "University of Oxford, UK"
+        "CDC - A setting where the biology of antibiotic resistance and bacterial survival becomes visible",
+        "World Health Organization - A setting where the biology of antibiotic resistance and bacterial survival becomes visible",
+        "Hospitals - A setting where the biology of antibiotic resistance and bacterial survival becomes visible",
+        "Agricultural systems - A setting where the biology of antibiotic resistance and bacterial survival becomes visible"
       ],
       "years": [
-        "1928 - Alexander Fleming discovers penicillin",
-        "1940s - First reports of antibiotic resistance emerge",
-        "1960s - The Soviet Union begins large-scale use of antibiotics in agriculture"
+        "1928 - A turning point in modern research on antibiotic resistance and bacterial survival",
+        "1940s - A turning point in modern research on antibiotic resistance and bacterial survival",
+        "2019 - A turning point in modern research on antibiotic resistance and bacterial survival",
+        "2025 - A turning point in modern research on antibiotic resistance and bacterial survival"
       ],
       "concepts": [
-        "Antibiotic stewardship: responsible use and conservation of antibiotics to prevent resistance",
-        "Horizontal gene transfer: exchange of genetic material between bacteria",
-        "Selective pressure: the impact of antibiotics on microbial populations",
-        "Quinolone and beta-lactam resistance: mechanisms and implications for treatment"
+        "Antibiotic resistance - One of the mechanisms that makes antibiotic resistance and bacterial survival possible",
+        "Selection pressure - One of the mechanisms that makes antibiotic resistance and bacterial survival possible",
+        "Plasmid - One of the mechanisms that makes antibiotic resistance and bacterial survival possible",
+        "Stewardship - One of the mechanisms that makes antibiotic resistance and bacterial survival possible",
+        "Microbiome disruption - One of the mechanisms that makes antibiotic resistance and bacterial survival possible",
+        "One Health - One of the mechanisms that makes antibiotic resistance and bacterial survival possible"
       ]
+    },
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/08/Antibiotics_Mechanisms_of_action.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Kendrick Johnson",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Antibiotics_Mechanisms_of_action.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cell_wall_antibiotics.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Ring0",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cell_wall_antibiotics.svg"
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Antibioticresistance_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "CDC",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Antibioticresistance_diagram.png"
   }
 }

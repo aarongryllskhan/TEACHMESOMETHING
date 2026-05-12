@@ -1,36 +1,67 @@
 {
-  "topic": "Mathematics",
-  "title": "How Prime Numbers Govern the Universe: Uncovering Hidden Patterns",
+  "topic": "Number Theory",
+  "title": "Why Prime Numbers Feel Random",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ulam_spiral_with_prime_numbers_and_divisor-based_dot_sizes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Marianoju",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Ulam_spiral_with_prime_numbers_and_divisor-based_dot_sizes.png"
+  },
   "lesson": {
-    "learn": "Prime numbers have been integral to mathematics, with significant contributions from scholars like Euclid in 300 BCE. According to the Fundamental Theorem of Arithmetic, every integer can be decomposed into a product of prime numbers. However, the distribution of these primes has long been a topic of interest, with mathematicians attempting to identify underlying patterns. Researchers have used computer algorithms to efficiently search for prime numbers, leading to new insights into their distribution.",
-    "simpler": "Think of prime numbers like unique keys, where each number is distinct and cannot be broken down further. They are the building blocks of mathematics, with all other numbers being composed of these indivisible primes. Similar to how a vast library contains a vast array of unique books, the universe contains an infinite number of prime numbers.",
-    "keyTakeaway": "The apparent randomness of prime number distribution is actually governed by inherent patterns and structures that have yet to be fully understood. Continued research into prime numbers will uncover more secrets about their distribution and behavior, informing the development of new mathematical disciplines and applications.",
-    "deeperDive": "Prime numbers form the foundation of various mathematical disciplines, including cryptography, coding theory, and computer science. Recent breakthroughs in number theory have enabled researchers to develop new algorithms for factoring large composite numbers, with potential applications in secure data transmission and cybersecurity. The Riemann Hypothesis, proposed by Bernhard Riemann in 1859, remains one of the most significant unsolved problems in mathematics, dealing with the distribution of prime numbers along the complex plane. Computer simulations have revealed intriguing patterns in the distribution of prime numbers, including the appearance of 'prime number clusters.'",
-    "funFact": "Did you know that the largest known prime number has over 24 million digits? The search for large prime numbers is an ongoing effort, with researchers utilizing powerful computers to uncover hidden patterns.",
+    "learn": "Prime numbers are the indivisible building blocks of multiplication, but their placement on the number line is still surprisingly hard to predict. We know exactly how to test whether a number is prime, yet we do not have a simple formula that lists the primes in order or explains why the gaps between them vary so unevenly. That tension between certainty and unpredictability is what makes primes so fascinating. They are not random in the strict mathematical sense, because they follow exact definitions and deep patterns. But their distribution is irregular enough that even very advanced methods only describe them statistically, which is why primes sit at the center of number theory and modern cryptography at the same time. The more closely mathematicians look, the more order they find, but never in a form that becomes easy enough to turn into a neat shortcut. That is part of the enduring appeal: primes are simple to define, hard to forecast, and impossible to exhaust with a tidy rule. Their mystery lives in the fact that a tiny definition can lead to an enormous landscape of unsolved questions. They feel random because local irregularity coexists with global structure.",
+    "simpler": "Prime numbers are numbers with exactly two divisors, 1 and themselves. We can identify them one by one, but the way they are spread out still looks irregular.",
+    "keyTakeaway": "Primes are not random in the strict sense, but their distribution is irregular enough that the search for deep patterns has become one of mathematics most important open problems.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/6c/6k%C2%B11_primes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Mariusz Sikoń",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:6k%C2%B11_primes.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Spiral_based_on_size_of_prime_numbers.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "MagistraMundi",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Spiral_based_on_size_of_prime_numbers.gif"
+    },
+    "deeperDive": "Euclid proved long ago that there are infinitely many primes, but infinity does not mean simplicity. As numbers grow, primes become less frequent on average, yet they continue to appear in ways that resist short, elegant prediction. Mathematicians study their spacing through the prime number theorem, sieve methods, analytic number theory, and the Riemann hypothesis, all of which try to explain why the apparent chaos still obeys large-scale structure. That structure is what makes primes useful in cryptography: the pattern is subtle enough to be mathematically rich, but hard enough to reverse-engineer that it can help secure digital communication. In other words, primes look irregular when you zoom in, but they still obey broad laws when you zoom out. The field keeps expanding because every new theorem seems to reveal another layer of order without fully collapsing the mystery. Even when the big picture is known only approximately, those approximations are strong enough to guide modern applications and deep enough to inspire new pure-math work. Primes are a reminder that arithmetic can be both practical and profoundly mysterious.",
+    "funFact": "There are infinitely many primes, but no known formula lists them all cleanly.",
+    "references": [
+      "Britannica: prime number",
+      "Britannica: prime number theorem",
+      "Britannica: number theory and the Riemann hypothesis"
+    ],
     "keyElements": {
       "people": [
-        "Euclid",
-        "Pierre de Fermat",
-        "Leonhard Euler",
-        "Bernhard Riemann"
+        "Euclid - Ancient Greek mathematician who gave the first known proof that there are infinitely many primes",
+        "Eratosthenes - Greek scholar whose sieve remains a classic way to find primes efficiently",
+        "Pierre de Fermat - Early modern mathematician whose work pushed number theory toward deeper structure",
+        "Bernhard Riemann - 19th-century mathematician whose zeta function is central to understanding prime distribution"
       ],
       "places": [
-        "Ancient Library of Alexandria",
-        "Göttingen University",
-        "Princeton University"
+        "Alexandria - One of the ancient intellectual centers where Greek mathematics flourished",
+        "Princeton - A major modern mathematics center tied to number theory research",
+        "Gottingen - A historic hub of 19th and 20th century mathematical analysis",
+        "Cambridge - Another major setting for the development of analytic number theory"
       ],
       "years": [
-        "300 BCE",
-        "1640",
-        "1772",
-        "1859"
+        "c. 300 BCE - Euclid proves there are infinitely many primes",
+        "240 BCE - Eratosthenes develops a sieve for identifying primes",
+        "1637 - Fermat begins shaping modern number-theoretic thinking",
+        "1859 - Riemann publishes work that reshapes prime distribution research"
       ],
       "concepts": [
-        "Prime numbers",
-        "Composite numbers",
-        "Modular arithmetic",
-        "Fundamental Theorem of Arithmetic",
-        "Riemann Hypothesis"
+        "Prime - A number greater than 1 divisible only by 1 and itself",
+        "Composite - A number with more than two divisors",
+        "Prime number theorem - A result that estimates how primes thin out as numbers grow",
+        "Riemann hypothesis - A famous unsolved problem tied to the distribution of primes",
+        "Cryptography - The use of primes and hard factoring problems to secure digital communication",
+        "Distribution - The way primes are spaced along the number line"
       ]
     }
   }

@@ -1,46 +1,67 @@
 {
-  "topic": "The-Mystery-of-DjVu-Scientists-Have-Theories",
+  "topic": "The Mystery of Déjà Vu Scientists Have Theories",
   "title": "Exploring the Neural Mechanisms Behind Déjà Vu: A Complex Phenomenon",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Deja%20vu.PNG",
+  "imageCredit": {
+    "creator": "Albert Kok",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Deja%20vu.PNG"
+  },
   "lesson": {
-    "learn": "Déjà vu is a French term meaning 'already seen' that describes the feeling of experiencing a situation or event before, even if we know that we haven't. This phenomenon affects approximately 60-80% of adults at some point in their lives and can be both a fascinating and unsettling aspect of human experience. To understand déjà vu, we need to explore the neural mechanisms involved.",
-    "simpler": "Imagine being in a movie theater and suddenly feeling like you've seen that scene before, even though it's your first time watching it. Déjà vu feels like having a déjà vu memory, but it's not really a memory â€“ it's a feeling of familiarity that's often accompanied by a sense of disorientation. We can compare this to a mental 'glitch' that temporarily disrupts our sense of reality.",
-    "keyTakeaway": "The most significant insight to remember is that déjà vu is a complex phenomenon with multiple theories attempting to explain its cause, and research continues to uncover more about the neural mechanisms involved. By investigating these theories, we can gain a deeper understanding of how our brains process and store information.",
-    "deeperDive": "Studies suggest that déjà vu may be related to abnormalities in the default mode network (DMN) of the brain, which is responsible for creating mental simulations. The DMN can become overactive, leading to feelings of familiarity even when we're experiencing a new situation. Another theory proposes that déjà vu might be linked to memory consolidation, where our brains process and try to make sense of vast amounts of information.",
-    "funFact": "Interestingly, researchers have found that people who experience more frequent déjà vu episodes tend to be more open-minded and creative. This may be because déjà vu experiences often involve a loosening of the boundaries between different mental processes, allowing for more fluid and imaginative thinking.",
+    "learn": "Déjà vu is the eerie feeling that a new moment has already happened before. It often appears without warning, lasts only seconds, and leaves people with the unnerving sense that familiarity has arrived without a proper source. Scientists do not think it is evidence of past lives or hidden memories waiting to surface. Instead, it seems to reflect a temporary mismatch inside memory systems: the brain registers familiarity more quickly than it registers context. That makes a moment feel strangely known even when it is objectively new. The experience matters because it reveals how much of conscious life depends on the brain’s timing. A tiny delay, a partial overlap, or a misfire in memory circuits can produce a sensation that feels intensely meaningful even though it may have a simple neural explanation.",
+    "simpler": "Déjà vu is the feeling that something new is familiar. Scientists think it happens when memory and perception briefly fall out of sync.",
+    "keyTakeaway": "Déjà vu is likely a timing mismatch in memory and perception, which makes a fresh experience feel oddly familiar before the brain has properly labeled it.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Deja-vu.png",
+    "learnImageCredit": {
+      "creator": "Unuplusunu",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Deja-vu.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Vztahy%20deja%20vu%2C%20presque%20vu%2C%20jamais%20vu.png",
+    "thirdImageCredit": {
+      "creator": "Chlebashořčicí",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Vztahy%20deja%20vu%2C%20presque%20vu%2C%20jamais%20vu.png"
+    },
+    "deeperDive": "Several theories try to explain déjà vu. One says that the brain may process a scene twice in rapid succession, creating a brief overlap that feels like recognition. Another suggests that a fragment of the new experience resembles an earlier pattern, even if the whole event is new, and that the memory system mistakenly promotes the feeling of familiarity. Researchers have also looked at temporal lobe activity, especially because déjà vu can appear more often in some epilepsy cases. What makes the phenomenon so interesting is that it shows memory is not a single block of stored facts. It is a layered system that compares present input with past models in real time. When those layers briefly disagree, the mind can produce a powerful but misleading feeling of having been here before. The effect is strange, but it is a useful clue: familiarity can be generated before full understanding arrives.",
+    "funFact": "Most people experience déjà vu at some point, and the sensation is usually over before they can explain it.",
+    "references": [
+      "NIH and neurology resources on memory and temporal lobe phenomena.",
+      "Review literature on déjà vu, familiarity, and recognition memory.",
+      "Wikimedia Commons file pages for déjà vu diagrams and related images.",
+      "Cognitive neuroscience studies of memory timing and source monitoring."
+    ],
     "keyElements": {
       "people": [
-        {
-          "name": "Dr. Wilder Penfield",
-          "bio": "Canadian neurosurgeon known for his work on brain mapping and its relation to conscious experience."
-        },
-        {
-          "name": "Vilayanur Ramachandran",
-          "bio": "Indian neuroscientist who investigated the neural basis of déjà vu."
-        },
-        {
-          "name": "Emile Boirac",
-          "bio": "French psychologist who coined the term 'déjà vu' in 1901."
-        },
-        {
-          "name": "Frederick Bartlett",
-          "bio": "Psychologist who conducted the first scientific study on déjà vu in 1953."
-        }
+        "Émile Boirac - Scholar credited with popularizing the term déjà vu.",
+        "Wilder Penfield - Neurosurgeon whose work on the temporal lobe informed later theories.",
+        "V. S. Ramachandran - Neuroscientist who proposed influential ideas about déjà vu.",
+        "Memory researchers - Scientists who study familiarity and recognition."
       ],
       "places": [
-        "University of Toronto's Rotman Research Institute",
-        "Harvard Medical School",
-        "Canada",
-        "India"
+        "The temporal lobe - A brain region often linked to recognition and memory mismatch.",
+        "Neurology clinics - Places where déjà vu can be observed in clinical contexts.",
+        "The hippocampus - A memory structure involved in context and recall.",
+        "Everyday life - The ordinary setting where déjà vu most often appears."
       ],
       "years": [
-        1901,
-        1953
+        "1901 - The term déjà vu enters modern scientific language.",
+        "Mid-20th century - Neurological and psychological theories begin to multiply.",
+        "1990s - Memory science gives new attention to familiarity errors.",
+        "Today - Déjà vu is studied as a normal but revealing brain event."
       ],
       "concepts": [
-        "Neural oscillations and synchronization",
-        "Memory consolidation and retrieval",
-        "Default mode network (DMN)",
-        "Brain mapping and conscious experience"
+        "Familiarity - The feeling that something is known even when its source is unclear.",
+        "Recognition memory - The process of identifying something as previously encountered.",
+        "Temporal-lobe activity - Brain dynamics that can shape strange recognition states.",
+        "Mismatch detection - The brain’s comparison between expected and incoming information.",
+        "Source monitoring - The system that decides where a feeling or memory came from."
       ]
     }
   }

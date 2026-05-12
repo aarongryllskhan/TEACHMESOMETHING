@@ -1,37 +1,66 @@
 {
-  "topic": "The Biology and Importance of Coral Reefs",
-  "title": "Understanding the Complex Ecosystems of Coral Reefs",
+  "topic": "Coral Reef Ecology",
+  "title": "How Coral Reefs Become Oases in the Open Ocean",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coral%20Reef%20Ecosystem%20of%20PR.JPG",
+  "imageCredit": {
+    "creator": "NOAA Map: K. Buja",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Coral%20Reef%20Ecosystem%20of%20PR.JPG"
+  },
   "lesson": {
-    "learn": "Coral reefs are intricate ecosystems that have been thriving in the world's oceans for over 3.5 billion years. These underwater metropolises support an astonishing array of marine life, with estimates suggesting that coral reefs are home to 25% of all marine species. To put this in perspective, a single hectare of coral reef can contain up to 50,000 individual coral polyps, which work together to provide a habitat for thousands of fish, crustaceans, and other organisms. Coral reefs protect coastlines from erosion, support commercial fisheries, and even help mitigate the effects of climate change by absorbing carbon dioxide.",
-    "simpler": "A coral reef is like a highly efficient food factory, relying on a symbiotic relationship between coral polyps and photosynthetic algae to convert sunlight into nutrients. This relationship is known as coral-algal symbiosis, and it allows corals to thrive in conditions where other organisms would perish.",
-    "keyTakeaway": "Coral reefs are not just beautiful to look at; they provide essential services for both humans and marine life. These ecosystem services include shoreline protection, commercial fisheries, tourism, and shoreline stabilization. Without coral reefs, many species would disappear, and the consequences for our planet's health would be catastrophic.",
-    "deeperDive": "Research has shown that coral reefs can help reduce ocean acidification by absorbing excess carbon dioxide from the atmosphere. In fact, a 2020 study published in the journal Science found that coral reefs can absorb up to 30% of the CO2 emitted by humans into the atmosphere. Additionally, coral reefs have been around for millions of years, with the oldest known coral reefs dating back to the Devonian period, over 400 million years ago.",
-    "funFact": "The world's largest coral reef system, the Great Barrier Reef, stretches over 2,300 kilometers off the coast of Australia. It is so large that it is even visible from space, and it is considered one of the most biologically diverse ecosystems on the planet.",
+    "learn": "Coral reefs are oases because they concentrate life in waters that are otherwise often low in nutrients. The reef itself is built by tiny coral polyps that lay down calcium carbonate over long periods, and that hard framework creates shelter, feeding grounds, and nursery space for countless other species. Much of the reef's productivity comes from a partnership between corals and microscopic algae, which supply energy through photosynthesis while the corals provide a protected home.\n\nThat combination of structure and symbiosis is what makes reefs so extraordinary. In the middle of a seemingly empty tropical sea, a coral reef can become a living city of fish, invertebrates, turtles, and microbes. It is not just a cluster of colorful animals. It is a biological engine that transforms shallow water into one of the most crowded habitats on Earth.",
+    "simpler": "Coral reefs are packed with life because corals build a hard habitat and work with algae that provide energy. That turns poor tropical water into a thriving ecosystem.",
+    "keyTakeaway": "Coral reefs are ocean oases because a tiny animal and its algae partnership can build a habitat that stores structure, food, and shelter in one place.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mesophotic%20coral%20ecosystem.png",
+    "learnImageCredit": {
+      "creator": "Luiz A. Rocha",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mesophotic%20coral%20ecosystem.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Interdependencies%20of%20coral%20reef%2C%20seagrass%20and%20mangrove%20ecosystems.png",
+    "thirdImageCredit": {
+      "creator": "Earp, H.S., Prinz, N., Cziesielski, M.J. and Andskog, M.",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Interdependencies%20of%20coral%20reef%2C%20seagrass%20and%20mangrove%20ecosystems.png"
+    },
+    "deeperDive": "Reefs work because of slow accumulation. Each polyp contributes a little carbonate, and over time that creates a three-dimensional structure with cracks, ledges, and hidden spaces. Those spaces matter just as much as the coral itself, because they provide cover from predators and currents. The system also depends on symbiosis: coral tissues host algae that feed the animal, while the coral returns carbon dioxide, nutrients, and protection.\n\nThis is why reefs are often described as biodiversity hotspots. A reef is not just a place where fish live; it is a place that organizes entire food webs and stabilizes coastlines. When warming, acidification, or pollution disrupt the coral-algae relationship, the whole structure can begin to weaken. The reef then becomes a warning sign as well as a wonder - a living reminder that complex ecosystems depend on delicate partnerships.",
+    "funFact": "A reef can support a huge number of species even though much of its structure is built by organisms smaller than a fingernail.",
+    "references": [
+      "NOAA Coral Reef Conservation Program resources",
+      "Research literature on coral symbiosis, reef building, and bleaching",
+      "Wikimedia Commons file pages for coral reef and mesophotic ecosystem imagery"
+    ],
     "keyElements": {
       "people": [
-        "Dr. Sylvia Earle (marine biologist and conservationist)",
-        "Gregor Hodgson (Australian marine ecologist)",
-        "Rachel Giles (coral reef scientist)",
-        "Charles Darwin (naturalist who studied coral reefs)"
+        "Charles Darwin - His early reef ideas helped link coral growth with ocean structure.",
+        "Nancy Knowlton - Marine biologist known for coral reef ecology and biodiversity research.",
+        "Ruth Gates - Coral scientist whose work highlighted reef resilience and adaptation.",
+        "Luiz A. Rocha - Photographer of the mesophotic coral ecosystem image used here."
       ],
       "places": [
-        "Great Barrier Reef (Australia)",
-        "Red Sea Coral Reef (Egypt)",
-        "Belize Barrier Reef (Belize)",
-        "Devonian period (Earth's history)"
+        "Puerto Rico's coral reefs - A vivid example of Caribbean reef ecosystems.",
+        "The Great Barrier Reef - The most famous large reef system on Earth.",
+        "Mesophotic zones - Deeper light-filled reef edges where corals still thrive.",
+        "Tropical shallow seas - Nutrient-poor waters where reefs create concentrated life."
       ],
       "years": [
-        "1850s (first recorded coral reef discovery in the Red Sea)",
-        "1970s (establishment of marine protected areas in Australia's Great Barrier Reef)",
-        "400 million years ago (oldest known coral reefs)",
-        "2020 (publication of the ocean acidification study)"
+        "1842 - Darwin publishes important early ideas on reef formation.",
+        "1970s - Reef ecology expands into a major field of marine science.",
+        "2018 - Mesophotic reef research highlights deeper reef communities.",
+        "2020s - Coral bleaching and resilience remain urgent scientific topics."
       ],
       "concepts": [
-        "Coral-algal symbiosis",
-        "Photosynthesis",
-        "Ocean acidification",
-        "Biodiversity hotspot",
-        "Shoreline protection"
+        "Symbiosis - A close partnership between different species.",
+        "Calcification - The process corals use to build hard skeletons.",
+        "Bleaching - Stress that causes corals to lose their algae partners.",
+        "Biodiversity hotspot - A place with an unusually high number of species.",
+        "Mesophotic - Meaning moderately lit, often used for deeper coral habitats."
       ]
     }
   }

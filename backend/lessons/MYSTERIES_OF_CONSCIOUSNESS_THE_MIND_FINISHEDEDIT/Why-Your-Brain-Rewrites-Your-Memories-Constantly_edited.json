@@ -1,33 +1,67 @@
 {
-  "topic": "The Dynamic Nature of Memory",
-  "title": "Understanding the Methods Behind Memory Rewriting: A Scientific Explanation",
+  "topic": "Why Your Brain Rewrites Your Memories Constantly",
+  "title": "Why Your Brain Rewrites Your Memories Constantly",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Memory%20Process.png",
+  "imageCredit": {
+    "creator": "Erich parker",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Memory%20Process.png"
+  },
   "lesson": {
-    "learn": "Research suggests that brain's ability to rewire and rewrite memories is a dynamic process, rather than a static snapshot. This process is essential for adapting to new information and experiences, facilitating learning, and forming new connections between neurons.",
-    "simpler": "To understand this concept, consider a software program that keeps updating its code to improve performance and functionality. Similarly, our brains continuously update and refine memories, making them dynamic and ever-changing.",
-    "keyTakeaway": "The rewriting of memories is influenced by an interplay between genetic and environmental factors, leading to the creation of a unique, personal narrative.",
-    "deeperDive": "Studies, such as those conducted by Eric Kandel and Daniel Hebb, have provided significant insights into the mechanisms behind memory consolidation. During sleep, the brain replays and revises memories to strengthen connections between neurons. This process is crucial for solidifying learning and improving performance on tasks.",
-    "funFact": "Interestingly, research has shown that our brains tend to distort or \"rewrite\" memories with negative outcomes more than positive ones, a phenomenon known as the \"negativity bias.\" This is due to the brain's sensitivity to negative emotional experiences, which can be a survival mechanism.",
+    "learn": "Memory is not stored once and then left untouched. Every time you recall an event, the brain opens that memory to a kind of editing window, and the result can be strengthened, altered, or blurred before it is stored again. That is why memory is so powerful and so unreliable at the same time. The brain is not trying to preserve a perfect recording; it is trying to preserve meaning. If a memory needs to guide future decisions, the brain will prioritize the emotional core, the useful pattern, and the details that fit the larger story. Over time, repeated recall can make memories feel more certain even when the underlying details have shifted. This is not a bug in the system. It is how a living brain keeps experience useful. We remember in order to act, not in order to archive.",
+    "simpler": "Each time you remember something, your brain can update it a little. Memory is less like replaying a video and more like rebuilding a story from parts.",
+    "keyTakeaway": "Memory changes because recalling an event is itself a new brain event, so every retrieval can slightly reshape what gets stored next.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Schematic%20memory.JPG",
+    "learnImageCredit": {
+      "creator": "Garethlines",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Schematic%20memory.JPG"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Diagram%20based%20on%20Squire%20and%20Zola%20(1996)%20about%20decalarative%20and%20non-declarative%20memory.png",
+    "thirdImageCredit": {
+      "creator": "SFWalker",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Diagram%20based%20on%20Squire%20and%20Zola%20(1996)%20about%20decalarative%20and%20non-declarative%20memory.png"
+    },
+    "deeperDive": "The technical name for this process is reconsolidation. Once a memory is reactivated, it becomes temporarily malleable before it settles again. That means emotions, later information, and even social suggestion can enter the memory and change what it feels like to remember. This does not mean all memory is fake; it means memory is adaptive. The brain uses pattern completion to fill gaps, source-monitoring to decide where a memory came from, and narrative structure to make past experience usable in the present. That is also why confidence and accuracy are not the same thing. A memory can feel vivid and still be partly reconstructed. In everyday life this is often helpful, because a useful memory is usually better than a literal one. But it also explains why eyewitness testimony can be fragile, why repeated retelling can change the story, and why two people can remember the same event in sharply different ways. The brain is constantly editing because experience is constantly changing.",
+    "funFact": "A memory can become more convincing every time you tell it, even if some of its details quietly drift.",
+    "references": [
+      "NIH and NIMH materials on memory and learning.",
+      "Review literature on reconsolidation and eyewitness memory.",
+      "Wikimedia Commons file pages for memory diagrams and hippocampus images.",
+      "Cognitive psychology references on source monitoring and suggestion."
+    ],
     "keyElements": {
       "people": [
-        "Eric Kandel",
-        "Daniel Hebb",
-        "Daniel Kahneman",
-        "Susan Engel"
+        "Elizabeth Loftus - Researcher whose work changed how scientists think about the reliability of memory.",
+        "Daniel Schacter - Psychologist known for studying the “sins” and strengths of memory.",
+        "Eric Kandel - Neuroscientist whose work connected memory to synaptic change.",
+        "Endel Tulving - Scholar whose theories shaped modern memory research."
       ],
       "places": [
-        "Massachusetts Institute of Technology (MIT)",
-        "University of California, Los Angeles (UCLA)",
-        "The Salk Institute for Biological Studies"
+        "The hippocampus - A key structure for forming and reorganizing memories.",
+        "Psychology laboratories - Where reconsolidation and false recall are studied.",
+        "Courtrooms - Places where the limits of memory become practically important.",
+        "Daily conversation - A setting where retelling subtly reshapes remembered events."
       ],
       "years": [
-        "1953",
-        "1970s",
-        "2019"
+        "1960s - Memory research becomes more experimental and rigorous.",
+        "1980s - Neuroscience begins linking memory to cellular change.",
+        "2000s - Reconsolidation becomes a major research topic.",
+        "Today - Memory is understood as dynamic, not fixed."
       ],
       "concepts": [
-        "Memory Consolidation",
-        "Synaptic Plasticity",
-        "Neurotransmitters"
+        "Reconsolidation - The process by which retrieved memories become editable again.",
+        "Source monitoring - The brain’s effort to track where a memory came from.",
+        "Pattern completion - Filling in missing details from partial cues.",
+        "Narrative memory - Recalling the past as a coherent story rather than raw data.",
+        "Memory confidence - The feeling that a memory is true, which is not the same as accuracy."
       ]
     }
   }

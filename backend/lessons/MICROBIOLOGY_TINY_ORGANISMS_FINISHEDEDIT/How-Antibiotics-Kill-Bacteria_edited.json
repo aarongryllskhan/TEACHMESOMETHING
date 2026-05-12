@@ -1,33 +1,68 @@
 {
-  "topic": "Understanding the Mechanisms of Antibiotics",
-  "title": "Exploring the Chemistry of Antibiotic Action",
+  "topic": "Antibiotic Mechanisms",
+  "title": "How Antibiotics Kill Bacteria",
   "lesson": {
-    "learn": "Antibiotics are a class of medicines that target bacterial infections, with over 100 types available worldwide. The discovery of penicillin in 1928 marked the beginning of a new era in medicine, with Alexander Fleming's serendipitous discovery revolutionizing the treatment of bacterial infections. Today, antibiotics are used to treat a wide range of infections, from minor skin conditions to life-threatening diseases such as sepsis and meningitis. In 1940s, penicillin became widely available for medical use, saving countless lives worldwide.",
-    "simpler": "Antibiotics are like precision-guided missiles that target bacterial infections, exploiting vulnerabilities in the bacterial cell wall, protein synthesis, or DNA replication. Think of them as highly specialized molecular surgeons, excising bacterial invaders and restoring balance to the human body.",
-    "keyTakeaway": "The most critical aspect to remember is that antibiotics only target bacteria, not viruses, and using them for viral infections can lead to antibiotic resistance. Furthermore, antibiotic overuse and misuse can accelerate the development of resistance, underscoring the need for judicious prescribing practices.",
-    "deeperDive": "Antibiotics work by interfering with the bacterial cell wall, disrupting protein synthesis, or inhibiting DNA replication. For instance, penicillin binds to penicillin-binding proteins, preventing bacterial cell wall formation. Other antibiotics, such as fluoroquinolones and macrolides, target bacterial DNA replication and transcription. Recent research has led to the development of new antibiotic classes, including beta-lactamase inhibitors and polymyxin analogs. These innovative compounds have shown promise in treating multidrug-resistant bacteria, a growing concern worldwide.",
-    "funFact": "Did you know that Alexander Fleming's famous discovery was initially dismissed as contamination, but his persistence and careful observations led to the development of penicillin? In contrast, the first antibiotic, salvarsan, was discovered in 1909 and used to treat syphilis, but its development was hampered by toxicity concerns.",
+    "learn": "Antibiotics kill bacteria by disrupting the systems bacteria need to live, grow, or divide. Some drugs damage the bacterial cell wall so the cell bursts under pressure. Others stop bacteria from making proteins, copying DNA, or building key molecules needed for survival. The trick is selectivity: the drug must hit something bacteria depend on more than human cells do. That is why antibiotics are not all the same and why different infections need different kinds of treatment. They work because they are aimed at bacterial biology rather than at life in general.\nAntibiotics kill by targeting bacterial weak points such as the cell wall, the protein factory, or the machinery that copies DNA. They are selective because bacteria depend on some structures and processes that human cells do not use in the same way. That selectivity is what makes them powerful medicines.\nAntibiotics work because bacterial cells have weak points that human cells do not share in the same way. Some drugs block cell wall construction, others stop protein production, and others interrupt DNA-linked processes. That selectivity is what makes the same medicine lethal to bacteria but not equally destructive to human tissue.",
+    "simpler": "Antibiotics kill bacteria by damaging structures or processes the bacteria need to survive, such as their cell walls, proteins, or DNA.",
+    "keyTakeaway": "Antibiotics work because they target bacterial weak points, and that selectivity is what makes them useful without harming human cells in the same way.",
+    "deeperDive": "Different antibiotic classes attack different bacterial vulnerabilities. Beta-lactams interfere with cell wall construction. Tetracyclines and macrolides interfere with protein synthesis. Fluoroquinolones interfere with DNA-related enzymes. Other drugs damage membranes or block essential metabolic steps. That variety matters because bacteria are not all built the same way, and one mechanism will not fit every infection. It also explains why resistance is such a serious problem: if bacteria mutate the target, pump out the drug, or break the molecule down, the antibiotic can lose power. Antibiotics are therefore best understood as precision tools, not as universal cures.\nDifferent antibiotic classes attack different targets, which is why some drugs work better for some infections than others. The same diversity also explains resistance: if a bacterium changes the target or pumps the drug away, the antibiotic may lose its effect. Antibiotics are therefore best understood as targeted tools, not universal fixes.\nThe practical value of antibiotic classes is that they do not all hit the same target. That gives clinicians options, but it also gives bacteria opportunities to evolve resistance through target changes, drug pumps, or enzymes that break the medicine apart. Antibiotics are therefore best understood as precision tools: extremely powerful when matched to the right organism, and much less useful when used carelessly.",
+    "funFact": "Some antibiotics are better at stopping bacteria from growing, while others are better at killing them outright.",
+    "references": [
+      "CDC antibiotic basics",
+      "NIH/NCBI reviews on antibiotic mechanisms",
+      "WHO antimicrobial stewardship resources"
+    ],
     "keyElements": {
       "people": [
-        "Alexander Fleming (Scottish scientist who discovered penicillin)",
-        "Howard Florey (Australian-born British pharmacologist who developed mass production of penicillin)",
-        "Ernst Chain (German-born British biochemist who worked on developing penicillin)"
+        "Alexander Fleming - Researcher whose work helped clarify antibiotic mechanisms and selective toxicity from a different angle",
+        "Howard Florey - Researcher whose work helped clarify antibiotic mechanisms and selective toxicity from a different angle",
+        "Ernst Boris Chain - Researcher whose work helped clarify antibiotic mechanisms and selective toxicity from a different angle",
+        "Selman Waksman - Researcher whose work helped clarify antibiotic mechanisms and selective toxicity from a different angle"
       ],
       "places": [
-        "St. Mary's Hospital in London (where Alexander Fleming made his groundbreaking discovery)",
-        "Oxford University (where Howard Florey and Ernst Chain worked on developing penicillin)",
-        "Baltimore, USA (where early antibiotic research was conducted)"
+        "Bacterial cell walls - A setting where the biology of antibiotic mechanisms and selective toxicity becomes visible",
+        "Hospitals - A setting where the biology of antibiotic mechanisms and selective toxicity becomes visible",
+        "Research laboratories - A setting where the biology of antibiotic mechanisms and selective toxicity becomes visible",
+        "Public health systems - A setting where the biology of antibiotic mechanisms and selective toxicity becomes visible"
       ],
       "years": [
-        "1909 (discovery of salvarsan)",
-        "1928 (Alexander Fleming discovers penicillin)",
-        "1940s (penicillin becomes widely available for medical use)"
+        "1928 - A turning point in modern research on antibiotic mechanisms and selective toxicity",
+        "1940s - A turning point in modern research on antibiotic mechanisms and selective toxicity",
+        "1943 - A turning point in modern research on antibiotic mechanisms and selective toxicity",
+        "2025 - A turning point in modern research on antibiotic mechanisms and selective toxicity"
       ],
       "concepts": [
-        "Antibiotic spectrum and classification",
-        "Mechanisms of action (e.g., cell wall inhibition, protein synthesis inhibition)",
-        "Antibiotic resistance and its consequences"
+        "Cell wall synthesis - One of the mechanisms that makes antibiotic mechanisms and selective toxicity possible",
+        "Protein synthesis - One of the mechanisms that makes antibiotic mechanisms and selective toxicity possible",
+        "DNA replication - One of the mechanisms that makes antibiotic mechanisms and selective toxicity possible",
+        "Bactericidal - One of the mechanisms that makes antibiotic mechanisms and selective toxicity possible",
+        "Bacteriostatic - One of the mechanisms that makes antibiotic mechanisms and selective toxicity possible",
+        "Selective toxicity - One of the mechanisms that makes antibiotic mechanisms and selective toxicity possible"
       ]
+    },
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/08/Antibiotics_Mechanisms_of_action.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Kendrick Johnson",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Antibiotics_Mechanisms_of_action.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cell_wall_antibiotics.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Ring0",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cell_wall_antibiotics.svg"
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Antibiotics_action.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "J Raghu",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Antibiotics_action.png"
   }
 }

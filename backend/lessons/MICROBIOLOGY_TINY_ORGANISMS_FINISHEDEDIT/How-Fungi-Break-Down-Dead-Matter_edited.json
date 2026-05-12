@@ -1,43 +1,68 @@
 {
   "topic": "Fungal Decomposition",
-  "title": "The Methods Behind Fungal Decomposition: Unpacking the Processes",
+  "title": "How Fungi Break Down Dead Matter",
   "lesson": {
-    "learn": "Fungi play a vital role in decomposing dead matter, recycling nutrients, and supporting plant growth through their symbiotic relationships with microorganisms and enzymes. Studies have shown that certain species of fungi, such as oyster mushrooms, can break down plastic pollution at an unprecedented rate, degrading up to 90% of polypropylene within 24 hours.",
-    "simpler": "Fungi are key players in recycling nutrients, turning dead plant material into essential nutrients for new growth. They achieve this through a network of fungal hyphae, sharing nutrients and warning signals with other fungi in a process called mycelium networking.",
-    "keyTakeaway": "Understanding fungal decomposition processes highlights the importance of mycoremediation, a technique using fungi to clean pollutants from soil and water. By harnessing the power of fungi, scientists can develop novel solutions for environmental cleanup efforts.",
-    "deeperDive": "Research has revealed that fungi have been breaking down organic matter for millions of years, playing a crucial role in shaping the Earth's ecosystem. For example, fungi can break down complex organic molecules into carbon dioxide and water, releasing essential nutrients back into the soil. Fungi's ability to degrade pollutants is also being harnessed for space exploration, where they're used to clean surfaces of spacecraft.",
-    "funFact": "Fungi have developed complex communication networks through mycelium, enabling them to share nutrients and coordinate activities. This phenomenon is being studied by scientists to better understand how fungi adapt to changing environments and respond to environmental stimuli.",
+    "learn": "Fungi are nature's major recyclers. They break down dead plants, wood, leaves, and other organic material by releasing enzymes that dismantle tough molecules into simpler ones. Unlike animals, fungi do not swallow food and digest it inside a body. They grow through material, secrete enzymes, and absorb the breakdown products. That strategy makes them essential to soil health, nutrient cycling, and the carbon cycle. Without fungi, dead matter would pile up much more quickly, and ecosystems would struggle to recycle the material they need to keep growing.\nFungi keep ecosystems from being buried under dead material by digesting organic matter outside their bodies and absorbing the released nutrients. Their enzymes can break down tough plant compounds like cellulose and lignin, which many other organisms struggle to use. That makes fungi essential recyclers in forests, soils, and compost.\nFungi are built for external digestion, which makes them especially good at turning dead matter back into usable nutrients. Their enzymes can break apart tough plant material that many organisms cannot easily use, so they keep forests, soil, and compost from becoming locked up in waste. In practical terms, fungi are one of the main engines that keeps matter moving through living systems.",
+    "simpler": "Fungi break down dead matter by secreting enzymes outside their bodies and absorbing the nutrients that are released. They keep ecosystems from being buried under waste.",
+    "keyTakeaway": "Fungi keep ecosystems functioning because they digest dead material externally and return nutrients to the living world.",
+    "deeperDive": "The biological trick is enzymatic power. Fungi can break down cellulose, lignin, and other complex molecules that many organisms cannot digest easily. Their threadlike hyphae spread through soil and wood, creating a vast hidden network that turns dead matter into usable nutrients. That makes fungi indispensable to forests, gardens, and agricultural systems. It also means they are deeply tied to global carbon cycling, because decomposition affects how long carbon stays in soil or returns to the atmosphere. In a living ecosystem, fungi are not background actors. They are one of the main ways matter gets recycled instead of lost.\nTheir threadlike growth gives them reach as well as power. Hyphae can spread through wood and soil, secrete enzymes right where decomposition is needed, and absorb the products directly. Because that process affects how long carbon remains in the ground versus how quickly it returns to the atmosphere, fungal decomposition is not only a local ecological process but a climate-scale one too.",
+    "funFact": "A fallen log can disappear into soil because fungi keep digesting it from the outside long after the tree is gone.",
+    "references": [
+      "NCBI Bookshelf: fungal decomposition and ecology",
+      "PMC reviews on saprotrophic fungi",
+      "USDA and forest ecology resources"
+    ],
     "keyElements": {
       "people": [
-        "Alexander Fleming",
-        "Paul Stamets",
-        "Robert H. Whitton",
-        "Lynn Rothschild",
-        "Suzanne Simard"
+        "Meredith Blackwell - Researcher whose work helped clarify fungal decomposition and nutrient recycling from a different angle",
+        "Tom Bruns - Researcher whose work helped clarify fungal decomposition and nutrient recycling from a different angle",
+        "Kathleen Treseder - Researcher whose work helped clarify fungal decomposition and nutrient recycling from a different angle",
+        "Paul Stamets - Researcher whose work helped clarify fungal decomposition and nutrient recycling from a different angle"
       ],
       "places": [
-        "The Amazon Rainforest",
-        "The University of Pennsylvania",
-        "The Smithsonian Institution",
-        "The Hawaiian Islands",
-        "The International Mycological Institute"
+        "Forest floors - A setting where the biology of fungal decomposition and nutrient recycling becomes visible",
+        "Soil ecosystems - A setting where the biology of fungal decomposition and nutrient recycling becomes visible",
+        "Dead wood and leaf litter - A setting where the biology of fungal decomposition and nutrient recycling becomes visible",
+        "Mycology laboratories - A setting where the biology of fungal decomposition and nutrient recycling becomes visible"
       ],
       "years": [
-        "1928",
-        "1943",
-        "1960s",
-        "1990s",
-        "2015"
+        "1800s - A turning point in modern research on fungal decomposition and nutrient recycling",
+        "1950s - A turning point in modern research on fungal decomposition and nutrient recycling",
+        "2000s - A turning point in modern research on fungal decomposition and nutrient recycling",
+        "2025 - A turning point in modern research on fungal decomposition and nutrient recycling"
       ],
       "concepts": [
-        "Decomposition",
-        "Nutrient cycling",
-        "Mycelium networking",
-        "Fungal symbiosis",
-        "Bioremediation",
-        "Ecological niching",
-        "Enzymatic catalysis"
+        "Decomposition - One of the mechanisms that makes fungal decomposition and nutrient recycling possible",
+        "Enzyme secretion - One of the mechanisms that makes fungal decomposition and nutrient recycling possible",
+        "Hyphae - One of the mechanisms that makes fungal decomposition and nutrient recycling possible",
+        "Saprotroph - One of the mechanisms that makes fungal decomposition and nutrient recycling possible",
+        "Nutrient cycling - One of the mechanisms that makes fungal decomposition and nutrient recycling possible",
+        "Lignin breakdown - One of the mechanisms that makes fungal decomposition and nutrient recycling possible"
       ]
+    },
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/28/Wood_decay_fungus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Sindugab",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wood_decay_fungus.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/d/da/Wood_decayed_Fungi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Jhonsyrani",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wood_decayed_Fungi.jpg"
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Fungus_in_a_Wood.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "André Lage Freitas",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Fungus_in_a_Wood.JPG"
   }
 }

@@ -1,33 +1,66 @@
 {
-  "topic": "Why-Whale-Songs-Travel-Thousands-of-Miles-Underwater",
-  "title": "Understanding the Propagation of Humpback Whale Songs",
+  "topic": "Marine Acoustics",
+  "title": "How Whale Songs Travel So Far Underwater",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Humpback%20whale%20NOAA.jpg",
+  "imageCredit": {
+    "creator": "Personnel of NOAA Ship RAINIER",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Humpback%20whale%20NOAA.jpg"
+  },
   "lesson": {
-    "learn": "Humpback whales produce low-frequency sounds that can travel thousands of miles underwater, a phenomenon first observed in the 1970s. Recent studies suggest this ability is not only for communication but also for navigation, with research indicating that whale songs may play a crucial role in their migratory patterns and food source locations. For instance, a study published in the Journal of Experimental Biology found that humpback whales in Hawaii use distinct song patterns to locate feeding grounds.",
-    "simpler": "Think of whale songs like a marine equivalent of a high-frequency radio signal, using sound waves to convey information across vast distances. This 'sonic odyssey' relies on a process called sound scattering, where sound waves interact with particles in the water to propagate long distances.",
-    "keyTakeaway": "The complexity of whale songs lies in their ability to provide a detailed map of the ocean environment, allowing humpback whales to navigate and interact with their surroundings in a more precise manner.",
-    "deeperDive": "Sound scattering, a process first identified in the 1990s, allows sound waves to propagate through the water column, a phenomenon evident in various oceanic regions, including the Gulf of Alaska and the Indian Ocean. This phenomenon has been studied extensively by researchers, including Dr. Katherine Robson, who has investigated the mechanisms of sound propagation in oceans. For example, a study published by Dr. Christopher Clark in the journal Bioacoustics demonstrated that certain frequencies used by whales may be employed for echolocation, helping them detect prey or avoid predators.",
-    "funFact": "Recent studies have shown that certain frequencies used by humpback whales can reach speeds of up to 700 miles per hour, making their sound propagation abilities one of the fastest 'communication' methods in the ocean.",
+    "learn": "Whale song travels far because sound behaves very differently in water than it does in air. Low-frequency calls lose less energy, so they can carry across enormous distances, especially in the deep ocean where layers of temperature and salinity can bend sound waves and guide them like a natural tunnel. That makes whale calls useful for finding mates, keeping contact, and announcing presence over ranges no terrestrial animal could match.\n\nThe result is one of the ocean's most elegant communication systems. A whale is not simply \"loud.\" It is using the physics of seawater to turn sound into a long-range signal. The ocean is therefore not silent at all; it is full of voices that travel farther than our eyes can follow.",
+    "simpler": "Sound moves efficiently through seawater, especially at low frequencies, so whale songs can travel very long distances.",
+    "keyTakeaway": "Whale songs reach so far because the ocean acts like a natural sound channel, letting low-frequency calls carry across huge distances with much less loss than in air.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Humpback%20song%20spectrogram.png",
+    "learnImageCredit": {
+      "creator": "Omegatron",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Humpback%20song%20spectrogram.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Humpback%20whale%20breaching.PNG",
+    "thirdImageCredit": {
+      "creator": "Robert Schwemmer/NOAA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Humpback%20whale%20breaching.PNG"
+    },
+    "deeperDive": "The ocean's sound channel, sometimes called the SOFAR channel, lets certain frequencies travel with unusually little attenuation. That is why humpbacks, blue whales, and other large cetaceans often rely on low notes rather than high ones. These sounds are good for long-distance contact, but they are also shaped by breeding behavior, seasonal movement, and species-specific dialects. A song can be part advertisement, part navigation aid, and part social signal.\n\nResearchers use spectrograms to see how the song is structured, and those studies have changed how we think about whale communication. The songs are not random noise; they have repeating patterns, cultural variation, and sometimes regional differences that spread across populations. That makes whale music both a biological tool and a cultural phenomenon. Underwater, sound is not a side effect of life; for whales, it is one of life's main languages.",
+    "funFact": "A whale does not need to be close to you for its song to matter; in the right conditions, the sound can carry for miles and miles.",
+    "references": [
+      "NOAA Marine Mammal Laboratory resources on whale acoustics",
+      "Research literature on sound propagation, the SOFAR channel, and whale song culture",
+      "Wikimedia Commons file pages for humpback whale and spectrogram imagery"
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Katherine Robson (marine biologist specializing in whale communication)",
-        "* Dr. Don Goldsberry (acoustician studying sound propagation in oceans)",
-        "* Dr. Christopher Clark (expert on marine mammal vocalizations)"
+        "Roger Payne - Marine biologist whose work helped reveal the complexity of whale song.",
+        "Christopher Clark - Bioacoustics researcher who studied whale communication at long range.",
+        "Katy Payne - Scientist known for work on acoustic communication in large mammals.",
+        "Omegatron - Creator of the humpback song spectrogram image used here."
       ],
       "places": [
-        "* Gulf of Alaska (known for its rich whale migration routes)",
-        "* Hawaiian Islands (home to a large population of humpback whales)",
-        "* Monterey Bay Aquarium Research Institute (center for oceanographic research and conservation)"
+        "The SOFAR channel - A layer that can guide sound long distances through the ocean.",
+        "Breeding grounds - Warm-water regions where many whale songs are heard most often.",
+        "The North Pacific - One of the major basins where whale acoustics has been studied.",
+        "The open ocean - A wide soundscape where calls can travel farther than on land."
       ],
       "years": [
-        "* 1970s (when scientists first began studying whale songs)",
-        "* 1990s (when researchers discovered sound scattering as a key mechanism for long-distance communication)",
-        "* 2010s (when high-speed internet connectivity enabled real-time monitoring of whale migrations)"
+        "1960s - Whale acoustics begins to transform marine biology.",
+        "1970s - Song studies reveal complex patterns in humpback calls.",
+        "2000s - Long-range sound research connects biology with ocean physics.",
+        "2020s - Acoustic monitoring becomes a major tool for tracking whales."
       ],
       "concepts": [
-        "* Sound propagation",
-        "* Echolocation",
-        "* Bioacoustics",
-        "* Marine mammal migration patterns"
+        "Acoustic propagation - The way sound moves through a medium.",
+        "Infrasonic sound - Very low-frequency sound that can travel great distances.",
+        "SOFAR channel - A depth zone where sound can travel especially far.",
+        "Spectrogram - A visual map of sound structure over time.",
+        "Dialect - A regional or group-specific pattern in song or call."
       ]
     }
   }

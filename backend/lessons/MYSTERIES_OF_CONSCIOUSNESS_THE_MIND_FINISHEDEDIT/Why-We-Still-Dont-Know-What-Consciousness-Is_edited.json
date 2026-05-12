@@ -1,33 +1,67 @@
 {
-  "topic": "Exploring the Enigma of Consciousness",
+  "topic": "Why We Still Don’t Know What Consciousness Is",
   "title": "Understanding the Elusive Nature of Awareness",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Consciousness%20diagram.jpg",
+  "imageCredit": {
+    "creator": "Mheimann at English Wikibooks",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Consciousness%20diagram.jpg"
+  },
   "lesson": {
-    "learn": "Consciousness refers to the subjective experience of being aware of one's thoughts, feelings, and sensations. Despite significant advances in neuroscience and psychology, the nature of consciousness remains one of the greatest unsolved mysteries in modern science. A 2019 study published in the journal Neuron estimated that the human brain processes over 600 billion neurons, yet the neural mechanisms behind conscious experience remain poorly understood.",
-    "simpler": "Consider the sensation of recognizing a familiar face in a crowded room. This experience is a quintessential example of consciousness, but it is also a complex phenomenon that cannot be reduced to simple explanations. Research suggests that the brain's neural networks play a crucial role in integrating sensory information, but the exact mechanisms involved remain unclear.",
-    "keyTakeaway": "The most important insight to remember is that consciousness is a multifaceted phenomenon that cannot be fully explained by current scientific understanding. It is a dynamic interplay of various cognitive, emotional, and sensory processes that are still not fully understood.",
-    "deeperDive": "Recent studies have focused on the neural correlates of consciousness, suggesting that certain brain regions and networks are responsible for integrating sensory information. For instance, research has shown that the integrated information theory (IIT) developed by neuroscientist Giulio Tononi provides a framework for quantifying consciousness in terms of its ability to integrate and process information. Additionally, advancements in machine learning have led to the development of artificial neural networks capable of simulating conscious-like behavior. However, these breakthroughs raise more questions than answers about the true nature of consciousness. For example, a 2020 study published in the journal PLOS ONE found that artificial neural networks can exhibit conscious-like behavior in certain situations, but the underlying mechanisms remain unclear.",
-    "funFact": "A surprising fact is that some people experience a phenomenon called \"blindsight,\" where they're aware of visual information without being consciously aware of it. Research suggests that this phenomenon is related to the way the brain processes sensory information, and it has implications for our understanding of the neural mechanisms behind conscious experience.",
+    "learn": "Consciousness is the fact that experience is happening from the inside. It is what makes a thought feel like your thought, a color feel vivid, and pain feel urgent rather than merely measurable. Science has learned a great deal about the systems that support awareness, but it still cannot fully explain why brain activity becomes subjective experience at all. That is why consciousness remains one of the hardest problems in science. Researchers can track wakefulness, attention, perception, and self-monitoring, yet those functions do not completely answer why there is something it feels like to be a person. The challenge is partly methodological and partly philosophical. The brain is a physical system, but consciousness seems to include first-person experience, which is not easy to measure from the outside. That gap between objective data and lived reality is exactly what keeps the question open.",
+    "simpler": "We can measure a lot about the brain, but we still do not know why those processes produce a private inner experience. Consciousness is the difference between activity in the brain and the feeling of being aware.",
+    "keyTakeaway": "Consciousness remains unsolved because neuroscience can map the machinery of awareness without yet explaining why that machinery becomes a subjective point of view.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Neuron%20figure.png",
+    "learnImageCredit": {
+      "creator": "Nicolas.Rougier",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Neuron%20figure.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brain%20scans.jpg",
+    "thirdImageCredit": {
+      "creator": "Rotan11",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Brain%20scans.jpg"
+    },
+    "deeperDive": "Many theories try to bridge the gap. Global workspace theories suggest that information becomes conscious when it is broadcast widely across the brain. Integrated information theory argues that consciousness depends on how tightly information is unified. Other approaches focus on recurrent processing, self-modeling, or the brain’s ability to compare internal predictions with incoming sensory data. Each framework explains part of the picture, but none has become a final answer. Part of the difficulty is that consciousness can disappear and reappear in different states: sleep, anesthesia, coma, seizure, dreaming, and altered attention all show that awareness is not a single switch. It is more like a dynamic condition that depends on coordination across networks. The mystery persists because every scientific explanation still has to confront the same question: how does organized activity become an experienced world? Until that is solved, consciousness will remain both a neuroscience problem and a philosophical one.",
+    "funFact": "A person can lose consciousness and later recover a continuous sense of self, which shows how fragile and state-dependent awareness really is.",
+    "references": [
+      "NIH / NINDS materials on consciousness, sleep, and anesthesia.",
+      "Review literature on global workspace theory and integrated information theory.",
+      "Wikimedia Commons file pages for consciousness, neuron, and brain images.",
+      "Neuroscience and philosophy of mind reference texts."
+    ],
     "keyElements": {
       "people": [
-        "Daniel Dennett, philosopher and cognitive scientist who studied the role of free will in conscious decision-making",
-        "Giulio Tononi, neuroscientist who developed the integrated information theory (IIT)",
-        "Antonio Damasio, neuroscientist who researched the relationship between emotions and consciousness"
+        "Giulio Tononi - Neuroscientist associated with integrated information theory.",
+        "Bernard Baars - Psychologist who developed global workspace theory.",
+        "Francis Crick - Researcher who helped frame the scientific study of conscious processing.",
+        "Stanislas Dehaene - Cognitive neuroscientist known for work on conscious access."
       ],
       "places": [
-        "University College London, where researcher Francis Crick proposed the famous \"binding problem\"",
-        "Harvard University, where philosopher Daniel Dennett taught courses on the nature of consciousness",
-        "Massachusetts Institute of Technology (MIT), a hub for AI research and development"
+        "Research hospitals - Where consciousness is studied through anesthesia and disorder-of-consciousness cases.",
+        "Sleep laboratories - Places that reveal how awareness changes across states.",
+        "Neuroscience institutes - Centers that connect imaging, cognition, and clinical work.",
+        "The brain’s large-scale networks - The coordinated systems thought to support conscious access."
       ],
       "years": [
-        "1974 - The year neuroscientist Francis Crick first proposed the binding problem",
-        "2004 - The year Giulio Tononi published his theory on integrated information",
-        "2019 - The year artificial intelligence systems began to demonstrate conscious-like behavior in simulated environments",
-        "2020 - The year a study on artificial neural networks and conscious-like behavior was published in PLOS ONE"
+        "1990s - Modern theories of consciousness begin to organize around brain networks.",
+        "2000s - Imaging techniques allow more precise study of conscious and unconscious states.",
+        "2010s - The debate expands around information integration and global broadcasting.",
+        "Today - Consciousness remains an active research frontier."
       ],
       "concepts": [
-        "Integrated Information Theory (IIT)",
-        "Binding Problem",
-        "Global Workspace Theory"
+        "Subjective experience - The private “what it feels like” of awareness.",
+        "Global workspace - A model in which information becomes conscious when broadly shared.",
+        "Integrated information - A theory that links consciousness to unified information.",
+        "Neural correlates - The brain states associated with conscious experience.",
+        "The hard problem - The question of why physical processing produces experience at all."
       ]
     }
   }

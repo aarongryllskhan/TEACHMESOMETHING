@@ -1,34 +1,67 @@
 {
   "topic": "Islamic Architecture and Mathematics",
-  "title": "The Methods Behind Islamic Geometric Patterns: An Intersection of Art and Mathematics",
+  "title": "How Geometry Shaped Islamic Architecture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Great_Mosque_of_Cordoba%2C_interior%2C_8th_-_10th_centuries_%2838%29_%2829721130342%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Richard Mortel",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Cordoba,_interior,_8th_-_10th_centuries_(38)_(29721130342).jpg"
+  },
   "lesson": {
-    "learn": "Islamic architecture is renowned for its intricate geometric patterns and proportions, which were not merely aesthetically pleasing but rather rooted in profound mathematical principles. For instance, the Great Mosque of Cordoba in Spain, built in the year 1200 CE, features intricate geometric patterns and mosaics that showcase the advanced understanding of mathematical concepts such as tessellations and symmetry among Islamic architects. By exploring the mathematical underpinnings of Islamic art and design, we can appreciate the ingenuity and innovation of ancient cultures.",
-    "simpler": "Imagine building a mosque with intricate patterns on its walls, where each pattern is made up of special shapes that contain hidden mathematical codes. To create these patterns, mathematicians and architects employed geometric principles, such as the use of triangles and squares, to achieve aesthetic proportions. This process is akin to solving a puzzle, where each piece contributes to the completion of the larger design.",
-    "keyTakeaway": "Islamic architecture demonstrates a sophisticated understanding of mathematical concepts, which were used to convey spiritual and philosophical ideas. This is evident in the use of geometric patterns, symmetry, and tessellations to represent spiritual principles, further emphasizing the significance of mathematics in Islamic art and design.",
-    "deeperDive": "One of the most impressive examples of mathematical architecture is the Alhambra palace in Spain, built by Muslim architects who employed advanced trigonometry and geometry to create stunning designs. The palace's geometric patterns and proportions are a testament to the advanced mathematical knowledge of its architects. Furthermore, the concept of the golden ratio was widely employed to ensure proportions that were considered aesthetically pleasing. Recent research has shed light on the advanced mathematical knowledge possessed by ancient Muslim architects, challenging the notion that they lacked scientific understanding. Specifically, scholars such as Al-Kindi, Ibn al-Haytham, and Muhammad ibn Musa al-Khwarizmi made significant contributions to mathematics and architecture, laying the foundation for future advancements in math and science.",
-    "funFact": "The use of mathematics in Islamic architecture predates many European developments in this field, showcasing the significant contributions made by Islamic scholars to the development of math and science. For instance, Al-Kindi wrote his influential book on geometry, \"The Book of the Elements,\" in the year 820 CE, while Ibn al-Haytham published his treatise on optics and geometric patterns in the year 1000 CE. These examples highlight the advanced understanding of mathematical concepts among Islamic scholars, which was utilized in their architectural designs.",
+    "learn": "Islamic architecture is full of mathematics because geometry helped builders create order, beauty, and spiritual meaning at the same time. Repeating patterns, symmetry, proportion, and carefully measured surfaces turned walls, domes, and courtyards into systems rather than just decorations. That mathematical discipline was especially powerful in mosques, madrasas, palaces, and tombs, where design had to guide movement, frame light, and create a sense of harmony. The result is not hidden math for its own sake. It is math used as a language of space. When a viewer sees interlocking stars, tessellations, muqarnas, and balanced courtyards, they are looking at geometry made architectural. The same design logic could move across cities and centuries while still feeling local, because the underlying rules were flexible enough to fit different materials and traditions.",
+    "simpler": "Islamic architecture uses geometry, symmetry, and repeating patterns to organize space and create beauty. The math is part of the design, not just decoration.",
+    "keyTakeaway": "The mathematics in Islamic architecture is powerful because it turns abstract geometry into lived space, shaping how people move, pray, and experience beauty.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/4/41/Islamic_Geometric_patterns_%2817967847264%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Jorge Láscar",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Islamic_Geometric_patterns_(17967847264).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/26/Alhambra_Patterns_%2826727888049%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Jocelyn Erskine-Kellie",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Alhambra_Patterns_(26727888049).jpg"
+    },
+    "deeperDive": "The famous patterns are not random ornament. Many arise from star polygons, tessellations, modular proportion, and transformations that allow a limited set of shapes to produce rich visual complexity. Builders and artisans could adapt these systems across materials, from carved stone and stucco to tile and wood. In major buildings such as the Dome of the Rock, the Great Mosque of Cordoba, the Alhambra, and later Ottoman and Persian masterpieces, geometry helped establish balance between structure and surface. That balance mattered culturally as well as visually because Islamic design often emphasized nonfigurative ornament, calligraphy, and rhythmic repetition. What survives today is a record of technical skill and intellectual discipline. The architecture looks graceful because it is mathematically serious. It also shows how aesthetic order can carry meaning, so geometry becomes a way to organize both space and experience.",
+    "funFact": "Many Islamic geometric patterns can be generated from a small set of repeated shapes and rules.",
+    "references": [
+      "Britannica: Islamic architecture",
+      "Met Museum essays on Islamic geometry and pattern",
+      "Studies on tessellation, girih, and architectural proportion"
+    ],
     "keyElements": {
       "people": [
-        "Al-Kindi",
-        "Ibn al-Haytham",
-        "Muhammad ibn Musa al-Khwarizmi"
+        "Architects and master builders - The people who translated geometric ideas into walls, domes, and courtyards",
+        "Craft artisans - Tile makers, carvers, and woodworkers who executed the patterns with precision",
+        "Mathematically minded scholars - Thinkers who helped preserve and systematize geometry across the medieval world",
+        "Patrons such as caliphs and sultans - Rulers who funded ambitious buildings that showcased mathematical design"
       ],
       "places": [
-        "Great Mosque of Cordoba",
-        "The Alhambra palace",
-        "Samarra"
+        "The Dome of the Rock - Early monumental Islamic architecture rich in proportion and decorative order",
+        "The Alhambra - A famous palace complex where geometry and ornament are exquisitely intertwined",
+        "The Great Mosque of Cordoba - A landmark example of Islamic spatial rhythm and structural repetition",
+        "Persia, Anatolia, and Central Asia - Regions where geometric architecture developed in diverse forms"
       ],
       "years": [
-        "820 CE",
-        "1000 CE",
-        "1200 CE"
+        "7th century CE - Early Islamic architecture begins to develop distinctive forms",
+        "8th to 10th centuries - Geometry, courtyards, and calligraphy become central design languages",
+        "13th to 16th centuries - Islamic architecture reaches exceptional technical and artistic maturity",
+        "Modern era - Scholars analyze the mathematics behind pattern systems and architectural proportion"
       ],
       "concepts": [
-        "Geometry",
-        "Trigonometry",
-        "Tessellations",
-        "Symmetry",
-        "Golden Ratio"
+        "Geometry - The mathematical study of shape and space that underlies pattern design",
+        "Tessellation - Repeating shapes that cover a surface without gaps",
+        "Symmetry - Balanced arrangement across an axis or center",
+        "Muqarnas - Stalactite-like architectural elements that turn geometry into three-dimensional ornament",
+        "Proportion - The relationship between different dimensions in a design",
+        "Nonfigurative ornament - Decorative patterning that avoids human or animal imagery"
       ]
     }
   }

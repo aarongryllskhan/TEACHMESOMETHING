@@ -1,32 +1,67 @@
 {
-  "topic": "Graphene: A Revolutionary Material",
-  "title": "Exploring the Properties and Applications of Graphene",
+  "topic": "How Graphene Could Change Everything",
+  "title": "Why Graphene Still Looks Like a Materials Breakthrough",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Graphene%20.jpg",
+  "imageCredit": {
+    "creator": "Mariam A AlMaadeed",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Graphene%20.jpg"
+  },
   "lesson": {
-    "learn": "Graphene, a single layer of carbon atoms arranged in a hexagonal lattice, was first isolated in 2004 by Andre Geim and Konstantin Novoselov at the University of Manchester. This breakthrough discovery has been followed by a flurry of research and development, driven by graphene's extraordinary properties. With a tensile strength of approximately 130 GPa, graphene is one hundred times stronger than steel, yet it also exhibits exceptional flexibility. This combination of properties makes graphene an ideal material for a wide range of applications. Its high thermal conductivity, high surface area, and exceptional electrical conductivity have been leveraged to develop innovative solutions in fields such as electronics, energy storage, and biomedical devices.",
-    "simpler": "Imagine a material that combines the strength of steel with the flexibility of rubber, but is also highly conductive and thermally efficient. This is graphene, a single layer of carbon atoms that has the potential to revolutionize various industries.",
-    "keyTakeaway": "Graphene's exceptional strength-to-weight ratio, high thermal conductivity, and exceptional electrical conductivity make it an ideal material for a wide range of applications, from electronics to energy storage and biomedical devices.",
-    "deeperDive": "Graphene's exceptional thermal conductivity makes it suitable for use in electronic devices, while its high surface area enables efficient energy storage and conversion. Researchers are exploring the use of graphene in water purification systems due to its high adsorption capacity. Additionally, graphene-based composites have shown promise for use in aerospace and automotive industries due to their exceptional mechanical properties.",
-    "funFact": "Graphene is so thin that a single sheet can be as thin as 0.3 nanometers, about 1/100,000th the width of a human hair. This exceptional thinness, combined with its high conductivity, has led researchers to explore its potential in applications such as flexible electronics and advanced biomedical devices.",
+    "learn": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice, and that seemingly simple structure gives it a remarkable combination of strength, conductivity, flexibility, and thinness. Because electrons move through it so efficiently and because the sheet is only one atom thick, graphene has been hailed as a potential game-changer for electronics, sensors, composites, and energy systems. The excitement is easy to understand: a material that is lightweight, strong, and conductive could reshape everything from flexible displays to faster circuits. But graphene is not magic. It is a platform material whose real-world impact depends on how well it can be produced, patterned, stacked, and integrated with existing manufacturing. That is why the story of graphene is still unfolding. The science is extraordinary; the engineering is the hard part.",
+    "simpler": "Graphene is a one-atom-thick sheet of carbon with unusual strength and conductivity. It could be transformative, but only if scientists can make and use it reliably at scale.",
+    "keyTakeaway": "Graphene matters because a one-atom-thick carbon lattice combines properties that are rare in one material, but turning that promise into products still requires very hard engineering.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Graphene%20(6790581511).png",
+    "learnImageCredit": {
+      "creator": "Oak Ridge National Laboratory",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Graphene%20(6790581511).png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Graphite%20and%20graphene.png",
+    "thirdImageCredit": {
+      "creator": "Anton and Karelj",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Graphite%20and%20graphene.png"
+    },
+    "deeperDive": "Graphene’s appeal comes from the way its bond structure allows electrons to move quickly while also making the sheet mechanically robust. That makes it a candidate for flexible electronics, sensitive detectors, conductive films, and advanced composites. Yet a perfect isolated sheet is not enough for industry. Engineers have to solve problems of large-area growth, defect control, transfer, stacking, contact resistance, and compatibility with existing manufacturing. The result is a classic nanotechnology story: spectacular intrinsic physics meeting difficult systems engineering. Graphene is often discussed as if it will change everything overnight, but the more accurate view is that it will matter where its special properties outweigh the cost of using it. That may sound modest, but it is how real materials revolutions happen.",
+    "funFact": "Graphene is only one atom thick, yet it is strong enough to make ordinary paper-thin comparisons feel almost absurd.",
+    "references": [
+      "NIST and ACS review materials on graphene properties and fabrication.",
+      "Wikimedia Commons file pages for graphene and carbon structure images.",
+      "Primary literature on graphene growth, defects, and device integration.",
+      "Materials science reference texts on two-dimensional materials."
+    ],
     "keyElements": {
       "people": [
-        "Andre Geim",
-        "Konstantin Novoselov"
+        "Andre Geim - Physicist whose graphene work helped launch the modern field.",
+        "Konstantin Novoselov - Co-discoverer of graphene’s breakthrough experimental isolation.",
+        "Materials engineers - Researchers trying to make graphene manufacturable.",
+        "Device physicists - Scientists translating graphene’s properties into electronics."
       ],
       "places": [
-        "University of Manchester",
-        "IBM Research Lab"
+        "University of Manchester - A key center in graphene’s rise.",
+        "Materials labs - Where graphene is grown, transferred, and tested.",
+        "Semiconductor fabs - Places where integration becomes the main challenge.",
+        "Surface science facilities - Where defects and layers are studied carefully."
       ],
       "years": [
-        "2004",
-        "2010"
+        "2004 - Graphene is isolated and characterized experimentally.",
+        "2010 - The Nobel Prize draws global attention.",
+        "2010s - Large-scale manufacturing becomes the central challenge.",
+        "Today - Graphene remains a major candidate material rather than a solved product."
       ],
       "concepts": [
-        "single-layer materials",
-        "nanotechnology",
-        "hexagonal lattice",
-        "tensile strength",
-        "thermal conductivity",
-        "electrical conductivity"
+        "Two-dimensional material - A structure that is essentially one atom thick.",
+        "Electron mobility - How easily electrons move through a material.",
+        "Defects - Imperfections that change performance.",
+        "Transfer and stacking - The engineering challenge of moving and layering graphene sheets.",
+        "Interface engineering - Managing how graphene connects to other materials."
       ]
     }
   }

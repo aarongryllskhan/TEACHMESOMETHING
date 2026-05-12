@@ -1,33 +1,67 @@
 {
-  "topic": "Exploring the Foundations of Calculus",
-  "title": "Understanding the Power of Calculus in Modern Science",
+  "topic": "Calculus and Change",
+  "title": "How Calculus Turned Change Into Mathematics",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Godfrey Kneller",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton%2C_1689.jpg"
+  },
   "lesson": {
-    "learn": "Calculus is a branch of mathematics developed in the 17th century by Sir Isaac Newton and German mathematician Gottfried Wilhelm Leibniz, which revolutionized our understanding of the world by applying infinitesimal numbers to study rates of change and accumulation. Specifically, Newton's work on the laws of motion and universal gravitation, as outlined in 'Philosophiæ Naturalis Principia Mathematica' in 1685, marked a significant milestone in the development of calculus. By mastering derivatives and integrals, mathematicians can solve complex problems that were previously unsolvable, leading to groundbreaking discoveries in science and technology.",
-    "simpler": "To understand calculus, imagine you're driving a car, and you want to know your exact speed at every moment. Calculus provides the mathematical tools to achieve this, much like a sophisticated GPS system that calculates your position, velocity, and acceleration in real-time.",
-    "keyTakeaway": "The fundamental concept of calculus is the derivative, which represents the rate of change of a function with respect to its input. By applying derivatives and integrals to mathematical models, scientists can accurately predict and analyze complex systems, such as population growth, weather patterns, and economic trends.",
-    "deeperDive": "One of the primary applications of calculus is in physics, where it is used to describe the motion of objects under the influence of forces. Today, we apply calculus to model complex systems, including weather patterns, population growth, and financial markets. Recent advancements in machine learning have also led to renewed interest in calculus, particularly in deep learning algorithms that rely heavily on derivatives and integrals.",
-    "funFact": "Did you know that the famous 'derivative' formula was initially met with skepticism by mathematicians like Leonhard Euler? However, today we recognize the fundamental importance of derivatives in calculus, with over half of all math research papers published in top journals relying on calculus.",
+    "learn": "Calculus changed everything because it gave mathematics a way to describe motion, growth, accumulation, and change itself. Before calculus, many problems could be measured only approximately. After calculus, mathematicians could ask how fast something was changing at a single instant and how small pieces could add up to a whole. That made it possible to model falling objects, planetary motion, fluid flow, economics, population growth, and countless other systems. The power of calculus comes from the fact that the world is not static. Things move, expand, decay, and interact, and calculus gives those changes a language. It turns continuous change into something precise enough to calculate. Once that language existed, physics and engineering gained a tool that could describe reality with far more detail than geometry alone. It also gave science a way to connect local behavior with overall outcome. That shift is why the subject became indispensable so quickly. It is the mathematics of motion that made modern science feel measurable.",
+    "simpler": "Calculus is the math of change. It helps us measure motion, growth, and accumulation by breaking them into tiny parts or studying them at a single instant.",
+    "keyTakeaway": "Calculus matters because it gives a precise language for motion and accumulation, letting scientists and engineers work with change instead of treating it as a blur.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Derivative.svg/960px-Derivative.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "learnImageCredit": {
+      "creator": "Dalgial",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Derivative.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leibniz_integral_symbol.svg/960px-Leibniz_integral_symbol.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "thirdImageCredit": {
+      "creator": "Rursus",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Leibniz_integral_symbol.svg"
+    },
+    "deeperDive": "The two main ideas in calculus are derivatives and integrals. Derivatives measure instantaneous rate of change, while integrals measure accumulation over intervals. Newton and Leibniz developed these ideas in different styles during the 17th century, and their work reshaped science because it matched the physical world so well. A falling body, a swinging pendulum, a moving fluid, or an orbiting planet can all be described with differential equations once change is expressed mathematically. What makes calculus profound is not only that it solves old problems, but that it reveals hidden relationships between local behavior and global outcome. A tiny change at one point can determine an entire curve, and small pieces can sum into something large and exact. That is why calculus became the standard language for motion in physics, engineering, and many applied sciences. It remains one of the best examples of a mathematical method that is both abstract and deeply practical. Once you learn to see rates and totals together, whole classes of problems become visible. That perspective is what made the subject so transformative. It is the reason engineers, physicists, and economists still return to it every day.",
+    "funFact": "Calculus lets mathematicians study a curve one tiny piece at a time and also add tiny pieces back into a whole.",
+    "references": [
+      "Britannica: calculus",
+      "Britannica: Newton and Leibniz",
+      "Britannica: differential equations"
+    ],
     "keyElements": {
       "people": [
-        "Sir Isaac Newton (English physicist and mathematician)",
-        "Gottfried Wilhelm Leibniz (German mathematician)"
+        "Isaac Newton - Mathematician and physicist whose fluxions helped found calculus",
+        "Gottfried Wilhelm Leibniz - Mathematician whose notation made calculus widely usable",
+        "Johannes Kepler - Astronomer whose work on planetary motion benefited from later calculus",
+        "Modern scientists and engineers - Practitioners who use calculus for physics, economics, and design"
       ],
       "places": [
-        "Cambridge University",
-        "Göttingen University"
+        "Cambridge - Important in Newton's mathematical development",
+        "Hanover - Closely associated with Leibniz's intellectual life",
+        "Physical laboratories - Places where calculus describes motion and change",
+        "Engineering offices - Places where calculus is used to design real systems"
       ],
       "years": [
-        "1685 (Newton publishes 'Philosophiæ Naturalis Principia Mathematica')",
-        "1693 (Leibniz publishes a paper on calculus)"
+        "1660s - Newton develops early ideas of fluxions",
+        "1670s - Leibniz develops calculus notation and methods",
+        "1687 - Newton publishes the Principia",
+        "18th century onward - Calculus becomes central to science and engineering"
       ],
       "concepts": [
-        "Derivative (represents the rate of change of a function)",
-        "Integral (computes the accumulation of rates of change over an interval)",
-        "Laws of motion and universal gravitation (Newton's work)",
-        "Machine learning (deep learning algorithms reliant on calculus)",
-        "Population growth models (calculus applications)",
-        "Weather patterns (calculus applications)",
-        "Navier-Stokes equations (complex systems modeling)"
+        "Derivative - The rate of change of a function at a point",
+        "Integral - The accumulation of small pieces into a total",
+        "Limit - The idea of approaching a value without always reaching it directly",
+        "Continuous change - Change that happens without jumps",
+        "Differential equation - An equation involving rates of change",
+        "Accumulation - The build-up of small effects into a whole"
       ]
     }
   }

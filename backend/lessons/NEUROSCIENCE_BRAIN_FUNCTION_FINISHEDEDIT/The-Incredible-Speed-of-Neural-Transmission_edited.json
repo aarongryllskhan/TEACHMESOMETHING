@@ -1,41 +1,67 @@
 {
-  "topic": "The-Incredible-Speed-of-Neural-Transmission",
-  "title": "\"Wiring the Universe in a Blink\"**",
+  "topic": "Neural Transmission",
+  "title": "The Incredible Speed of Neural Transmission",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Myelinated_neuron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "user:Roadnottaken",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Myelinated%20neuron.jpg"
+  },
   "lesson": {
-    "learn": "The speed at which neural signals transmit information throughout the human brain is a phenomenon that has fascinated scientists for centuries. This process, known as neural transmission, is crucial for our ability to think, learn, and respond to stimuli. With an estimated 100 billion neurons firing simultaneously, it's astonishing to consider how quickly these electrical impulses can travel along the intricate network of neural pathways. Research suggests that neural signals can transmit information at speeds of up to 320 kilometers per hour (200 miles per hour), making it one of the fastest communication systems in the known universe.",
-    "simpler": "Imagine a lightning-fast internet connection, but instead of bytes and megahertz, it's made up of electrical impulses traveling through your brain. This is basically what neural transmission does \u00e2\u20ac\u201c it helps you think, move, and react to the world around you at incredible speeds. It's like having a supercomputer inside your head that can process information faster than any machine!",
-    "keyTakeaway": "The speed of neural transmission allows humans to react quickly to their environment, think critically, and perform complex tasks with ease. Understanding this remarkable ability is essential for unraveling the mysteries of human cognition.",
-    "deeperDive": "Recent studies have shown that neural transmission is not a linear process, but rather a complex network of interactions between neurons, glial cells, and neurotransmitters. The myelin sheath, a fatty insulating layer surrounding nerve fibers, plays a crucial role in facilitating the speed of neural signals. In fact, research has demonstrated that even minor damage to this protective coating can significantly impede neural transmission. Furthermore, scientists have discovered that certain areas of the brain, such as the visual cortex, are specialized for high-speed processing, while others, like the prefrontal cortex, excel in complex decision-making. The human brain's ability to adapt and reorganize itself in response to injury or disease has led to a greater understanding of neural plasticity.",
-    "funFact": "The fastest recorded neural signal was transmitted by a team of scientists who successfully implanted an electrode directly into the visual cortex of a paralyzed patient, allowing them to \"see\" images on a screen with incredible speed and accuracy. This breakthrough has opened doors for innovative treatments for neurological disorders and conditions.",
+    "learn": "Neural transmission is fast because neurons are built to send electrical signals efficiently over long distances. When a neuron fires, ions rush across its membrane in a carefully controlled wave called an action potential. That signal then travels down the axon and crosses synapses to reach the next cell. Myelin makes the process much faster by insulating the axon and allowing the signal to leap between gaps instead of traveling continuously along the entire membrane. The result is a communication system that can move information in milliseconds. That speed is what lets the brain coordinate movement, sensation, reflexes, thought, and memory without falling behind the world, even when countless signals are firing at the same time. A system this fast is the difference between smooth behavior and delay. Without it, even simple reactions would feel sluggish.",
+    "simpler": "Neurons send messages using fast electrical signals that travel down axons and across synapses. Myelin makes those signals move much faster.",
+    "keyTakeaway": "Neural transmission is so fast because the brain combines electricity, chemical signaling, and myelin insulation into one highly efficient communication system.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/95/Action_Potential.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Laurentaylorj",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Action%20Potential.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Diagram_of_Synapse.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Unknown author",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Diagram%20of%20Synapse.png"
+    },
+    "deeperDive": "The core idea is saltatory conduction: instead of crawling along every millimeter of the axon, the action potential jumps from one node of Ranvier to the next. That makes signaling much faster and more energy efficient. Synapses then convert the electrical signal into a chemical one so the message can cross the gap between neurons. The whole process has strict timing because slight changes in ion flow, channel function, or myelin integrity can alter how well the nervous system works. That is why demyelinating diseases can slow reaction time and disrupt coordination. Even tiny delays matter because the brain is coordinating a moving body in a changing environment. Neural transmission is not just electrical speed. It is carefully timed biological choreography, and the brain depends on it for every behavior that has to happen in the real world, fast. One interrupted pathway can ripple through a whole network of movement and perception. That ripple effect is why timing matters as much as strength in the nervous system.",
+    "funFact": "Myelin lets signals jump between gaps, which is much faster than traveling the whole axon one inch at a time.",
+    "references": [
+      "NINDS: neuron and myelin resources",
+      "NIH review literature on action potentials and saltatory conduction",
+      "PubMed: synaptic transmission and conduction velocity"
+    ],
     "keyElements": {
       "people": [
-        "* Santiago Ram\u00c3\u00b3n y Cajal (Nobel laureate, discovered structure of neurons)",
-        "* Camillo Golgi (Nobel laureate, developed staining techniques to visualize neural connections)",
-        "* Wilder Penfield (neurosurgeon, mapped human brain function using electrode stimulation)",
-        "* Roger Sperry (Nobel laureate, studied split-brain patients and lateralization of brain function)",
-        "* David Hubel (Nobel laureate, discovered neural coding principles)"
+        "Santiago Ramón y Cajal - Neuroscientist who clarified the neuron as the basic nervous system unit.",
+        "Alan Hodgkin - Helped explain the ionic basis of the action potential.",
+        "Andrew Huxley - Co-developed the classic model of nerve impulse conduction.",
+        "Rita Levi-Montalcini - Her growth-factor work helped shape modern neurobiology."
       ],
       "places": [
-        "* The Salk Institute for Biological Studies (La Jolla, California \u00e2\u20ac\u201c leading research institution in neuroscience)",
-        "* The University of Cambridge's Department of Anatomy (Cambridge, UK \u00e2\u20ac\u201c renowned center for neuroanatomy and neuroscience studies)",
-        "* The National Institutes of Health (Bethesda, Maryland \u00e2\u20ac\u201c primary medical research facility in the United States)",
-        "* The Allen Institute for Brain Science (Seattle, Washington \u00e2\u20ac\u201c pioneering research and mapping efforts in neural connections)",
-        "* The Max Planck Institute for Neurological Research (Cologne, Germany \u00e2\u20ac\u201c prestigious institution focusing on brain function and disease)"
+        "The axon - The long fiber that carries signals away from the neuron body.",
+        "The node of Ranvier - The gap where the signal is refreshed during saltatory conduction.",
+        "The synapse - The junction where one neuron communicates with the next.",
+        "Myelinated white matter - The insulated pathways that speed communication."
       ],
       "years": [
-        "* 1889: Santiago Ram\u00c3\u00b3n y Cajal discovers the structure of neurons",
-        "* 1906: Camillo Golgi develops staining techniques to visualize neural connections",
-        "* 1950s: Wilder Penfield maps human brain function using electrode stimulation",
-        "* 1982: Roger Sperry is awarded the Nobel Prize in Physiology or Medicine for split-brain research",
-        "* 2001: David Hubel is awarded the Nobel Prize in Physiology or Medicine for discovering neural coding principles"
+        "1900s - Neuron theory becomes established.",
+        "1950s - Hodgkin and Huxley explain the action potential.",
+        "1970s - Myelin research links insulation with speed and disease.",
+        "Today - Neural transmission remains central to brain and spinal cord research."
       ],
       "concepts": [
-        "* Neural transmission (electrical impulses between neurons)",
-        "* Myelin sheath (insulating layer surrounding nerve fibers)",
-        "* Neurotransmitters (chemical messengers facilitating neural communication)",
-        "* Glial cells (supportive, non-neuronal cells providing essential functions)",
-        "* Synaptic plasticity (ability of neural connections to adapt and reorganize)",
-        "* Lateralization of brain function (different hemispheres specializing in unique tasks)"
+        "Action potential - The electrical pulse that carries a neural message.",
+        "Saltatory conduction - Jumping between nodes to move faster.",
+        "Myelin - The insulating sheath around many axons.",
+        "Synaptic delay - The short pause as signals cross between cells.",
+        "Ion channels - Protein gates that control electrical change.",
+        "Refractory period - The brief reset time after a neuron fires."
       ]
     }
   }

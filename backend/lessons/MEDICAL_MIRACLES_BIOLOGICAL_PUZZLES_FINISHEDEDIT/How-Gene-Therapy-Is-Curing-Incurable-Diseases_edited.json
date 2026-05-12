@@ -1,37 +1,68 @@
 {
-  "topic": "How-Gene-Therapy-Is-Curing-Incurable-Diseases",
-  "title": "Rewriting the Code of Life**",
+  "topic": "Gene Therapy",
+  "title": "How Gene Therapy Is Changing Incurable Diseases",
   "lesson": {
-    "learn": "Gene therapy is a medical intervention that aims to treat or cure genetic disorders by modifying an individual's genes. This innovative approach has revolutionized the field of medicine, offering new hope for patients suffering from previously incurable diseases. By correcting the underlying genetic mutations responsible for these conditions, gene therapy has shown remarkable promise in improving patient outcomes and quality of life.",
-    "simpler": "Imagine your body is a computer with a faulty operating system. Gene therapy is like installing an update to fix the problem. It helps correct the mistakes in the \"software\" (your genes) so that your body can work properly again.",
-    "keyTakeaway": "The most significant benefit of gene therapy is its potential to cure previously incurable genetic diseases, giving patients a second chance at life.",
-    "deeperDive": "Gene therapy has been successfully applied in various conditions, such as sickle cell anemia, cystic fibrosis, and severe combined immunodeficiency (SCID). Recent advancements have led to the development of new vectors, like lentiviruses, which are more efficient and safer. Researchers are also exploring gene editing technologies, like CRISPR-Cas9, to make precise modifications to the genome. For instance, a clinical trial using CRISPR-Cas9 has shown promising results in treating patients with inherited blindness.",
-    "funFact": "Gene therapy was first tested on humans in the late 1990s and early 2000s, resulting in several breakthroughs, including the first gene therapy cure for SCID.",
+    "learn": "Gene therapy changes the way medicine thinks about disease because it aims at the instructions inside the cell rather than only the symptoms outside it. Depending on the strategy, scientists can add a working gene, silence a harmful one, repair a mutation, or edit DNA so cells can behave more normally. Some therapies use viral vectors, especially adeno-associated viruses, to deliver the genetic payload. Others collect cells from the patient, modify them in the lab, and put them back. That sounds simple on paper, but in practice gene therapy is a discipline built on delivery, dosage, cell targeting, and durability. The field has already crossed from theory into approved treatments for certain rare disorders, which is a major scientific milestone.",
+    "simpler": "Gene therapy tries to fix disease at the level of DNA. It can add, replace, silence, or edit genes so cells work more normally.",
+    "keyTakeaway": "Gene therapy is changing medicine because it can address the root of some genetic diseases instead of only managing their symptoms.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Direct_gene_therapy.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Kulkarni2022",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Direct_gene_therapy.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Gene_therapy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Unknown",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gene_therapy.jpg"
+    },
+    "deeperDive": "The biggest challenges now are not whether gene therapy can work in principle, but how to make it work safely, consistently, and widely. A vector has to reach the correct tissue, avoid an excessive immune reaction, and keep producing the intended effect long enough to matter. In some diseases, a single treatment may be enough; in others, repeated dosing or ex vivo cell engineering is more practical. The field has expanded rapidly because genetics, virology, immunology, and clinical medicine are finally converging on the same set of problems. FDA approvals for conditions such as inherited blindness, spinal muscular atrophy, hemophilia, and certain blood disorders show how far the field has come. At the same time, price, complexity, and biological limits of delivery mean that gene therapy is still selective rather than universal.",
+    "funFact": "Some gene therapies use disabled viruses as delivery vehicles because viruses are naturally good at entering cells.",
+    "references": [
+      "FDA: gene therapy approvals and guidance",
+      "NIH gene therapy resources",
+      "MedlinePlus Genetics"
+    ],
     "keyElements": {
       "people": [
-        "+ James Wilson (University of Pennsylvania): pioneer in gene therapy research",
-        "+ Jennifer Doudna (UC Berkeley): co-discoverer of CRISPR-Cas9",
-        "+ Jean Bennett (University of Pennsylvania): researcher who developed a successful treatment for inherited blindness using gene therapy",
-        "*"
+        "James Wilson - Gene-therapy leader whose work helped drive delivery systems and clinical translation",
+        "Jennifer Doudna - CRISPR pioneer whose discovery helped make precise genome editing possible",
+        "Jean Bennett - Researcher associated with landmark gene therapy success in inherited disease",
+        "Fyodor Urnov - Genome-editing scientist focused on making gene correction more precise and practical"
       ],
       "places": [
-        "+ University of Pennsylvania: pioneering institution in gene therapy research",
-        "+ National Institutes of Health (NIH): leading funding agency for gene therapy studies",
-        "+ Stanford University: prominent center for gene editing and genome engineering research",
-        "*"
+        "University of Pennsylvania - Major center for gene therapy development and clinical research",
+        "UC Berkeley - Key site in the development of CRISPR technology",
+        "FDA - U.S. regulator that approves gene therapies after safety and efficacy review",
+        "NIH - Major supporter of gene therapy research and translational medicine"
       ],
       "years": [
-        "+ 1990s-2000s: first human trials of gene therapy",
-        "+ 2012: CRISPR-Cas9 discovery",
-        "+ 2020: FDA approval of Luxturna, a gene therapy treatment for inherited blindness",
-        "*"
+        "1990 - Early gene therapy efforts begin to move from concept toward clinical reality",
+        "2012 - CRISPR gene editing reshapes what DNA repair could look like",
+        "2017 - The first wave of high-profile gene therapy approvals begins",
+        "2020s - The field keeps expanding while delivery, cost, and durability remain major issues"
       ],
       "concepts": [
-        "+ Genetic mutation: changes in the DNA sequence that can lead to disease",
-        "+ Gene editing: technologies used to modify or correct genes",
-        "+ Vector: delivery system for introducing new genetic material into cells",
-        "+ Genome engineering: broader field of manipulating and modifying an organism's genome"
+        "Vector - A delivery system used to carry genetic material into cells",
+        "AAV - Adeno-associated virus, a common gene-therapy delivery platform",
+        "CRISPR-Cas9 - A gene-editing system that can target DNA with remarkable precision",
+        "Somatic cell therapy - Treatment that modifies non-reproductive cells in the body",
+        "Ex vivo editing - Editing cells outside the body before returning them to the patient",
+        "Genome engineering - The broader field of writing, repairing, or rewriting DNA"
       ]
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Viral_vector_schematic.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "HAL333",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Viral_vector_schematic.png"
   }
 }

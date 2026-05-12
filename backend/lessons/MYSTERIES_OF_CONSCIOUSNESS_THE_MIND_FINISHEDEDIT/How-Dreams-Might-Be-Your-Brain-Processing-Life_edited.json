@@ -1,30 +1,67 @@
 {
-  "topic": "The Science of Dreams",
-  "title": "How the Brain Processes Memories and Emotions During Sleep",
+  "topic": "How Dreams Might Be Your Brain Processing Life",
+  "title": "How Dreams Might Be Your Brain Processing Life",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sleeping%20People.jpg",
+  "imageCredit": {
+    "creator": "Altair Netraphim",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Sleeping%20People.jpg"
+  },
   "lesson": {
-    "learn": "Dreams are a universal human experience, a byproduct of brain activity during sleep that allows us to process and consolidate memories, emotions, and experiences from our waking lives. Research shows that approximately 70-80% of adults experience dreams during REM sleep, with most dreaming occurring within the first 90 minutes of falling asleep. By exploring the complex neural processes that govern dreams, scientists have made significant advancements in understanding the relationship between brain function, emotions, and memories.",
-    "simpler": "Our brain's ability to process information is so complex that it needs to work through all the information gathered during the day, even when we're sleeping. Think of it as the brain's 'overnight processing.' While we sleep, our brains go through various stages, including REM and non-REM sleep, to help sort, consolidate, and eliminate unnecessary neural connections.",
-    "keyTakeaway": "The key takeaway from understanding dreams is that they are an active neural process that helps regulate emotional response, consolidate memories, and refine cognitive function.",
-    "deeperDive": "Studies have shown that dreams are closely linked to the brain's attempt to eliminate unnecessary neural connections through the process of synaptic pruning. This allows us to reorganize and refine our neural networks, leading to improved cognitive function and memory consolidation. Additionally, research has found that dreams are influenced by the release of neurotransmitters such as norepinephrine and serotonin, which regulate emotions and mood. Lucid dreaming, the ability to consciously recognize and control one's dreams, has been linked to improved problem-solving skills, self-awareness, and emotional regulation.",
-    "funFact": "Research has revealed that approximately 10-20% of people experience regular nightmares, which can be a symptom of underlying mental health conditions such as anxiety disorders.",
+    "learn": "Dreams are one of the clearest signs that the sleeping brain is still active, sorting, combining, and revisiting experience while the body rests. During sleep, especially REM sleep, the brain does not simply shut off. It keeps generating images, emotions, fragments of memory, and odd narrative jumps that feel real while they are happening and unstable once we wake up. Many researchers think dreams reflect the brain’s effort to process recent experience, stabilize memory, and work through emotional material without the direct pressure of waking life. That does not mean every dream is a coded message. It means sleep creates a state where the brain can rehearse, recombine, and test patterns in a less constrained way. Dreams often feel bizarre because the brain is working with loose associations rather than daylight logic.",
+    "simpler": "Dreams are what the brain does while sleep keeps the body offline. They may help process emotions, replay experiences, and organize memory in a looser way than waking thought.",
+    "keyTakeaway": "Dreams probably matter because sleep lets the brain reorganize experience, blending memory, emotion, and imagination into a state that is less literal but still deeply useful.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sleep%20Stage%20REM.png",
+    "learnImageCredit": {
+      "creator": "NascarEd",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sleep%20Stage%20REM.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Rem%20vs%20NREM%20sleep.png",
+    "thirdImageCredit": {
+      "creator": "Navreettks",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Rem%20vs%20NREM%20sleep.png"
+    },
+    "deeperDive": "There is no single agreed theory of dreaming, but several ideas fit what researchers know about sleep. Some dreams may help consolidate memories by reactivating fragments of the day and weaving them into existing knowledge. Others may reflect emotional processing, allowing the brain to revisit stressful material in a safer setting. Dream content also shows that the sleeping mind can combine very distant pieces of experience into new scenes, which makes dreams feel creative, absurd, or symbolic. REM sleep is especially important because it is associated with vivid imagery, reduced muscle tone, and unusual patterns of brain activity. That state may help explain why dreams often feel immersive but not fully controlled. The practical takeaway is simple: dreams are not random noise, but they are not literal messages either. They are a kind of nighttime cognition, shaped by memory, emotion, physiology, and whatever the brain thinks deserves another pass.",
+    "funFact": "People often dream several times a night, but they usually remember only the dreams that happen close to waking.",
+    "references": [
+      "NIH / NINDS materials on sleep and dreaming.",
+      "Sleep research on REM, memory consolidation, and emotion processing.",
+      "Wikimedia Commons file pages for sleep and dream images.",
+      "Review articles on the neuroscience of dreaming."
+    ],
     "keyElements": {
       "people": [
-        "Sigmund Freud",
-        "J. Allan Hobson"
+        "J. Allan Hobson - Sleep researcher whose work shaped modern dream science.",
+        "Matthew Walker - Neuroscientist known for public work on sleep and memory.",
+        "Antonio Zadra - Dream researcher who studies dream content and REM sleep.",
+        "Ralph Cartwright - Psychologist who helped study the emotional side of dreaming."
       ],
       "places": [
-        "The University of California, Los Angeles (UCLA)",
-        "The Sleep Research Institute in London"
+        "Sleep laboratories - Where REM activity and dream reports are studied.",
+        "The hippocampus - A structure central to memory processing during sleep.",
+        "The cortex - The wider brain network that keeps generating dream images.",
+        "The bedroom - The ordinary setting where the brain’s nightly maintenance becomes personal experience."
       ],
       "years": [
-        "1900",
-        "1953"
+        "1950s - REM sleep is identified and linked to vivid dreaming.",
+        "1990s - Brain imaging makes dream research more precise.",
+        "2000s - Memory consolidation theories gain traction.",
+        "Today - Dream science connects sleep, memory, and emotion more tightly than ever."
       ],
       "concepts": [
-        "REM sleep and non-REM sleep stages",
-        "synaptic pruning and neural network reorganization",
-        "neurotransmitter regulation",
-        "cognitive function and memory consolidation"
+        "REM sleep - A sleep stage marked by vivid dreams and distinctive brain activity.",
+        "Memory consolidation - The stabilization of experience during sleep.",
+        "Emotional processing - The brain’s work of sorting feelings and stress.",
+        "Associative thinking - The way dream content links distant ideas.",
+        "Nighttime cognition - Mental processing that continues even when waking awareness is offline."
       ]
     }
   }

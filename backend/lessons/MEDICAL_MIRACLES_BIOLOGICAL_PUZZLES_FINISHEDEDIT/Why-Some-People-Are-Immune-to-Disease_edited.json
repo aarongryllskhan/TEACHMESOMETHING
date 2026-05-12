@@ -1,34 +1,68 @@
 {
-  "topic": "Why-Some-People-Are-Immune-to-Disease",
-  "title": "Understanding Immunological Tolerance: Exploring the Science Behind Immunity",
+  "topic": "Host Resistance to Infection",
+  "title": "Why Some People Resist Certain Diseases",
   "lesson": {
-    "learn": "Immunological tolerance, a phenomenon where the body's immune system fails to recognize or attack specific pathogens, has puzzled scientists for centuries. This condition makes an individual resistant to infections. Research suggests that genetic mutations, such as the WAS gene mutation in Wiskott-Aldrich syndrome, play a significant role in the development of immunodeficiency. In rare cases, individuals are born with conditions like X-linked agammaglobulinemia, which renders them severely immunocompromised. Scientists have made significant progress in understanding and treating these disorders through targeted therapies and gene editing techniques, such as CRISPR-Cas9.",
-    "simpler": "Imagine a fortress with strong walls that allows only friendly visitors while keeping out the bad guys. This is essentially how the body maintains immunological tolerance. The body's immune system selectively tolerates certain pathogens, preventing an overactive response. This complex process involves the interplay between innate and adaptive immunity.",
-    "keyTakeaway": "It is essential to note that being immune to disease does not imply a weak or non-existent immune system. Rather, it indicates an unusual ability to tolerate certain pathogens without reacting against them. Understanding immunological tolerance can lead to groundbreaking discoveries in medicine, improving our ability to treat and cure diseases.",
-    "deeperDive": "Research has shown that genetic mutations, such as the WAS gene mutation in Wiskott-Aldrich syndrome, affect the functioning of immune cells. Scientists have made significant progress in understanding and treating these disorders through targeted therapies and gene editing techniques. For instance, CRISPR-Cas9 gene editing technology has been used to treat X-linked agammaglobulinemia. Additionally, scientists have identified rare species, such as the naked mole rat, which are naturally resistant to certain diseases due to genetic adaptations.",
-    "funFact": "Interestingly, scientists have discovered that some species, such as the naked mole rat, have a unique immune system that makes them resistant to certain diseases. This has sparked interest in understanding the genetic adaptations that underlie this phenomenon.",
+    "learn": "Very few people are truly immune to all disease, but people do differ a great deal in how vulnerable they are to specific infections. Sometimes that difference is genetic. A pathogen may rely on a receptor to enter cells, or on an immune pathway to gain a foothold, and a mutation can make that process much harder. Other times the difference comes from immune history, age, nutrition, or exposure dose. Someone who survives a dangerous infection may have the same general immune system as everyone else, but with one important advantage that changes the outcome for a particular pathogen. What scientists really study is resistance: the set of inherited and acquired features that make one person less susceptible than another to a given bug.",
+    "simpler": "People are not equally vulnerable to every disease. Genetics, immune history, and exposure can make one infection much easier or harder to catch.",
+    "keyTakeaway": "Disease resistance is usually specific rather than absolute, which is why one protective trait can matter a lot for one pathogen without making a person invincible.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Innate_and_Adaptive_Immunity.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "SGUL lymres",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Innate_and_Adaptive_Immunity.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/d/d9/PAMPs_and_PRRs_in_the_Innate_Immune_System.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Immcarle105",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:PAMPs_and_PRRs_in_the_Innate_Immune_System.png"
+    },
+    "deeperDive": "The scientific value of these cases is that they reveal which molecular steps a pathogen depends on. A change in a receptor, an antigen-presentation pathway, or a pattern-recognition receptor can shift risk in a meaningful way. That is why studies of malaria resistance, HIV coreceptors, and immune signaling genes have been so influential. They show that host resistance is built from many layers, not one magic gene. The environment still matters as well: vaccination, sleep, stress, chronic disease, and the size of the exposure all affect whether resistance is enough to hold the line. The result is a more precise and less mystical understanding of immunity. Instead of saying some people are just naturally immune, scientists ask which part of the immune system is doing the protecting, and how that protection could be copied or strengthened in others.",
+    "funFact": "A single receptor change can make one infection much harder to establish.",
+    "references": [
+      "NIAID: Overview of the immune system",
+      "PubMed: genetic control of host resistance to infection",
+      "PubMed reviews on host resistance and immune signaling genes"
+    ],
     "keyElements": {
       "people": [
-        "â€¢ Dr. Andrew McMichael (Professor of Immunology at the University of Oxford)",
-        "â€¢ Dr. Jennifer A. Puck (Chief of Clinical Genetics and Metabolic Disorders at UCSF)",
-        "â€¢ Dr. Michel C. Nussenzweig (HHMI Investigator and Professor of Immunology at Rockefeller University)"
+        "Daniel Malo - Researcher associated with host-resistance studies that helped clarify genetic susceptibility",
+        "Erwin Skamene - Scientist known for influential work on genetic control of infection resistance",
+        "Bruce Beutler - Immunologist whose discoveries helped reveal how innate immune receptors detect danger",
+        "Charles Janeway - Immunologist who helped define how the immune system recognizes pathogens"
       ],
       "places": [
-        "â€¢ National Institutes of Health (NIH) - USA",
-        "â€¢ The Francis Crick Institute - London, UK",
-        "â€¢ Rockefeller University - New York City, USA"
+        "McGill University - Major site for host-resistance and immunogenetics research",
+        "NIH - U.S. research center where immune pathways and susceptibility are studied",
+        "Montreal - City associated with genetic and immunology research on resistance",
+        "Bethesda - Base for important U.S. work on infection, immunity, and host defense"
       ],
       "years": [
-        "â€¢ 1953: James Watson and Francis Crick describe the structure of DNA.",
-        "â€¢ 1961: The first organ transplant is performed by Dr. Joseph Murray.",
-        "â€¢ 2019: CRISPR-Cas9 gene editing technology becomes widely adopted for treating genetic disorders."
+        "1994 - Host-resistance genetics gains stronger attention in biomedical research",
+        "1999 - Immune signaling pathways become clearer as receptor biology advances",
+        "2019 - Large-scale genetics and immunology studies deepen understanding of susceptibility",
+        "2025 - Precision medicine keeps asking why some people resist specific infections better than others"
       ],
       "concepts": [
-        "â€¢ Immunological tolerance",
-        "â€¢ Innate immunity",
-        "â€¢ Adaptive immunity",
-        "â€¢ Cytokines and immune response"
+        "Host resistance - The body's ability to reduce susceptibility to a specific disease",
+        "Receptors - Molecular structures that pathogens often need in order to enter cells",
+        "HLA - Immune genes that help shape how the body presents and recognizes threats",
+        "Innate immunity - The body's rapid built-in defense against infection",
+        "Susceptibility - How easily a person can be infected or made ill",
+        "Exposure dose - The amount of pathogen exposure that can change whether infection takes hold"
       ]
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Innate_immune_system.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Architha Srinivasan",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Innate_immune_system.png"
   }
 }

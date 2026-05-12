@@ -1,38 +1,68 @@
 {
   "topic": "Regenerative Medicine and Stem Cells",
-  "title": "Understanding the Potential of Induced Pluripotent Stem Cells for Regenerative Medicine: A Breakthrough in Stem Cell Biology",
+  "title": "How Stem Cells Could Regrow Your Organs",
   "lesson": {
-    "learn": "Since the pioneering work of Dr. Shinya Yamanaka in 2006, scientists have made significant progress in regenerative medicine by harnessing the potential of induced pluripotent stem cells (iPSCs). This groundbreaking discovery, which was awarded the Nobel Prize in Physiology or Medicine in 2012, enabled the creation of stem cells from adult skin or blood cells that can be differentiated into various cell types. To appreciate the scope of this achievement, consider that Dr. Yamanaka's team successfully reprogrammed adult mouse skin cells into iPSCs, which were then able to differentiate into viable mice.",
-    "simpler": "Think of stem cells as a set of instructions that guide the development and growth of specific tissues in the body. When scientists reprogram adult cells, they gain access to a vast array of cellular possibilities, allowing them to grow new tissue and repair damaged organs. This process is similar to programming a computer software, where the instructions (stem cells) are used to create a specific application (tissue or organ).",
-    "keyTakeaway": "The development of induced pluripotent stem cells has opened up new avenues for regenerative medicine, enabling the creation of functional tissues and organs for potential therapeutic applications. By utilizing CRISPR/Cas9 gene editing technology, scientists have been able to generate stem cells with enhanced regenerative capabilities, leading to significant advancements in the field.",
-    "deeperDive": "Recent breakthroughs in stem cell research have led to advancements in the field. For instance, scientists have used 3D printing technology to engineer complex organ structures, such as kidneys and livers. Additionally, researchers are exploring the use of base editing to precisely modify stem cell genes. For example, a study published in 2019 demonstrated the use of base editing to correct sickle cell disease-causing mutations in human iPSCs.",
-    "funFact": "Stem cells are a crucial component of our bodily systems and are found in every multi-cellular organism. For instance, embryonic stem cells have the ability to differentiate into all three primary germ layers: ectoderm, endoderm, and mesoderm. This flexibility is exemplified by the ability of embryonic stem cells to give rise to over 200 different cell types in the human body.",
+    "learn": "Stem cells could one day help regrow organs because they combine two rare abilities: self-renewal and the power to become specialized cell types. Adult stem cells already act as a repair system in many tissues, while embryonic stem cells and induced pluripotent stem cells can produce a much wider range of cell types under the right conditions. That makes stem cells central to regenerative medicine, organoids, and tissue engineering. But the dream of regrowing a full organ is still much harder than growing a few cells in a dish. An organ needs structure, blood supply, signaling, and the right arrangement of many cell types, which is why stem-cell therapy is promising but still unfinished.",
+    "simpler": "Stem cells can become many kinds of cells, which makes them useful for repair. Scientists hope they can someday help rebuild damaged tissues and organs.",
+    "keyTakeaway": "Stem cells matter because they offer a route to repair and replacement at the tissue level, but true organ regrowth still depends on solving structure, vascularization, and integration.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/a/ac/STEM_CELLS_AND_PROGENITOR_CELLS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Acn20",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:STEM_CELLS_AND_PROGENITOR_CELLS.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Unipotent_stem_cell_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Chicscientist",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Unipotent_stem_cell_diagram.png"
+    },
+    "deeperDive": "The real challenge is not just making cells, but making tissues that behave like the original organ. That means researchers need to control differentiation, guide cells into the right architecture, supply blood vessels, and make sure the new tissue connects safely to the rest of the body. Adult stem cells, pluripotent cells, and iPSCs each solve part of the problem, but none solve all of it alone. Organoids and scaffolds are helping scientists test ideas more realistically, and some organs, like the liver, already show a degree of natural regenerative capacity. Still, the field moves cautiously because uncontrolled growth, immune rejection, and poor integration can turn a promising idea into a medical problem. The science is exciting precisely because it is both biologically rich and technically demanding.",
+    "funFact": "The liver can regrow much of its mass after injury or removal, which is one reason regeneration research is so hopeful.",
+    "references": [
+      "NIH Stem Cell Basics",
+      "NIH Regenerative Medicine resources",
+      "NCBI Bookshelf: Stem Cells and the Future of Regenerative Medicine"
+    ],
     "keyElements": {
       "people": [
-        "Dr. Shinya Yamanaka",
-        "Dr. David A. Williams",
-        "Dr. James A. Thomson"
+        "Shinya Yamanaka - Scientist who created induced pluripotent stem cells and transformed regenerative medicine",
+        "James Thomson - Researcher associated with the first human embryonic stem cell lines",
+        "Irving Weissman - Stem-cell biologist whose work helped define stem cell biology and therapy",
+        "Darwin Prockop - Regenerative medicine researcher focused on adult stem cells and tissue repair"
       ],
       "places": [
-        "Harvard Stem Cell Institute (HSCI)",
-        "Stanford University",
-        "University of California, San Francisco (UCSF)"
+        "NIH Stem Cell Information program - Major public source for stem cell science and policy",
+        "University of Wisconsin - Early center in embryonic stem cell research",
+        "Kyoto University - Landmark site in iPSC development",
+        "Regenerative medicine labs - Research settings where cells, scaffolds, and organoids are tested"
       ],
       "years": [
-        "1998",
-        "2001",
-        "2006",
-        "2012",
-        "2019"
+        "1998 - Human embryonic stem cells are derived and grown in the lab",
+        "2006 - Induced pluripotent stem cells are generated from adult cells",
+        "2018 - Human skeletal stem cells are identified in NIH-supported research",
+        "2020s - Organoids and regenerative approaches keep pushing the field forward"
       ],
       "concepts": [
-        "Stem cell pluripotency",
-        "Cell reprogramming",
-        "Induced pluripotent stem cells (iPSCs)",
-        "CRISPR/Cas9 gene editing",
-        "Base editing",
-        "3D printing technology"
+        "Stem cell - A cell that can self-renew and generate specialized cell types",
+        "Pluripotent - Able to become many different cell types in the body",
+        "iPSC - Induced pluripotent stem cell, made by reprogramming adult cells",
+        "Organoid - A mini tissue-like structure grown in the lab",
+        "Engraftment - Successful integration of transplanted cells into body tissue",
+        "Vascularization - The formation of blood vessels needed to support living tissue"
       ]
     }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Stem_cells_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Mike Jones",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Stem_cells_diagram.png"
   }
 }
