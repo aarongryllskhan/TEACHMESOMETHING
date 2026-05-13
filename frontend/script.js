@@ -952,6 +952,69 @@ function displayDailyLessonCard(lesson) {
 
   // Store current lesson for click handler
   currentDailyLesson = lesson;
+
+  // Wire up swipe-to-skip
+  initDailyCardSwipe();
+}
+
+function initDailyCardSwipe() {
+  const card = document.getElementById('dailyLessonCard');
+  if (!card) return;
+
+  // Remove any old listeners by cloning
+  const fresh = card.cloneNode(true);
+  card.parentNode.replaceChild(fresh, card);
+  const c = document.getElementById('dailyLessonCard');
+
+  let startX = 0, startY = 0, isDragging = false, currentX = 0;
+  const SWIPE_THRESHOLD = 80; // px to trigger skip
+
+  c.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+    isDragging = true;
+    currentX = 0;
+    c.style.transition = 'none';
+  }, { passive: true });
+
+  c.addEventListener('touchmove', e => {
+    if (!isDragging) return;
+    const dx = e.touches[0].clientX - startX;
+    const dy = e.touches[0].clientY - startY;
+    // Only track horizontal swipes
+    if (Math.abs(dy) > Math.abs(dx)) return;
+    currentX = dx;
+    const rotate = dx * 0.06;
+    c.style.transform = `translateX(${dx}px) rotate(${rotate}deg)`;
+    c.style.opacity = Math.max(0.5, 1 - Math.abs(dx) / 300);
+  }, { passive: true });
+
+  c.addEventListener('touchend', e => {
+    if (!isDragging) return;
+    isDragging = false;
+    c.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+
+    if (currentX < -SWIPE_THRESHOLD) {
+      // Swiped left — fly card off screen then load new lesson
+      c.style.transform = `translateX(-120vw) rotate(-20deg)`;
+      c.style.opacity = '0';
+      setTimeout(async () => {
+        c.style.transition = 'none';
+        c.style.transform = '';
+        c.style.opacity = '1';
+        await getDailyLessonAuto();
+      }, 320);
+    } else {
+      // Not far enough — snap back
+      c.style.transform = '';
+      c.style.opacity = '1';
+    }
+  });
+
+  // Tap to open lesson (only if barely moved)
+  c.addEventListener('click', e => {
+    if (Math.abs(currentX) < 10) openDailyLesson();
+  });
 }
 
 function saveDailyLesson() {

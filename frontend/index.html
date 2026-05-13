@@ -46,7 +46,7 @@
     <section id="daily" class="tab-content active">
       <div id="dailyLessonContainer" class="daily-lesson-container" style="display: none;">
         <div class="daily-card-wrapper">
-          <div class="daily-lesson-card" onclick="openDailyLesson()">
+          <div class="daily-lesson-card" id="dailyLessonCard">
             <div class="daily-header">
             </div>
 
@@ -57,9 +57,8 @@
               <p id="dailyDescription" class="daily-description">Learn something new</p>
             </div>
 
-            <p class="daily-hint">Tap to learn more</p>
+            <p class="daily-hint">Tap to open · Swipe to skip</p>
           </div>
-          <button class="daily-skip-btn" onclick="getDailyLessonAuto()">Skip →</button>
         </div>
       </div>
 

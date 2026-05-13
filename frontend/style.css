@@ -120,10 +120,9 @@ body.daily-active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  /* Fixed total height so skip button never moves */
+  gap: 0;
   height: min(640px, calc(100vh - 120px));
-  margin-top: -24px;
+  margin-top: -12px;
 }
 
 .daily-lesson-card {
@@ -353,24 +352,7 @@ body.daily-active {
   margin-bottom: 16px;
 }
 
-.daily-skip-btn {
-  background: none;
-  border: none;
-  color: rgba(255,255,255,0.7);
-  padding: 18px 32px;
-  border-radius: 20px;
-  font-size: 0.95em;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  flex-shrink: 0;
-  letter-spacing: 0.3px;
-}
-
-.daily-skip-btn:hover {
-  color: #fff;
-  background: rgba(255,255,255,0.1);
-}
+/* daily-skip-btn removed — replaced by swipe gesture */
 
 header {
   text-align: center;
