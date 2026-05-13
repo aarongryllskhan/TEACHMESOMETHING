@@ -1038,7 +1038,7 @@ header p {
 
 /* ── EXPLORE / TOPICS ── */
 .explore-container {
-  padding: 12px 0 100px;
+  padding: 12px 0 0;
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
@@ -2182,7 +2182,7 @@ body.dark .all-topics-toggle {
   }
 
   .explore-container {
-    padding: 24px 24px 80px;
+    padding: 24px 24px 0;
   }
 
   .explore-grid {
