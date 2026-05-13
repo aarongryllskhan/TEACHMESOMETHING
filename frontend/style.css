@@ -1230,14 +1230,29 @@ header p {
   background: rgba(102,126,234,0.05);
 }
 
+.lesson-thumb-wrap {
+  position: relative;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+}
+
 .lesson-thumb {
   width: 120px;
   height: 120px;
   object-fit: cover;
   border-radius: 0 12px 12px 0;
-  flex-shrink: 0;
-  margin-right: 0;
+  display: block;
   background: #f0f2f5;
+}
+
+.lesson-read-tick {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 22px;
+  height: 22px;
+  pointer-events: none;
 }
 
 .lesson-accent-bar {
@@ -1282,11 +1297,13 @@ header p {
   opacity: 0.35;
 }
 
-.lesson-read-tick {
-  flex-shrink: 0;
-  width: 22px;
-  height: 22px;
-  margin-right: 14px;
+/* Read state — faded card */
+.explore-category-row.is-read {
+  opacity: 0.45;
+}
+.explore-category-row.is-read:active,
+.explore-category-row.is-read:hover {
+  opacity: 0.65;
 }
 
 
