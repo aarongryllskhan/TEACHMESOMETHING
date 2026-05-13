@@ -1065,6 +1065,7 @@ async function openDailyLesson() {
       updateStreakDisplay();
     }
 
+    window._openedFromHome = true;
     displayFullLesson(currentDailyLesson);
   }
 }
@@ -2067,6 +2068,31 @@ function closeFullLesson() {
   const modal = document.getElementById('fullLessonModal');
   if (modal) modal.classList.remove('is-open');
   document.body.style.overflow = '';
+
+  // If opened from home, load a fresh card and slide it in from the right
+  if (window._openedFromHome) {
+    window._openedFromHome = false;
+    const card = document.getElementById('dailyLessonCard');
+    if (card) {
+      card.style.transition = 'none';
+      card.style.transform = 'translateX(100vw)';
+      card.style.opacity = '0';
+    }
+    getDailyLessonAuto().then(() => {
+      const c = document.getElementById('dailyLessonCard');
+      if (c) {
+        c.style.transition = 'none';
+        c.style.transform = 'translateX(100vw)';
+        c.style.opacity = '0';
+        requestAnimationFrame(() => requestAnimationFrame(() => {
+          c.style.transition = 'transform 0.38s cubic-bezier(0.25,0.8,0.25,1), opacity 0.3s ease';
+          c.style.transform = '';
+          c.style.opacity = '1';
+        }));
+      }
+    });
+    return;
+  }
 
   // Swap chevron → tick in-place so the read state shows immediately on the list
   const lesson = currentLessonsArray[currentCardIndex];
