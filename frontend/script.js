@@ -1252,7 +1252,7 @@ async function loadAllTopicsView(folderView) {
           const rawName = normFolder.replace(/_/g, ' ');
           const displayName = meta.name || toTitleCase(rawName);
           return `
-            <div class="explore-category-card" onclick="loadSubcategoryLessons('${cat.id}', '${subFolder}', '${displayName}', '${cat.name}')">
+            <div class="explore-category-card" onclick="loadCategoryLessonsView('${cat.id}', '${cat.name}')">
               <div class="explore-category-icon" style="background:${meta.color}">${meta.icon}</div>
               <div class="explore-category-card-text">
                 <div class="explore-category-card-title">${displayName}</div>
@@ -1535,63 +1535,15 @@ async function loadCategoryLessonsView(categoryId, categoryName) {
 
   grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Loading...</div>';
 
-  try {
-    const data = await loadCategories();
-    const categories = data.categories || [];
-    const parentCategory = categories.find(c => c.id === categoryId);
-
-    if (!parentCategory) {
-      grid.innerHTML = '<p style="color:#f00;text-align:center;">Category not found</p>';
-      return;
-    }
-
-    const CHEVRON = `<svg class="explore-category-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>`;
-
-    // Display subcategories with same horizontal card layout as main categories
-    const subcategoryCards = parentCategory.subCategories.map((subFolder) => {
-      const normFolder = subFolder.replace(/_(FINISHEDEDITED_FINISHEDEDIT|FINISHEDEDITED|FINISHEDEDIT|PARTIAL)$/i, '');
-      const meta = subcategoryMeta[subFolder] || subcategoryMeta[normFolder] || { icon: '📚', color: '#ede9fe' };
-      const rawName = normFolder.replace(/_/g, ' ');
-      const displayName = meta.name || toTitleCase(rawName);
-      const lessonCount = parentCategory.lessons
-        ? parentCategory.lessons.filter(l => l.subcategory === subFolder).length
-        : '';
-      return `
-        <div class="explore-category-card" onclick="loadSubcategoryLessons('${categoryId}', '${subFolder}', '${displayName}', '${categoryName}')">
-          <div class="explore-category-icon" style="background:${meta.color}">${meta.icon}</div>
-          <div class="explore-category-card-text">
-            <div class="explore-category-card-title">${displayName}</div>
-            ${lessonCount ? `<div class="explore-category-card-count">${lessonCount} lessons</div>` : ''}
-          </div>
-          ${CHEVRON}
-        </div>`;
-    }).join('');
-
-    grid.innerHTML = '<div class="explore-grid">' + subcategoryCards + '</div>';
-  } catch (error) {
-    console.error('Error:', error);
-    grid.innerHTML = '<p style="color:#f00;text-align:center;">Failed to load subcategories</p>';
-  }
-}
-
-async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategoryName, parentCategoryName) {
-  const grid = document.getElementById('topicsGrid');
-  window.scrollTo({ top: 0, behavior: 'instant' });
-  setExploreBack(() => loadCategoryLessonsView(categoryId, parentCategoryName));
-  setExploreTitle(subcategoryName);
-
-  grid.innerHTML = '<div style="text-align:center;color:#bbb;padding:40px 0;">Loading...</div>';
+  const ACCENT_COLORS = [
+    '#667eea','#f59e0b','#10b981','#ef4444','#8b5cf6',
+    '#06b6d4','#f97316','#ec4899','#14b8a6','#6366f1'
+  ];
 
   try {
     const lessons = await loadCategoryLessons(categoryId);
-    const subcategoryLessons = lessons.filter(l => l.subcategory === subcategoryFolder);
 
-    const ACCENT_COLORS = [
-      '#667eea','#f59e0b','#10b981','#ef4444','#8b5cf6',
-      '#06b6d4','#f97316','#ec4899','#14b8a6','#6366f1'
-    ];
-
-    const rows = subcategoryLessons.map((lesson, idx) => {
+    const rows = lessons.map((lesson, idx) => {
       const color = ACCENT_COLORS[idx % ACCENT_COLORS.length];
       const rawText = typeof lesson.lesson === 'string' ? lesson.lesson : (lesson.lesson?.learn || lesson.lesson?.overview || '');
       const lessonText = typeof rawText === 'string' ? rawText : '';
@@ -1601,7 +1553,7 @@ async function loadSubcategoryLessons(categoryId, subcategoryFolder, subcategory
         ? `<img class="lesson-thumb" src="${imgUrl}" alt="" loading="lazy" onerror="this.style.display='none'">`
         : '';
       return `
-      <div class="explore-category-row" data-lesson-idx="${lessons.indexOf(lesson)}" data-accent="${color}" onclick="selectLessonFromCard('${categoryId}', ${lessons.indexOf(lesson)})">
+      <div class="explore-category-row" data-lesson-idx="${idx}" data-accent="${color}" onclick="selectLessonFromCard('${categoryId}', ${idx})">
         <div class="lesson-accent-bar" style="background:${color};"></div>
         <div class="explore-category-info">
           <div class="explore-category-name">${cleanTitle(lesson.title, lesson.topic)}</div>
