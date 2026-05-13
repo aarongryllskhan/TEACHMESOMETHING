@@ -1127,38 +1127,38 @@ function loadTopics() {
 
 // Map category names to their dedicated images
 const categoryImages = {
-  'Science': 'Science.png',
-  'Biology': 'Biology.png',
-  'Medicine & Health': 'Medicine&Health.png',
-  'Animals & Nature': 'Animals&Nature.png',
-  'Marine & Ocean': 'Marine&Ocean.png',
-  'Space & Cosmos': 'Space&Cosmos.png',
-  'Earth & Environment': 'Earth&Environment.png',
-  'Technology & Innovation': 'Technology&Innovation.png',
-  'History & Exploration': 'History&Exploration.png',
-  'Culture & Arts': 'Culture&Arts.png',
-  'Philosophy & Consciousness': 'Philosophy&Consciousness.png',
-  'Mysteries & Unexplained': 'Mysteries&Unexplained.png',
-  'Society & Economics': 'Society&Economics.png',
-  'Sports & Records': 'Sports&Records.png'
+  'Science':                'Science.png',
+  'Biology':                'Biology.png',
+  'Medicine & Health':      'Medicine&Health.png',
+  'Mind & Psychology':      'Philosophy&Consciousness.png',
+  'Animals & Nature':       'Animals&Nature.png',
+  'Earth & Environment':    'Earth&Environment.png',
+  'Marine & Ocean':         'Marine&Ocean.png',
+  'Space & Cosmos':         'Space&Cosmos.png',
+  'History & Exploration':  'History&Exploration.png',
+  'Technology & Innovation':'Technology&Innovation.png',
+  'Culture & Arts':         'Culture&Arts.png',
+  'Society & Economics':    'Society&Economics.png',
+  'Mysteries & Unexplained':'Mysteries&Unexplained.png',
+  'Sports & Records':       'Sports&Records.png'
 };
 
 // Per-category colour theme — bg is the icon background, color is the icon tint
 const CATEGORY_COLORS = {
-  'Animals & Nature':           { bg: '#dcfce7', color: '#16a34a' },
-  'Biology':                    { bg: '#ccfbf1', color: '#0f766e' },
-  'Culture & Arts':             { bg: '#fce7f3', color: '#be185d' },
-  'Earth & Environment':        { bg: '#d1fae5', color: '#047857' },
-  'History & Exploration':      { bg: '#fef3c7', color: '#b45309' },
-  'Marine & Ocean':             { bg: '#dbeafe', color: '#1d4ed8' },
-  'Medicine & Health':          { bg: '#fee2e2', color: '#b91c1c' },
-  'Mysteries & Unexplained':    { bg: '#ede9fe', color: '#6d28d9' },
-  'Philosophy & Consciousness': { bg: '#e0e7ff', color: '#3730a3' },
-  'Science':                    { bg: '#cffafe', color: '#0e7490' },
-  'Society & Economics':        { bg: '#ffedd5', color: '#c2410c' },
-  'Space & Cosmos':             { bg: '#ddd6fe', color: '#5b21b6' },
-  'Sports & Records':           { bg: '#dcfce7', color: '#15803d' },
-  'Technology & Innovation':    { bg: '#dbeafe', color: '#1e40af' },
+  'Science':                { bg: '#cffafe', color: '#0e7490' },
+  'Biology':                { bg: '#ccfbf1', color: '#0f766e' },
+  'Medicine & Health':      { bg: '#fee2e2', color: '#b91c1c' },
+  'Mind & Psychology':      { bg: '#e0e7ff', color: '#3730a3' },
+  'Animals & Nature':       { bg: '#dcfce7', color: '#16a34a' },
+  'Earth & Environment':    { bg: '#d1fae5', color: '#047857' },
+  'Marine & Ocean':         { bg: '#dbeafe', color: '#1d4ed8' },
+  'Space & Cosmos':         { bg: '#ddd6fe', color: '#5b21b6' },
+  'History & Exploration':  { bg: '#fef3c7', color: '#b45309' },
+  'Technology & Innovation':{ bg: '#dbeafe', color: '#1e40af' },
+  'Culture & Arts':         { bg: '#fce7f3', color: '#be185d' },
+  'Society & Economics':    { bg: '#ffedd5', color: '#c2410c' },
+  'Mysteries & Unexplained':{ bg: '#ede9fe', color: '#6d28d9' },
+  'Sports & Records':       { bg: '#dcfce7', color: '#15803d' },
 };
 
 const CATEGORY_META = {
@@ -1247,13 +1247,9 @@ async function loadAllTopicsView(folderView) {
       // Folder view: all subcategory cards
       const cards = categories.flatMap(cat =>
         cat.subCategories.map(subFolder => {
-          const meta = subcategoryMeta[subFolder] || { icon: '📚', color: '#ede9fe' };
-          const rawName = subFolder
-            .replace(/_FINISHEDEDITED_FINISHEDEDIT$/, '')
-            .replace(/_FINISHEDEDITED$/, '')
-            .replace(/_FINISHEDEDIT$/, '')
-            .replace(/_PARTIAL$/, '')
-            .replace(/_/g, ' ');
+          const normFolder = subFolder.replace(/_(FINISHEDEDITED_FINISHEDEDIT|FINISHEDEDITED|FINISHEDEDIT|PARTIAL)$/i, '');
+          const meta = subcategoryMeta[subFolder] || subcategoryMeta[normFolder] || { icon: '📚', color: '#ede9fe' };
+          const rawName = normFolder.replace(/_/g, ' ');
           const displayName = meta.name || toTitleCase(rawName);
           return `
             <div class="explore-category-card" onclick="loadSubcategoryLessons('${cat.id}', '${subFolder}', '${displayName}', '${cat.name}')">
@@ -1521,6 +1517,7 @@ const subcategoryMeta = {
   'LITERATURE_WORLD_AUTHORS':                       { name: 'Literature & Authors',         icon: '📚', color: '#f06292' },
   'LANGUAGES_LINGUISTICS':                          { name: 'Languages & Linguistics',      icon: '🗣️', color: '#ec407a' },
   'ARCHITECTURE_BUILT_WONDERS':                     { name: 'Architecture',                 icon: '🏰', color: '#e91e63' },
+  'BEHAVIORAL_SCIENCE':                             { name: 'Behavioral Science',           icon: '🎭', color: '#d1c4e9' },
   'PHILOSOPHY_BIG_QUESTIONS':                       { name: 'Philosophy',                   icon: '🤔', color: '#e1f5fe' },
   'MYSTERIES_OF_CONSCIOUSNESS_THE_MIND':            { name: 'Consciousness & the Mind',     icon: '💭', color: '#b3e5fc' },
   'UNSOLVED_MYSTERIES_UNEXPLAINED_PHENOMENA':       { name: 'Unsolved Mysteries',           icon: '👻', color: '#fff9c4' },
@@ -1552,13 +1549,9 @@ async function loadCategoryLessonsView(categoryId, categoryName) {
 
     // Display subcategories with same horizontal card layout as main categories
     const subcategoryCards = parentCategory.subCategories.map((subFolder) => {
-      const meta = subcategoryMeta[subFolder] || { icon: '📚', color: '#ede9fe' };
-      const rawName = subFolder
-        .replace(/_FINISHEDEDITED_FINISHEDEDIT$/, '')
-        .replace(/_FINISHEDEDITED$/, '')
-        .replace(/_FINISHEDEDIT$/, '')
-        .replace(/_PARTIAL$/, '')
-        .replace(/_/g, ' ');
+      const normFolder = subFolder.replace(/_(FINISHEDEDITED_FINISHEDEDIT|FINISHEDEDITED|FINISHEDEDIT|PARTIAL)$/i, '');
+      const meta = subcategoryMeta[subFolder] || subcategoryMeta[normFolder] || { icon: '📚', color: '#ede9fe' };
+      const rawName = normFolder.replace(/_/g, ' ');
       const displayName = meta.name || toTitleCase(rawName);
       const lessonCount = parentCategory.lessons
         ? parentCategory.lessons.filter(l => l.subcategory === subFolder).length
