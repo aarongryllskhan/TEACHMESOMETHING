@@ -995,10 +995,18 @@ function initDailyCardSwipe() {
       c.style.transform = `translateX(-120vw) rotate(-22deg)`;
       c.style.opacity = '0';
       setTimeout(async () => {
-        c.style.transition = 'none';
-        c.style.transform = '';
-        c.style.opacity = '1';
         await getDailyLessonAuto();
+        const fresh = document.getElementById('dailyLessonCard');
+        if (fresh) {
+          fresh.style.transition = 'none';
+          fresh.style.transform = 'translateX(100vw)';
+          fresh.style.opacity = '0';
+          requestAnimationFrame(() => requestAnimationFrame(() => {
+            fresh.style.transition = 'transform 0.38s cubic-bezier(0.25,0.8,0.25,1), opacity 0.3s ease';
+            fresh.style.transform = '';
+            fresh.style.opacity = '1';
+          }));
+        }
       }, 340);
     } else if (currentX > SWIPE_THRESHOLD) {
       // → Swipe right: fly off right, open lesson
