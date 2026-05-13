@@ -961,19 +961,22 @@ function initDailyCardSwipe() {
   const card = document.getElementById('dailyLessonCard');
   if (!card) return;
 
-  // Remove any old listeners by cloning
+  // Remove old listeners by cloning
   const fresh = card.cloneNode(true);
   card.parentNode.replaceChild(fresh, card);
   const c = document.getElementById('dailyLessonCard');
 
-  let startX = 0, startY = 0, isDragging = false, currentX = 0;
-  const SWIPE_THRESHOLD = 80; // px to trigger skip
+  let startX = 0, startY = 0;
+  let currentX = 0, currentY = 0;
+  let isDragging = false, isHorizontal = null;
+  const SWIPE_THRESHOLD = 80;
 
   c.addEventListener('touchstart', e => {
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
-    isDragging = true;
     currentX = 0;
+    isDragging = true;
+    isHorizontal = null;
     c.style.transition = 'none';
   }, { passive: true });
 
@@ -981,39 +984,55 @@ function initDailyCardSwipe() {
     if (!isDragging) return;
     const dx = e.touches[0].clientX - startX;
     const dy = e.touches[0].clientY - startY;
-    // Only track horizontal swipes
-    if (Math.abs(dy) > Math.abs(dx)) return;
+
+    // Lock axis on first meaningful move
+    if (isHorizontal === null && (Math.abs(dx) > 4 || Math.abs(dy) > 4)) {
+      isHorizontal = Math.abs(dx) > Math.abs(dy);
+    }
+    if (!isHorizontal) return;
+
     currentX = dx;
-    const rotate = dx * 0.06;
+    const rotate = dx * 0.07;
     c.style.transform = `translateX(${dx}px) rotate(${rotate}deg)`;
-    c.style.opacity = Math.max(0.5, 1 - Math.abs(dx) / 300);
+    c.style.opacity = String(Math.max(0.6, 1 - Math.abs(dx) / 280));
   }, { passive: true });
 
-  c.addEventListener('touchend', e => {
+  c.addEventListener('touchend', () => {
     if (!isDragging) return;
     isDragging = false;
-    c.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+    c.style.transition = 'transform 0.32s cubic-bezier(.25,.8,.25,1), opacity 0.32s ease';
 
     if (currentX < -SWIPE_THRESHOLD) {
-      // Swiped left — fly card off screen then load new lesson
-      c.style.transform = `translateX(-120vw) rotate(-20deg)`;
+      // ← Swipe left: fly off left, load new topic
+      c.style.transform = `translateX(-120vw) rotate(-22deg)`;
       c.style.opacity = '0';
       setTimeout(async () => {
         c.style.transition = 'none';
         c.style.transform = '';
         c.style.opacity = '1';
         await getDailyLessonAuto();
-      }, 320);
+      }, 340);
+    } else if (currentX > SWIPE_THRESHOLD) {
+      // → Swipe right: fly off right, open lesson
+      c.style.transform = `translateX(120vw) rotate(22deg)`;
+      c.style.opacity = '0';
+      setTimeout(() => {
+        c.style.transition = 'none';
+        c.style.transform = '';
+        c.style.opacity = '1';
+        openDailyLesson();
+      }, 340);
     } else {
       // Not far enough — snap back
       c.style.transform = '';
       c.style.opacity = '1';
     }
+    currentX = 0;
   });
 
-  // Tap to open lesson (only if barely moved)
-  c.addEventListener('click', e => {
-    if (Math.abs(currentX) < 10) openDailyLesson();
+  // Tap = open (only if finger barely moved)
+  c.addEventListener('click', () => {
+    if (Math.abs(currentX) < 8) openDailyLesson();
   });
 }
 
