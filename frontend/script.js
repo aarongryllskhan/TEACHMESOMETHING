@@ -945,6 +945,8 @@ function displayDailyLessonCard(lesson) {
   initDailyCardSwipe();
 }
 
+let _animateCardIn = false;
+
 function initDailyCardSwipe() {
   const card = document.getElementById('dailyLessonCard');
   if (!card) return;
@@ -953,6 +955,19 @@ function initDailyCardSwipe() {
   const fresh = card.cloneNode(true);
   card.parentNode.replaceChild(fresh, card);
   const c = document.getElementById('dailyLessonCard');
+
+  // Slide in from the right if flagged (after swipe-left or back-from-lesson)
+  if (_animateCardIn) {
+    _animateCardIn = false;
+    c.style.transition = 'none';
+    c.style.transform = 'translateX(100vw)';
+    c.style.opacity = '0';
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      c.style.transition = 'transform 0.38s cubic-bezier(0.25,0.8,0.25,1), opacity 0.3s ease';
+      c.style.transform = '';
+      c.style.opacity = '1';
+    }));
+  }
 
   let startX = 0, startY = 0;
   let currentX = 0, currentY = 0;
@@ -991,22 +1006,12 @@ function initDailyCardSwipe() {
     c.style.transition = 'transform 0.32s cubic-bezier(.25,.8,.25,1), opacity 0.32s ease';
 
     if (currentX < -SWIPE_THRESHOLD) {
-      // ← Swipe left: fly off left, load new topic
+      // ← Swipe left: fly off left, load new topic sliding in from right
       c.style.transform = `translateX(-120vw) rotate(-22deg)`;
       c.style.opacity = '0';
-      setTimeout(async () => {
-        await getDailyLessonAuto();
-        const fresh = document.getElementById('dailyLessonCard');
-        if (fresh) {
-          fresh.style.transition = 'none';
-          fresh.style.transform = 'translateX(100vw)';
-          fresh.style.opacity = '0';
-          requestAnimationFrame(() => requestAnimationFrame(() => {
-            fresh.style.transition = 'transform 0.38s cubic-bezier(0.25,0.8,0.25,1), opacity 0.3s ease';
-            fresh.style.transform = '';
-            fresh.style.opacity = '1';
-          }));
-        }
+      setTimeout(() => {
+        _animateCardIn = true;
+        getDailyLessonAuto();
       }, 340);
     } else if (currentX > SWIPE_THRESHOLD) {
       // → Swipe right: fly off right, open lesson
@@ -2080,25 +2085,8 @@ function closeFullLesson() {
   // If opened from home, load a fresh card and slide it in from the right
   if (window._openedFromHome) {
     window._openedFromHome = false;
-    const card = document.getElementById('dailyLessonCard');
-    if (card) {
-      card.style.transition = 'none';
-      card.style.transform = 'translateX(100vw)';
-      card.style.opacity = '0';
-    }
-    getDailyLessonAuto().then(() => {
-      const c = document.getElementById('dailyLessonCard');
-      if (c) {
-        c.style.transition = 'none';
-        c.style.transform = 'translateX(100vw)';
-        c.style.opacity = '0';
-        requestAnimationFrame(() => requestAnimationFrame(() => {
-          c.style.transition = 'transform 0.38s cubic-bezier(0.25,0.8,0.25,1), opacity 0.3s ease';
-          c.style.transform = '';
-          c.style.opacity = '1';
-        }));
-      }
-    });
+    _animateCardIn = true;
+    getDailyLessonAuto();
     return;
   }
 
