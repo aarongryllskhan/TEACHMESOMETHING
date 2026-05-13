@@ -2011,7 +2011,7 @@ body.dark .all-topics-toggle {
 }
 
 .full-lesson-modal {
-  display: none;
+  display: flex;
   flex-direction: column;
   position: fixed;
   top: 0;
@@ -2021,6 +2021,18 @@ body.dark .all-topics-toggle {
   background: white;
   z-index: 2001;
   overflow: hidden;
+  /* Slide-in transition */
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1),
+              visibility 0s linear 0.35s;
+}
+
+.full-lesson-modal.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1),
+              visibility 0s linear 0s;
 }
 
 .full-lesson-modal[style*="display: block"] {
@@ -2352,7 +2364,8 @@ body.dark .explore-category-row { background: #1A2233; border-bottom-color: rgba
 body.dark .lesson-thumb { background: #253349; }
 body.dark .explore-category-name { color: #D9D9E3; }
 body.dark .explore-category-desc { color: #8B8B96; }
-body.dark .full-lesson-modal { background: #0B1220; }
+body.dark .full-lesson-modal,
+body.dark .full-lesson-modal.is-open { background: #0B1220; }
 body.dark .full-lesson-header { background: #0B1220; border-bottom-color: rgba(255,255,255,0.07); }
 body.dark .close-btn { color: #667eea; }
 body.dark .lesson-progress { color: #8B8B96; }

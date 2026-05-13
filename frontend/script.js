@@ -1983,6 +1983,7 @@ function displayFullLesson(lesson) {
     modal.className = 'full-lesson-modal';
     document.body.appendChild(modal);
   }
+  modal.classList.remove('is-open');
 
   const imageUrl = cleanImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image));
   const heroCredit = imageCreditHtml(lesson.imageCredit || (lesson.lesson && lesson.lesson.imageCredit));
@@ -2054,7 +2055,8 @@ function displayFullLesson(lesson) {
     </div>
   `;
 
-  modal.style.display = 'block';
+  // Trigger slide-in on next frame so the transition fires
+  requestAnimationFrame(() => requestAnimationFrame(() => modal.classList.add('is-open')));
   document.body.style.overflow = 'hidden';
 
   let readMarked = isLessonRead(lesson);
@@ -2076,7 +2078,7 @@ function closeFullLesson() {
   stopTTS();
   closeQuiz();
   const modal = document.getElementById('fullLessonModal');
-  if (modal) modal.style.display = 'none';
+  if (modal) modal.classList.remove('is-open');
   document.body.style.overflow = '';
 
   // Swap chevron → tick in-place so the read state shows immediately on the list
