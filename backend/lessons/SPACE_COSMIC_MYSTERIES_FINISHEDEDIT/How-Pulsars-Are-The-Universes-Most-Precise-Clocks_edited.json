@@ -1,40 +1,65 @@
 {
-  "topic": "Understanding Pulsars as Cosmic Timekeepers",
-  "title": "Pulsars: Exploring the Universe’s Most Precise Natural Clocks",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Pulsar_2.jpg/1280px-Pulsar_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail",
-  "summary": "Pulsars are rapidly spinning neutron stars that emit beams of radiation with extraordinary regularity. Their precision rivals atomic clocks, making them essential tools for studying gravity, testing relativity, and exploring some of the universe’s most extreme physics.",
+  "topic": "Pulsars and Precision Astrophysics",
+  "title": "How Pulsars Keep Time More Precisely Than Most Clocks",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Millisecond_Pulsar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "B. Saxton, NRAO/AUI/NSF",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Millisecond_Pulsar.jpg"
+  },
   "lesson": {
-    "learn": "Pulsars are highly magnetized neutron stars formed after massive stars explode in supernovae. As these collapsed stellar remnants spin, they emit focused beams of electromagnetic radiation from their magnetic poles. If those beams sweep across Earth, astronomers detect pulses of energy at highly regular intervals—hence the name pulsar.\n\nFirst discovered in 1967 by Jocelyn Bell Burnell and Antony Hewish, pulsars initially puzzled scientists because of their astonishing precision. Some rotate once every few seconds, while millisecond pulsars can spin hundreds of times each second.\n\nBecause their pulse timing is so stable, pulsars function like cosmic clocks. By measuring tiny irregularities in their timing, scientists can detect gravitational waves, study neutron star interiors, test Einstein’s theory of general relativity, and even search for planets beyond our solar system.",
-    "simpler": "Imagine a lighthouse spinning in the ocean, sending out flashes of light at perfectly timed intervals. Pulsars work similarly, except instead of visible light, they emit powerful radio waves, X-rays, or gamma rays across space.",
-    "keyTakeaway": "Pulsars are extraordinarily precise rotating neutron stars whose predictable signals allow scientists to measure cosmic events, study gravity, and understand extreme states of matter.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/NASA%E2%80%99s_Fermi_Mission_Finds_300_Gamma-Ray_Pulsars_%28SVS14434_-_pulsar_art_2%29.gif/960px-NASA%E2%80%99s_Fermi_Mission_Finds_300_Gamma-Ray_Pulsars_%28SVS14434_-_pulsar_art_2%29.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "deeperDive": "The incredible timing precision of pulsars comes from their immense density and angular momentum conservation. When a massive star collapses, it spins faster—similar to an ice skater pulling in their arms. This can create millisecond pulsars rotating over 700 times per second.\n\nBinary pulsars are especially valuable. In the Hulse-Taylor system, tiny orbital changes provided the first indirect evidence for gravitational waves, later confirmed directly by LIGO. Pulsar Timing Arrays now use networks of pulsars to search for low-frequency gravitational waves caused by supermassive black hole mergers.\n\nSome pulsars are also magnetars, possessing magnetic fields so powerful they can distort atoms and release enormous bursts of radiation. These objects push physics to its limits and serve as natural laboratories for studying matter under unimaginable pressure.",
-    "funFact": "Millisecond pulsars are so reliable that some scientists have proposed using them for deep-space navigation, essentially creating a galactic GPS.",
+    "learn": "Pulsars are rapidly rotating neutron stars that beam radiation into space like lighthouse beams. Every time one of those beams sweeps past Earth, we detect a pulse. Some pulsars rotate hundreds of times per second and do so with extraordinary regularity. That stability makes them among the most precise natural clocks known. Astronomers can predict their pulses so well that tiny deviations become scientifically useful, revealing planets, companion stars, gravitational waves, or subtle changes in the pulsar itself. Their reliability comes from the fact that a neutron star is a compact, rigid object with little internal wiggle compared with a normal star. As long as its rotation remains stable, the pulse pattern stays remarkably consistent. That is why pulsars are useful in tests of relativity, measurements of interstellar matter, and even experiments that hunt for low-frequency gravitational waves.",
+    "simpler": "A pulsar is a spinning neutron star that sends out regular flashes, and those flashes can be timed with astonishing accuracy.",
+    "keyTakeaway": "Pulsars are nature's timing machines because a compact, rapidly spinning neutron star can produce a pulse pattern stable enough to reveal everything from gravity effects to hidden companions and cosmic disturbances.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pulsar_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Elmi1966",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Pulsar_2.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/a/af/Crab_Nebula_pulsar_x-ray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Smithsonian Institution from United States",
+      "source": "Wikimedia Commons",
+      "license": "No restrictions",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Crab_Nebula_pulsar_x-ray.jpg"
+    },
+    "deeperDive": "A pulsar's precision is remarkable because it is not based on gears or electronics but on rotational stability. When a massive star's core collapses, the conservation of angular momentum makes the remnant spin faster and faster, and some objects later get spun up even more by stealing material from a companion. Millisecond pulsars are the extreme end of this process. Their pulse trains can be stable enough that astronomers notice slight delays caused by motion, gravity, or the interstellar medium. This is why pulsars are useful as physics laboratories. Timing a pulsar can show whether it has a planet, whether it sits in a binary system, or whether spacetime itself has been perturbed by passing gravitational waves. Networks of pulsars across the Milky Way may even help build a galaxy-scale detector for these ripples. In other words, pulsars are clocks, but they are also probes of the universe's structure and dynamics.",
+    "funFact": "Some pulsars keep time so well that their pulse drift over many years is smaller than the error of many human-made clocks.",
+    "references": [
+      "Pulsar timing and neutron-star astrophysics review literature.",
+      "Gravitational-wave detection by pulsar-timing arrays.",
+      "Wikimedia Commons metadata for pulsar imagery."
+    ],
     "keyElements": {
       "people": [
-        "Jocelyn Bell Burnell — Discovered the first pulsar.",
-        "Antony Hewish — Led the radio astronomy team during pulsar discovery.",
-        "Russell Hulse — Co-discovered the first binary pulsar.",
-        "Joseph Taylor — Used binary pulsars to test general relativity."
+        "Jocelyn Bell Burnell - Co-discovered pulsars and opened a new field of astronomy.",
+        "Astrophysicists - Use timing data to study gravity and stellar interiors.",
+        "Pulsar-timing array teams - Search for gravitational waves with many pulsars.",
+        "Radio astronomers - Detect the regular beams that make pulsars visible."
       ],
       "places": [
-        "Cambridge University — Site of the first pulsar discovery.",
-        "Arecibo Observatory — Major pulsar research center.",
-        "Harvard-Smithsonian Center for Astrophysics — Binary pulsar studies.",
-        "LIGO — Gravitational wave confirmation linked to pulsar predictions."
+        "The Crab Nebula - Home to one of the most famous pulsars.",
+        "Binary star systems - Common settings for recycled millisecond pulsars.",
+        "Radio observatories - Places where pulsar timing is measured.",
+        "The Milky Way - A map of pulsars helps trace our galaxy's structure."
       ],
       "years": [
-        "1967 — First pulsar discovered.",
-        "1974 — Binary pulsar discovery.",
-        "1990s — Discovery of numerous millisecond pulsars.",
-        "2010s — Pulsar timing arrays expand gravitational wave research."
+        "1967 - The first pulsars are identified.",
+        "1970s - Pulsars become central to tests of general relativity.",
+        "2000s - Millisecond pulsars are used as ultra-stable timing sources.",
+        "2020s - Pulsar timing arrays remain a major gravitational-wave strategy."
       ],
       "concepts": [
-        "Neutron Stars — Collapsed stellar remnants.",
-        "Pulsar Timing — Measuring ultra-precise pulses.",
-        "General Relativity — Gravity tested through pulsars.",
-        "Gravitational Waves — Confirmed through pulsar systems.",
-        "Magnetars — Extreme magnetic neutron stars."
+        "Pulse timing - Measuring the arrival time of each beam sweep.",
+        "Millisecond pulsar - A pulsar spinning hundreds of times per second.",
+        "Angular momentum - The rotational property conserved during collapse.",
+        "Timing residuals - Small differences between expected and observed pulse arrivals."
       ]
     }
   }

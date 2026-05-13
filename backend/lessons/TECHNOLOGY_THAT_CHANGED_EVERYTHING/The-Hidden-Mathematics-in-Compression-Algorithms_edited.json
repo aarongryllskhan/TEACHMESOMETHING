@@ -2,44 +2,64 @@
   "topic": "The Hidden Math That Shrinks Your Digital World",
   "title": "How Compression Algorithms Use Mathematics to Store More, Stream Faster, and Save Space",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Caja_del_Cartucho_Iomega_Zip_100.jpg/960px-Caja_del_Cartucho_Iomega_Zip_100.jpg?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail",
-  "summary": "Every photo, song, video stream, and downloaded file depends on mathematical systems that make data smaller without destroying usefulness. Compression algorithms transformed digital life by reducing storage demands and transmission costs, allowing the modern internet, streaming, and portable computing revolution.",
+  "imageCredit": {
+    "creator": "Koffermejia",
+    "source": "Wikimedia Commons",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Caja_del_Cartucho_Iomega_Zip_100.jpg"
+  },
   "lesson": {
-    "learn": "Compression algorithms reduce the size of digital data by identifying patterns, redundancy, and statistical structure within information. Rather than storing every bit exactly as-is, many algorithms encode repeated or predictable patterns more efficiently.\n\nAt the heart of compression is information theory, especially Claude Shannon’s concept of entropy, which defines the theoretical minimum number of bits needed to represent information based on unpredictability. Highly repetitive data can be compressed significantly, while highly random data cannot.\n\nLossless compression methods, such as ZIP or PNG, preserve every original bit so data can be perfectly reconstructed. Lossy compression methods, such as JPEG, MP3, or video codecs, selectively remove less perceptible information to achieve much smaller sizes.",
-    
-    "image2": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Huffman_coding_visualisation.svg/960px-Huffman_coding_visualisation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    
-    "simpler": "Compression is like rewriting a long message using shortcuts. If a sentence repeats often, instead of writing it every time, you create a shorter symbol that stands for it.",
-    
-    "keyTakeaway": "Compression works because mathematics can identify structure and redundancy, allowing data to be represented more efficiently than raw storage.",
-    
-    "deeperDive": "One major breakthrough came from Abraham Lempel and Jacob Ziv, whose LZ algorithms formed the basis for many modern systems including ZIP, GIF, and PNG. Their approach replaced repeated sequences with references to earlier occurrences.\n\nHuffman coding, developed by David Huffman, further improved efficiency by assigning shorter binary codes to common symbols and longer codes to rare ones.\n\nModern media compression systems such as JPEG, MP3, H.264, and HEVC combine probability, transform mathematics, and perceptual modeling. For example, JPEG uses the Discrete Cosine Transform (DCT) to separate visual information into frequency components, allowing less noticeable details to be discarded.\n\nStreaming platforms, cloud storage, satellite imaging, and AI systems all depend on increasingly advanced compression frameworks.\n\nWithout compression, high-resolution video streaming, global cloud systems, and smartphone storage capacities would be dramatically more limited.",
-    "funFact": "A raw uncompressed HD movie could require hundreds of gigabytes, but compression can shrink it enough to stream instantly over the internet.",
+    "learn": "Compression algorithms use mathematics to represent data more efficiently. The goal is not to change the meaning of the information, but to remove redundancy so that files take up less space or travel faster. That matters for images, audio, video, backups, and almost every digital service. The trick is to find patterns: repeated symbols, predictable sequences, or structures that can be encoded in fewer bits without losing what matters. Compression works because information is not evenly distributed. Some symbols appear often, others rarely, and some patterns can be described more compactly than they can be written out in full. Mathematics turns that observation into practical storage savings.",
+    "simpler": "Compression uses math to remove unnecessary repetition from data so files become smaller and faster to handle.",
+    "keyTakeaway": "Compression matters because mathematics can identify what is redundant and encode it more efficiently, letting digital systems store and move far more information.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Huffman_tree.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Dcoetzee",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Huffman_tree.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Decoding_a_Folded_Reed-Solomon_Code.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Madhurasuresh",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Decoding_a_Folded_Reed-Solomon_Code.png"
+    },
+    "deeperDive": "Different compression methods exploit different kinds of structure. Huffman coding assigns shorter codes to more frequent symbols, while other methods use dictionaries, prediction, or transforms to squeeze out more redundancy. Lossless compression preserves the exact original data, which is critical for text, code, and many kinds of files. Lossy compression goes further by discarding information the human eye or ear is unlikely to notice, which is why it is common in images, audio, and video. At a deeper level, compression is a conversation between probability and representation. If some patterns are more likely than others, then efficient encoding should reflect that imbalance. That is why compression is so central to modern computing: it lets the same storage and bandwidth carry far more useful content.",
+    "funFact": "A good compression algorithm can make a file much smaller without changing the parts people actually need to use.",
+    "references": [
+      "Information theory and compression algorithm references.",
+      "Huffman coding, entropy, and lossless/lossy compression literature.",
+      "Wikimedia Commons image metadata for coding diagrams."
+    ],
     "keyElements": {
       "people": [
-        "Claude Shannon — Founder of information theory and entropy mathematics.",
-        "Abraham Lempel — Co-creator of foundational Lempel-Ziv compression methods.",
-        "Jacob Ziv — Co-creator of LZ compression algorithms.",
-        "David Huffman — Developed Huffman coding for optimal symbol encoding."
+        "David Huffman - Developed a foundational compression method.",
+        "Information theorists - Study how to encode data efficiently.",
+        "Software engineers - Build compression into file formats and apps.",
+        "Media engineers - Use compression to stream audio, video, and images."
       ],
       "places": [
-        "Bell Labs, USA — Birthplace of modern information theory.",
-        "MIT, Massachusetts, USA — Major center for computational mathematics.",
-        "Stanford University, USA — Important hub for compression and signal processing research.",
-        "ISO/IEC Standards Organizations — Developers of global compression standards."
+        "Storage systems - Where compression saves space.",
+        "Networks - Where compression reduces bandwidth needs.",
+        "Media pipelines - Where images and audio are compressed on the fly.",
+        "Archives and backups - Where efficient storage matters most."
       ],
       "years": [
-        "1948 — Claude Shannon publishes information theory.",
-        "1952 — Huffman coding is developed.",
-        "1977 — Lempel-Ziv algorithms introduced.",
-        "1990s–present — JPEG, MP3, and advanced video codec expansion."
+        "1950s - Information theory formalizes efficient coding ideas.",
+        "1960s-1970s - Practical compression methods spread through computing.",
+        "1990s-2000s - Compression becomes central to the internet and media.",
+        "2020s - Compression remains essential for cloud storage and streaming."
       ],
       "concepts": [
-        "Entropy — Mathematical limit of compressibility.",
-        "Lossless Compression — Perfect reconstruction without data loss.",
-        "Lossy Compression — Reduced size by removing less critical data.",
-        "Huffman Coding — Probability-based efficient binary encoding.",
-        "Lempel-Ziv Compression — Pattern-reference compression system.",
-        "Transform Coding — Mathematical transformation for media compression."
+        "Redundancy - Repetition that can often be removed.",
+        "Entropy - A measure of uncertainty and information content.",
+        "Lossless compression - Shrinking data without losing any information.",
+        "Lossy compression - Shrinking data by accepting controlled loss."
       ]
     }
   }

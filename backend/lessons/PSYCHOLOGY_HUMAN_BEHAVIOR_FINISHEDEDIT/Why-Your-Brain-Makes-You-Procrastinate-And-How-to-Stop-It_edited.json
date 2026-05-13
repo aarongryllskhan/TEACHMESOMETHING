@@ -1,35 +1,67 @@
 {
   "topic": "Why-Your-Brain-Makes-You-Procrastinate-And-How-to-Stop-It",
-  "title": "Understanding the Methods Behind Procrastination: Unpacking the Complexities",
+  "title": "Why Your Brain Makes You Procrastinate",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Procrastination_Cycle_%28Procrastination%2C_and_how_to_beat_it%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "U3036254",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Procrastination_Cycle_(Procrastination,_and_how_to_beat_it).png"
+  },
   "lesson": {
-    "learn": "Procrastination is a pervasive phenomenon affecting approximately 95% of individuals worldwide (Hofmann, 2017). It is not solely a matter of laziness or lack of motivation but rather a complex cognitive process involving various psychological factors. To grasp this concept, let's examine a pertinent example: in 1975, psychologist Thomas Kinsbourne first introduced procrastination as a separate field of study. Since then, researchers have made significant strides in identifying its underlying causes, including perfectionism (Flett, 1995), lack of clear goals (Austin, 1985), and difficulties in self-regulation (Tice & Baumeister, 1997). Furthermore, studies have shown that individuals who experience higher levels of anxiety tend to engage in more severe procrastination behaviors (Spielberger, 1987). This intricate interplay of factors is crucial for developing effective interventions. For instance, implementing techniques like the Pomodoro Technique (Cirillo, 2006) or using mindfulness practices (Hofmann et al., 2010) can help individuals stay focused and on track. By recognizing the cognitive biases that underlie procrastination, we can develop strategies to overcome them. For example, reframing negative thought patterns and acknowledging the immediate gratification our brains crave can facilitate progress towards long-term goals.",
-    "simpler": "Imagine a GPS system leading you off course due to unforeseen detours or road closures. Similarly, our brains can get sidetracked by various stimuli, causing us to deviate from our objectives. By understanding the underlying causes and consequences of procrastination, we can adopt effective strategies to overcome this obstacle and achieve success.",
-    "keyTakeaway": "Procrastination is not solely a personal failing but a complex psychological process amenable to change through the application of evidence-based strategies and a nuanced understanding of the underlying cognitive mechanisms.",
-    "deeperDive": "Recent studies have highlighted the significance of environmental influences, such as distractions, time management skills, and social pressures, in contributing to procrastination (Klingsberg, 1999). Furthermore, research has shown that procrastination can have severe consequences, including decreased productivity, reduced job satisfaction, and even mental health issues (Steel, 2007). By recognizing these factors, we can develop targeted interventions to mitigate their impact. Moreover, incorporating innovative strategies, such as gamification (Kivetz & Guéguen, 2006) or task segmentation (Dunlosky et al., 2013), can enhance our ability to tackle complex tasks and achieve our objectives.",
-    "funFact": "Not only students, but also professionals and entrepreneurs, are affected by procrastination, resulting in significant losses in productivity and revenue. A study conducted by the American Psychological Association found that over 95% of individuals experience procrastination at some point in their lives (APA, 2010).",
+    "learn": "Procrastination is usually a conflict between short-term mood repair and long-term goals. When a task feels unpleasant, uncertain, or effortful, the brain leans toward whatever brings immediate relief, even if the delay will make things harder later. That is why procrastination feels irrational in hindsight but strangely logical in the moment. The problem is not that the future does not matter; it is that the present discomfort feels heavier to the brain than the distant cost. Starting is often the hardest part because the brain has not yet felt any reward, so the task feels like pure expense before it feels like progress.",
+    "simpler": "Procrastination happens when your brain chooses quick relief over a later payoff. The task stays important, but starting it feels too uncomfortable right now.",
+    "keyTakeaway": "Procrastination is best understood as a timing problem in motivation: the brain repeatedly favors immediate relief until pressure, structure, or habits finally make action easier than avoidance.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Frustrated_man_at_a_desk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "LaurMG.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Frustrated_man_at_a_desk.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Desk_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Simkinseled",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Desk_Clock.jpg"
+    },
+    "deeperDive": "Researchers often explain procrastination through delay discounting, the tendency to value immediate rewards more than delayed ones. That helps explain why checking a phone, making a snack, or cleaning the wrong part of a room can feel more attractive than starting the real task. The avoidance is not random; it is an effort to reduce discomfort in the moment. The trouble is that relief can reinforce the habit. When a person delays and feels less anxious for a few minutes, the brain learns that postponement works, which makes the pattern more likely to repeat. This is why procrastination can become cyclical and why deadlines often create a last-minute burst of energy. The most effective fixes usually change the emotional math instead of relying on willpower alone. Breaking work into smaller steps, lowering friction, pre-committing to a start time, and making the first move tiny enough to feel safe all help the brain choose action before the task becomes a crisis. That is also why a useful plan has to be easy to begin, not just noble on paper. A better start can be more valuable than a perfect plan, because momentum often matters more than motivation.",
+    "funFact": "The closer a deadline gets, the more the brain can treat the task like a relief problem instead of a work problem, which is one reason panic sometimes produces sudden productivity.",
+    "references": [
+      "Zentall, Basic Behavioral Processes Involved in Procrastination (2021).",
+      "Rozental et al., Targeting Procrastination Using Psychological Treatments: A Systematic Review and Meta-Analysis (2018).",
+      "Steel, The Nature of Procrastination (classic motivation research).",
+      "Behavioral work on delay discounting and negative reinforcement."
+    ],
     "keyElements": {
       "people": [
-        "Thomas Kinsbourne - Psychologist who first introduced procrastination as a separate field of study in 1975.",
-        "Charles Spielberger - Developed the State-Trait Anxiety Inventory to measure anxiety levels associated with procrastination in 1987.",
-        "Viktor Frankl - Psychologist who developed logotherapy to help individuals find meaning and purpose.",
-        "Daniel Goleman - Expert on emotional intelligence and its impact on productivity."
+        "Thomas R. Zentall - Psychologist who linked procrastination to basic behavioral processes such as delay discounting.",
+        "Piers Steel - Researcher known for major work on procrastination and motivation.",
+        "Alexander Rozental - Clinical psychologist who studied psychological treatments for procrastination.",
+        "Gerhard Andersson - Researcher involved in evidence-based treatment work for procrastination."
       ],
       "places": [
-        "Stanford University - Where researchers have conducted extensive studies on procrastination and motivation.",
-        "The Massachusetts Institute of Technology (MIT) - Where scientists have developed innovative strategies for improving focus and concentration."
+        "University of Kentucky - Home institution for Zentall's behavioral research.",
+        "University of Calgary - A major center in the study of procrastination and motivation.",
+        "Karolinska Institutet - Site of clinical research on procrastination treatments.",
+        "University College London - A place where applied clinical psychology research on procrastination has been reviewed."
       ],
       "years": [
-        "1975 - When psychologist Thomas Kinsbourne first introduced procrastination as a separate field of study.",
-        "1985 - When Austin's research on goal-setting highlighted the importance of clear objectives in overcoming procrastination.",
-        "1987 - When Dr. Charles Spielberger developed the State-Trait Anxiety Inventory to measure anxiety levels associated with procrastination."
+        "2007 - Motivational models help explain why procrastination persists.",
+        "2018 - A systematic review tests psychological treatments for procrastination.",
+        "2021 - Behavioral-process research clarifies how delay and relief keep procrastination going.",
+        "2024 - Newer treatment reviews keep focusing on practical anti-procrastination strategies."
       ],
       "concepts": [
-        "Cognitive dissonance theory",
-        "Self-efficacy theory",
-        "Perfectionism",
-        "Time management skills",
-        "Pomodoro Technique",
-        "Mindfulness practices"
+        "Delay discounting - Valuing immediate relief more than a later reward.",
+        "Negative reinforcement - A habit strengthened because avoidance briefly removes discomfort.",
+        "Task aversiveness - The unpleasantness that makes starting feel harder than delaying.",
+        "Implementation intentions - Specific if-then plans that make action easier to trigger.",
+        "Deadline pressure - The urgency that can temporarily overpower avoidance."
       ]
     }
   }

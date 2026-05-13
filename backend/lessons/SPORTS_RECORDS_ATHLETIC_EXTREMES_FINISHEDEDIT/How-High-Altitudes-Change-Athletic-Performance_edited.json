@@ -2,36 +2,64 @@
   "topic": "Why Thin Air Changes Human Limits",
   "title": "High Altitude and Athletic Performance: The Physics of Oxygen, Endurance, and Human Adaptation",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/960px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-  "summary": "At high altitudes, reduced air pressure means less oxygen is available with every breath, forcing the human body to operate under physiological stress. This dramatically affects endurance, recovery, and performance—but with adaptation, altitude can also become a powerful training tool.",
+  "imageCredit": {
+    "creator": "Mount_Everest_as_seen_from_Drukair2.jpg : shrimpo1967 derivative work: Papa Lima Whiskey 2 ( talk )",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg"
+  },
   "lesson": {
-    "learn": "As altitude increases, atmospheric pressure decreases, which lowers the partial pressure of oxygen in the air. Although oxygen still makes up about 21% of the atmosphere, each breath delivers fewer oxygen molecules to the lungs. This reduced oxygen availability—known as hypoxia—makes it harder for muscles to produce energy aerobically.\n\nFor athletes, this often means reduced VO2 max, faster fatigue, slower recovery, and decreased endurance performance, especially above roughly 1,500 meters (5,000 feet). Sprint and explosive events may be less affected, and in some cases can even benefit slightly from lower air resistance, but endurance sports typically suffer most in low-oxygen conditions.",
-    "simpler": "Think of altitude like trying to power a car engine with less fuel in every cycle. Your muscles still work, but they receive less oxygen, so sustaining performance becomes much harder.",
-    "keyTakeaway": "The biggest performance challenge at altitude is oxygen scarcity—not weaker muscles, but reduced aerobic energy production caused by thinner air.",
+    "learn": "High altitude changes athletic performance because the air contains less available oxygen as you gain elevation. Even if the percentage of oxygen stays the same, the lower air pressure means each breath delivers less oxygen to the body. That reduces aerobic capacity, makes hard efforts feel harder, and forces athletes to work with less margin for error. At altitude, the same pace that feels manageable at sea level can quickly become punishing. This is why altitude training is such a serious subject in sport. Some athletes go high to stimulate adaptation, while others compete high and simply try to survive the physiological stress. The body can adjust by producing more red blood cells and improving oxygen delivery, but those changes take time and do not erase the challenge completely.",
+    "simpler": "At high altitude, the air has less usable oxygen, so athletes tire faster and have to adapt if they want to perform well.",
+    "keyTakeaway": "Altitude changes performance because oxygen becomes harder to obtain, which forces the body to compensate through adaptation, pacing, and smarter training rather than raw effort alone.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Top_of_Atmosphere.jpg/1920px-Top_of_Atmosphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-    "deeperDive": "When exposed gradually to high altitude, the body begins acclimatization: breathing rate increases, kidneys release erythropoietin (EPO), and red blood cell production rises, improving oxygen transport. This is why altitude training methods like “live high, train low” became popular among endurance athletes.\n\nThe 1968 Mexico City Olympics, held at approximately 2,240 meters (7,350 feet), demonstrated altitude’s mixed effects: endurance events became more difficult, while sprinting and long jump performances benefited from reduced drag.\n\nModern sports science uses altitude chambers, hypoxic tents, and mountain camps to stimulate these adaptations. However, too much altitude can impair training quality because athletes may not sustain sufficient exercise intensity.",
-    "funFact": "The men’s long jump world record set by Bob Beamon at the 1968 Mexico City Olympics was helped in part by lower air resistance at altitude—and it stood for 23 years.",
+    "learnImageCredit": {
+      "creator": "NASA Earth Observatory",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Top_of_Atmosphere.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Mountain_running.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Sondrekv",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mountain_running.JPG"
+    },
+    "deeperDive": "The science is less about the mountain itself than about pressure. Lower pressure means oxygen molecules are less available with each breath, which can reduce VO2 max and make the same workout feel harder. Athletes often respond by acclimatizing over time, but there is always a tradeoff: altitude can help build adaptation, yet it can also suppress intensity, sleep quality, and recovery if managed badly. That is why many elite programs use a live-high, train-low approach, trying to get the benefits of adaptation without giving up all the quality of low-altitude training. Altitude also affects strategy. Distance runners must pace more carefully, and even explosive sports can feel different because recovery between efforts is slower. In short, altitude is not a magic boost or a guaranteed penalty. It is an environmental constraint that can be used well or badly depending on how athletes and coaches respond to it.",
+    "funFact": "A workout that feels moderate at sea level can feel punishing at altitude because every breath carries less oxygen.",
+    "references": [
+      "Exercise physiology and altitude adaptation review literature.",
+      "Research on live-high, train-low training strategies.",
+      "Wikimedia Commons image metadata for mountain and altitude imagery."
+    ],
     "keyElements": {
       "people": [
-        "George Brooks — Exercise physiologist known for research on altitude adaptation and endurance metabolism.",
-        "Per-Olof Åstrand — Pioneer in exercise physiology and aerobic performance science.",
-        "Bob Beamon — Olympic athlete whose historic jump highlighted altitude’s effect on performance."
+        "Exercise physiologists - Study how the body responds to thinner air.",
+        "Endurance coaches - Use altitude camps to build adaptation.",
+        "Distance runners - Often feel altitude effects most strongly.",
+        "Mountain athletes - Compete where oxygen availability is reduced."
       ],
       "places": [
-        "Mexico City, Mexico — Site of the 1968 high-altitude Olympics.",
-        "La Paz, Bolivia — One of the world’s highest major cities, often used in altitude physiology discussions.",
-        "Iten, Kenya — High-altitude training hub for elite distance runners."
+        "High-elevation training camps - Where altitude adaptation is developed.",
+        "Mountain race courses - Where the environment becomes part of the challenge.",
+        "Thin-air venues - Places where oxygen delivery is limited.",
+        "Sea level - The comparison point for better oxygen availability."
       ],
       "years": [
-        "1968 — Mexico City Olympics showcase altitude’s major athletic effects.",
-        "1990s — Expanded sports science research on altitude acclimatization.",
-        "Modern era — Widespread use of altitude chambers and hypoxic training systems."
+        "1960s - Altitude training becomes a major modern sports strategy.",
+        "1970s-1980s - Scientists formalize adaptation models.",
+        "1990s-2000s - Live-high, train-low becomes popular in elite sport.",
+        "2020s - Altitude remains a key factor in endurance planning."
       ],
       "concepts": [
-        "Hypoxia — Reduced oxygen availability in tissues.",
-        "VO2 Max — Maximum oxygen utilization during intense exercise.",
-        "Acclimatization — Physiological adaptation to altitude.",
-        "Erythropoietin (EPO) — Hormone stimulating red blood cell production.",
-        "Live High, Train Low — Altitude training strategy balancing adaptation and performance."
+        "Partial pressure - The usable pressure that makes oxygen available for breathing.",
+        "VO2 max - A measure of how much oxygen the body can use during intense exercise.",
+        "Acclimatization - The body's short-term adjustment to altitude.",
+        "Live-high, train-low - A strategy that seeks adaptation without sacrificing workout quality."
       ]
     }
   }

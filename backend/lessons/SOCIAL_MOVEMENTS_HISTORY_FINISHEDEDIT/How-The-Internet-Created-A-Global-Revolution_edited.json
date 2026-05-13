@@ -1,47 +1,71 @@
 {
-  "topic": "The Internet's Impact on Global Communication and Revolution",
-  "title": "How the Internet Transformed Global Connectivity and Activism",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/WorldWideWeb.1.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20120911191128",
-  "summary": "The internet transformed humanity by creating instant global communication, democratizing access to information, and reshaping activism, journalism, commerce, and political movements worldwide.",
+  "topic": "How the Internet Created a Global Revolution",
+  "title": "How the Internet Rewired the World",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/WorldWideWeb.1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Ck_mpk",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:WorldWideWeb.1.png"
+  },
   "lesson": {
-    "learn": "The internet began as a Cold War-era research network and evolved into the most influential communication system in human history. Starting with ARPANET in 1969, the development of packet switching, TCP/IP protocols, and eventually the World Wide Web transformed isolated computer systems into a global digital infrastructure.\n\nToday, billions of people use the internet for communication, education, commerce, activism, and entertainment. Information can move across continents in milliseconds, allowing individuals, organizations, and governments to interact on an unprecedented scale.\n\nThis connectivity revolutionized activism by enabling social movements to organize rapidly, share uncensored information, and mobilize international support. Online platforms gave marginalized communities new opportunities to bypass traditional gatekeepers such as governments or major media outlets.\n\nAt the same time, the internet introduced new challenges including misinformation, surveillance, cyberwarfare, and unequal access—showing that digital power can both liberate and destabilize societies.",
-    "simpler": "Imagine the internet as the world’s largest communication web—like billions of phones, libraries, newspapers, and meeting places all connected instantly. Before it, news and activism moved slowly. Now, a single message, video, or hashtag can reach millions within minutes.",
-    "keyTakeaway": "The internet’s greatest societal impact is its ability to instantly connect people and ideas across the globe, dramatically expanding communication and activism while also creating new risks around misinformation, control, and inequality.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg",
-    "deeperDive": "The technological foundations of the internet emerged through ARPANET, funded by the U.S. Department of Defense, which first connected computers using packet-switching methods. In the 1970s, Vint Cerf and Bob Kahn developed TCP/IP, allowing diverse networks to communicate. On January 1, 1983, TCP/IP became the internet’s standard protocol.\n\nIn 1989–1991, Tim Berners-Lee created the World Wide Web, HTML, HTTP, and the first web browser, making the internet accessible to ordinary users.\n\nBy the 2000s, social media platforms transformed communication from static websites into interactive mass participation systems. During events such as the Arab Spring (2010–2011), protesters used Facebook, Twitter, and YouTube to coordinate demonstrations, document state violence, and gain international visibility.\n\nThe internet also revolutionized journalism through blogs, livestreams, and citizen reporting. Movements such as #MeToo, Black Lives Matter, and global climate activism relied heavily on digital mobilization.\n\nHowever, the same infrastructure also enables propaganda, algorithmic polarization, digital surveillance, and cybercrime, making internet governance one of the defining issues of the modern era.",
-    "funFact": "Ray Tomlinson sent the first network email in 1971 and chose the “@” symbol to separate the user name from the destination computer.",
+    "learn": "The internet transformed the world by linking computers, and eventually people, into a network that could move information almost instantly. What began as research infrastructure became a social, economic, and political force that changed how people communicate, shop, learn, organize, and remember events. The web made publishing easier, social media made sharing faster, and smartphones made connectivity constant. That combination gave ordinary people tools once reserved for institutions: they could broadcast news, coordinate protests, build communities, and create markets without asking permission from a gatekeeper. The internet did not just speed up communication. It changed who gets to speak, who gets to organize, and who gets to shape public attention.",
+    "simpler": "The internet connected the world so people could share information instantly. It made communication faster, but it also gave activists, businesses, and governments new ways to influence people.",
+    "keyTakeaway": "The internet changed society by collapsing distance, lowering the cost of publishing, and giving ordinary people the power to communicate and organize at global scale.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "The Opte Project",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Internet_map_1024.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "ARPANET",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Arpanet_logical_map,_march_1977.png"
+    },
+    "deeperDive": "The internet’s power came from layers. ARPANET proved that packet-switched networks could link distant computers reliably. TCP/IP then gave those networks a common language, and the World Wide Web turned the technical network into something ordinary people could browse. As pages, links, search engines, and later social platforms spread, the internet moved from infrastructure to environment. That shift mattered because the internet changed not only communication but coordination. News could be distributed without a printing press, organizing could happen without a headquarters, and public attention could be redirected without a broadcast tower. At the same time, the same system created new vulnerabilities: misinformation scales quickly, surveillance becomes easier, and attention can be manipulated by algorithms designed to maximize engagement rather than truth. So the internet is not a simple story of freedom. It is a story of access, leverage, and control, all happening at once on the same network.",
+    "funFact": "The first network email was sent in 1971, and the @ sign became famous because it neatly separated one account from another machine.",
+    "references": [
+      "Internet history and network architecture reference literature.",
+      "Studies on TCP/IP, the World Wide Web, and digital activism.",
+      "Wikimedia Commons image metadata for internet history visuals."
+    ],
     "keyElements": {
       "people": [
-        "Ray Tomlinson - Sent the first email",
-        "Vint Cerf - Co-developed TCP/IP",
-        "Bob Kahn - Co-developed TCP/IP",
-        "Tim Berners-Lee - Invented the World Wide Web",
-        "Mark Zuckerberg - Major figure in social media-era communication"
+        "Ray Tomlinson - Sent the first network email and popularized the @ symbol in addressing.",
+        "Vint Cerf - Helped design TCP/IP, the core internet language.",
+        "Bob Kahn - Co-developed the protocol structure that let networks interconnect.",
+        "Tim Berners-Lee - Created the World Wide Web, HTML, and HTTP.",
+        "Matt Britt - Created the classic OPTE internet map visual."
       ],
       "places": [
-        "ARPANET (United States) - First internet precursor",
-        "CERN (Switzerland) - Birthplace of the World Wide Web",
-        "Egypt - Major Arab Spring digital activism hub",
-        "Tunisia - Spark of Arab Spring protests",
-        "Global Social Media Platforms - Twitter, Facebook, YouTube"
+        "ARPANET - The early network that became the internet's ancestor.",
+        "CERN - The site where the World Wide Web was developed.",
+        "Silicon Valley - A major center for internet companies and infrastructure.",
+        "Tunisia - A symbolic starting point of networked Arab Spring activism.",
+        "Cairo - A major site of internet-driven public mobilization."
       ],
       "years": [
-        "1969 - ARPANET established",
-        "1971 - First email sent",
-        "1983 - TCP/IP adopted",
-        "1989 - World Wide Web proposed",
-        "1991 - Web becomes publicly accessible",
-        "2010–2011 - Arab Spring digital activism"
+        "1969 - ARPANET goes live.",
+        "1971 - The first network email is sent.",
+        "1983 - TCP/IP becomes the standard internet protocol.",
+        "1989 - The World Wide Web is proposed.",
+        "1991 - The web opens to public use.",
+        "2011 - Social media helps drive global political mobilization."
       ],
       "concepts": [
-        "Packet Switching - Data transmission method",
-        "TCP/IP - Internet communication protocol",
-        "World Wide Web - Public-facing web system",
-        "Global Communication - Instant worldwide connectivity",
-        "Digital Activism - Internet-enabled social movements",
-        "Citizen Journalism - Public-led reporting",
-        "Social Media - Interactive digital platforms",
-        "Misinformation - False or misleading online content"
+        "Packet switching - Breaking data into packets that travel independently.",
+        "TCP/IP - The common protocol family that lets networks talk to each other.",
+        "World Wide Web - The layer of links and pages that made the internet broadly usable.",
+        "Global communication - Instant communication across borders and time zones.",
+        "Digital activism - Organizing and protest through online tools.",
+        "Algorithmic feed - A system that shapes what users see and when."
       ]
     }
   }

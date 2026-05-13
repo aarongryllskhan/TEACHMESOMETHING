@@ -2,45 +2,65 @@
   "topic": "The Amazon Rainforest’s Climate Regulation Systems",
   "title": "The Amazon Rainforest: How Earth’s Largest Tropical Forest Shapes Weather, Water, and Climate",
   "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+  "imageCredit": {
+    "creator": "Unknown photographer on Unsplash",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "filePage": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+  },
   "lesson": {
-    "learn": "The Amazon rainforest is the largest tropical rainforest on Earth, covering roughly 5.5 million square kilometers across nine South American countries and containing about 10% of the planet’s known biodiversity. Its global importance is not primarily because it ‘produces 20% of the world’s oxygen’—a common misconception—but because it functions as one of Earth’s most powerful climate and hydrological regulators.\n\nThe Amazon acts as a vast atmospheric moisture engine through evapotranspiration—the combined process of water evaporating from soil and transpiring from plant leaves. Moisture entering from the Atlantic Ocean is recycled repeatedly by billions of trees, with large portions of rainfall re-released back into the atmosphere multiple times as air masses move inland. This process creates immense atmospheric moisture flows often referred to as ‘flying rivers,’ which help distribute rainfall across much of South America.\n\nBy recycling water at continental scale, the Amazon cools regional climates, supports agriculture far beyond the rainforest itself, and stabilizes weather systems. This means the Amazon not only responds to climate—it actively helps create and regulate it.",
-    "simpler": "The Amazon works like a giant natural climate machine: trees pull water from the ground, release it into the atmosphere, help form clouds, and generate rainfall that shapes ecosystems far beyond the forest.",
-    "keyTakeaway": "The Amazon’s greatest environmental role is not oxygen production myths, but its function as a massive water recycler, carbon reservoir, and climate stabilizer that influences regional and global systems.",
-    "deeperDive": "The Amazon’s climate influence depends on dense vegetation, solar heating, atmospheric circulation, and hydrology. Warm tropical temperatures drive rapid evaporation, while billions of trees pump moisture upward through transpiration. Atlantic trade winds transport water vapor inland, where it condenses into clouds and rain, sustaining one of Earth’s most productive ecosystems.\n\nScientists including Carlos Nobre and Paulo Artaxo have shown that deforestation can weaken this moisture cycle by reducing evapotranspiration, potentially disrupting rainfall across Brazil and neighboring nations. If forest loss and warming pass certain thresholds, major portions of the Amazon may risk transitioning toward drier savanna-like systems.\n\nThe Amazon also stores enormous carbon reserves in trees and soils, helping moderate atmospheric carbon dioxide levels. However, deforestation, wildfire, and climate stress increasingly threaten this carbon sink function.\n\nBeyond climate, the Amazon supports unparalleled biodiversity, Indigenous cultures, freshwater systems, and biogeochemical cycles, making it one of the most important ecological systems on Earth.",
-    "funFact": "A single large Amazon tree can release hundreds of liters of water vapor into the atmosphere each day, helping fuel the rainforest’s self-sustaining rainfall system.",
+    "learn": "The Amazon rainforest helps create its own weather because it releases huge amounts of water vapor into the atmosphere through evapotranspiration. Trees pull water from the soil and send it into the air, and the dense canopy slows wind, traps moisture, and promotes cloud formation. In effect, the forest is part of its own climate engine. The rain does not just fall on the Amazon; the Amazon helps make the rain.\nThat is why the forest matters far beyond its borders. Its water cycle influences regional rainfall, cloud patterns, and even broader climate systems. The rainforest is not only a place on a map. It is an active atmospheric machine.",
+    "simpler": "The Amazon helps make its own rain by sending water vapor into the air and creating conditions that favor clouds and precipitation.",
+    "keyTakeaway": "The Amazon rainforest is a climate system as much as a forest: its trees, moisture, and canopy work together to shape the weather above them.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Amazon_Rainforest_Brazil_Google_Earth_Timelapse_1984-2018.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/channel/UC2zHjOF9Womes-SEjdzTleA\">Google Earth</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Amazon_Rainforest_Brazil_Google_Earth_Timelapse_1984-2018.webm"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/80/Surface_water_cycle.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Mwtoews\" title=\"User:Mwtoews\">M. W. Toews</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Surface_water_cycle.svg"
+    },
+    "deeperDive": "Evapotranspiration is the key idea. Trees absorb water from the soil, move it upward, and release it from their leaves. When that happens across a vast forest, the atmosphere fills with moisture. The canopy also influences temperature and airflow, making cloud formation more likely. This is why deforestation can reduce rainfall and weaken the forest’s own climate-supporting cycle.\nScientists often describe the Amazon as a biogeophysical system because life, land, and atmosphere are so tightly connected. Losing forest cover can therefore create consequences that are both local and continental. The Amazon does not merely live inside a climate. It helps generate one.",
+    "funFact": "A mature rainforest can push huge amounts of water back into the atmosphere every day without any river ever leaving the ground.",
     "references": [
-      "National Geographic: Amazon climate and oxygen myth research.",
-      "Carlos Nobre climate studies.",
-      "Paulo Artaxo atmospheric chemistry research.",
-      "WWF Amazon Basin hydrological cycle data.",
-      "Amazon Conservation Association flying rivers studies."
+      "Amazon hydrology and evapotranspiration research.",
+      "Rainforest-climate interaction literature.",
+      "Wikimedia Commons image metadata for Amazon rainforest imagery."
     ],
     "keyElements": {
       "people": [
-        "Carlos Nobre — Climate scientist known for Amazon tipping point research.",
-        "Paulo Artaxo — Atmospheric physicist studying Amazon climate interactions.",
-        "Daniel Nepstad — Ecologist focused on Amazon deforestation and carbon cycles.",
-        "Yadvinder Malhi — Researcher in tropical ecosystem science."
+        "Climatologists - They study the Amazon’s influence on rainfall.",
+        "Ecologists - They track how the forest moves water and energy.",
+        "Indigenous communities - They have long understood the living landscape.",
+        "Atmospheric scientists - They model cloud formation and moisture transport."
       ],
       "places": [
-        "Amazon Basin — Largest tropical rainforest basin on Earth.",
-        "Brazil — Contains the majority of the Amazon rainforest.",
-        "Atlantic Ocean — Major moisture source feeding Amazon rainfall.",
-        "Manu National Park, Peru — Biodiversity-rich Amazonian reserve."
+        "The Amazon basin - The world’s largest tropical rainforest region.",
+        "Forest canopy - The upper layer that drives much of the moisture exchange.",
+        "River corridors - Water pathways tied to climate and ecology.",
+        "Deforested edges - Zones where climate effects become visible quickly."
       ],
       "years": [
-        "1970s — Large-scale deforestation accelerates.",
-        "2006 — Flying rivers concept gains broader scientific attention.",
-        "2019 — Global focus on Amazon fire and climate significance intensifies.",
-        "2020s — Increased tipping point research."
+        "1970s - Large-scale Amazon climate studies begin to expand.",
+        "1990s - Evapotranspiration becomes central to rainforest-climate research.",
+        "2010s - Deforestation effects on rainfall gain wider attention.",
+        "2020s - The Amazon is treated as a key climate-regulation system."
       ],
       "concepts": [
-        "Evapotranspiration — Water transfer from land and plants to atmosphere.",
-        "Flying Rivers — Atmospheric moisture transport driven by forests.",
-        "Carbon Sink — Natural system that absorbs carbon dioxide.",
-        "Rainfall Recycling — Repeated reuse of moisture in regional systems.",
-        "Biodiversity Hotspot — Ecosystem with extraordinary species richness.",
-        "Climate Tipping Point — Threshold of major ecological transformation."
+        "Evapotranspiration - Water released by plants into the air.",
+        "Canopy - The upper layer of the forest that shapes light and moisture.",
+        "Moisture recycling - Water reused within the same region.",
+        "Cloud formation - Condensation of water vapor into clouds.",
+        "Biogeophysical system - A system where life and physical processes interact."
       ]
     }
   }

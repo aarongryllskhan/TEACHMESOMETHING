@@ -2,43 +2,64 @@
   "topic": "The Invisible Discovery That Cut the Wires",
   "title": "How Radio Waves Escaped the Lab and Connected the Entire Planet",
   "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Farmer_listening_to_crystal_radio.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20130928205638",
-  "summary": "Wireless communication began not as an attempt to build phones, Wi-Fi, or radio, but as a theoretical revelation about invisible energy moving through space. The discovery of electromagnetic waves transformed human civilization by making instant global communication possible without physical connections.",
+  "imageCredit": {
+    "creator": "Unknown author Unknown author",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Farmer_listening_to_crystal_radio.jpg"
+  },
   "lesson": {
-    "learn": "In 1864, physicist James Clerk Maxwell mathematically unified electricity and magnetism into a single theory, predicting the existence of electromagnetic waves—self-propagating waves of energy that could travel through space at the speed of light. Maxwell’s equations suggested that light itself was part of a broader electromagnetic spectrum, meaning invisible waves could also exist beyond human vision.\n\nThis was revolutionary: it implied information might one day be transmitted wirelessly.\n\nIn the 1880s, Heinrich Hertz experimentally confirmed Maxwell’s prediction by generating and detecting radio waves in a laboratory. Hertz proved these waves were real, but he saw them mainly as scientific curiosity rather than practical technology.\n\nThe true leap came when inventors realized these invisible waves could carry signals across distance without wires.",
-    
-    "image2": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Guglielmo_Marconi.jpg/960px-Guglielmo_Marconi.jpg?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail",
-    
-    "simpler": "Wireless technology works by sending information through invisible electromagnetic waves instead of metal cables—like tossing messages through space using energy.",
-    
-    "keyTakeaway": "Wireless communication became possible when theoretical physics, experimental proof, and engineering innovation combined to transform invisible radio waves into practical information systems.",
-    
-    "deeperDive": "Guglielmo Marconi built on Maxwell and Hertz’s discoveries by developing practical radio transmission systems in the 1890s. Using antennas, tuned circuits, and signal detection systems, Marconi sent wireless telegraph signals over increasingly larger distances.\n\nIn 1901, he achieved one of the greatest technological breakthroughs of the era by transmitting the letter “S” in Morse code across the Atlantic Ocean from England to Newfoundland.\n\nThis proved that wireless signals could cross enormous distances, reshaping naval communication, military systems, journalism, and eventually public broadcasting.\n\nWireless technology rapidly expanded into radio broadcasting, radar, television, satellites, mobile phones, Wi-Fi, Bluetooth, and GPS.\n\nThe first handheld mobile phone call by Martin Cooper in 1973 represented another leap: wireless communication was no longer just for stations or ships—it became personal.\n\nToday, billions of devices rely on radio frequency systems first made possible by Maxwell’s equations.",
-    "funFact": "Every time you use Wi-Fi, Bluetooth, GPS, or a smartphone, you’re relying on the same fundamental electromagnetic principles Maxwell described before radio even existed.",
+    "learn": "Wireless technology began as an accidental discovery only in the sense that science often opens doors before anyone knows what the door will become. Experiments with electromagnetic waves showed that signals could travel without wires, and inventors like Marconi turned that discovery into practical communication. Once people realized information could move through the air, the world changed quickly. Ships, newspapers, militaries, and eventually households gained a new way to exchange messages. Wireless communication mattered because it removed distance as a physical barrier. The ability to send signals without a cable made global communication far more flexible, and it laid the groundwork for radio, broadcasting, mobile networks, and modern wireless devices.",
+    "simpler": "Wireless technology grew from experiments with radio waves and became practical when inventors learned how to send messages through the air.",
+    "keyTakeaway": "Wireless technology changed the world because the discovery that waves could carry information without wires became the foundation for radio, broadcasting, and modern mobile communication.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Marconi_and_his_wireless_apparatus_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Unknown author Unknown author",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Marconi_and_his_wireless_apparatus_1897.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Wireless_telegraphy_receiver_after_G._Marconi_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Jane023",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wireless_telegraphy_receiver_after_G._Marconi_1897.jpg"
+    },
+    "deeperDive": "The underlying physics came from the study of electromagnetism, but the leap from theory to practice required engineering. Antennas, transmitters, receivers, and tuned circuits had to work together well enough to carry real messages. Marconi's system showed that radio waves were not just a laboratory curiosity. They could be used for long-distance telegraphy, maritime safety, and eventually broadcasting. The impact was enormous because wireless communication changed what counted as reachable. Messages no longer needed a physical line between sender and receiver. That shift created the modern communications world, where the air itself became a network medium.",
+    "funFact": "Wireless communication began as a way to send dots and dashes, not music or video.",
+    "references": [
+      "Wireless telegraphy and radio history references.",
+      "Electromagnetism and communication engineering literature.",
+      "Wikimedia Commons image metadata for Marconi and wireless imagery."
+    ],
     "keyElements": {
       "people": [
-        "James Clerk Maxwell — Physicist who predicted electromagnetic waves mathematically.",
-        "Heinrich Hertz — Scientist who experimentally proved radio waves existed.",
-        "Guglielmo Marconi — Engineer who transformed radio waves into practical wireless communication.",
-        "Martin Cooper — Made the first handheld mobile phone call."
+        "Guglielmo Marconi - Turned radio-wave discovery into practical wireless telegraphy.",
+        "Physicists - Explained the waves that made wireless communication possible.",
+        "Radio engineers - Built receivers, transmitters, and antennas.",
+        "Ship operators and broadcasters - Used wireless to change communication practice."
       ],
       "places": [
-        "Cambridge, England — Maxwell’s academic center for electromagnetic theory.",
-        "Germany — Hertz’s radio wave experiments.",
-        "Poldhu, Cornwall, England — Marconi’s major transmission site.",
-        "Newfoundland, Canada — Site of first transatlantic radio reception."
+        "Laboratories - Where radio waves were first studied.",
+        "Ships and coast stations - Early real-world users of wireless telegraphy.",
+        "Maritime museums - Places where the early technology is preserved.",
+        "Modern airwaves - The shared medium that wireless communication uses."
       ],
       "years": [
-        "1864 — Maxwell predicts electromagnetic waves.",
-        "1887 — Hertz experimentally confirms radio waves.",
-        "1901 — Marconi sends first transatlantic wireless signal.",
-        "1973 — First handheld mobile phone call."
+        "1880s-1890s - Radio-wave experiments begin to show practical promise.",
+        "1890s-1900s - Marconi develops long-distance wireless telegraphy.",
+        "1910s-1930s - Wireless expands into broadcasting and maritime safety.",
+        "Late 20th century to now - Wireless becomes the basis of mobile life."
       ],
       "concepts": [
-        "Electromagnetic Waves — Energy waves that include radio, light, and X-rays.",
-        "Radio Waves — Long-wavelength electromagnetic waves used for communication.",
-        "Antennas — Devices that transmit and receive electromagnetic signals.",
-        "Signal Modulation — Encoding information onto radio waves.",
-        "Wireless Communication — Information transfer without physical wires."
+        "Electromagnetic wave - The physical carrier of wireless signals.",
+        "Antenna - The structure that sends and receives radio energy.",
+        "Telegraphy - Early message transmission using coded signals.",
+        "Wireless communication - Information transfer without a physical wire."
       ]
     }
   }

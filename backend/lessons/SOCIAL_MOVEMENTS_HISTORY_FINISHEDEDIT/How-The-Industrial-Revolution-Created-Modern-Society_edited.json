@@ -1,48 +1,70 @@
 {
-  "topic": "The Transformation of Modern Society: An Exploration of the Industrial Revolution",
-  "title": "How the Industrial Revolution Created Modern Society",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Powerloom_weaving_in_1835.jpg/1920px-Powerloom_weaving_in_1835.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20221022014512",
-  "summary": "The Industrial Revolution transformed human civilization by replacing manual labor with mechanized production, reshaping economies, cities, social classes, and global trade into the foundations of modern society.",
+  "topic": "How the Industrial Revolution Created Modern Society",
+  "title": "How Industry Rebuilt the Modern World",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Iron_Bridge.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "The Singing Badger",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Iron_Bridge.JPG"
+  },
   "lesson": {
-    "learn": "The Industrial Revolution was a major period of technological, economic, and social transformation that began in Britain around the mid-18th century and gradually spread across Europe, North America, and eventually the world. Before industrialization, most goods were handmade through cottage industries or agricultural labor. Production was slow, localized, and dependent on human or animal power.\n\nThis changed dramatically with innovations such as mechanized textile machines, coal-powered steam engines, iron manufacturing advancements, and railroads. Machines could now produce goods faster, cheaper, and on a massive scale. Factories replaced home workshops, and industrial cities emerged as economic powerhouses.\n\nThe revolution fundamentally altered transportation, labor systems, class structures, and international trade. It also accelerated scientific progress, communication networks, and consumer markets, laying the groundwork for capitalism, urbanization, and modern industry.",
-    "simpler": "Imagine if almost everything you used—clothes, tools, food, transportation—went from being handmade one at a time to being produced by powerful machines in giant factories. That’s what the Industrial Revolution did. It changed the world from slow, local production into fast, large-scale manufacturing.",
-    "keyTakeaway": "The Industrial Revolution created modern society by combining technological innovation, mechanized production, and global trade—dramatically increasing productivity while also creating new social inequalities, labor struggles, and environmental consequences.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Steam_engine_in_action.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20080305185032",
-    "deeperDive": "Britain became the birthplace of industrialization due to its coal reserves, colonial trade networks, capital investment, and agricultural changes. James Watt’s improvements to the steam engine in the late 1700s made mechanized power practical for factories, mines, and transportation.\n\nTextile innovations such as the spinning jenny, water frame, and power loom revolutionized cloth production. Iron and steel industries expanded with improved smelting techniques, while railroads and steamships transformed logistics.\n\nIndustrialization also created profound social shifts. Millions moved from rural farming communities into urban factory centers like Manchester. A new industrial working class emerged, often facing long hours, dangerous conditions, and child labor. These hardships inspired labor unions, socialist critiques, and reforms like Britain’s Factory Acts.\n\nThe rise of industrial capitalism also produced powerful entrepreneurs such as Andrew Carnegie and John D. Rockefeller during later industrial expansion. Meanwhile, thinkers like Karl Marx analyzed how industrialization reshaped class struggle.\n\nEnvironmentally, coal combustion and rapid factory growth contributed to pollution on an unprecedented scale, making the Industrial Revolution both a creator of prosperity and a source of modern environmental challenges.",
-    "funFact": "The world’s first public railway using steam locomotives, the Stockton and Darlington Railway, opened in 1825—helping launch the railway age.",
+    "learn": "The Industrial Revolution reshaped society by moving production from homes and workshops into powered factories that could make goods faster, cheaper, and at a much larger scale. Steam power, mechanized textile machines, iron production, and new transportation systems turned local economies into interconnected industrial networks. That shift created modern cities, modern labor systems, modern consumer culture, and the first truly large-scale industrial working class. It also introduced problems that societies are still dealing with: pollution, overcrowding, child labor, dangerous workplaces, and the gap between those who owned machines and those who worked beside them. Modern life, in many ways, still runs on the structure that revolution created.",
+    "simpler": "Machines and steam made it possible to produce far more goods than hand labor ever could. That created modern factories, cities, railways, and also a lot of harsh working conditions.",
+    "keyTakeaway": "The Industrial Revolution built the modern world by multiplying human productive power, but it also forced society to reckon with the cost of speed, profit, and urban growth.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cotton_mill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "E.L. Hoskyn",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cotton_mill.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/1/19/The_Cotton_Mill.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "C.S. Imming",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_Cotton_Mill.JPG"
+    },
+    "deeperDive": "At its core, industrialization was a systems change. Steam engines let factories sit near labor and transport links rather than beside water power alone. Mechanized spinning and weaving transformed textiles, then iron, rail, mining, and machine tools pulled the rest of the economy into a new rhythm. As production increased, cities grew quickly because workers had to live near the machines that employed them. That urban concentration created new classes, new politics, and new reform movements. It also made time itself more regimented, because factories needed bells, shifts, and standardized clocks. Industrial society depended not only on inventions but on finance, raw materials, and global trade, which is why its effects reached far beyond Britain. It accelerated empire, linked distant markets, and made mass consumer culture possible. Yet the same efficiency that lowered costs also concentrated power. The Industrial Revolution did not simply produce more things. It reorganized how people lived, worked, traveled, and measured the day.",
+    "funFact": "Factory clocks were so important that time became part of industrial discipline, not just a way to tell the hour.",
+    "references": [
+      "Industrial Revolution and economic history reference literature.",
+      "Studies on mechanization, factory labor, and urbanization.",
+      "Wikimedia Commons image metadata for industrial-era and industrial-historic photos."
+    ],
     "keyElements": {
       "people": [
-        "James Watt - Improved the steam engine",
-        "Richard Arkwright - Pioneer of factory textile production",
-        "George Stephenson - Railroad engineering pioneer",
-        "Andrew Carnegie - Steel industrialist",
-        "John D. Rockefeller - Oil industrialist",
-        "Karl Marx - Critic of industrial capitalism"
+        "James Watt - Improved steam power and helped make engines more practical.",
+        "Richard Arkwright - A key figure in factory-based textile production.",
+        "George Stephenson - Associated with early railway expansion.",
+        "Isambard Kingdom Brunel - Engineer whose projects symbolized industrial ambition.",
+        "Josiah Wedgwood - Industrial entrepreneur who linked production, branding, and consumer culture."
       ],
       "places": [
-        "Manchester, England - Textile manufacturing center",
-        "Birmingham, England - Industrial engineering hub",
-        "Pittsburgh, Pennsylvania - Steel production powerhouse",
-        "Britain - Birthplace of the first Industrial Revolution",
-        "United States - Major site of second-wave industrial expansion"
+        "Ironbridge, England - A symbol of early iron engineering.",
+        "Manchester - A city closely tied to industrial textile production.",
+        "Lancashire - A region central to mechanized cotton manufacturing.",
+        "Birmingham - An industrial center known for metalworking and engineering.",
+        "Liverpool - A port city that helped connect industry to global trade."
       ],
       "years": [
-        "1760s - Early Industrial Revolution begins",
-        "1769 - Watt patents steam engine improvements",
-        "1780s - Textile mechanization expands",
-        "1825 - First public steam railway opens",
-        "1833 - British Factory Act",
-        "1844 - Expanded labor protections"
+        "1760s - Early industrial change begins to accelerate in Britain.",
+        "1779 - Ironbridge represents new ironworking possibilities.",
+        "1814 - Mechanized textile production becomes a dominant force.",
+        "1830s - Railways help knit industrial regions together.",
+        "1840s - Industrial urban life becomes a defining social reality."
       ],
       "concepts": [
-        "Mechanization - Machine-powered production",
-        "Steam Engine - Heat-powered industrial energy source",
-        "Division of Labor - Specialized task efficiency",
-        "Factory System - Centralized industrial production",
-        "Urbanization - Population movement to cities",
-        "Capitalism - Investment-driven economic system",
-        "Labor Reform - Movements for worker protections",
-        "Mass Production - Large-scale manufacturing"
+        "Mechanization - Using machines to do work once done by hand.",
+        "Steam power - The engine force that decoupled production from local water sources.",
+        "Factory system - Organized production under one roof and one schedule.",
+        "Urbanization - The growth of cities as workers moved for industrial jobs.",
+        "Division of labor - Splitting tasks into specialized steps.",
+        "Mass production - Making large numbers of goods efficiently and cheaply."
       ]
     }
   }

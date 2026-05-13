@@ -2,43 +2,64 @@
   "topic": "The Tiny Slash That Quietly Built the Internet",
   "title": "How a Simple Symbol Helped Turn Computers into a Global Network",
   "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Tim_Berners-Lee_CP_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-  "summary": "Some of the most world-changing inventions are not giant machines, but tiny symbols. The forward slash—and later the double slash in web addresses—became one of the defining markers of the internet age, helping structure URLs, file systems, protocols, and the architecture of online navigation.",
+  "imageCredit": {
+    "creator": "Silvio Tanaka",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tim_Berners-Lee_CP_2.jpg"
+  },
   "lesson": {
-    "learn": "Despite common myths about punctuation marks “changing the internet,” one of the most important symbols in digital history was the forward slash (/), particularly in URL design. When Tim Berners-Lee created the World Wide Web in 1989–1990, web addresses needed a consistent, readable syntax for locating resources across networks.\n\nThe structure “http://” used a colon and two forward slashes to separate protocol from resource location. This syntax was partly inspired by existing file path systems and network protocols. While the slashes themselves may seem trivial, standardized URL formatting made global web navigation intuitive, scalable, and interoperable.\n\nWithout such conventions, the web could have become fragmented, inconsistent, and far harder for ordinary people to use.",
-    
-    "image2": "https://upload.wikimedia.org/wikipedia/commons/b/b9/WorldWideWebAroundWikipedia.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    
-    "simpler": "The slashes in a web address act like road signs, telling your computer how to find the right destination across the internet.",
-    
-    "keyTakeaway": "Small design standards—like URL syntax—can have enormous global impact when they create universal systems that billions of people can use consistently.",
-    
-    "deeperDive": "The early internet already had networking systems, but the World Wide Web introduced a standardized layer for linking information. Berners-Lee’s URL system combined protocol (such as HTTP), hostnames, and resource paths into one universal address structure.\n\nFor example:\nhttps://example.com/page\n\nThis allowed browsers to interpret location, communication method, and document path instantly.\n\nThe forward slash also became deeply embedded in Unix and Linux file systems, server structures, APIs, and software development.\n\nThis kind of syntactic consistency helped fuel explosive internet growth because developers worldwide could build interoperable systems.\n\nEven today, slashes structure websites, cloud services, databases, and programming frameworks.\n\nIn hindsight, one of the internet’s greatest strengths was not just connectivity—but standardized simplicity.",
-    "funFact": "Tim Berners-Lee later said he may have made the “//” in web addresses unnecessarily, but those two slashes became one of the most recognizable symbols in digital history.",
+    "learn": "The sideways comma changed the internet because the slash became one of the most important characters in web addresses and file paths. It helps structure URLs, separate domains from directories, and define how browsers interpret locations on the web. That may sound tiny, but the internet depends on exact symbols. A single character can tell a computer where to go, what protocol to use, or how to organize a request. The broader story is that the web succeeded because it used simple, universal notation. Tim Berners-Lee's system worked because human-friendly addresses could also be machine-readable. The slash became part of the grammar that made the web understandable at planetary scale.",
+    "simpler": "A simple slash matters online because it helps computers understand web addresses, paths, and page structure.",
+    "keyTakeaway": "The sideways comma - the slash - changed the internet because a tiny symbol became part of the web's shared grammar, letting people and machines point to the same place in a consistent way.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "The Opte Project",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Internet_map_1024.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/05/Url.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "The original uploader was Tizio at English Wikipedia .",
+      "source": "Wikimedia Commons",
+      "license": "MPL 1.1",
+      "licenseUrl": "https://www.mozilla.org/MPL/1.1/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Url.png"
+    },
+    "deeperDive": "URLs are structured language. The slash separates pieces of meaning so browsers can parse a request correctly, whether that means a protocol, a host, a directory, or a path. That makes the web both human-readable and machine-executable. Berners-Lee's genius was not just inventing a networked information system, but choosing a notation simple enough for people to use and precise enough for computers to follow. That design choice matters because digital systems scale when their rules are clear and compact. The slash is one small part of a larger web grammar that made hyperlinks, pages, and web navigation feel obvious once they existed. It is hard to imagine, now, how much of the internet depends on such a tiny stroke of punctuation.",
+    "funFact": "A single slash can change the meaning of a web address completely.",
+    "references": [
+      "Web architecture and URL standards references.",
+      "World Wide Web history literature.",
+      "Wikimedia Commons image metadata for web and URL imagery."
+    ],
     "keyElements": {
       "people": [
-        "Tim Berners-Lee — Inventor of the World Wide Web.",
-        "Vint Cerf — Internet protocol pioneer.",
-        "Robert Kahn — Co-developer of TCP/IP.",
-        "Linus Torvalds — Major figure in Unix-like systems where slash-based paths became central."
+        "Tim Berners-Lee - Created the World Wide Web and its URL logic.",
+        "Web engineers - Build the systems that parse and route web addresses.",
+        "Browser developers - Turn URL grammar into visible navigation.",
+        "Standards groups - Keep web notation consistent across platforms."
       ],
       "places": [
-        "CERN, Switzerland — Birthplace of the World Wide Web.",
-        "ARPANET, USA — Early internet precursor.",
-        "Oxford University, UK — Berners-Lee’s academic background.",
-        "Global server infrastructure — Modern deployment of URL systems."
+        "Browsers - Where slashes become navigation instructions.",
+        "Web servers - Where URLs point to content and resources.",
+        "CERN - The birthplace of the web.",
+        "The internet itself - The network that the web runs on."
       ],
       "years": [
-        "1969 — ARPANET begins.",
-        "1983 — TCP/IP becomes internet standard.",
-        "1989 — Berners-Lee proposes the World Wide Web.",
-        "1990 — First web server and browser created."
+        "1989-1993 - The web and its addressing rules are created.",
+        "1990s - URLs and hyperlinks spread across the internet.",
+        "2000s - Web standards become crucial for compatibility.",
+        "2020s - The slash remains a core part of web syntax."
       ],
       "concepts": [
-        "URL (Uniform Resource Locator) — Standardized web addressing system.",
-        "HTTP — HyperText Transfer Protocol for web communication.",
-        "Forward Slash (/) — Structural path separator.",
-        "Standardization — Shared syntax enabling universal interoperability.",
-        "World Wide Web — Information layer built on internet infrastructure."
+        "URL - The address format used to locate resources on the web.",
+        "Path - The part of a URL that points to a specific resource.",
+        "Protocol - The system that tells a browser how to communicate.",
+        "Grammar - The rule set that makes web notation understandable."
       ]
     }
   }

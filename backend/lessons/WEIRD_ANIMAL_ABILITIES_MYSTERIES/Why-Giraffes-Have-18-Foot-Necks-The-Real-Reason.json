@@ -1,56 +1,65 @@
 {
   "topic": "Why Evolution Built a 6-Foot Neck",
   "title": "The Engineering, Survival, and Strange Biology Behind the Giraffe’s Towering Design",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe_standing.jpg",
-  "summary": "The giraffe’s neck is one of evolution’s most iconic anatomical achievements. Far more than a feeding tool, it represents a remarkable combination of skeletal redesign, cardiovascular engineering, sexual competition, and ecological specialization.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Giraffe_standing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Miroslav Duchacek (from Czech Republic)",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Giraffe_standing.jpg"
+  },
   "lesson": {
-    "learn": "Giraffes are the tallest land mammals on Earth, with adults reaching heights up to about 5.5–6 meters (18–20 feet). Their extraordinary height is primarily due to elongated legs and necks, yet surprisingly, giraffes still have only seven neck vertebrae—the same number as humans. Each vertebra, however, is dramatically lengthened, sometimes over 25 centimeters (10 inches) long.\n\nTraditionally, the long neck has been explained as a feeding adaptation, allowing giraffes to browse leaves high in acacia trees beyond the reach of many competitors. This vertical niche can be especially valuable during dry seasons when lower vegetation is scarce.\n\nBut the giraffe’s neck is not simply long—it is supported by profound anatomical modifications. Massive muscles, reinforced ligaments, and specialized joints allow flexibility and support despite the neck’s immense leverage.",
-    
-    "simpler": "A giraffe is like a living biological crane: incredibly tall, carefully balanced, and built with specialized systems just to make that height functional.",
-    
-    "keyTakeaway": "Its neck evolved not for one reason alone, but likely through multiple selective pressures including feeding advantage, sexual competition, and physiological adaptation.",
-    
-    "deeperDive": "One of the greatest challenges of extreme height is blood flow. To deliver blood to the brain against gravity, giraffes maintain exceptionally high blood pressure—often around twice that of humans. Their hearts are large and powerfully muscled, capable of generating this force safely.\n\nSpecialized valves in neck veins and dense vascular walls help prevent dangerous blood surges when the head is lowered to drink and then raised quickly. Without these adaptations, sudden pressure shifts could cause severe vascular damage.\n\nAnother major theory for neck evolution involves sexual selection. Male giraffes engage in “necking,” using their necks and heavy skulls as weapons in combat. Longer, stronger necks may therefore provide mating advantages as well as feeding benefits.\n\nThermoregulation has also been proposed, though evidence is less central than feeding and combat hypotheses. The giraffe’s height may help with heat dissipation and broader visual surveillance across savannas.\n\nThe giraffe demonstrates how evolution can reshape multiple body systems simultaneously: bones, muscles, circulation, and behavior all had to adapt together. Its neck is not just long—it is part of a full-body redesign.",
-    
-    "funFact": "Despite having necks that can exceed 6 feet (1.8 meters), giraffes still have exactly seven neck bones—just like humans.",
-    
+    "learn": "Giraffe necks are not the result of a single simple cause. They reflect a mix of feeding pressure, sexual selection, and the broader constraints of building a very tall body. A long neck helps giraffes reach food others cannot, especially when leaves are high and competition is fierce. But in males, the neck also becomes a weapon and a display tool in combat, which suggests that mate competition helped shape its evolution too.\nThe result is one of evolution’s most recognizable designs. A giraffe’s neck is not just long; it is part of a whole-body solution involving circulation, balance, bones, and behavior.",
+    "simpler": "Giraffe necks became so long because reaching food and competing for mates both helped favor taller, stronger necks over time.",
+    "keyTakeaway": "The giraffe neck is an evolutionary compromise: part feeding tool, part combat tool, and part engineering challenge solved by natural selection.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/8/89/Three_giraffes_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Byrdyak\" title=\"User:Byrdyak\">Byrdyak</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Three_giraffes_01.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Giraffe_urinating.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60714175@N00\">Jacob Munk-Stander</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Giraffe_urinating.jpg"
+    },
+    "deeperDive": "The giraffe’s neck contains only seven vertebrae, like most mammals, but each one is stretched and specialized. That keeps the body plan familiar while changing the scale. Males use their necks in a behavior called necking, where they swing their heads in powerful strikes during contests. At the same time, browsing higher on trees may have given taller animals access to food competitors could not easily reach.\nThe most accurate answer is therefore not either-or but both. Evolution often works by stacking advantages. A trait that helps one part of life may later become useful in another context, and giraffe anatomy is a classic example of that layered process.",
+    "funFact": "A giraffe has the same number of neck vertebrae as a human, even though theirs are dramatically longer.",
     "references": [
-      "Mitchell, G. & Skinner, J.D. — Research on giraffe cardiovascular physiology.",
-      "Simmons, R.E. & Scheepers, L. — Sexual selection and neck evolution studies.",
-      "National Geographic giraffe anatomical research.",
-      "Journal of Zoology — Giraffe biomechanics and feeding ecology.",
-      "Smithsonian Institution giraffe evolutionary biology resources."
+      "Giraffe evolution and biomechanics research.",
+      "Sexual selection and feeding ecology studies.",
+      "Wikimedia Commons image metadata for giraffe anatomy imagery."
     ],
-    
     "keyElements": {
       "people": [
-        "Charles Darwin — Helped frame natural selection discussions relevant to giraffe evolution.",
-        "R.E. Simmons — Researcher known for sexual selection hypotheses in giraffes.",
-        "Graham Mitchell — Major contributor to giraffe cardiovascular science.",
-        "David Attenborough — Popularized giraffe biology and evolutionary adaptation."
+        "Charles Darwin - Proposed sexual selection as a force in evolution.",
+        "Douglas J. Emlen - Studied weapon-like traits and animal combat.",
+        "Robert Simmons - Researcher on giraffe necking and evolution.",
+        "Field biologists - They observe feeding and combat behavior in wild giraffes."
       ],
-      
       "places": [
-        "Serengeti National Park, Tanzania — Major giraffe habitat.",
-        "Masai Mara, Kenya — Key ecosystem for giraffe behavioral studies.",
-        "Kruger National Park, South Africa — Important conservation region.",
-        "African savannas — Evolutionary landscape shaping giraffe ecology."
+        "African savannas - The main habitat where giraffe necks matter most.",
+        "Waterholes - Places where posture and balance become important.",
+        "National parks - Where giraffe behavior is observed in the wild.",
+        "Research reserves - Sites for long-term ecology studies."
       ],
-      
       "years": [
-        "1859 — Darwin’s evolutionary framework influences giraffe adaptation debates.",
-        "20th Century — Major cardiovascular and skeletal studies expand understanding.",
-        "1996 — Sexual selection theory gains renewed attention.",
-        "Modern Era — Advanced biomechanics and vascular studies refine giraffe evolutionary science."
+        "1859 - Darwin publishes On the Origin of Species.",
+        "1871 - Sexual selection is developed more explicitly.",
+        "2000s - Giraffe biomechanics and combat studies deepen."
       ],
-      
       "concepts": [
-        "Natural Selection — Evolution through environmental advantage.",
-        "Sexual Selection — Evolution driven by reproductive competition.",
-        "Necking — Combat behavior among males using neck strength.",
-        "Cardiovascular Adaptation — Specialized blood pressure and circulation systems.",
-        "Skeletal Elongation — Lengthening of vertebrae without increasing vertebral number.",
-        "Ecological Niche Partitioning — Resource specialization to reduce competition."
+        "Sexual selection - Trait evolution driven by mating competition.",
+        "Browsing competition - Struggle for access to high vegetation.",
+        "Necking - Male combat using the head and neck.",
+        "Vertebrae - The bones that make up the neck.",
+        "Evolutionary tradeoff - A benefit that comes with a cost."
       ]
     }
   }

@@ -1,51 +1,65 @@
 {
   "topic": "Breaking Physics Records: A Study of Human Achievement and Innovation",
   "title": "Beyond the Edge: How Physics Rewrites Human Limits",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/RedBullStratosNASM.jpg",
-  "summary": "Humanity’s most extreme physical records are not examples of people defying physics. They are examples of people understanding physics so precisely that they can survive environments the unaided human body was never built to endure.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/RedBullStratosNASM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Smithsonian Institution",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:RedBullStratosNASM.jpg"
+  },
   "lesson": {
-    "learn": "The most dramatic human records are often engineering achievements as much as athletic ones. Felix Baumgartner’s 2012 Red Bull Stratos jump is a defining example. From an altitude of 38,969 meters, he entered freefall from the stratosphere and reached Mach 1.25, becoming the first person to break the sound barrier without vehicle propulsion. At that height, the atmosphere is too thin to sustain life, temperatures are extreme, and unprotected bodily fluids can begin to vaporize due to low pressure. His survival depended on a pressurized suit, oxygen systems, thermal protection, and careful aerodynamic control.\n\nAt the opposite extreme, Ahmed Gabr’s 2014 world-record SCUBA dive reached 332.35 meters in the Red Sea. At that depth, pressure exceeds 34 times normal sea-level pressure. Ordinary compressed air becomes dangerous because gases behave differently under pressure, increasing the risks of nitrogen narcosis, oxygen toxicity, and decompression sickness. Gabr’s dive required specialized gas mixtures, including trimix, and a carefully staged decompression plan lasting many hours.\n\nThese records show that human limits expand when physiology, materials science, aerodynamics, gas laws, and engineering work together. The achievement is not escaping physics—it is surviving by respecting physics completely.",
-    "simpler": "Physics is like the rulebook of reality. Record-breakers do not ignore the rulebook; they study it so carefully that they can safely operate closer to the limits than anyone before them.",
-    "keyTakeaway": "Human achievement advances not by defying natural laws, but by understanding them deeply enough to push safely beyond previous limits.",
-    "deeperDive": "Baumgartner’s jump built on decades of aerospace research, including Joseph Kittinger’s Project Excelsior jumps in 1959 and 1960. One of the major dangers in high-altitude freefall is flat spin, an uncontrolled rotation that can cause loss of consciousness or fatal stress on the body. Baumgartner’s mission required precise body positioning, suit design, and emergency stabilization systems to reduce this risk.\n\nHis descent also demonstrated principles of aerodynamics and compressible fluid flow. In the thin upper atmosphere, reduced drag allowed rapid acceleration beyond the speed of sound. As he fell into denser air, drag increased and slowed him before parachute deployment.\n\nDeep diving depends on a different set of physical laws. Dalton’s Law explains why gas partial pressures rise with depth, while Henry’s Law explains why gases dissolve into body tissues under pressure. During ascent, those dissolved gases must be released slowly; otherwise, bubbles can form in tissues and blood, causing decompression sickness. That is why Gabr’s record dive required an extremely long decompression process after a relatively short descent.",
-    "funFact": "Felix Baumgartner briefly traveled faster than the speed of sound during freefall—without an engine, aircraft, or spacecraft.",
+    "learn": "Some record-breaking feats seem to break physics only because they push human control, engineering, or technique so far that the result looks impossible. In reality, the underlying laws never stop applying. What changes is how cleverly people work within them. A skydiver in a stratospheric jump, a precision pilot, or a carefully engineered stunt can do things that once seemed out of reach because the environment, equipment, and preparation are controlled with extreme care.\nThe deeper lesson is that physics is not a barrier to ambition. It is the rulebook that determines what kind of ambition can succeed.",
+    "simpler": "People can look like they are breaking physics records when they are actually using physics more skillfully than anyone else.",
+    "keyTakeaway": "Extraordinary records are usually the result of understanding physical limits so well that humans can operate right at the edge of them.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Felix_Baumgartner_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Georges Biard",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Felix_Baumgartner_2013.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/27/Supersonic_Wag_-_geograph.org.uk_-_630498.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/13639\">Ian Paterson</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Supersonic_Wag_-_geograph.org.uk_-_630498.jpg"
+    },
+    "deeperDive": "Most 'physics-breaking' records rely on reducing uncertainty. Air density, gravity, drag, pressure, and timing all matter. The more carefully those forces are managed, the farther humans can go. A high-altitude jump, for example, is not about ignoring physics; it is about surviving the conditions physics creates. That requires pressure suits, oxygen systems, precise trajectory planning, and a margin of safety built into every step.\nThis is true in aviation, extreme sports, and experimental engineering. The record is thrilling because it reveals just how much room there is between ordinary life and the edge of what the body or machine can survive.",
+    "funFact": "Many record attempts succeed only because every detail is calculated to reduce one small physical risk at a time.",
     "references": [
-      "Red Bull Stratos Mission Data, 2012.",
-      "Guinness World Records: Deepest SCUBA Dive, Ahmed Gabr, 2014.",
-      "Project Excelsior III, Joseph Kittinger, 1960.",
-      "World Athletics: Usain Bolt 100m World Record, Berlin 2009.",
-      "NASA aerospace survival and pressure suit research."
+      "High-altitude physics and extreme-performance literature.",
+      "Aerodynamics and human-survival engineering references.",
+      "Wikimedia Commons image metadata for high-altitude and stunt imagery."
     ],
     "keyElements": {
       "people": [
-        "Felix Baumgartner — Austrian skydiver who became the first person to break the sound barrier in freefall.",
-        "Ahmed Gabr — Egyptian technical diver who set the deepest SCUBA dive world record.",
-        "Joseph Kittinger — U.S. Air Force officer whose high-altitude jumps helped pioneer space-diving research.",
-        "Usain Bolt — Jamaican sprinter whose 100-meter world record represents the peak of human sprint performance.",
-        "Alan Eustace — Engineer and executive who later surpassed Baumgartner’s altitude record in a stratospheric jump."
+        "Felix Baumgartner - Famous for a stratospheric jump that pushed human limits.",
+        "Engineers - They design the systems that make extreme feats survivable.",
+        "Aerospace physicians - They study how the body reacts to extreme conditions.",
+        "Test pilots and stunt specialists - They work at the edge of known performance."
       ],
       "places": [
-        "Roswell, New Mexico — Launch site of the Red Bull Stratos mission.",
-        "Dahab, Egypt — Red Sea location of Ahmed Gabr’s record-setting dive.",
-        "Berlin, Germany — Site of Usain Bolt’s 100-meter world record.",
-        "The Stratosphere — The near-space atmospheric layer where Baumgartner began his jump."
+        "The stratosphere - The thin-air region where extreme jumps become dangerous.",
+        "Aerospace test ranges - Places where systems are checked under controlled conditions.",
+        "Wind tunnels - Facilities that simulate airflow and drag.",
+        "Recovery zones - Where teams ensure the athlete or pilot survives the attempt."
       ],
       "years": [
-        "1960 — Joseph Kittinger completes Project Excelsior III.",
-        "2009 — Usain Bolt sets the 100-meter world record in Berlin.",
-        "2012 — Felix Baumgartner completes the Red Bull Stratos jump.",
-        "2014 — Ahmed Gabr sets the deepest SCUBA dive world record.",
-        "2014 — Alan Eustace surpasses Baumgartner’s altitude record."
+        "2012 - A stratospheric jump captures global attention.",
+        "20th century - Human factors in extreme flight become a research focus.",
+        "21st century - Engineering makes more record attempts survivable."
       ],
       "concepts": [
-        "Ebullism — The formation of gas bubbles in bodily fluids at extremely low pressure.",
-        "Flat Spin — A dangerous uncontrolled rotation during freefall.",
-        "Trimix — A breathing gas mixture of oxygen, helium, and nitrogen used in deep diving.",
-        "Nitrogen Narcosis — Cognitive impairment caused by nitrogen under high pressure.",
-        "Decompression Sickness — Tissue and bloodstream bubble formation caused by rapid pressure reduction.",
-        "Aerodynamics — The study of how air interacts with moving objects.",
-        "Supersonic Velocity — Motion faster than the speed of sound.",
-        "Dalton’s Law — A gas law explaining how partial pressures increase at depth."
+        "Drag - Air resistance that limits motion.",
+        "Terminal velocity - The maximum falling speed under gravity and drag.",
+        "Pressure suit - Protective clothing for thin-air environments.",
+        "Trajectory - The path an object follows through space.",
+        "Controlled environment - Conditions shaped to make a feat possible."
       ]
     }
   }

@@ -2,38 +2,64 @@
   "topic": "The Current War That Electrified the Modern World",
   "title": "How Tesla’s AC Breakthrough Helped Build the Power Grid That Powers Civilization",
   "image": "https://commons.wikimedia.org/wiki/File:Nikola_Tesla,_1893,_by_Napoleon_Sarony.jpg",
-  "summary": "Nikola Tesla’s innovations in alternating current transformed electricity from a local novelty into a scalable global infrastructure. By solving long-distance power transmission challenges, Tesla’s AC systems helped shape the electrical world we rely on today.",
+  "imageCredit": {
+    "creator": "https://wellcomeimages.org/indexplus/obf_images/4c/6e/da5709a57832dbbb048ba4a17fe6.jpg Gallery: https://wellcomeimages.org/indexplus/image/M0014782.html Photographer: Dickenson V. Alley Wellcome Collection gallery (2018-03-31): https://wellcomecollection.org/works/zncts6ch",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Nikola_Tesla,_with_his_equipment_Wellcome_M0014782.jpg"
+  },
   "lesson": {
-    "learn": "In the late 19th century, one of the greatest technological battles in history centered around how electricity should be delivered: direct current (DC) or alternating current (AC). DC systems, championed by Thomas Edison, worked for short distances but lost significant efficiency over long transmission lines due to voltage drop and power loss.\n\nNikola Tesla’s work on alternating current motors and polyphase AC systems changed everything. AC could be easily transformed to higher voltages for transmission and lowered again for safe consumer use through transformers. This made it dramatically more practical for powering entire cities over long distances. Tesla’s rotating magnetic field designs and polyphase systems became foundational to modern electrical infrastructure.",
-    "simpler": "Imagine trying to deliver water through a pipe across an entire country. DC was like using low pressure that weakened quickly over distance. Tesla’s AC system was like boosting the pressure for the long trip, then safely lowering it when it reached homes and businesses.",
-    "keyTakeaway": "Tesla’s greatest achievement was creating practical alternating current systems that made large-scale electrical grids possible, enabling electricity to move efficiently from power plants to cities, industries, and homes.",
+    "learn": "Electricity was known long before it became the backbone of modern civilization, but Nikola Tesla helped turn it into a practical system. The key was alternating current, which could be transmitted efficiently over long distances and then transformed to different voltages. That meant power could move from central stations to homes, factories, and cities far away without wasting enormous amounts of energy. Tesla's work made electric networks scalable, which is what turned electricity from a laboratory curiosity into a usable infrastructure. The real breakthrough was not just a machine or a theory. It was the idea that electricity had to be managed as a grid. Once that happened, electric lighting, motors, appliances, and industrial machinery could spread quickly.",
+    "simpler": "Tesla helped electricity become practical by showing how alternating current could be moved efficiently through a power grid.",
+    "keyTakeaway": "Tesla mattered because electricity only changed civilization once it could travel, transform, and reach real users at scale, and alternating current made that possible.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Nikola_Tesla_in_his_laboratory_in_New_York.jpg/960px-Nikola_Tesla_in_his_laboratory_in_New_York.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-    "deeperDive": "Tesla’s breakthroughs built on Michael Faraday’s principle of electromagnetic induction, but Tesla’s genius was in engineering entire working systems around it. His polyphase AC motors used multiple alternating currents out of phase with one another to create rotating magnetic fields, allowing efficient mechanical power generation without the limitations of earlier designs.\n\nGeorge Westinghouse recognized the practical value of Tesla’s patents and backed AC infrastructure development. This partnership helped AC win the famous ‘Current War,’ especially after the successful electrification of the 1893 Chicago World’s Fair and the Niagara Falls power project, one of the first major hydroelectric AC systems.\n\nThese milestones proved that AC was safer, more scalable, and more economically viable for widespread use. Modern electrical grids still rely primarily on AC transmission principles developed from Tesla’s work, making his innovations central to industrialization, urban growth, and modern technological life.",
-    "funFact": "The Niagara Falls power station, powered by Tesla and Westinghouse’s AC system, was one of the first major projects to deliver large-scale electricity over long distances, helping prove AC’s superiority to the world.",
+    "learnImageCredit": {
+      "creator": "The Nikola Tesla Museum",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Nikola_Tesla_in_his_laboratory_in_New_York.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tesla_coil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Mr.checker",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tesla_coil.jpg"
+    },
+    "deeperDive": "Direct current worked in some settings, but it struggled with long-distance transmission because energy losses were too high. Tesla's alternating-current system, combined with transformers and later grid engineering, solved that practical problem. The result was not just better wiring. It was a new architecture for modern life: centralized generation, high-voltage transmission, local step-down, and widespread distribution. That architecture is still the foundation of the electric world. Lights, motors, appliances, and digital infrastructure all depend on the ability to move electrical power efficiently from place to place. Tesla's legacy is therefore less about one invention than about giving electricity a usable shape.",
+    "funFact": "Electric power only became world-changing once engineers figured out how to move it long distances without wasting most of it.",
+    "references": [
+      "Tesla, AC power, and grid-history references.",
+      "Electrical engineering history literature.",
+      "Wikimedia Commons image metadata for Tesla and power imagery."
+    ],
     "keyElements": {
       "people": [
-        "Nikola Tesla — Inventor whose AC motor and polyphase systems revolutionized electrical transmission.",
-        "Thomas Edison — Pioneer of direct current systems and Tesla’s primary rival during the Current War.",
-        "George Westinghouse — Industrialist who financed and implemented Tesla’s AC technologies.",
-        "Michael Faraday — Scientist whose discovery of electromagnetic induction laid the groundwork for electric power systems."
+        "Nikola Tesla - Helped make alternating current practical at scale.",
+        "Thomas Edison - Represented the competing direct-current model.",
+        "Electrical engineers - Built the transmission systems that follow Tesla's logic.",
+        "Utility planners - Turn electricity into a citywide and national network."
       ],
       "places": [
-        "New York City — Tesla’s primary innovation hub in the United States.",
-        "Chicago World’s Fair (1893) — Landmark demonstration of AC power on a massive public scale.",
-        "Niagara Falls Power Project — Historic proof of long-distance AC power transmission."
+        "Power stations - Where electricity is generated.",
+        "Transmission lines - Where high-voltage power travels long distances.",
+        "Homes and factories - The places that depend on usable electrical delivery.",
+        "Laboratories - Where AC, transformers, and motors were developed."
       ],
       "years": [
-        "1886 — Tesla develops key AC motor technologies.",
-        "1888 — Tesla licenses AC patents to Westinghouse.",
-        "1893 — AC powers the Chicago World’s Fair.",
-        "1895 — Niagara Falls AC plant begins operation."
+        "1880s-1890s - AC and DC systems compete in the current war.",
+        "1893 - Major public demonstrations make AC's value visible.",
+        "Early 1900s - Electric grids expand rapidly.",
+        "20th century - Electricity becomes the infrastructure of modern life."
       ],
       "concepts": [
-        "Alternating Current (AC) — Electric current that periodically reverses direction, enabling voltage transformation.",
-        "Direct Current (DC) — One-direction electrical flow with major long-distance limitations.",
-        "Polyphase Transmission — Multi-current AC system for efficient power generation and distribution.",
-        "Electromagnetic Induction — Generation of electric current through changing magnetic fields.",
-        "Transformers — Devices that step voltage up or down for efficient electrical transmission."
+        "Alternating current - Electricity that reverses direction periodically.",
+        "Transformer - A device that changes voltage for transmission or use.",
+        "Grid - The interconnected system that distributes power.",
+        "Transmission loss - Energy lost when electricity travels too far inefficiently."
       ]
     }
   }

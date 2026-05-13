@@ -1,37 +1,67 @@
 {
-  "topic": "Understanding Dinosaur Parenting",
-  "title": "Exploring the Incubation of Dinosaur Eggs",
+  "topic": "Dinosaurs and Nesting",
+  "title": "How Dinosaur Eggs Were Incubated",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Dinosaur_Egg_Nest_(28654630117).jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Nate Loper from Flagstaff, AZ, USA",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Dinosaur%20Egg%20Nest%20(28654630117).jpg"
+  },
   "lesson": {
-    "learn": "The discovery of dinosaur eggs has provided significant insights into the lives of ancient animals. Recent studies have revealed that dinosaurs likely incubated their eggs in a similar manner to modern birds. By analyzing fossil evidence and comparing it to extant bird behavior, scientists have reconstructed the incubation process used by dinosaurs. This process involved dinosaur mothers sitting on their nests, gently incubating their eggs. The fossil record shows evidence of dinosaur nesting sites, with some examples featuring complex arrangements of rocks and vegetation to create a safe haven for the eggs. In addition, the discovery of buried dinosaur eggs suggests that they were protected from extreme temperatures and predators. The incubation period is estimated to range from 50 to 100 days, similar to that of modern birds. The largest dinosaur egg discovered weighed over 1 ton, while the smallest measured approximately 10 centimeters in length.",
-    "simpler": "Dinosaur eggs were likely incubated in a manner similar to modern bird eggs. Scientists believe that dinosaur mothers may have sat on their nests to keep the eggs warm and safe, similar to how a chicken lays its eggs in a nest to protect them from predators and extreme temperatures.",
-    "keyTakeaway": "The incubation of dinosaur eggs was likely a complex process involving dinosaur mothers sitting on their nests to keep the eggs warm and safe, with the fossil record showing evidence of dinosaur nesting sites and protected eggs.",
-    "deeperDive": "Recent studies have highlighted the importance of dinosaur parenting in their survival and success. The discovery of fossilized dinosaurs and their eggs has provided valuable insights into the evolution of dinosaur behavior. For example, scientists have found that some dinosaurs, such as the hadrosaurs and theropods, built complex nesting sites with carefully arranged rocks and vegetation to create a safe haven for their eggs. In addition, the fossil record shows evidence of dinosaur mothers sitting on their nests, gently incubating their eggs. Scientists have also discovered that dinosaur eggs were often buried under layers of soil or plant material to protect them from extreme temperatures and predators. The incubation period is estimated to range from 50 to 100 days, similar to that of modern birds.",
-    "funFact": "The largest dinosaur egg ever discovered weighed over 1 ton and measured approximately 1.5 meters in length. The discovery of dinosaur eggs has also led to new methods for incubating reptile eggs in modern zoos and conservation centers.",
+    "learn": "Dinosaur eggs were not just laid and left behind. In many species, nests, brooding poses, and egg placement suggest active care before hatching. Some dinosaurs sat directly on nests, some arranged eggs in carefully shaped clutches, and some may have used body heat, warm sediment, vegetation, or sun-warmed ground to help embryos develop. The variety matters because it shows that incubation was not one universal dinosaur behavior. Different lineages solved the problem in different ways, from open nests to more sheltered arrangements. Egg fossils let us see reproductive strategy in a way bones alone cannot, because nests preserve snapshots of family life, timing, and parental care.",
+    "simpler": "Dinosaurs incubated eggs in nests, with body heat, nest heat, or warm ground helping embryos develop. Different species used different nesting styles, which means dinosaur parenting was more varied than people once thought.",
+    "keyTakeaway": "Dinosaur eggs show that reproduction was an active part of dinosaur life history, and incubation probably combined nests, body posture, and environmental heat depending on the species.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fossil_Dinosaur_Eggs_(9964940574).jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Gary Todd from Xinzheng, China",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Fossil%20Dinosaur%20Eggs%20(9964940574).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Fossilized_Dinosaur_Egg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "MLIS2024",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Fossilized%20Dinosaur%20Egg.jpg"
+    },
+    "deeperDive": "Incubation in dinosaurs is best understood as a toolkit rather than a single method. Some maniraptoran dinosaurs appear to have brooded their eggs in a birdlike way, while other dinosaurs likely relied more on nest architecture and environmental heat. Eggshell structure also matters, because pore density and shell thickness influence how much gas exchange and moisture loss a developing embryo can tolerate. The broader significance is that nesting behavior reveals social complexity. A nest is not only a place to keep eggs warm; it is a record of site choice, clutch size, timing, and sometimes repeated use of a colony. In a few famous cases, nests suggest that dinosaurs returned to the same areas to breed, which implies seasonal rhythms and potentially cooperative or at least densely clustered nesting behavior. These fossils make prehistoric reproduction feel less abstract and more like a living system of decisions.",
+    "funFact": "Some fossil nests preserve eggs so clearly that you can count a clutch almost as easily as a modern birdwatcher can.",
+    "references": [
+      "Research on dinosaur nesting, brooding, and eggshell structure.",
+      "Smithsonian and museum resources on dinosaur eggs and reproduction.",
+      "Paleontology reviews on incubation temperatures and clutch behavior.",
+      "Wikimedia Commons file pages for eggs and nest photographs."
+    ],
     "keyElements": {
       "people": [
-        "Dr. Jack Horner",
-        "Dr. Mark Norell",
-        "Dr. Julia Clarke",
-        "Othniel Charles Marsh"
+        "Jack Horner - Paleontologist whose work on nesting grounds helped transform ideas about dinosaur parenting",
+        "Mark Norell - Researcher associated with fossil nests and reproductive behavior",
+        "Luis Chiappe - Paleontologist known for work on dinosaur reproduction and birds",
+        "Michele R. Brown - Contributor to modern research on dinosaur eggs and nesting"
       ],
       "places": [
-        "Hell Creek Formation",
-        "Gobi Desert",
-        "Patagonia",
-        "American Museum of Natural History"
+        "Mongolia - Famous for beautifully preserved dinosaur nests and eggs",
+        "Montana, USA - Home to major nesting-site discoveries such as Maiasaura colonies",
+        "Gujarat, India - Region with significant dinosaur egg fossils and hatchery sites",
+        "Natural history museums - Collections where egg clutches and nesting behavior are studied"
       ],
       "years": [
-        "1877",
-        "1993",
-        "2010"
+        "1970s - Major dinosaur nesting discoveries begin changing the field",
+        "1980s - Brooding and colony-nesting evidence becomes widely discussed",
+        "1990s - Dinosaur reproductive biology grows into a major research topic",
+        "2020s - New imaging methods improve egg and embryo studies"
       ],
       "concepts": [
-        "Dinosaur evolution and diversity",
-        "Incubation and brooding behavior",
-        "Fossil record and fossil formation",
-        "Dinosaur parenting",
-        "Incubation period",
-        "Nesting sites"
+        "Brooding - Sitting on eggs to keep them warm and protected",
+        "Clutch - A group of eggs laid together at one time",
+        "Eggshell porosity - The tiny openings that let gases move in and out of the shell",
+        "Nesting colony - A breeding site used by many individuals",
+        "Embryo preservation - Fossils that preserve developing young before hatching"
       ]
     }
   }

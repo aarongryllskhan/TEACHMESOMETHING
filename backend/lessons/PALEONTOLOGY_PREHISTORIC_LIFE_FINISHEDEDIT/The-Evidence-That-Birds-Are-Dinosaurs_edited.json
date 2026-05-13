@@ -1,40 +1,67 @@
 {
-  "topic": "The Evidence That Birds Are Dinosaurs",
-  "title": "Understanding the Connection Between Dinosaurs and Birds: A Review of the Fossil Record",
+  "topic": "Bird Origins",
+  "title": "The Evidence That Birds Are Dinosaurs",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Archaeopteryx_lithographica_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Carl Vogt",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Archaeopteryx%20lithographica%20fossil.jpg"
+  },
   "lesson": {
-    "learn": "Birds and dinosaurs have long been topics of scientific investigation, but recent discoveries in paleontology have provided new insights into their relationship. Studies have shown that birds are direct descendants of theropod dinosaurs, a group characterized by their bipedal locomotion and feet with two toes facing forward. This discovery has significant implications for our understanding of evolution and highlights the importance of fossil records in reconstructing ancient ecosystems. By examining the fossil record and comparing anatomical structures, researchers have pieced together a compelling narrative that highlights the shared ancestry of birds and dinosaurs.",
-    "simpler": "The discovery that birds are dinosaurs is based on evidence from fossil records, including the discovery of Archaeopteryx in Germany's Solnhofen Limestone. This transitional fossil exhibits characteristics of both dinosaurs and birds, such as feathers and a wishbone-shaped breastbone. Additionally, many modern bird species retain dinosaur-like traits, such as claws on their wings and wishbones. For example, the Archaeopteryx had a long bony tail, like many dinosaurs, and could likely flap its wings to take off and land.",
-    "keyTakeaway": "The key takeaway from this lesson is that birds are direct descendants of theropod dinosaurs, based on the fossil record and comparative anatomy. This connection highlights the importance of gradual evolution and the sharing of genetic information between organisms over time. By examining the evolution of birds and dinosaurs, we can gain a deeper understanding of the mechanisms driving evolutionary change.",
-    "deeperDive": "One of the key pieces of evidence supporting the connection between birds and dinosaurs is the discovery of Archaeopteryx. Found in the Solnhofen Limestone in Bavaria, Germany, this transitional fossil was first described by German paleontologist Hermann von Meyer in 1861. Recent studies have revealed that Archaeopteryx had many dinosaur-like traits, including a long bony tail and claws on its wings. Furthermore, the presence of feathers on Archaeopteryx has provided evidence of the evolutionary link between dinosaurs and birds. The discovery of feathered dinosaurs in China's Liaoning Province has further supported this connection, highlighting the complexity of bird evolution.",
-    "funFact": "Some bird species have retained dinosaur-like characteristics, including the ability to swivel their hips like many theropod dinosaurs. This adaptation allows them to move with incredible agility, giving rise to some impressive aerial displays. For example, the peregrine falcon, one of the fastest birds on record, has a unique ability to swivel its hips during flight, allowing it to achieve speeds of up to 389 km/h.",
+    "learn": "Birds are dinosaurs in the same scientific sense that whales are mammals: they are the surviving branch of a much older group. The evidence comes from anatomy, feathers, nesting behavior, bones, and family-tree analysis, all of which point to birds descending from small theropod dinosaurs. Archaeopteryx made that relationship famous because it combines feathered wings with dinosaur-like traits such as a long bony tail and teeth. Once you compare the skeletons closely, the bird-dinosaur connection stops looking surprising and starts looking inevitable.",
+    "simpler": "Birds are the living dinosaurs that survived the mass extinction at the end of the Cretaceous. Fossils like Archaeopteryx and the many feathered theropods show how that transition happened.",
+    "keyTakeaway": "Birds belong inside the dinosaur family tree, and the fossil record shows that their flight, feathers, and skeletons grew out of theropod ancestors rather than appearing from nowhere.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/92/Skeleton_of_a_bird_(48051214876).jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Thomas Quine",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Skeleton%20of%20a%20bird%20(48051214876).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/61/Archaeopteryx_lithographica_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Fritzmann2002",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Archaeopteryx%20lithographica%20skeleton.jpg"
+    },
+    "deeperDive": "The strongest evidence is not one dramatic fossil but many small anatomical coincidences that line up across birds and theropods: wishbones, hollow bones, three-fingered hands, air-sac breathing, and nesting behavior. Add feathers and transitional forms like Archaeopteryx, and the old boundary between birds and dinosaurs becomes a historical convenience rather than a biological truth. This matters because classification is not just naming. It is a map of ancestry. When scientists say birds are dinosaurs, they are not being metaphorical; they are placing modern birds inside the theropod branch of the dinosaur tree. That single idea changes how we interpret everything from bird lungs to feather origins, because living birds are not side characters in dinosaur history. They are the ending that kept going.",
+    "funFact": "The world is still full of dinosaurs; we just call the flying ones birds.",
+    "references": [
+      "Smithsonian and Natural History Museum explanations of bird origins.",
+      "Review literature on theropod anatomy and avian evolution.",
+      "Archaeopteryx research and comparative anatomy sources.",
+      "Wikimedia Commons fossils and skeletal reconstruction pages."
+    ],
     "keyElements": {
       "people": [
-        "* Thomas Henry Huxley â€“ British biologist who championed the theory of evolution by natural selection",
-        "* Alan Feduccia â€“ American paleontologist who played a key role in discovering Archaeopteryx",
-        "* John Ostrom â€“ American paleontologist who first proposed the link between dinosaurs and birds",
-        "* Sankar Chatterjee â€“ Indian-American paleontologist who has made significant contributions to our understanding of bird evolution",
-        "* Philip Currie â€“ Canadian paleontologist who has worked extensively on dinosaur-bird connections"
+        "Thomas Henry Huxley - Early evolutionist who argued for a bird-dinosaur relationship",
+        "John Ostrom - Paleontologist whose theropod studies revived the bird-origin hypothesis",
+        "Hermann von Meyer - Early scientist associated with Archaeopteryx description",
+        "Xu Xing - Modern researcher whose feathered dinosaur work strengthened the case"
       ],
       "places": [
-        "* Solnhofen Limestone, Germany â€“ famous for its well-preserved fossil finds, including Archaeopteryx",
-        "* Liaoning Province, China â€“ known for its rich deposits of feathered dinosaurs and early bird fossils",
-        "* Jurassic Park, Utah, USA â€“ a world-renowned fossil site that has yielded many important discoveries about dinosaur evolution",
-        "* Natural History Museum, London, UK â€“ home to an extensive collection of dinosaur and bird fossils, including the famous Archaeopteryx specimen",
-        "* American Museum of Natural History, New York City, USA â€“ features an impressive collection of dinosaur and bird exhibits"
+        "Solnhofen Limestone, Germany - Classic Archaeopteryx locality and key transition site",
+        "Liaoning Province, China - Source of feathered dinosaurs and early birds",
+        "Museums of natural history - Places where the bird-dinosaur comparison becomes obvious",
+        "Jehol Biota - Fossil ecosystem that preserves birdlike dinosaurs in extraordinary detail"
       ],
       "years": [
-        "* 1861 â€“ Thomas Henry Huxley publishes his theory of evolution by natural selection in a series of lectures at Oxford University",
-        "* 1876 â€“ John Ostrom first proposes the link between dinosaurs and birds in a paper titled \"A New Insectivorous Reptile from the Jurassic of Colorado\"",
-        "* 2004 â€“ Sankar Chatterjee publishes a groundbreaking study on bird evolution, highlighting the importance of transitional fossils like Archaeopteryx",
-        "* 2019 â€“ Researchers announce the discovery of a new feathered dinosaur species in China's Liaoning Province"
+        "1861 - Archaeopteryx becomes a famous transitional fossil",
+        "1970s - The bird-dinosaur hypothesis returns to scientific prominence",
+        "1990s - Feathered dinosaur discoveries make the connection hard to ignore",
+        "2000s and 2010s - Phylogenetic analyses firmly place birds within Dinosauria"
       ],
       "concepts": [
-        "* Theropod dinosaurs â€“ characterized by their feet having two toes facing forward and their direct relationship to birds",
-        "* Archaeopteryx â€“ a transitional fossil that exhibits characteristics of both dinosaurs and birds",
-        "* Maniraptorans â€“ a group of feathered dinosaurs that includes the famous Velociraptor",
-        "* Wishbones (furculae) â€“ a characteristic shared by many modern bird species, also found in theropod dinosaurs",
-        "* Claws on wings â€“ retained by some modern bird species as a vestigial trait from their dinosaur ancestors",
-        "* Feathers â€“ found in both birds and many types of dinosaurs, including the famous Sinosauropteryx"
+        "Theropod - Two-legged carnivorous dinosaur group that gave rise to birds",
+        "Transitional fossil - A fossil showing traits from two stages of a lineage",
+        "Phylogeny - Evolutionary family tree based on shared ancestry",
+        "Wishbone - Furcula, a birdlike bone also present in many theropods",
+        "Air-sac respiration - Breathing system shared by birds and many dinosaurs"
       ]
     }
   }

@@ -1,43 +1,65 @@
 {
-  "topic": "Why-We-Havent-Found-Aliens-Yet-The-Fermi-Paradox",
-  "title": "Understanding the Fermi Paradox: The Search for Extraterrestrial Life",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Milky_Way_Galaxy.jpg/1280px-Milky_Way_Galaxy.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20150215052307",
-  "summary": "The Fermi Paradox asks one of humanity’s biggest questions: in a universe filled with billions of stars and potentially habitable planets, why have we found no clear evidence of alien civilizations?",
+  "topic": "The Fermi Paradox and the Search for Extraterrestrial Life",
+  "title": "Why We Still Haven’t Found Aliens",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/The_Drake_Equation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "NOIRLab/AURA/NSF/P. Marenfeld",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:The_Drake_Equation.jpg"
+  },
   "lesson": {
-    "learn": "In 1950, physicist Enrico Fermi posed a deceptively simple question during a discussion about extraterrestrial life: “Where is everybody?” This became known as the Fermi Paradox.\n\nThe paradox arises because the universe is unimaginably vast. The Milky Way alone contains roughly 100–400 billion stars, many with planetary systems, and modern astronomy suggests billions of Earth-like planets may exist in habitable zones. Given the age of the galaxy—over 13 billion years—even a single advanced civilization could theoretically colonize large portions of it in a relatively short cosmic timeframe.\n\nYet despite this statistical likelihood, humanity has found no confirmed alien signals, probes, megastructures, or civilizations. This contradiction between high probability and zero evidence is the heart of the Fermi Paradox.\n\nThe puzzle has become central to astrobiology, SETI, and philosophy because it challenges assumptions about life, intelligence, survival, and cosmic communication.",
-    "simpler": "Imagine standing in a massive forest with billions of trees, expecting to hear birds everywhere—but instead, the forest is completely silent. The universe may have billions of opportunities for life, so the silence makes scientists wonder whether intelligent life is rare, hidden, extinct, or simply beyond our ability to detect.",
-    "keyTakeaway": "The Fermi Paradox does not prove aliens do not exist—it highlights the gap between the enormous probability of extraterrestrial civilizations and the complete lack of confirmed contact, forcing us to rethink how life develops, survives, and communicates across cosmic distances.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Arecibo_message.svg/960px-Arecibo_message.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "deeperDive": "Scientists have proposed many possible solutions to the paradox. The Drake Equation, created by Frank Drake in 1961, attempts to estimate the number of communicative civilizations by combining factors such as star formation, habitable planets, and technological lifespan.\n\nOne major explanation is the Great Filter hypothesis, which suggests that at some stage—life formation, intelligence, advanced technology, or survival—most civilizations fail before becoming interstellar.\n\nAnother possibility is the Rare Earth hypothesis, which argues that while microbial life may be common, complex intelligent life requires extremely unusual conditions.\n\nThe Zoo Hypothesis suggests advanced civilizations may intentionally avoid contact, observing humanity from afar.\n\nOther explanations include communication mismatch (different technologies), self-destruction, simulation theory, or simply the immense scale of space and time.\n\nProjects like SETI, the Allen Telescope Array, Breakthrough Listen, and exoplanet missions such as Kepler and TESS continue searching for biosignatures, technosignatures, and radio signals. To date, no universally accepted evidence has been found.",
-    "funFact": "If a civilization began colonizing the galaxy using spacecraft traveling far below light speed, some models suggest it could spread across the Milky Way in just 10–100 million years—a blink on cosmic timescales.",
+    "learn": "The Fermi paradox asks a simple question with a huge implication: if the universe is so large and so old, why have we not seen evidence of other intelligent civilizations? There are billions of stars in the Milky Way and even more planets, so statistically the conditions for life may not be rare. Yet despite decades of searching, we have not found a confirmed signal, artifact, or visitor. That gap between expectation and evidence is the heart of the paradox. There are many possible answers. Life might be rare, intelligent life might be rarer still, civilizations might not last long enough to overlap in time, or advanced societies might be quiet in ways we do not recognize. The paradox does not prove we are alone. It shows that our understanding of life, technology, and cosmic timescales is still incomplete.",
+    "simpler": "The universe is huge, so it feels like aliens should be common - but we still have no confirmed evidence that any intelligent civilization exists beyond Earth.",
+    "keyTakeaway": "The Fermi paradox matters because it exposes a mismatch between the huge number of potentially habitable worlds and the complete lack of confirmed contact, forcing scientists to rethink how often life, intelligence, and long-lived civilizations really occur.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Milky_Way_and_Our_Location_%284186-Image%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "NASA/Adler/U. Chicago/Wesleyan/JPL-Caltech",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Milky_Way_and_Our_Location_(4186-Image).png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/3/3f/The_Milky_Way_galaxy_%28milkyway%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Bruno Gilli/ ESO",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_Milky_Way_galaxy_(milkyway).jpg"
+    },
+    "deeperDive": "The paradox gets sharper when you remember the scale of the galaxy. If intelligent life were common and technologically long-lived, some evidence might already have reached us. But the search space is enormous. Civilizations may be separated by vast distances, by time, or by communication methods we have not learned to detect. They may use technologies that leave little trace, or they may deliberately avoid broadcasting their presence. Another possibility is that one or more steps on the road from chemistry to intelligence are extraordinarily difficult. Life might begin often but complex cells, multicellular organisms, intelligence, or technological civilization might all be rare bottlenecks. The Fermi paradox therefore acts less like a contradiction and more like a research program: it forces astronomers, biologists, and philosophers to ask where the silence is coming from and what it really means.",
+    "funFact": "The paradox is named after physicist Enrico Fermi, who reportedly asked, \"Where is everybody?\"",
+    "references": [
+      "Fermi paradox and SETI review literature.",
+      "Drake equation and astrobiology references.",
+      "Wikimedia Commons metadata for Milky Way and Drake-equation imagery."
+    ],
     "keyElements": {
       "people": [
-        "Enrico Fermi - Physicist who posed the paradox in 1950",
-        "Frank Drake - Developed the Drake Equation",
-        "Carl Sagan - Popularized SETI and cosmic life research",
-        "Jill Tarter - Leading SETI astronomer"
+        "Enrico Fermi - Associated with the famous question behind the paradox.",
+        "SETI researchers - Search for signals from other civilizations.",
+        "Astrobiologists - Study how often life and intelligence may arise.",
+        "Astronomers - Measure exoplanets and habitability conditions."
       ],
       "places": [
-        "Los Alamos National Laboratory - Site of Fermi’s original discussion",
-        "SETI Institute - Major extraterrestrial intelligence research center",
-        "Arecibo Observatory - Historic radio astronomy and messaging site",
-        "Allen Telescope Array - Modern SETI signal detection array"
+        "The Milky Way - The galaxy where our search for neighbors begins.",
+        "Exoplanet systems - Potential homes for life beyond Earth.",
+        "Radio telescopes - Main tools used in searches for technosignatures.",
+        "The observable universe - The larger setting that makes the question so big."
       ],
       "years": [
-        "1950 - Fermi poses “Where is everybody?”",
-        "1961 - Drake Equation developed",
-        "1974 - Arecibo Message transmitted",
-        "2009 - Kepler mission begins exoplanet discoveries",
-        "2015 - Breakthrough Listen launched"
+        "1950 - The famous Fermi-paradox question is raised.",
+        "1960 - Modern SETI efforts begin in earnest.",
+        "1990s - The exoplanet era transforms the search landscape.",
+        "2020s - Technosignature research expands alongside astrobiology."
       ],
       "concepts": [
-        "Fermi Paradox - High probability of life vs no evidence",
-        "Drake Equation - Formula estimating communicative civilizations",
-        "Great Filter - Barrier preventing advanced civilizations",
-        "Zoo Hypothesis - Deliberate non-contact by advanced species",
-        "SETI - Search for Extraterrestrial Intelligence",
-        "Technosignatures - Detectable signs of advanced civilizations",
-        "Rare Earth Hypothesis - Complex life may be exceptionally uncommon"
+        "Drake equation - A framework for estimating communicative civilizations.",
+        "Technosignature - Any detectable sign of advanced technology.",
+        "Great filter - A possible bottleneck that prevents civilizations from lasting.",
+        "Habitable zone - The region around a star where liquid water may be possible."
       ]
     }
   }

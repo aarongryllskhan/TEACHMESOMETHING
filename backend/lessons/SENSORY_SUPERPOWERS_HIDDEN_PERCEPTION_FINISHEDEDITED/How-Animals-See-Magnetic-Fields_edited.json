@@ -1,45 +1,65 @@
 {
   "topic": "Magnetoreception in Animals",
   "title": "Understanding Animal Navigation Through Magnetic Fields",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/European_Robin_Erithacus_rubecula.jpg/1920px-European_Robin_Erithacus_rubecula.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20090330202323",
-  "summary": "Magnetoreception allows certain animals to detect Earth’s magnetic field, enabling migration, orientation, and navigation across vast distances through biological magnetic sensing systems.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Magnetoreception.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Qfavey",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Magnetoreception.png"
+  },
   "lesson": {
-    "learn": "Magnetoreception is the remarkable biological ability of certain animals to sense Earth’s magnetic field and use it for orientation, navigation, and migration. This sensory system has been identified in a wide range of species, including migratory birds, sea turtles, sharks, salmon, bats, and insects like monarch butterflies.\n\nFor migratory species traveling thousands of miles, magnetoreception acts like an internal compass and map. Birds such as the European robin can detect magnetic field direction, helping them migrate between continents even when visual landmarks are unavailable. Sea turtles appear to imprint on Earth’s magnetic field at birth, allowing them to return years later to nesting beaches.\n\nScientists believe magnetoreception may function through multiple mechanisms. One involves magnetite—tiny iron-based crystals found in certain animal tissues that may physically respond to magnetic fields. Another leading theory involves cryptochrome proteins in the eyes of birds, where quantum chemical reactions may allow animals to 'see' magnetic fields as visual patterns.\n\nThis discovery has transformed our understanding of sensory biology by revealing that animals may experience environmental information humans cannot directly perceive.",
-    "simpler": "Some animals have a built-in compass that helps them know which way to go by sensing Earth’s magnetic field. It’s like having GPS inside their bodies, allowing birds, turtles, and butterflies to travel huge distances without getting lost.",
-    "keyTakeaway": "Magnetoreception is a specialized sensory system that allows animals to use Earth’s magnetic field for navigation, demonstrating how evolution has produced extraordinary biological tools for survival.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Monarch_In_May.jpg/1920px-Monarch_In_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20110415022502",
-    "deeperDive": "The scientific study of magnetoreception has revealed two major hypotheses:\n\n1. Magnetite-Based Detection: Magnetite crystals, first identified in some organisms in the 1960s, may act like microscopic compass needles that align with magnetic fields.\n2. Radical Pair Mechanism: Proposed for birds, this theory suggests cryptochrome molecules in the retina undergo light-dependent quantum reactions influenced by magnetic fields.\n\nWolfgang and Roswitha Wiltschko pioneered bird magnetoreception research, demonstrating that European robins use magnetic cues for orientation. Kenneth Lohmann’s work with sea turtles showed hatchlings can detect magnetic signatures unique to geographic regions.\n\nSharks and rays may combine electroreception with magnetic cues using the ampullae of Lorenzini, allowing precise oceanic navigation. Salmon may also use geomagnetic maps to return to natal rivers.\n\nRecent studies suggest magnetic pollution from human infrastructure—such as undersea cables or electromagnetic interference—could disrupt migration pathways, making magnetoreception research important for conservation biology.",
-    "funFact": "Loggerhead sea turtles can migrate thousands of miles across oceans and still return to the same region where they were born by using Earth’s magnetic field like a natural map.",
+    "learn": "Magnetoreception is the ability to detect Earth's magnetic field and use it as a navigational reference. For animals that migrate, forage, or travel long distances, that invisible field works like a compass that never needs charging. Birds are the best-known example, but the trait also appears in sea turtles, salmon, insects, and even some mammals. The key idea is that the magnetic field is not a single sense all by itself; it is part of a larger navigation toolkit that combines sunlight, smell, landmarks, and internal memory. What makes magnetoreception so striking is that it gives animals access to information humans do not consciously experience at all.",
+    "simpler": "Some animals can sense Earth's magnetic field and use it like a built-in map or compass. That helps them migrate, hunt, and find home even when the landscape looks unfamiliar.",
+    "keyTakeaway": "Magnetoreception shows that navigation is not just about seeing landmarks; some animals carry a biological reference system for direction that humans can only imitate with instruments.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/e/ed/A_homing_pigeon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Spanishguitar101",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:A_homing_pigeon.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Homing_Pigeon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Sundaramoorthy K",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Homing_Pigeon.jpg"
+    },
+    "deeperDive": "Scientists do not think magnetoreception works in just one way. In birds, one leading idea is that light-sensitive chemical reactions in the eye may help the brain register magnetic direction, while another is that tiny particles of magnetite in the body may act as magnetic sensors. The field itself is weak, so the brain must combine the signal with other clues rather than relying on it alone. That is why a pigeon, turtle, or migrating bird can still end up confused if weather, light, or other cues are disrupted. The broader lesson is that evolution can build a sense that does not feel like a sense to us. Humans do not feel magnetic north directly, but we can still study and map the biological machinery that lets other species treat the planet itself as a guide.",
+    "funFact": "A migrating bird may rely on Earth's magnetic field the way a traveler relies on a compass, except the animal never has to carry the compass in its hand.",
+    "references": [
+      "Magnetoreception review literature in ornithology and sensory biology.",
+      "Research on cryptochrome and magnetite-based sensing.",
+      "Wikimedia Commons image metadata for the selected pigeon and magnetoreception illustrations."
+    ],
     "keyElements": {
       "people": [
-        "Wolfgang Wiltschko - Pioneer in avian magnetoreception research",
-        "Roswitha Wiltschko - Co-researcher on bird magnetic navigation",
-        "Kenneth Lohmann - Researcher on sea turtle magnetic navigation",
-        "Richard Holland - Researcher on animal migration and navigation",
-        "Joseph Kirschvink - Geophysicist known for magnetite and biomagnetism studies"
+        "Roswitha Wiltschko - Researcher associated with early magnetic orientation studies in birds.",
+        "Thomas Alerstam - Ornithologist known for migration research and navigation questions.",
+        "Sensory biologists - Scientists studying how animals detect invisible environmental cues.",
+        "Animal behavior researchers - Experts linking navigation to ecology and survival."
       ],
       "places": [
-        "University of Frankfurt, Germany - Major bird magnetoreception research center",
-        "University of North Carolina - Sea turtle navigation studies",
-        "Arctic Circle - Major migratory bird routes",
-        "Pacific Ocean - Sea turtle and shark navigation corridors",
-        "Natural History Museum, London - Biological navigation research"
+        "Migration corridors - Routes where magnetic sensing helps animals travel long distances.",
+        "Nesting beaches - Coastal sites where turtles use navigation cues to return and lay eggs.",
+        "Open ocean and open sky - Environments where landmarks disappear and internal compasses matter most.",
+        "Research laboratories - Places where magnetic orientation is measured and tested."
       ],
       "years": [
-        "1960s - Magnetite identified in biological systems",
-        "1972 - Wiltschko experiments on bird magnetic orientation",
-        "1990s - Sea turtle geomagnetic navigation studies expand",
-        "2000 - Cryptochrome hypothesis gains prominence",
-        "2018 - Expanded insect magnetoreception evidence"
+        "1960s - Early controlled experiments suggest birds can detect magnetic direction.",
+        "1970s - Magnetoreception becomes a serious scientific question.",
+        "2000s - Cryptochrome and magnetite hypotheses gain prominence.",
+        "2020s - Navigation research continues to refine how multiple senses work together."
       ],
       "concepts": [
-        "Magnetoreception - Biological sensing of magnetic fields",
-        "Magnetite - Iron mineral potentially used in magnetic sensing",
-        "Cryptochrome - Light-sensitive protein linked to magnetic detection",
-        "Geomagnetic Map - Spatial navigation using Earth’s magnetic intensity",
-        "Migration Biology - Long-distance animal movement systems",
-        "Quantum Biology - Study of quantum effects in living systems",
-        "Compass Sense - Directional orientation using magnetic fields"
+        "Magnetoreception - Biological detection of magnetic fields.",
+        "Cryptochrome - A light-sensitive protein linked to magnetic sensing theories.",
+        "Magnetite - Tiny magnetic mineral particles that may help animals orient.",
+        "Orientation cue - Any signal an animal uses to choose direction."
       ]
     }
   }

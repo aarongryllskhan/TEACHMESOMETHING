@@ -1,42 +1,65 @@
 {
-  "topic": "Why-Mercury-Doesnt-Behave-Like-Newton-Predicted",
-  "title": "Understanding Mercury's Motion: A Complex Puzzle of Gravity and Relativity",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20230515081613",
-  "summary": "Mercury’s unusual orbit revealed one of the first major cracks in Newtonian gravity, ultimately helping confirm Einstein’s revolutionary theory of General Relativity.",
+  "topic": "Mercury and the Limits of Newtonian Gravity",
+  "title": "Why Mercury Refused to Follow Newton’s Prediction",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Perihelion_precession_of_Mercury_%28it%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Original: Dhenry ; Original uploader was Dhenry at fr.wikipedia Vectorization: Reaperman (SVG, translation to Czech language) Derivative work: MacMoreno (Italian translation)",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Perihelion_precession_of_Mercury_(it).svg"
+  },
   "lesson": {
-    "learn": "Mercury, the closest planet to the Sun, moves through one of the strongest gravitational fields in the solar system outside the Sun itself. For centuries, Isaac Newton’s law of universal gravitation accurately described planetary motion, but Mercury’s orbit contained a subtle anomaly: its perihelion—the point closest to the Sun—shifted slightly faster than Newton’s equations predicted.\n\nIn the 19th century, French astronomer Urbain Le Verrier carefully calculated Mercury’s orbit and found an unexplained extra precession of about 43 arcseconds per century. Scientists initially suspected an unseen planet, sometimes called Vulcan, or other gravitational influences, but none fully explained the discrepancy.\n\nThis puzzle became one of astronomy’s greatest mysteries until Albert Einstein published General Relativity in 1915. Einstein showed that massive objects like the Sun warp spacetime itself, slightly altering Mercury’s path. His equations perfectly accounted for Mercury’s anomalous orbital motion, providing one of the first major confirmations of relativity.",
-    "simpler": "Newton’s gravity works like an invisible force pulling planets around the Sun, but Mercury moves so close to the Sun that spacetime itself becomes curved. Imagine rolling a marble around a heavy bowling ball on a stretched sheet—the marble’s path changes because the surface bends. Mercury’s orbit behaves similarly because the Sun warps spacetime.",
-    "keyTakeaway": "Mercury’s orbit demonstrated that gravity is not simply a force between objects, but also a consequence of curved spacetime, making Mercury one of the earliest proofs that Einstein’s General Relativity was more complete than Newton’s classical physics.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Mercuryorbitsolarsystem.gif?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail_unscaled",
-    "deeperDive": "Mercury’s perihelion precession totals about 5600 arcseconds per century, most of which is caused by gravitational tugs from other planets. However, after accounting for those influences, 43 arcseconds remained unexplained under Newtonian mechanics.\n\nEinstein’s General Relativity solved this using the Schwarzschild solution, which describes how the Sun’s mass curves nearby spacetime. Mercury’s high orbital speed, elliptical path, and close solar distance amplify relativistic effects more than for other planets.\n\nLater technological advances, including radar ranging in the 1960s and NASA’s MESSENGER mission (2011–2015), refined Mercury’s orbital measurements and further confirmed relativistic predictions. Mercury continues to serve as a testing ground for gravitational physics, helping scientists evaluate relativity under intense solar conditions.\n\nThe success of Einstein’s explanation transformed physics, influencing everything from black hole theory to GPS satellite corrections.",
-    "funFact": "A single day on Mercury (sunrise to sunrise) lasts 176 Earth days—twice as long as Mercury’s 88-day year.",
+    "learn": "For a long time, Mercury seemed to be a tiny annoyance in an otherwise successful theory. Astronomers could predict its motion very well, except for a small extra shift in the point where its orbit comes closest to the Sun. That unexpected precession did not fit Newtonian gravity perfectly. The difference was small, but it was real, and scientists knew it had to be explained. Einstein’s general relativity solved the puzzle by showing that Mercury moves in the curved spacetime around the Sun, not in a perfectly rigid Newtonian framework. Mercury became famous because a tiny mismatch in its orbit helped prove that gravity itself needed a deeper theory.",
+    "simpler": "Mercury’s orbit was slightly off from what Newton’s laws predicted. Einstein’s relativity explained the mismatch by showing that the Sun curves spacetime more subtly than Newtonian gravity could capture.",
+    "keyTakeaway": "Mercury’s strange orbit mattered because even a small, repeatable error can expose a limit in a beloved theory and force science to build something better.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mercury%27s_transit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "G. Hudepohl/ESO",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mercury%27s_transit.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mercury_Solar_Transit_%28NHQ201911110003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Joel Kowsky",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mercury_Solar_Transit_(NHQ201911110003).jpg"
+    },
+    "deeperDive": "Newtonian mechanics explains almost everything about planetary motion beautifully, which is why Mercury’s anomaly stood out so clearly. Its perihelion, the point closest to the Sun, rotates a little more than classical gravity predicted. Planet hunters and orbit calculators had to account for perturbations from other planets, but even after that, a stubborn extra piece remained. Einstein’s theory of general relativity solved the discrepancy by replacing the idea of a simple force acting at a distance with curved spacetime. In that picture, Mercury is moving in a geometry shaped by the Sun’s mass. The famous calculation of Mercury’s extra precession became one of the first major triumphs of relativity. It mattered because it showed that the universe could be measured with exquisite precision and still reveal a hidden level of structure. Mercury is therefore more than a small planet. It is one of the most important test cases in the history of physics.",
+    "funFact": "A tiny orbital mismatch around Mercury helped turn Einstein’s relativity from a theory into a triumph.",
+    "references": [
+      "Celestial mechanics and general relativity reference literature.",
+      "Historical accounts of Mercury’s perihelion precession.",
+      "Wikimedia Commons image metadata for Mercury and solar-transit visuals."
+    ],
     "keyElements": {
       "people": [
-        "Isaac Newton - Formulated classical laws of gravity",
-        "Urbain Le Verrier - Identified Mercury’s perihelion anomaly",
-        "Albert Einstein - Explained Mercury’s orbit using General Relativity"
+        "Albert Einstein - Theoretical physicist who explained Mercury’s anomaly.",
+        "Urbain Le Verrier - Earlier astronomer associated with the Mercury puzzle.",
+        "Astronomers and orbital dynamicists - Researchers who track tiny deviations in planetary motion.",
+        "Solar physicists - Scientists who observe Mercury transits and solar geometry."
       ],
       "places": [
-        "Paris Observatory - Le Verrier’s orbital calculations",
-        "Cambridge University - Major center for gravitational physics",
-        "NASA Jet Propulsion Laboratory - Modern Mercury mission analysis",
-        "Mercury’s Orbit - Key testing ground for relativity"
+        "The Sun’s neighborhood - The strong-gravity region where Mercury’s orbit is tested.",
+        "Observatories - Sites where precise positional astronomy is done.",
+        "Planets in the inner solar system - The system that perturbs Mercury's path.",
+        "Transit paths across the Sun - Visual proofs that Mercury is moving on a measured orbit."
       ],
       "years": [
-        "1687 - Newton publishes Principia Mathematica",
-        "1859 - Le Verrier identifies Mercury’s orbital discrepancy",
-        "1915 - Einstein publishes General Relativity",
-        "1919 - Early relativistic confirmations increase acceptance",
-        "2011 - NASA’s MESSENGER enters Mercury orbit"
+        "1859 - The anomalous precession is identified as a real problem.",
+        "1915 - General relativity explains Mercury’s motion.",
+        "2016 - A modern Mercury transit is widely observed.",
+        "2019 - Another transit gives scientists a clean solar silhouette."
       ],
       "concepts": [
-        "Gravity - Attraction between masses",
-        "Orbital Mechanics - Motion of celestial bodies",
-        "Perihelion Precession - Gradual orbital shift",
-        "General Relativity - Gravity as spacetime curvature",
-        "Spacetime - Four-dimensional cosmic framework",
-        "Schwarzschild Solution - Mathematical model for curved spacetime near massive bodies",
-        "Radar Astronomy - Precision planetary measurement"
+        "Perihelion - The point in an orbit closest to the Sun.",
+        "Precession - The slow rotation of an orbit over time.",
+        "Newtonian gravity - The older framework that almost explained Mercury.",
+        "General relativity - Einstein’s curved-spacetime theory of gravity."
       ]
     }
   }

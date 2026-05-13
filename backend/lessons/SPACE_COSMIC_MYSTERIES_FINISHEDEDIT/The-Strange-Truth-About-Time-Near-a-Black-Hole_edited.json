@@ -1,41 +1,65 @@
 {
   "topic": "Black Holes and Gravitational Time Dilation",
-  "title": "Understanding the Complex Nature of Time near a Black Hole",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Black_hole_-_Messier_87.jpg/1280px-Black_hole_-_Messier_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail",
-  "summary": "Black holes are among the universe’s most extreme objects, warping spacetime so intensely that time itself slows dramatically near them. This gravitational time dilation reveals one of the most profound consequences of Einstein’s theory of general relativity.",
+  "title": "Why Time Runs Differently Near a Black Hole",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Perihelion_precession.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Sal.vi",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Perihelion_precession.gif"
+  },
   "lesson": {
-    "learn": "Time near a black hole behaves in extraordinary ways because black holes warp spacetime to extreme degrees. According to Albert Einstein’s General Theory of Relativity, published in 1915, gravity is not simply a force but a curvature of spacetime caused by mass and energy. The stronger the gravitational field, the slower time passes relative to regions with weaker gravity.\n\nNear a black hole, this effect becomes dramatic. A clock close to the event horizon would tick far more slowly compared to a clock far away. To an outside observer, someone approaching a black hole would appear to move increasingly slower, almost freezing near the event horizon. Meanwhile, the person falling inward would experience time normally from their own perspective.\n\nThis phenomenon, known as gravitational time dilation, has transformed our understanding of time from an absolute constant into a variable shaped by gravity.",
-    "simpler": "Imagine two clocks: one on Earth and one near a black hole. The clock near the black hole would run much slower because gravity there bends spacetime so strongly. It’s like time itself gets stretched.",
-    "keyTakeaway": "Gravitational time dilation near black holes demonstrates that time is deeply connected to gravity and spacetime, proving that time can pass at different rates depending on gravitational intensity.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/98/Gravitational_time_dilation_around_a_black_hole.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20160706040256",
-    "deeperDive": "Black holes contain an event horizon, the boundary beyond which escape becomes impossible because spacetime curves inward faster than light can travel outward. Near this boundary, gravitational time dilation becomes so extreme that outside observers would never actually see an object cross it—instead, it would appear to slow and fade.\n\nKarl Schwarzschild provided the first exact black hole solution to Einstein’s equations in 1916, describing the Schwarzschild radius, or the size of the event horizon for a non-rotating black hole. Later, Stephen Hawking’s 1974 work introduced Hawking radiation, suggesting black holes may slowly lose energy over immense timescales.\n\nGravitational time dilation is not just theoretical; it has been confirmed through experiments involving Earth’s gravity and satellite clocks. Around black holes, however, the effect becomes vastly more powerful. These principles are crucial in understanding accretion disks, relativistic jets, and the paradoxes surrounding information loss.\n\nModern projects like the Event Horizon Telescope’s 2019 imaging of M87’s supermassive black hole have provided direct evidence of black hole behavior, helping bridge theory and observation.",
-    "funFact": "If you spent just a few hours near the event horizon of a supermassive black hole under the right conditions, years or even decades could pass for people far away from you.",
+    "learn": "Near a black hole, time does not behave like the steady background clock we experience on Earth. According to general relativity, strong gravity slows the passage of time relative to a more distant observer. That means two clocks can disagree dramatically if one is deep in a gravitational well and the other is far away. A black hole makes this effect extreme because its gravity is so intense that even light and time are caught up in the geometry of spacetime around it. The result is not science fiction distortion but measurable physics. Time near a black hole really does run differently.",
+    "simpler": "Strong gravity changes the rate at which time passes. Near a black hole, time can move much more slowly compared with clocks farther away.",
+    "keyTakeaway": "Time near a black hole is not broken; it is stretched by gravity so strongly that relativity turns ordinary clock readings into radically different experiences of the same moment.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Binary_Black_Hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Jeremy Schnittman",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Binary_Black_Hole.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Sgra_Black_hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "X-ray: NASA/CXC/SAO; IR: NASA/HST/STScI.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sgra_Black_hole.jpg"
+    },
+    "deeperDive": "Relativity says gravity is really curvature in spacetime, so clocks in stronger gravitational fields tick more slowly than clocks in weaker ones. In ordinary life the difference is tiny, but near a black hole it becomes dramatic enough to matter for hypothetical observers and for real astrophysical calculations. This is not just about time passing slower in some vague sense. It affects orbital motion, signal timing, and the behavior of light itself. The same physics appears in gentler form around Earth and is essential to technologies like GPS, which must correct for relativistic effects to remain accurate. Around a black hole, the effect becomes extreme because the geometry of spacetime is so steep that ordinary intuition fails. The closer you get to the event horizon, the more a distant observer sees your processes appear stretched and slowed. That is why black holes are not just dense objects. They are laboratories for the most uncompromising version of relativity we know.",
+    "funFact": "The GPS in your phone works partly because engineers already correct for the fact that time does not tick exactly the same everywhere.",
+    "references": [
+      "General relativity and gravitational time-dilation reference literature.",
+      "Black hole physics review papers.",
+      "Wikimedia Commons image metadata for relativistic and black-hole imagery."
+    ],
     "keyElements": {
       "people": [
-        "Albert Einstein - Developed General Relativity, which predicts gravitational time dilation",
-        "Karl Schwarzschild - Derived the first mathematical black hole solution in 1916",
-        "Stephen Hawking - Proposed Hawking radiation and advanced black hole thermodynamics",
-        "Kip Thorne - Expanded theoretical understanding of black holes and relativistic physics"
+        "Albert Einstein - Formulated the relativity that predicts time dilation.",
+        "Astrophysicists - Researchers who calculate how time behaves near compact objects.",
+        "GPS engineers - Scientists and engineers who correct for relativistic timing.",
+        "Black-hole observers - Theoretical physicists who test the limits of spacetime models."
       ],
       "places": [
-        "Event Horizon Telescope - Captured the first direct image of a black hole",
-        "NASA Goddard Space Flight Center - Major center for black hole research",
-        "European Southern Observatory - Key contributor to black hole observations",
-        "Large Hadron Collider - Explores extreme particle physics related to spacetime"
+        "Event horizons - The boundary where black holes become unavoidable.",
+        "Near-Earth orbit - A gentler place where relativity still matters.",
+        "Galactic centers - Regions where black holes strongly affect spacetime.",
+        "Relativity labs and observatories - Where timing and gravitational models are tested."
       ],
       "years": [
-        "1915 - Einstein publishes General Relativity",
-        "1916 - Schwarzschild describes black hole geometry",
-        "1974 - Hawking proposes black hole radiation",
-        "2019 - First black hole image captured by the Event Horizon Telescope"
+        "1915 - General relativity is published.",
+        "1970s - Black-hole physics becomes a major field.",
+        "1990s - Precise timing technology makes relativistic corrections practical.",
+        "2010s - Observations of black-hole environments become increasingly sharp."
       ],
       "concepts": [
-        "Gravitational Time Dilation - Time slowing under strong gravity",
-        "Event Horizon - Boundary beyond which escape is impossible",
-        "Singularity - Hypothetical infinitely dense core",
-        "General Relativity - Einstein’s theory of gravity and spacetime",
-        "Hawking Radiation - Theoretical black hole energy emission",
-        "Information Paradox - Debate over whether information is lost in black holes"
+        "Time dilation - Time passing at different rates in different gravitational fields.",
+        "Event horizon - The point beyond which escape is impossible.",
+        "Spacetime curvature - Gravity as geometry rather than just force.",
+        "Redshift - Light losing energy as it climbs out of gravity."
       ]
     }
   }

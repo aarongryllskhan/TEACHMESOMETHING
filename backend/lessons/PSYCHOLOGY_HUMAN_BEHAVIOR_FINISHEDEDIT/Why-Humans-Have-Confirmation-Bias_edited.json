@@ -1,34 +1,68 @@
 {
   "topic": "Why-Humans-Have-Confirmation-Bias",
-  "title": "The Methods Behind Confirmation Bias: Exploring Its Origins and Implications",
+  "title": "Why Humans Have Confirmation Bias",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Confirmatory_Bias%3F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Alan Stanton",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File%3AConfirmatory_Bias%3F.jpg"
+  },
   "lesson": {
-    "learn": "Confirmation bias is a pervasive cognitive bias that affects how humans perceive and process information. Research suggests that 50% of decision-making is driven by instinct, with confirmation bias playing a significant role (Kahneman & Tversky, 1979). This phenomenon occurs when individuals selectively seek, interpret, and favor information that confirms their pre-existing beliefs or hypotheses, while disregarding contradictory evidence. This selective processing can lead to misinformed decisions, distorted views, and social inequalities.",
-    "simpler": "Imagine wearing glasses with tinted lenses that only let you see what matches your existing views. Just as our brains process visual information, our minds also tend to focus on information that confirms our preconceptions. A study published in 2010 found that people tend to give more weight to information that confirms their beliefs, rather than considering alternative perspectives (Griskevicius et al., 2010).",
-    "keyTakeaway": "One key insight is that confirmation bias is an unconscious process, making it challenging to detect in ourselves. By recognizing our biases, we can actively seek diverse perspectives and engage in constructive dialogue with others who hold differing views.",
-    "deeperDive": "Extensive research has identified several factors contributing to confirmation bias, including the need for cognitive closure, the desire for social identity, and the fear of ambiguity. A study conducted at Stanford University found that people with a strong need for control are more susceptible to confirmation bias (Latané & Darley, 1970). Furthermore, cultural and social norms can influence confirmation bias, with collectivist cultures being more likely to conform to groupthink.",
-    "funFact": "Surprisingly, even educated individuals with high levels of intelligence are not immune to confirmation bias. Research suggests that the more we think we know about a topic, the more resistant we become to alternative perspectives. According to a study published in 2002, people with high levels of education and expertise are more likely to exhibit confirmation bias (Kahneman, 2002).",
+    "learn": "Confirmation bias is the tendency to notice, remember, and trust information that supports what we already believe. It is not just stubbornness; it is a fast mental shortcut that helps people feel oriented in a messy world, even when it quietly distorts the evidence. Once a belief feels familiar, the brain starts testing new information against that belief instead of against the facts on their own. That makes mixed evidence feel clear, supportive evidence feel persuasive, and contradiction feel easier to dismiss. The same pattern shows up in politics, science, relationships, and ordinary everyday conversation, which is why the bias can hide in plain sight.",
+    "simpler": "When people already believe something, their minds tend to lean toward the evidence that agrees with it. That makes opinions feel stronger than the evidence really justifies.",
+    "keyTakeaway": "Confirmation bias survives because it makes thinking feel efficient and identity-preserving, but the same shortcut can turn a tentative opinion into a belief that is very hard to dislodge.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Common_Cognitive_Biases.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "LoudLizard",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Common_Cognitive_Biases.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/24/Evidence_Sufficiency_Diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Farcaster",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Evidence_Sufficiency_Diagram.png"
+    },
+    "deeperDive": "The bias shows up at several stages of thinking. People do not only interpret new facts in biased ways; they also choose what to look at, what questions to ask, what examples to remember, and what to repeat to others. In that sense, confirmation bias is more of a filter than a single mistake. It is strongest when beliefs are emotionally loaded or tied to group identity. Once a view becomes part of who someone is, contradictory information can feel like a personal threat instead of a correction. That is why arguments often harden positions rather than soften them. The fix is not to force perfect neutrality, which humans cannot sustain. It is to slow the process down: ask what evidence would change your mind, seek out the strongest version of the opposing case, and separate the quality of the evidence from the comfort of the conclusion. The point is not to erase belief, but to keep belief answerable to reality. That habit matters because a mind that never tests itself eventually mistakes repetition for proof, and repetition is a terrible substitute for truth. ",
+    "funFact": "People can look at the same mixed evidence and honestly come away more convinced of opposite conclusions, simply because each side notices different details first.",
+    "references": [
+      "Mynatt, Doherty, & Tweney, confirmation bias in scientific inference (1977).",
+      "Nickerson, Confirmation Bias: A Ubiquitous Phenomenon in Many Guises (1998).",
+      "Peters, What Is the Function of Confirmation Bias? (2020).",
+      "Lord, Ross, & Lepper, Biased assimilation and attitude polarization (1979).",
+      "APA Dictionary of Psychology, confirmation bias."
+    ],
     "keyElements": {
       "people": [
-        "* **Cass Sunstein**: An American legal scholar who coined the term \"confirmation bias\" and has extensively researched its effects on decision-making.",
-        "* **Daniel Kahneman**: A Nobel Prize-winning economist and psychologist known for his work on cognitive biases, including confirmation bias.",
-        "* **Amos Tversky**: A renowned Israeli-American psychologist and statistician who collaborated with Daniel Kahneman on numerous studies about human judgment and decision-making."
+        "Raymond S. Nickerson - Psychologist who wrote the classic 1998 review that made confirmation bias widely visible.",
+        "Daniel Kahneman - Behavioral scientist whose work showed how fast, intuitive thinking can mislead judgment.",
+        "Amos Tversky - Researcher whose experiments helped reveal systematic errors in human reasoning.",
+        "Uwe Peters - Scholar who examined why confirmation bias persists and what it may do for the mind."
       ],
       "places": [
-        "* **Stanford University**: Where Cass Sunstein was a professor of law, contributing to research on behavioral economics and cognition.",
-        "* **Harvard University**: Where Daniel Kahneman taught as an adjunct professor, focusing on decision sciences and cognitive biases.",
-        "* **Massachusetts Institute of Technology (MIT)**: Amos Tversky worked at MIT, conducting groundbreaking studies on risk perception and human judgment."
+        "Princeton University - A central home of behavioral decision research that shaped modern thinking about bias.",
+        "Stanford University - A major center for judgment and reasoning research.",
+        "American Psychological Association - Publisher of the standard dictionary definition used in psychology.",
+        "Experimental psychology laboratories - The places where biased hypothesis testing has been observed and measured."
       ],
       "years": [
-        "* **1960s**: When psychologists began to study the concept that would eventually become known as confirmation bias.",
-        "* **1977**: Cass Sunstein published his seminal paper \"Probability and Hazard\" introducing the term \"confirmation bias\".",
-        "* **2002**: Daniel Kahneman won the Nobel Prize in Economics, highlighting the significance of cognitive biases in decision-making."
+        "1960 - Early experimental work on hypothesis testing shows people favor supportive tests.",
+        "1977 - Mynatt, Doherty, and Tweney describe confirmation bias in scientific inference.",
+        "1998 - Nickerson publishes the landmark review on confirmation bias.",
+        "2020 - Peters analyzes the possible function of the bias."
       ],
       "concepts": [
-        "* **Cognitive shortcuts**: Mental rules that simplify complex decisions but can lead to errors.",
-        "* **Biases**: Systematic distortions in perception and judgment that influence our behavior.",
-        "* **Heuristics**: Decision-making strategies that rely on mental simplifications, often leading to suboptimal choices.",
-        "* **Social influence**: The impact of social norms and group pressures on individual behavior.",
-        "* **Emotional biases**: The role of emotions in shaping perception and decision-making processes."
+        "Selective search - Looking for evidence that supports an existing belief.",
+        "Selective interpretation - Reading ambiguous information in the most favorable way.",
+        "Biased memory - Remembering support for a belief more easily than contradictions.",
+        "Motivated reasoning - Using reasoning to defend a conclusion instead of test it.",
+        "Belief perseverance - Keeping a belief even after the original evidence weakens."
       ]
     }
   }

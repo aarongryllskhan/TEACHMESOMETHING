@@ -1,38 +1,65 @@
 {
-  "topic": "The-Mystery-of-Dark-Matter-The-Universes-Missing-85",
-  "title": "The Mystery of Dark Matter: The Universe’s Missing 85%",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Abell_1689.jpg/1280px-Abell_1689.jpg?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail",
-  "summary": "Dark matter is one of the greatest mysteries in modern astrophysics, making up approximately 85% of the universe’s matter while remaining invisible to direct observation. Scientists detect its presence through gravity’s effects on galaxies, galaxy clusters, and light itself.",
+  "topic": "Dark Matter and the Invisible Architecture of the Universe",
+  "title": "Why the Universe Needs Dark Matter to Hold Together",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Bullet_Cluster_%28NIRCam_Image%29_%28bullet-cluster%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "NASA, ESA, CSA, STScI, J. Jee (Yonsei University, UC Davis), S. Cha (Yonsei University), K. Finner (Caltech/IPAC)",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Bullet_Cluster_(NIRCam_Image)_(bullet-cluster).jpg"
+  },
   "lesson": {
-    "learn": "Dark matter is a mysterious, invisible form of matter that does not emit, absorb, or reflect light, yet it exerts gravitational influence across the cosmos. Scientists estimate that dark matter makes up about 85% of all matter in the universe and roughly 27% of its total mass-energy content. Its existence is inferred because visible matter alone cannot explain the motion of galaxies, galaxy clusters, or the gravitational lensing of distant light.\n\nWithout dark matter, galaxies would spin so quickly that their stars should fly apart. Instead, an unseen gravitational force appears to hold them together. This hidden mass is essential to explaining the large-scale structure of the universe, galaxy formation, and cosmic evolution.",
-    "simpler": "Imagine spinning a merry-go-round packed with children, but when you count them, there aren’t enough to keep it spinning as fast as it is. Something invisible must be adding extra weight. That invisible weight is similar to how dark matter works in space.",
-    "keyTakeaway": "The key insight about dark matter is that although we cannot directly see it, its gravitational effects are essential for explaining how galaxies form, move, and remain stable.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bullet_cluster.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20190426205735",
-    "deeperDive": "The first major evidence for dark matter came in 1933 when Fritz Zwicky studied the Coma Cluster and discovered that visible matter could not account for the cluster’s gravitational behavior. Later, Vera Rubin’s work on galaxy rotation curves in the 1970s showed that stars in galaxies orbit too quickly for visible matter alone to explain.\n\nToday, scientists investigate dark matter through gravitational lensing, cosmic microwave background measurements, and particle physics experiments. One leading theory suggests dark matter may consist of Weakly Interacting Massive Particles (WIMPs), while other candidates include axions and sterile neutrinos.\n\nFacilities like CERN, underground detectors, and space observatories continue searching for direct evidence of dark matter particles. Despite decades of research, dark matter remains undetected directly, making it one of the most profound unanswered questions in science.\n\nDark matter also acts as a cosmic scaffold, helping galaxies and galaxy clusters form by providing the gravitational framework necessary for visible matter to gather.",
-    "funFact": "Gravitational lensing caused by dark matter can bend and magnify light from distant galaxies, effectively turning massive galaxy clusters into natural cosmic telescopes.",
+    "learn": "Dark matter is the name astronomers give to the mass they cannot see directly but can detect through its gravity. Galaxies spin too quickly, clusters hold together too strongly, and light bends too much for the visible stars and gas alone to explain what is happening. That mismatch is what led scientists to conclude that most of the universe’s matter must be hidden. Dark matter does not shine, absorb, or emit light in the normal way, which is why it reveals itself through structure rather than glow. It is one of the clearest examples in science of a major discovery made by noticing what the visible universe could not explain.",
+    "simpler": "Astronomers keep finding that galaxies and galaxy clusters behave as if there is much more mass than they can see. Dark matter is the invisible matter that seems to provide that missing gravity.",
+    "keyTakeaway": "Dark matter matters because gravity tells us the universe contains far more mass than its stars and gas account for, and that unseen mass seems to be the scaffolding holding cosmic structure together.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/31/COSMOS_3D_dark_matter_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "NASA/ESA/Richard Massey (California Institute of Technology)",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:COSMOS_3D_dark_matter_map.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bullet_cluster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "User:Mac_Davis",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bullet_cluster.jpg"
+    },
+    "deeperDive": "The strongest case for dark matter comes from several different measurements that all point in the same direction. Vera Rubin’s galaxy rotation studies showed that stars far from the centers of spiral galaxies move too quickly to be held in place by visible matter alone. In galaxy clusters, the mass needed to keep the system bound is also far larger than what telescopes can detect. The Bullet Cluster became especially famous because the visible gas, the lensing signal, and the likely dark matter distribution separate in a way that is hard to explain without an invisible mass component. None of this proves what dark matter is made of. That remains one of physics’ great open questions. But the evidence that something unseen is there is extremely strong. In practice, dark matter is less a speculative convenience than a deeply tested inference: the universe behaves as if most of its matter is hidden, and so far every alternative explanation has had to work very hard to match the data.",
+    "funFact": "The Bullet Cluster is one of the most famous places where astronomy seems to show visible matter and invisible mass getting separated from each other.",
+    "references": [
+      "Dark matter and galaxy rotation review literature.",
+      "Gravitational lensing and cluster-dynamics studies.",
+      "Wikimedia Commons image metadata for dark-matter visuals."
+    ],
     "keyElements": {
       "people": [
-        "Fritz Zwicky - First proposed dark matter in 1933 through galaxy cluster observations",
-        "Vera Rubin - Provided strong evidence through galaxy rotation curves",
-        "Lisa Randall - Theoretical physicist exploring advanced dark matter models"
+        "Vera Rubin - Helped show that galaxy rotation curves implied unseen mass.",
+        "Fritz Zwicky - Early thinker who argued that clusters contained missing mass.",
+        "Modern cosmologists - Researchers testing dark matter as part of the cosmic model.",
+        "Gravitational lensing teams - Astronomers who map mass by watching how it bends light."
       ],
       "places": [
-        "CERN - Particle physics research center searching for dark matter candidates",
-        "Arecibo Observatory - Contributed to galactic motion studies",
-        "Sloan Digital Sky Survey - Mapped large-scale cosmic structure and dark matter distribution"
+        "The Bullet Cluster - A famous gravitational test case for dark matter.",
+        "Spiral galaxies - Systems whose rotation curves reveal hidden mass.",
+        "Galaxy clusters - Large cosmic structures where invisible mass becomes obvious.",
+        "Cosmology labs and observatories - Places where dark matter models are tested."
       ],
       "years": [
-        "1933 - Fritz Zwicky identifies missing mass in galaxy clusters",
-        "1970s - Vera Rubin’s galaxy rotation studies strengthen dark matter evidence",
-        "2010s - Advanced WIMP and axion detection experiments expand dark matter research"
+        "1930s - Early hints that galaxy clusters contain more mass than they should.",
+        "1970s - Galaxy rotation curves sharpen the dark matter case.",
+        "2000s - The Bullet Cluster becomes a key piece of evidence.",
+        "2020s - Surveys and simulations keep refining the cosmic web of matter."
       ],
       "concepts": [
-        "Dark Matter - Invisible matter detected through gravitational influence",
-        "Galaxy Rotation Curves - Evidence showing galaxies contain unseen mass",
-        "Gravitational Lensing - Bending of light used to map dark matter",
-        "WIMPs - Hypothetical weakly interacting massive particles",
-        "Cosmic Structure Formation - Dark matter’s role in shaping galaxies and clusters",
-        "Dark Energy - Separate cosmic phenomenon influencing expansion"
+        "Rotation curve - A graph showing how fast stars orbit at different distances.",
+        "Gravitational lensing - Light bending caused by mass.",
+        "Invisible mass - Matter inferred from gravity rather than light.",
+        "Cosmic web - The large-scale network of matter in the universe."
       ]
     }
   }

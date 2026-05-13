@@ -1,44 +1,65 @@
 {
-  "topic": "Why-Black-Holes-Are-Natures-Most-Extreme-Objects",
-  "title": "Exploring the Mysteries of Black Holes: Understanding the Extreme Gravity at Their Core",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Black_hole_%28NASA%29.jpg/1920px-Black_hole_%28NASA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail",
-  "summary": "Black holes are the universe’s most extreme gravitational objects, formed when massive stars collapse or enormous amounts of matter compress into a tiny region, warping spacetime so intensely that even light cannot escape.",
+  "topic": "Black Holes and Extreme Gravity",
+  "title": "Why Black Holes Are Nature’s Most Extreme Objects",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Black_hole_%28NASA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "NASA/D. Berry",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Black_hole_(NASA).jpg"
+  },
   "lesson": {
-    "learn": "Black holes are regions of spacetime where gravity becomes so powerful that nothing—not even light—can escape once it crosses the event horizon. Their existence was first predicted by Albert Einstein’s Theory of General Relativity in 1915, which described gravity as the curvature of spacetime caused by mass and energy. When a sufficiently massive star exhausts its nuclear fuel, its core can collapse under gravity, compressing matter into an extraordinarily dense state.\n\nAt the center of a black hole lies the singularity, a theoretical point where density and spacetime curvature become extreme beyond current physical understanding. Black holes are not cosmic vacuums that indiscriminately consume everything, but their gravitational influence profoundly affects nearby matter, stars, and even entire galaxies.\n\nModern astronomy has revealed that black holes exist in multiple forms, from stellar-mass black holes formed by collapsing stars to supermassive black holes containing millions or billions of solar masses at galactic centers.",
-    "simpler": "A black hole is like a place in space where gravity becomes so strong that once something gets too close, it cannot escape. Imagine a giant invisible whirlpool in spacetime that bends everything inward, even light.",
-    "keyTakeaway": "Black holes represent the most extreme known manifestation of gravity, where spacetime becomes so warped that conventional physics reaches its limits, making them essential to understanding gravity, matter, and the structure of the universe.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/03/Black_hole_lensing_web.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "deeperDive": "The event horizon is the defining boundary of a black hole—the point beyond which escape is impossible. Karl Schwarzschild first mathematically described this boundary in 1916. Black holes also produce extraordinary phenomena such as accretion disks, where infalling matter heats to millions of degrees, and relativistic jets that can launch particles across vast cosmic distances.\n\nSupermassive black holes, such as Sagittarius A* at the center of the Milky Way, appear deeply connected to galaxy formation and evolution. Their gravitational influence can regulate star formation, shape galactic structure, and drive energetic quasars.\n\nStephen Hawking’s work in the 1970s introduced Hawking radiation, suggesting black holes may slowly evaporate over immense timescales. Meanwhile, gravitational wave detections by LIGO beginning in 2015 confirmed black hole mergers, opening a new era of astronomy.\n\nThe Event Horizon Telescope’s 2019 image of M87’s black hole provided the first direct visual evidence of an event horizon’s shadow, confirming decades of theoretical predictions.",
-    "funFact": "If the Sun were somehow compressed into a black hole, it would need to fit into a sphere only about 6 kilometers (3.7 miles) in radius.",
+    "learn": "Black holes are regions where gravity becomes so intense that not even light can escape once it crosses the event horizon. They form when massive stars collapse, but they can also grow through mergers and by pulling in surrounding matter. What makes them extreme is not simply that they are dense; it is that spacetime itself is warped so strongly that familiar ideas about time, distance, and escape break down near them. Black holes are important because they test physics at its limits. They shape galaxies, power some of the brightest objects in the universe, and create conditions that force astronomers to refine relativity, plasma physics, and high-energy astrophysics. They are invisible directly, but their effects are often dramatic: hot disks, jets, warped starlight, and orbital motion around unseen mass.",
+    "simpler": "A black hole is an object with gravity so strong that once you cross a boundary called the event horizon, nothing can get back out.",
+    "keyTakeaway": "Black holes are the universe's most extreme objects because they compress mass, gravity, and spacetime into a regime where ordinary physics gives way to the deepest predictions of relativity.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Binary_Black_Hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Jeremy Schnittman",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Binary_Black_Hole.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Sgra_Black_hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "X-ray: NASA/CXC/SAO; IR: NASA/HST/STScI.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sgra_Black_hole.jpg"
+    },
+    "deeperDive": "A black hole's event horizon is not a physical surface but a point of no return defined by gravity. For a distant observer, matter falling in appears to slow near that boundary, while the infalling object would cross it in finite time. That difference is one of the reasons black holes are such powerful tests of relativity. Around them, gas can heat to millions of degrees and emit X-rays before disappearing past the horizon. Some black holes also launch jets that travel thousands of light-years, probably powered by magnetic fields and the rotation of the black hole-disk system. Because black holes cannot be seen directly, astronomers infer them from motion, radiation, and gravitational waves. The stars orbiting the Milky Way's central black hole, the light from accretion disks, and the ripples from black-hole mergers all provide evidence. Black holes are therefore not just cosmic curiosities. They are laboratories for gravity, high-energy matter, and the growth of galaxies.",
+    "funFact": "Black holes can grow by merging with each other, creating even more massive black holes that reshape the galaxies around them.",
+    "references": [
+      "Black-hole physics and accretion review literature.",
+      "Event Horizon Telescope and gravitational-wave references.",
+      "Wikimedia Commons metadata for black-hole imagery."
+    ],
     "keyElements": {
       "people": [
-        "Albert Einstein - Developed General Relativity, predicting black hole physics",
-        "Karl Schwarzschild - Calculated the first exact black hole solution",
-        "Stephen Hawking - Advanced black hole thermodynamics and Hawking radiation",
-        "Lisa Randall - Theoretical physicist exploring extreme cosmology"
+        "Albert Einstein - His relativity predicts the spacetime geometry behind black holes.",
+        "Astronomers - Infer black holes from motion, radiation, and lensing.",
+        "Gravitational-wave researchers - Detect black-hole mergers directly.",
+        "The Event Horizon Telescope team - Produced landmark images of black-hole shadows."
       ],
       "places": [
-        "Event Horizon Telescope - Captured the first black hole image",
-        "Harvard University - Major center for black hole theory",
-        "CERN - Research into fundamental particle physics",
-        "Milky Way - Home to Sagittarius A*",
-        "Abell 1689 - Famous gravitational lensing galaxy cluster"
+        "Galactic centers - Common homes of supermassive black holes.",
+        "Accretion disks - Hot matter spiraling around a black hole.",
+        "The event horizon - The boundary from which light cannot escape.",
+        "Merging binary systems - Where black holes can collide and grow."
       ],
       "years": [
-        "1915 - Einstein publishes General Relativity",
-        "1916 - Schwarzschild defines black hole geometry",
-        "1974 - Hawking proposes Hawking radiation",
-        "2015 - First gravitational waves from black hole merger detected",
-        "2019 - First black hole image captured"
+        "1915 - General relativity predicts black-hole-like solutions.",
+        "1960s-1970s - Black holes become accepted as astrophysical objects.",
+        "2015 - Gravitational waves from a black-hole merger are detected.",
+        "2019 - The first black-hole shadow image is released."
       ],
       "concepts": [
-        "General Relativity - Gravity as spacetime curvature",
-        "Singularity - Theoretical core of extreme density",
-        "Event Horizon - Point of no return",
-        "Gravitational Lensing - Light bending caused by massive gravity",
-        "Gravitational Waves - Ripples from massive cosmic events",
-        "Accretion Disk - Superheated matter orbiting black holes",
-        "Space-Time - Four-dimensional structure warped by gravity"
+        "Event horizon - The boundary beyond which escape is impossible.",
+        "Accretion disk - Superheated material orbiting the black hole.",
+        "Singularity - The mathematical point where density is extreme in simple models.",
+        "Spacetime curvature - The distortion of gravity and time around massive objects."
       ]
     }
   }

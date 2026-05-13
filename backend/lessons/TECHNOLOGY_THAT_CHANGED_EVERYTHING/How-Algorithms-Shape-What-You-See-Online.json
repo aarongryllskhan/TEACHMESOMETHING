@@ -2,57 +2,64 @@
   "topic": "The Invisible Code Deciding What You See Every Day",
   "title": "How Algorithms Quietly Shape Your News, Videos, Shopping, and Beliefs",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/ESA-Webb_Social_Media_Channels_%28ann2202a%29.jpg/3840px-ESA-Webb_Social_Media_Channels_%28ann2202a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail",
-  "summary": "From social feeds to search engines, algorithms are the unseen systems constantly filtering, ranking, and recommending information online. They shape what billions of people read, watch, buy, and even believe—often without users fully realizing how much of their digital world is being curated.",
+  "imageCredit": {
+    "creator": "ESA/Webb",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:ESA-Webb_Social_Media_Channels_(ann2202a).jpg"
+  },
   "lesson": {
-    "learn": "Algorithms are sets of instructions designed to process data and make decisions. Online platforms use them to sort enormous amounts of information and determine what content appears first, what gets recommended next, and which ads are most likely to capture your attention. Search engines rank pages by relevance, social media platforms prioritize posts based on engagement potential, and streaming services recommend content based on viewing history. These systems rely heavily on data such as clicks, watch time, likes, shares, browsing habits, and demographic patterns. Over time, machine learning allows many algorithms to adapt by identifying behavioral trends and optimizing for specific goals—often maximizing attention, retention, and revenue.",
-    
-    "image2": "https://upload.wikimedia.org/wikipedia/commons/1/18/YouTube_results_screenshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    
-    "simpler": "Algorithms work like digital curators. Instead of showing everything equally, they predict what you are most likely to click on and place that content in front of you first.",
-    
-    "keyTakeaway": "Algorithms do not simply organize the internet—they actively shape digital experiences by prioritizing certain information over others, often based on engagement and business objectives.",
-    
-    "deeperDive": "Modern recommendation systems are powered by techniques such as collaborative filtering, predictive analytics, neural networks, and natural language processing. Collaborative filtering compares your behavior to similar users, while deep learning systems analyze massive datasets to predict what will keep you engaged. This is why platforms like TikTok, YouTube, Instagram, and Amazon can quickly personalize content feeds with remarkable precision.\n\nHowever, optimization for engagement can also create unintended consequences. Algorithms may amplify sensationalism, misinformation, outrage, or emotionally charged material because these often produce stronger user interaction. This phenomenon contributes to echo chambers and filter bubbles, where users repeatedly encounter information aligned with existing preferences or beliefs.\n\nAlgorithmic bias is another major concern. Because algorithms learn from historical data, they can reflect or even intensify societal inequalities if datasets are skewed. Researchers like Joy Buolamwini have shown that facial recognition systems, for example, can perform unevenly across demographic groups.\n\nAlgorithms also influence economics and politics through ad targeting, e-commerce pricing, political messaging, and automated moderation. Understanding these systems has become essential for digital literacy, privacy awareness, and responsible technology governance.",
-    
-    "funFact": "Netflix once revealed that its recommendation system influences the vast majority of what users watch, demonstrating how algorithms often guide choices before people even realize they are making them.",
-    
+    "learn": "Algorithms shape what you see online because platforms need ways to sort endless content into a feed that feels relevant. The basic idea is simple: every click, pause, like, follow, share, and search gives the system a clue about what might keep your attention. The more data a platform collects, the better it becomes at predicting what you are likely to open next. That is why feeds, recommendations, and search results feel personal even when they are generated at machine scale. This is not just a technical detail. Algorithms influence what people notice, what they ignore, and what they come to believe is normal. A feed is not a neutral mirror of the world. It is a selection system built from priorities, feedback loops, and commercial incentives.",
+    "simpler": "Algorithms decide what appears in your feed by using your behavior as a clue about what you are likely to want next.",
+    "keyTakeaway": "Algorithms matter because they do not merely organize information - they actively shape attention, and attention shapes how people understand the world.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/77/Filter_bubbles.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Evbestie, vectorised by Dabmasterars, modified by Belbury",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Filter_bubbles.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "The Opte Project",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Internet_map_1024.jpg"
+    },
+    "deeperDive": "Online algorithms usually rank content rather than inventing it. They estimate what is most likely to keep a user engaged, and engagement often means more clicks, more watch time, or more repeat visits. That can make the system useful, but it also creates feedback loops. If a user interacts with one kind of content, the platform may show more of it, which strengthens the pattern and narrows what else gets surfaced. That design is why algorithmic feeds are powerful and controversial at the same time. They can help people find useful material quickly, but they can also amplify outrage, repetition, or filter bubbles. Understanding that machinery is essential because the feed is not just a list - it is a decision engine that quietly influences culture, politics, and daily attention.",
+    "funFact": "The same kind of ranking logic that helps you find a video you like can also quietly narrow the world you see.",
     "references": [
-      "MIT Media Lab research on algorithmic systems.",
-      "Google Search ranking documentation.",
-      "Joy Buolamwini’s research on algorithmic bias.",
-      "Netflix recommendation system studies.",
-      "Pariser, E. The Filter Bubble."
+      "Recommendation systems and online-platform research literature.",
+      "Filter bubble and attention-economy references.",
+      "Wikimedia Commons image metadata for internet and filter-bubble imagery."
     ],
-    
     "keyElements": {
       "people": [
-        "Larry Page and Sergey Brin — Co-founders of Google whose search algorithms transformed online information discovery.",
-        "Joy Buolamwini — Researcher known for exposing algorithmic bias in AI systems.",
-        "Eli Pariser — Author who popularized the concept of the filter bubble.",
-        "Sundar Pichai — Technology executive overseeing major algorithm-driven platforms."
+        "Software engineers - Build ranking systems and recommendation engines.",
+        "Data scientists - Train models on user behavior.",
+        "Platform designers - Decide what signals should matter most.",
+        "Users - Their behavior becomes the raw material the system learns from."
       ],
-      
       "places": [
-        "Googleplex, Mountain View, California — Headquarters of one of the world’s most influential algorithm-driven companies.",
-        "MIT Media Lab, Massachusetts — Major center for AI and algorithmic research.",
-        "Silicon Valley, California — Global hub for platform and software innovation.",
-        "Social media data centers worldwide — Infrastructure powering real-time algorithmic decisions."
+        "Social feeds - Where ranking systems visibly shape experience.",
+        "Search engines - Where algorithms decide what rises to the top.",
+        "Recommendation pages - Where predicted preferences are turned into content.",
+        "Data centers - The infrastructure running the ranking systems."
       ],
-      
       "years": [
-        "1998 — Google launches, redefining search through PageRank.",
-        "2006 — Facebook expands News Feed, transforming social content delivery.",
-        "2010s — Recommendation engines become central to streaming and social media.",
-        "2016 — Public concern grows over algorithmic influence on politics and misinformation."
+        "1990s - Search ranking becomes a major web problem.",
+        "2000s - Social platforms begin personalizing feeds more aggressively.",
+        "2010s - Recommendation systems dominate major platforms.",
+        "2020s - Algorithmic curation becomes one of the defining features of the internet."
       ],
-      
       "concepts": [
-        "Personalization — Tailoring content to user behavior and preferences.",
-        "Machine Learning — Systems that improve predictions through data analysis.",
-        "Recommendation Systems — Algorithms suggesting content, products, or information.",
-        "Filter Bubble — Personalized information environments that can narrow exposure.",
-        "Algorithmic Bias — Systematic unfairness caused by skewed data or design.",
-        "Engagement Optimization — Prioritizing content most likely to maximize user interaction."
+        "Ranking - Ordering results by predicted usefulness or relevance.",
+        "Feedback loop - When past behavior shapes future recommendations.",
+        "Filter bubble - A narrowed information environment shaped by personalization.",
+        "Engagement - The signals platforms use to judge what keeps attention."
       ]
     }
   }

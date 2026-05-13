@@ -1,56 +1,65 @@
 {
   "topic": "The Alien Minds Beneath the Waves",
   "title": "How Octopuses Evolved One of Earth’s Strangest Forms of Intelligence",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Octopus2.jpg",
-  "summary": "Octopuses represent one of the most extraordinary examples of intelligence in the animal kingdom. Unlike mammals, birds, or primates, their cognition evolved along an entirely separate evolutionary path—producing problem-solving abilities, sensory complexity, and behavioral flexibility so unusual that scientists often describe them as the closest thing to an alien intelligence on Earth.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Octopus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "albert kok",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg"
+  },
   "lesson": {
-    "learn": "Octopuses are cephalopods with a radically different nervous system from vertebrates. While they possess a central brain, roughly two-thirds of their neurons are distributed throughout their eight arms. Each arm contains dense neural networks capable of processing sensory input and coordinating movement semi-independently.\n\nThis means an octopus does not control its limbs in the same way humans do. Its arms can explore, manipulate, taste, and respond to stimuli with a remarkable degree of autonomy while still contributing to broader behavioral goals.\n\nCombined with highly developed vision, camouflage systems, and flexible bodies, this distributed intelligence allows octopuses to solve mazes, open containers, escape enclosures, and interact dynamically with novel environments.",
-    
-    "simpler": "Imagine having eight incredibly smart arms that can each think and react on their own while still working together with your brain—that’s part of what makes octopus intelligence so extraordinary.",
-    
-    "keyTakeaway": "Octopus intelligence shows that complex cognition did not evolve only once. Advanced problem-solving can emerge through entirely different biological architectures.",
-    
-    "deeperDive": "Octopuses are renowned for behavioral sophistication. Laboratory and field studies have documented tool use, observational learning, maze navigation, short- and long-term memory, and even playful behaviors such as repeatedly manipulating floating objects.\n\nTheir camouflage is also neurologically astonishing. Specialized skin cells called chromatophores, iridophores, and leucophores allow rapid color, pattern, and texture changes, controlled by the nervous system in milliseconds. This is not merely concealment—it can also support communication, intimidation, and hunting strategy.\n\nBecause octopuses are largely solitary and short-lived, their intelligence may have evolved under very different pressures than social mammals. Instead of social hierarchy, much of their cognition may center on environmental mastery, predator avoidance, and adaptive problem-solving.\n\nResearchers are particularly fascinated by their neuroplasticity—the ability to rapidly adapt behavior in response to new experiences. Their decentralized nervous system has inspired robotics, soft-body engineering, and alternative models of intelligence.\n\nOctopuses challenge human assumptions about what a mind should look like. They demonstrate that intelligence can emerge without a backbone, social culture, or mammalian brain design.",
-    
-    "funFact": "An octopus can squeeze through openings barely larger than its beak—the only hard part of its body—making some species astonishing escape artists.",
-    
+    "learn": "Octopuses seem almost alien because their intelligence is built in a way that is very unlike ours. They have distributed neural control, remarkable camouflage, flexible problem-solving, and bodies that can change shape with ease. Instead of one central brain doing everything, much of their processing is spread between the head and the arms. That gives them a kind of embodied intelligence that feels strange and fascinating.\nTheir lives also reinforce the impression of otherworldliness. Octopuses hunt, hide, open containers, and interact with their environment with a flexibility that seems hard to fit into the usual picture of animal behavior.",
+    "simpler": "Octopuses are highly intelligent animals with flexible bodies, distributed nerves, and problem-solving skills that make them seem almost alien.",
+    "keyTakeaway": "Octopuses are so unusual because evolution produced a brilliant solution to intelligence that is completely different from the mammal-centered model people expect.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/32/Octopus_vulgaris_Merculiano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Comingio Merculiano (1845-1915) <i>in</i> Jatta Giuseppe (1860-1903)",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Octopus_vulgaris_Merculiano.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Camouflage_octopus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lilypad55&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lilypad55 (page does not exist)\">alana barthel</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Camouflage_octopus.jpg"
+    },
+    "deeperDive": "The octopus nervous system is remarkable because the arms can process information semi-independently while the central brain coordinates larger decisions. That helps the animal explore, camouflage, and manipulate objects in ways that feel uncanny. Researchers such as Jennifer Mather, Roger Hanlon, and Peter Godfrey-Smith have helped explain why cephalopod cognition matters so much to our understanding of intelligence itself.\nOctopuses also challenge assumptions about what a smart animal should look like. They have short lifespans, no bones, and radically different sensory and motor systems. Yet they can solve puzzles, remember solutions, and use camouflage with uncanny precision. They are not aliens, but they do show that intelligence can emerge along very different evolutionary paths.",
+    "funFact": "An octopus can taste with its arms, which means touching and eating are often happening at the same time.",
     "references": [
-      "Mather, J.A. — Research on cephalopod cognition and behavior.",
-      "Hanlon, R.T. — Studies on camouflage and neural control in cephalopods.",
-      "Montgomery, S. (2014). The Soul of an Octopus.",
-      "Woods Hole Oceanographic Institution cephalopod studies.",
-      "Journal of Experimental Biology — Octopus neurobiology and distributed cognition."
+      "Cephalopod cognition and neurobiology research.",
+      "Octopus camouflage and behavior literature.",
+      "Wikimedia Commons image metadata for octopus imagery."
     ],
-    
     "keyElements": {
       "people": [
-        "Jennifer Mather — Leading researcher in cephalopod intelligence and behavior.",
-        "Roger Hanlon — Marine biologist specializing in cephalopod camouflage and communication.",
-        "Peter Godfrey-Smith — Philosopher-biologist exploring octopus consciousness.",
-        "Sy Montgomery — Naturalist whose work brought octopus cognition to wider audiences."
+        "Jennifer Mather - Researcher known for octopus behavior studies.",
+        "Roger Hanlon - Marine biologist focused on camouflage and cephalopods.",
+        "Peter Godfrey-Smith - Philosopher who popularized octopus intelligence.",
+        "Cephalopod neuroscientists - They study distributed cognition and control."
       ],
-      
       "places": [
-        "Woods Hole Oceanographic Institution, Massachusetts — Major cephalopod research center.",
-        "Monterey Bay Aquarium, California — Public education and cephalopod behavioral studies.",
-        "Australian Museum, Sydney — Important cephalopod evolutionary resources.",
-        "Coral reefs and seafloor habitats worldwide — Evolutionary environments shaping octopus cognition."
+        "Coral reefs - Environments where camouflage is essential.",
+        "Tide pools - Places where octopuses can be observed up close.",
+        "Marine labs - Where problem-solving experiments are run.",
+        "Ocean floors - Habitats that reward stealth and flexibility."
       ],
-      
       "years": [
-        "300+ million years ago — Early cephalopod ancestors emerge.",
-        "20th Century — Modern cephalopod cognition research expands.",
-        "2005 — Influential behavioral studies deepen understanding of octopus intelligence.",
-        "2014 — The Soul of an Octopus popularizes cephalopod cognition globally."
+        "1990s - Octopus cognition becomes a deeper research topic.",
+        "2000s - Camouflage and learning studies expand.",
+        "2010s - Public interest grows as cephalopod intelligence is reexamined."
       ],
-      
       "concepts": [
-        "Distributed Nervous System — Neural processing spread across brain and arms.",
-        "Neuroplasticity — The capacity to adapt behavior and neural pathways.",
-        "Camouflage — Dynamic color and texture control for survival.",
-        "Tool Use — Object manipulation for functional goals.",
-        "Embodied Cognition — Intelligence expressed through body-environment interaction.",
-        "Convergent Intelligence — Advanced cognition evolving independently from vertebrates."
+        "Distributed nervous system - Control spread through body and brain.",
+        "Camouflage - Changing appearance to blend in or signal.",
+        "Cephalopod cognition - Thinking abilities in octopuses and relatives.",
+        "Problem-solving - Adjusting behavior to overcome obstacles.",
+        "Embodied intelligence - Intelligence expressed through the whole body."
       ]
     }
   }

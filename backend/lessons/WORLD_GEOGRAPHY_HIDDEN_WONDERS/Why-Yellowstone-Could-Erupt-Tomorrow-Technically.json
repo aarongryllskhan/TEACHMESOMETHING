@@ -2,44 +2,65 @@
   "topic": "Yellowstone’s Volcanic System and Eruption Risk",
   "title": "Yellowstone: Why a Supervolcano Could Technically Erupt—But Why Scientists Aren’t Expecting It Soon",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Grand_Prismatic_Spring_--_2022_--_2514.jpg/1920px-Yellowstone_National_Park_%28WY%2C_USA%29%2C_Grand_Prismatic_Spring_--_2022_--_2514.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+  "imageCredit": {
+    "creator": "Unknown",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Grand_Prismatic_Spring_--_2022_--_2514.jpg/1920px-Yellowstone_National_Park_%28WY%2C_USA%29%2C_Grand_Prismatic_Spring_--_2022_--_2514.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+  },
   "lesson": {
-    "learn": "Yellowstone National Park sits above one of Earth’s largest active volcanic systems, powered by a mantle hotspot that has generated enormous eruptions over millions of years. Beneath the park lies a complex magmatic and hydrothermal system responsible for its geysers, hot springs, mud pots, and frequent earthquakes. Because this system remains geologically active, it is technically true that Yellowstone could erupt again someday—but ‘technically possible’ is very different from ‘likely tomorrow.’\n\nYellowstone experiences thousands of small earthquakes each year, most of them minor and related to shifting crust, hydrothermal fluids, or tectonic adjustments rather than imminent volcanic eruption. This seismicity is normal for an active caldera system. The region is among the most heavily monitored volcanic areas on Earth, with scientists tracking earthquakes, ground deformation, gas emissions, and thermal activity through the Yellowstone Volcano Observatory (YVO).\n\nThe volcanic system has produced three major caldera-forming eruptions in the past 2.1 million years: approximately 2.08 million, 1.3 million, and 631,000 years ago. These were extraordinary events, but they are separated by immense geological timescales and do not function like a predictable countdown cycle.\n\nCurrent evidence indicates no signs of an impending supereruption. While smaller lava flows, hydrothermal explosions, or localized volcanic activity are more plausible over long timescales, the probability of a catastrophic supereruption in any given year is extremely low.",
-    "simpler": "Yellowstone is like a giant active geological engine beneath the surface: it still produces heat, earthquakes, and geysers, but constant activity does not mean a massive eruption is about to happen.",
-    "keyTakeaway": "Yellowstone remains an active supervolcanic system, but modern scientific monitoring shows no evidence that a catastrophic eruption is imminent, even though future eruptions are geologically inevitable on long timescales.",
-    "deeperDive": "Yellowstone’s volcanic power comes from a mantle plume interacting with the North American Plate. As the continent slowly moves over this hotspot, volcanic centers have formed across millions of years, leaving a chain of calderas across the Snake River Plain.\n\nModern imaging reveals that Yellowstone’s subsurface includes multiple magma storage regions rather than a single giant chamber. A large portion of this material is partially molten, but most of it is solid or semi-solid rock, not an enormous pool of liquid magma ready to erupt.\n\nIts hydrothermal system is equally significant. Yellowstone’s geysers and hot springs are driven by groundwater interacting with heat from underlying magma. Hydrothermal explosions—caused by rapid steam expansion—are more common than magmatic eruptions and can still be dangerous locally.\n\nGround uplift and subsidence occur periodically as magma, gas, and fluids move underground, but these changes alone do not signal imminent eruption. Scientists evaluate multiple indicators together, including seismic swarms, gas chemistry, and deformation trends.\n\nA future large eruption would indeed have continental and possibly global consequences, including ashfall, infrastructure disruption, and short-term climate effects, but current monitoring provides no evidence of near-term catastrophic risk.\n\nThe greatest scientific value of Yellowstone today lies in understanding caldera systems, geothermal dynamics, and volcanic forecasting rather than fearing an immediate apocalypse.",
-    "funFact": "Yellowstone contains more than half of the world’s active geysers, including Old Faithful, making it the planet’s largest concentration of hydrothermal features.",
+    "learn": "Yellowstone could erupt tomorrow technically because no volcano can be ruled out with absolute certainty on a human timeline. But that does not mean a major eruption is expected soon. Scientists monitor the caldera closely, and the current evidence points to a system that is active but not obviously on the verge of catastrophic explosion. The volcano has frequent earthquakes, ground deformation, and hydrothermal activity, yet those signs are part of a long-lived geothermal system, not proof of imminent disaster.\nYellowstone is fascinating because it sits at the intersection of raw geological power and careful scientific monitoring. The uncertainty is real, but panic is not the right response.",
+    "simpler": "Yellowstone is closely watched because it is an active volcanic system, but scientists do not think a huge eruption is about to happen.",
+    "keyTakeaway": "Yellowstone remains dangerous in principle because it is active, but the monitored evidence does not point to an eruption tomorrow or even soon.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a rel=\"nofollow\" class=\"external text\" href=\"https://sites.google.com/site/thebrockeninglory/\">Brocken Inaglory</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Daisy_Geyser_erupting_in_Yellowstone_National_Park_edit.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/06/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Lower_Geyser_Basin_--_2022_--_2401.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Yellowstone_National_Park_(WY,_USA),_Lower_Geyser_Basin_--_2022_--_2401.jpg"
+    },
+    "deeperDive": "The Yellowstone caldera is a supervolcanic system with magma movement, hydrothermal features, and a long eruption history. That makes it geologically significant and worthy of close study. However, supervolcanoes do not erupt on schedules, and the current signs at Yellowstone are far more consistent with an active volcanic region than a system racing toward collapse.\nScientists use seismic networks, ground deformation measurements, gas monitoring, and thermal imaging to track changes. The public often hears the words 'supervolcano' and imagines certainty in the wrong direction. In reality, monitoring improves our understanding, but it does not produce perfect prediction. Yellowstone is a reminder that geological power can be vast without being immediate.",
+    "funFact": "Yellowstone’s geysers and hot springs are part of the same geothermal system that makes the caldera so scientifically important.",
     "references": [
-      "Yellowstone Volcano Observatory (YVO).",
-      "U.S. Geological Survey (USGS).",
-      "University of Utah Seismograph Stations.",
-      "National Park Service Yellowstone geology resources.",
-      "Scientific studies on Yellowstone hotspot evolution."
+      "Yellowstone Volcano Observatory reports.",
+      "Supervolcano and caldera-monitoring literature.",
+      "Wikimedia Commons image metadata for Yellowstone geothermal imagery."
     ],
     "keyElements": {
       "people": [
-        "Robert B. Smith — Geophysicist known for extensive Yellowstone seismic research.",
-        "Michael Poland — Scientist and former Yellowstone Volcano Observatory scientist-in-charge.",
-        "USGS and YVO research teams — Ongoing volcanic monitoring specialists."
+        "Volcanologists - They monitor magma, gas, and hydrothermal activity.",
+        "Geophysicists - They measure ground movement and seismicity.",
+        "Yellowstone Volcano Observatory scientists - They track the system daily.",
+        "Park geologists - They interpret the landscape for the public."
       ],
       "places": [
-        "Yellowstone National Park — Active caldera and geothermal system.",
-        "Snake River Plain — Geological hotspot track.",
-        "Yellowstone Caldera — Major volcanic depression.",
-        "University of Utah — Key seismic monitoring institution."
+        "Yellowstone Caldera - The volcanic system at the park’s core.",
+        "Old Faithful and geyser basins - Surface expressions of underground heat.",
+        "The Yellowstone Plateau - The broad region shaped by volcanic history.",
+        "Park monitoring stations - Where seismic and gas data are collected."
       ],
       "years": [
-        "2.08 million years ago — First major caldera-forming eruption.",
-        "1.3 million years ago — Second major eruption.",
-        "631,000 years ago — Most recent major caldera eruption.",
-        "Modern Era — Continuous scientific monitoring."
+        "2.1 million years ago - The first major Yellowstone eruption.",
+        "640,000 years ago - The most recent supereruption.",
+        "20th century - Modern monitoring networks are established.",
+        "21st century - Continuous surveillance keeps public risk in perspective."
       ],
       "concepts": [
-        "Hotspot Volcanism — Mantle plume-driven volcanism.",
-        "Caldera — Large volcanic collapse structure.",
-        "Hydrothermal System — Heat-driven water circulation.",
-        "Magma Reservoir — Subsurface molten or partially molten rock storage.",
-        "Ground Deformation — Surface movement from subsurface changes.",
-        "Volcanic Monitoring — Scientific surveillance of eruption indicators."
+        "Caldera - A large volcanic depression formed by collapse.",
+        "Supervolcano - A volcano capable of extremely large eruptions.",
+        "Seismic monitoring - Tracking earthquakes and vibrations.",
+        "Ground deformation - Detecting swelling or sinking of the surface.",
+        "Hydrothermal system - Hot water and steam circulation underground."
       ]
     }
   }

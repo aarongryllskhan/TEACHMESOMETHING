@@ -1,38 +1,65 @@
 {
-  "topic": "The Accelerating Expansion of the Universe",
-  "title": "Understanding Cosmic Acceleration: How Dark Energy Is Reshaping the Cosmos",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Observable_universe_logarithmic_illustration.png/1280px-Observable_universe_logarithmic_illustration.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20231003172307",
-  "summary": "The universe is not just expanding—it is expanding faster over time. This astonishing discovery revealed that a mysterious force called dark energy dominates the cosmos, fundamentally altering our understanding of gravity, space-time, and the universe’s ultimate fate.",
+  "topic": "Dark Energy and Accelerating Cosmic Expansion",
+  "title": "Why the Universe Is Expanding Faster and Faster",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Supernova_Hubble_Diagram_%28noirlab2401c%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "DES Collaboration",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Supernova_Hubble_Diagram_(noirlab2401c).jpg"
+  },
   "lesson": {
-    "learn": "In the early 20th century, Edwin Hubble’s observations showed that galaxies are moving away from one another, proving the universe is expanding. For decades, scientists assumed gravity would gradually slow this expansion. However, in 1998, observations of distant Type Ia supernovae revealed something shocking: the expansion of the universe is accelerating.\n\nThis means galaxies are not merely drifting apart—they are increasingly speeding away from each other over cosmic time. The leading explanation is dark energy, an unknown form of energy that appears to permeate space itself and counteract gravity on the largest scales.\n\nDark energy is estimated to make up roughly 68% of the total mass-energy content of the universe, making it the dominant component shaping cosmic evolution.",
-    "simpler": "Imagine throwing a ball upward and expecting gravity to slow it down—but instead, the ball speeds up as it rises. That’s similar to what scientists discovered about the universe: instead of expansion slowing, something is pushing space to expand faster.",
-    "keyTakeaway": "The accelerating expansion of the universe suggests that dark energy dominates cosmic behavior, pushing galaxies apart and reshaping our understanding of the universe’s future.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/960px-CMB_Timeline300_no_WMAP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "deeperDive": "The discovery of acceleration came from measuring the brightness and red shift of distant supernovae, which act as 'standard candles' for cosmic distances. Saul Perlmutter, Brian Schmidt, and Adam Riess found that distant supernovae were dimmer than expected, implying they were farther away than predicted in a slowing universe.\n\nThe simplest explanation for dark energy is the cosmological constant, originally introduced by Einstein. In modern cosmology, this constant may represent vacuum energy inherent to empty space. Other theories include quintessence, evolving scalar fields, or modifications to gravity itself.\n\nIf acceleration continues indefinitely, the future universe may experience a 'Big Freeze,' where galaxies beyond our local group disappear beyond the cosmic horizon, stars burn out, and the universe becomes increasingly dark and cold.",
-    "funFact": "Because of accelerating expansion, billions of years from now, distant galaxies may become permanently invisible to observers in the Milky Way.",
+    "learn": "For a long time, astronomers expected gravity to slow the universe's expansion. Instead, observations in the late 1990s showed that the expansion is speeding up. That was shocking, because it meant some unknown component of the cosmos is pushing space apart. Scientists call that component dark energy, although the name is really a placeholder for our ignorance. Dark energy does not shine, absorb, or reflect light, but its effect is seen in the way distant supernovae, galaxy distributions, and the cosmic background fit together. The idea is simple to state and difficult to explain. If dark energy is real, then the universe is not only expanding but accelerating as it expands. That changes how astronomers understand the distant future of the cosmos and forces them to revise the balance between matter, gravity, and the structure of spacetime itself.",
+    "simpler": "Astronomers found that the universe is not just expanding - that expansion is speeding up, and something called dark energy seems to be driving it.",
+    "keyTakeaway": "The accelerating universe matters because it overturned the old expectation that gravity would slow everything down, replacing it with a deeper puzzle about whatever is pushing cosmic space apart.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Lambda-Cold_Dark_Matter%2C_Accelerated_Expansion_of_the_Universe%2C_Big_Bang-Inflation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "User:Coldcreation",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Lambda-Cold_Dark_Matter,_Accelerated_Expansion_of_the_Universe,_Big_Bang-Inflation.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/f3/The_Universe_across_space_and_time_ESA24866637.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "European Space Agency",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0 igo",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_Universe_across_space_and_time_ESA24866637.png"
+    },
+    "deeperDive": "The acceleration was inferred mainly from Type Ia supernovae, which act as standardizable candles. If a distant supernova appears dimmer than expected, it suggests the universe has expanded more than a decelerating model would predict. That result, combined with other lines of evidence, led to the modern cosmological picture in which dark energy makes up most of the energy budget of the universe. Scientists still do not know whether dark energy is a true constant built into spacetime, a dynamic field that changes over time, or a sign that gravity needs further revision on the largest scales. What is clear is that acceleration changes the fate of the cosmos. It shapes whether galaxies remain loosely connected, how the cosmic horizon evolves, and what the far future might look like if expansion keeps winning over gravity.",
+    "funFact": "The surprise discovery of accelerating expansion came from objects so far away that their light had been traveling for billions of years.",
+    "references": [
+      "Type Ia supernova cosmology and dark energy review literature.",
+      "Lambda-CDM model summaries from cosmology references.",
+      "Wikimedia Commons metadata for expansion diagrams."
+    ],
     "keyElements": {
       "people": [
-        "Edwin Hubble — Discovered universal expansion.",
-        "Saul Perlmutter — Co-discovered accelerating expansion.",
-        "Adam Riess — Helped identify dark energy through supernova studies.",
-        "Brian Schmidt — Co-led supernova cosmology research."
+        "Supernova cosmology teams - Used distant explosions to test expansion.",
+        "Cosmologists - Study what is driving the acceleration.",
+        "Astronomers - Combine distance, brightness, and redshift measurements.",
+        "Theoretical physicists - Explore dark-energy and modified-gravity models."
       ],
       "places": [
-        "Mount Wilson Observatory — Hubble’s observations.",
-        "Lawrence Berkeley National Laboratory — Supernova cosmology research.",
-        "Hubble Space Telescope — Precision cosmological measurements."
+        "Deep-sky survey fields - Where distant supernovae are observed.",
+        "The observable universe - The region over which acceleration is measured.",
+        "Galaxy surveys - Large maps that reveal cosmic structure and expansion.",
+        "Space telescopes - Instruments that help measure faint distant events."
       ],
       "years": [
-        "1929 — Hubble discovers expansion.",
-        "1998 — Accelerating expansion discovered.",
-        "2011 — Nobel Prize awarded for dark energy discovery."
+        "1998 - Supernova observations reveal accelerating expansion.",
+        "Early 2000s - Dark energy becomes central to cosmology.",
+        "2010s - Precision surveys refine the expansion history.",
+        "2020s - The Hubble tension keeps expansion physics under active debate."
       ],
       "concepts": [
-        "Dark Energy — Mysterious force driving acceleration.",
-        "Type Ia Supernovae — Standard candles for measuring cosmic distance.",
-        "Cosmological Constant — Einstein’s vacuum energy concept.",
-        "Cosmic Horizon — Boundary beyond which galaxies may become unreachable.",
-        "Big Freeze — Possible long-term fate of the universe."
+        "Dark energy - The name for the unknown driver of acceleration.",
+        "Type Ia supernova - A standardizable explosion used to measure distance.",
+        "Lambda-CDM - The leading cosmological model with dark energy and dark matter.",
+        "Cosmic acceleration - The increasing rate at which space expands."
       ]
     }
   }

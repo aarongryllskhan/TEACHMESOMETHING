@@ -1,43 +1,65 @@
 {
   "topic": "Exceptional Memory, HSAM, and the Myth of Photographic Memory",
   "title": "Photographic Memory: What Science Actually Says About Extraordinary Recall",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Chinon_CP_9_AF_BW_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/O%27Donnell-Luria%E2%80%93Rodan_syndrome_%E2%80%94_Brain_MRI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Yang Li; Lijuan Fan; Rong Luo; Zuozhen Yang; Meng Yuan; Jinxiu Zhang; Jing Gan",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:O%27Donnell-Luria%E2%80%93Rodan_syndrome_%E2%80%94_Brain_MRI.jpg"
+  },
   "lesson": {
-    "learn": "The idea of ‘photographic memory’—perfectly remembering everything exactly as seen, like a mental photograph—is widely popular in culture, but scientific evidence for true photographic memory in adults is extremely limited. In most cases, what people call photographic memory is either exaggerated, misunderstood, or better explained by other memory phenomena.\n\nOne scientifically documented condition is Highly Superior Autobiographical Memory (HSAM), sometimes called hyperthymesia. Individuals with HSAM can recall an extraordinary number of personal life events, dates, and autobiographical experiences with unusual detail. However, this does not mean they remember everything perfectly, nor does it automatically extend to all forms of memory such as textbooks, visual scenes, or arbitrary facts.\n\nMemory researchers distinguish between autobiographical memory, working memory, episodic recall, semantic memory, and mnemonic skill. Many exceptional memory performers—such as memory champions—achieve remarkable recall not through innate photographic ability, but through learned techniques like the method of loci, chunking, pattern association, and deep encoding.\n\nChildren may sometimes display eidetic imagery (briefly recalling visual scenes in unusually vivid detail), but this differs from the popularized concept of flawless lifelong photographic recall.",
-    "simpler": "Most people who seem to have ‘photographic memory’ usually have either exceptional autobiographical memory, advanced mnemonic strategies, or specialized cognitive abilities—not literal perfect mental snapshots.",
-    "keyTakeaway": "Scientific research suggests that true photographic memory is largely a myth, while extraordinary memory abilities are more often linked to specific neural traits, intense practice, autobiographical specialization, or mnemonic strategies.",
-    "deeperDive": "HSAM gained major scientific attention through cases such as Jill Price, studied by neuroscientist James McGaugh. People with HSAM can often identify the day of the week for past dates and recall personal events with striking precision. Brain imaging studies suggest possible structural and functional differences in areas linked to autobiographical retrieval, obsessive tendencies, and memory integration, though HSAM remains rare and not fully understood.\n\nImportant distinctions include:\n\n1. HSAM — Exceptional personal life-event recall.\n\n2. Eidetic Imagery — Short-term vivid visual recall, mostly studied in children.\n\n3. Savant Memory — Extraordinary domain-specific recall, sometimes associated with neurodevelopmental differences.\n\n4. Trained Mnemonic Expertise — High performance developed through strategy rather than innate total recall.\n\nMemory is reconstructive, not a perfect recording. Even highly gifted individuals remain vulnerable to distortion, bias, and false memory.\n\nResearch also suggests that exceptional memory can come with downsides. Some individuals with HSAM report difficulty forgetting painful experiences, emotional overload, or obsessive rumination.\n\nModern neuroscience increasingly views memory as an adaptive system designed not to store every detail, but to prioritize meaning, prediction, and survival relevance.",
-    "funFact": "World memory champions can memorize thousands of digits, cards, or names—not because of photographic memory, but because they use highly trained mnemonic systems.",
+    "learn": "Photographic memory is a popular phrase, but science has not found convincing evidence for a perfect, camera-like memory in ordinary adults. What people often mean by the term is something else: extraordinary autobiographical memory, highly trained recall, or the ability to remember a specific kind of information unusually well. The brain is not a recording device. It stores, reshapes, and reconstructs information every time we remember it.\nThat is why memory champions and people with exceptional recall often rely on technique, not magic. They use vivid imagery, spatial mapping, and repeated encoding to build strong memory traces. From the outside, that can look effortless even when it is the result of practice and strategy.",
+    "simpler": "Most 'photographic memory' is really extraordinary memory for certain kinds of information, often helped by training and strong mental strategies.",
+    "keyTakeaway": "Science suggests that perfect photographic memory is a myth, while real exceptional memory usually comes from a mix of biology, practice, and specialized strategy.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Place_of_National_Memory_at_7_D%C5%82uga_Street_%28Raczy%C5%84ski_Palace_in_Warsaw%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Yair-haklai\" title=\"User:Yair-haklai\">Yair-haklai</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Place_of_National_Memory_at_7_D%C5%82uga_Street_(Raczy%C5%84ski_Palace_in_Warsaw).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/06/A_dam_to_show_how_a_echoic_memory_test_worked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SOS123456789&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SOS123456789 (page does not exist)\">SOS123456789</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:A_dam_to_show_how_a_echoic_memory_test_worked.jpg"
+    },
+    "deeperDive": "One rare and well-studied condition is Highly Superior Autobiographical Memory, or HSAM. People with HSAM can often recall personal dates and life events with remarkable precision, but that still is not the same as remembering every page of a book or every image they have ever seen. Another important distinction is between short-lived vivid imagery in children and the lifelong, perfect recall that popular culture imagines. Those are not the same phenomenon.\nMemory research also shows why flawless recall may not even be desirable. Human memory is built to help us make sense of the past, not to archive every detail. It is flexible, emotional, and vulnerable to distortion. That is useful for learning and adaptation, even if it means the brain trades perfect accuracy for meaning and survival.",
+    "funFact": "Some memory champions can memorize decks of cards or long lists in minutes by using a mental journey, not by seeing perfect pictures in their heads.",
     "references": [
-      "James McGaugh — HSAM research.",
-      "Jill Price case studies.",
-      "Elizabeth Loftus — Memory distortion research.",
-      "Memory championship and mnemonic science literature.",
-      "Cognitive neuroscience of autobiographical memory."
+      "HSAM and autobiographical-memory research.",
+      "Memory distortion studies and cognitive neuroscience.",
+      "Mnemonic-training literature and memory-sport research."
     ],
     "keyElements": {
       "people": [
-        "James McGaugh — Neuroscientist known for HSAM research.",
-        "Jill Price — First widely studied HSAM case.",
-        "Elizabeth Loftus — Leading researcher on memory reliability.",
-        "Kim Peek — Savant with extraordinary recall."
+        "Jill Price - One of the first widely studied HSAM cases.",
+        "James McGaugh - Neuroscientist who helped study HSAM.",
+        "Elizabeth Loftus - Researcher famous for memory-distortion studies.",
+        "Memory champions - Experts who use training and mnemonics to recall huge amounts of information."
       ],
       "places": [
-        "University of California, Irvine — Major HSAM research site.",
-        "Memory laboratories worldwide.",
-        "Competitive memory championships."
+        "Memory labs - Where recall is studied experimentally.",
+        "Universities - Major centers for cognitive neuroscience.",
+        "Memory competitions - Places where strategy beats raw intuition.",
+        "Everyday life - Where autobiographical memory matters most."
       ],
       "years": [
-        "2006 — Jill Price case gains major scientific attention.",
-        "21st century — Expansion of HSAM and memory neuroscience research."
+        "2000s - HSAM becomes a serious neuroscience topic.",
+        "2010s - Memory imaging and recall studies deepen.",
+        "2020s - Research continues to separate myth from measurable ability."
       ],
       "concepts": [
-        "Highly Superior Autobiographical Memory (HSAM) — Exceptional autobiographical recall.",
-        "Eidetic Imagery — Short-term vivid visual memory.",
-        "Mnemonic Techniques — Structured memory enhancement strategies.",
-        "Autobiographical Memory — Personal life-event recall.",
-        "False Memory — Memory distortion or inaccuracy.",
-        "Neuroplasticity — Brain adaptation through learning."
+        "HSAM - Highly Superior Autobiographical Memory.",
+        "Mnemonic strategy - A learned method for remembering.",
+        "Reconstructive memory - Memory rebuilt during recall.",
+        "Eidetic imagery - Very vivid short-term visual memory, usually in children.",
+        "False memory - A confident memory that is inaccurate."
       ]
     }
   }

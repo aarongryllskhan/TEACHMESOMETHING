@@ -2,37 +2,64 @@
   "topic": "The Hidden Code That Makes You You",
   "title": "How DNA Became Humanity’s Instruction Manual",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/DNA_replication_en.svg/3840px-DNA_replication_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-  "summary": "Every human trait—from eye color to aspects of disease risk—emerges from a biological code written in DNA. The discovery of DNA’s structure transformed science by revealing how hereditary information is stored, copied, and passed across generations, launching modern genetics, biotechnology, and personalized medicine.",
+  "imageCredit": {
+    "creator": "LadyofHats Mariana Ruiz",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:DNA_replication_en.svg"
+  },
   "lesson": {
-    "learn": "In 1953, James Watson and Francis Crick, building on crucial X-ray diffraction work by Rosalind Franklin and Maurice Wilkins, described DNA’s double helix structure. This discovery explained how genetic information could be stored in paired nucleotide bases—adenine with thymine, and cytosine with guanine—and accurately replicated.\n\nHuman DNA contains roughly 3.2 billion base pairs organized into 23 chromosome pairs. While humans share about 99.9% of their DNA sequence, the small remaining variation contributes to differences in physical traits, aspects of health risk, and biological diversity. Genes act as coded instructions for building proteins, which influence everything from cellular repair to visible characteristics like hair texture or blood type.",
-    "simpler": "Think of DNA like an enormous biological recipe book written with just four letters: A, T, C, and G. Different sequences of those letters create instructions for building and maintaining the body, much like different recipes create entirely different meals.",
-    "keyTakeaway": "DNA is the molecular foundation of heredity, storing biological instructions that shape development, function, and inherited traits while also influencing susceptibility to certain diseases.",
+    "learn": "DNA is the molecule that stores biological instructions, but calling it an \"instruction manual\" only tells part of the story. DNA's sequence encodes the information cells use to build proteins, regulate development, and pass traits from one generation to the next. The genome is not a simple blueprint, though. It is more like a layered system of code, switches, regulators, and feedback loops that tells cells not only what to build but when and where to build it. That is why DNA matters so much. Small changes in sequence can alter how genes are expressed, which can influence everything from eye color to disease risk. The same molecule that makes heredity possible also explains why living systems are dynamic rather than fixed.",
+    "simpler": "DNA stores the biological instructions for life, but those instructions work through a complicated system of regulation, not just a straight code.",
+    "keyTakeaway": "DNA is powerful because it stores information in a compact, copyable form, then uses gene regulation to turn that information into the diverse structures and behaviors of living organisms.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/DNA_orbit_animated.gif",
-    "deeperDive": "The Human Genome Project, completed in 2003, mapped the full sequence of human DNA and dramatically accelerated genomics research. Scientists can now identify genes linked to inherited disorders, cancer risk, and pharmacogenomics—how individuals respond differently to medications.\n\nModern breakthroughs like CRISPR-Cas9, pioneered in part by Jennifer Doudna and Emmanuelle Charpentier, allow targeted gene editing with unprecedented precision. This has created potential treatments for genetic diseases such as sickle cell disease and certain inherited blindness disorders.\n\nBeyond DNA sequence alone, epigenetics revealed that gene activity can also be influenced by environmental factors such as diet, stress, and toxins without changing the underlying code itself. These discoveries expanded genetics from a static blueprint into a dynamic system where biology and environment interact.\n\nTogether, genetics and genomics now shape fields ranging from ancestry analysis to cancer therapies, agriculture, forensic science, and regenerative medicine.",
-    "funFact": "If stretched end to end, the DNA inside a single human cell would measure about 2 meters (6.5 feet) long—yet it fits inside a nucleus far smaller than a grain of dust.",
+    "learnImageCredit": {
+      "creator": "Original uploader was Richard Wheeler ( Zephyris ) at en.wikipedia",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DNA_orbit_animated.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/0b/DNA_double_helix.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Biochemlife",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:DNA_double_helix.svg"
+    },
+    "deeperDive": "The logic behind DNA is not just sequence but organization. Genes provide the recipes for proteins, while regulatory regions determine how strongly and when those genes are used. Cells read the same DNA differently depending on the tissue, the developmental stage, and the chemical signals around them. That is why a skin cell and a neuron can contain the same genome but behave very differently. DNA replication, repair, and mutation also explain why heredity is stable without being frozen. Most copying is accurate, but occasional variation creates the raw material for evolution. In other words, DNA is both archive and engine: it preserves biological information and still allows life to change over time.",
+    "funFact": "Your DNA is packaged so tightly that meters of it fit inside nearly every cell of your body.",
+    "references": [
+      "Molecular biology and gene-regulation review literature.",
+      "DNA replication, transcription, and epigenetics references.",
+      "Wikimedia Commons image metadata for DNA imagery."
+    ],
     "keyElements": {
       "people": [
-        "Rosalind Franklin — Produced critical X-ray diffraction images that revealed DNA’s structural form.",
-        "James Watson — Co-discovered the double helix model of DNA.",
-        "Francis Crick — Co-developed the structural explanation of DNA replication.",
-        "Jennifer Doudna — Co-developer of CRISPR gene-editing technology."
+        "Geneticists - Study how DNA sequence influences traits and disease.",
+        "Molecular biologists - Investigate how genes are read and regulated.",
+        "Evolutionary biologists - Track how mutation and selection shape genomes.",
+        "Medical researchers - Use DNA to understand inherited risk and diagnosis."
       ],
       "places": [
-        "University of Cambridge — Major site of Watson and Crick’s DNA model work.",
-        "King’s College London — Where Rosalind Franklin conducted key DNA imaging research.",
-        "Human Genome Project research centers — International collaboration mapping the human genome."
+        "Cell nuclei - The main storage site for most human DNA.",
+        "Chromosomes - The packaged structures that organize long DNA strands.",
+        "Gene-regulation regions - The switches that help control expression.",
+        "Laboratories - Where sequencing and genetic analysis are performed."
       ],
       "years": [
-        "1953 — DNA double helix structure published.",
-        "2003 — Human Genome Project completed.",
-        "2012 — CRISPR-Cas9 adapted as a revolutionary gene-editing tool."
+        "1953 - The double-helix structure is described.",
+        "1970s-1980s - Gene sequencing and recombinant DNA transform biology.",
+        "2003 - The Human Genome Project reaches its landmark completion.",
+        "2020s - Genomics becomes central to medicine and biotechnology."
       ],
       "concepts": [
-        "DNA — The molecule carrying hereditary information.",
-        "Genes — DNA segments encoding functional biological instructions.",
-        "Genome — The complete set of genetic material in an organism.",
-        "CRISPR-Cas9 — Precision gene-editing technology.",
-        "Epigenetics — Environmental regulation of gene expression without changing DNA sequence."
+        "Gene - A segment of DNA with a biological function.",
+        "Genome - The complete set of DNA in an organism.",
+        "Gene expression - The process that turns DNA information into action.",
+        "Mutation - A sequence change that can alter function or create variation."
       ]
     }
   }

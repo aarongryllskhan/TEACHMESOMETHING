@@ -1,41 +1,67 @@
 {
-  "topic": "How-We-Know-Dinosaur-Colors-From-Fossils",
-  "title": "Uncovering the Hidden Beauty of the Past**",
+  "topic": "Dinosaur Appearance",
+  "title": "How We Know Dinosaur Colors From Fossils",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Sinosauropteryx_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Fiann M. Smithwick, Robert Nicholls, Innes C. Cuthill, Jakob Vinther",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Sinosauropteryx%20color.jpg"
+  },
   "lesson": {
-    "learn": "Dinosaurs have long been a subject of fascination, but until recently, we had no idea what colors they wore. Scientists used to think that fossils couldn't reveal dinosaur colors, but new discoveries and technologies have changed our understanding. By studying fossilized melanosomes, tiny organelles found in skin cells, researchers can now infer the presence of pigments like melanin. This has led to a greater appreciation for the diversity of dinosaur coloration, from iridescent feathers on some theropods to scaly skin patterns on others. As we continue to uncover more about these ancient creatures, we're learning that even their appearance was far more complex and fascinating than previously thought.",
-    "simpler": "Imagine you have a big box of crayons, but instead of colors, they're like special tiny packets that contain pigments. These packets can tell us what colors dinosaurs had on their skin or feathers. Just like how we use crayons to color in pictures, scientists use these packets to figure out what colors were used by ancient creatures.",
-    "keyTakeaway": "The most important thing to remember is that we can now determine dinosaur colors from fossils by studying tiny organelles called melanosomes. This discovery has helped us see dinosaurs in a whole new light and appreciate their unique appearances.",
-    "deeperDive": "One of the most significant discoveries was made when researchers found evidence of iridescent feathers on some theropod dinosaurs, such as Sinosauropteryx. By analyzing the structure of melanosomes, scientists can determine whether they contained melanin or other pigments. For example, research has shown that some tyrannosaurs had striped patterns, while others were more solidly colored. The Hadrosaurus, a duck-billed dinosaur, was found to have a distinctive crest with bright colors on its head. Scientists have even discovered that some dinosaurs may have had color-changing abilities, similar to chameleons. By studying fossilized skin impressions and melanosome distributions, researchers can recreate the original colors of these prehistoric animals.",
-    "funFact": "It's surprising to learn that not all dinosaur fossils contain melanosomes \u00e2\u20ac\u201c only those from certain time periods and environments. This is because the conditions needed for melanosome preservation were quite specific, which explains why we have so few color records from early dinosaurs.",
+    "learn": "For a long time, dinosaur color was pure imagination. That changed when scientists realized that tiny preserved structures in feathers and skin can reveal pigment patterns. Melanosomes, which carry melanin, preserve shapes that can be compared with those in modern animals, allowing researchers to infer dark tones, stripes, countershading, and sometimes shimmering effects. The result is not a perfect paint-by-numbers portrait of every dinosaur, but it is enough to replace vague guesses with evidence-based reconstructions. Dinosaur color research has become one of the clearest examples of how fossil science can turn a blurry old question into a testable modern one.",
+    "simpler": "Scientists can infer some dinosaur colors by studying microscopic structures preserved in fossils. Those structures help reveal patterns such as dark backs, lighter bellies, and sometimes colorful feather effects.",
+    "keyTakeaway": "Dinosaur color is no longer just artistic guesswork, because preserved microscopic structures now let scientists infer at least part of the original palette.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Sinosauropteryx_color_(without_scale_bar).jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Fiann M. Smithwick, Robert Nicholls, Innes C. Cuthill, Jakob Vinther",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sinosauropteryx%20color%20(without%20scale%20bar).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/80/Gansus_melanosomes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Holly E. Barden, Roy A. Wogelius, Daqing Li, Phillip L. Manning, Nicholas P. Edwards, Bart E. van Dongen",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.5 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gansus%20melanosomes.png"
+    },
+    "deeperDive": "The science here is powerful, but it has limits. Melanosomes can tell us a lot about the presence and distribution of dark pigment, and their shape can help distinguish between certain pigment types, but they do not recover every color the way a living animal would show it. That means scientists are strongest when they reconstruct patterns and tones rather than claiming a full rainbow with certainty. Even with those limits, the field has transformed how we picture extinct animals. Some dinosaurs probably had countershading that made them harder to spot, some had striped or banded feathers, and others may have used color for display or camouflage. The broader lesson is that fossils can preserve more than bones. Under the right conditions, they preserve visual information, and that changes the way prehistoric life feels to us.",
+    "funFact": "Some fossil pigments survive well enough that scientists can tell whether an extinct animal likely had a dark back and a lighter belly.",
+    "references": [
+      "Jakob Vinther and coauthors on fossil melanosomes and dinosaur color.",
+      "Review literature on pigment preservation in fossil feathers and skin.",
+      "Natural History Museum and museum science explainers on dinosaur coloration.",
+      "Wikimedia Commons color-reconstruction and melanosome image pages."
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Dr. Jakob Vinther, a British paleontologist who pioneered the field of dinosaur color research",
-        "+ John Ostrom, an American paleontologist who discovered the first evidence of feathers on theropods",
-        "+ Maria McNamara, an Irish paleontologist who has made significant contributions to understanding melanosome preservation in fossils",
-        "+ Dr. Alan Turner, a paleontologist who has studied dinosaur skin impressions and color patterns",
-        "* **"
+        "Jakob Vinther - Pioneer of fossil color research using melanosomes",
+        "Maria McNamara - Researcher studying fossil preservation and pigment evidence",
+        "Robert Nicholls - Artist and collaborator in reconstructed dinosaur coloration",
+        "Fiann M. Smithwick - Scientist associated with reconstruction of fossil color patterns"
       ],
       "places": [
-        "**",
-        "+ Gobi Desert, where many important discoveries of dinosaur colors have been made",
-        "+ Dinosaur Provincial Park in Alberta, Canada, which contains rich fossil deposits with preserved melanosomes",
-        "+ The Field Museum of Natural History in Chicago, which has an extensive collection of fossilized dinosaurs and research facilities",
-        "+ The University of California, Berkeley's Museum of Paleontology, which houses important collections of dinosaur fossils and supports ongoing color research",
-        "* **"
+        "Liaoning Province, China - Fossil deposits that preserve feather and pigment evidence",
+        "Solnhofen Limestone, Germany - Famous for exquisitely preserved fossils with soft tissues",
+        "Natural history collections worldwide - Sites where color-preserving fossils are studied",
+        "Jehol fossil beds - Important source of feathered dinosaur and bird material"
       ],
       "years": [
-        "**",
-        "+ 1996 \u00e2\u20ac\u201c The discovery of Sinosauropteryx with its distinctive stripes marked a turning point in understanding dinosaur colors",
-        "+ 2007 \u00e2\u20ac\u201c Researchers found evidence of melanin pigmentation on Hadrosaurus skin impressions, providing further insights into dinosaur coloration",
-        "+ 2013 \u00e2\u20ac\u201c Studies revealed that some tyrannosaurs had striped patterns, while others were more solidly colored",
-        "* **"
+        "2000s - Fossil pigment research becomes a major new field",
+        "2010s - Countershading and pattern studies make dinosaur color more concrete",
+        "2017 - Reconstructed Sinosauropteryx color studies become widely cited",
+        "2020s - Imaging and chemistry continue to refine the fossil-color toolkit"
       ],
       "concepts": [
-        "**",
-        "+ Melanosomes, tiny organelles containing pigments like melanin found in skin cells",
-        "+ Iridescence, the shimmering effect of light reflecting off microscopic structures in feathers or skin",
-        "+ Pigmentation, the coloration produced by different types and amounts of melanin or other pigments"
+        "Melanosome - Microscopic pigment-bearing structure preserved in some fossils",
+        "Countershading - Dark back and light belly pattern that helps with camouflage",
+        "Pigment reconstruction - Inferring appearance from preserved microscopic evidence",
+        "Taphonomy - The burial and preservation process that controls what fossils keep",
+        "Color pattern - The arrangement of tones, bands, or markings on an animal"
       ]
     }
   }

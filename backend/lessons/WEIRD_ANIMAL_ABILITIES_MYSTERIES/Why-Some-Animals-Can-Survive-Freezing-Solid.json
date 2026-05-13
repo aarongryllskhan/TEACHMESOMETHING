@@ -1,56 +1,65 @@
 {
   "topic": "Frozen But Alive: The Molecular Survival Tricks of Arctic Animals",
   "title": "How Antifreeze Proteins Let Fish, Frogs, and Insects Survive Deadly Ice",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Rana_sylvatica.jpg",
-  "summary": "In some of Earth’s coldest environments, survival depends not on avoiding freezing—but controlling it. Certain fish, frogs, insects, and polar organisms produce extraordinary molecules called antifreeze proteins that prevent lethal ice damage, allowing life to persist in temperatures that would normally destroy cells.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Rana_sylvatica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Unknown",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Rana_sylvatica.jpg"
+  },
   "lesson": {
-    "learn": "Antifreeze proteins (AFPs) and antifreeze glycoproteins (AFGPs) are specialized biological molecules that help organisms survive subzero temperatures by preventing dangerous ice crystal growth inside tissues and bodily fluids.\n\nNormally, when water freezes, expanding ice crystals puncture cell membranes, disrupt proteins, and cause catastrophic damage. AFPs solve this problem by binding directly to the surfaces of tiny ice crystals and halting their expansion. Rather than lowering freezing point like salt, these proteins create what scientists call thermal hysteresis—a gap between freezing and melting temperatures that stabilizes fluids in extreme cold.\n\nThis adaptation is especially vital in Arctic and Antarctic fish, overwintering insects, and freeze-tolerant amphibians such as the wood frog (Rana sylvatica), whose body can partially freeze while vital organs remain protected.",
-    
-    "simpler": "Think of antifreeze proteins as microscopic bodyguards that attach to dangerous ice crystals before they can grow large enough to damage cells.",
-    
-    "keyTakeaway": "Antifreeze proteins allow certain animals to survive freezing environments not by avoiding ice entirely, but by controlling where, when, and how ice forms.",
-    
-    "deeperDive": "Different organisms use antifreeze biology in distinct ways.\n\nAntarctic notothenioid fish survive in seawater below the normal freezing point of vertebrate blood by circulating antifreeze glycoproteins in their bloodstream. These molecules evolved from modified digestive enzymes, demonstrating evolutionary innovation through gene repurposing.\n\nWood frogs take a different approach: they tolerate partial freezing rather than preventing it entirely. As temperatures drop, they flood tissues with glucose and urea, acting as cryoprotectants that reduce intracellular ice formation. Their hearts may temporarily stop, and breathing can cease, yet they revive when thawed.\n\nSome insects, including certain beetles and moth larvae, combine AFPs with supercooling strategies to survive temperatures below -30°C.\n\nFrom a molecular standpoint, AFPs often possess repetitive amino acid structures that align with ice lattice geometry, physically interfering with crystal expansion. This precision has inspired cryobiology research in medicine, including organ preservation, frozen food science, and improved cryosurgery.\n\nThe study of AFPs also reveals convergent evolution: fish, insects, plants, fungi, and amphibians independently evolved different biochemical solutions to the same freezing threat.",
-    
-    "funFact": "A frozen wood frog can stop breathing, stop its heartbeat, and turn partially solid for weeks—then thaw in spring and hop away.",
-    
+    "learn": "Some animals can survive freezing solid because evolution gave them biochemical tools for coping with ice. Instead of letting cells rupture or dry out fatally, these animals use cryoprotectants, antifreeze proteins, controlled water management, and precise timing to survive temperatures that would kill most mammals. Wood frogs, certain insects, and some fish are among the best-known examples.\nThe feat is astonishing, but it is not magic. Survival depends on limiting damage during freezing and then restarting metabolism safely when conditions improve.",
+    "simpler": "Some animals survive freezing because their bodies make special chemicals that protect cells from ice damage.",
+    "keyTakeaway": "Freezing survival is a chemistry problem solved by evolution: the animal has to control ice, water, and cell damage all at once.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/03/Lithobates_sylvaticus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:The_Cosmonaut\" title=\"User:The Cosmonaut\">The Cosmonaut</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.5 ca",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Lithobates_sylvaticus.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Spruce_budworm_Choristoneura_fumiferana_antifreeze_proteins_%2818572620876%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/128643624@N07\">eLife - the journal</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Spruce_budworm_Choristoneura_fumiferana_antifreeze_proteins_(18572620876).png"
+    },
+    "deeperDive": "Different species use different strategies. Wood frogs can tolerate large portions of body water turning to ice by flooding tissues with glucose and other cryoprotectants. Certain fish and insects produce antifreeze proteins that interfere with harmful crystal growth. Some animals supercool, meaning they avoid freezing altogether even below 0 C for a time. Others survive by controlling where ice forms and how fast it spreads.\nThese systems are a reminder that the boundaries of life are narrower than we imagine, but still very real. Freeze tolerance has limits, and it usually comes with tradeoffs in activity, habitat, and metabolism. The science is useful far beyond curiosity, too, because cryobiology and organ preservation both borrow ideas from these natural solutions.",
+    "funFact": "A wood frog can look dead while frozen and then return to activity after thawing.",
     "references": [
-      "DeVries, A.L. (1968). Discovery of antifreeze glycoproteins in Antarctic fish.",
-      "Storey, K.B. & Storey, J.M. — Freeze tolerance in wood frogs.",
-      "Davies, P.L. — Structural biology of antifreeze proteins.",
-      "Science and Journal of Experimental Biology studies on cryoprotection.",
-      "PLoS ONE genetic studies on antifreeze evolution."
+      "Cryobiology and freeze-tolerance research.",
+      "Antifreeze protein and cryoprotectant studies.",
+      "Wikimedia Commons image metadata for amphibian and insect imagery."
     ],
-    
     "keyElements": {
       "people": [
-        "Arthur L. DeVries — Biologist who discovered antifreeze proteins in Antarctic fish.",
-        "Kenneth B. Storey — Researcher known for freeze-tolerance studies in wood frogs.",
-        "Janet M. Storey — Co-researcher on biochemical cryoprotection.",
-        "Peter L. Davies — Major contributor to antifreeze protein structural biology."
+        "Kenneth Storey - Researcher known for freeze-tolerance and cryoprotectant studies.",
+        "Janet Storey - Researcher in animal hibernation and cryobiology.",
+        "Cryobiologists - Scientists who study how life survives cold.",
+        "Wildlife biologists - They document freeze-tolerant species in nature."
       ],
-      
       "places": [
-        "Antarctic Ocean — Habitat of notothenioid fish living in subzero seawater.",
-        "Arctic Circle — Extreme northern ecosystems requiring freeze adaptation.",
-        "North American boreal forests — Habitat of freeze-tolerant wood frogs.",
-        "Polar marine ecosystems — Natural laboratories for cryoprotection research."
+        "Boreal forests - Home to some freeze-tolerant species.",
+        "Wetlands - Places where wood frogs and other amphibians overwinter.",
+        "Arctic and subarctic regions - Harsh environments that favor cold adaptation.",
+        "Laboratories - Where freezing and thawing are studied carefully."
       ],
-      
       "years": [
-        "1968 — Arthur DeVries identifies antifreeze proteins in Antarctic fish.",
-        "1990s — Freeze-tolerance biochemistry in wood frogs becomes widely studied.",
-        "1995 — Expanded molecular studies reveal convergent antifreeze adaptations.",
-        "21st Century — AFP research influences cryomedicine and biotechnology."
+        "1980s - Freeze-tolerance research expands rapidly.",
+        "1990s - Cryoprotectants and antifreeze proteins are studied in depth.",
+        "2000s - Biomedicine begins borrowing from animal cold-survival strategies."
       ],
-      
       "concepts": [
-        "Antifreeze Proteins (AFPs) — Molecules that inhibit ice crystal growth.",
-        "Cryoprotection — Biological protection against freezing damage.",
-        "Thermal Hysteresis — Separation between freezing and melting points caused by AFPs.",
-        "Supercooling — Remaining liquid below normal freezing temperature.",
-        "Freeze Tolerance — Surviving partial body freezing.",
-        "Convergent Evolution — Independent evolution of similar survival solutions."
+        "Cryoprotectant - A substance that protects cells during freezing.",
+        "Antifreeze protein - A molecule that interferes with ice crystal growth.",
+        "Supercooling - Staying unfrozen below the normal freezing point.",
+        "Freeze tolerance - The ability to survive internal ice formation.",
+        "Cryobiology - The study of life in cold conditions."
       ]
     }
   }

@@ -1,34 +1,65 @@
 {
-  "topic": "Galaxy Rotation Velocity Anomaly",
-  "title": "Understanding the Puzzling Rotation of Galaxies",
-  "image": "https://commons.wikimedia.org/wiki/File:Galaxy_rotation_curve.svg",
-  "summary": "The galaxy rotation velocity anomaly is one of modern astrophysics’ greatest mysteries, revealing that stars in galaxies move far faster than visible matter alone can explain, suggesting unseen mass or new gravitational physics.",
+  "topic": "Why Galaxies Rotate Too Fast",
+  "title": "Why Galaxy Rotation Curves Refuse to Make Sense",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/M31_rotation_curve.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Vallastro",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:M31_rotation_curve.svg"
+  },
   "lesson": {
-    "learn": "Galaxies are enormous gravitational systems made of stars, gas, dust, dark matter, and often a supermassive black hole at their centers. According to classical Newtonian physics, stars farther from a galaxy’s center should orbit more slowly, much like planets farther from the Sun move more gradually. However, observations beginning in the 20th century revealed that stars in the outer regions of galaxies rotate at unexpectedly high speeds, often nearly matching the velocity of stars much closer to the center.\n\nThis discrepancy became known as the galaxy rotation curve anomaly. Instead of declining with distance, galaxy rotation curves often remain flat. This suggests that galaxies contain far more mass than what is visible, leading scientists to propose dark matter halos surrounding galaxies or, alternatively, modifications to the laws of gravity.",
-    "simpler": "Imagine spinning a merry-go-round where children near the edge should move slower to avoid flying off, but instead they move just as fast as those near the center. That strange behavior is similar to what astronomers see in galaxies.",
-    "keyTakeaway": "The galaxy rotation anomaly suggests that either vast amounts of invisible dark matter exist around galaxies or our understanding of gravity may need revision at cosmic scales.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/M101_hires_STScI-PRC2006-10a.jpg/1920px-M101_hires_STScI-PRC2006-10a.jpg",
-    "deeperDive": "The modern study of galaxy rotation curves was revolutionized by Vera Rubin and Kent Ford in the 1970s. By measuring the motion of stars in spiral galaxies, Rubin found consistent evidence that visible matter alone could not account for galactic dynamics.\n\nThe dominant explanation is dark matter, a non-luminous substance forming massive halos around galaxies. Dark matter models successfully explain many galactic and cosmological observations, including large-scale structure formation and gravitational lensing.\n\nAn alternative theory, Modified Newtonian Dynamics (MOND), proposes that gravity behaves differently at extremely low accelerations. MOND can explain some galaxy rotation curves but struggles with galaxy clusters and cosmological observations.\n\nModern simulations also show that galaxy mergers, baryonic feedback, and dark matter interactions can shape rotation curves. Current research explores exotic candidates like axions, sterile neutrinos, and self-interacting dark matter to explain the anomaly more fully.",
-    "funFact": "Our Milky Way completes one full rotation roughly every 225 million years, meaning Earth has orbited the galaxy only about 20 times since dinosaurs first appeared.",
+    "learn": "When astronomers measure the spinning of galaxies, they find that stars farther from the center do not slow down the way simple gravity alone would suggest. Instead, many galaxies keep rotating too quickly, as if much of their mass is missing from view. That is the basic mystery behind galaxy rotation curves. The visible disk of stars, gas, and dust simply does not contain enough gravity to explain the motion. The most common answer is that galaxies sit inside massive halos of dark matter, which provide the extra pull needed to hold the outer regions together. What looks like a mathematical annoyance is actually one of the strongest clues that the cosmos contains a hidden component.",
+    "simpler": "Stars at the edges of many galaxies move faster than they should if only visible matter were present. That is why astronomers think an invisible halo of dark matter surrounds them.",
+    "keyTakeaway": "Galaxy rotation is one of the cleanest signs that the universe contains more mass than light reveals, because the outer stars keep moving as if an unseen halo is gripping the whole system.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Spiral_Galaxy_UGC_2885_%282020-01-4615%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": ", , and B. Holwerda (University of Louisville)",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Spiral_Galaxy_UGC_2885_(2020-01-4615).png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Rotation_curve_of_the_Milky_Way.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Soonclaim",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Rotation_curve_of_the_Milky_Way.png"
+    },
+    "deeperDive": "The rotation-curve problem became famous because it is simple to state and hard to dismiss. If a galaxy were governed only by the mass we can see, orbital speed should drop farther from the center, much like planets farther from the Sun move more slowly. Instead, many galaxies show nearly flat curves, which means something is providing extra gravity at large radii. Astronomers check this by measuring the motion of stars, gas clouds, and hydrogen gas in different parts of the galaxy. Once the data are plotted, the pattern keeps repeating. Dark matter halos solve the math elegantly, and they also fit the broader cosmic picture developed from lensing, the cosmic microwave background, and large-scale structure. The mystery, then, is not whether something unusual is happening. It is whether that unseen material is a new particle, a modification of gravity, or something we have not yet imagined. Rotation curves are powerful because they turn a hidden cosmological question into a visible graph.",
+    "funFact": "A galaxy rotation graph can look wrong even when the measurements are right, which is exactly why it became such an important clue.",
+    "references": [
+      "Galaxy rotation curve and dark matter literature.",
+      "Observational astronomy review papers on spiral galaxies.",
+      "Wikimedia Commons image metadata for rotation-curve graphics."
+    ],
     "keyElements": {
       "people": [
-        "Vera Rubin - Astronomer whose observations provided crucial evidence for dark matter",
-        "Kent Ford - Collaborated with Rubin on galactic rotation measurements"
+        "Vera Rubin - Her work made galaxy rotation curves impossible to ignore.",
+        "Kent Ford - Collaborated on key rotation measurements of spiral galaxies.",
+        "Modern observational astronomers - Scientists who measure velocities in galaxy disks.",
+        "Theoretical cosmologists - Researchers who test dark matter models against the data."
       ],
       "places": [
-        "Mount Wilson Observatory - Early galactic observation site",
-        "California Institute of Technology (Caltech) - Major astrophysical research center"
+        "The Milky Way - Our home galaxy and a test case for rotation studies.",
+        "M31 (Andromeda) - A nearby spiral galaxy with a famous rotation curve.",
+        "Large observatories - Sites where galaxy velocities are measured carefully.",
+        "Computational astronomy groups - Places where models are matched to observations."
       ],
       "years": [
-        "1970s - Vera Rubin and Kent Ford publish galaxy rotation findings",
-        "1980s - Dark matter becomes dominant explanation for flat rotation curves"
+        "1970s - Rotation-curve measurements become central to dark-matter thinking.",
+        "1980s - Flat rotation curves become widely accepted as a major clue.",
+        "2000s - Surveys expand the number of galaxies studied in detail.",
+        "2020s - Higher-resolution mapping sharpens the mass discrepancy problem."
       ],
       "concepts": [
-        "Galaxy Rotation Curve - Graph showing orbital speed versus distance from galactic center",
-        "Dark Matter - Invisible mass proposed to explain excess gravity",
-        "Modified Newtonian Dynamics (MOND) - Alternative gravity theory",
-        "Gravitational Lensing - Independent evidence for unseen mass",
-        "Dark Matter Halo - Hypothetical invisible mass surrounding galaxies"
+        "Rotation curve - The speed profile of a galaxy as a function of radius.",
+        "Halo - The extended invisible mass around a galaxy.",
+        "Orbital velocity - The speed of stars and gas around the galactic center.",
+        "Mass discrepancy - The mismatch between visible matter and gravitational behavior."
       ]
     }
   }

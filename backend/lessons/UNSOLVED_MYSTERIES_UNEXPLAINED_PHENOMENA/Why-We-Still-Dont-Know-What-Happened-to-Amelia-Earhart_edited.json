@@ -1,44 +1,66 @@
 {
   "topic": "Amelia Earhart’s Disappearance",
   "title": "Amelia Earhart: Why One of Aviation’s Greatest Mysteries Remains Unsolved",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Amelia_Earhardt_Oakland_Airport%2C_California%2C_USA%2C_1934.jpg",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Underwood &amp; Underwood (active 1880 – c. 1950)<a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.npg.si.edu/exhibit/earhart/pop-ups/12.html\">[1]</a>",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small.jpg"
+  },
   "lesson": {
-    "learn": "On July 2, 1937, Amelia Earhart and navigator Fred Noonan disappeared during one of the most ambitious flights in aviation history: an attempt to circumnavigate the globe in a Lockheed Electra 10E. Their planned route from Lae, New Guinea, to tiny Howland Island in the central Pacific represented one of the most technically demanding legs of the journey.\n\nThe disappearance remains unsolved largely because of the extraordinary navigational difficulty of the mission, limited radio communication, uncertain fuel margins, vast search areas, and the technological limitations of 1930s aviation. Howland Island was only about 1.5 miles wide and difficult to locate even under ideal conditions. Earhart’s aircraft lacked modern GPS, radar, satellite communication, or emergency locator systems.\n\nRadio transcripts indicate Earhart was close to Howland but struggling with navigation and communication issues. Her final confirmed transmissions suggested she could not see the island and was running low on fuel. The most widely accepted theory is that Earhart and Noonan were unable to locate Howland Island and ultimately crashed into the Pacific after fuel exhaustion—often called the ‘crash-and-sink’ hypothesis.\n\nHowever, because no definitively verified wreckage has been recovered, alternative theories continue to attract attention.",
-    "simpler": "Earhart’s disappearance is still a mystery because flying over thousands of miles of open ocean with 1930s technology made missing a tiny island potentially fatal—and once lost in the Pacific, finding evidence became incredibly difficult.",
-    "keyTakeaway": "The enduring mystery stems less from supernatural intrigue and more from the immense navigational, technological, and environmental challenges of early long-distance aviation.",
-    "deeperDive": "Several major theories dominate discussion:\n\n1. Crash-and-Sink Theory — Earhart and Noonan missed Howland Island, ran out of fuel, and ditched at sea. This remains the leading explanation among many aviation historians.\n\n2. Nikumaroro Hypothesis — Some researchers propose they landed on Gardner Island (now Nikumaroro), where castaway evidence may exist. This theory remains debated and unproven.\n\n3. Capture Theories — Claims involving Japanese custody in the Marshall Islands have circulated widely but lack strong mainstream evidentiary support.\n\nThe challenge lies in geography. The Pacific search zone is enormous, and ocean depths near possible crash sites can exceed several kilometers. Even modern expeditions, including searches by oceanographer Robert Ballard, have not conclusively located Earhart’s plane.\n\nNavigation itself was a major obstacle. Noonan relied heavily on celestial navigation, dead reckoning, and radio direction-finding, all vulnerable to cloud cover, timing errors, signal confusion, and equipment limitations.\n\nEarhart’s case also illustrates how public fascination, national symbolism, and incomplete evidence can transform a likely aviation accident into a cultural mystery.\n\nDespite uncertainty, Earhart’s legacy as a pioneering aviator remains secure. She was the first woman to fly solo nonstop across the Atlantic and a major figure in expanding opportunities for women in aviation.",
-    "funFact": "The U.S. Navy and Coast Guard launched one of the largest and most expensive search efforts of its time after Earhart vanished, covering hundreds of thousands of square miles.",
+    "learn": "Amelia Earhart’s disappearance remains one of aviation history’s most famous mysteries because the evidence is incomplete, the search area was vast, and the final hours of the flight were poorly documented. Earhart and navigator Fred Noonan were attempting a challenging around-the-world flight in 1937 when contact was lost near Howland Island. Despite massive search efforts, no definitive wreckage was recovered at the time, and later claims have never fully settled the question.\nThe puzzle persists because every leading theory has gaps. Some possibilities involve fuel exhaustion and a crash at sea; others argue for a landing on a remote island or some later fate after the aircraft went missing. The problem is not a lack of curiosity. It is a lack of conclusive physical evidence.",
+    "simpler": "Amelia Earhart vanished during a difficult flight in 1937, and the evidence left behind was never enough to prove exactly what happened.",
+    "keyTakeaway": "Earhart’s disappearance remains unsolved because the record is fragmentary, the Pacific is enormous, and no theory has produced evidence strong enough to end the debate.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/Air_California_Lockheed_L-188_Electra_%2801_00090985%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "SDASM Archives",
+      "source": "Wikimedia Commons",
+      "license": "No restrictions",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Air_California_Lockheed_L-188_Electra_(01_00090985).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Howland_Island_NWR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "USFWS - Pacific Region",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Howland_Island_NWR.jpg"
+    },
+    "deeperDive": "The most discussed explanations fall into three broad categories: a crash-and-sink scenario, a landing on Nikumaroro or another remote site, and later speculative claims that have not held up well under scrutiny. Searches over the decades have produced artifacts and clues, but none has become the final, universally accepted answer. The aircraft’s fate remains a problem of incomplete logs, changing shorelines, ocean conditions, and the difficulty of proving absence after so much time.\nWhat makes the story endure is not just the mystery itself, but who Earhart was. She was a public symbol of aviation skill, independence, and technical confidence. That gives every new theory emotional weight. Yet history still rewards the same thing here that it rewards everywhere else: hard evidence. Until such evidence appears, the most honest answer is that the mystery remains open.",
+    "funFact": "Earhart became so famous that her disappearance turned into one of the first aviation mysteries people followed like a global news event.",
     "references": [
-      "U.S. Navy historical search records.",
-      "Amelia Earhart official radio transcripts.",
-      "TIGHAR Nikumaroro research.",
-      "Robert Ballard expedition reports.",
-      "Smithsonian aviation history resources."
+      "Aviation history and Amelia Earhart archival records.",
+      "Search-and-rescue and Pacific navigation references.",
+      "Historical analysis of the 1937 world-flight attempt."
     ],
     "keyElements": {
       "people": [
-        "Amelia Earhart — Aviation pioneer and global icon.",
-        "Fred Noonan — Navigator and former Pan Am route specialist.",
-        "Robert Ballard — Ocean explorer who conducted modern search efforts."
+        "Amelia Earhart - Aviator whose disappearance still captivates historians.",
+        "Fred Noonan - Navigator on the final flight.",
+        "Researchers and archivists - They keep testing new theories and records.",
+        "Search crews - Their work shaped the historical evidence base."
       ],
       "places": [
-        "Lae, New Guinea — Final departure point.",
-        "Howland Island — Intended destination.",
-        "Nikumaroro — Alternative landing theory site.",
-        "Central Pacific Ocean — Primary search zone."
+        "Howland Island - Intended refueling destination on the final flight.",
+        "The central Pacific - The vast search area that complicates the mystery.",
+        "Nikumaroro - One of the most discussed possible landing sites.",
+        "Aviation archives - Where maps, logs, and radio reports are studied."
       ],
       "years": [
-        "1928 — Earhart becomes first woman passenger across Atlantic by air.",
-        "1932 — Earhart completes solo transatlantic flight.",
-        "1937 — Final world flight disappearance.",
-        "Modern Era — Continued search expeditions."
+        "1937 - Earhart disappears during her round-the-world attempt.",
+        "1940s - Early searches and theories begin to circulate.",
+        "1980s - New forensic and archival ideas keep the mystery alive.",
+        "2020s - Researchers still revisit radio, weather, and navigation evidence."
       ],
       "concepts": [
-        "Celestial Navigation — Pre-GPS long-range navigation method.",
-        "Dead Reckoning — Position estimation using speed and heading.",
-        "Fuel Exhaustion — Leading crash hypothesis factor.",
-        "Crash-and-Sink Theory — Mainstream explanation.",
-        "Aviation History — Early long-distance flight development."
+        "Dead reckoning - Navigation by estimating position from speed and course.",
+        "Fuel exhaustion - A leading explanation for many aviation disappearances.",
+        "Signal ambiguity - Radio reports that can be hard to interpret later.",
+        "Archival evidence - Historical records used to test theories.",
+        "Crash-and-sink scenario - A common explanation for ocean disappearances."
       ]
     }
   }

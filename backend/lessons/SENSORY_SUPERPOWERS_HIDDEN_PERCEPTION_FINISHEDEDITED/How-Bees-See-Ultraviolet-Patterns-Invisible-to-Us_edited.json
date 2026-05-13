@@ -1,33 +1,65 @@
 {
-  "topic": "How-Bees-Perceive-Ultraviolet-Light",
+  "topic": "How Bees Perceive Ultraviolet Light",
   "title": "Understanding the Visual World of Bees: A Closer Look at UV Perception",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Flower_in_UV_light_Potentilla_reptans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Wiedehopf20",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Flower_in_UV_light_Potentilla_reptans.jpg"
+  },
   "lesson": {
-    "learn": "Bees possess a unique visual system that allows them to perceive ultraviolet (UV) light, enabling them to navigate and communicate effectively. This ability is made possible by the presence of UV-sensitive photoreceptors in their compound eyes, which contain the protein opsin.",
-    "simpler": "Bee vision can be thought of as a high-contrast, black-and-white world with an added dimension of UV light, much like the difference between seeing a black-and-white photograph and a color image. This UV dimension allows bees to detect patterns and colors that are invisible to humans.",
-    "keyTakeaway": "The key insight is that bees have evolved to perceive UV light through the development of specialized photoreceptors, which enables them to detect patterns and navigate their environment more effectively.",
-    "deeperDive": "Research has shown that certain bee species, such as the Western honey bee (Apis mellifera), can detect UV patterns on flowers at a wavelength of around 350 nanometers. This is achieved through the use of ommatidia, the individual photoreceptors that make up the compound eye. The ability to see UV light also plays a crucial role in bee navigation, communication, and foraging behavior. For example, studies have demonstrated that honeybees use UV patterns to distinguish between flowers and navigate back to their hive.",
-    "funFact": "Some flowers, such as the common toadflax (Linaria vulgaris), have evolved to produce UV-reflective patterns specifically to attract pollinators like bees.",
+    "learn": "Bees do not see flowers the way humans do. Their eyes can detect ultraviolet light, which means many flowers appear to them with hidden patterns that are invisible to us. Those patterns often act like landing guides, leading bees toward nectar and pollen. In other words, the flower is not simply a bright object in a meadow; it is also a coded signboard designed by evolution to be seen by a pollinator. Bees also perceive color differently from humans, so their visual world is arranged around a different set of signals. What looks like a plain blossom to us may be a detailed map of food to a bee.",
+    "simpler": "Bees can see ultraviolet markings on flowers that humans cannot see. Those markings help guide bees to nectar and pollen.",
+    "keyTakeaway": "Bee vision shows that color is not universal; flowers and pollinators have evolved a visual conversation that happens partly outside the range of human sight.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/e/e1/A_bee_on_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Juanjo Molina",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:A_bee_on_flower.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/1/12/Flor_de_rudbeckia_patrones_UV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Unknown",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Flor_de_rudbeckia_patrones_UV.jpg"
+    },
+    "deeperDive": "Ultraviolet perception matters because it changes the flower from a simple object into an information-rich target. Many flowers reflect UV light in ring shapes, spokes, or patches that point insects toward the center. Bees use this patterning along with color and shape to decide where to land and how to move efficiently between blossoms. The advantage for the plant is obvious: a bee that lands well is more likely to transfer pollen. The advantage for the bee is equally practical: a better visual cue means a quicker meal. Scientists study this through UV photography, spectral imaging, and comparisons between human-visible and insect-visible light. The result is a reminder that the world contains layers we do not naturally notice, and that perception is always tied to the biology of the observer.",
+    "funFact": "A flower can look almost plain to a human and still carry a bright ultraviolet bullseye for a bee.",
+    "references": [
+      "Pollination biology and bee vision review literature.",
+      "UV floral pattern imaging studies.",
+      "Wikimedia Commons image metadata for UV flower and bee photographs."
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Jeremy Niven - Researcher studying bee vision and communication",
-        "* Dr. Adrian Dyer - Expert in insect vision and behavior",
-        "* Dr. Rachel Muir - Biologist specializing in bee ecology and conservation"
+        "Insect vision researchers - Scientists who study how bees process color and UV patterns.",
+        "Pollination ecologists - Experts who track the relationship between flowers and insects.",
+        "Plant biologists - Researchers explaining why flowers evolved UV nectar guides.",
+        "Photographers and field biologists - People who document UV-visible floral structures."
       ],
       "places": [
-        "* The University of Cambridge - Research center for insect vision and behavior studies",
-        "* The Xerces Society - Conservation organization focused on pollinator protection",
-        "* The Natural History Museum, London - Repository of specimens and research on bee evolution"
+        "Flowering meadows - Natural settings where pollinator signals matter most.",
+        "Greenhouses and botanical gardens - Places where UV floral traits can be observed and compared.",
+        "Laboratories with UV filters - Where researchers reveal what bees can see.",
+        "Pollination corridors - Ecological routes where bee vision affects plant reproduction."
       ],
       "years": [
-        "* 1960s: Scientists first discovered the ability of bees to see UV light",
-        "* 2000s: Advances in imaging technology allowed for more detailed studies of bee vision",
-        "* 2019: Researchers published findings on the neural basis of bee visual perception"
+        "Early 20th century - Bee color vision begins to be studied systematically.",
+        "1950s - Karl von Frisch helps establish the importance of insect sensory biology.",
+        "2000s - UV imaging becomes a common research tool.",
+        "2020s - Spectral studies continue to refine pollinator-plant communication."
       ],
       "concepts": [
-        "* Ultraviolet (UV) light and its role in plant-insect interactions",
-        "* Compound eyes and ommatidia structure",
-        "* Opsin protein and photoreceptor function",
-        "* Insect communication and navigation through visual cues"
+        "Ultraviolet vision - Sensitivity to wavelengths shorter than visible violet light.",
+        "Nectar guides - Floral patterns that steer pollinators to food.",
+        "Spectral imaging - A way to visualize how different wavelengths appear.",
+        "Pollination signal - Any visual cue that helps attract or direct insects."
       ]
     }
   }

@@ -1,40 +1,65 @@
 {
-  "topic": "Understanding Neutron Stars",
-  "title": "The Formation, Physics, and Extreme Nature of Neutron Stars",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Noirlab2218a_Neutron_Star_Merger_in_the_Early_Universe.jpg/960px-Noirlab2218a_Neutron_Star_Merger_in_the_Early_Universe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "summary": "Neutron stars are among the densest known objects in the universe, formed when massive stars collapse after supernova explosions. These extraordinary remnants serve as cosmic laboratories for studying gravity, nuclear physics, and matter under unimaginable pressure.",
+  "topic": "Neutron Stars and Matter at Extreme Density",
+  "title": "How Neutron Stars Pack a Planet’s Mass Into a City",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Neutron_Star_%2826195322166%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Kevin M. Gill",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Neutron_Star_(26195322166).png"
+  },
   "lesson": {
-    "learn": "Neutron stars form when massive stars, typically more than about 8 times the mass of our Sun, exhaust their nuclear fuel and undergo catastrophic core collapse during a supernova explosion. The outer layers are blasted into space, while the core compresses so intensely that protons and electrons combine into neutrons.\n\nThe result is an incredibly compact object usually only about 12 to 20 kilometers wide, yet containing more mass than our Sun. This means neutron stars possess densities so extreme that a teaspoon of neutron star matter would weigh billions of tons on Earth.\n\nThese stars are held up not by ordinary pressure, but by neutron degeneracy pressure and nuclear forces. They represent one of the universe’s most extreme states of matter, bridging stellar evolution, quantum mechanics, and relativity.",
-    "simpler": "Imagine crushing an object as massive as the Sun into a city-sized sphere. That’s a neutron star. It’s like squeezing an entire mountain range into a sugar cube-sized amount of matter.",
-    "keyTakeaway": "Neutron stars are the ultra-dense remnants of collapsed massive stars, offering scientists a rare opportunity to study matter, gravity, and physics under the most extreme conditions known.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Neutron_star_cross_section.svg/1920px-Neutron_star_cross_section.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20250813172807",
-    "deeperDive": "Neutron stars exist in several forms, including pulsars and magnetars. Pulsars emit beams of radiation from their magnetic poles, appearing to pulse as they rotate. Some spin hundreds of times per second, making them among the most precise natural clocks in the cosmos.\n\nMagnetars are neutron stars with magnetic fields trillions of times stronger than Earth’s, capable of producing intense X-ray and gamma-ray bursts. Binary neutron star mergers are especially important because they generate gravitational waves and heavy elements like gold and platinum.\n\nThe 2017 detection of gravitational waves from merging neutron stars confirmed major predictions of general relativity and provided groundbreaking evidence about how heavy elements are created. These events also allow scientists to probe the strong nuclear force and the internal structure of ultra-dense matter.",
-    "funFact": "Some neutron stars spin so rapidly that they rotate more than 700 times every second.",
+    "learn": "Neutron stars are what remain after some massive stars explode and their cores collapse under gravity. Once the core is crushed enough, electrons and protons are forced together to form neutrons, creating matter so dense that a teaspoon would weigh billions of tons on Earth. A neutron star typically contains more mass than the Sun packed into a sphere only about the size of a city. That extreme compression makes neutron stars one of the best places in the universe to study matter under conditions that cannot be recreated in laboratories. Their gravity is so strong that the surface is not a solid landscape in any ordinary sense. Crust, core, magnetic field, and rotation all interact in ways that can produce fast spins, giant magnetic fields, and violent bursts of energy. Some neutron stars are observed as pulsars, which send out regular beams like cosmic lighthouses. Others are linked to the brightest explosions in the universe, especially when two neutron stars merge.",
+    "simpler": "A neutron star is the crushed core of a dead star, squeezed so tightly that a city-sized object can hold more mass than the Sun.",
+    "keyTakeaway": "Neutron stars matter because they show what happens when gravity pushes matter to its absolute limit: ordinary atoms stop behaving like ordinary matter, and the result is a compact object with extraordinary density, gravity, and magnetic power.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/0/02/Neutron_Star_%2826194729776%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Kevin M. Gill",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Neutron_Star_(26194729776).png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/1/1a/NeutronStar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "F. Winkler",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:NeutronStar.jpg"
+    },
+    "deeperDive": "The reason neutron stars are so compact is that gravity wins the argument against normal atomic structure. In an ordinary atom, electrons keep nuclei separated. In a neutron star's core, the pressure is so intense that electrons combine with protons, and matter is reorganized into a neutron-rich state. The result is a star whose mass is enormous but whose radius is only around 10 to 12 kilometers. That density makes the surface gravity billions of times stronger than Earth's. Neutron stars also preserve a record of how matter behaves at supranuclear density, which is one of the biggest open questions in modern physics. Different models predict different internal structures, so astronomers study their masses, radii, spin rates, and merger signals to narrow the possibilities. Pulsars, especially millisecond pulsars, act like clocks because their beams sweep past Earth with astonishing regularity. When two neutron stars collide, the event can produce gravitational waves, heavy elements, and a short gamma-ray burst, making these small stars central to astrophysics on several fronts.",
+    "funFact": "If you could scoop a teaspoon of neutron-star matter, it would weigh more than a mountain on Earth.",
+    "references": [
+      "Neutron-star structure and equation-of-state review literature.",
+      "Pulsar timing and neutron-star merger studies.",
+      "Wikimedia Commons metadata for neutron-star imagery."
+    ],
     "keyElements": {
       "people": [
-        "Subrahmanyan Chandrasekhar — Helped define stellar collapse limits.",
-        "Jocelyn Bell Burnell — Co-discovered pulsars.",
-        "Albert Einstein — General relativity underpins neutron star physics.",
-        "Russell Hulse and Joseph Taylor — Studied binary pulsars and gravitational effects."
+        "Subrahmanyan Chandrasekhar - Helped establish the physics of stellar collapse.",
+        "Jocelyn Bell Burnell - Co-discovered pulsars, which revealed neutron stars in action.",
+        "Astronomers - Measure neutron-star masses, radii, and timing signals.",
+        "Gravitational-wave teams - Study neutron-star mergers to probe dense matter."
       ],
       "places": [
-        "Arecibo Observatory — Key pulsar discoveries.",
-        "Chandra X-ray Observatory — Observes neutron stars in X-rays.",
-        "LIGO Observatory — Detects gravitational waves from neutron star mergers.",
-        "Cambridge University — Pulsar discovery research."
+        "Supernova remnants - The birthplaces of many neutron stars.",
+        "Pulsar timing arrays - Observational networks that track exceptionally regular pulsars.",
+        "Binary star systems - Environments where neutron stars can merge.",
+        "Neutron-star cores - The extreme interior where matter is compressed beyond atomic normalcy."
       ],
       "years": [
-        "1930s — Theoretical foundations for neutron stars.",
-        "1967 — Discovery of the first pulsar.",
-        "1974 — Binary pulsar discovery.",
-        "2017 — First observed neutron star merger via gravitational waves."
+        "1930s - Neutron-star ideas emerge from stellar-collapse theory.",
+        "1967 - Pulsars are first observed and identified as rapidly rotating neutron stars.",
+        "2017 - A neutron-star merger is observed with gravitational waves and light.",
+        "2020s - Precision timing and X-ray missions sharpen radius measurements."
       ],
       "concepts": [
-        "Supernova Collapse — Formation of neutron stars.",
-        "Neutron Degeneracy Pressure — Prevents further collapse.",
-        "Pulsars — Rapidly spinning neutron stars.",
-        "Magnetars — Ultra-magnetic neutron stars.",
-        "Gravitational Waves — Ripples from neutron star mergers."
+        "Degeneracy pressure - A quantum effect that can no longer fully resist collapse in a neutron star.",
+        "Equation of state - The relationship between pressure and density inside dense matter.",
+        "Pulsar - A rotating neutron star that emits regular beams of radiation.",
+        "Supranuclear density - Matter compressed beyond the density found in atomic nuclei."
       ]
     }
   }

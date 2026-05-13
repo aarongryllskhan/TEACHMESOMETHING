@@ -1,57 +1,65 @@
 {
   "topic": "The Butterfly That Crosses a Continent",
   "title": "How Monarchs Navigate Thousands of Miles on Wings Thinner Than Paper",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch_In_May.jpg",
-  "summary": "Each year, monarch butterflies perform one of the most extraordinary migrations on Earth, traveling across vast stretches of North America despite their fragile bodies. Their journey spans multiple generations, combining biological programming, environmental sensing, and evolutionary precision into one of nature’s greatest navigational mysteries.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Monarch_In_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "<a href=\"https://en.wikipedia.org/wiki/User:HaarFager\" class=\"extiw\" title=\"en:User:HaarFager\">Kenneth Dwain Harrelson</a>",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Monarch_In_May.jpg"
+  },
   "lesson": {
-    "learn": "Monarch butterflies undertake one of the world’s most remarkable insect migrations, with eastern populations traveling up to 3,000 miles (4,800 km) from Canada and the northern United States to overwintering forests in central Mexico. Western populations migrate shorter distances toward coastal California.\n\nWhat makes this migration especially astonishing is that no single butterfly completes the full round trip. Instead, the journey is generational. Several spring and summer generations move northward, breeding along the way, while a special late-season “super generation” emerges in late summer or early fall. This generation can live up to eight months—far longer than typical monarchs—and makes the long journey south.\n\nThese butterflies rely on a time-compensated sun compass, using the Sun’s position alongside an internal circadian clock located in their antennae. Research also suggests they may use Earth’s magnetic field as a backup navigational system under cloudy conditions.",
-    
-    "simpler": "Imagine being born, then somehow knowing how to fly thousands of miles to a forest you’ve never seen before—using sunlight, internal clocks, and environmental cues—all while weighing less than a gram.",
-    
-    "keyTakeaway": "Monarch migration is not just a long-distance journey; it is a multi-generational biological strategy powered by genetic programming, environmental navigation, and extraordinary physiological adaptation.",
-    
-    "deeperDive": "The monarch’s navigational system is a masterpiece of biological engineering. Studies have shown that specialized proteins and circadian rhythms help monarchs orient relative to the Sun throughout the day, adjusting direction as sunlight changes.\n\nTheir migration is also closely tied to milkweed, the host plant on which monarchs lay eggs and their caterpillars feed. Without milkweed, reproduction collapses. This makes habitat availability across migratory corridors essential.\n\nThe overwintering sites in Mexico’s oyamel fir forests provide a unique microclimate—cool enough to slow metabolism but not so cold as to freeze them. Here, millions cluster together on trees, conserving warmth and moisture.\n\nClimate change, habitat destruction, pesticide use, and deforestation now threaten this ancient migration. Declines in milkweed populations and overwintering habitat loss have significantly reduced monarch numbers in recent decades.\n\nScientists view monarchs as both a marvel of evolutionary adaptation and a biological indicator of environmental health. Their survival depends on continental-scale ecological cooperation.",
-    
-    "funFact": "A monarch butterfly weighing less than a paperclip can travel farther, relative to body size, than many larger animals—and may fly the equivalent of crossing a continent using navigation systems built into its brain and antennae.",
-    
+    "learn": "Monarch butterflies manage one of the strangest migrations in nature. No single butterfly completes the whole round trip. Instead, the journey is spread across generations, with each generation inheriting part of the route and the seasonal instinct to move. The insects travel thousands of miles, navigate by environmental cues, and gather in the same wintering areas year after year.\nThat makes the migration remarkable because it is both biological and almost architectural: the route is carried forward by behavior, timing, and instinct rather than by a single long-lived traveler.",
+    "simpler": "Monarch butterflies survive a huge migration because different generations carry different parts of the journey and follow seasonal cues.",
+    "keyTakeaway": "The monarch migration is extraordinary because a long route is preserved across generations, turning instinct into a living relay system.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/28/Monarch_Butterfly_Danaus_plexippus_Vertical_Caterpillar_2000px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Photo (c)2007 Derek Ramsey (<a href=\"https://en.wikipedia.org/wiki/User:Ram-Man\" class=\"extiw\" title=\"en:User:Ram-Man\">Ram-Man</a>)",
+      "source": "Wikimedia Commons",
+      "license": "GFDL 1.2",
+      "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Danaus_plexippus_Vertical_Caterpillar_2000px.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Monarch_Butterfly_Danaus_plexippus_on_Milkweed_Hybrid_2800px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Photo by and (c)2008 Derek Ramsey (<a href=\"https://en.wikipedia.org/wiki/User:Ram-Man\" class=\"extiw\" title=\"en:User:Ram-Man\">Ram-Man</a>)",
+      "source": "Wikimedia Commons",
+      "license": "GFDL 1.2",
+      "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Danaus_plexippus_on_Milkweed_Hybrid_2800px.jpg"
+    },
+    "deeperDive": "Monarchs use a combination of sun compass orientation, circadian timing, and environmental information to stay on course. The eastern North American population is famous for overwintering in the oyamel fir forests of central Mexico, where cool mountain conditions help them survive until spring. In the return cycle, the birds do not follow a single butterfly home; the migration is broken into stages across several generations.\nScientists such as Fred Urquhart and Chip Taylor helped uncover the scale and biology of the migration. The story is a reminder that migration is not always about individual memory in the human sense. Sometimes evolution distributes the task across time.",
+    "funFact": "A monarch that arrives in Mexico may be part of a chain of butterflies that includes several generations of travelers.",
     "references": [
-      "Lincoln Brower — Foundational monarch migration and conservation research.",
-      "Monarch Watch — Long-term tracking and ecological studies.",
-      "Reppert, S.M. — Research on monarch circadian clocks and sun compass navigation.",
-      "Journey North — Monarch migration citizen science tracking.",
-      "Xerces Society — Pollinator and monarch conservation research."
+      "Monarch migration and navigation research.",
+      "Insect orientation and seasonal behavior studies.",
+      "Wikimedia Commons image metadata for monarch butterflies and milkweed."
     ],
-    
     "keyElements": {
       "people": [
-        "Lincoln Brower — Pioneering scientist in monarch migration ecology and conservation.",
-        "Steven Reppert — Researcher known for uncovering monarch sun compass and circadian navigation systems.",
-        "May Berenbaum — Entomologist focused on insect ecology and migration biology.",
-        "Fred Urquhart — Scientist who helped identify monarch overwintering grounds in Mexico."
+        "Fred Urquhart - Naturalist who helped prove the monarch migration route.",
+        "Chip Taylor - Researcher and conservationist focused on monarchs.",
+        "Insect ecologists - They study migration, navigation, and overwintering.",
+        "Conservation volunteers - They monitor milkweed and butterfly populations."
       ],
-      
       "places": [
-        "Monarch Butterfly Biosphere Reserve, Mexico — Major overwintering sanctuary.",
-        "Oyamel Fir Forests, Central Mexico — Critical winter microhabitat.",
-        "California Coastal Groves — Western monarch overwintering zones.",
-        "North American Milkweed Corridors — Essential breeding and migratory habitat."
+        "Central Mexico - Major monarch overwintering region.",
+        "Milkweed fields - Essential habitat for monarch caterpillars.",
+        "North American breeding grounds - Where migration begins each year.",
+        "Oyamel fir forests - Winter refuges for eastern monarchs."
       ],
-      
       "years": [
-        "1975 — Discovery of major overwintering sites in Mexico.",
-        "1992 — Expanded international conservation attention.",
-        "2006 — Severe weather events reveal vulnerability of overwintering colonies.",
-        "2010s–Present — Population declines intensify habitat restoration efforts."
+        "1975 - The overwintering sites in Mexico are confirmed.",
+        "1990s - Monarch navigation research expands.",
+        "2000s - Conservation concerns make the migration a major public topic."
       ],
-      
       "concepts": [
-        "Migration — Seasonal large-scale movement between breeding and overwintering habitats.",
-        "Super Generation — Long-lived migratory generation specialized for continental travel.",
-        "Sun Compass Navigation — Orientation using solar position and circadian timing.",
-        "Circadian Clock — Internal biological timing system.",
-        "Magnetoreception — Potential ability to sense Earth’s magnetic field.",
-        "Milkweed Dependency — Reliance on host plants for reproduction.",
-        "Conservation Biology — Protection of migratory ecosystems and species survival."
+        "Multigenerational migration - A route shared across several generations.",
+        "Sun compass - Orientation using the sun and time of day.",
+        "Diapause - A suspended developmental state that helps survival.",
+        "Overwintering - Spending winter in a protected location.",
+        "Insect navigation - The biological ability to move in the right direction."
       ]
     }
   }

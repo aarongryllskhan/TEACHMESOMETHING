@@ -1,47 +1,70 @@
 {
-  "topic": "Why-Some-Revolutions-Fail-and-Others-Succeed",
-  "title": "The Unseen Forces of Change**",
+  "topic": "Why Some Revolutions Fail and Others Succeed",
+  "title": "What Separates a Lasting Revolution from a Collapse",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Storming_the_bastille.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Unknown author Unknown author",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Storming_the_bastille.jpg"
+  },
   "lesson": {
-    "learn": "A revolution is a fundamental transformation in the way people live, work, and interact with each other. While revolutions have shaped human history, some have failed to achieve their goals, while others have led to lasting change. This topic explores the complex factors that determine whether a revolution succeeds or fails. Understanding these factors can help us appreciate the nuances of social movements and the challenges they face. By examining past revolutions, we can identify patterns and trends that shed light on why some succeed where others falter.",
-    "simpler": "Imagine trying to change the entire country's rules and way of life \u00e2\u20ac\u201c it's like trying to turn a giant ship around in a storm! Some revolutions fail because they don't have enough support from the people, or their leaders make mistakes that sink the whole movement. On the other hand, successful revolutions often have clear goals, strong leadership, and clever strategies for winning over the hearts and minds of the population.",
-    "keyTakeaway": "The success or failure of a revolution depends on a delicate balance of factors, including public support, effective leadership, strategic planning, and adaptability in response to challenges. By examining past revolutions, we can learn valuable lessons about what works and what doesn't.",
-    "deeperDive": "Revolutions often fail due to internal conflicts, factionalism, or external pressures from opposing forces. For instance, the Russian Revolution of 1917 failed to establish a stable socialist government, while the Chinese Communist Party's long-term rule demonstrates how a revolution can succeed in creating lasting change. Successful revolutions often have charismatic leaders who inspire loyalty and devotion among their followers. The Arab Spring protests in 2010-2012 demonstrated the power of social media and grassroots organizing in mobilizing people against oppressive regimes. However, the absence of clear goals, effective communication, and strategic planning can lead to chaos and fragmentation. For example, the French Revolution's Reign of Terror ultimately undermined its own legitimacy. The role of external factors, such as international support or opposition, also plays a significant role in determining a revolution's outcome.",
-    "funFact": "Some revolutions have achieved their goals through creative means \u00e2\u20ac\u201c for instance, the Cuban Revolution's successful use of guerrilla warfare and the Sandinista Revolution's innovative community-based programs. These examples highlight the importance of adaptability and resourcefulness in achieving lasting change.",
+    "learn": "Revolutions succeed when they can do more than overthrow a ruler. They need a coalition broad enough to survive fear, a strategy strong enough to survive repression, and a plan for governing after victory. Many uprisings begin with real public anger, but anger alone cannot hold together armies, food systems, tax collection, and legitimacy. Some revolutions win the streets and lose the state; others fail because they cannot hold a coalition together long enough to outlast the regime they challenged. The big lesson is that revolution is not one event but a chain of tests, and the hardest test usually comes after the old order starts to fall.",
+    "simpler": "A revolution is more than a protest. It has to keep people united, survive the fight, and build something that can actually run the country afterward.",
+    "keyTakeaway": "The revolutions that last are usually the ones that can turn anger into organization, because toppling a government is easier than replacing the systems that keep a society functioning.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/4/40/Through_the_Russian_Revolution_%281921%29_%2814594721948%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Internet Archive Book Images",
+      "source": "Wikimedia Commons",
+      "license": "No restrictions",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Through_the_Russian_Revolution_(1921)_(14594721948).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/4/43/The_Battle_of_Yorktown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Shelbytyre",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Yorktown.jpg"
+    },
+    "deeperDive": "Historians often point to a few recurring patterns. Revolutions need legitimacy, which means people have to believe the old regime has lost the right to rule. They also need organization, because demonstrations and street victories are not the same thing as a durable state. Bread shortages, military loyalty, foreign intervention, and factional infighting can all determine whether a revolt hardens into a new order or collapses into chaos. The French Revolution showed how quickly radical energy can outrun institutions and end in terror, while the Russian Revolution demonstrated that seizing power is not the same as building a stable democracy. The Chinese Communist Revolution succeeded in part because it fused ideology, rural organizing, and military discipline into a long campaign. By contrast, many uprisings in the modern era have stalled because they removed a leader without creating a governing structure to replace him. The most useful way to think about revolution is as a contest between mobilization and administration: crowds can break a system, but only institutions can keep a new one standing.",
+    "funFact": "Some revolutions fail not because people stop caring, but because they win the protests before they know how to run the country.",
+    "references": [
+      "Comparative revolution theory and state-capacity literature.",
+      "Historical studies of the French, Russian, Chinese, and American Revolutions.",
+      "Wikimedia Commons image metadata for revolution-related photographs and illustrations."
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "- Maximilien Robespierre (French Revolution leader)",
-        "- Vladimir Lenin (Russian Revolution leader)",
-        "- Mao Zedong (Chinese Communist Party founder)",
-        "- Che Guevara (Cuban Revolution guerrilla fighter)",
-        "- Rosa Parks (American civil rights activist)",
-        "**"
+        "Crane Brinton - Historian who compared revolutions as recurring political patterns.",
+        "Theda Skocpol - Sociologist who explained revolutions through state breakdown and social structure.",
+        "Maximilien Robespierre - Symbol of how revolutionary idealism can harden into terror.",
+        "Vladimir Lenin - Leader whose movement seized power but then faced the problem of ruling.",
+        "Mao Zedong - Example of a revolution that blended ideology with long-term organizational discipline."
       ],
       "places": [
-        "**",
-        "- Paris, France (site of the French Revolution's storming of the Bastille)",
-        "- Moscow, Russia (site of the Russian Revolution's October Revolution)",
-        "- Havana, Cuba (site of the Cuban Revolution's success)",
-        "- Managua, Nicaragua (site of the Sandinista Revolution's victory)",
-        "- Beijing, China (seat of the Chinese Communist Party government)",
-        "**"
+        "Paris - The center of the French Revolution and its escalating political violence.",
+        "Petrograd - The city where the Russian Revolution turned mass unrest into state takeover.",
+        "Beijing - A symbol of a revolution that built a long-lasting new regime.",
+        "Havana - The city associated with a successful anti-Batista revolution.",
+        "Cairo - A modern example of how uprisings can expose the difficulty of political transition."
       ],
       "years": [
-        "**",
-        "- 1789 \u00e2\u20ac\u201c French Revolution begins with storming of the Bastille",
-        "- 1917 \u00e2\u20ac\u201c Russian Revolution leads to establishment of Soviet Union",
-        "- 1953 \u00e2\u20ac\u201c Death of Mao Zedong and beginning of Cultural Revolution in China",
-        "- 1959 \u00e2\u20ac\u201c Cuban Revolution succeeds, led by Fidel Castro",
-        "- 1979 \u00e2\u20ac\u201c Sandinista Revolution overthrows Nicaraguan government",
-        "**"
+        "1789 - The French Revolution begins and quickly escalates.",
+        "1917 - The Russian Revolution overturns the old imperial order.",
+        "1949 - The Chinese Communist Revolution establishes a new state.",
+        "1959 - The Cuban Revolution succeeds in taking power.",
+        "2011 - The Arab Spring shows how fast mobilization can spread and how hard transition can be."
       ],
       "concepts": [
-        "**",
-        "- Social contract theory (Thomas Hobbes' idea that governments derive power from the people)",
-        "- Totalitarianism (characterized by authoritarian rule and centralized control)",
-        "- Guerrilla warfare (as used by Cuban Revolutionaries to challenge US-backed regime)",
-        "- Populism (using grassroots support to mobilize change)",
-        "- Authoritarianism (characterized by strict government control over citizens)"
+        "Legitimacy - The belief that a government has a rightful claim to rule.",
+        "Coalition-building - Keeping different groups aligned long enough to win.",
+        "State capacity - The ability to tax, feed, police, and govern a society.",
+        "Counterrevolution - A force that tries to restore the old order or crush the new one.",
+        "Institution-building - Creating durable systems after the old regime falls.",
+        "Foreign support - Outside help that can tip the balance in a revolutionary struggle."
       ]
     }
   }

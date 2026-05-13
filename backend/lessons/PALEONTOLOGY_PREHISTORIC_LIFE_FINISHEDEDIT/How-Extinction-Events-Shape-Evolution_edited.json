@@ -1,33 +1,67 @@
 {
-  "topic": "Mass Extinctions and Evolutionary Change",
-  "title": "Exploring the Methods Behind Mass Extinction Events: A Window Into Evolution",
+  "topic": "Mass Extinctions and Evolution",
+  "title": "How Extinction Events Shape Evolution",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chicxulub.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "NASA",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Chicxulub.png"
+  },
   "lesson": {
-    "learn": "Mass extinctions have played a pivotal role in shaping the evolution of life on Earth. These events, caused by factors such as asteroid impacts, large-scale volcanic eruptions, and climate change, have significantly impacted species' survival rates and adaptation abilities. The Cretaceous-Paleogene (K-Pg) extinction event, which occurred approximately 65 million years ago, is a notable example and marked the end of the dinosaurs' reign, paving the way for mammals to dominate Earth's ecosystems. This event resulted in the loss of around 75% of all species on the planet. By studying these events, scientists gain valuable insights into the complex relationships between environmental pressures and species' ability to adapt.",
-    "simpler": "Asteroid impacts, such as the one that occurred around 65 million years ago, can have significant effects on the Earth's ecosystems. This impact, along with other environmental pressures, played a crucial role in the demise of the dinosaurs and the emergence of mammals as dominant species.",
-    "keyTakeaway": "Mass extinctions have been driving forces behind evolutionary change, pushing species to adapt quickly or face extinction. By studying these events, scientists can gain insight into the processes driving the adaptation process and understand how life on Earth has evolved over millions of years.",
-    "deeperDive": "Mass extinctions have occurred five times in Earth's history, with the most severe event being the K-Pg extinction. Recent research suggests that mass extinctions may be triggered by complex interactions between environmental factors such as climate change and asteroid impacts. The Burgess Shale fossils provide a window into the Cambrian explosion, which was marked by rapid evolution and diversification of life on Earth. Scientists have also discovered evidence of the K-Pg extinction event in the Yucatán Peninsula, specifically at the Chicxulub crater. The study of mass extinctions has led to new discoveries about the evolutionary history of key groups, including dinosaurs and mammals. By analyzing fossil records from mass extinction events, scientists have gained insights into how species respond to changing environments, shedding light on the processes driving the adaptation process.",
-    "funFact": "Research suggests that the K-Pg extinction event was triggered by a massive asteroid impact, supported by the discovery of extraterrestrial minerals at the Chicxulub crater in Mexico. The fact that mass extinctions have been occurring for millions of years has significant implications for understanding life on Earth and our role within it.",
+    "learn": "Mass extinctions are not just endings; they are restructuring events that wipe out some lineages and give others room to expand. When a catastrophe removes dominant species, it opens ecological space for survivors, and those survivors often diversify into roles that were previously occupied by more successful competitors. That is why extinction events matter so much in evolutionary history: they do not simply reduce life, they redirect it. The end-Cretaceous asteroid impact is the most famous example, but it is part of a longer pattern in which crisis creates new evolutionary opportunities.",
+    "simpler": "Extinction events change evolution by clearing out ecosystems and leaving empty niches behind. The species that survive can then spread into those open roles and evolve in new directions.",
+    "keyTakeaway": "Extinction is destructive, but it is also creative at the scale of deep time, because the survivors inherit a reshaped world and evolve into the spaces left behind.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Coast_Impact.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Don Davis/NASA",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Coast%20Impact.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Chicxulub_crater.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Anynobody",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Chicxulub%20crater.png"
+    },
+    "deeperDive": "The fossil record shows that evolution often moves in pulses separated by shocks. The end-Permian extinction, the end-Triassic event, and the end-Cretaceous impact all reset ecosystems in different ways, but the pattern is similar: the diversity of life drops sharply, then rebounds through new forms. Some lineages vanish completely, while others survive because they are small, adaptable, widespread, or able to feed on unusual resources. This is why evolutionary history is not a smooth ladder. It is closer to a landscape constantly reshaped by earthquakes. A mass extinction can favor generalists over specialists, small bodies over large ones, or organisms with flexible diets over those tied to narrow food webs. In that sense, extinction is one of the strongest forces in evolution because it changes what kinds of traits matter most. The survivors do not just continue life; they inherit the future.",
+    "funFact": "After a mass extinction, some of the most successful species are often the ones that once looked too ordinary to matter.",
+    "references": [
+      "Smithsonian and NASA resources on mass extinctions and the Chicxulub impact.",
+      "University geology references on the K-Pg boundary and evolutionary turnover.",
+      "Review literature on extinction selectivity and recovery ecosystems.",
+      "Wikimedia Commons crater and impact-image file pages."
+    ],
     "keyElements": {
       "people": [
-        "Mary Anning",
-        "Walter Alvarez",
-        "Stephen Jay Gould"
+        "Walter Alvarez - Geologist associated with the asteroid-impact explanation for the end-Cretaceous extinction",
+        "Luis Alvarez - Nobel Prize-winning physicist who helped identify the iridium signal in extinction rocks",
+        "Jan Smit - Researcher who studied impact evidence around the K-Pg boundary",
+        "Gerta Keller - Geologist known for work on extinction timing and cause debates"
       ],
       "places": [
-        "Burgess Shale",
-        "Chicxulub crater",
-        "Yucatán Peninsula",
-        "Gubbio, Italy"
+        "Chicxulub crater, Mexico - Impact site linked to the end-Cretaceous extinction",
+        "K-Pg boundary layers - Rock layers that record the extinction and recovery transition",
+        "Permian-Triassic boundary sites - Areas that preserve the largest extinction event in Earth history",
+        "Fossil basins worldwide - Places where turnover after crisis can be measured"
       ],
       "years": [
-        "541 million years ago",
-        "65 million years ago",
-        "250 million years ago"
+        "252 million years ago - End-Permian mass extinction reshapes life on Earth",
+        "201 million years ago - End-Triassic crisis clears the way for dinosaur expansion",
+        "66 million years ago - Chicxulub impact triggers the end-Cretaceous extinction",
+        "Modern era - Extinction science links geology, ecology, and evolutionary recovery"
       ],
       "concepts": [
-        "Adaptation",
-        "Speciation",
-        "Biodiversity"
+        "Ecological niche - A role in the ecosystem that can be vacated and refilled",
+        "Recovery radiation - Rapid diversification after a major die-off",
+        "Selectivity - The fact that some traits improve survival during crises",
+        "Catastrophic reset - A sudden change that alters evolutionary competition",
+        "Boundary layer - A rock layer that marks a major time transition in the fossil record"
       ]
     }
   }

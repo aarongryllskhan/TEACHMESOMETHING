@@ -2,43 +2,64 @@
   "topic": "The Number That Meant Nothing—And Changed Everything",
   "title": "How Zero Became One of Humanity’s Most Powerful Inventions",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Bas-relief_of_Brahmagupta.jpg/960px-Bas-relief_of_Brahmagupta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "summary": "Zero may seem ordinary today, but the invention of a true numerical zero transformed mathematics, astronomy, engineering, economics, and computing. More than a symbol for nothing, zero became the foundation for place value, advanced calculation, and the digital world.",
+  "imageCredit": {
+    "creator": "Pur 0 0",
+    "source": "Wikimedia Commons",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Bas-relief_of_Brahmagupta.jpg"
+  },
   "lesson": {
-    "learn": "Zero was not simply invented as “nothing”—it was a revolutionary mathematical tool that allowed numbers to be organized by place value. Earlier civilizations like the Babylonians used placeholder symbols, but the true numerical zero as both a placeholder and a number with arithmetic properties emerged in ancient India.\n\nBy the 7th century CE, mathematician Brahmagupta formally described zero’s arithmetic behavior, including operations involving zero in his text Brahmasphutasiddhanta. This built upon earlier Indian mathematical traditions, including place-value systems that made large calculations dramatically more efficient.\n\nZero made it possible to distinguish numbers like 10, 100, and 1000 clearly, enabling scalable arithmetic, algebra, and precise astronomical calculations.",
-    
-    "image2": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Values_of_digits_in_the_Decimal_numeral_system.svg/1920px-Values_of_digits_in_the_Decimal_numeral_system.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20150619104145",
-    
-    "simpler": "Zero works like an empty slot that gives meaning to other numbers. Without zero, writing numbers like 205 or 1005 accurately would be far more difficult.",
-    
-    "keyTakeaway": "Zero’s greatest power was transforming mathematics from simple counting into a positional system capable of supporting advanced science, engineering, and computation.",
-    
-    "deeperDive": "Indian mathematicians pioneered the decimal place-value system, where a digit’s meaning depends on its position. Zero became essential to this framework.\n\nBrahmagupta’s formal mathematical treatment of zero was a major intellectual breakthrough because it treated zero as a number, not merely an absence.\n\nThrough trade and scholarship, these ideas spread to the Islamic Golden Age, where scholars like Al-Khwarizmi helped transmit Hindu-Arabic numerals to Europe.\n\nThis eventually replaced cumbersome Roman numerals, enabling advances in bookkeeping, navigation, algebra, calculus, and modern science.\n\nToday, binary code—the language of computers—depends entirely on zeros and ones. Every smartphone, spacecraft, financial system, and digital network ultimately traces back to the mathematical power of zero.",
-    "funFact": "Without zero, there would be no modern computers—binary code depends entirely on the interaction between 0 and 1.",
+    "learn": "Zero changed mathematics because it gave humans a way to represent nothing as a number with power. That seems simple, but it transformed calculation, algebra, place value, and eventually science and engineering. Once zero could be used consistently, written numbers became far easier to manage, especially in positional systems where a symbol can mean \"nothing here\" without breaking the structure of the number. That made arithmetic more flexible and far more expressive. Zero also unlocked deeper mathematical thinking. It made equations cleaner, helped define negative numbers, and gave later mathematicians a foundation for the algebra and calculus that shape modern science.",
+    "simpler": "Zero is the number for nothing, and once people used it properly, math became much easier to write and compute.",
+    "keyTakeaway": "Zero changed mathematics because it turned absence into a usable symbol, which made place value, algebra, and later science much more powerful.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/d/db/Brahmagupta.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Kelam",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Brahmagupta.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/98/Number_zero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "ivanovick solano",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Number_zero.jpg"
+    },
+    "deeperDive": "Zero was not just another numeral. It solved a conceptual problem that many ancient number systems avoided. In place-value notation, a symbol is needed to mark an empty position, and zero does that while also acting as a real number in its own right. That dual role made it one of the most important ideas in mathematics. Indian mathematicians, especially Brahmagupta, were crucial in formalizing zero as part of a larger numerical system. The impact stretched far beyond arithmetic. Once zero became standard, bookkeeping, computation, astronomy, and engineering all became more precise. Modern mathematics rests on the idea that nothing can still be represented, manipulated, and reasoned about. That is the quiet genius of zero.",
+    "funFact": "The symbol for nothing became one of the most important ideas ever used in mathematics.",
+    "references": [
+      "History of zero and place-value systems references.",
+      "Indian mathematics and algebra history literature.",
+      "Wikimedia Commons image metadata for Brahmagupta and zero imagery."
+    ],
     "keyElements": {
       "people": [
-        "Brahmagupta — Indian mathematician who formalized arithmetic rules involving zero.",
-        "Aryabhata — Major contributor to early Indian mathematics and place-value systems.",
-        "Al-Khwarizmi — Scholar who helped spread Hindu-Arabic numerals globally.",
-        "Charles Babbage — Computing pioneer whose machines depended on positional mathematics."
+        "Brahmagupta - Formalized zero in Indian mathematics.",
+        "Ancient mathematicians - Developed place-value systems.",
+        "Algebraists - Used zero to solve and simplify equations.",
+        "Historians of mathematics - Trace how zero spread across cultures."
       ],
       "places": [
-        "India — Birthplace of the true mathematical zero.",
-        "Nalanda University — Major center of ancient mathematical scholarship.",
-        "Baghdad House of Wisdom — Crucial transmission point for mathematical knowledge.",
-        "Europe — Region transformed by adoption of Hindu-Arabic numerals."
+        "India - A major center for the development of zero.",
+        "Mathematical manuscripts - Where zero was recorded and transmitted.",
+        "Astronomical tables - A practical setting where zero became useful.",
+        "Modern classrooms - Where zero is now treated as ordinary and essential."
       ],
       "years": [
-        "499 CE — Aryabhata’s mathematical works advance positional systems.",
-        "628 CE — Brahmagupta formalizes zero’s arithmetic properties.",
-        "9th century — Al-Khwarizmi helps spread decimal mathematics.",
-        "Modern era — Zero becomes foundational to digital computing."
+        "Early centuries CE - Zero develops in South Asian mathematics.",
+        "7th century - Brahmagupta helps formalize zero rules.",
+        "Middle Ages - Zero spreads through the Islamic world and beyond.",
+        "Modern era - Zero becomes foundational in advanced mathematics and computing."
       ],
       "concepts": [
-        "Zero — Numerical symbol representing absence and positional value.",
-        "Place Value System — Numerical structure where digit position determines magnitude.",
-        "Decimal System — Base-10 system using zero through nine.",
-        "Binary Code — Base-2 computational system built on 0 and 1.",
-        "Algebra — Advanced mathematics made more powerful through zero."
+        "Place value - The value of a digit based on position.",
+        "Numeral - A symbol used to represent a number.",
+        "Zero as a number - Nothing treated as a mathematical object.",
+        "Algebra - The branch of math that depends heavily on zero."
       ]
     }
   }

@@ -1,56 +1,65 @@
 {
   "topic": "The Ocean’s Hidden Tracking System",
   "title": "How Sharks Use Smell, Electricity, and Water Pressure to Hunt with Precision",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiger_shark.jpg",
-  "summary": "Across murky coastlines, coral reefs, and the open ocean, sharks rely on one of the most sophisticated sensory networks in nature. Their survival depends not on a single extraordinary sense, but on a layered system that combines chemical analysis, vibration detection, and bioelectric perception into a near-perfect underwater tracking mechanism.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tiger_shark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Albert_kok\" title=\"User:Albert kok\">Albert kok</a>",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tiger_shark.jpg"
+  },
   "lesson": {
-    "learn": "Sharks possess an exceptionally refined olfactory system capable of detecting minute concentrations of biologically important chemicals in seawater. While popular culture often exaggerates their ability to smell blood from impossible distances, the real science is still extraordinary: many species can detect amino acids, body fluids, fish oils, and prey-related compounds at concentrations as low as parts per billion.\n\nWater enters through paired nostrils called nares and flows across highly folded olfactory lamellae, which dramatically increase receptor surface area. These sensory tissues process chemical information with remarkable efficiency, allowing sharks to distinguish between different scent signatures rather than simply reacting to blood alone.\n\nThis means sharks can interpret a complex underwater chemical map—tracking prey, recognizing reproductive signals, identifying territory, and detecting environmental changes. In some species, the olfactory bulbs are proportionally enormous, showing how essential scent processing is to survival.",
-    
-    "simpler": "Rather than just 'smelling blood,' sharks use their noses more like advanced underwater tracking devices—reading invisible chemical trails in the water the way a detective follows clues.",
-    
-    "keyTakeaway": "Sharks succeed because they combine multiple senses into a coordinated hunting system, where smell begins the search and other senses refine it with astonishing accuracy.",
-    
-    "deeperDive": "Smell often provides the first clue, especially over large distances, but sharks rarely hunt using olfaction alone. By comparing odor arrival timing between nostrils, they can determine the likely direction of a scent source—a process similar to how humans locate sound.\n\nOnce closer, the lateral line system becomes critical. This network of sensory canals detects pressure shifts and vibrations caused by movement in the water, including struggling fish or injured prey.\n\nAt the final stage, the ampullae of Lorenzini—gel-filled electroreceptors concentrated around the snout—allow sharks to detect weak electrical fields produced by muscle contractions, nerve activity, and even heartbeats. This system is so sensitive that some sharks can find prey buried under sand, hidden in darkness, or obscured by murky water.\n\nSpecies such as hammerheads may possess enhanced directional sensing because their wide head shape spreads sensory organs farther apart, potentially improving triangulation.\n\nTogether, these systems form a sensory hierarchy: chemistry for long-range detection, vibration for mid-range tracking, and electricity for close-range precision. This integrated design has evolved over hundreds of millions of years and now inspires technologies in underwater robotics, navigation systems, and chemical sensing.",
-    
-    "funFact": "Even a fish hiding beneath the seafloor can be detected if its muscles or heartbeat generate electrical signals strong enough for nearby electroreceptors to sense.",
-    
+    "learn": "Sharks are famous for their sense of smell, but the real story is more interesting than the myth that they can track a single drop of blood from miles away. In water, scent molecules spread in plumes, and sharks are excellent at following those chemical trails once they are present. They also use hearing, the lateral line, and electroreception to build a much fuller picture of their prey than smell alone could provide.\nThat makes sharks powerful hunters, but not supernatural ones. Their advantage comes from combining several senses that work especially well in the ocean, where visibility is often poor and scent can travel in complicated currents.",
+    "simpler": "Sharks do have a great sense of smell, but they also use hearing, electricity detection, and water movement to hunt effectively.",
+    "keyTakeaway": "A shark is successful because it combines several underwater senses, not because smell by itself does everything.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Shark_Sense_%281959%29_%28IA_SharkSense1959%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<div class=\"fn value\"> U.S. Navy. Office of the Chief of Naval Operations. Aviation Training Branch.</div>",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Shark_Sense_(1959)_(IA_SharkSense1959).pdf"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a href=\"https://en.wikipedia.org/wiki/User:Pterantula\" class=\"extiw\" title=\"en:User:Pterantula\">Pterantula</a> (Terry Goss) at <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "filePage": "https://commons.wikimedia.org/wiki/File:White_shark.jpg"
+    },
+    "deeperDive": "Chemical cues can be detected at very low concentrations, but the ocean dilutes and disperses them quickly, so the old myth of miles-away blood tracking is overstated. Sharks are better understood as animals that can follow scent plumes once they have formed and then use the rest of their sensory toolkit to close the distance. The lateral line detects pressure changes, electroreception picks up tiny electric fields, and hearing helps locate struggling prey.\nThat multi-sensory system is why sharks can be such efficient predators. They do not need perfect visibility; they need a reliable way to interpret a moving underwater environment. The real wonder is integration, not super-smell.",
+    "funFact": "A shark’s nose is only part of the story; its whole body helps it notice prey in the water around it.",
     "references": [
-      "Kalmijn, A.J. — Foundational work on shark electroreception and sensory biology.",
-      "Hodgson, E.S. — Research on shark olfactory physiology.",
-      "Tricas, T.C. — Shark sensory integration studies.",
-      "Carrier, Musick & Heithaus — Biology of Sharks and Their Relatives.",
-      "Journal of Experimental Biology — Comparative shark sensory systems."
+      "Shark sensory biology and olfaction studies.",
+      "Marine predator ecology references.",
+      "Wikimedia Commons image metadata for shark imagery."
     ],
-    
     "keyElements": {
       "people": [
-        "Adrianus Kalmijn — Scientist whose groundbreaking research revealed how sharks detect electrical fields.",
-        "E.S. Hodgson — Marine biologist known for shark olfactory studies.",
-        "Timothy Tricas — Researcher specializing in shark sensory behavior.",
-        "David Shiffman — Marine conservation scientist and shark biology communicator."
+        "Barbara Block - Shark biologist known for tracking and sensory research.",
+        "Jelle Atema - Researcher on shark and fish olfaction.",
+        "Samuel Gruber - Marine scientist who studied shark behavior.",
+        "Marine ecologists - They examine how sharks hunt in real oceans."
       ],
-      
       "places": [
-        "Bimini Biological Field Station, Bahamas — Major center for shark research.",
-        "Great Barrier Reef — Diverse habitat for studying shark sensory ecology.",
-        "Shark Bay, Western Australia — Important location for shark behavior studies.",
-        "Scripps Institution of Oceanography — Contributor to marine sensory science."
+        "Open ocean - Where scent plumes spread and dilute.",
+        "Reefs - Where sharks combine multiple senses in cluttered water.",
+        "Research aquariums - Where sensory responses are tested.",
+        "Coastal hunting grounds - Places where prey cues are common."
       ],
-      
       "years": [
-        "1960s — Major olfactory physiology breakthroughs in shark research.",
-        "1971 — Adrianus Kalmijn’s influential electroreception experiments.",
-        "1990s — Expanded comparative studies on shark sensory anatomy.",
-        "2000s–Present — Neurobiology and advanced imaging deepen understanding of shark hunting systems."
+        "1960s - Shark sensory research gains traction.",
+        "1990s - Multi-sensory hunting becomes a major research theme.",
+        "2000s - Better tracking tools reveal how sharks really move and hunt."
       ],
-      
       "concepts": [
-        "Olfaction — Detection of dissolved chemical compounds in water.",
-        "Olfactory Lamellae — Folded receptor-rich tissues that maximize scent detection.",
-        "Electroreception — Detection of weak electrical fields from living organisms.",
-        "Ampullae of Lorenzini — Specialized electroreceptive organs concentrated around the snout.",
-        "Lateral Line System — Pressure-sensitive sensory network that detects movement and vibration.",
-        "Sensory Integration — Coordinated use of multiple sensory systems for hunting precision."
+        "Olfaction - The sense of smell.",
+        "Lateral line - A sensing system that detects pressure and movement.",
+        "Electroreception - Detection of tiny electric fields.",
+        "Scent plume - A trail of chemical signals in the water.",
+        "Sensory integration - Combining different senses into one hunting strategy."
       ]
     }
   }

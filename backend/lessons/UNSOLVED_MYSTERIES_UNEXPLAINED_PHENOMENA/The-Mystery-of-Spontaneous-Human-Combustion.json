@@ -1,41 +1,66 @@
 {
   "topic": "Spontaneous Human Combustion and Forensic Fire Science",
   "title": "Spontaneous Human Combustion: Myth, Misinterpretation, and the Science Behind Mysterious Fire Deaths",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Blacksmoke.jpg",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/London_Fire_Brigade_Fire_Investigation_LG18_FPN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Hullian111\" title=\"User:Hullian111\">Hullian111</a>",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:London_Fire_Brigade_Fire_Investigation_LG18_FPN.jpg"
+  },
   "lesson": {
-    "learn": "Spontaneous human combustion (SHC) is the claim that a human body can suddenly burst into flames without an external ignition source. While stories of such events have circulated for centuries and often capture public imagination, modern forensic science does not recognize SHC as a proven biological or physical phenomenon. No verified scientific evidence demonstrates that the human body can ignite itself under normal conditions without an external source of heat or flame.\n\nMany historical SHC cases are now better explained through conventional fire dynamics, particularly the ‘wick effect.’ In this scenario, an external ignition source—such as a cigarette, candle, electrical spark, or open flame—ignites clothing. Body fat then acts similarly to candle wax, soaking into fabric and sustaining slow, localized combustion over hours. This can produce severe destruction of the body while leaving surrounding furniture or parts of a room relatively less damaged, which historically contributed to the illusion of mysterious internal combustion.\n\nBecause the human body contains substantial water, it does not spontaneously ignite easily. Human tissue requires significant external heat to burn. Cases once labeled SHC often involve overlooked ignition sources, impaired mobility, intoxication, medical incapacitation, or environmental conditions that prevented escape.",
-    "simpler": "Most so-called spontaneous human combustion cases are now understood as ordinary fires—often started externally—where clothing and body fat create a slow-burning ‘wick’ effect that can look unusually mysterious afterward.",
-    "keyTakeaway": "There is no accepted scientific evidence that people spontaneously burst into flames from internal causes; most reported cases are better explained through forensic fire science and misunderstood burn patterns.",
-    "deeperDive": "The wick effect is central to modern explanations. Once clothing ignites, especially if a person is unconscious or unable to move, melted body fat can fuel prolonged combustion much like wax feeding a candle wick. This process can generate high localized temperatures capable of consuming much of the body while leaving extremities less affected due to lower fat content.\n\nSeveral factors may contribute to unusual fire scenes:\n\n1. Reduced Mobility — Victims may be asleep, intoxicated, elderly, or medically impaired.\n\n2. Ignition Sources — Cigarettes, fireplaces, candles, space heaters, or electrical faults.\n\n3. Fat Distribution — Body fat can sustain combustion under specific conditions.\n\n4. Ventilation and Materials — Burn patterns depend heavily on room oxygen and nearby flammable materials.\n\nHistorically, SHC gained popularity in literature and sensational journalism, especially in the 18th and 19th centuries. Charles Dickens even referenced such a death in Bleak House, though critics challenged its realism.\n\nModern pathology and fire investigation overwhelmingly favor external ignition explanations. Claims involving internal chemistry, alcoholism alone, or electrostatic discharge lack robust evidence.\n\nSHC remains culturally fascinating, but scientifically it is best understood as a case study in forensic misunderstanding, myth-making, and the importance of evidence-based investigation.",
-    "funFact": "The ‘wick effect’ can sometimes leave nearby objects surprisingly intact, which historically helped fuel supernatural interpretations of otherwise explainable fires.",
+    "learn": "Spontaneous human combustion sounds like a supernatural fire, but forensic science has shown that most reported cases do not require a body to ignite from within. In many incidents, the likely explanation is an ordinary ignition source combined with the wick effect: clothing or bedding catches fire, body fat fuels the burn, and the fire can seem unusually intense and localized. Because the room may not be destroyed in the same way a house fire would be, the scene can look far stranger than it really is.\nThe mystery remains compelling because the deaths are tragic and the visuals are shocking. But the label often describes an appearance, not a proven cause.",
+    "simpler": "Most alleged spontaneous human combustion cases are better explained by an external fire source, body fat, and the wick effect than by a body igniting on its own.",
+    "keyTakeaway": "The strangeness of spontaneous human combustion mostly comes from fire behavior and scene interpretation, not from evidence that human bodies can ignite themselves.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Maria_Uhden%2C_Burning_House%2C_1918%2C_NGA_119616.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<div class=\"fn value\"> Maria Uhden</div>",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Maria_Uhden,_Burning_House,_1918,_NGA_119616.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/f/f9/The_hidden_fires_of_the_Flame_Nebula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "ESO/J. Emerson/VISTA. Acknowledgment: Cambridge Astronomical Survey Unit",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_hidden_fires_of_the_Flame_Nebula.jpg"
+    },
+    "deeperDive": "The wick effect works like a candle. A small flame can set clothing or fabric alight, then melted fat feeds the fire for a longer period than a casual observer might expect. Forensic investigators also look for smoking materials, electrical faults, open flames, or other ignition sources. Because the fire can concentrate around the body while leaving parts of the room relatively intact, early witnesses often jumped to extraordinary conclusions.\nModern fire science has made the topic far less mysterious than legend suggests. Burn patterns, chemical evidence, and scene reconstruction usually point to a normal ignition source. What survives is not a hidden human fire, but a lesson in how dramatic scenes can create myths when people do not yet understand the mechanics.",
+    "funFact": "The wick effect can make a fire behave a little like a candle, which is why some scenes look much stranger than they are.",
     "references": [
-      "Forensic fire investigation literature.",
-      "Dr. Keith Simpson — Pathology and burn case studies.",
-      "Joe Nickell — Skeptical investigations of SHC claims.",
-      "NFPA fire science resources.",
-      "Medical and forensic case analyses of unusual burn deaths."
+      "Forensic fire-science and burn-pattern analysis literature.",
+      "Reviews of alleged spontaneous combustion cases.",
+      "Investigations into the wick effect and fire scene reconstruction."
     ],
     "keyElements": {
       "people": [
-        "Keith Simpson — Forensic pathologist who analyzed unusual burn cases.",
-        "Joe Nickell — Investigator known for skeptical examination of paranormal claims.",
-        "Charles Dickens — Popularized SHC in literature through Bleak House."
+        "John DeHaan - Forensic fire investigator who explained the wick effect.",
+        "Fire investigators - They trace the ignition source and burn pattern.",
+        "Medical examiners - They help determine what caused the death.",
+        "Eyewitnesses - Their descriptions often fuel the legend."
       ],
       "places": [
-        "Historical European case sites — Many early SHC reports emerged here.",
-        "Forensic pathology laboratories — Modern fire death investigation centers."
+        "Living rooms - Common sites in alleged cases.",
+        "Bedrooms - Places where smoking or lamps can start fires.",
+        "Fire laboratories - Where burn behavior is tested.",
+        "Crime scenes - Where investigators look for ordinary ignition sources."
       ],
       "years": [
-        "18th–19th centuries — SHC enters popular folklore and literature.",
-        "1853 — Bleak House publishes fictional SHC depiction.",
-        "Modern Era — Forensic science reframes cases through burn analysis."
+        "19th century - Alleged cases become part of popular folklore.",
+        "1950s - Scientific skepticism grows around the phenomenon.",
+        "1990s - Forensic work popularizes the wick effect explanation.",
+        "2020s - Fire science continues to treat the issue as an evidence problem."
       ],
       "concepts": [
-        "Wick Effect — Sustained burning through clothing and body fat.",
-        "Forensic Pathology — Scientific investigation of death causes.",
-        "Ignition Source — External cause of fire initiation.",
-        "Burn Pattern Analysis — Examination of fire damage evidence.",
-        "Myth vs. Science — Distinguishing folklore from evidence-based explanation."
+        "Wick effect - Burning clothing and fat like a candle wick.",
+        "Ignition source - The initial heat or flame that starts a fire.",
+        "Burn pattern - Clues left by fire behavior at a scene.",
+        "Forensic reconstruction - Rebuilding what likely happened from evidence.",
+        "Combustion - The chemical process of burning."
       ]
     }
   }

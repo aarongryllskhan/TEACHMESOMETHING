@@ -2,40 +2,64 @@
   "topic": "The Moonshot Computer vs. the Supercomputer in Your Pocket",
   "title": "How Your Smartphone Quietly Surpassed the Computers That Landed Humans on the Moon",
   "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Apollo_Guidance_Computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-  "summary": "The Apollo 11 Guidance Computer helped navigate humanity’s first crewed Moon landing with only a fraction of the processing power found in even basic modern smartphones. This extraordinary contrast reveals how exponential advances in microelectronics transformed computing from room-sized mission hardware into handheld devices billions use daily.",
+  "imageCredit": {
+    "creator": "Autopilot",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Apollo_Guidance_Computer.jpg"
+  },
   "lesson": {
-    "learn": "The Apollo Guidance Computer (AGC), used during the 1969 Moon landing, was one of the most advanced real-time digital computers of its era. It operated at roughly 1.024 MHz and had about 2 KB of erasable RAM with approximately 72 KB of read-only memory. Despite these limitations, it successfully handled navigation, guidance, and control for one of history’s most complex engineering achievements.\n\nModern smartphones exceed the AGC’s raw computational capability by millions to billions of times depending on the metric used. Today’s devices contain multi-core processors running at several gigahertz, billions of transistors, gigabytes of RAM, advanced graphics processors, AI accelerators, and high-speed wireless communication systems. A single smartphone can perform navigation, photography, machine learning, and global communication simultaneously—tasks that would have required entire networks of specialized systems during Apollo.",
-    "simpler": "Imagine the Apollo computer as a brilliantly engineered calculator built for one specific mission: getting astronauts safely to the Moon. A modern smartphone, by comparison, is like carrying millions of those mission computers in your hand while also using it as a camera, map, communicator, and entertainment system.",
-    "keyTakeaway": "The dramatic leap from Apollo-era computers to smartphones was driven by exponential improvements in transistor density, semiconductor manufacturing, software efficiency, and system integration.",
+    "learn": "Smartphones are vastly more powerful than Apollo 11's guidance computer because semiconductor technology has advanced by multiple generations. The Apollo Guidance Computer was an extraordinary machine for its time, but it had tiny memory, far slower processing, and almost no storage compared with a modern phone. Today's smartphones pack processors, memory, sensors, wireless radios, cameras, and graphics systems into a pocket device. They also run on systems built from decades of miniaturization and mass production. The comparison is striking because Apollo succeeded with extreme efficiency, not raw power. The mission needed reliability, not social media, maps, video, and multitasking. A smartphone would have been unimaginable on the Moon not because the basic physics were impossible, but because the chips, batteries, screens, and communications hardware simply did not exist yet.",
+    "simpler": "A smartphone can do far more than Apollo 11's computer because decades of chip miniaturization packed far more capability into a tiny device.",
+    "keyTakeaway": "Smartphones are so much more powerful than Apollo's computer because computing density, memory, and component integration improved by enormous leaps over time, turning specialized guidance hardware into a pocket supercomputer.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/9e/IBM_Simon_Personal_Communicator.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "deeperDive": "A major driver of this transformation was Moore’s Law, proposed by Intel co-founder Gordon Moore in 1965, which observed that transistor counts on integrated circuits tended to double approximately every two years. While not a physical law, it accurately described decades of semiconductor progress.\n\nThe AGC used about 5,600 logic gates built from early integrated circuits, making it revolutionary for its time. In contrast, modern smartphone chips contain tens of billions of transistors fabricated at nanometer scales. This increase enabled not just faster speeds, but massive gains in energy efficiency, memory, graphics, machine learning, and connectivity.\n\nEqually important were software and architectural innovations. Parallel processing, advanced operating systems, cloud integration, and machine learning frameworks allow smartphones to perform billions of operations while fitting inside a battery-powered device. The result is that everyday users now carry more accessible computing power than NASA had for lunar navigation, illustrating one of the most extraordinary technological accelerations in human history.",
-    "funFact": "The AGC’s famous ‘1202 alarm’ during Apollo 11’s descent signaled computer overload, yet its software intelligently prioritized critical landing tasks—an early example of fault-tolerant computing under extreme pressure.",
+    "learnImageCredit": {
+      "creator": "Bcos47",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/2/25/Smartphone_%2816268692325%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Paul Sableman",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Smartphone_(16268692325).jpg"
+    },
+    "deeperDive": "Apollo's computer was designed for one job and built under severe constraints. It had to guide a spacecraft safely with limited memory and limited processing power. Modern smartphones inherit generations of progress in transistors, fabrication, battery chemistry, wireless communication, and software architecture. That means they can run tasks Apollo could not even have imagined while staying small enough to carry every day. The comparison also shows how technology changes by stacking improvements. No single breakthrough made a phone possible. Instead, years of progress in chips, displays, sensors, storage, and networking made the modern smartphone an all-purpose computing platform. What looked like mission-critical miracle hardware in 1969 is now a tiny fraction of the capability in an ordinary pocket device.",
+    "funFact": "The Apollo computer helped humans reach the Moon with less computing power than a modern calculator-class device handles effortlessly.",
+    "references": [
+      "Apollo Guidance Computer history references.",
+      "Semiconductor and mobile-computing history literature.",
+      "Wikimedia Commons image metadata for Apollo and smartphone imagery."
+    ],
     "keyElements": {
       "people": [
-        "Gordon Moore — Intel co-founder who proposed Moore’s Law, describing exponential transistor growth.",
-        "Margaret Hamilton — Computer scientist who led development of Apollo flight software and pioneered software reliability engineering.",
-        "Alan Turing — Foundational mathematician whose work shaped theoretical computer science.",
-        "Martin Cooper — Engineer credited with developing the first handheld mobile phone."
+        "Apollo engineers - Built the original mission-critical computer system.",
+        "Chip designers - Increased transistor density over decades.",
+        "Smartphone manufacturers - Combined many technologies into one pocket device.",
+        "Space historians - Compare historical computing to modern capability."
       ],
       "places": [
-        "MIT Instrumentation Laboratory — Developed the Apollo Guidance Computer.",
-        "NASA Johnson Space Center — Central hub for Apollo mission operations.",
-        "Silicon Valley, California — Epicenter of semiconductor and smartphone innovation.",
-        "IBM Research — Major contributor to early computing and mobile technologies."
+        "Mission control - Where Apollo hardware was monitored and guided.",
+        "Semiconductor fabs - Where modern chips are manufactured.",
+        "Pocket and hand-held devices - Where computing became personal.",
+        "Lunar mission systems - The environment that Apollo computing served."
       ],
       "years": [
-        "1965 — Gordon Moore proposes Moore’s Law.",
-        "1969 — Apollo 11 lands on the Moon using the AGC.",
-        "1973 — Martin Cooper makes the first handheld mobile phone call.",
-        "1994 — IBM Simon introduces early smartphone functionality.",
-        "2007 — The iPhone accelerates the modern smartphone era."
+        "1969 - Apollo 11 lands with a guidance computer.",
+        "1970s-1990s - Microprocessors and personal computers evolve rapidly.",
+        "2000s - Smartphones converge computing and communication.",
+        "2020s - Pocket devices routinely exceed early mission computers by orders of magnitude."
       ],
       "concepts": [
-        "Moore’s Law — The long-term exponential increase in transistor density.",
-        "Integrated Circuits — Miniaturized electronic circuits that transformed computing hardware.",
-        "Parallel Processing — Simultaneous execution of multiple computational tasks.",
-        "Semiconductor Scaling — Shrinking transistor size to improve speed and efficiency.",
-        "Fault-Tolerant Computing — System design that maintains critical operations under overload or failure."
+        "Computing power - The amount of processing a device can perform.",
+        "Miniaturization - Shrinking hardware while increasing capability.",
+        "Memory - Storage for instructions and data.",
+        "Integration - Combining many functions into a single device."
       ]
     }
   }

@@ -2,38 +2,64 @@
   "topic": "When Machines Learned to Outsmart Chess Kings",
   "title": "From Deep Blue to Self-Learning AI: How Chess Became a Battleground for Artificial Intelligence",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/One_of_Deep_Blue%27s_processors_%282586060990%29.jpg/960px-One_of_Deep_Blue%27s_processors_%282586060990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "summary": "Chess became one of artificial intelligence’s greatest testing grounds because it combines strict rules with staggering complexity. From early search-based programs to self-learning neural networks, chess AI helped demonstrate how machines could evolve from brute-force calculators into systems capable of strategic mastery.",
+  "imageCredit": {
+    "creator": "Erik Pitti from San Diego, CA, USA",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:One_of_Deep_Blue%27s_processors_(2586060990).jpg"
+  },
   "lesson": {
-    "learn": "For decades, chess was considered a benchmark for machine intelligence because of its immense number of possible positions and strategic depth. Early chess programs relied on mathematical search techniques like Minimax, which evaluated possible moves by assuming an opponent would always respond optimally. Alpha-Beta pruning later improved this process by eliminating branches of analysis unlikely to influence the final decision, dramatically increasing efficiency.\n\nA major turning point came in 1997 when IBM’s Deep Blue defeated world champion Garry Kasparov. Deep Blue combined specialized hardware with advanced search algorithms, evaluating around 200 million positions per second. This victory symbolized that machines could outperform even elite humans in highly structured intellectual tasks.",
-    "simpler": "Imagine trying to predict every possible move in an incredibly complex game while also guessing your opponent’s best response every turn. Chess AI does this at enormous speed, narrowing down countless possibilities until it identifies the strongest move.",
-    "keyTakeaway": "The evolution of chess AI shows how algorithmic efficiency, computational power, and machine learning transformed computers from rule-following tools into systems capable of world-class strategic decision-making.",
+    "learn": "AI learned to beat humans at chess by moving from hand-coded evaluation to systems that could search, learn, and improve from experience. Early chess computers were powerful calculators but not creative enough to rival the best players. Deep Blue showed that brute force search, specialized hardware, and strong chess knowledge could defeat a world champion. Later systems went further, especially when machine learning and self-play allowed AI to discover strategy without relying entirely on human intuition. Chess mattered because it was a clean arena: clear rules, measurable outcomes, and a huge strategic space. Once AI mastered chess, the achievement became a symbol of something larger - machines could do more than follow instructions. They could model complex decision-making and find moves that surprised human experts.",
+    "simpler": "Chess became a milestone because AI first won by brute force and later by learning patterns and strategy on its own.",
+    "keyTakeaway": "AI beating humans at chess mattered less as a single game result and more as proof that machines could handle strategic thinking, pattern recognition, and long-term planning at a world-class level.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deep_Blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "deeperDive": "While Deep Blue relied heavily on brute-force calculation and expert-designed evaluation systems, later breakthroughs fundamentally changed AI strategy. In 2017, DeepMind’s AlphaZero learned chess through self-play rather than human databases, mastering the game by repeatedly playing against itself and refining neural network evaluations.\n\nThis marked a shift from traditional programmed heuristics to reinforcement learning, where AI develops strategies through iterative improvement. AlphaZero combined deep neural networks with Monte Carlo Tree Search, allowing it to evaluate positions more intuitively than earlier systems.\n\nThese developments extended far beyond chess. Techniques pioneered in chess AI now influence robotics, logistics optimization, protein folding, autonomous systems, and large-scale machine learning. Chess became more than a game—it became a proving ground for broader artificial intelligence progress.",
-    "funFact": "Claude Shannon, one of information theory’s founders, estimated in 1950 that the number of possible chess games was so vast it exceeded the number of atoms in the observable universe.",
+    "learnImageCredit": {
+      "creator": "James the photographer",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Garry_Kasparov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Own work",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Garry_Kasparov.jpg"
+    },
+    "deeperDive": "Deep Blue did not \"think\" like a person. It searched many positions rapidly and used strong evaluation methods to choose moves. That made it a landmark in computing, but not the final stage. Modern systems such as AlphaZero changed the story by using self-play and reinforcement learning to discover strategies with far less human guidance. They showed that machines could build internal models of a game and improve through experience instead of only relying on handcrafted rules. The broader lesson is that chess became a laboratory for AI progress. When a machine can beat elite humans in a domain with perfect information and defined rules, it suggests a general lesson about computation, optimization, and learning. That is why chess remains a cultural shorthand for machine intelligence even now: it marks the moment when computers stopped looking merely fast and started looking strategic.",
+    "funFact": "After AI advanced in chess, some of its most surprising moves were not human favorites at all - they were simply better.",
+    "references": [
+      "Deep Blue and modern self-play AI references.",
+      "Chess AI and reinforcement-learning literature.",
+      "Wikimedia Commons image metadata for Deep Blue and chess imagery."
+    ],
     "keyElements": {
       "people": [
-        "Alan Turing — Developed one of the earliest chess-playing computer concepts.",
-        "Claude Shannon — Proposed foundational strategies for computer chess.",
-        "Garry Kasparov — World champion defeated by Deep Blue in 1997.",
-        "Demis Hassabis — Co-founder of DeepMind and leader in self-learning AI systems."
+        "Garry Kasparov - The world champion whose matches became AI milestones.",
+        "IBM engineers - Built Deep Blue and its specialized hardware.",
+        "AI researchers - Developed self-play systems and modern learning methods.",
+        "Chess grandmasters - Helped interpret what machine play meant for strategy."
       ],
       "places": [
-        "IBM T.J. Watson Research Center — Home of Deep Blue’s development.",
-        "Carnegie Mellon University — Major center for computer science and AI research.",
-        "DeepMind, London — Developer of AlphaZero and modern reinforcement-learning breakthroughs."
+        "Chessboards - The formal arena where AI strategy can be measured.",
+        "Computer labs - Where hardware and search systems were developed.",
+        "Tournament halls - Where machine-versus-human history became visible.",
+        "Training datasets - The digital terrain modern AI learns from."
       ],
       "years": [
-        "1950 — Claude Shannon outlines computer chess theory.",
-        "1951 — Alan Turing designs an early chess algorithm.",
-        "1997 — Deep Blue defeats Garry Kasparov.",
-        "2017 — AlphaZero demonstrates self-taught chess dominance."
+        "1997 - Deep Blue defeats Garry Kasparov in match play.",
+        "2016 - AlphaGo shows the power of self-learning systems in Go.",
+        "2017-2020s - Self-play chess systems dominate engine development.",
+        "Present day - Chess remains a benchmark for strategic AI progress."
       ],
       "concepts": [
-        "Minimax Algorithm — Decision-making strategy that minimizes worst-case loss.",
-        "Alpha-Beta Pruning — Optimization method that reduces unnecessary search calculations.",
-        "Machine Learning — Systems that improve through data and experience.",
-        "Reinforcement Learning — Learning through repeated trial, feedback, and optimization.",
-        "Neural Networks — Computational systems inspired by brain-like pattern recognition."
+        "Brute-force search - Testing huge numbers of candidate moves quickly.",
+        "Evaluation function - The scoring system a chess engine uses to judge positions.",
+        "Self-play - Learning by playing against yourself repeatedly.",
+        "Reinforcement learning - Improving through trial, feedback, and reward."
       ]
     }
   }

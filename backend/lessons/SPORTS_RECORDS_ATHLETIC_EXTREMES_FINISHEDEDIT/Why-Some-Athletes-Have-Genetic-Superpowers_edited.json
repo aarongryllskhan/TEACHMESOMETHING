@@ -2,37 +2,64 @@
   "topic": "Why-Some-Athletes-Have-Genetic-Superpowers",
   "title": "Understanding the Genetic Basis of Elite Performance: How Biology Influences Athletic Potential",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Usain_Bolt_%289391722543%29.jpg/960px-Usain_Bolt_%289391722543%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "summary": "Elite athletic performance is influenced by both genetics and environment. Certain genetic variants can affect muscle composition, oxygen efficiency, recovery, and power output, helping explain why some athletes may have biological advantages in specific sports.",
+  "imageCredit": {
+    "creator": "Neil",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_(9391722543).jpg"
+  },
   "lesson": {
-    "learn": "Genetics can significantly influence athletic potential by shaping physical traits such as muscle fiber composition, cardiovascular efficiency, oxygen delivery, and recovery speed. Research suggests that inherited traits may account for a substantial portion of performance differences, though training, nutrition, psychology, and opportunity remain essential.\n\nOne of the most studied genes in sports science is ACTN3, often called the 'speed gene.' It affects fast-twitch muscle fibers, which are crucial for explosive power in sprinting and strength events. Certain versions of ACTN3 are more common among elite sprinters and power athletes. Another important gene is ACE, which has been associated with endurance performance by influencing blood flow and cardiovascular efficiency.\n\nHowever, genetics do not determine destiny. Athletic success emerges from the interaction between biology and environmental factors such as coaching, discipline, recovery, and access to resources.",
-    "simpler": "Think of your genes like a starting blueprint for your body. Some people may naturally have muscles better suited for sprinting, while others may have bodies that use oxygen more efficiently for endurance sports. But just like a blueprint still needs builders, genetics only provide potential—training and hard work shape the final outcome.",
-    "keyTakeaway": "Genetics can provide biological advantages for speed, power, or endurance, but elite performance is created through the combination of inherited traits, training, and environment.",
+    "learn": "Some athletes seem to have a head start because biology gives them useful advantages before training even begins. Genes can influence oxygen delivery, muscle fiber balance, tendon stiffness, limb proportions, body composition, and how strongly a person responds to practice. None of that creates a champion on its own, but it can tilt the odds. Two athletes can train with the same discipline and still respond differently because one body is naturally better suited to sprinting, another to endurance, and another to explosive power. The important point is that genetics does not replace effort. It changes the range of possible outcomes. Elite sport is often the meeting point of inherited traits, years of training, and unusually precise coaching. That is why some performers look almost superhuman: not because genes do everything, but because the right combination of genes makes hard training pay off more dramatically.",
+    "simpler": "Some athletes are born with traits that make training work better for them, especially in areas like oxygen use, muscle power, and recovery.",
+    "keyTakeaway": "Genetics can give athletes a real advantage by shaping the body they start with, but elite performance still depends on how those traits interact with training, discipline, and opportunity.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/INEOS_159_Eliud_last_200m.jpg/1920px-INEOS_159_Eliud_last_200m.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191012142124",
-    "deeperDive": "Modern sports genetics explores how multiple genes interact with physiology. Beyond ACTN3 and ACE, researchers study genes linked to muscle growth, mitochondrial efficiency, injury resistance, and recovery. Epigenetics—the way lifestyle and environment influence gene expression—has become especially important, showing that training can activate or suppress biological pathways.\n\nFor example, endurance athletes often develop enhanced oxygen-processing systems through years of high-volume training, while explosive athletes may maximize fast-twitch muscle recruitment. Scientists are also studying ethical concerns, such as genetic testing for talent identification and the future possibility of gene editing in sports.\n\nUltimately, no single 'super-athlete gene' exists. Athletic excellence is polygenic, meaning it involves many genes interacting with years of physical and mental development.",
-    "funFact": "Approximately 18% of people completely lack functional ACTN3 protein, yet this may actually benefit endurance-focused sports rather than power events.",
+    "learnImageCredit": {
+      "creator": "Triathlet 79",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:INEOS_159_Eliud_last_200m.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Musclefiber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Mfigueiredo",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Musclefiber.jpg"
+    },
+    "deeperDive": "The best-known examples are usually not single magic genes but clusters of traits. A sprinter may benefit from a higher proportion of fast-twitch muscle fibers, favorable tendon elasticity, and body proportions that help turn force into speed. An endurance athlete may benefit from oxygen efficiency, heat management, and a body that recovers well after long effort. The ACTN3 gene is often discussed because it helps illustrate how a variation in muscle proteins can be more common among speed-oriented athletes, but it is only one small part of a much larger picture. The deeper lesson is that nature and nurture are not competing explanations. They work together. Genetics can make one type of workload feel more natural, while training determines whether those advantages are developed or wasted. That is why the search for athletic talent is really a search for the best match between body, event, and environment.",
+    "funFact": "A single genetic variation can matter in sport, but it usually matters most as part of a much larger biological package.",
+    "references": [
+      "Sports genetics and muscle physiology review literature.",
+      "Research on ACTN3, endurance traits, and athletic performance.",
+      "Wikimedia Commons image metadata for muscle and physiology imagery."
+    ],
     "keyElements": {
       "people": [
-        "David Epstein — Author who explored genetics and athletic performance.",
-        "Dr. Ross Tucker — Sports scientist specializing in human performance.",
-        "Usain Bolt — Example of elite sprint physiology.",
-        "Eliud Kipchoge — Example of extraordinary endurance optimization."
+        "Geneticists - Study how inherited variation affects athletic traits.",
+        "Sports physicians - Compare biology, training response, and performance.",
+        "Coaches - Learn how to match athletes with events that suit them.",
+        "Athletes - Turn inherited advantages into actual performance through training."
       ],
       "places": [
-        "University of Exeter — Research in genetics and performance science.",
-        "Institute of Sport Science, Cologne — Athletic physiology studies.",
-        "Olympic training centers worldwide — Applied genetics and biomechanics."
+        "Training labs - Where VO2 max, power, and recovery are measured.",
+        "Muscle tissue - The biological engine behind force production.",
+        "Tracks and fields - Where genetic advantages become visible in results.",
+        "Altitude camps and performance centers - Where biology meets preparation."
       ],
       "years": [
-        "1990s — Growth of sports genomics research.",
-        "2001 — Landmark studies on ACTN3 and performance.",
-        "2010s — Expansion of epigenetics in sports science."
+        "1990s - Athletic genetics becomes a serious research topic.",
+        "2000s - ACTN3 and other candidate genes draw wide attention.",
+        "2010s - Researchers shift toward broader polygenic models.",
+        "2020s - Sports genomics keeps moving toward more nuanced explanations."
       ],
       "concepts": [
-        "ACTN3 Gene — Associated with speed and power.",
-        "ACE Gene — Linked to endurance and cardiovascular efficiency.",
-        "Epigenetics — Environmental influence on gene expression.",
-        "Fast-Twitch vs Slow-Twitch Muscle Fibers — Key to athletic specialization.",
-        "Polygenic Traits — Multiple genes contributing to performance."
+        "Fast-twitch fibers - Muscle fibers adapted for quick, powerful movement.",
+        "Polygenic trait - A trait influenced by many genes rather than one.",
+        "Oxygen utilization - How efficiently the body delivers and uses oxygen.",
+        "Gene expression - How inherited instructions become actual biological function."
       ]
     }
   }

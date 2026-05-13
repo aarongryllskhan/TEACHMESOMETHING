@@ -2,44 +2,64 @@
   "topic": "The Tiny Switch That Shrunk the World",
   "title": "How the Transistor Replaced Vacuum Tubes and Sparked the Digital Age",
   "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/1st-Transistor.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-  "summary": "Modern civilization runs on billions of microscopic switches, but before transistors, electronics depended on fragile, power-hungry vacuum tubes. The invention of the transistor transformed technology by making devices smaller, faster, cheaper, and vastly more reliable—laying the foundation for everything from smartphones to space exploration.",
+  "imageCredit": {
+    "creator": "Unitronic",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:1st-Transistor.jpg"
+  },
   "lesson": {
-    "learn": "Before transistors, electronic systems relied on vacuum tubes to amplify and switch signals. Vacuum tubes made early radios, televisions, and computers possible, but they were large, fragile, generated enormous heat, and consumed significant power. Machines like ENIAC used nearly 18,000 vacuum tubes and occupied entire rooms.\n\nEverything changed in 1947 at Bell Labs, when John Bardeen, Walter Brattain, and William Shockley developed the first working transistor. Instead of controlling electrons through heated vacuum chambers, transistors used semiconductor materials—initially germanium—to regulate electrical current far more efficiently.\n\nThis breakthrough dramatically reduced size, energy consumption, and maintenance needs while increasing reliability. The transistor became the core building block of modern electronics.",
-    
-    "image2": "https://upload.wikimedia.org/wikipedia/commons/0/00/Moore%27s_Law_Transistor_Count_1970-2020.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    
-    "simpler": "If vacuum tubes were like giant, fragile light bulbs controlling electricity, transistors were tiny solid-state switches that could do the same job faster, cheaper, and with far less power.",
-    
-    "keyTakeaway": "The transistor’s greatest impact was miniaturization—replacing bulky electrical systems with compact semiconductor switches that made modern computing and portable electronics possible.",
-    
-    "deeperDive": "The first transistor was a point-contact transistor, but rapid improvements led to bipolar junction transistors (BJTs) and later field-effect transistors (FETs), which became central to computing.\n\nThe planar process, pioneered by Jean Hoerni in 1959, allowed transistors to be manufactured directly onto silicon wafers in massive quantities. This breakthrough enabled integrated circuits, where thousands—and eventually billions—of transistors could be embedded on a single chip.\n\nThis exponential growth became known as Moore’s Law, the observation that transistor density on chips roughly doubles every two years.\n\nToday, advanced processors contain tens of billions of transistors, powering AI systems, satellites, medical devices, electric vehicles, and global communication networks.\n\nWithout the transistor, modern digital civilization as we know it would not exist.",
-    "funFact": "A modern smartphone contains billions of transistors—far more computing power than the computers that guided Apollo astronauts to the Moon.",
+    "learn": "Transistors replaced vacuum tubes because they did the same job in a much smaller, cooler, and more reliable form. Vacuum tubes made early electronics possible, but they were bulky, fragile, and power-hungry. The transistor proved that solid-state materials could switch and amplify signals without glowing filaments or huge heat loads. That single shift changed radios, computers, telecommunications, and eventually the whole digital age. The importance of the transistor is hard to overstate. Once electronics became compact and efficient, devices could shrink from room-sized machines to pocket-sized systems. The transistor is one of the rare inventions that changed not just a product category but the structure of modern civilization.",
+    "simpler": "Transistors replaced vacuum tubes because they were smaller, lasted longer, used less power, and made electronics practical at huge scale.",
+    "keyTakeaway": "The transistor changed the world because it made electronics compact, reliable, and scalable, which is exactly what modern computing and communications needed.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/3b/NEC_vacuum_tube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Kguirnela",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:NEC_vacuum_tube.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Old_Man_Vacuum_Tube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Rob Robinette",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Old_Man_Vacuum_Tube.jpg"
+    },
+    "deeperDive": "Vacuum tubes were crucial in the early era of electronics, but they were limited by heat, size, and durability. The transistor solved those problems by using semiconductor physics instead of a heated vacuum. That let engineers pack more logic into less space while reducing power demands. Over time, transistors became the building blocks of integrated circuits, and integrated circuits became the foundation of computers, phones, and networks. This is why the transistor is often described as a civilization-level invention. It did not merely improve a device. It changed the economics of computation and communication. Once switching could be done cheaply and reliably, almost every other digital breakthrough became possible.",
+    "funFact": "Without transistors, most modern electronics would still be enormous, fragile, and far less efficient.",
+    "references": [
+      "Semiconductor history and transistor physics references.",
+      "Electronic engineering review literature.",
+      "Wikimedia Commons image metadata for transistor and vacuum-tube imagery."
+    ],
     "keyElements": {
       "people": [
-        "John Bardeen — Co-inventor of the first transistor and two-time Nobel Prize winner.",
-        "Walter Brattain — Experimental physicist who helped build the first working transistor.",
-        "William Shockley — Co-inventor who advanced transistor theory and later developed the junction transistor.",
-        "Gordon Moore — Intel co-founder known for Moore’s Law."
+        "John Bardeen - Co-inventor of the transistor.",
+        "Walter Brattain - Co-inventor of the transistor.",
+        "William Shockley - Helped develop transistor theory and commercialization.",
+        "Electronics engineers - Turned the transistor into mass technology."
       ],
       "places": [
-        "Bell Labs, New Jersey, USA — Birthplace of the transistor.",
-        "Silicon Valley, California, USA — Global center of semiconductor innovation.",
-        "Intel Corporation — Major force in transistor scaling and processor development.",
-        "Texas Instruments — Early leader in transistor commercialization."
+        "Bell Labs - Where the transistor was invented.",
+        "Factories - Where semiconductor devices are produced at scale.",
+        "Computers and radios - The first major beneficiaries of transistor miniaturization.",
+        "Modern chip fabs - Where the digital age is manufactured."
       ],
       "years": [
-        "1904 — Vacuum tube diode invented by John Ambrose Fleming.",
-        "1947 — First working transistor demonstrated at Bell Labs.",
-        "1953 — Early commercial transistor products emerge.",
-        "1959 — Planar process enables integrated circuit manufacturing."
+        "1947 - The first transistor is demonstrated.",
+        "1950s - Transistors begin replacing tubes in consumer electronics.",
+        "1960s - Integrated circuits build on transistor success.",
+        "1970s-2020s - Transistor scaling drives computing and mobile electronics."
       ],
       "concepts": [
-        "Semiconductor — Material used to control electrical conductivity.",
-        "Vacuum Tube — Early electronic amplifier replaced by transistors.",
-        "BJT (Bipolar Junction Transistor) — Early transistor design for amplification and switching.",
-        "FET (Field-Effect Transistor) — Highly scalable transistor design used in modern chips.",
-        "Integrated Circuit — Multiple transistors combined on a single chip.",
-        "Moore’s Law — Observation of exponential transistor density growth."
+        "Semiconductor - A material whose conductivity can be controlled.",
+        "Amplification - Increasing the strength of a signal.",
+        "Switching - Turning current on and off to represent logic.",
+        "Integrated circuit - Many transistors combined on a single chip."
       ]
     }
   }

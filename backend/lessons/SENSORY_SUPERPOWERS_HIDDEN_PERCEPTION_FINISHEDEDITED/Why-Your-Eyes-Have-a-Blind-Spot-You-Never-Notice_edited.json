@@ -1,33 +1,65 @@
 {
-  "topic": "Perception and the Invisible Gap",
-  "title": "Understanding the Blind Spot in Our Visual Field",
+  "topic": "Vision and the Blind Spot",
+  "title": "Why Your Eyes Have a Blind Spot You Never Notice",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Eye_blind_spot.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "RWhitwam",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Eye_blind_spot.svg"
+  },
   "lesson": {
-    "learn": "The human eye is a complex and fascinating organ, capable of detectingsubtle changes in light and color. However, despite its remarkable abilities, the eye has a peculiar limitation - a blind spot that we never notice. This phenomenon is due to the way our visual system processes information from the world around us. The blind spot is not a defect, but rather a natural consequence of how our retinas are structured.",
-    "simpler": "Imagine looking at a TV screen with a small gap in the middle that you can't see. This is an oversimplified representation of our blind spot, but it illustrates the idea that our brains process visual information in a way that ignores small gaps in the visual field. Our brains are wired to fill in these gaps, making us unaware of the blind spot's existence.",
-    "keyTakeaway": "The blind spot highlights the remarkable ability of our brains to interpret and make sense of sensory data. This is particularly evident in the way our brains process visual information from both eyes, a phenomenon known as binocular vision. By understanding how our brains process visual information, we can gain insights into the complex mechanisms of human perception.",
-    "deeperDive": "Research has shown that the blind spot is a result of the way the retina is structured, with ganglion cells not covering the entire visual field. Studies have demonstrated that people who are born blind or become blind at an early age may develop enhanced sensitivity in other senses, such as hearing and touch. For instance, neuroscientists have discovered that certain areas of the brain, such as V1, can be responsible for processing visual information from both eyes.",
-    "funFact": "Interestingly, not everyone's blind spot is in the same location, as it can vary depending on individual eye anatomy and factors such as nearsightedness or farsightedness. This variation underscores the complexity of human vision and the need for continued research into the mechanisms of perception.",
+    "learn": "Every human eye has a blind spot because the optic nerve has to leave the eye somewhere, and that exit point contains no light-sensitive cells. In theory, that sounds like a serious flaw. In practice, you almost never notice it because the brain fills in the missing information by using nearby color, shape, motion, and input from the other eye. Vision is therefore not a camera feed with a hole in it; it is a reconstruction that smooths over gaps so efficiently that the gap disappears from conscious experience. The blind spot is one of the best examples of how the brain edits reality before we become aware of it.",
+    "simpler": "Your eyes have a blind spot where the optic nerve exits each eye, but your brain usually fills in the missing piece so smoothly that you never notice it.",
+    "keyTakeaway": "The blind spot is proof that sight is an active brain process, not a perfect photographic record, because the brain constantly patches over missing information.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Blindspot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Killfoot",
+      "source": "Wikimedia Commons",
+      "license": "GNU Free Documentation License 1.2 or later",
+      "licenseUrl": "https://www.gnu.org/licenses/fdl-1.2.html",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Blindspot.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/7/75/Night_blind_spot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Federal Aviation Administration",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Night_blind_spot.png"
+    },
+    "deeperDive": "The blind spot becomes noticeable only when the visual system is forced to reveal its shortcuts. Simple experiments with a dot on a page can make an object vanish at just the right distance, and yet the world does not appear broken in normal life. That is because the brain uses predictive processing: it assumes the scene continues in a sensible way unless evidence says otherwise. The same mechanism helps create stable vision when we move our eyes, blink, or look around quickly. The blind spot is therefore not a bug so much as a tradeoff. The brain sacrifices strict completeness in order to preserve a smooth, useful picture of the world. That makes visual perception efficient, but it also means our experience is always partly edited.",
+    "funFact": "You can prove your blind spot exists with a simple page test, even though your brain works hard to hide it.",
+    "references": [
+      "Visual neuroscience and retinal anatomy references.",
+      "Studies on blind spot filling-in and predictive vision.",
+      "Wikimedia Commons image metadata for eye and blind spot diagrams."
+    ],
     "keyElements": {
       "people": [
-        "Hans Wallach",
-        "David Hubel",
-        "Torsten Wiesel",
-        "Marcello Pianta"
+        "Vision neuroscientists - Researchers studying how the brain fills visual gaps.",
+        "Ophthalmologists - Eye doctors who understand optic nerve anatomy.",
+        "Retinal scientists - Experts on photoreceptors and the optic disc.",
+        "Cognitive psychologists - Scholars who study predictive perception."
       ],
       "places": [
-        "University of Cambridge",
-        "Massachusetts Institute of Technology (MIT)",
-        "Wellcome Trust Centre for Neuroimaging"
+        "The retina - Light-sensitive tissue at the back of the eye.",
+        "The optic disc - The spot where the optic nerve exits and the blind spot begins.",
+        "Vision labs - Places where blind spot experiments are demonstrated.",
+        "Everyday visual scenes - The brain's ordinary stage for filling in missing data."
       ],
       "years": [
-        "1935",
-        "1981",
-        "2009"
+        "1800s - Scientists begin mapping the blind spot experimentally.",
+        "1900s - Retinal anatomy explains why the blind spot exists.",
+        "2000s - Neuroscience studies visual filling-in in more detail.",
+        "2020s - Predictive processing models continue to shape vision research."
       ],
       "concepts": [
-        "Perceptual blindness",
-        "Visual processing",
-        "Binocular vision"
+        "Optic disc - The point where the optic nerve exits the eye.",
+        "Filling-in - The brain's automatic repair of missing visual information.",
+        "Predictive perception - The brain's habit of guessing what should be there.",
+        "Binocular vision - Two-eye viewing that helps hide each eye's blind spot."
       ]
     }
   }

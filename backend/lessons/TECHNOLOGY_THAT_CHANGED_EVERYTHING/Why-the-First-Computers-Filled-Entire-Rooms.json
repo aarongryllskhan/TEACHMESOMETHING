@@ -2,43 +2,64 @@
   "topic": "The Room-Sized Machine That Taught Humanity to Compute",
   "title": "How ENIAC Turned Electricity Into the First Giant Leap Toward Modern Computers",
   "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/ENIAC-changing_a_tube.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-  "summary": "Before laptops, smartphones, or even desktop computers, computing required entire rooms filled with wires, switches, and vacuum tubes. ENIAC marked a historic turning point by proving that large-scale electronic machines could perform calculations at unprecedented speed, reshaping science, warfare, and the future of technology.",
+  "imageCredit": {
+    "creator": "M. Weik",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:ENIAC-changing_a_tube.jpg"
+  },
   "lesson": {
-    "learn": "Completed in 1945 and publicly unveiled in 1946, ENIAC (Electronic Numerical Integrator and Computer) was one of the first general-purpose electronic digital computers. Built at the University of Pennsylvania by John Mauchly and J. Presper Eckert, ENIAC was designed primarily to calculate artillery firing tables for the U.S. Army during World War II.\n\nUnlike mechanical calculators, ENIAC used approximately 18,000 vacuum tubes to perform electronic switching at remarkable speed for its time. It could execute thousands of calculations per second—orders of magnitude faster than previous electromechanical systems.\n\nHowever, this power came at enormous physical cost: ENIAC filled a large room, weighed about 30 tons, consumed massive electrical power, and generated intense heat.",
-    
-    "image2": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/ENIAC.jpg/1920px-ENIAC.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20151106232647",
-    
-    "simpler": "ENIAC was like an enormous electronic brain made from glowing tubes and cables, solving math problems much faster than humans ever could—but it needed a whole room to do it.",
-    
-    "keyTakeaway": "ENIAC demonstrated that fully electronic computation was practical, launching the transition from mechanical calculation to programmable digital systems.",
-    
-    "deeperDive": "Programming ENIAC was dramatically different from modern coding. Instead of typing software, operators—many of them pioneering women programmers—physically rewired the machine using plugboards, switches, and patch cables.\n\nThis meant changing tasks could take hours or days.\n\nENIAC’s architecture was not yet the stored-program model used by modern computers, but it proved that electronic speed could revolutionize calculation.\n\nIts existence accelerated developments in computer architecture, eventually influencing EDVAC, UNIVAC, and later transistorized systems.\n\nThe invention of the transistor in 1947 and integrated circuits in the late 1950s allowed computers to shrink from room-sized machines into commercial, personal, and eventually handheld devices.\n\nENIAC’s true legacy was not just its calculations—it showed that electronic computing could become the backbone of civilization.",
-    "funFact": "ENIAC used so much electricity that legends claimed nearby lights dimmed when it powered on—though the reality was more complex, its power demands were still enormous.",
+    "learn": "The first computers filled entire rooms because they were built from thousands of individual components, especially vacuum tubes, relays, wiring, and power supplies. Early machines had to do serious calculations before integrated circuits existed, so they needed physical space for every logic element and for the heat those elements produced. ENIAC and its peers were enormous not because engineers were wasteful, but because the hardware of the time forced them to build at architectural scale. That scale mattered because it marked the transition from mechanical calculation to electronic computation. A room-sized computer was the price of entering a new age of speed and programmability.",
+    "simpler": "Early computers were huge because they used bulky electronic parts and needed lots of space for wiring, cooling, and maintenance.",
+    "keyTakeaway": "The first computers filled rooms because computation was once physically expensive: every logic step needed hardware, heat management, and miles of connections before chips made everything smaller.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/cd/ENIAC_Tubes_%282585374699%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Erik Pitti from San Diego, CA, USA",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ENIAC_Tubes_(2585374699).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/5/55/7AK7_vacuum_tubes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Diomidis Spinellis",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:7AK7_vacuum_tubes.jpg"
+    },
+    "deeperDive": "Vacuum tubes could switch and amplify signals, but they were large, fragile, and hot. That meant early computers had to be built like industrial installations. They needed accessible panels for maintenance and ventilation for the heat. Even so, they were revolutionary because they could perform calculations much faster than mechanical systems. The huge footprint was the visible cost of using electricity to think at machine speed. What changed the world was not size itself, but the principle behind these machines. Once computation became electronic, later technologies could shrink the same idea into smaller and smaller forms. So the room-sized computer is important not because it lasted forever, but because it proved that general-purpose electronic computing was possible at all.",
+    "funFact": "Some early computers needed so much maintenance that replacing a single faulty tube was a routine part of keeping them alive.",
+    "references": [
+      "Early computing history and ENIAC references.",
+      "Vacuum-tube computer engineering literature.",
+      "Wikimedia Commons image metadata for ENIAC and tube imagery."
+    ],
     "keyElements": {
       "people": [
-        "John Mauchly — Co-designer of ENIAC.",
-        "J. Presper Eckert — Co-designer and engineering lead.",
-        "Jean Jennings Bartik — One of the pioneering ENIAC programmers.",
-        "Alan Turing — Major theoretical figure in computer science whose work paralleled early computing development."
+        "ENIAC engineers - Built the first large-scale electronic computers.",
+        "Maintenance technicians - Kept vacuum-tube systems running.",
+        "Computer historians - Trace the shift from room-sized machines to chips.",
+        "Mathematicians and military planners - Used early computers for complex calculations."
       ],
       "places": [
-        "University of Pennsylvania Moore School, USA — Birthplace of ENIAC.",
-        "Aberdeen Proving Ground, USA — Military calculation applications.",
-        "Bell Labs, USA — Site of later transistor breakthrough.",
-        "Princeton Institute for Advanced Study — Major center for later computer architecture."
+        "Computer rooms - The original habitat of electronic computation.",
+        "Laboratories - Where early machines were assembled and tested.",
+        "Military research centers - Major early users of computing.",
+        "Museums - Places that preserve the scale of early computers."
       ],
       "years": [
-        "1943 — ENIAC project begins.",
-        "1945 — ENIAC completed.",
-        "1946 — Public unveiling.",
-        "1947 — Transistor invented, beginning computer miniaturization."
+        "1940s - ENIAC and similar machines are built.",
+        "1950s - Vacuum-tube computers spread into institutions.",
+        "1960s - Transistors begin shrinking computers dramatically.",
+        "1970s onward - Computers rapidly leave the room and enter desks, then pockets."
       ],
       "concepts": [
-        "Vacuum Tubes — Electronic switches used before transistors.",
-        "Electronic Computation — High-speed calculation through electrical circuits.",
-        "Programming via Plugboards — Physical machine reconfiguration.",
-        "Digital Computing — Binary-based computational systems.",
-        "Transistor Revolution — Replacement of vacuum tubes with semiconductors."
+        "Vacuum tube - An early electronic switching and amplifying device.",
+        "Programmability - The ability to repurpose a computer for many tasks.",
+        "Heat dissipation - Managing the energy lost as heat.",
+        "Electronic computation - Calculating with circuits instead of gears."
       ]
     }
   }

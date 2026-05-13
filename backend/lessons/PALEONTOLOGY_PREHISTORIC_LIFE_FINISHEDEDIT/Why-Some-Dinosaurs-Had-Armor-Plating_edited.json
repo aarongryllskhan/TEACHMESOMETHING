@@ -1,47 +1,67 @@
 {
-  "topic": "Why-Some-Dinosaurs-Had-Armor-Plating",
-  "title": "Exploring the Evolution of Dinosaur Armor: A Protective Adaptation",
+  "topic": "Dinosaur Armor",
+  "title": "Why Some Dinosaurs Had Armor Plating",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ankylosaurus_Skeleton_(31478253461).jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Gary Todd from Xinzheng, China",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Ankylosaurus%20Skeleton%20(31478253461).jpg"
+  },
   "lesson": {
-    "learn": "The presence of armor plating on some dinosaurs is a well-documented aspect of paleontology, revealing crucial insights into their defense mechanisms and evolutionary adaptations. Fossil records show that this armor plating provided protection against predators, rival dinosaurs, and harsh environmental conditions. Research has identified the armor plating on these dinosaurs varied greatly in shape, size, and material composition, suggesting a range of adaptations to suit different lifestyles and environments. A study of dinosaur armor plating has also illuminated their diet, behavior, and social structures. The development of armor plating in dinosaurs is attributed to the evolution of multiple defensive features, including spikes, horns, and bony plates.",
-    "simpler": "In the Late Jurassic period, around 155 million years ago, some dinosaurs began wearing body armor to protect themselves from predators. The early forms of body armor consisted of bony plates and spikes, which were then replaced by more advanced armor plating.",
-    "keyTakeaway": "Dinosaurs developed armor plating as a crucial adaptation, allowing them to survive in diverse environments while also providing valuable insights into their behavior, diet, and social structures.",
-    "deeperDive": "Recent discoveries have revealed that the development of armor plating in dinosaurs involved a gradual process of evolution. The first dinosaur to develop significant armor plating was the ankylosaur, with its robust club-like tail serving as a defense mechanism. In contrast, the ceratopsians developed elaborate frills and horns, likely used for display purposes or to attract mates. Additionally, researchers have found that several dinosaurs had unique combinations of armor plating, including the presence of spikes and bony plates. The study of dinosaur armor plating has also shed light on their habitats and ecosystems, including their interactions with plants, insects, and other animals.",
-    "funFact": "The first dinosaur fossils with armor plating were discovered by Mary Anning in 1824, marking the beginning of significant research into this fascinating aspect of dinosaur biology.",
+    "learn": "Armor on dinosaurs was not a decorative extra. It was a survival strategy built into the body. In ankylosaurs, thick osteoderms formed a living shield over the back and flanks, while in stegosaurs, plates and spikes offered a mix of defense, display, and possibly temperature-related functions. Armor was most useful for slower herbivores that could not rely on speed alone to escape predators, because a hard body gave them a better chance of surviving a close encounter. Over time, these defenses became part of a broader evolutionary bargain: if you cannot outrun a threat, you can still make yourself harder to bite, harder to swallow, and more expensive to attack.",
+    "simpler": "Some dinosaurs grew armor because it made them harder to kill. Plates, spikes, and bony skin helped slow-moving plant-eaters survive predators and may also have helped with display.",
+    "keyTakeaway": "Armor plating gave certain dinosaurs a different kind of advantage: not speed or size, but a body that made predators pay a high price for attacking.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sauropelta_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Emily Willoughby",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sauropelta%20reconstruction.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Stegosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Offy",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Stegosaurus.jpg"
+    },
+    "deeperDive": "Armor evolved in more than one way. Ankylosaurs built massive body shields and, in some species, a tail club capable of delivering punishing blows. Nodosaur relatives often emphasized shoulder spikes and a low, tank-like profile. Stegosaurs, by contrast, carried tall back plates and tail spikes that may have helped with defense and species recognition as much as with direct combat. The real point of armor was not invincibility but time. If a predator had to spend more effort, risk injury, or give up a bite because the prey was covered in bony projections and thick skin, that prey had a better chance of escaping or surviving. Armor also likely shaped social behavior, because structures that are useful in defense can be co-opted for display. In paleontology, armor is a reminder that evolution often solves the same problem with several overlapping tools instead of one perfect answer.",
+    "funFact": "Ankylosaurs were so heavily built that some of them looked less like animals and more like moving fortresses.",
+    "references": [
+      "Natural History Museum and Smithsonian summaries on armored dinosaurs.",
+      "University museum articles on ankylosaur and stegosaur anatomy.",
+      "Review literature on osteoderms, tail clubs, and dinosaur defense.",
+      "Wikimedia Commons fossil and reconstruction pages for armored dinosaurs."
+    ],
     "keyElements": {
       "people": [
-        "**",
-        "+ Mary Anning (Fossil hunter and paleontologist who discovered several armored dinosaur fossils)",
-        "+ John Ostrom (Paleontologist who studied the ankylosaurs and their armor plating)",
-        "+ Peter Galton (Paleontologist who worked on the ceratopsians and their headgear)",
-        "+ Michael K. Brett-Surman (Paleontologist who researched the evolution of dinosaur armor plating)",
-        "+ Jack Horner (Paleontologist who has made significant contributions to our understanding of dinosaur biology)",
-        "* **"
+        "Gilbert Price - Researcher known for work on armor and dinosaur biomechanics",
+        "Kenneth Carpenter - Paleontologist with major work on armored dinosaur anatomy",
+        "Richard Swann Lull - Early scientist who described armored dinosaur forms",
+        "Mary Anning - Her fossil discoveries helped open the study of prehistoric body armor"
       ],
       "places": [
-        "**",
-        "+ Dinosaur Provincial Park, Alberta, Canada (A world-renowned fossil site with numerous armored dinosaur discoveries)",
-        "+ Hell Creek Formation, Montana, USA (A fossil-rich region that has yielded many armored dinosaur fossils)",
-        "+ Patagonia, Argentina/Chile (A region known for its rich dinosaur fossil deposits, including those of armored dinosaurs)",
-        "+ British Museum of Natural History, London, UK (A premier museum with an extensive collection of armored dinosaur fossils and artifacts)",
-        "+ American Museum of Natural History, New York City, USA (A leading institution with a vast collection of dinosaur fossils and exhibits)",
-        "* **"
+        "Hell Creek Formation, USA - Late Cretaceous rocks that preserve armored dinosaurs and predators together",
+        "Alberta, Canada - Region rich in ankylosaur and ceratopsian fossils",
+        "Morrison Formation, USA - Jurassic ecosystem where stegosaurs are especially well known",
+        "Gobi Desert, Mongolia - Famous for a broad range of armored dinosaur remains"
       ],
       "years": [
-        "**",
-        "+ 1824 - The year Mary Anning discovered the first armored dinosaur fossil",
-        "+ 1920s - The period when John Ostrom began studying the ankylosaurs and their armor plating",
-        "+ 1960s - When Peter Galton started working on the ceratopsians and their headgear",
-        "+ 1970s - A decade of significant discoveries in dinosaur paleontology, including new findings on armored dinosaurs",
-        "+ 2015 - The year a team of researchers published a major study on the evolution of dinosaur armor plating",
-        "* **"
+        "Late Jurassic, about 155 million years ago - Stegosaurs are widespread in northern ecosystems",
+        "Early Cretaceous, about 125 million years ago - Many ankylosaurs become highly specialized",
+        "Late Cretaceous, about 75 million years ago - Large armored dinosaurs thrive in North America and Asia",
+        "20th century - Fossil discoveries reshape ideas about dinosaur defenses and behavior"
       ],
       "concepts": [
-        "**",
-        "+ Evolutionary adaptations (The process by which organisms develop traits that help them survive and thrive)",
-        "+ Defense mechanisms (The ways in which animals protect themselves from harm)",
-        "+ Armor plating (A distinctive characteristic of some dinosaurs, consisting of hardened plates or scutes on their skin)",
-        "+ Fossil record (The collection of fossils found in rocks and sedimentary deposits, which provide a window into the past)",
-        "+ Phylogenetic analysis (A method used to study the relationships between different organisms based on their shared characteristics)"
+        "Osteoderm - Bony plate embedded in the skin",
+        "Tail club - Reinforced weapon at the end of some ankylosaur tails",
+        "Display structure - A trait that helps with recognition or signaling, not just defense",
+        "Predator deterrence - Reducing the chance of attack by making a prey animal costly to bite",
+        "Biomechanics - The physics of how bodies move and absorb force"
       ]
     }
   }

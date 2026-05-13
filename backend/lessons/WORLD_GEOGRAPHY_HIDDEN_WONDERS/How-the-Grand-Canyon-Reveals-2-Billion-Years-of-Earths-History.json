@@ -2,46 +2,64 @@
   "topic": "Geological History of the Grand Canyon",
   "title": "Grand Canyon: Reading Nearly Two Billion Years of Earth’s History Through Stone",
   "image": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722",
+  "imageCredit": {
+    "creator": "Unknown photographer on Unsplash",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "filePage": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722"
+  },
   "lesson": {
-    "learn": "The Grand Canyon is one of Earth’s most extraordinary geological records, not because it represents only the time the canyon itself was carved, but because its immense depth exposes rock layers spanning nearly 2 billion years of planetary history. Located in northern Arizona, the canyon stretches roughly 446 kilometers (277 miles) long, up to 29 kilometers (18 miles) wide, and over 1.8 kilometers (6,000 feet) deep.\n\nThe canyon’s dramatic landscape was shaped primarily by the Colorado River, which began carving the modern canyon system approximately 5 to 6 million years ago as uplift of the Colorado Plateau increased river gradient and erosive power. However, the rock record exposed in its walls is vastly older than the canyon itself. The oldest rocks, including Vishnu Schist and Zoroaster Granite at the canyon’s inner gorge, date to roughly 1.7–1.8 billion years ago, representing ancient metamorphic and igneous basement formed during Precambrian tectonic events.\n\nAbove these basement rocks lie sedimentary layers deposited across hundreds of millions of years in changing environments including shallow seas, coastal plains, deserts, and river systems. These strata preserve evidence of shifting climates, ancient ecosystems, sea-level changes, and continental evolution. The canyon therefore functions as a vertical archive of Earth history, where descending deeper is effectively traveling backward through geologic time.",
-    "simpler": "The Grand Canyon is like a giant natural history book carved into the Earth, where each rock layer represents a different chapter of ancient oceans, deserts, rivers, and tectonic change.",
-    "keyTakeaway": "The Grand Canyon is not simply a canyon carved by a river—it is one of the world’s clearest geological cross-sections, revealing nearly two billion years of Earth’s environmental and tectonic evolution.",
-    "deeperDive": "The Grand Canyon’s geologic significance comes from both stratigraphy and tectonics. The uplift of the Colorado Plateau, largely during the Laramide Orogeny around 70–40 million years ago, elevated the region thousands of feet without heavily deforming many sedimentary layers. This preserved relatively horizontal strata, allowing erosion by the Colorado River and tributaries to cut downward through them like a knife through layered cake.\n\nThe canyon’s uppermost rim is capped by the Kaibab Limestone, deposited approximately 270 million years ago when the region lay beneath a shallow marine environment. Beneath it lie formations such as the Coconino Sandstone, representing ancient desert dunes, and Bright Angel Shale, which preserves marine fossils from Cambrian seas over 500 million years old.\n\nOne of the canyon’s most famous geological features is the Great Unconformity—a major gap in the rock record where over a billion years of missing geological time separates ancient basement rocks from younger sedimentary deposits. This unconformity represents immense periods of erosion, non-deposition, or tectonic disruption.\n\nAlthough early estimates of canyon incision varied, modern research suggests much of the canyon’s integrated drainage system developed within the last several million years, though older paleocanyons may have existed in parts of the region.\n\nThe Grand Canyon continues to evolve today through erosion, rockfall, weathering, and river transport, making it not only a record of geological history, but an active geological system.",
-    "funFact": "If you could stand at the bottom of the Grand Canyon and touch Vishnu Schist, you would be placing your hand on rock nearly half as old as Earth itself.",
+    "learn": "The Grand Canyon reveals nearly two billion years of Earth’s history because its walls expose a long stack of rock layers, each formed in a different environment. Some layers were laid down in ancient seas, some in deserts, some by rivers, and some in much older geological settings that long predate the canyon itself. As the Colorado River cut downward, it carved a natural cross-section through deep time.\nThat makes the canyon one of the best places on Earth to see how geology preserves memory. The cliffs are not just beautiful. They are a readable archive of the planet’s past.",
+    "simpler": "The Grand Canyon shows Earth’s history because erosion cut through rock layers that were formed at very different times and in very different places.",
+    "keyTakeaway": "The Grand Canyon is remarkable because erosion turned layered rock into a visible timeline, letting us read ancient Earth history in stone.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Grand_Canyon_Hopi_Point_with_rainbow_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Tuxyso\" title=\"User:Tuxyso\">Tuxyso</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Hopi_Point_with_rainbow_2013.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/ce/John_Wesley_Powell%27s_%281875%29_Subdivisions_of_Strata_Exposed_in_Grand_Canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "U.S. Department of the Interior National Park Service Natural Resource Stewardship and Science Fort Collins, Colorado",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:John_Wesley_Powell%27s_(1875)_Subdivisions_of_Strata_Exposed_in_Grand_Canyon.jpg"
+    },
+    "deeperDive": "The canyon exposes a sequence of sedimentary layers, metamorphic rocks, and unconformities that tell a story far older than the canyon itself. Some of the lowest exposed rocks are among the oldest in North America, while the upper layers preserve younger environments that came much later. The Colorado River and its tributaries deepened the canyon over millions of years, but the rocks record events separated by vast stretches of time.\nGeologists use the canyon to study sedimentation, uplift, erosion, and plate tectonics. It is a place where the planet’s past is not hidden underground but displayed in front of you. That is what makes the canyon both scientifically priceless and emotionally overwhelming.",
+    "funFact": "The Grand Canyon is so deep in time as well as space that its walls contain rock formed long before complex life existed.",
     "references": [
-      "U.S. Geological Survey (USGS): Grand Canyon Geology.",
-      "National Park Service: Grand Canyon stratigraphy resources.",
-      "John Wesley Powell Colorado River expeditions.",
-      "Geological Society of America: Colorado Plateau uplift studies.",
-      "Grand Canyon Conservancy geological history publications."
+      "Grand Canyon geology and stratigraphy references.",
+      "Colorado River erosion and tectonic-uplift literature.",
+      "Wikimedia Commons image metadata for canyon and strata imagery."
     ],
     "keyElements": {
       "people": [
-        "John Wesley Powell — Explorer who led the first major scientific expedition through the Grand Canyon in 1869.",
-        "Clarence Dutton — Geologist whose pioneering studies helped define Grand Canyon stratigraphy.",
-        "Edwin McKee — Geologist known for work on southwestern U.S. sedimentary formations."
+        "Geologists - They read the canyon as a record of deep time.",
+        "John Wesley Powell - Early explorer who helped frame the canyon scientifically.",
+        "Paleontologists - They study fossils in surrounding layers.",
+        "National Park scientists - They monitor erosion and landscape change."
       ],
       "places": [
-        "Grand Canyon National Park — Arizona, USA.",
-        "Colorado River — Primary erosional force shaping the canyon.",
-        "Vishnu Basement Rocks — Ancient Precambrian rocks in the inner gorge.",
-        "Kaibab Plateau — Uplifted region forming the canyon’s rim."
+        "The Grand Canyon - The main exposed geological archive.",
+        "The Colorado River - The force that carved the canyon downward.",
+        "The Colorado Plateau - The uplifted region containing the canyon.",
+        "Rock layer outcrops - Visible sections of the planet’s history."
       ],
       "years": [
-        "1.8 billion years ago — Formation of Vishnu basement rocks.",
-        "525 million years ago — Cambrian marine deposits including Bright Angel Shale.",
-        "270 million years ago — Kaibab Limestone deposition.",
-        "70–40 million years ago — Colorado Plateau uplift during Laramide Orogeny.",
-        "5–6 million years ago — Major Colorado River incision of the modern canyon."
+        "1800s - Scientific exploration of the canyon begins.",
+        "1919 - Grand Canyon becomes a U.S. national park.",
+        "20th century - Stratigraphy and tectonics refine the geological story."
       ],
       "concepts": [
-        "Stratigraphy — Study of layered rock sequences.",
-        "Erosion — Processes that wear away rock over time.",
-        "Colorado Plateau Uplift — Elevation increase enabling river incision.",
-        "Great Unconformity — Major missing interval in the rock record.",
-        "Plate Tectonics — Crustal movement shaping continents and landscapes.",
-        "Sedimentary Deposition — Accumulation of rock-forming sediments.",
-        "Geologic Time Scale — Framework for Earth’s history."
+        "Stratigraphy - The study of layered rocks.",
+        "Unconformity - A gap in the geological record.",
+        "Uplift - Vertical movement of Earth’s crust.",
+        "Erosion - The removal of rock by water, wind, or ice.",
+        "Deep time - Geological time measured on immense scales."
       ]
     }
   }

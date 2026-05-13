@@ -1,39 +1,65 @@
 {
-  "topic": "How-Gravitational-Lensing-Let-Us-See-Behind-the-Universe",
-  "title": "Gravitational Lensing: How Warped Space Reveals the Hidden Universe",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Abell_2218.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20060101012123",
-  "summary": "Gravitational lensing occurs when massive objects like galaxies or galaxy clusters bend light from more distant sources, acting like cosmic magnifying glasses. This phenomenon allows astronomers to detect hidden galaxies, map dark matter, and study the deep universe in extraordinary detail.",
+  "topic": "Gravitational Lensing and Cosmic Mapping",
+  "title": "How Gravity Can Turn the Universe into a Lens",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Gravitational_Lensing_%282019-20-4377-Image%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "IMAGE: NASA, ESA, Zolt G. Levay (STScI), Ann Feild (STScI)",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Gravitational_Lensing_(2019-20-4377-Image).png"
+  },
   "lesson": {
-    "learn": "Gravitational lensing is one of the most remarkable predictions of Albert Einstein’s general theory of relativity. According to Einstein, massive objects warp space-time, and when light travels through this curved space, its path bends. This means that galaxies, black holes, and galaxy clusters can distort or magnify the light from objects behind them.\n\nThis cosmic effect allows astronomers to observe extremely distant galaxies that might otherwise be too faint or obscured to detect. By analyzing how light bends, scientists can also calculate the mass of invisible structures like dark matter, which cannot be seen directly but exerts gravitational influence.\n\nIn essence, gravitational lensing acts as a natural telescope, helping humanity peer deeper into the universe than ever before.",
-    "simpler": "Imagine space is like a stretched blanket. If you place a heavy bowling ball on it, the blanket curves. Now roll a marble nearby—it will bend around the heavier object. Light behaves similarly in space. Massive galaxies curve space, and light bends around them, revealing things hidden behind.",
-    "keyTakeaway": "Gravitational lensing allows scientists to use gravity itself as a cosmic magnifying glass, revealing distant galaxies, mapping dark matter, and uncovering hidden structures in the universe.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Einstein_cross.jpg/1280px-Einstein_cross.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20101215073931",
-    "deeperDive": "There are three major forms of gravitational lensing: strong lensing, weak lensing, and microlensing. Strong lensing can create dramatic arcs, duplicated galaxies, or Einstein rings when alignment is nearly perfect. Weak lensing produces subtle distortions that help map large-scale dark matter distributions. Microlensing can reveal exoplanets and isolated objects otherwise impossible to detect.\n\nOne of the most powerful uses of gravitational lensing is dark matter mapping. Since dark matter does not emit light, its presence is inferred by observing how it bends light from background galaxies. Projects using the Hubble Space Telescope and James Webb Space Telescope have used lensing to observe galaxies from the universe’s earliest eras.\n\nGravitational lensing has also helped test general relativity, study black holes, and refine measurements of cosmic expansion.",
-    "funFact": "An Einstein Ring forms when a distant galaxy, a massive foreground object, and Earth align almost perfectly, creating a glowing ring of bent light.",
+    "learn": "Gravitational lensing happens because mass curves spacetime, and light follows that curvature. When a galaxy cluster, black hole, or other massive object sits between us and a more distant source, it can bend the source's light into arcs, rings, or multiple images. That makes gravity act like a lens, sometimes magnifying objects that would otherwise be too faint to study. The effect is not just a visual trick. It is one of the best tools astronomers have for mapping invisible matter and probing the structure of the far universe. There are two broad kinds of lensing. Strong lensing creates dramatic distortions like Einstein rings and giant arcs. Weak lensing is subtler, but over large surveys it reveals how matter is distributed across cosmic scales. Because dark matter does not emit light, lensing is one of the few ways we can trace where it is. In practice, gravitational lensing lets astronomers study the universe by using the universe itself as an instrument.",
+    "simpler": "Mass can bend light, so a huge object between us and a distant source can act like a natural telescope and reveal things we could not otherwise see.",
+    "keyTakeaway": "Gravitational lensing is powerful because it turns gravity into a measuring tool: by watching light bend, astronomers can map hidden mass, magnify distant galaxies, and test how matter is arranged across the cosmos.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gravitational_lensing_system.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "European Space Agency",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gravitational_lensing_system.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gravitational_Lensing_%289822270605%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "National Science Foundation",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gravitational_Lensing_(9822270605).jpg"
+    },
+    "deeperDive": "Lensing is a direct consequence of general relativity. In Newtonian terms, light would not be bent by gravity the way it is in Einstein's theory, because spacetime itself is what curves. That means lensing gives astronomers a way to test relativity in extreme environments while also measuring mass that is otherwise hidden. When a cluster lenses a background galaxy, the amount of distortion can be modeled to infer how much matter must be present, including dark matter. Strong lensing often produces multiple paths for the same distant object, so a single galaxy can appear duplicated or stretched into a giant arc. Weak lensing is harder to spot by eye, but with enough galaxies it reveals tiny statistical distortions that trace the cosmic web. Those measurements help scientists understand how structure grew after the Big Bang and how dark matter shaped the universe's large-scale architecture. Lensing is therefore both a spectacular visual phenomenon and a precision cosmology tool.",
+    "funFact": "A single galaxy cluster can bend one distant galaxy into several visible images at once, as if the universe had placed mirrors in space.",
+    "references": [
+      "Einstein, general relativity, and gravitational lensing review literature.",
+      "NASA and ESA lensing mission materials and Hubble lensing studies.",
+      "Wikimedia Commons image metadata for lensing visuals."
+    ],
     "keyElements": {
       "people": [
-        "Albert Einstein — Predicted gravitational lensing through general relativity.",
-        "Arthur Eddington — Helped confirm light bending during the 1919 solar eclipse.",
-        "Vera Rubin — Advanced understanding of dark matter, often studied through lensing.",
-        "Adam Riess — Cosmologist whose work intersects with cosmic expansion studies."
+        "Albert Einstein - Developed general relativity, the theory that makes gravitational lensing possible.",
+        "Astronomers - Use lensing to measure hidden mass and magnify faraway galaxies.",
+        "Survey teams - Build the large data sets needed to detect weak lensing patterns.",
+        "Cosmologists - Study how lensing reveals dark matter and cosmic structure."
       ],
       "places": [
-        "Hubble Space Telescope — Major source of gravitational lensing discoveries.",
-        "James Webb Space Telescope — Reveals early galaxies using lensing magnification.",
-        "Sloan Digital Sky Survey — Important for galaxy and dark matter mapping."
+        "Galaxy clusters - Massive foreground structures that often create strong lensing.",
+        "Deep-field survey regions - Areas of sky used to measure subtle lensing distortions.",
+        "The cosmic web - The large-scale structure lensing helps map indirectly.",
+        "Observatories in space and on Earth - Facilities that gather the imaging data."
       ],
       "years": [
-        "1915 — Einstein publishes general relativity.",
-        "1919 — Solar eclipse confirms light bending.",
-        "1979 — First confirmed gravitational lens system discovered.",
-        "2004 — Microlensing contributes to exoplanet detection."
+        "1915 - Einstein's general relativity provides the physics behind lensing.",
+        "1979 - The first confirmed gravitationally lensed quasar is discovered.",
+        "1990s - Hubble observations make strong lensing iconic in astronomy.",
+        "2000s-2020s - Weak-lensing surveys become a major cosmology tool."
       ],
       "concepts": [
-        "General Relativity — Gravity as space-time curvature.",
-        "Gravitational Lensing — Bending of light by mass.",
-        "Dark Matter Mapping — Measuring unseen mass through lensing effects.",
-        "Einstein Rings — Circular lensing from near-perfect alignment.",
-        "Microlensing — Detecting planets and compact objects."
+        "Spacetime curvature - The bending of space and time by mass and energy.",
+        "Strong lensing - Obvious distortions such as arcs, rings, and multiple images.",
+        "Weak lensing - Tiny shape distortions detected statistically across many galaxies.",
+        "Dark matter mapping - Inferring invisible mass from the way it bends light."
       ]
     }
   }

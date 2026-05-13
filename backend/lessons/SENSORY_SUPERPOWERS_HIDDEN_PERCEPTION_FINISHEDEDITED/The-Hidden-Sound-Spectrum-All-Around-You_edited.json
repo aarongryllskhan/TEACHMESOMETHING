@@ -1,32 +1,65 @@
 {
-  "topic": "The Hidden Sound Spectrum",
-  "title": "Understanding the Science Behind the Inaudible: Exploring the Hidden Sound Spectrum",
+  "topic": "The Physics of Sound and Hearing",
+  "title": "The Hidden Sound Spectrum All Around You",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Voice_waveform_and_spectrum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Wyatt915",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Voice_waveform_and_spectrum.png"
+  },
   "lesson": {
-    "learn": "The Hidden Sound Spectrum refers to the range of sounds that are beyond human hearing, typically above 20 kHz or below 20 Hz. This phenomenon is crucial in understanding how we perceive sound and its impact on our daily lives. The concept challenges traditional notions of sound perception, revealing a vast, untapped world of vibrations. By exploring this spectrum, scientists can gain insights into sound-based applications and develop new technologies.",
-    "simpler": "Consider the example of dolphins using echolocation to navigate their environment. They emit high-frequency clicks and interpret the echoes to build a mental map of their surroundings. Similarly, humans can tap into the Hidden Sound Spectrum using advanced audio processing techniques and machines. This allows us to perceive and analyze sounds that are inaudible to the human ear.",
-    "keyTakeaway": "The Hidden Sound Spectrum highlights the complexities of human hearing and the importance of sound wave frequency in shaping our perception of the world. Understanding this concept can lead to new innovations in fields such as medicine, communication, and navigation.",
-    "deeperDive": "Research has shown that certain animals, like dogs and cats, can detect ultrasonic sounds, while insects use subsonic vibrations to communicate. In medical applications, ultrasound technology relies on high-frequency sound waves to create images of internal organs. For instance, studies have demonstrated the effectiveness of using ultrasound to identify potential health issues, such as blood vessel blockages, in patients with kidney disease.",
-    "funFact": "Interestingly, research suggests that some people can hear a wider range of frequencies than others due to differences in ear anatomy or genetic variations. For example, a 2018 study published in the Journal of the Acoustical Society of America found that individuals with larger ear canals were more sensitive to high-frequency sounds.",
+    "learn": "Sound is not a single thing. It is a set of pressure waves that can be arranged into many forms, from deep vibrations to high, sharp tones. The human ear only hears a slice of that world, which is why there is a hidden sound spectrum all around us. The same physical wave can carry different pitches, different amplitudes, and different textures depending on how it moves through air or another medium. Once scientists map sound as waveform and frequency, the world becomes more legible: speech, music, machinery, weather, and even animal calls all reveal structure that the ear alone only partly notices. Hearing is therefore not just passive reception. It is a system for translating vibration into meaning.",
+    "simpler": "Sound comes in many frequencies and shapes, but humans hear only part of that range. Microphones and scientific tools can reveal much more than our ears can catch.",
+    "keyTakeaway": "The sound world is broader than everyday hearing, and tools that visualize waveforms show how much information is hidden inside what we casually call noise.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/77/Waveforms.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "S Rifqi",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Waveforms.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Audio_Waveform_and_Close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Ktmartin",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Audio_Waveform_and_Close-up.jpg"
+    },
+    "deeperDive": "A sound wave can be described by frequency, amplitude, and waveform shape. Frequency affects pitch, amplitude affects loudness, and waveform shape helps determine timbre, which is why two instruments can play the same note and still sound different. Humans hear roughly in the middle of the acoustic range, but many animals hear higher or lower frequencies and some machines produce vibrations outside our comfort zone. That is why sound engineering relies on graphing and analysis: once a signal becomes a waveform, its structure can be measured, compared, filtered, or transformed. The hidden spectrum includes ultrasound, infrasound, and the subtle overtones that make voices distinct. So the world is always vibrating more richly than our conscious experience suggests; hearing just happens to be the narrow window through which we usually notice it.",
+    "funFact": "Two sounds can have the same note and volume but still feel completely different because their waveforms are not the same.",
+    "references": [
+      "Acoustics and psychoacoustics review literature.",
+      "Waveform and spectrum visualization resources.",
+      "Wikimedia Commons image metadata for audio waveform and spectrum graphics."
+    ],
     "keyElements": {
       "people": [
-        "Hermann von Helmholtz",
-        "Julian Treasure",
-        "Dr. Andrew Frey"
+        "Acousticians - Scientists who measure and explain sound waves.",
+        "Psychoacoustics researchers - Experts studying how people perceive pitch and timbre.",
+        "Audio engineers - Specialists who visualize and shape sound.",
+        "Musicians and sound designers - Creators who work directly with waveform texture."
       ],
       "places": [
-        "MIT Media Lab",
-        "Acoustical Society of America (ASA) headquarters in New York City"
+        "Concert halls - Spaces where overtones and reverberation shape listening.",
+        "Recording studios - Controlled environments used to study and edit sound.",
+        "Laboratories - Where sound waves are measured and analyzed.",
+        "Natural soundscapes - Forests, oceans, and cities filled with layers of vibration."
       ],
       "years": [
-        "1850s",
-        "1970s",
-        "2018"
+        "1800s - Wave physics becomes central to acoustics.",
+        "1900s - Electrical recording makes sound analysis more precise.",
+        "1970s - Digital signal processing expands waveform study.",
+        "2020s - Visualization tools make the spectrum easier to explore."
       ],
       "concepts": [
-        "Sound waves and frequency ranges",
-        "The Doppler effect",
-        "Echolocation",
-        "Ultrasound technology"
+        "Frequency - The rate of wave vibration, which affects pitch.",
+        "Amplitude - Wave height, which affects loudness.",
+        "Timbre - The character that makes one sound different from another.",
+        "Ultrasound and infrasound - Frequencies outside ordinary human hearing."
       ]
     }
   }

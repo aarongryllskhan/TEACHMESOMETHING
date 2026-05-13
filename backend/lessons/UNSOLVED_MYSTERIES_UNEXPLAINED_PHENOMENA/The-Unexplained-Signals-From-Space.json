@@ -1,46 +1,66 @@
 {
   "topic": "Unexplained Signals from Space and the Science of Cosmic Radio Mysteries",
   "title": "Signals from the Cosmos: Fast Radio Bursts, Pulsars, and the Search for Meaning in Deep Space",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Vitino%2C_Pluton_deep_space_communications_planetary_radars%2C_Crimea.jpg/1920px-Vitino%2C_Pluton_deep_space_communications_planetary_radars%2C_Crimea.jpg?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Pulsar_Walibi_Belgium_overzicht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rickie97&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rickie97 (page does not exist)\">Rickie97</a>",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Pulsar_Walibi_Belgium_overzicht.jpg"
+  },
   "lesson": {
-    "learn": "Humanity has detected numerous unusual signals from space over the last century, but ‘unexplained’ does not necessarily mean extraterrestrial. Most mysterious astronomical signals eventually become understandable through better data, improved instrumentation, and deeper physical theory. Still, some phenomena remain active frontiers of research because they originate from extreme cosmic environments we are only beginning to understand.\n\nAmong the most famous examples are pulsars, the Wow! signal, and Fast Radio Bursts (FRBs). Pulsars were initially so strange that their first discoverers jokingly labeled them ‘LGM’ for ‘Little Green Men’ before scientists identified them as rapidly rotating neutron stars. The 1977 Wow! signal was a powerful narrowband radio signal detected once and never conclusively explained, though it has never been confirmed as alien communication. FRBs, first discovered in 2007, are now one of the most important modern astrophysical mysteries: millisecond-long bursts of radio energy, often originating from distant galaxies, with some releasing immense energy in incredibly short timeframes.\n\nCurrent evidence strongly suggests that most FRBs are natural astrophysical events, likely linked to exotic objects such as magnetars (highly magnetized neutron stars), though not all FRBs are fully understood.",
-    "simpler": "Strange space signals are often like hearing an unfamiliar sound in a dark forest: at first it may seem mysterious, but with enough investigation, it often turns out to come from natural—but sometimes extraordinary—sources.",
-    "keyTakeaway": "Many cosmic signals that seem mysterious are products of extreme astrophysics rather than alien technology, but studying them expands our understanding of the universe’s most energetic processes.",
-    "deeperDive": "Radio astronomy allows scientists to study invisible cosmic processes by detecting electromagnetic waves across vast distances. Key categories of unusual signals include:\n\n1. Pulsars — Rotating neutron stars emitting regular beams of radiation.\n\n2. Fast Radio Bursts (FRBs) — Millisecond radio flashes, some repeating, some one-off.\n\n3. SETI Candidate Signals — Narrowband signals examined for possible artificial origin.\n\n4. Cosmic Microwave and Background Noise — Radiation from natural large-scale processes.\n\nFRBs are especially fascinating because of their brightness and brevity. Some appear to repeat, allowing astronomers to localize their host galaxies, while others remain singular events. Magnetars currently represent one of the strongest hypotheses, especially after a galactic magnetar was observed producing FRB-like emissions.\n\nThe Wow! signal remains culturally iconic because it fit certain criteria expected of artificial transmissions, but no repeated source has validated that interpretation.\n\nImportantly, scientific rigor requires extraordinary evidence before claiming extraterrestrial intelligence. Signal interference from satellites, terrestrial radio noise, atmospheric effects, or instrumentation errors must always be ruled out first.\n\nModern observatories such as CHIME, FAST, Green Bank, and SETI initiatives use machine learning and advanced filtering to distinguish genuine cosmic phenomena from false positives.\n\nRather than proving alien life, unexplained signals more often reveal previously unknown astrophysical mechanisms—showing that the universe itself is often stranger than fiction.",
-    "funFact": "The first pulsar signal was so regular that researchers briefly considered the possibility of extraterrestrial intelligence before identifying its neutron star origin.",
+    "learn": "Signals from space feel mysterious because they arrive as brief flashes from a universe that is otherwise mostly silent to our ears. But astronomy has shown that many strange signals do have physical explanations. Pulsars are rapidly spinning neutron stars that sweep beams of radiation past Earth like cosmic lighthouses. Fast radio bursts are even shorter, more energetic radio flashes that likely come from extreme astrophysical events, such as magnetars or compact-object interactions.\nThe real challenge is not deciding whether the signals exist. It is figuring out what object or process created them. Radio telescopes can detect millisecond events from billions of light-years away, but they still have to prove where the signal came from and why it happened.",
+    "simpler": "Space signals are mysterious because they are brief and far away, but astronomy can still trace many of them to pulsars, magnetars, and other extreme objects.",
+    "keyTakeaway": "The real puzzle in cosmic radio signals is not whether they are real, but which extreme astrophysical process is producing them.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mount_Pleasant_Radio_Telescope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a href=\"https://en.wikipedia.org/wiki/User:Noodle_snacks\" class=\"extiw\" title=\"w:User:Noodle snacks\">Noodle snacks</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mount_Pleasant_Radio_Telescope.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Fast_Radio_Burst_Galaxies.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "NASA, ESA, A. Mannings (UC Santa Cruz), W. Fong (Northwestern), A. Pagan (STScI)",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Fast_Radio_Burst_Galaxies.jpg"
+    },
+    "deeperDive": "Pulsars were once so puzzling that the first detections were jokingly called LGM signals, short for little green men, before astronomers recognized them as natural. Fast radio bursts reopened the mystery because they are so short, so bright, and so hard to catch. Modern radio astronomy is a detective story: telescopes watch huge sections of sky, timing data are compared, and follow-up observations try to link a burst to a host galaxy or a specific kind of star.\nThe broader lesson is that the universe often looks more mysterious before the right instrument is pointed at it. Many unexplained signals turn out to be clues about an extreme environment rather than evidence of the impossible.",
+    "funFact": "The first pulsars were briefly so strange that astronomers joked they might be messages from aliens.",
     "references": [
-      "Jocelyn Bell Burnell — Pulsar discovery.",
-      "CHIME/FRB Collaboration.",
-      "SETI Institute.",
-      "Breakthrough Listen initiative.",
-      "Modern magnetar and FRB research."
+      "Radio astronomy and fast radio burst review literature.",
+      "Pulsar discovery history and neutron-star research.",
+      "Observatory documentation for radio transient detection."
     ],
     "keyElements": {
       "people": [
-        "Jocelyn Bell Burnell — Discovered pulsars in 1967.",
-        "Shriharsh Tendulkar — Helped localize repeating FRBs.",
-        "Victoria Kaspi — Major FRB and neutron star researcher.",
-        "Avi Loeb — Astrophysicist known for controversial extraterrestrial hypotheses."
+        "Jocelyn Bell Burnell - Co-discoverer of the first pulsars.",
+        "Antony Hewish - Led the team that first identified pulsars.",
+        "Astronomers studying FRBs - They connect signals to their host environments.",
+        "Radio telescope operators - They capture the rare, brief events."
       ],
       "places": [
-        "Parkes Observatory — Early FRB detections.",
-        "Arecibo Observatory — Historic radio astronomy site.",
-        "CHIME (Canada) — Major FRB detection instrument.",
-        "Green Bank Telescope — Radio astronomy and SETI research."
+        "Radio observatories - Where the sky is monitored for bursts.",
+        "Galaxies billions of light-years away - Common sources of transients.",
+        "Neutron-star environments - Sites of extreme magnetic and gravitational forces.",
+        "Data centers - Where huge telescope datasets are sifted for rare signals."
       ],
       "years": [
-        "1967 — Pulsars discovered.",
-        "1977 — Wow! signal detected.",
-        "2007 — First FRB formally identified.",
-        "2020s — Major FRB catalog expansion."
+        "1967 - The first pulsars are discovered.",
+        "2007 - Fast radio bursts enter modern astronomy.",
+        "2010s - Repeating FRBs and host galaxies are identified.",
+        "2020s - High-cadence surveys make cosmic transients easier to study."
       ],
       "concepts": [
-        "Fast Radio Bursts (FRBs) — Brief, intense cosmic radio pulses.",
-        "Pulsars — Rotating neutron stars.",
-        "Magnetars — Highly magnetized neutron stars.",
-        "SETI — Search for Extraterrestrial Intelligence.",
-        "Narrowband Signal Analysis — Potential artificial signal screening.",
-        "Radio Astronomy — Study of the universe via radio waves."
+        "Pulsar - A spinning neutron star that emits regular beams.",
+        "Fast radio burst - A millisecond radio flash from deep space.",
+        "Magnetar - A neutron star with an extreme magnetic field.",
+        "Transient signal - A signal that appears briefly and then vanishes.",
+        "Radio astronomy - The study of the universe using radio waves."
       ]
     }
   }

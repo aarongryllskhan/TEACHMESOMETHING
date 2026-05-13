@@ -1,57 +1,65 @@
 {
   "topic": "Night Flyers with Built-In Sonar",
   "title": "How Bats Outperform Human Radar in Darkness, Precision, and Speed",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big-eared-townsend-fledermaus.jpg",
-  "summary": "Long before humans invented radar, bats evolved a biological sonar system so advanced it can detect insects, avoid obstacles thinner than a human hair, and map environments in total darkness. Their echolocation is one of nature’s most sophisticated sensory technologies, combining physics, neurobiology, and split-second processing.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "PD-USGov, exact author unknown",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Big-eared-townsend-fledermaus.jpg"
+  },
   "lesson": {
-    "learn": "Echolocating bats navigate by emitting high-frequency sound pulses—often ultrasonic, beyond human hearing—and analyzing the returning echoes. These calls can exceed 100 decibels and are precisely shaped for different environments and hunting strategies.\n\nWhen sound waves bounce off objects, bats calculate distance, speed, direction, size, shape, and even texture based on tiny differences in echo timing, intensity, and frequency shift. Some species can detect time differences of microseconds, allowing extraordinary spatial resolution.\n\nUnlike many human radar systems, which often require large infrastructure and significant power, bats perform this complex sensory computation using compact biological systems in real time while flying at high speed.",
-    
-    "simpler": "Imagine throwing invisible sound flashes into the dark and instantly building a 3D map from every bounce-back. That’s how bats ‘see’ with sound.",
-    
-    "keyTakeaway": "Bat echolocation is more than navigation—it is an adaptive, high-speed biological imaging system capable of constructing detailed acoustic maps faster than many engineered systems.",
-    
-    "deeperDive": "Different bat species use distinct echolocation strategies depending on habitat. Frequency-modulated (FM) calls provide detailed short-range information useful in cluttered forests, while constant-frequency (CF) calls are especially effective for detecting motion, such as insect wingbeats.\n\nThe Doppler shift plays a major role in some bats’ hunting abilities. As prey moves, returning echoes shift frequency slightly, allowing bats to track speed and wing movement with astonishing sensitivity.\n\nNeural processing is equally extraordinary. Bat auditory cortices are highly specialized, with neurons tuned to specific echo delays and frequencies. This allows rapid interpretation of moving prey in three-dimensional space.\n\nSome moths have even evolved ears specifically to detect bat sonar, creating an evolutionary arms race. In response, certain bats alter call frequencies or reduce sound output to become stealthier hunters.\n\nModern engineers study bat biosonar for innovations in autonomous drones, robotic navigation, medical ultrasound, and search-and-rescue systems. Bat echolocation demonstrates that biological systems can solve sensory challenges with elegance and efficiency beyond many traditional technologies.",
-    
-    "funFact": "Some bats can detect an insect as thin as a human hair in complete darkness while simultaneously avoiding branches, tracking movement, and adjusting flight path in milliseconds.",
-    
+    "learn": "Bats use echolocation to build a sound-based picture of the world around them. They emit calls, listen to the returning echoes, and infer distance, size, texture, and motion with astonishing precision. What makes the system feel almost unreal is how quickly bats can adjust their calls as they fly. They do not send one fixed signal and wait. They constantly refine the pattern to match the target and the environment.\nRadar is an engineering achievement, but bats solve the same kind of problem in a biological package that is compact, adaptive, and astonishingly efficient in darkness.",
+    "simpler": "Bats use echoes from their own calls to navigate and hunt, letting them detect objects in the dark with remarkable precision.",
+    "keyTakeaway": "Bats are extraordinary not because they copy radar, but because their brains and vocal systems can adapt sound processing in real time.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Animal_echolocation_german.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Animal_echolocation.svg\" title=\"File:Animal echolocation.svg\">Animal echolocation.svg</a>: <a href=\"//commons.wikimedia.org/wiki/User:Petteri_Aimonen\" title=\"User:Petteri Aimonen\">Petteri Aimonen</a></li> <li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User_talk:Martin-rnr\" title=\"User talk:Martin-rnr\">Martin-rnr</a></li></ul>",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Animal_echolocation_german.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Bat_Flight_Amphitheater_%28from_top%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "daveynin",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bat_Flight_Amphitheater_(from_top).jpg"
+    },
+    "deeperDive": "Echolocation works by measuring the time delay and quality of echoes returning from an object. Some bats alter call frequency, duration, and repetition rate depending on whether they are searching, tracking, or capturing prey. That flexibility lets them solve a moving-target problem far faster than a simple sensor would. Researchers from Donald Griffin onward have shown that the system is a sophisticated interaction between mouth, ear, and brain.\nThe comparison to radar is useful, but it should not be taken too literally. Radar uses radio waves and hardware; bats use sound and physiology. What bats demonstrate is that evolution can build a highly tuned sensing system without electronics. That is the real marvel.",
+    "funFact": "A bat can change its call pattern so quickly that its own hearing is part of the navigation loop.",
     "references": [
-      "Lazzaro Spallanzani — Early foundational discoveries on bat navigation.",
-      "Donald Griffin — Pioneer who demonstrated bat sonar scientifically.",
-      "Cynthia Moss — Major research on bat sensory-motor integration.",
-      "Journal of Experimental Biology — Bat biosonar studies.",
-      "Bat Conservation International — Species-specific sensory research."
+      "Echolocation and biosonar research.",
+      "Bat neuroscience and auditory processing literature.",
+      "Wikimedia Commons image metadata for bat and biosonar imagery."
     ],
-    
     "keyElements": {
       "people": [
-        "Lazzaro Spallanzani — Early scientist who first investigated bat navigation in darkness.",
-        "Donald Griffin — Biologist who helped prove bats use echolocation.",
-        "Cynthia Moss — Leading expert on bat auditory processing and flight control.",
-        "Annemarie Surlykke — Researcher specializing in bat and moth acoustic interactions."
+        "Donald Griffin - Scientist who helped establish bat echolocation research.",
+        "Robert Galambos - Early researcher on bat biosonar.",
+        "Bat neurobiologists - They study how the brain processes echoes.",
+        "Field biologists - They observe how bats hunt and navigate in nature."
       ],
-      
       "places": [
-        "Johns Hopkins University — Major center for bat neurobiology research.",
-        "Bat Conservation International, Texas — Global bat research and conservation hub.",
-        "Smithsonian Tropical Research Institute — Studies on tropical bat species.",
-        "Cave ecosystems worldwide — Natural laboratories for echolocation evolution."
+        "Caves - Common roosting and study sites for bats.",
+        "Forests - Environments where echolocation must stay precise.",
+        "Laboratories - Where call patterns and hearing are tested.",
+        "Night skies - The setting where bats make their adaptive system work."
       ],
-      
       "years": [
-        "1793 — Spallanzani’s early experiments on bat navigation.",
-        "1938–1944 — Donald Griffin helps establish sonar-based understanding.",
-        "20th Century — Expansion of neuroethology and bat biosonar science.",
-        "Modern Era — Biomimetic sonar influences robotics and autonomous systems."
+        "1790s - Early naturalists begin studying bat navigation.",
+        "1940s - Modern echolocation research takes shape.",
+        "2000s - High-speed recording reveals call flexibility in detail."
       ],
-      
       "concepts": [
-        "Echolocation — Biological sonar using sound emission and echo interpretation.",
-        "Ultrasound — Sound frequencies above human hearing.",
-        "Frequency Modulation (FM) — Rapid frequency changes for detailed spatial mapping.",
-        "Constant Frequency (CF) — Stable-frequency calls optimized for motion detection.",
-        "Doppler Shift — Frequency change caused by moving targets.",
-        "Neuroethology — Study of neural mechanisms behind natural behavior.",
-        "Biomimicry — Technological design inspired by biological systems."
+        "Echolocation - Locating objects by listening to echoes.",
+        "Biosonar - Biological sonar used by animals.",
+        "Doppler shift - Frequency change caused by motion.",
+        "Call modulation - Adjusting a signal for the situation.",
+        "Time delay - The interval used to estimate distance."
       ]
     }
   }

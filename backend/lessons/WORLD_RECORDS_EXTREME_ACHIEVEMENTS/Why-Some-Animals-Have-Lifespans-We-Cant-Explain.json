@@ -1,48 +1,66 @@
 {
   "topic": "Factors Influencing Animal Lifespan",
   "title": "The Biology of Extreme Longevity: Why Some Animals Live for Centuries",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowhead%20Whale%20NOAA.jpg",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bowhead_Whale_NOAA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Vicki Beaver, Alaska Fisheries Science Center, NOAA FIsheries, Marine Mammal Permit#14245",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Bowhead_Whale_NOAA.jpg"
+  },
   "lesson": {
-    "learn": "Lifespan is influenced by a species’ evolutionary strategy, environmental risks, metabolic rate, and genetic adaptations. In biology, longevity is often linked to life history theory: species in environments with low predation and stable conditions may benefit from slower growth, delayed reproduction, and enhanced maintenance systems that support longer life.\n\nOne of the most extraordinary examples is the bowhead whale (Balaena mysticetus), the longest-lived mammal scientifically documented. Bowheads can exceed 200 years of age, with some individuals estimated to have lived over two centuries based on harpoon fragments found embedded in tissue and molecular aging techniques such as aspartic acid racemization. Native to Arctic waters, bowhead whales experience cold temperatures, low predation, and slow metabolic processes, all of which may contribute to exceptional longevity.\n\nGenomic studies have revealed that bowhead whales possess unique adaptations in DNA repair, cell-cycle regulation, and cancer resistance. These findings are particularly important because large-bodied animals theoretically face greater cancer risk due to having more cells, yet bowheads appear unusually resistant—an example relevant to Peto’s Paradox.\n\nOther exceptionally long-lived species follow different evolutionary paths. Greenland sharks may live 250 to 400 years, making them among the longest-lived vertebrates known. Giant tortoises often surpass 100 years, while some deep-sea fish species such as rougheye rockfish may exceed 200 years. Across these species, common patterns often include slow metabolism, stable habitats, reduced predation, and robust biological maintenance systems.",
-    "simpler": "Animals that live the longest are often designed less like high-speed machines and more like ultra-durable systems—growing slowly, reproducing strategically, and investing heavily in long-term cellular maintenance.",
-    "keyTakeaway": "Extreme longevity is shaped by a combination of genetics, ecological stability, metabolic efficiency, and evolutionary strategy—not by a single secret to long life.",
-    "deeperDive": "At the cellular level, aging is influenced by DNA damage accumulation, oxidative stress, telomere shortening, protein misfolding, and declining repair systems. Long-lived species often demonstrate enhanced resilience in several of these areas.\n\nBowhead whales, for example, show genetic changes related to DNA repair, thermoregulation, and cellular maintenance. Their cold-water environment may also reduce metabolic strain and oxidative damage. Greenland sharks similarly benefit from deep, cold habitats and extraordinarily slow growth rates.\n\nLife history theory helps explain why not all species evolve for long life. Organisms in high-risk environments often prioritize rapid maturation and reproduction over long-term maintenance. In contrast, species with fewer predators and more stable ecosystems can allocate more energy toward repair and survival.\n\nResearch into long-lived animals also informs human medicine. Comparative genomics and biogerontology examine how cancer suppression, proteostasis, and metabolic regulation in long-lived species might one day contribute to therapies for human aging and age-related diseases.\n\nImportantly, not all longevity claims are equally verified. While some stories—such as koi fish living over 200 years—are culturally famous, the strongest scientific longevity records rely on validated molecular or radiocarbon methods.",
-    "funFact": "Some Greenland sharks alive today may have been swimming in Arctic waters before the United States was founded.",
+    "learn": "Some animals live far longer than we might expect because evolution tuned their bodies to resist damage, slow aging, and maintain repair systems for decades or even centuries. Bowhead whales, certain turtles, naked mole-rats, and some sharks have biological strategies that make their aging process unusually slow. The question is not just how long they live, but how they keep so much of their tissue working for so long.\nThat makes longevity a biology puzzle rather than a simple record. Long life can come from slow metabolism, cancer resistance, repair efficiency, and environmental stability working together.",
+    "simpler": "Some animals live for centuries because their bodies are especially good at repairing damage and resisting aging.",
+    "keyTakeaway": "Extreme lifespan is not one trick; it is a collection of repair, protection, and low-damage strategies that evolution has stacked together over time.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/a/a4/FMIB_34098_Balaena_mysticetus%2C_Linne_Bowhead_Whale.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Frederick_W._True\" class=\"extiw\" title=\"w:en:Frederick W. True\"><span title=\"American biologist, mammalogist and curator (1858-1914)\">Frederick W. True</span></a></bdi>",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:FMIB_34098_Balaena_mysticetus,_Linne_Bowhead_Whale.jpeg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/5/52/Tortoise_portrait.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Moise_Nicu\" title=\"User:Moise Nicu\">Moise Nicu</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tortoise_portrait.JPG"
+    },
+    "deeperDive": "Longevity research shows that different species solve aging in different ways. Bowhead whales appear to have powerful DNA repair and cancer-resistance systems. Turtles can slow metabolism and withstand stress for a very long time. Naked mole-rats maintain healthy tissues surprisingly well despite their size. Scientists are still working to understand how these animals delay the breakdown that most mammals experience with age.\nThese species matter because they reveal that aging is not one single process. It is a web of damage, repair, inflammation, metabolism, and environmental pressures. If some animals can stretch that system much farther than humans can, then aging is not a fixed fate. It is a biological outcome shaped by evolution.",
+    "funFact": "A bowhead whale can live for centuries while carrying many of the same basic mammal systems humans have.",
     "references": [
-      "Keane et al. (2015). Insights into the evolution of longevity from the bowhead whale genome.",
-      "Nielsen et al. (2016). Eye lens radiocarbon dating of Greenland sharks.",
-      "George et al. Bowhead whale age estimation studies.",
-      "Peto’s Paradox and comparative oncology research.",
-      "Life history theory in evolutionary biology."
+      "Longevity and aging research in animals.",
+      "Comparative biology and cancer resistance studies.",
+      "Wikimedia Commons image metadata for long-lived animal imagery."
     ],
     "keyElements": {
       "people": [
-        "Dr. João Pedro de Magalhães — Biogerontologist specializing in comparative aging and longevity.",
-        "Dr. Steven Austad — Researcher in animal aging and lifespan evolution.",
-        "Dr. Craig George — Bowhead whale biologist known for age estimation studies.",
-        "Julius Nielsen — Marine biologist who helped estimate Greenland shark lifespan through radiocarbon dating.",
-        "Richard Peto — Epidemiologist associated with Peto’s Paradox."
+        "Comparative biologists - They study why some species age more slowly.",
+        "Gerontologists - They investigate the biology of aging.",
+        "Evolutionary biologists - They explain why longevity traits persist.",
+        "Wildlife researchers - They document lifespan and survival in nature."
       ],
       "places": [
-        "Arctic Circle — Habitat of bowhead whales and Greenland sharks.",
-        "Galápagos Islands — Home to iconic long-lived giant tortoises.",
-        "North Atlantic Deep Waters — Greenland shark habitat.",
-        "Alaskan and Canadian Arctic regions — Major bowhead whale study zones."
+        "Polar oceans - Home to bowhead whales.",
+        "Freshwater and marine habitats - Where long-lived turtles and sharks live.",
+        "Burrows - Where naked mole-rats maintain social colonies.",
+        "Longevity labs - Where aging mechanisms are tested."
       ],
       "years": [
-        "2007 — Major bowhead whale genomic and aging studies expand.",
-        "2015 — Bowhead whale genome study published.",
-        "2016 — Greenland shark lifespan study gains global attention.",
-        "Modern Era — Comparative longevity research accelerates."
+        "1990s - Longevity biology becomes a stronger research field.",
+        "2000s - Genome studies reveal repair-related differences.",
+        "2010s - Comparative aging research gains momentum.",
+        "2020s - Scientists continue hunting for mechanisms of extreme lifespan."
       ],
       "concepts": [
-        "Life History Theory — Evolutionary framework balancing growth, reproduction, and survival.",
-        "Peto’s Paradox — Observation that larger animals do not necessarily have higher cancer rates.",
-        "Radiocarbon Dating — Method for estimating biological age in long-lived species.",
-        "DNA Repair Mechanisms — Cellular systems that reduce accumulated damage.",
-        "Metabolic Rate — Energy expenditure linked to lifespan strategies.",
-        "Comparative Genomics — Cross-species genetic analysis for longevity science.",
-        "Oxidative Stress — Cellular damage associated with aging."
+        "Aging - The gradual loss of function over time.",
+        "DNA repair - Fixing genetic damage before it accumulates.",
+        "Cancer resistance - Biological systems that limit tumors.",
+        "Metabolic rate - How quickly an animal uses energy.",
+        "Comparative biology - Studying different species to understand life processes."
       ]
     }
   }

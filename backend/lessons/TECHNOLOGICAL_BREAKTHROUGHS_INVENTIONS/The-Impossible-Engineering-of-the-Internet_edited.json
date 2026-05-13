@@ -2,39 +2,64 @@
   "topic": "How Humanity Built the Invisible Machine Running Modern Civilization",
   "title": "The Engineering of the Internet: From Cold War Experiment to the Global Digital Nervous System",
   "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-  "summary": "The internet is one of the most complex engineering achievements in human history—a decentralized global system that allows billions of devices to exchange information almost instantly. Built through breakthroughs in networking, protocols, infrastructure, and standardization, it transformed communication, commerce, science, and society.",
+  "imageCredit": {
+    "creator": "The Opte Project",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Internet_map_1024.jpg"
+  },
   "lesson": {
-    "learn": "The internet began as a solution to a major engineering problem: how to create resilient communication between computers across long distances. In 1969, ARPANET, funded by the U.S. Department of Defense’s Advanced Research Projects Agency (ARPA), successfully connected distant computers using packet switching—a revolutionary method that broke data into smaller packets rather than sending it as one continuous stream.\n\nPacket switching made networks more efficient and resilient because information could travel through multiple routes instead of relying on a single dedicated line. This foundational idea eventually evolved into the modern internet, where billions of packets move constantly across routers, cables, satellites, and wireless systems.",
-    "simpler": "Think of the internet like a global postal system for digital information. Instead of sending one giant package, it breaks your message into tiny pieces, sends them through different routes, and reassembles them when they arrive.",
-    "keyTakeaway": "The internet’s greatest engineering strength is standardized communication—shared protocols allow completely different devices and networks worldwide to exchange information reliably.",
+    "learn": "The internet is one of the most astonishing engineering achievements in history because it joins many independent networks into a system that feels simple to use. At its core are packets, routers, addressing, protocols, and redundancy. Those pieces let information move across long distances, survive failures, and reach the right device almost instantly. What feels like a single global web is really a carefully layered system of rules and infrastructure. The internet mattered because it made communication, publishing, commerce, and computing deeply interconnected. It is not just a network of machines. It is the infrastructure that lets modern society exchange information at scale.",
+    "simpler": "The internet works because many separate networks follow shared rules that let data move reliably around the world.",
+    "keyTakeaway": "The internet changed civilization by making communication modular, resilient, and global, turning scattered networks into a shared digital system that almost every modern activity now depends on.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "deeperDive": "A defining breakthrough came with TCP/IP, developed by Vint Cerf and Bob Kahn in the 1970s. TCP (Transmission Control Protocol) ensured data packets arrived accurately and in order, while IP (Internet Protocol) handled addressing and routing. On January 1, 1983—often called the internet’s official birthday—ARPANET adopted TCP/IP as its universal standard.\n\nLater, Tim Berners-Lee’s invention of the World Wide Web in 1989–1991 introduced HTTP, HTML, and URLs, making the internet accessible to ordinary users through websites and browsers.\n\nToday’s internet depends on submarine fiber-optic cables, data centers, DNS servers, wireless towers, satellites, and massive cloud infrastructure. Rather than a single system, it is a network of networks—a constantly evolving engineering ecosystem designed for scale, redundancy, and speed.",
-    "funFact": "Roughly 95% of international internet traffic travels through undersea fiber-optic cables on the ocean floor—not satellites—forming a hidden physical backbone beneath the world’s oceans.",
+    "learnImageCredit": {
+      "creator": "ARPANET",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Arpanet_logical_map,_march_1977.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "The Opte Project",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Internet_map_1024.jpg"
+    },
+    "deeperDive": "The engineering genius of the internet is that it does not require one perfect machine. It tolerates failure by breaking data into packets and routing them through whatever paths are available. Protocols like TCP/IP make those packets intelligible across different hardware, while DNS, routers, and fiber-optic cables provide the connective tissue. That design is why the internet expanded so well: every new network could join without replacing the whole system. This architecture also changed how services are built. Instead of one giant centralized computer, the internet supports distributed applications, cloud systems, streaming, remote work, and instant global publishing. It is one of the clearest examples of a technology that is both invisible and foundational. Most people do not see the wires, protocols, or routing tables, but almost everything they do online depends on them.",
+    "funFact": "The internet works so well because it was designed to keep functioning even when parts of it fail.",
+    "references": [
+      "Internet architecture and networking standards references.",
+      "ARPANET and TCP/IP history literature.",
+      "Wikimedia Commons image metadata for internet-network imagery."
+    ],
     "keyElements": {
       "people": [
-        "Vint Cerf — Co-designer of TCP/IP, often called one of the fathers of the internet.",
-        "Bob Kahn — Co-creator of TCP/IP and packet-based networking architecture.",
-        "Tim Berners-Lee — Inventor of the World Wide Web, HTTP, and HTML.",
-        "Ray Tomlinson — Engineer who sent the first network email and introduced the @ symbol."
+        "Network engineers - Build and maintain the internet's physical and logical layers.",
+        "Protocol designers - Define how data is addressed and delivered.",
+        "Researchers at ARPA and universities - Laid the foundations of packet networking.",
+        "Web developers and platform builders - Turn the internet into usable services."
       ],
       "places": [
-        "ARPA (United States) — Origin of ARPANET research.",
-        "Stanford Research Institute — Site of early ARPANET connections.",
-        "CERN (Switzerland) — Birthplace of the World Wide Web.",
-        "Global submarine cable networks — Physical infrastructure connecting continents."
+        "Data centers - Major hubs of digital infrastructure.",
+        "Undersea cable routes - The hidden backbone of global networking.",
+        "Routers and exchanges - Places where data is handed off between networks.",
+        "Homes and offices - The end points where the internet becomes everyday life."
       ],
       "years": [
-        "1969 — First ARPANET connection established.",
-        "1971 — First email sent by Ray Tomlinson.",
-        "1983 — TCP/IP becomes the standard protocol.",
-        "1989–1991 — Tim Berners-Lee develops the World Wide Web."
+        "1969 - ARPANET connects early nodes.",
+        "1983 - TCP/IP becomes the core language of the internet.",
+        "1990s - The web turns the internet into a mass medium.",
+        "2000s-2020s - Mobile, cloud, and streaming services deepen dependence on the network."
       ],
       "concepts": [
-        "Packet Switching — Breaking data into packets for flexible routing.",
-        "TCP/IP — Core protocol suite enabling global communication.",
-        "DNS — Domain Name System translating names into IP addresses.",
-        "HTTP/HTML — Web communication and page structure standards.",
-        "Cloud Computing — Distributed infrastructure powering modern internet services."
+        "Packet switching - Breaking data into small units that can travel independently.",
+        "TCP/IP - The protocol stack that lets networks interoperate.",
+        "Redundancy - Multiple paths that keep the system alive when parts fail.",
+        "Distributed network - A system with no single central point of control."
       ]
     }
   }

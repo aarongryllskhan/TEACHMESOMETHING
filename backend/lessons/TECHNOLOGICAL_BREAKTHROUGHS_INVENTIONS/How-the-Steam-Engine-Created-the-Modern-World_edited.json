@@ -2,36 +2,64 @@
   "topic": "The Machine That Powered Humanity’s Leap Into the Modern World",
   "title": "Steam Engines and the Industrial Revolution: How Boiling Water Reshaped Civilization",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Maquina_vapor_Watt_ETSIIM.jpg/960px-Maquina_vapor_Watt_ETSIIM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "summary": "The steam engine transformed heat into mechanical power on an unprecedented scale, becoming one of the foundational technologies behind industrialization. By powering factories, locomotives, mines, and ships, it reshaped economies, cities, labor systems, and global trade.",
+  "imageCredit": {
+    "creator": "Nicolás Pérez",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Maquina_vapor_Watt_ETSIIM.jpg"
+  },
   "lesson": {
-    "learn": "The steam engine was one of history’s most important engineering breakthroughs because it provided reliable mechanical power independent of wind, water currents, or animal labor. Thomas Newcomen’s 1712 atmospheric engine was initially designed to pump water from flooded mines, solving a major industrial problem.\n\nJames Watt’s improvements in the late 18th century—especially the separate condenser—dramatically increased efficiency, making steam engines practical for widespread industrial use. Steam power could now drive textile mills, factory machines, transportation systems, and heavy industry, creating a new era where production was no longer limited by geography or natural power sources.",
-    "simpler": "Imagine replacing thousands of workers turning wheels by hand with a machine powered by boiling water. Steam engines turned heat into motion, allowing factories and transportation systems to run faster, longer, and on a much larger scale.",
-    "keyTakeaway": "The steam engine’s greatest impact was turning heat into scalable mechanical power, enabling industrialization, rapid transportation, and the rise of modern economies.",
+    "learn": "The steam engine created the modern world by turning heat into reliable mechanical work at scale. Before steam, industry depended on wind, water, animals, and human muscle. Steam engines broke those limits by providing portable, controllable power for mines, factories, transport, and eventually railways and ships. That shift helped concentrate production, expand trade, and remake cities around industrial energy. The steam engine also changed the way people thought about power itself. Once heat could be converted into motion reliably, the world moved from local energy sources to systems built around fuel, machines, and infrastructure. That is why steam is not just an old technology. It is the bridge from preindustrial labor to mechanized civilization.",
+    "simpler": "Steam engines turned heat into usable power, which made factories, trains, and industrial growth possible on a huge scale.",
+    "keyTakeaway": "The steam engine changed civilization because it made mechanical power portable and dependable, allowing industry and transportation to break free from the limits of local natural forces.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Steam_engine_in_action.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "deeperDive": "Steam engines operate by heating water to create steam, which expands and pushes pistons or turbines. This conversion of thermal energy into mechanical work became central to thermodynamics and engineering.\n\nSteam power fueled the Industrial Revolution by mechanizing textile production, mining, metallurgy, and transportation. Railways allowed goods and people to move at unprecedented speeds, while steamships transformed global trade by reducing dependence on wind patterns.\n\nEntire cities such as Manchester and Birmingham became industrial hubs, and societies shifted from agrarian economies toward manufacturing and urban labor systems. Steam technology also laid the foundation for later energy systems, influencing internal combustion engines, electricity generation, and modern mechanical engineering.",
-    "funFact": "Before steam locomotives, transporting heavy cargo over land often depended on horses. Early rail steam engines could move loads many times heavier and faster, fundamentally changing trade and travel.",
+    "learnImageCredit": {
+      "creator": "Panther",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Steam_engine_in_action.gif"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Watt_steam_pumping_engine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Robert H. Thurston",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Watt_steam_pumping_engine.JPG"
+    },
+    "deeperDive": "The key innovation was not just a piston or a boiler. It was the ability to convert thermal energy into repeated motion that humans could harness whenever they needed it. Early engines improved mining by pumping water out of deep shafts, and later designs powered mills, locomotives, and ships. As steam systems grew more efficient, they made factories larger and production more centralized, which in turn reshaped labor, urban life, and global trade. The steam engine also created a new industrial mindset. If power could be produced on demand, then scale became a design choice. That idea helped launch modern engineering, mass production, and transportation networks. Steam did not simply improve work. It changed what societies thought work could be.",
+    "funFact": "Steam engines helped turn coal into motion, and that unlocked industries that had been impossible with muscle and wind alone.",
+    "references": [
+      "Steam-engine history and industrial-revolution references.",
+      "Mechanical engineering and thermodynamics literature.",
+      "Wikimedia Commons image metadata for steam-engine imagery."
+    ],
     "keyElements": {
       "people": [
-        "Thomas Newcomen — Built the first practical steam-powered engine in 1712.",
-        "James Watt — Improved steam efficiency and transformed it into a widespread industrial power source.",
-        "Richard Trevithick — Developed early high-pressure steam locomotives."
+        "James Watt - Improved steam-engine efficiency in a way that mattered commercially.",
+        "Engineers - Turned steam from an invention into infrastructure.",
+        "Factory owners - Used steam power to scale production.",
+        "Railway builders - Applied steam to transport and logistics."
       ],
       "places": [
-        "England — Birthplace of major steam engine development during the Industrial Revolution.",
-        "Manchester — Major textile and manufacturing center powered by steam.",
-        "Birmingham — Industrial engineering hub tied to Watt and Boulton’s innovations."
+        "Mines - Early sites where steam engines pumped water.",
+        "Factories - Where steam power transformed production.",
+        "Rail lines and ports - Where steam transformed transportation.",
+        "Industrial cities - Where steam reshaped labor and urban growth."
       ],
       "years": [
-        "1712 — Newcomen builds the first practical steam engine.",
-        "1760s–1770s — James Watt develops major efficiency improvements.",
-        "1804 — Richard Trevithick demonstrates an early steam locomotive."
+        "Late 1700s - Steam-engine improvements accelerate industrialization.",
+        "1800s - Steam powers railways, ships, and large factories.",
+        "19th century - Steam becomes the signature technology of industrial modernity.",
+        "20th century - Internal combustion and electricity extend but do not erase steam's legacy."
       ],
       "concepts": [
-        "Thermodynamics — Conversion of heat into mechanical work.",
-        "Industrialization — Mechanized large-scale manufacturing.",
-        "Mechanization — Replacing manual labor with machines.",
-        "High-Pressure Steam — More powerful engine systems.",
-        "Mass Transportation — Railways and steamships transforming trade."
+        "Thermal energy - Heat energy that can be converted into work.",
+        "Mechanical work - Motion produced by a machine.",
+        "Efficiency - How much useful work comes from the fuel burned.",
+        "Industrialization - The shift to machine-based production at scale."
       ]
     }
   }

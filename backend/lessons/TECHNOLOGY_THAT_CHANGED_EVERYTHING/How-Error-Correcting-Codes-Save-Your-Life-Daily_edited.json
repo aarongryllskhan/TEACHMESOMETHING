@@ -2,44 +2,64 @@
   "topic": "The Invisible Math That Keeps Your Data Alive",
   "title": "How Error-Correcting Codes Quietly Protect Everything from Texts to Space Missions",
   "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/PersonalStorageDevices.agr.jpg",
-  "summary": "Every text message, streamed video, satellite transmission, and saved file depends on hidden mathematical systems designed to detect and repair mistakes. Error-correcting codes are the silent guardians of digital life, ensuring information survives noise, corruption, and distance.",
+  "imageCredit": {
+    "creator": "-- agr 15:53, 1 Apr 2005 (UTC)",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:PersonalStorageDevices.agr.jpg"
+  },
   "lesson": {
-    "learn": "Error-correcting codes are mathematical systems that add carefully designed redundancy to digital information so errors can be detected and often corrected without needing retransmission. Whenever data moves through noisy channels—such as Wi-Fi, mobile networks, storage drives, or deep-space communication—bits can be flipped or lost. Error-correcting codes solve this by encoding data with extra structured information. At the receiving end, algorithms analyze the pattern of received bits, identify inconsistencies, and reconstruct the original message. This principle is essential to reliable computing and communication, from QR codes and hard drives to Mars rover transmissions.",
-    
-    "image2": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Qrcode_wikipedia.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20110112164952",
-    
-    "simpler": "Imagine sending a message where some letters might get smudged along the way. Error-correcting codes work like adding smart backup clues so the receiver can figure out the missing or damaged parts without asking you to send it again.",
-    
-    "keyTakeaway": "Error-correcting codes make digital systems trustworthy by detecting and repairing errors, allowing modern technology to function reliably even in imperfect conditions.",
-    
-    "deeperDive": "The foundation of modern coding theory began with Richard Hamming, who developed one of the first practical systems for automatic error correction after becoming frustrated by unreliable computer systems. Hamming codes introduced structured parity bits that could both detect and correct single-bit errors.\n\nMore advanced systems followed. Reed-Solomon codes became essential for CDs, DVDs, QR codes, and spacecraft because they excel at correcting burst errors—clusters of corrupted data. This is why scratched discs can still play and damaged QR codes often still scan.\n\nLow-Density Parity-Check (LDPC) codes, first proposed by Robert Gallager, later became crucial in satellite links, Wi-Fi standards, 5G, and deep-space missions due to their near-Shannon-limit efficiency. Turbo codes and LDPC codes are particularly powerful because they approach the theoretical maximum efficiency of data transmission described by Claude Shannon.\n\nToday, error-correcting systems protect cloud storage, blockchain systems, DNA sequencing, autonomous vehicles, and interplanetary exploration. NASA, for example, relies on advanced coding systems so faint signals from distant spacecraft can arrive intact across billions of kilometers.",
-    "funFact": "The same mathematical principles that help scratched DVDs play correctly are also used to receive images from spacecraft exploring distant planets.",
+    "learn": "Error-correcting codes save data by adding structure that lets systems detect and repair mistakes. That matters because information is constantly damaged by noise: storage wear, transmission interference, cosmic radiation, weak signals, and hardware glitches all create errors. A clever code can preserve the original message even when part of it is lost or altered. That is why these codes protect everything from hard drives and mobile calls to space probes and deep-space communication. The idea is beautifully mathematical. Instead of trying to prevent every error, engineers design data so that errors can be recognized and reconstructed. That turns unreliable channels into dependable ones.",
+    "simpler": "Error-correcting codes add extra structure to data so computers can spot and fix mistakes before the information is lost.",
+    "keyTakeaway": "Error-correcting codes are essential because perfect hardware does not exist; the real trick is making information survive noise, failure, and distance.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Huffman_tree.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Dcoetzee",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Huffman_tree.svg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Reed_Solomon_Code.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Unknown",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Reed_Solomon_Code.gif"
+    },
+    "deeperDive": "Different codes solve different kinds of problems. Some are good at catching single-bit errors, while others can recover from larger bursts of damage. Reed-Solomon codes are famous because they protect storage media and communications by using algebra over blocks of data. Huffman coding, by contrast, is primarily a compression method, but it shows how structured coding can pack information efficiently by assigning shorter codes to more frequent symbols. Together, these tools reveal a central fact about digital life: redundancy is not wasteful when it is the reason data survives. This is why error correction appears everywhere. When the stakes are high, from DVDs to satellites, extra bits are not a luxury. They are the reason the message arrives intact. Error correction is the invisible safety net of the digital world.",
+    "funFact": "A little extra redundancy can make a message survive damage that would otherwise destroy it completely.",
+    "references": [
+      "Coding theory and error-correction review literature.",
+      "Reed-Solomon and storage/communications references.",
+      "Wikimedia Commons image metadata for code diagrams."
+    ],
     "keyElements": {
       "people": [
-        "Richard Hamming — Developed Hamming codes, one of the first practical error-correcting systems.",
-        "Claude Shannon — Founded information theory, establishing the mathematical limits of communication reliability.",
-        "Robert Gallager — Invented Low-Density Parity-Check (LDPC) codes.",
-        "Irving Reed and Gustave Solomon — Created Reed-Solomon codes used in digital storage and communications."
+        "Claude Shannon - Helped define the theory behind reliable communication.",
+        "Coding theorists - Design codes that detect and repair errors.",
+        "Engineers - Apply those codes to devices and networks.",
+        "Space mission teams - Rely on robust codes for long-distance transmission."
       ],
       "places": [
-        "Bell Labs, New Jersey, USA — Birthplace of foundational coding and information theory breakthroughs.",
-        "MIT, Massachusetts, USA — Major center for information theory research.",
-        "NASA Jet Propulsion Laboratory, California, USA — Uses advanced coding systems for deep-space missions.",
-        "Global telecommunications networks — Everyday infrastructure relying on coding theory."
+        "Storage devices - Where error correction protects files.",
+        "Communication links - Where noise can damage signals.",
+        "Deep-space networks - Where recovery from errors is critical.",
+        "Data centers - Places where code integrity matters at scale."
       ],
       "years": [
-        "1948 — Claude Shannon publishes A Mathematical Theory of Communication.",
-        "1950 — Richard Hamming introduces Hamming codes.",
-        "1960 — Reed-Solomon codes are developed.",
-        "1963 — Robert Gallager introduces LDPC codes."
+        "1948 - Shannon's information theory reshapes communication.",
+        "1950s-1960s - Practical coding theory advances quickly.",
+        "1970s-1990s - Reed-Solomon becomes a workhorse in storage and communications.",
+        "2020s - Error correction remains essential in nearly every digital system."
       ],
       "concepts": [
-        "Error Detection — Identifying whether transmitted data has been corrupted.",
-        "Error Correction — Reconstructing original information from damaged data.",
-        "Redundancy — Adding structured extra information to protect data.",
-        "Hamming Code — Early practical code for single-bit correction.",
-        "Reed-Solomon Code — Powerful burst-error correction used in storage and broadcasting.",
-        "LDPC Code — Highly efficient modern coding system used in advanced communications."
+        "Redundancy - Extra information added for reliability.",
+        "Parity - A simple way to detect some errors.",
+        "Reed-Solomon code - A powerful code for burst-error correction.",
+        "Decoding - Reconstructing the intended message from damaged data."
       ]
     }
   }

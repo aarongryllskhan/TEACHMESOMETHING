@@ -1,47 +1,66 @@
 {
   "topic": "Human Endurance",
   "title": "The Unseen Superpower: Why Humans Are Built to Go the Distance",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zermatt_Marathon_2017_Riffelberg.jpg",
-  "summary": "Human endurance is one of the defining physical advantages of our species. Unlike animals built primarily for short bursts of speed, humans evolved traits that support sustained movement across long distances, especially in hot environments.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Zermatt_Marathon_2017_Riffelberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Sigma1498\" title=\"User:Sigma1498\">Johann Conus</a>",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Zermatt_Marathon_2017_Riffelberg.jpg"
+  },
   "lesson": {
-    "learn": "Human endurance is rooted in a combination of thermoregulation, biomechanics, and aerobic efficiency. Humans have millions of eccrine sweat glands distributed across the body, allowing heat to be released through evaporation while continuing to move. This gives humans a major advantage in hot conditions compared with many mammals that rely heavily on panting.\n\nBipedal movement also contributes to endurance. Walking and running upright reduce direct exposure to solar heat, allow breathing patterns to remain independent from stride, and make long-distance travel more efficient. Anatomical features such as long legs, short toes, spring-like Achilles tendons, strong gluteal muscles, and the nuchal ligament all support stable, repeated movement over long periods.\n\nResearchers Daniel Lieberman and Dennis Bramble argued that endurance running played an important role in human evolution. These traits may have supported persistence hunting, where early humans pursued prey for hours until the animal became exhausted or overheated.",
-    "simpler": "Many animals are built like race cars: extremely fast, but only for a short time. Humans are built more like long-range expedition vehicles: slower, but efficient, durable, and able to keep going in heat and difficult terrain.",
-    "keyTakeaway": "The human body’s greatest athletic advantage is not speed or strength, but the ability to sustain effort over long distances.",
-    "deeperDive": "Modern endurance performance depends on several major systems working together. VO2 max measures the body’s maximum ability to use oxygen during intense exercise, while lactate threshold helps determine how long a person can sustain hard effort before fatigue rises sharply.\n\nEndurance training also changes the body at the cellular level. Repeated aerobic exercise stimulates mitochondrial biogenesis, increasing the number and efficiency of mitochondria in muscle cells. This improves the body’s ability to produce energy aerobically and delays fatigue.\n\nThe brain also plays a major role. Tim Noakes’ Central Governor Theory proposes that fatigue is partly regulated by the brain to protect the body from dangerous physiological stress. While debated, the theory highlights that endurance is not only physical—it is also neurological and psychological.",
-    "funFact": "Over an average lifetime, humans walk roughly 177,000 kilometers, or about 110,000 miles—enough to circle Earth more than four times.",
+    "learn": "Elite athletes push human limits by combining physiology, technique, psychology, and a huge amount of practice. The human body is not limitless, but it is adaptable. Training changes how muscles use fuel, how the heart pumps blood, how the lungs exchange oxygen, and how the brain tolerates discomfort. That is why record-breaking performances often look like biology being remade in real time.\nWhat feels like raw talent is usually a carefully built system. Coaches, nutrition, sleep, recovery, and pacing all matter. The highest performances happen when every part of the system is tuned to work together under pressure.",
+    "simpler": "Athletes break limits by training the body and brain together so they can move more efficiently, recover better, and tolerate more stress.",
+    "keyTakeaway": "Human limits are not fixed lines; they shift when training, adaptation, and recovery are all pushed in the same direction.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/99/Human_running_gait_-_terminal_swing_to_heel_strike_%28runner_with_Asics_Metaspeed_Edge_Paris_-_2024_Ljubljana_Marathon%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:PetarM\" title=\"User:PetarM\">Petar Milošević</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Human_running_gait_-_terminal_swing_to_heel_strike_(runner_with_Asics_Metaspeed_Edge_Paris_-_2024_Ljubljana_Marathon).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/82/Altitude_Training_-_geograph.org.uk_-_288277.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/6184\">Roger Gilbertson</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Altitude_Training_-_geograph.org.uk_-_288277.jpg"
+    },
+    "deeperDive": "Elite performance depends on more than strength. The best athletes refine movement economy, reduce wasted energy, and learn to make difficult actions feel automatic. Endurance athletes improve oxygen delivery and metabolic efficiency, while sprinters optimize explosive power and reaction time. Sports science has shown that tiny improvements in sleep, pacing, footwear, hydration, and technique can change outcomes at the highest level.\nThis is why records keep falling. Once a sport becomes more measurable, people learn how to improve the variables that matter most. The record is not just a number. It is a snapshot of what happens when biology meets optimization.",
+    "funFact": "At the top level, a tiny edge in technique or recovery can matter more than a huge difference in motivation.",
     "references": [
-      "Bramble, D.M. & Lieberman, D.E. (2004). Endurance running and the evolution of Homo. Nature.",
-      "Lieberman, D.E. Human evolutionary biomechanics research, Harvard University.",
-      "Noakes, T.D. Central Governor Theory of fatigue.",
-      "Mazzeo, R.S. Research on endurance training and mitochondrial adaptation.",
-      "Gleeson, M. Research on exercise immunology and endurance recovery."
+      "Sports science and exercise physiology literature.",
+      "Biomechanics and performance optimization research.",
+      "Wikimedia Commons image metadata for athletic and altitude imagery."
     ],
     "keyElements": {
       "people": [
-        "Daniel Lieberman — Harvard evolutionary biologist whose work helped establish endurance running as a major evolutionary adaptation in Homo.",
-        "Dennis Bramble — Biologist and co-author of the landmark paper on endurance running and human evolution.",
-        "Tim Noakes — Exercise scientist associated with the Central Governor Theory of fatigue.",
-        "Robert S. Mazzeo — Researcher known for work on endurance physiology and aerobic adaptation.",
-        "Eliud Kipchoge — Elite Kenyan marathon runner whose career represents the modern limits of human endurance performance."
+        "Exercise physiologists - They study how training changes the body.",
+        "Biomechanists - They analyze how movement becomes more efficient.",
+        "Elite coaches - They turn physiology into results.",
+        "Athletes - Their bodies become the testing ground for performance theory."
       ],
       "places": [
-        "Great Rift Valley, East Africa — A major region in early hominin evolution.",
-        "Kalahari Desert, Southern Africa — A region associated with documented persistence hunting practices.",
-        "Iten, Kenya — A high-altitude training center known for producing elite distance runners.",
-        "Zermatt, Switzerland — Site of mountain marathon events that visually represent endurance across extreme terrain."
+        "Training tracks - Where speed and technique are refined.",
+        "Altitude camps - Where oxygen stress shapes adaptation.",
+        "Labs - Where performance variables are measured.",
+        "Competition venues - Where small margins decide records."
       ],
       "years": [
-        "2004 — Bramble and Lieberman publish their influential paper on endurance running and human evolution.",
-        "1954 — Roger Bannister breaks the four-minute mile.",
-        "1978 — The first Ironman Triathlon is held in Hawaii.",
-        "2019 — Eliud Kipchoge completes a sub-two-hour marathon exhibition."
+        "20th century - Modern sports science becomes more systematic.",
+        "1990s - Performance measurement expands rapidly.",
+        "2000s - Recovery, biomechanics, and nutrition become central.",
+        "2020s - Tiny optimization gains continue to reshape records."
       ],
       "concepts": [
-        "Persistence Hunting — A long-distance pursuit strategy based on tracking, heat tolerance, and sustained movement.",
-        "VO2 Max — The maximum rate at which the body can use oxygen during intense exercise.",
-        "Lactate Threshold — The exercise intensity at which lactate begins accumulating rapidly in the blood.",
-        "Mitochondrial Biogenesis — The creation of new mitochondria, improving aerobic energy production.",
-        "Central Governor Theory — A model proposing that the brain regulates effort to protect the body from physiological failure."
+        "Adaptation - The body changing in response to training.",
+        "Movement economy - Using less energy for the same task.",
+        "Recovery - The process that allows performance to improve.",
+        "Biomechanics - The physics of movement.",
+        "Performance ceiling - The practical upper limit in a sport."
       ]
     }
   }

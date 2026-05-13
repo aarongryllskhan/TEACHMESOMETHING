@@ -1,39 +1,68 @@
 {
   "topic": "How-Social-Media-Is-Literally-Rewiring-Your-Brain",
-  "title": "The Digital Dopamine Loop**",
+  "title": "How Social Media Shapes Attention and Reward",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Social_media_icons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Today Testing (for derivative)",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Social_media_icons.jpg"
+  },
   "lesson": {
-    "learn": "Social media has become an integral part of modern life, with billions of people around the world using platforms like Facebook, Instagram, and Twitter to connect, share, and interact. However, research suggests that excessive social media use can have profound effects on our brains, rewiring them in ways both subtle and significant. The constant stream of notifications, likes, and comments triggers a surge of dopamine, a neurotransmitter associated with pleasure and reward, which can lead to addiction-like behaviors. As we spend more time online, our brains adapt by changing the structure and function of key regions involved in attention, memory, and emotion regulation. This can result in decreased cognitive performance, increased stress levels, and even changes in personality traits.",
-    "simpler": "Using social media is like being on a never-ending rollercoaster ride that keeps giving you dopamine hits every time you get a notification or see likes on your posts. It's like having an invisible friend who always makes you feel good, but sometimes too good. Just as our brains get used to the constant stimulation, we start to crave more and more of it.",
-    "keyTakeaway": "The key takeaway is that social media can literally rewire our brains, affecting areas involved in attention, memory, and emotion regulation. This rewiring can lead to addiction-like behaviors, decreased cognitive performance, and increased stress levels.",
-    "deeperDive": "Recent studies have shown that excessive social media use can lead to changes in brain regions associated with impulse control, motivation, and reward processing. For example, one study found that teenagers who spent more time on social media had a higher risk of developing depression and anxiety disorders due to altered activity patterns in the amygdala and prefrontal cortex. Furthermore, the constant bombardment of notifications can disrupt sleep patterns, leading to chronic fatigue and decreased productivity. Moreover, social media's impact on our brains is not limited to individual users; it also has broader implications for society as a whole, such as increased polarization, decreased empathy, and decreased attention span. In fact, research suggests that the digital landscape is transforming human communication and cognition in profound ways, often referred to as the \"social media effect.\"",
-    "funFact": "Surprisingly, the average person checks their phone over 150 times per day, releasing a dopamine hit each time they receive a notification or like. This constant stimulation can lead to changes in brain chemistry, making it increasingly difficult to disconnect from social media.",
+    "learn": "Social media does not rewrite the brain in one dramatic sweep, but repeated use can train attention, reward, and habit systems. Notifications, likes, scrolling, and constant novelty give the brain frequent little bursts of prediction and reward, which can change how easily people check, compare, and keep going. That matters because the pattern is not only about entertainment. It also involves social validation, self-image, boredom relief, and the habit of returning again and again to see what other people think. The effect is strongest when use becomes passive, compulsive, or the default response to every lull in the day, especially when it starts replacing sleep, focus, or real-world connection.",
+    "simpler": "Social media keeps the brain hooked by giving tiny rewards over and over. Those rewards can make checking feel automatic and can make attention harder to hold for long.",
+    "keyTakeaway": "The main psychological effect of social media is repeated reward learning layered onto social comparison and attention capture, which is why its influence depends so much on how, why, and how often it is used.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/22/Smartphone_%28screen_on%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "彭嘉傑",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Smartphone_(screen_on).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Internet_addiction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Sam Wolff from Phoenix, USA",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Internet_addiction.jpg"
+    },
+    "deeperDive": "The science here is more nuanced than the loudest headlines suggest. Studies on adolescents show that peer feedback online can engage the same reward-sensitive systems involved in offline social approval, which helps explain why likes and comments can feel so powerful. At the same time, recent research also warns against pretending that every use of social media is harmful in the same way. The biggest concerns tend to show up when use becomes passive, compulsive, sleep-displacing, or heavily comparison-driven. In those cases, the issue is not a mysterious total brain rewrite; it is a steady pattern of reinforcement, distraction, and social pressure that can wear down attention and mood. A better frame is to ask what the platform is training. Does it support connection, creativity, and deliberate use, or does it train the user to check reflexively, compare constantly, and interrupt deeper work? That distinction explains why the same app can be useful in one context and draining in another. The design matters, but so do the habits it quietly rewards and the emotional pace it imposes. In other words, the platform is not just a tool; it is a teacher.",
+    "funFact": "In reward studies, a photo can become more appealing just because other people have already liked it, which is a neat example of social proof shaping perception.",
+    "references": [
+      "Sherman et al., The Power of the Like in Adolescence (2016).",
+      "Meshi et al., What the brain 'Likes': neural correlates of providing feedback on social media (2018).",
+      "NIMH, The Teen Brain: 7 Things to Know.",
+      "ABCD Study analyses of social media use and adolescent brain structure (2025).",
+      "Recent reviews on passive use, sleep displacement, and digital comparison."
+    ],
     "keyElements": {
       "people": [
-        "* Jean Twenge - Psychologist who studied the effects of social media on adolescents",
-        "* Sherry Turkle - Sociologist who researched the impact of technology on human relationships",
-        "* Adam Alter - Author and researcher on addiction and digital media",
-        "* Danah Boyd - Internet researcher who explores online identity and community formation",
-        "* Tristan Harris - Former Google design ethicist who advocates for responsible tech design"
+        "Lauren E. Sherman - Researcher whose work showed that likes and peer feedback affect adolescent behavior and reward responses.",
+        "Jason Chein - Neuroscientist who studied peer influence and reward circuitry in adolescents.",
+        "Eva H. Telzer - Developmental neuroscientist who has studied social influence and self-regulation.",
+        "Tristan Harris - Technology critic who helped push public discussion of persuasive app design."
       ],
       "places": [
-        "* Harvard University - Where Jean Twenge conducted her research on adolescent social media use",
-        "* MIT Media Lab - Where Sherry Turkle explores the intersection of technology and human relationships",
-        "* Stanford University - Home to the Center for Internet and Society, which studies online identity and community formation",
-        "* Google Headquarters - Where Tristan Harris worked as a design ethicist advocating for responsible tech design",
-        "* Facebook's Silicon Valley campus - Where researchers study social media's impact on user behavior"
+        "Temple University - A major site for peer influence and social reward research.",
+        "University of California, Los Angeles - Home to a strong adolescent social neuroscience tradition.",
+        "National Institute of Mental Health - Source of teen brain guidance and educational material.",
+        "Large adolescent cohort studies - The settings where long-term effects of digital life are being tracked."
       ],
       "years": [
-        "* 2004 - The year Facebook was founded by Mark Zuckerberg and his college roommates",
-        "* 2012 - The year Instagram was acquired by Facebook, expanding its reach to billions of users worldwide",
-        "* 2017 - The year researchers began studying the link between social media use and adolescent mental health",
-        "* 2020 - The year the COVID-19 pandemic accelerated online communication and social media usage"
+        "2011 - Peer and reward studies begin shaping the scientific picture of online influence.",
+        "2016 - Instagram-style experiments show likes can change adolescent behavior.",
+        "2018 - Social-media reward studies map the brain's response to giving feedback online.",
+        "2025 - Large cohort work continues testing links between social media use and brain structure."
       ],
       "concepts": [
-        "* Dopamine loop - The feedback loop where social media notifications trigger dopamine release, driving further engagement",
-        "* Social media effect - The broader impact of social media on human behavior, including changes in communication patterns, cognition, and emotion regulation",
-        "* Neuroplasticity - The brain's ability to reorganize itself in response to experience, leading to long-term changes in neural structure and function",
-        "* Cyberpsychology - The study of online behaviors and their effects on mental health and well-being",
-        "* Digital addiction - The addictive nature of social media use, characterized by compulsive behavior, tolerance, and withdrawal symptoms"
+        "Reward learning - Learning to return to behaviors that produce quick reinforcement.",
+        "Attention capture - The way notifications and novelty pull focus away from longer tasks.",
+        "Social comparison - Measuring yourself against curated versions of other people.",
+        "Habit loops - Repeated cue-reward cycles that make checking feel automatic.",
+        "Sleep displacement - Time online replacing the sleep the brain actually needs."
       ]
     }
   }

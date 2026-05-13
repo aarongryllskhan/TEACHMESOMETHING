@@ -1,30 +1,68 @@
 {
   "topic": "Why-We-Remember-Embarrassing-Moments-Better",
-  "title": "Why Do We Remember Embarrassing Moments More Vividly than Pleasant Ones?",
+  "title": "Why We Remember Embarrassing Moments Better",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Karaoke_Star%21_%284917447111%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Derek Gavey from Medicine Hat, Canada",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Karaoke_Star%21_(4917447111).jpg"
+  },
   "lesson": {
-    "learn": "Embarrassment is a universal human emotion that has been extensively studied in the fields of psychology and neuroscience. Research suggests that we tend to remember embarrassing moments more vividly than positive ones due to the brain's response to negative emotions. This phenomenon has significant implications for our mental health and well-being, as it can contribute to increased anxiety, depression, and social avoidance behaviors. According to a study published in the journal \"Neuron\" in 2015, embarrassing moments are recalled more frequently and in greater detail than other emotional experiences because the brain's anterior cingulate cortex (ACC) and insula are activated simultaneously. The ACC is responsible for error detection and conflict monitoring, while the insula is involved in empathy and social processing. This dual-activation creates a strong emotional association with the event, making it more likely to be recalled in the future.",
-    "simpler": "When we experience embarrassment, our brains store the memory in a special way. Imagine it like a 'memory file' labeled 'Embarrassing Moments.' This file contains all the details of the event, including sights, sounds, and feelings. As a result, embarrassing moments can be recalled more easily and in greater detail than other experiences, like a happy memory from a vacation.",
-    "keyTakeaway": "Understanding why we remember embarrassing moments more vividly than positive ones is crucial for developing effective strategies to manage the emotional impact of embarrassment. By recognizing the neural mechanisms underlying embarrassment, we can better navigate situations that trigger embarrassment and develop techniques to reduce its effects on mental health.",
-    "deeperDive": "The neural mechanisms underlying embarrassment involve a complex interplay between the brain's reward and punishment centers. Research has shown that embarrassing moments activate both the ACC and the insula, leading to an intense sense of self-consciousness and discomfort. This phenomenon is also closely linked to social bonding and learning, as we often learn from our mistakes and avoid similar situations through a process known as \"social learning.\" Furthermore, the study of embarrassment highlights its role in psychological phenomena such as shame, guilt, and self-consciousness. By exploring the underlying mechanisms of embarrassment, we can develop a deeper understanding of these complex emotions and their impact on mental health.",
-    "funFact": "Interestingly, embarrassment can be an adaptive emotion that helps us navigate social situations and avoid potential dangers. According to a study published in the journal \"Psychological Science\" in 2007, embarrassment is a more intense emotion than fear or anger, and it plays a crucial role in social bonding and learning.",
+    "learn": "Embarrassing moments stick because they light up the parts of the brain that track social evaluation, self-awareness, and emotional significance all at once. The memory feels private, but it is built from a public moment, so the brain treats it as socially important and worth keeping. That is why a careless comment, a bad presentation, or a humiliating performance can return in vivid detail years later. The discomfort is part of the reason the memory survives: the brain uses it as a warning for future social situations. What feels like pointless cringe is often the mind doing social bookkeeping, so it remembers the scene partly to help you avoid a repeat.",
+    "simpler": "Embarrassing memories last because they matter socially. The brain flags them as useful warnings, so they are replayed more often than ordinary moments.",
+    "keyTakeaway": "Embarrassment leaves a strong memory trace because it combines self-conscious emotion with social threat, giving the brain a vivid example of what to avoid next time.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Face_palm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "shoelessRVA_photography",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Face_palm.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/99/Slightly_shy_and_embarrassed_%2814709298853%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Pedro Ribeiro Simões from Lisboa, Portugal",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Slightly_shy_and_embarrassed_(14709298853).jpg"
+    },
+    "deeperDive": "Embarrassment is a self-conscious emotion, which means it depends on seeing yourself through other people’s eyes. That makes it different from simple fear or sadness: the event is not just unpleasant, it is socially revealing. When the brain thinks a mistake may threaten reputation or belonging, attention narrows and the moment gets encoded more deeply. Memory can become even stronger when the event is later replayed, joked about, or reinterpreted. Each replay can reinforce the trace, which is why some awkward moments come back with absurd clarity while more important but emotionally bland events disappear. Social anxiety can amplify this pattern because it encourages repeated mental rehearsal of the same scene. The useful side of the system is that embarrassment often motivates repair. It can push someone to apologize, laugh at themselves, or adjust behavior next time. The memory hurts, but it also helps people stay socially coordinated. In that way, embarrassment is less a glitch than a social alarm bell, and the pain is part of what keeps the signal strong. When the memory keeps returning, it is often the mind trying to rehearse a better future version of the same scene.",
+    "funFact": "A cringey karaoke performance can be a powerful memory anchor, because the brain treats public awkwardness as a social lesson worth keeping.",
+    "references": [
+      "Levenson et al., research on self-conscious emotion and frontal-temporal brain circuits.",
+      "Keltner & Anderson, embarrassment as a social repair signal.",
+      "Tangney & Dearing, Shame and Guilt (book and research tradition).",
+      "Meta-analysis of shame, embarrassment, and guilt in neuroimaging studies (2023).",
+      "Autobiographical memory and social anxiety research (2020)."
+    ],
     "keyElements": {
       "people": [
-        "Elaine Aron",
-        "Silvan Tomkins"
+        "Robert Levenson - Psychophysiology researcher whose work links self-conscious emotions to brain and body responses.",
+        "June Tangney - Psychologist known for foundational work on shame, guilt, and embarrassment.",
+        "Dacher Keltner - Emotion researcher who helped frame embarrassment as a social signal.",
+        "Martin Lewis - Developmental psychologist whose work helped distinguish embarrassment from related emotions."
       ],
       "places": [
-        "Harvard University",
-        "Stanford University"
+        "University of California, Berkeley - A major hub for emotion research and social psychology.",
+        "University of Virginia - A place strongly associated with self-conscious emotion research.",
+        "University of California, San Francisco - One of the settings where neuroscience and emotion studies overlap.",
+        "Aarhus University - Site of research on involuntary memory and embarrassment in social anxiety."
       ],
       "years": [
-        "1962",
-        "1979"
+        "2000 - Research on embarrassment and social repair becomes more visible in emotion science.",
+        "2006 - Neuroimaging work helps map embarrassment-related brain activity.",
+        "2019 - Studies show embarrassment can distort recall and future thinking in social anxiety.",
+        "2023 - A meta-analysis synthesizes brain evidence on embarrassment and guilt."
       ],
       "concepts": [
-        "Anterior Cingulate Cortex (ACC)",
-        "Insula",
-        "Social Learning",
-        "Embarrassment as an Adaptive Emotion"
+        "Self-conscious emotion - An emotion that depends on self-evaluation and other people's imagined judgments.",
+        "Social pain - The felt sting of exclusion, criticism, or public awkwardness.",
+        "Autobiographical memory - Memory for personal life events, especially emotionally charged ones.",
+        "Emotion regulation - The strategies people use to manage uncomfortable feelings after a mistake.",
+        "Social repair - The apology, humor, or correction that helps restore belonging after embarrassment."
       ]
     }
   }

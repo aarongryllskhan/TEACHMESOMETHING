@@ -1,33 +1,65 @@
 {
-  "topic": "Auditory Cognition in Canines",
-  "title": "Exploring the Physiology Behind Canine Hearing",
+  "topic": "Canine Hearing and Auditory Range",
+  "title": "Why Dogs Hear Sounds We Cant Even Imagine",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Dog%27s_Ears_%285531751769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Sam Greenhalgh from London, UK",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Dog%27s_Ears_(5531751769).jpg"
+  },
   "lesson": {
-    "learn": "Dogs possess an acute auditory sensitivity that enables them to detect and respond to a wide range of sound frequencies, far surpassing the capabilities of humans. This exceptional ability is rooted in the unique anatomy and physiology of their auditory system. By examining the structural and functional aspects of canine hearing, we can better understand the remarkable advantages they offer in various fields, including search and rescue, accessibility assistance, and emotional support.",
-    "simpler": "Dogs can hear sounds that are beyond the human range, including ultrasonic frequencies and subtle changes in their owner's voice tone. Their ears contain 18 muscles, allowing them to rotate their ears 180 degrees, pinpointing sounds with remarkable precision.",
-    "keyTakeaway": "The discovery of canine auditory sensitivities offers significant insights into the underlying mechanisms of auditory perception and the potential applications in accessibility technology and search and rescue operations.",
-    "deeperDive": "Studies have shown that dogs can perceive ultrasonic frequencies up to 40 kHz, compared to humans who can only hear up to 20 kHz. This remarkable sensitivity is attributed to the unique structure of their cochlea, which contains a higher concentration of mechanoreceptors than human cochleae. Additionally, research has demonstrated that dogs can detect subtle changes in air pressure associated with thunderstorms, making them highly accurate predictors of severe weather events.",
-    "funFact": "Dogs can also perceive subtle changes in their owner's emotional state through the tone and pitch of speech, a phenomenon referred to as 'vocal prosody'. This ability allows them to develop a deep understanding of human emotions and respond accordingly.",
+    "learn": "Dogs hear the world differently because their ears and brains are tuned to a broader, sharper range of sound than ours. They can pick up higher frequencies than humans, notice subtle changes in direction, and often detect distant sounds long before we do. That sensitivity comes from the shape of their ears, the structure of their hearing system, and the evolutionary pressure that made auditory alertness useful for survival. For a dog, a quiet room may still be full of information: footsteps in another part of the house, a car farther down the street, or a tiny rustle we never notice. Their hearing is not just stronger than ours. It is organized for a different kind of attention.",
+    "simpler": "Dogs hear higher and quieter sounds than humans can because their ears are built to catch details we usually miss. A room that seems quiet to us can still be full of information to a dog.",
+    "keyTakeaway": "Canine hearing is a reminder that sensory ability is shaped by evolution, so \"better\" hearing really means hearing that is better suited to a species' way of life.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ears_Dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Steffen Heinz (Caronna)",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ears_Dog.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hearing_dog%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Blowing Puffer Fish",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.0 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hearing_dog,_2011.jpg"
+    },
+    "deeperDive": "Dog ears are mobile, expressive, and acoustically useful. Their shape helps gather sound, and the brain is especially good at locating where a noise comes from. That matters for a predator, a guard animal, or a social companion that needs to respond quickly to subtle cues. Dogs also hear higher frequencies than humans, which means some sounds we cannot register at all still matter to them. The difference is not merely biological trivia; it changes behavior. A dog may react to a sound before the owner even knows it happened. Researchers use this kind of comparison to understand how hearing evolved and how auditory systems prioritize survival-relevant signals. In that sense, a dog's ear is not just a better microphone. It is part of a finely tuned survival network.",
+    "funFact": "A dog can often tell which direction a sound came from faster than a person can even turn their head.",
+    "references": [
+      "Comparative auditory biology and canine hearing review literature.",
+      "Research on frequency range and directional hearing in dogs.",
+      "Wikimedia Commons image metadata for dog ear photos."
+    ],
     "keyElements": {
       "people": [
-        "1. Dr. Stanley Coren, canine expert and author of \"The Intelligence of Dogs\"",
-        "2. Dr. Karen Overall, renowned animal behaviorist specializing in dog cognition",
-        "3. Helen Keller, pioneering advocate for accessibility and sensory awareness"
+        "Veterinary audiologists - Specialists who study hearing in dogs and other animals.",
+        "Comparative biologists - Researchers comparing human and canine hearing systems.",
+        "Animal behavior scientists - Experts linking hearing to attention and survival.",
+        "Dog trainers and handlers - People who work with canine sensory sensitivity daily."
       ],
       "places": [
-        "1. The Animal Behavior Society (ABS), dedicated to advancing knowledge of animal cognition",
-        "2. The Canine Research Institute at the University of Pennsylvania",
-        "3. The Hearing Dogs for Deaf People organization, training dogs to assist the deaf community"
+        "Homes and neighborhoods - Everyday environments where dogs hear more than humans notice.",
+        "Kennels and shelters - Places where sound sensitivity affects behavior and stress.",
+        "Veterinary clinics - Settings where hearing health is checked or treated.",
+        "Field environments - Open spaces where dogs use hearing to track movement."
       ],
       "years": [
-        "1. 1967: First scientific study on canine hearing and its applications",
-        "2. 1998: Dr. Stanley Coren publishes \"The Intelligence of Dogs,\" highlighting canine cognitive abilities",
-        "3. 2020: Researchers develop new technologies to enhance human-canine collaboration in search and rescue operations"
+        "1900s - Animal hearing becomes a serious scientific comparison point.",
+        "1970s - Auditory range studies sharpen the human-animal comparison.",
+        "2000s - Canine cognition and hearing research expand.",
+        "2020s - Sensory ecology continues to explain species-specific hearing."
       ],
       "concepts": [
-        "1. Ultrasonic frequencies and their detection by dogs",
-        "2. Canine hearing thresholds and their relationship with human hearing",
-        "3. Echolocation and its role in animal navigation",
-        "4. Binaural processing and canine auditory perception"
+        "Frequency range - The span of sounds an ear can detect.",
+        "Directional hearing - The ability to locate where sound comes from.",
+        "Pinna - The outer ear that helps collect sound.",
+        "Auditory tuning - Evolutionary shaping of hearing for survival."
       ]
     }
   }

@@ -1,56 +1,65 @@
 {
   "topic": "The Secret Colors Hummingbirds Can See",
   "title": "Inside the Extraordinary Ultraviolet Vision That Reveals a Hidden World",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Hummingbird.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-  "summary": "Hummingbirds see a version of the world far richer than human vision allows. Their ultraviolet-sensitive eyes reveal hidden flower patterns, unique color combinations, and ecological signals invisible to us, giving them access to a secret visual landscape shaped by evolution.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Hummingbird.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "<a href=\"https://en.wikipedia.org/wiki/San_Diego_Zoo\" class=\"extiw\" title=\"en:San Diego Zoo\">San Diego Zoo</a>",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Hummingbird.jpg"
+  },
   "lesson": {
-    "learn": "Hummingbirds possess one of the most advanced color vision systems in the animal kingdom. While humans are trichromatic—relying on three cone photoreceptor types sensitive to red, green, and blue wavelengths—hummingbirds are tetrachromatic, with a fourth cone type that detects ultraviolet (UV) light. This means their visual spectrum extends beyond human perception into wavelengths below 400 nanometers.\n\nTheir UV-sensitive vision does more than simply add another color. Because their brains process combinations of cone stimulation, hummingbirds can perceive non-spectral colors such as ultraviolet+red, ultraviolet+green, and ultraviolet+yellow—combinations humans cannot naturally imagine. These expanded sensory channels allow hummingbirds to detect subtle patterns on flowers, feathers, and environmental surfaces.\n\nMany nectar-producing flowers evolved ultraviolet-reflective nectar guides, which act like runway lights directing hummingbirds toward pollen and nectar sources. This co-evolution between bird and flower increases pollination efficiency while giving hummingbirds rapid foraging advantages.",
-    
-    "simpler": "Humans see the world in three main color channels, but hummingbirds effectively have a fourth. This allows them to see ultraviolet patterns hidden on flowers—almost like nature painted secret maps only they can read.",
-    
-    "keyTakeaway": "Hummingbirds’ ultraviolet-sensitive tetrachromatic vision gives them access to hidden ecological information, allowing them to find food more efficiently and perceive a broader reality than humans can.",
-    
-    "deeperDive": "Hummingbird retinas contain four classes of cone cells, each paired with specialized oil droplets that filter light before it reaches photopigments. These oil droplets improve wavelength discrimination by narrowing spectral overlap, effectively increasing precision in color separation.\n\nResearch published in 2020 by Mary Caswell Stoddard and colleagues demonstrated that hummingbirds can behaviorally distinguish non-spectral colors involving ultraviolet combinations, confirming that their perception goes beyond simply “seeing UV.” Their sensory world may include dimensions of color impossible for humans to directly conceptualize.\n\nThis vision is especially useful in foraging ecology. Flowers pollinated by hummingbirds often display UV-reflective markings invisible to insects or mammals, allowing selective pollinator targeting. UV perception may also play roles in mate selection, territorial displays, and predator avoidance.\n\nFrom an evolutionary perspective, hummingbird vision exemplifies sensory specialization: rather than maximizing raw visual acuity alone, evolution shaped their nervous system to optimize information most relevant to survival, particularly nectar localization and rapid environmental interpretation.",
-    
-    "funFact": "To a hummingbird, some flowers may appear to glow with ultraviolet landing strips and nectar targets—turning an ordinary garden into something closer to a neon airport runway.",
-    
+    "learn": "Hummingbirds see a richer color world than humans because their eyes include more kinds of color-sensitive cells and they can use ultraviolet cues that we cannot perceive. That makes flowers look very different to them than they do to us. What seems like a plain red bloom to human eyes may carry hidden patterns, contrast, and UV markings that guide a hummingbird straight to nectar.\nThis ability matters because birds and flowers evolved together. A hummingbird is not just spotting color in the abstract; it is reading a landscape of visual signals that helps it find food quickly and efficiently.",
+    "simpler": "Hummingbirds can see more color information than we can, including ultraviolet patterns that help them find food.",
+    "keyTakeaway": "A hummingbird does not just see brighter colors than a human does; it sees a more information-rich world shaped by ultraviolet detail and finely tuned bird vision.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/4/41/Colibr%C3%AD_Cola_de_Oro_%28Golden-tailed_Sapphire_Hummingbird%29_Bigger_File.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Marcial4&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Marcial4 (page does not exist)\">Marcial4</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Colibr%C3%AD_Cola_de_Oro_(Golden-tailed_Sapphire_Hummingbird)_Bigger_File.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/e0/%D0%A1%D0%BE%D1%80%D1%83%D1%81_%D0%BF%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0_Polypodium_aureum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Anatoly_Mikhaltsov&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Anatoly Mikhaltsov (page does not exist)\">Anatoly Mikhaltsov</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BE%D1%80%D1%83%D1%81_%D0%BF%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0_Polypodium_aureum_2.jpg"
+    },
+    "deeperDive": "Birds are often tetrachromatic, meaning they have four cone types rather than three, and many species also use oil droplets in the eye to sharpen color discrimination. Hummingbirds take that farther by combining fast flight, color learning, and UV sensitivity. Recent research has shown that they can use color and pattern to distinguish flowers in ways that are invisible to us.\nThe result is a visual system built for decision-making in motion. A hummingbird can rapidly compare blossoms, remember which ones paid off, and choose the most rewarding ones over and over. That makes its vision a survival tool, not a party trick.",
+    "funFact": "Some flowers look ordinary to us but carry ultraviolet signals that act like hidden landing lights for hummingbirds.",
     "references": [
-      "Stoddard, M.C. et al. (2020). Wild hummingbirds discriminate nonspectral colors. Proceedings of the National Academy of Sciences.",
-      "Goldsmith, T.H. (1990). Optimization, constraint, and history in the evolution of eyes. Quarterly Review of Biology.",
-      "Herrera, G. et al. Research on avian ultraviolet vision and pollination ecology.",
-      "Princeton University Department of Ecology and Evolutionary Biology.",
-      "Smithsonian Migratory Bird Center research on hummingbird sensory biology."
+      "Bird color vision and ultraviolet-perception research.",
+      "Hummingbird foraging and floral-signal studies.",
+      "Wikimedia Commons image metadata for hummingbird and flower imagery."
     ],
-    
     "keyElements": {
       "people": [
-        "Mary Caswell Stoddard — Evolutionary biologist whose experiments demonstrated hummingbirds can perceive non-spectral ultraviolet-based colors beyond human visual capacity.",
-        "Thomas H. Goldsmith — Vision scientist known for foundational work on avian photoreceptors and spectral sensitivity.",
-        "Elizabeth Adkins-Regan — Behavioral biologist whose broader research informs avian sensory and ecological adaptation.",
-        "David Berson — Neuroscientist whose work on visual pathways contributes to understanding photoreceptor processing."
+        "Mary Caswell Stoddard - Researcher known for bird color-vision studies.",
+        "Ornithologists - They study how bird vision shapes behavior.",
+        "Plant ecologists - They examine how flowers use color signals.",
+        "Hummingbird observers - They document real-world foraging choices."
       ],
-      
       "places": [
-        "Princeton University — Home to groundbreaking hummingbird color perception experiments.",
-        "Rocky Mountain Biological Laboratory, Colorado — Major field research location for hummingbird ecology.",
-        "Smithsonian Migratory Bird Center — Institution contributing to bird sensory and ecological studies.",
-        "Andean cloud forests — Biodiverse environments where hummingbird-flower co-evolution is especially pronounced."
+        "Flowering meadows - Where color signals guide feeding.",
+        "Tropical forests - Environments with many hummingbird species.",
+        "Laboratories - Where color perception is tested experimentally.",
+        "Botanical gardens - Places where floral color variation is easy to observe."
       ],
-      
       "years": [
-        "19th century — Early recognition that animal visual systems differ significantly from human vision.",
-        "1990 — Major theoretical advances in understanding avian photoreceptor specialization.",
-        "2000s — Expanded ecological studies on ultraviolet pollination signals.",
-        "2020 — Experimental confirmation that hummingbirds perceive ultraviolet-based non-spectral colors."
+        "Early 2000s - Bird color vision becomes a major research topic.",
+        "2010s - UV and pattern perception in birds is studied in detail.",
+        "2020s - Hummingbird vision research continues to refine the picture."
       ],
-      
       "concepts": [
-        "Tetrachromacy — Four-cone color vision system that includes ultraviolet sensitivity.",
-        "Ultraviolet Perception — Detection of wavelengths beyond human-visible violet light.",
-        "Non-Spectral Colors — Color experiences produced by unusual cone combinations outside normal human perception.",
-        "Oil Droplets — Specialized retinal filters that sharpen avian color discrimination.",
-        "Co-Evolution — Mutual evolutionary shaping between hummingbirds and UV-patterned flowers.",
-        "Sensory Ecology — Study of how organisms gather and use environmental sensory information."
+        "Tetrachromacy - Having four cone types for color vision.",
+        "Ultraviolet perception - Seeing wavelengths humans cannot see.",
+        "Color constancy - Recognizing color even as lighting changes.",
+        "Foraging choice - Selecting the most rewarding food source.",
+        "Visual signal - A cue in the environment that carries meaning."
       ]
     }
   }

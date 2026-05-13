@@ -1,39 +1,65 @@
 {
-  "topic": "The Phenomena of Gamma Ray Bursts",
-  "title": "Exploring the Origins of Cosmic Explosions",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Artist%E2%80%99s_impression_of_a_gamma-ray_burst.jpg/1920px-Artist%E2%80%99s_impression_of_a_gamma-ray_burst.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20100723123238",
-  "summary": "Gamma ray bursts are the universe’s most powerful known explosions, releasing immense amounts of energy when massive stars collapse or compact stellar remnants merge, offering critical insight into extreme cosmic physics.",
+  "topic": "Gamma-Ray Bursts and Extreme Cosmic Explosions",
+  "title": "How Gamma-Ray Bursts Outshine Nearly Everything",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Gamma_ray_burst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Nicolle Rager Fuller of the NSF",
+    "source": "Wikimedia Commons",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Gamma_ray_burst.jpg"
+  },
   "lesson": {
-    "learn": "Gamma ray bursts (GRBs) are among the most energetic events ever observed in the universe, releasing more energy in seconds than the Sun will emit over its entire lifetime. These bursts occur when massive stars collapse into black holes or when neutron stars merge, producing narrow jets of ultra-relativistic particles that emit intense gamma radiation across vast cosmic distances.\n\nGRBs play a crucial role in astrophysics because they reveal how matter behaves under extreme gravity, temperature, and magnetic fields. They are also linked to the formation of black holes, neutron stars, and the distribution of heavy elements throughout galaxies. Studying GRBs allows scientists to probe the early universe, star death, and the evolution of galaxies.",
-    "simpler": "Imagine a colossal cosmic explosion so powerful it can outshine entire galaxies for a brief moment. Gamma ray bursts are like the universe’s brightest flashbulbs, triggered when giant stars collapse or dead stars collide.",
-    "keyTakeaway": "Gamma ray bursts are extraordinary cosmic explosions that reveal how massive stars die, how black holes form, and how extreme energy events shape galaxies across the universe.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/c/cc/211873main2_aftlabelsnova_20080213_350px.jpg",
-    "deeperDive": "GRBs are divided into two primary categories: long-duration gamma ray bursts (lasting more than two seconds) and short-duration gamma ray bursts (lasting less than two seconds). Long GRBs are typically associated with collapsing massive stars in star-forming regions, while short GRBs are often caused by neutron star mergers or neutron star–black hole collisions.\n\nThe first GRBs were accidentally discovered in 1967 by the Vela satellites, which were monitoring nuclear weapons tests. Since then, missions such as NASA’s Swift Observatory and Fermi Gamma-ray Space Telescope have transformed GRB research.\n\nA major breakthrough came in 2017 when gravitational waves from a neutron star merger were detected alongside a short GRB, marking the beginning of multi-messenger astronomy. This event confirmed that neutron star collisions produce both gravitational waves and heavy elements such as gold and platinum.\n\nGRBs also help astronomers study the distant universe because some bursts originate from billions of light-years away, acting as beacons from the early cosmos.",
-    "funFact": "Some gamma ray bursts release in a few seconds as much energy as the Sun will produce during its entire 10-billion-year lifespan.",
+    "learn": "Gamma-ray bursts are the most violent explosions we know of in the cosmos. In a few seconds or minutes, they can release more energy than the Sun will emit over its entire lifetime. Most long gamma-ray bursts are linked to the collapse of a very massive star, while short bursts are thought to come from the merger of compact objects such as neutron stars. Either way, the event produces an intense jet of radiation that can be detected across vast distances. What makes them especially dramatic is not just the energy, but the speed and focus of the release. Instead of spreading evenly in all directions, much of the output is channeled into narrow beams. If one of those beams points at Earth, we can detect it as a brilliant burst of gamma rays. These events help astronomers study the lives of massive stars, the formation of black holes, and the production of heavy elements in the universe.",
+    "simpler": "Gamma-ray bursts are brief but insanely powerful explosions that can release more energy than the Sun will make in its whole life.",
+    "keyTakeaway": "Gamma-ray bursts matter because they are brief, focused, and unimaginably energetic, giving astronomers direct evidence for star collapse, compact-object mergers, and the most extreme jets in the universe.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Short_Gamma-Ray_Burst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "International Gemini Observatory/NOIRLab/NSF/AURA/J. da Silva Image processing: M. Zamani (NSF's NOIRLab)",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Short_Gamma-Ray_Burst.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Gamma-Ray_Burst_230307A.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "NASA Webb Telescope Team",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gamma-Ray_Burst_230307A.png"
+    },
+    "deeperDive": "The burst itself is only the first act. After the initial flash, astronomers often see afterglow across X-ray, optical, and radio wavelengths as the jet interacts with surrounding gas. That afterglow lets researchers estimate how far away the burst was and what kind of event triggered it. Long bursts are associated with the collapse of massive stars into black holes, while short bursts often come from neutron-star mergers. In both cases, the physics is extreme enough to accelerate particles and shape matter at very high energies. Gamma-ray bursts also matter for cosmic history. Because they are so luminous, they can be observed from very early epochs in the universe, giving a glimpse of star formation and galactic environments at great distance. They are not just spectacular explosions; they are probes of stellar death, relativistic jets, and the early universe.",
+    "funFact": "For a brief moment, a gamma-ray burst can appear brighter than whole galaxies even though it comes from a single catastrophic event.",
+    "references": [
+      "Gamma-ray burst review literature and jet-physics studies.",
+      "Core-collapse and compact-merger astrophysics references.",
+      "Wikimedia Commons metadata for gamma-ray burst imagery."
+    ],
     "keyElements": {
       "people": [
-        "Enrico Costa - Helped identify afterglows that allowed GRB locations to be traced",
-        "Neil Gehrels - Led the Swift Gamma-Ray Burst Mission",
-        "Brian Grefenstette - Contributed to understanding GRB-supernova connections"
+        "Astrophysicists - Study burst light curves and afterglows.",
+        "High-energy astronomers - Observe gamma rays, X-rays, and jets.",
+        "Gravitational-wave teams - Connect short bursts to neutron-star mergers.",
+        "Theoretical physicists - Model relativistic jets and collapse physics."
       ],
       "places": [
-        "NASA's Jet Propulsion Laboratory (JPL) - Developed advanced detection technologies",
-        "ESA's INTEGRAL Satellite - Major gamma ray observatory",
-        "Vela Satellites - First detected gamma ray bursts in 1967",
-        "Hubble Space Telescope - Observed GRB host galaxies"
+        "Massive-star cores - Where long gamma-ray bursts begin.",
+        "Neutron-star merger sites - Common sources of short bursts.",
+        "Distant galaxies - Often where bursts are first detected.",
+        "Space-based gamma-ray observatories - The main instruments used to find them."
       ],
       "years": [
-        "1967 - First GRB detected by Vela satellites",
-        "1997 - First GRB afterglow detected, enabling precise localization",
-        "2017 - First combined gravitational wave and GRB observation from neutron star merger"
+        "1960s - Gamma-ray bursts are first discovered accidentally.",
+        "1990s - Afterglow observations transform the field.",
+        "2017 - A neutron-star merger with a short burst is observed in detail.",
+        "2020s - High-energy surveys keep finding powerful new events."
       ],
       "concepts": [
-        "Gamma Ray Burst - Intense high-energy explosion from stellar collapse or mergers",
-        "Relativistic Jet Formation - Narrow beams of particles traveling near light speed",
-        "Neutron Star Merger - Collision producing short GRBs and gravitational waves",
-        "Black Hole Formation - End state of some GRB-producing collapses",
-        "Multi-Messenger Astronomy - Combined study of light and gravitational waves",
-        "Heavy Element Nucleosynthesis - Creation of gold, platinum, and other heavy elements"
+        "Jet - A narrow outflow of energy and matter.",
+        "Afterglow - The fading radiation that follows the initial burst.",
+        "Long burst - A gamma-ray burst tied to massive-star collapse.",
+        "Short burst - A burst often linked to compact-object mergers."
       ]
     }
   }

@@ -2,43 +2,64 @@
   "topic": "The Dead Sea’s Hydrology and Environmental Transformation",
   "title": "The Dead Sea: Why a Hypersaline Lake Is Rapidly Shrinking",
   "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Dead_Sea%2C_Jordanian_Shore.jpg",
+  "imageCredit": {
+    "creator": "Unknown",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Dead_Sea%2C_Jordanian_Shore.jpg"
+  },
   "lesson": {
-    "learn": "Located within the Jordan Rift Valley between Jordan and Israel/Palestine, the Dead Sea occupies the lowest exposed land elevation on Earth, more than 430 meters below sea level. It is an endorheic basin, meaning water flows in but does not drain to an ocean. Historically, its main freshwater source was the Jordan River, supported by seasonal streams and groundwater.\n\nThe lake’s extreme salinity is produced by intense evaporation in a hot, arid climate. As water evaporates, dissolved minerals remain behind, concentrating salts over time. This process has made the water roughly ten times saltier than typical ocean water.\n\nIts tendency not to flood comes from the balance between inflow, evaporation, and basin shape. Water is trapped in a deep tectonic depression, while evaporation removes much of the incoming water. In recent decades, however, river diversion, mineral extraction, and regional water use have severely reduced inflow, causing rapid water-level decline.",
-    "simpler": "The Dead Sea works like a giant desert basin: water flows in, gets trapped, evaporates, and leaves salt behind.",
-    "keyTakeaway": "The Dead Sea’s hydrology is shaped by tectonic geology, desert evaporation, and closed-basin drainage, but human water diversion is now driving rapid environmental change.",
-    "deeperDive": "The basin formed along the Dead Sea Transform fault system, where tectonic movement created a deep rift valley. Over geological time, climate shifts caused ancient lakes in the region to expand and contract.\n\nHypersalinity develops because evaporation removes water while salts remain. This chemistry creates exceptional buoyancy and prevents most aquatic life from surviving, although specialized microbes can persist.\n\nModern decline has created serious hazards. As shorelines retreat, fresh groundwater dissolves buried salt layers, triggering sinkholes around roads, farms, and tourist areas. Industrial evaporation ponds in the southern basin also alter the water budget by concentrating minerals such as potash and bromine.\n\nRather than being perfectly stable, the Dead Sea is now a clear example of how natural closed-basin systems can be rapidly transformed by human water management.",
-    "funFact": "The water is so dense with dissolved salts that most people can float on the surface with almost no effort.",
+    "learn": "The Dead Sea does not behave like a normal lake because it is not in a stable hydrological balance. It sits in a very hot, dry region where evaporation is intense and inflow is limited, so water disappears from the basin faster than it accumulates. That is why the Dead Sea is shrinking rather than flooding. Its water level is controlled by climate, inflow, and evaporation, not by some odd refusal to overflow.\nThe deeper mystery is not that it never floods. It is that a lake so salty and isolated can keep existing at all in such a harsh basin.",
+    "simpler": "The Dead Sea does not flood because evaporation removes water very quickly in a hot, dry basin with limited inflow.",
+    "keyTakeaway": "The Dead Sea is governed by a simple but powerful balance: heat and dryness pull water away faster than rivers can replace it.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/30/%D7%A2%D7%A5_%D7%A2%D7%9C_%D7%90%D7%99_%D7%9E%D7%9C%D7%97_%D7%91%D7%90%D7%9E%D7%A6%D7%A2_%D7%99%D7%9D_%D7%94%D7%9E%D7%9C%D7%97.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Eranrez&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Eranrez (page does not exist)\">ערן רזניק</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:%D7%A2%D7%A5_%D7%A2%D7%9C_%D7%90%D7%99_%D7%9E%D7%9C%D7%97_%D7%91%D7%90%D7%9E%D7%A6%D7%A2_%D7%99%D7%9D_%D7%94%D7%9E%D7%9C%D7%97.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/92/Camels_in_Jordan_valley_%284568207363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/63016959@N00\">Ishai Parasol</a> from Israel",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Camels_in_Jordan_valley_(4568207363).jpg"
+    },
+    "deeperDive": "The Dead Sea is a terminal lake, meaning water enters but does not flow out to the ocean. In a hot climate, that setup makes evaporation the dominant force. The lake also sits in a tectonic depression, which helps explain both its depth and its unusual chemistry. Human water diversion has made the shrinking problem worse in modern times by reducing inflow from the Jordan River system.\nSo the Dead Sea is not defying flooding so much as revealing how fragile closed basins can be. Its shoreline, sinkholes, and shrinking surface are all signs of a water system under stress. The lake is a geography lesson in balance, loss, and change.",
+    "funFact": "People float so easily in the Dead Sea because its salt content is far higher than normal seawater.",
     "references": [
-      "World Bank Dead Sea water decline reports.",
-      "Israel Oceanographic and Limnological Research.",
-      "Jordan Rift Valley tectonic studies.",
-      "Zvi Ben-Avraham basin geophysics research.",
-      "Regional sinkhole monitoring studies."
+      "Dead Sea hydrology and evaporation research.",
+      "Closed-basin lake and salinity references.",
+      "Wikimedia Commons image metadata for Dead Sea imagery."
     ],
     "keyElements": {
       "people": [
-        "Zvi Ben-Avraham — Geophysicist known for Dead Sea basin research.",
-        "Regional hydrologists and geological survey scientists studying water decline and sinkholes."
+        "Hydrologists - They study the lake’s water balance and shrinkage.",
+        "Geologists - They explain the tectonic basin beneath the lake.",
+        "Regional water managers - Their decisions affect inflow and level.",
+        "Environmental scientists - They track sinkholes and shoreline change."
       ],
       "places": [
-        "Jordan Rift Valley — Tectonic depression containing the basin.",
-        "Jordan River — Primary historical freshwater inflow.",
-        "Dead Sea Transform Fault — Major tectonic boundary shaping the region.",
-        "Southern Evaporation Ponds — Industrial mineral extraction zone."
+        "The Dead Sea - The hypersaline terminal lake itself.",
+        "The Jordan Rift Valley - The tectonic setting of the basin.",
+        "The Jordan River system - A key source of inflow.",
+        "Shoreline settlements - Communities affected by changing water level."
       ],
       "years": [
-        "Millions of years ago — Rift basin formation begins.",
-        "20th century — Major river diversion accelerates water decline.",
-        "1960s–present — Modern water-level monitoring expands.",
-        "21st century — Sinkhole formation intensifies."
+        "20th century - Water diversion begins altering the basin balance.",
+        "1990s - Shrinkage becomes widely documented.",
+        "2020s - The Dead Sea remains a major environmental concern."
       ],
       "concepts": [
-        "Endorheic Basin — Closed drainage system with no ocean outlet.",
-        "Evaporation — Main water-loss process.",
-        "Hypersalinity — Extremely high salt concentration.",
-        "Tectonic Rift — Basin formed by plate movement.",
-        "Sinkhole Formation — Collapse caused by subsurface salt dissolution.",
-        "Water Budget — Balance of inflow and loss."
+        "Terminal lake - A lake with no outlet to the sea.",
+        "Evaporation - Water turning to vapor and leaving the basin.",
+        "Salinity - The concentration of dissolved salt.",
+        "Hydrological balance - The relationship between inflow and outflow.",
+        "Sinkhole - A collapse feature formed when underground voids open."
       ]
     }
   }

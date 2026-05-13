@@ -1,35 +1,68 @@
 {
-  "topic": "The-Mystery-of-Dinosaur-Intelligence",
-  "title": "Exploring the Cognitive Abilities of Dinosaurs",
+  "topic": "Dinosaur Brains and Behavior",
+  "title": "The Mystery of Dinosaur Intelligence",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Thomas_Tyrannosaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Jonathan Chen",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Thomas%20Tyrannosaurus%20skull.jpg"
+  },
   "lesson": {
-    "learn": "Scientists have long sought to unravel the mysteries of dinosaur intelligence by studying their fossil records, behavior, and brain structure. Recent discoveries indicate that many dinosaurs possessed advanced cognitive abilities, rivaling those of modern birds. For instance, a 2019 study published in the journal Nature Communications reveals that some dinosaurs, such as the Troodon and Othnielia, had large brain-to-body mass ratios, suggesting high levels of intelligence. Furthermore, the discovery of well-preserved fossilized nests and juvenile dinosaur remains suggests that these creatures may have exhibited complex social behaviors, including care for their young and potentially tool use. In addition, the presence of a sophisticated respiratory system in some dinosaurs implies advanced oxygenation and enhanced cognitive abilities.",
-    "simpler": "While dinosaurs are commonly perceived as massive beasts, recent findings reveal that they may have been as intelligent as modern birds, which are known for their problem-solving abilities and complex social behaviors. To illustrate this point, consider the intelligence of corvids, such as crows and ravens, which are renowned for their cognitive abilities, including tool use and social learning.",
-    "keyTakeaway": "Dinosaur intelligence was likely characterized by complex cognitive abilities, including problem-solving, social behavior, and potentially tool use, which were shaped by their evolution and environmental pressures.",
-    "deeperDive": "Studies have shown that dinosaurs like the Hadrosaur had diverse feeding behaviors, including the consumption of complex plant material. A well-preserved Hadrosaur skeleton discovered in 2015 in Montana's Hell Creek Formation provides evidence of this. Moreover, the presence of advanced respiratory systems in some dinosaurs, such as the Archaeopteryx, implies that they may have had enhanced cognitive abilities.",
-    "funFact": "The largest known dinosaur brain belonged to the Amargasaurus, a herbivorous sauropod from the Jurassic period. Its brain was estimated to be around 1.8 kilograms, surprisingly large compared to its body size.",
+    "learn": "Dinosaur intelligence is hard to measure because brains do not fossilize, but skulls and endocasts can still reveal a lot about sensory capacity and behavior. Some dinosaurs, especially certain theropods and birdlike lineages, had relatively large brains for their body size, strong vision, and brain regions associated with fast movement and complex response patterns. That does not mean they were human-like thinkers. It does mean that some dinosaurs were probably more perceptive, adaptable, and behaviorally flexible than the old stereotype allows. The real mystery is not whether dinosaurs were smart in some absolute sense, but how intelligence changed across such a huge and varied group.",
+    "simpler": "Scientists cannot see dinosaur brains directly, but skulls can show clues about senses and brain size. Some dinosaurs were probably quite sharp, even if they were nowhere near human intelligence.",
+    "keyTakeaway": "Dinosaur intelligence was probably uneven and species-specific, with some lineages developing impressive senses and problem-solving abilities even if no dinosaur was remotely human in mind or behavior.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/70/Nigersaurus_brain_endocast.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Sereno PC, Wilson JA, Witmer LM, Whitlock JA, Maga A, et al.",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 2.5 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Nigersaurus%20brain%20endocast.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/6/65/Gnathovorax_braincase.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Cristian Pacheco, Rodrigo T. Müller, Max Langer, Flávio A. Pretto, Leonardo Kerber, Sérgio Dias da Silva",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gnathovorax%20braincase.png"
+    },
+    "deeperDive": "Endocasts are not perfect brain replicas, but they do give scientists a map of the braincase and inner ear, which helps estimate sensory priorities. If an animal had large optic regions, a well-developed balance system, or a braincase shaped for rapid coordination, that suggests a lifestyle that depended on alertness and timing. In troodontids and some other theropods, those clues point toward relatively high behavioral flexibility. Still, intelligence in dinosaurs should not be over-romanticized. Big brains do not guarantee complex intelligence, and small brains do not guarantee simplicity. Body size, sensory demands, social behavior, and feeding strategy all matter. The better question is how each dinosaur solved its own problems. Some likely relied on keen senses and quick reactions, others on group living or specialized feeding, and birds inherited and refined many of those traits after the dinosaur age ended.",
+    "funFact": "A skull can preserve enough internal shape for scientists to estimate where a dinosaur’s senses and balance system were concentrated.",
+    "references": [
+      "Review literature on dinosaur neuroanatomy and endocasts.",
+      "Smithsonian and museum explainers on dinosaur senses and behavior.",
+      "Peer-reviewed studies on theropod cognition and brain size comparisons.",
+      "Wikimedia Commons skull and endocast file pages."
+    ],
     "keyElements": {
       "people": [
-        "Mary Schweitzer",
-        "Philip Currie"
+        "Thomas Holtz - Paleontologist known for work on theropod biology and dinosaur behavior",
+        "Philip J. Currie - Researcher whose work on predators and birdlike dinosaurs informs behavior studies",
+        "Kent Stevens - Researcher associated with dinosaur locomotion and sensory interpretation",
+        "Paul Sereno - Paleontologist whose work informs skull anatomy and braincase studies",
+        "Darren Naish - Science communicator and researcher who often explains dinosaur behavior carefully"
       ],
       "places": [
-        "Montana",
-        "Hell Creek Formation",
-        "Jurassic period"
+        "North American Late Cretaceous formations - Rich sources of theropod skull material",
+        "Patagonian fossil beds - Important for braincase and endocast research",
+        "Museum paleontology collections - Where endocasts and skulls are studied side by side",
+        "Computed tomography labs - Modern imaging spaces that reveal hidden internal skull anatomy"
       ],
       "years": [
-        "2015",
-        "2019"
+        "Late 20th century - Endocasts become common tools in dinosaur research",
+        "1990s - New imaging makes dinosaur sensory anatomy easier to study",
+        "2000s - Brain-size comparisons begin to be treated more cautiously",
+        "2020s - CT scanning and 3D reconstruction refine behavior studies"
       ],
       "concepts": [
-        "Brain-to-body mass ratio",
-        "Cognitive abilities",
-        "Complex social behaviors",
-        "Diversity of feeding behaviors",
-        "Evolutionary pressures",
-        "Fossil records",
-        "Respiratory system",
-        "Tool use"
+        "Endocast - Mold or digital reconstruction of the inside of a skull",
+        "Sensory anatomy - The brain, ears, and visual structures that shape behavior",
+        "Behavioral flexibility - Ability to respond in multiple ways to changing conditions",
+        "Cognition - The mental processes behind perception, learning, and response",
+        "Hollow skull space - Internal cavities that help infer the size and arrangement of brain tissues"
       ]
     }
   }

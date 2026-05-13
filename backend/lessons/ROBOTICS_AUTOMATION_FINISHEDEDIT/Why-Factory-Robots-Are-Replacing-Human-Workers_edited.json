@@ -1,35 +1,66 @@
 {
-  "topic": "Why-Factory-Robots-Are-Replacing-Human-Workers",
-  "title": "Exploring the Methods Behind the Rise of Factory Robots",
+  "topic": "Factory Automation and the Future of Labor",
+  "title": "Why Factory Robots Are Replacing Human Workers",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/KUKA%20Robocoaster%20Robot%20Arm.jpg",
+  "imageCredit": {
+    "creator": "Andrew Skudder from UK",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File%3AKUKA%20Robocoaster%20Robot%20Arm.jpg"
+  },
   "lesson": {
-    "learn": "In 1961, the first industrial robot, invented by George Devol, marked the beginning of a technological shift that would revolutionize manufacturing processes. The increasing presence of factory robots, powered by advancements in artificial intelligence (AI) and machine learning, has led to significant job displacement. For instance, a study by the McKinsey Global Institute found that up to 800 million jobs could be lost worldwide due to automation by 2030. This trend is driven by the need for efficiency, accuracy, and speed in production. Factory robots, capable of working 24/7 without breaks or fatigue, have become essential tools in modern production lines.",
-    "simpler": "Think of factory robots as super-efficient workers that excel in tasks such as assembly and quality control, where precision and speed are crucial. They are like skilled helpers that don't tire or make mistakes. Just like how you use a robot vacuum to efficiently clean your floor without getting tired or overwhelmed, factories are utilizing similar robots to streamline their production processes.",
-    "keyTakeaway": "The integration of factory robots is fundamentally changing the workforce, leading to job displacement and shifts in the nature of work. To adapt to this change, workers will need to develop new skills that complement robotic capabilities, such as programming and maintenance.",
-    "deeperDive": "Researchers at institutions like MIT's Computer Science and Artificial Intelligence Laboratory are developing more advanced AI algorithms to enable robots to learn from experience and adapt to new situations. Companies like Boston Dynamics, founded by robotics pioneers like Marc Raibert and Nick Puiu, are creating highly sophisticated robots that can perform complex tasks with agility. Meanwhile, the development of collaborative robots (cobots) has enabled humans and machines to work together safely and efficiently in the same workspace.",
-    "funFact": "Did you know that the first industrial robot was operational as early as 1963 at a General Motors factory in New Jersey?",
+    "learn": "Factory robots are replacing people in some jobs because factories reward repetition, precision, and speed, and robots are very good at all three. A robot arm can weld the same seam, place the same component, or move the same part thousands of times with almost no fatigue and almost no variation. That makes automation valuable in places where the work is hot, dangerous, tedious, or physically punishing. The broader story is more complicated than simple replacement, though. Robots usually take over specific tasks first, while people shift toward supervision, programming, maintenance, quality control, and problem solving. Factories adopt them not because humans are useless, but because robots can make production more predictable, cheaper, and safer in the right kind of workflow.",
+    "simpler": "Factory robots are used where work is repetitive, heavy, or dangerous, because machines can do the same motion again and again with very high consistency. They usually replace tasks before they replace entire jobs.",
+    "keyTakeaway": "The real change is not that robots erase every factory worker, but that they reorganize production around repeatability, efficiency, and safety while pushing human labor toward oversight and technical support.",
+    "learnImage": "https://commons.wikimedia.org/wiki/Special:FilePath/UR16e%20robot%20arm.png",
+    "learnImageCredit": {
+      "creator": "Auledas",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File%3AUR16e%20robot%20arm.png"
+    },
+    "thirdImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Lexington%20Medical%2C%20Inc.%20Manufacturing%20Robot%20Arm.jpg",
+    "thirdImageCredit": {
+      "creator": "Lexington Medical, Inc.",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File%3ALexington%20Medical%2C%20Inc.%20Manufacturing%20Robot%20Arm.jpg"
+    },
+    "deeperDive": "Industrial robotics grew because manufacturing punishes inconsistency. A machine that can pick up a part, place it exactly the same way every time, and keep running through long shifts has an obvious advantage in welding, painting, assembly, packaging, and palletizing. As cameras, machine vision, and collaborative robots improved, factories became able to automate more complex steps without building an entirely sealed-off production line. That said, the economics are not as simple as \"robot equals job lost.\" New automation often creates demand for technicians, integrators, software specialists, and reliability engineers, while also changing the mix of work on the floor. In practice, the most successful factories are usually the ones that treat robots as part of a production system rather than as a magic substitute for people. The machines do the strain and the repetition; humans handle judgment, adaptation, exceptions, and oversight.",
+    "funFact": "A robot arm can repeat a weld or pick-and-place motion so consistently that tiny variations that humans would never notice can still matter to a machine vision system.",
+    "references": [
+      "Historical accounts of Unimate and early industrial robotics.",
+      "Industry reports on automation, throughput, and collaborative robots.",
+      "Manufacturing and machine-vision review literature.",
+      "Wikimedia Commons image metadata for industrial robot photos."
+    ],
     "keyElements": {
       "people": [
-        "George Devol",
-        "Marc Raibert",
-        "Nick Puiu",
-        "Joseph F. Engelberger"
+        "George Devol - Inventor behind Unimate, the first widely deployed industrial robot arm.",
+        "Joseph Engelberger - Often called the father of industrial robotics for commercializing robot automation.",
+        "Factory engineers - The specialists who integrate robots into production lines and keep them running.",
+        "Technicians and quality staff - Workers whose jobs often shift toward supervision and inspection."
       ],
       "places": [
-        "General Motors factory in New Jersey",
-        "Waltham, Massachusetts (Boston Dynamics' headquarters)",
-        "MIT's Computer Science and Artificial Intelligence Laboratory"
+        "Automobile assembly plants - Where industrial robots became an iconic part of modern manufacturing.",
+        "Welding cells - Closed work zones where robots excel because heat, repetition, and precision matter.",
+        "Warehouses and distribution centers - Sites where automation now extends beyond the factory floor.",
+        "Global manufacturing hubs - Regions where competition and scale pressure companies toward automation."
       ],
       "years": [
-        "1961",
-        "1963",
-        "1990s",
-        "2030"
+        "1961 - Unimate begins work in a General Motors plant.",
+        "1980s - Industrial robots spread more widely through heavy manufacturing.",
+        "2000s - Machine vision and flexible automation make robots more adaptable.",
+        "2020s - Collaborative robots and labor shortages accelerate adoption."
       ],
       "concepts": [
-        "Artificial Intelligence (AI)",
-        "Machine Learning",
-        "Robotics",
-        "Collaborative Robots (Cobots)"
+        "Repeatability - Doing the same action with tiny variation over and over.",
+        "Throughput - How much output a production line can sustain.",
+        "Cobots - Collaborative robots designed to work near people.",
+        "End effectors - The grippers, welders, and tools on the end of a robot arm."
       ]
     }
   }

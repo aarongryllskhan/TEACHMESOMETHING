@@ -1,33 +1,65 @@
 {
-  "topic": "How-Snakes-See-Heat-Through-Walls",
-  "title": "The Thermal Detectives**",
+  "topic": "Thermal Perception in Snakes",
+  "title": "How Snakes See Heat Through Walls",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pit_Viper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Mark Mannetti",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Pit_Viper.jpg"
+  },
   "lesson": {
-    "learn": "Snakes have the remarkable ability to perceive heat signatures through walls and obstacles, a talent that has fascinated scientists and snake enthusiasts alike. This extraordinary sensory power is crucial for hunting and survival in their environments. By detecting thermal patterns, snakes can locate warm-blooded prey, such as rodents or birds, even when they're hidden from view.",
-    "simpler": "Imagine having superhuman X-ray vision that lets you see your friend hiding behind a thick curtain \u00e2\u20ac\u201c that's basically what snakes have when it comes to seeing heat! They can spot their next meal through solid objects like walls or rocks. It's like having a built-in thermal camera!",
-    "keyTakeaway": "The key takeaway is that snakes use a specialized sensory organ called the pit organs to detect temperature differences, allowing them to \"see\" heat signatures invisible to humans.",
-    "deeperDive": "Recent studies have revealed that certain snake species can detect temperature changes as small as 0.01\u00c2\u00b0C (0.018\u00c2\u00b0F), making their thermal perception even more impressive. The pit organs are found on the snake's head and allow for infrared radiation detection, which is then processed by the brain to create a mental map of heat signatures. This ability has significant implications for understanding thermal sensing in biology and engineering applications, such as developing advanced sensors or drones that can detect temperature changes.",
-    "funFact": "Snakes are not the only animals with this remarkable ability \u00e2\u20ac\u201c some pit vipers, like rattlesnakes and copperheads, also possess pit organs. However, not all snakes have this talent, making it a fascinating area of research in herpetology.",
+    "learn": "Some snakes can detect infrared radiation, which allows them to sense the heat emitted by warm animals. This is not vision in the human sense, but it creates a similar effect: the snake can build a mental map of a warm target even in darkness. Pit vipers are the famous example because they have heat-sensitive pits between the eyes and nostrils that detect tiny temperature differences. That gives them a serious hunting advantage, especially at night. The phrase \"through walls\" is a bit dramatic, but the underlying idea is real: snakes can detect heat signatures through shallow cover, shadows, and low light where ordinary sight would fail.",
+    "simpler": "Some snakes can sense heat from warm bodies even when the light is poor. Their heat-sensitive pits help them find prey in darkness.",
+    "keyTakeaway": "Snake heat sensing is a reminder that seeing does not always mean using eyes; biology can turn temperature itself into a usable map of the world.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Pitviper.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Arshad Khan",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Pitviper.JPG"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Wiki_stranglesnake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Arno / Coen",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 2.5 Generic",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Wiki_stranglesnake.jpg"
+    },
+    "deeperDive": "Pit organs are finely tuned infrared detectors, and the signal they produce is integrated with sight, smell, and motion sensing. That integration matters because a snake is not reading a perfect thermal photograph. It is comparing multiple cues to decide where prey is and how to strike. The anatomy is elegant: the pit structure helps detect tiny differences in radiant heat, and the nervous system translates that into a directional sense. This makes the snake especially effective against warm-blooded animals at close range, where even a small thermal contrast can matter. The broader lesson is that evolution repeatedly finds ways to convert otherwise invisible physical energy into actionable information. For a snake, heat is not just a physical property. It is another channel of perception.",
+    "funFact": "A snake can treat body heat as useful information even when the scene looks dark and empty to human eyes.",
+    "references": [
+      "Sensory biology and reptile thermoreception review literature.",
+      "Research on pit organs and infrared detection in snakes.",
+      "Wikimedia Commons image metadata for the selected snake photos."
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Kristopher M. Cheng, renowned herpetologist studying snake sensory perception",
-        "* Dr. Gordon M. Burghardt, expert on snake behavior and cognition",
-        "* Dr. Robert R. Dubois, pioneer in the field of pit organ research"
+        "Sensory physiologists - Researchers who study how pit organs detect infrared radiation.",
+        "Reptile biologists - Scientists focused on snake anatomy and hunting behavior.",
+        "Evolutionary biologists - Experts explaining how thermal sensing improved survival.",
+        "Field herpetologists - Observers who study snakes in real habitats."
       ],
       "places": [
-        "* The University of California, Los Angeles (UCLA), site of significant research on snake thermal detection",
-        "* The Smithsonian National Museum of Natural History, home to extensive collections of snakes and reptiles",
-        "* The Galapagos Islands, where scientists have studied unique adaptations of local snake species"
+        "Tropical forests - Habitats where heat sensing helps snakes hunt at night.",
+        "Burrows and leaf litter - Environments where prey can be hidden but still warm.",
+        "Reptile research facilities - Laboratories where pit organ function is studied.",
+        "Nocturnal hunting grounds - Places where thermal detection gives an edge."
       ],
       "years": [
-        "* 1964: Dr. Dubois publishes a groundbreaking paper on pit organ function in rattlesnakes",
-        "* 1980s: Researchers begin exploring the neural basis of thermal detection in snakes",
-        "* 2015: A study reveals that certain snake species can detect temperature changes as small as 0.01\u00c2\u00b0C (0.018\u00c2\u00b0F)"
+        "1950s - Infrared sensing in snakes becomes a scientific topic.",
+        "1980s - Pit organ physiology is studied in greater detail.",
+        "2000s - Thermal imaging helps compare snake and prey heat signatures.",
+        "2020s - Sensory ecology continues to explain snake hunting strategies."
       ],
       "concepts": [
-        "* Thermal radiation and infrared detection",
-        "* Pit organs and sensory perception in snakes",
-        "* Adaptive thermoregulation and heat-seeking behavior",
-        "* Advanced sensor development inspired by snake thermal detection"
+        "Infrared sensing - Detecting heat radiation rather than visible light.",
+        "Pit organ - Heat-sensitive structure in certain snakes.",
+        "Thermography - Imaging that reveals temperature differences.",
+        "Predatory strike - The rapid attack motion supported by thermal cues."
       ]
     }
   }

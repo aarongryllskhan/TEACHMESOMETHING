@@ -1,33 +1,65 @@
 {
-  "topic": "The-Phantom-Limb",
+  "topic": "The Phantom Limb",
   "title": "Understanding Phantom Limbs: A Neuroscientific Perspective",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Phantom-limb-illusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Golan Levin",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution 2.0 Generic",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Phantom-limb-illusion.jpg"
+  },
   "lesson": {
-    "learn": "Phantom limbs are a complex phenomenon where individuals with amputations continue to experience sensations in the missing limb, often due to the brain's attempt to make sense of the altered body. Between 15% and 80% of amputees experience phantom limb pain, with some reporting vivid hallucinations or nightmares related to their missing limb.",
-    "simpler": "Imagine you're a concert pianist who has lost a finger. Your brain remembers the sensation of pressing the keys and expects the finger to be there. This mismatch between what your brain remembers and what your body can do is like the brain sending signals to a missing part of your body, even though it's not really there. Mirror box therapy can help by creating a sense of embodiment and re-establishing a connection between the brain and the remaining body parts.",
-    "keyTakeaway": "The most significant insight to take away from phantom limbs is that they occur due to the brain's adaptive mechanisms to compensate for physical changes. This highlights the brain's ability to reorganize itself, a concept known as neuroplasticity.",
-    "deeperDive": "Research suggests that the neural networks responsible for processing sensations in the amputated limb remain active even after the limb is gone. Studies have found that individuals with phantom limbs often experience pain, itching, or other sensations, which can be challenging to manage. However, mirror box therapy and advancements in neuroscience have led to new treatment options. For instance, the development of brain-computer interfaces (BCIs) has allowed researchers to create prosthetic limbs that can be controlled by brain signals.",
-    "funFact": "Interestingly, some individuals with phantom limbs report experiencing positive emotions, such as joy or pleasure, alongside pain or discomfort. This complex and often contradictory nature of phantom limb experiences highlights the intricate relationship between the brain and the body.",
+    "learn": "Phantom limbs happen when a person continues to feel sensations from a limb that is no longer there. The experience can be vivid, and it may involve itching, pressure, movement, or pain. This does not mean the sensation is imaginary; it means the brain still carries a body map that has not fully updated itself after amputation or injury. The brain is built to expect a complete body, so when the body changes, its internal model may keep generating signals as if the missing limb still exists. That mismatch can be uncomfortable, but it also reveals something remarkable: our sense of the body is created by the brain, not simply received from the skin or muscles.",
+    "simpler": "A phantom limb is when someone still feels a missing arm or leg because the brain keeps using its old body map. The sensation can be painful, strange, or even comforting.",
+    "keyTakeaway": "Phantom limbs show that body awareness is a constructed brain process, which is why losing a limb can leave behind sensations that are very real to the person experiencing them.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/6/66/Brain-Controlled_Prosthetic_Arm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "The Johns Hopkins University Applied Physics Laboratory",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Brain-Controlled_Prosthetic_Arm.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Homunculus.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "SieBot",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Homunculus.PNG"
+    },
+    "deeperDive": "The brain maintains maps for touch, movement, and body position. When a limb is lost, those maps do not vanish instantly; they have to be reorganized. That reorganization can go smoothly or it can produce phantom pain, which is one reason the condition became such an important subject in neuroscience. Mirror therapy and prosthetic feedback approaches try to give the brain new information that helps it update its model of the body. Phantom limbs also matter for the design of advanced prosthetics, because a prosthetic that can send meaningful sensory feedback to the user is more than a replacement part; it becomes a way to close the loop between intention and sensation. The deeper lesson is that the brain does not merely observe the body from the outside. It continuously predicts and redraws what the body is supposed to be.",
+    "funFact": "Some people with phantom limbs report not only pain but also the strange feeling that the missing limb is still moving on its own.",
+    "references": [
+      "Phantom limb neuroscience and pain review literature.",
+      "Mirror therapy research and rehabilitation studies.",
+      "Wikimedia Commons image metadata for phantom limb and prosthetic images."
+    ],
     "keyElements": {
       "people": [
-        "* Dr. Vilayanur Ramachandran â€“ neuroscientist who extensively researched phantom limbs",
-        "* Dr. V.S. Ramachandran's patient â€“ a man with a missing arm who experienced vivid hallucinations",
-        "* Dr. Olaf Blanke â€“ neurologist and expert on the neural basis of phantom limbs"
+        "Vilayanur S. Ramachandran - Neuroscientist famous for studying phantom limb perception.",
+        "Silas Weir Mitchell - 19th-century physician who first described phantom limb experiences.",
+        "Neurosurgeons and rehabilitation doctors - Clinicians who help patients adapt after amputation.",
+        "Brain-computer interface researchers - Engineers working on sensory prosthetic control."
       ],
       "places": [
-        "* University College London (UCL) â€“ site of extensive research on phantom limbs",
-        "* Stanford University School of Medicine â€“ hub for innovative treatments and technologies related to phantom limbs",
-        "* The Royal National Orthopaedic Hospital in Stanmore, UK â€“ center for amputation rehabilitation and phantom limb treatment"
+        "Rehabilitation hospitals - Where phantom pain treatment is often explored.",
+        "Neuroscience labs - Places where body maps and sensory illusions are studied.",
+        "Clinical prosthetics centers - Settings where feedback-rich prosthetics are developed.",
+        "Mirror therapy rooms - Simple treatment spaces that can reveal how the brain updates itself."
       ],
       "years": [
-        "* 1966 â€“ the year Dr. Wilder Penfield discovered neural mapping of the brain's sensory areas",
-        "* 1998 â€“ the year Dr. Vilayanur Ramachandran published his groundbreaking paper on phantom limbs",
-        "* 2010 â€“ the year researchers developed a brain-computer interface to treat phantom limb pain"
+        "1870s - Phantom limb descriptions enter medical literature.",
+        "1990s - Mirror therapy becomes a widely discussed treatment idea.",
+        "2000s - Brain imaging strengthens the case for body maps in the brain.",
+        "2010s - Prosthetic feedback and brain-computer interface work expands."
       ],
       "concepts": [
-        "* Neuroplasticity â€“ the brain's ability to reorganize and adapt in response to changes or damage",
-        "* Embodiment theory â€“ the idea that our sense of self is closely tied to our bodily experiences",
-        "* Mirror box therapy â€“ a treatment technique using mirrors to create the illusion of a missing limb",
-        "* Phantom pain â€“ chronic pain experienced by individuals with amputations, often related to phantom limbs"
+        "Body map - The brain's internal representation of the body.",
+        "Neuroplasticity - The brain's ability to reorganize after change.",
+        "Mirror therapy - A visual trick used to reduce phantom pain.",
+        "Sensory feedback - Information that helps the brain update its body model."
       ]
     }
   }

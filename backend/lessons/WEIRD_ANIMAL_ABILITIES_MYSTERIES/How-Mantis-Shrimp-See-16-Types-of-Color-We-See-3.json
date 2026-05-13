@@ -1,56 +1,65 @@
 {
   "topic": "The Alien Eyes of the Mantis Shrimp",
   "title": "How One Ocean Predator Sees a Hidden World Humans Can’t",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Odontodactylus_scyllarus1.jpg",
-  "summary": "With extraordinary visual hardware capable of detecting ultraviolet light, polarized signals, and wavelengths beyond human perception, this marine predator possesses one of the most advanced sensory systems ever discovered in nature.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Curious_mantis_shrimp_from_Gilli_Banta_reef.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Alex.vasenin\" title=\"User:Alex.vasenin\">Alexander Vasenin</a>",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Curious_mantis_shrimp_from_Gilli_Banta_reef.JPG"
+  },
   "lesson": {
-    "learn": "This crustacean has one of the most sophisticated visual systems in the animal kingdom. While humans use three cone types to interpret red, green, and blue wavelengths, this species possesses up to 12 photoreceptor classes for spectral detection plus additional receptors for linear and circular polarization. That means its eyes gather vastly more information about light than human eyes can.\n\nIts compound eyes are divided into specialized regions, including a unique midband made of rows of ommatidia that function almost like a biological scanner. These structures allow rapid recognition of ultraviolet patterns, polarized reflections, and environmental signals in coral reef habitats where light behaves in unusually complex ways.\n\nEach eye can move independently and process depth on its own, giving it trinocular vision from a single eye. This means it can judge distance and structure with extraordinary efficiency while scanning for prey, rivals, or mates.",
-    
-    "simpler": "Imagine seeing secret patterns on animals, hidden flower markings, invisible underwater signals, and special light reflections all at once. This animal’s eyes are built to detect visual information that humans cannot naturally perceive.",
-    
-    "keyTakeaway": "Its visual power comes not just from seeing more colors, but from combining ultraviolet sensitivity, polarization detection, and independent eye coordination into a sensory system unlike almost anything else on Earth.",
-    
-    "deeperDive": "Its eye structure includes distinct photoreceptor rows tuned for separate tasks. Some specialize in ultraviolet wavelengths, while others detect polarization angles or circularly polarized light—a nearly unique ability in the natural world. Circular polarization sensitivity may help identify prey, predators, or private communication signals reflected from body surfaces.\n\nInterestingly, research suggests this system may prioritize speed over detailed comparative color processing. Rather than deeply analyzing shades the way humans do, it may rapidly categorize visual inputs for immediate action, which is highly advantageous in fast-moving reef environments.\n\nThis biological design has inspired engineers developing advanced cameras, satellite sensors, and medical imaging systems. Polarization-sensitive technologies modeled after these eyes may improve cancer detection and underwater robotics.\n\nIts visual system demonstrates that evolution does not always improve sight by making it more like human vision—sometimes it creates entirely different solutions optimized for specific ecological challenges.",
-    
-    "funFact": "Scientists have used this animal’s visual system as inspiration for next-generation cancer scanners because its polarization-processing abilities may help detect structural tissue changes invisible to conventional imaging.",
-    
+    "learn": "Mantis shrimp have one of the strangest visual systems on Earth. They do not simply see a lot of colors; they process light in a very different way from humans, with many photoreceptors and the ability to detect polarization patterns. That makes them superb at reading the underwater world, where light, glare, and reflection are constantly changing.\nTheir eyes are not just better versions of ours. They are specialized tools shaped by life on the reef, where fast recognition can mean catching prey, avoiding rivals, or striking before another animal reacts.",
+    "simpler": "Mantis shrimp have a highly specialized eye system that lets them detect color and light patterns humans cannot see.",
+    "keyTakeaway": "Mantis shrimp vision is impressive not because it copies human sight, but because it solves an underwater problem in a radically different way.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Odontodactylus_scyllarus1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Jens Petersen",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Odontodactylus_scyllarus1.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Polarization_anatomy_of_a_mantis_shrimp_eye.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<p>Martin How </p> Background image in e and f adapted from a photo by R Caldwell",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Polarization_anatomy_of_a_mantis_shrimp_eye.png"
+    },
+    "deeperDive": "Scientists have spent years trying to understand mantis shrimp vision because it does not behave like ordinary color matching. Some species appear to have many receptor types, but the brain may use them in a way that favors speed and certainty over fine gradation. In other words, the shrimp is not trying to admire a rainbow; it is trying to make a lightning-fast visual decision.\nThe system also includes sensitivity to circularly polarized light, which is rare in animals. That gives mantis shrimp an extra channel of information when hunting or signaling. Their eyes remind us that evolution does not aim for one perfect design. It builds whatever works best in a specific ecological niche.",
+    "funFact": "Mantis shrimp can detect forms of polarization in light, a visual feature most humans never notice at all.",
     "references": [
-      "Marshall, N.J. and colleagues — Foundational studies on stomatopod photoreceptor diversity.",
-      "Cronin, T.W. — Major research on color and polarization sensitivity.",
-      "Chiou, T.H. et al. (2008). Circular polarization vision research.",
-      "University of Queensland sensory biology research.",
-      "Journal of Experimental Biology publications on advanced marine vision."
+      "Cephalopod and crustacean vision research.",
+      "Polarization vision and reef ecology studies.",
+      "Wikimedia Commons image metadata for mantis shrimp imagery."
     ],
-    
     "keyElements": {
       "people": [
-        "Justin Marshall — Vision researcher whose studies transformed scientific understanding of marine photoreception.",
-        "Thomas Cronin — Expert on crustacean color and polarization systems.",
-        "Tai-Hsi Fan Chiou — Researcher involved in circular polarization discoveries.",
-        "Nicholas Roberts — Scientist linking biological optics to imaging technology."
+        "Justin Marshall - Researcher known for mantis shrimp vision studies.",
+        "Tom Cronin - Vision scientist who has studied crustacean eyes.",
+        "Doekele Stavenga - Researcher on visual pigments and animal optics.",
+        "Marine biologists - They investigate how reef animals use light."
       ],
-      
       "places": [
-        "University of Queensland, Australia — Leading center for visual ecology research.",
-        "Great Barrier Reef — Rich habitat where complex underwater light drives sensory specialization.",
-        "Smithsonian Marine Laboratories — Contributor to marine sensory studies.",
-        "Coral reef ecosystems — Optical environments where advanced light detection offers survival advantages."
+        "Coral reefs - Where mantis shrimp rely on rapid visual decisions.",
+        "Burrows - Places where vision helps ambush prey.",
+        "Marine laboratories - Where polarization and color vision are tested.",
+        "Shallow tropical seas - Bright environments with complex light patterns."
       ],
-      
       "years": [
-        "1991 — Early major studies reveal unusually advanced photoreceptor structures.",
-        "2001 — Expanded understanding of broad-spectrum receptor diversity.",
-        "2008 — Circular polarization vision experimentally demonstrated.",
-        "2010s — Bio-inspired optical technologies begin adapting these principles."
+        "1990s - Mantis shrimp vision begins attracting serious attention.",
+        "2000s - Polarization sensitivity is studied in depth.",
+        "2010s - New work clarifies how unusual the system really is."
       ],
-      
       "concepts": [
-        "Spectral Sensitivity — Detection across multiple wavelength bands.",
-        "Polarization Vision — Recognition of light-wave orientation.",
-        "Circular Polarization — Detection of rotational light structure.",
-        "Photoreceptors — Specialized cells for converting light into neural signals.",
-        "Compound Eye Architecture — Multi-zone visual design for specialized tasks.",
-        "Biomimicry — Using biological systems to inspire technology."
+        "Photoreceptor - A cell that detects light.",
+        "Polarization vision - Seeing the orientation of light waves.",
+        "Spectral sensitivity - Sensitivity to different wavelengths.",
+        "Visual channel - A route the brain uses to process light.",
+        "Reef adaptation - A trait shaped by life in a bright, complex habitat."
       ]
     }
   }

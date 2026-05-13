@@ -2,35 +2,64 @@
   "topic": "The Machine That Turned Ideas Into Revolutions",
   "title": "How Gutenberg’s Printing Press Ignited the First Information Explosion",
   "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Gutenberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-  "summary": "Johannes Gutenberg’s movable-type printing press transformed human history by making knowledge reproducible at unprecedented speed and scale. What had once taken scribes years could now be replicated in days, accelerating literacy, scientific progress, religious reform, and the spread of revolutionary ideas across continents.",
+  "imageCredit": {
+    "creator": "http://www.sru.edu/depts/cisba/compsci/dailey/217students/sgm8660/Final/",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Gutenberg.jpg"
+  },
   "lesson": {
-    "learn": "Around 1455, Johannes Gutenberg completed the Gutenberg Bible using movable metal type, a mechanical system that radically changed how information was copied and distributed. Before this innovation, books were painstakingly handwritten, often taking years to produce and costing fortunes. Gutenberg’s system combined reusable metal letters, a screw press adapted from agricultural machinery, and oil-based inks to mass-produce texts with remarkable consistency.\n\nThis breakthrough drastically lowered the cost of books and expanded access to knowledge beyond monasteries and elites. Printed materials spread rapidly across Europe, helping standardize language, preserve scholarship, and empower a growing literate population. The printing press became one of history’s greatest catalysts for cultural and intellectual transformation.",
-    "simpler": "Before the printing press, copying a book was like rewriting an entire textbook by hand every single time. Gutenberg’s invention worked more like a reusable stamp system, allowing pages to be assembled, printed, and reproduced far faster than ever before.",
-    "keyTakeaway": "The printing press changed civilization by turning information from a scarce luxury into a scalable resource, allowing ideas to spread faster than political or religious institutions could fully control.",
+    "learn": "The printing press changed everything because it transformed information from a scarce hand-copied commodity into something that could be reproduced at scale. Before printing, books were expensive, slow to produce, and limited to a small literate elite. With movable type and mechanized presses, texts could spread much faster and more widely. That made knowledge cheaper, more standardized, and easier to challenge. The press did not just increase the number of books. It altered religion, science, politics, and education by letting ideas travel without waiting for scribes. Once people could compare versions, circulate arguments, and build on printed material, the pace of intellectual change accelerated.",
+    "simpler": "The printing press made books cheap and repeatable, which let ideas spread much faster than handwritten copying ever could.",
+    "keyTakeaway": "The printing press mattered because it turned information into a mass-produced technology, and that shift changed how people learned, argued, governed, and believed.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Gutenberg_Bible_-_Library_of_Congress.jpg/960px-Gutenberg_Bible_-_Library_of_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "deeperDive": "Gutenberg’s true genius was not a single invention, but the integration of multiple technologies into an efficient system. His metal alloy type was durable and precisely cast, his oil-based inks adhered well to metal and parchment, and his press design enabled repeated mechanical pressure for consistent printing.\n\nThe consequences were enormous. By 1500, Europe had produced millions of printed books, dramatically increasing literacy and information exchange. Scientific works, political pamphlets, religious critiques, and educational materials spread faster than ever before. Martin Luther’s Reformation, for example, relied heavily on printed pamphlets to distribute ideas widely.\n\nThe printing press also laid the foundation for newspapers, academic publishing, standardized education, and eventually the modern information age. In many ways, Gutenberg’s press was the internet of the 15th century—a technological leap that fundamentally altered who could access knowledge and how quickly society could change.",
-    "funFact": "Roughly 180 copies of the Gutenberg Bible were originally printed, and surviving copies are now among the most valuable books in the world.",
+    "learnImageCredit": {
+      "creator": "APK",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible_-_Library_of_Congress.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/7/74/Gutenberg_Bible%2C_Library_of_Congress%2C_1944.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Uncredited photographer for the Library of Congress.",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Library_of_Congress,_1944.jpg"
+    },
+    "deeperDive": "Movable type made texts reproducible, but the deeper revolution was social. Standardized printing meant ideas could be shared across large distances with less distortion, and that helped fuel religious reform, scientific debate, and broad literacy growth. Printed charts, manuals, pamphlets, and books became tools for organizing thought at scale. That is why the press is one of history's decisive technologies. It did not merely print words. It built an information environment in which knowledge could accumulate faster than ever before. The modern world of publishing, public argument, and education traces directly back to that shift.",
+    "funFact": "A single printing breakthrough helped make it possible for millions of people to read the same text in the same form.",
+    "references": [
+      "Printing history and book culture references.",
+      "Gutenberg and movable-type scholarship.",
+      "Wikimedia Commons image metadata for printing-press and Bible imagery."
+    ],
     "keyElements": {
       "people": [
-        "Johannes Gutenberg — German inventor whose movable-type press revolutionized mass communication.",
-        "Martin Luther — Religious reformer whose ideas spread rapidly through printed pamphlets.",
-        "William Caxton — Introduced printing technology to England and expanded English-language publishing."
+        "Johannes Gutenberg - Associated with the western movable-type breakthrough.",
+        "Printers - Turned writing into a scalable production process.",
+        "Readers - Benefited from cheaper and more widely available books.",
+        "Reformers and scientists - Used print to spread arguments and discoveries."
       ],
       "places": [
-        "Mainz, Germany — Gutenberg’s home city and birthplace of European movable-type printing.",
-        "Strasbourg — Early center of Gutenberg’s experimentation with printing technologies.",
-        "London, England — Major printing hub following William Caxton’s adoption of the press."
+        "Print shops - Where texts were reproduced in quantity.",
+        "Libraries - Where printed knowledge was collected and shared.",
+        "Universities - Where print accelerated teaching and scholarship.",
+        "Cities - Where pamphlets and books circulated quickly."
       ],
       "years": [
-        "1455 — Completion of the Gutenberg Bible.",
-        "1476 — William Caxton establishes England’s first printing press.",
-        "1517 — Luther’s 95 Theses spread rapidly through print culture."
+        "Mid-1400s - Movable-type printing emerges in Europe.",
+        "1500s - Print helps drive religious and intellectual upheaval.",
+        "1600s-1700s - Printed science and newspapers reshape public life.",
+        "Modern era - Printing becomes the foundation of mass communication."
       ],
       "concepts": [
-        "Movable Type — Reusable metal characters that could be rearranged for different pages.",
-        "Mass Communication — Large-scale dissemination of information to broad audiences.",
-        "Literacy Expansion — Rising public ability to read due to greater access to books.",
-        "Information Revolution — Rapid societal transformation caused by scalable knowledge distribution."
+        "Movable type - Reusable metal letters for printing text.",
+        "Standardization - Making copies consistent across many editions.",
+        "Literacy expansion - More people gaining access to written material.",
+        "Information diffusion - The spread of ideas through a society."
       ]
     }
   }

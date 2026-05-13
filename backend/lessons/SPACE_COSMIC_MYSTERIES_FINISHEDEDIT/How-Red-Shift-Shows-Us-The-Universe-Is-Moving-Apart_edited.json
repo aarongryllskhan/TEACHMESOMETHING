@@ -1,40 +1,65 @@
 {
-  "topic": "The Expanding Universe: Unraveling the Mystery of Cosmic Expansion",
-  "title": "Understanding Red Shift: How Light Revealed the Universe Is Growing",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cosmic_Redshift_%28noirlab2401d%29.jpg/3840px-Cosmic_Redshift_%28noirlab2401d%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-  "summary": "Red shift transformed humanity’s understanding of the cosmos by revealing that distant galaxies are moving away from us, providing foundational evidence that the universe itself is expanding. This discovery reshaped cosmology and led to modern theories about the Big Bang, dark energy, and cosmic evolution.",
+  "topic": "Cosmic Expansion and Redshift",
+  "title": "How Redshift Proves the Universe Is Stretching",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Schema_Redshift.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Rogilbert",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Schema_Redshift.png"
+  },
   "lesson": {
-    "learn": "In 1929, Edwin Hubble demonstrated that most galaxies beyond our local group are receding from Earth, and the farther away they are, the faster they appear to move. He discovered this by measuring red shift—the stretching of light waves toward the red end of the electromagnetic spectrum.\n\nThis effect occurs because as space itself expands, light traveling through it is stretched to longer wavelengths. Rather than galaxies simply moving through space like cars on a highway, the fabric of space itself is expanding.\n\nHubble’s findings provided the first major observational evidence that the universe is not static but dynamic and evolving. This became a cornerstone of Big Bang cosmology and fundamentally changed our understanding of the universe’s origin and future.",
-    "simpler": "Imagine drawing dots on a balloon and then inflating it. As the balloon expands, every dot moves farther away from every other dot. Galaxies behave similarly as space expands, and the light they emit stretches along the way, becoming redder.",
-    "keyTakeaway": "Red shift revealed that the universe is expanding, proving that space itself is stretching and laying the foundation for modern cosmology.",
-    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20121127112645",
-    "deeperDive": "Red shift is often described through the Doppler effect, but on cosmic scales, it is more accurately explained by metric expansion—the stretching of space-time itself. This distinction is essential because galaxies are not merely flying outward from a central point; instead, all large-scale regions of space are expanding simultaneously.\n\nGeorges Lemaître independently developed the theoretical framework for expansion before Hubble’s observations, proposing what would later become Big Bang theory. In the late 20th century, observations of distant Type Ia supernovae revealed that expansion is accelerating, leading to the discovery of dark energy.\n\nToday, projects like the Sloan Digital Sky Survey and space telescopes map millions of galaxies to study the cosmic web, dark matter, and dark energy. The current standard model of cosmology, Lambda-CDM, combines cosmic expansion with dark matter and dark energy to explain the universe’s large-scale behavior.",
-    "funFact": "Because of cosmic expansion, extremely distant galaxies can recede from us faster than the speed of light—not because they are breaking relativity, but because space itself is expanding.",
+    "learn": "Redshift is the stretching of light toward longer wavelengths. When a galaxy moves away from us, the light it emits gets shifted toward the red end of the spectrum, just as a sound changes pitch when its source moves. In astronomy, redshift became one of the key clues that the universe is expanding. Distant galaxies are not simply sitting still while we move past them. Space itself is stretching, and that stretching carries their light with it. The effect is not limited to motion through space. On cosmic scales, the expansion of space changes the wavelength of light as it travels. That is why very distant objects have stronger redshifts than nearby ones. Measuring redshift lets astronomers estimate distance, map galaxy distribution, and reconstruct the history of the expanding universe.",
+    "simpler": "Light from distant galaxies gets stretched to redder wavelengths, and that tells us the universe itself is expanding.",
+    "keyTakeaway": "Redshift is one of astronomy's most important clues because it turns light into a record of cosmic expansion, showing that the universe is not static but growing larger over time.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/1/14/Redshift.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Georg Wiora ( Dr. Schorsch ) created this image from the original JPG.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Redshift.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/3/3f/The_Milky_Way_galaxy_%28milkyway%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Bruno Gilli/ ESO",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_Milky_Way_galaxy_(milkyway).jpg"
+    },
+    "deeperDive": "Redshift is measured by comparing known atomic spectral lines with what astronomers actually see. If those lines are displaced toward longer wavelengths, the source is receding or the fabric of space has stretched while the light was in transit. This is how Edwin Hubble and later astronomers built the evidence that distant galaxies are moving away from us. The greater the redshift, the farther away and earlier in cosmic history the source usually is. Redshift also appears in other forms, such as gravitational redshift, where light loses energy climbing out of a strong gravitational field. But the cosmological version is the one that tells the big story: the universe is expanding. By combining redshift with distance measurements, astronomers can trace how expansion changed over time and connect observations to the Big Bang model, dark energy, and the large-scale structure of the cosmos.",
+    "funFact": "The farther away a galaxy is, the more its light is usually stretched toward the red end of the spectrum by the time it reaches us.",
+    "references": [
+      "Cosmological redshift and expansion review literature.",
+      "Hubble's law and distance-scale astronomy references.",
+      "Wikimedia Commons image metadata for redshift illustrations."
+    ],
     "keyElements": {
       "people": [
-        "Edwin Hubble — Observationally confirmed cosmic expansion.",
-        "Georges Lemaître — Proposed the expanding universe theory.",
-        "Vesto Slipher — Measured early galaxy red shifts.",
-        "Saul Perlmutter, Brian Schmidt, and Adam Riess — Helped discover accelerating expansion."
+        "Edwin Hubble - Helped establish the relation between galaxy distance and recession.",
+        "Astronomers - Measure spectra to determine redshift and cosmic distance.",
+        "Spectroscopists - Identify the atomic lines used for redshift measurements.",
+        "Cosmologists - Use redshift to reconstruct the universe's expansion history."
       ],
       "places": [
-        "Mount Wilson Observatory — Hubble’s major observations.",
-        "Sloan Digital Sky Survey — Large-scale galaxy mapping.",
-        "Hubble Space Telescope — Deep-field cosmology.",
-        "European Southern Observatory — Cosmic structure studies."
+        "Distant galaxies - The main sources used to measure redshift.",
+        "Spectrographs - Instruments that split light into measurable wavelengths.",
+        "The expanding universe - The setting in which wavelength stretching occurs.",
+        "The Milky Way - Our local reference point for comparing cosmic motion."
       ],
       "years": [
-        "1910s — Vesto Slipher measures galaxy spectra.",
-        "1929 — Hubble publishes expansion law.",
-        "1998 — Accelerating expansion and dark energy discovered.",
-        "2000s — Precision cosmology expands."
+        "1920s - Hubble's observations link distance and redshift.",
+        "1960s - Quasar redshifts extend the cosmic picture to extreme distances.",
+        "1990s - Redshift surveys map the large-scale galaxy distribution.",
+        "2000s-2020s - Precision cosmology uses redshift to study dark energy."
       ],
       "concepts": [
-        "Red Shift — Stretching of light wavelengths.",
-        "Hubble’s Law — Distance and recession speed relationship.",
-        "Big Bang Theory — Universe’s early expansion origin.",
-        "Dark Energy — Driver of accelerating expansion.",
-        "Cosmic Web — Large-scale galaxy distribution."
+        "Spectral line - A specific wavelength fingerprint from an atom or molecule.",
+        "Cosmological redshift - Wavelength stretching caused by expanding space.",
+        "Recession velocity - The apparent speed at which distant objects move away.",
+        "Distance ladder - The chain of methods astronomers use to estimate cosmic scale."
       ]
     }
   }

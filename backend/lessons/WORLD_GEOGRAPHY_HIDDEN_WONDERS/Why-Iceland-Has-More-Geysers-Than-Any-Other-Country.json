@@ -2,44 +2,65 @@
   "topic": "The Geochemical Dynamics of Icelandic Geysers",
   "title": "Iceland’s Geysers: How Tectonics, Heat, and Geochemistry Power One of Earth’s Most Dynamic Hydrothermal Landscapes",
   "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Strokkur_%2815868248088%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Unknown",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Strokkur_%2815868248088%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
   "lesson": {
-    "learn": "Iceland’s geysers exist because the island sits directly atop one of Earth’s most geologically active regions: the Mid-Atlantic Ridge, where the North American and Eurasian tectonic plates are diverging. Combined with a powerful mantle plume beneath the island, this tectonic setting produces extraordinary volcanic and geothermal heat.\n\nFor geysers to form, three essential conditions are required: abundant groundwater, an intense heat source, and a specialized underground plumbing system capable of trapping and pressurizing water. In Iceland, rainwater and snowmelt seep downward through porous volcanic rock and tectonic fractures, where they encounter heat from shallow magma systems or hot igneous rock. Under pressure, this water can become superheated while remaining liquid. When pressure is suddenly reduced, part of the water rapidly flashes into steam, creating explosive eruptions.\n\nThe Haukadalur geothermal valley is home to Geysir—the namesake of all geysers—and Strokkur, one of the world’s most active geysers. These hydrothermal systems are not controlled by heat alone, but by the interaction of tectonic fractures, fluid circulation, mineral deposition, and geochemical reactions.\n\nChemical analyses of geyser waters reveal dissolved silica, sulfur compounds, sodium, chloride, and isotopic signatures that help scientists reconstruct subsurface water pathways, heat exchange processes, and magmatic influence.",
-    "simpler": "These geysers function like natural underground pressure systems: water sinks through fractured rock, heats near volcanic sources, builds pressure, and erupts when steam expansion overcomes confinement.",
-    "keyTakeaway": "Icelandic geysers are shaped by the combined effects of tectonic plate divergence, geothermal heat, groundwater circulation, and geochemical processes operating within volcanic crust.",
-    "deeperDive": "Beneath Iceland’s geothermal fields, hydrothermal circulation acts as both a physical and chemical engine. As groundwater moves through hot volcanic rock, it dissolves minerals and absorbs gases such as carbon dioxide, hydrogen sulfide, and silica. Silica is especially important because it can precipitate as geyserite, coating underground conduits and helping seal pressure pathways.\n\nThis mineral sealing is critical: without stable, silica-lined conduits, geothermal systems may vent as hot springs rather than erupting as geysers. In this way, geology, chemistry, and fluid mechanics all contribute to eruption behavior.\n\nIsotopic studies of hydrogen, oxygen, and dissolved gases allow geochemists to distinguish meteoric water recharge from deeper magmatic influences. Research shows that most Icelandic geyser systems are fueled primarily by surface-derived groundwater heated by volcanic systems, rather than direct magma-water contact.\n\nTectonic earthquakes can alter geyser behavior by shifting fracture systems, changing permeability, or modifying subsurface pressure. Historically, seismic events in Iceland have triggered major changes in geyser frequency and intensity.\n\nBeyond their scientific significance, these systems are central to Iceland’s renewable energy infrastructure. Geothermal resources provide major portions of national heating and electricity, making Iceland a leading global example of geothermal energy use.",
-    "funFact": "The English word ‘geyser’ comes directly from Geysir in Iceland, one of the earliest documented geysers in scientific history.",
+    "learn": "Iceland has so many geysers because it sits on one of the most geologically active places on Earth. The island lies on the Mid-Atlantic Ridge, where tectonic plates pull apart, and it also sits above a hotspot that sends heat upward from deep within the planet. That combination creates abundant geothermal energy, underground water circulation, and the pressure changes needed for geysers to erupt.\nWhat looks like a landscape of magical fountains is really a visible expression of heat, water, rock, and plate tectonics working together. Iceland’s geysers are dramatic because the island is a place where Earth’s internal engine is close to the surface.",
+    "simpler": "Iceland has many geysers because it sits on a tectonically active, very hot part of the planet where underground water can heat, pressurize, and erupt.",
+    "keyTakeaway": "Iceland’s geysers are a direct sign that tectonic splitting, volcanic heat, and groundwater are interacting in one of the world’s most active geothermal zones.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Geysir_Geothermal_Field%2C_Haukadalur%2C_Iceland%2C_20230501_0846_3718.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Jakubhal\" title=\"User:Jakubhal\">Jakub Hałun</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Geysir_Geothermal_Field,_Haukadalur,_Iceland,_20230501_0846_3718.jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Gunnuhver_Geothermal_Area%2C_Iceland%2C_20230430_1232_3527.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Jakubhal\" title=\"User:Jakubhal\">Jakub Hałun</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Gunnuhver_Geothermal_Area,_Iceland,_20230430_1232_3527.jpg"
+    },
+    "deeperDive": "Geysers require a delicate balance. There must be heat, water, and a plumbing system of fractured rock or narrow conduits that lets pressure build and release in cycles. Iceland has all three in abundance. Rain and meltwater soak into the ground, volcanic heat warms it, and underground channels let the hot water flash into steam and burst upward.\nThis is why geothermal fields like Geysir and Strokkur are not random curiosities. They are part of a broader volcanic system that also supports hot springs, steam vents, and renewable energy. Iceland is one of the clearest places on Earth where you can watch geology become visible motion.",
+    "funFact": "The word geyser comes from Geysir in Iceland, one of the most famous hot-water eruptions ever described.",
     "references": [
-      "Iceland GeoSurvey (ÍSOR) geothermal studies.",
-      "National Energy Authority of Iceland.",
-      "USGS hydrothermal systems research.",
-      "Journal of Volcanology and Geothermal Research.",
-      "Haukadalur geothermal field studies."
+      "Iceland geology and geothermal field references.",
+      "Hydrothermal system and geyser formation literature.",
+      "Wikimedia Commons image metadata for Iceland geothermal imagery."
     ],
     "keyElements": {
       "people": [
-        "Haraldur Sigurðsson — Volcanologist known for Icelandic geological research.",
-        "Iceland GeoSurvey researchers — Specialists in geothermal and hydrothermal systems.",
-        "Bjarni Pálsson — Early chronicler of Icelandic geothermal phenomena."
+        "Geologists - They study the volcanic and geothermal systems beneath Iceland.",
+        "Volcanologists - They track heat, magma, and eruption patterns.",
+        "Hydrologists - They study how water moves through geothermal ground.",
+        "Energy engineers - They turn geothermal heat into usable power."
       ],
       "places": [
-        "Haukadalur Valley — Home of Geysir and Strokkur.",
-        "Mid-Atlantic Ridge — Divergent tectonic boundary underlying Iceland.",
-        "Þingvellir Rift Zone — Surface expression of tectonic separation.",
-        "Mývatn Geothermal Region — Major hydrothermal area in northern Iceland."
+        "The Mid-Atlantic Ridge - The tectonic boundary running through Iceland.",
+        "Geysir - The historic geyser that gave the word to English.",
+        "Strokkur - One of Iceland’s most active modern geysers.",
+        "Geothermal fields - Areas where heat and groundwater meet at the surface."
       ],
       "years": [
-        "13th century — Early written references to geothermal phenomena in Iceland.",
-        "17th century — Geysir becomes internationally documented.",
-        "20th century — Modern geothermal science expands.",
-        "Modern Era — Iceland becomes a global geothermal energy leader."
+        "13th century - Iceland’s geothermal features are recorded in early accounts.",
+        "19th century - Geysir becomes famous in scientific and travel writing.",
+        "20th century - Geothermal energy becomes a major national resource.",
+        "21st century - Iceland remains one of the world’s best natural geothermal laboratories."
       ],
       "concepts": [
-        "Hydrothermal Circulation — Movement of heated groundwater through crustal systems.",
-        "Geyserite Deposition — Silica precipitation that stabilizes conduits.",
-        "Plate Tectonics — Divergence shaping Iceland’s geology.",
-        "Geothermal Gradient — Temperature increase with depth.",
-        "Isotopic Analysis — Chemical tracing of fluid origins.",
-        "Volcanic Heat Flux — Thermal energy from magma systems."
+        "Geyser - A spring that erupts periodically because of pressure and heat.",
+        "Geothermal energy - Heat from inside Earth used as a resource.",
+        "Tectonic rifting - Plates pulling apart and thinning the crust.",
+        "Hydrothermal system - Hot water circulating underground.",
+        "Flash boiling - Water turning suddenly into steam when pressure drops."
       ]
     }
   }

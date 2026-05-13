@@ -2,45 +2,65 @@
   "topic": "Geothermal Activity in New Zealand",
   "title": "Beneath the Islands: How New Zealand’s Geothermal Forces Shape the Land",
   "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/2018-12-30_155416_Pohutu_Geyser_Whakarewarewa_Village_anagoria.jpg",
+  "imageCredit": {
+    "creator": "Unknown",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "filePage": "https://upload.wikimedia.org/wikipedia/commons/6/67/2018-12-30_155416_Pohutu_Geyser_Whakarewarewa_Village_anagoria.jpg"
+  },
   "lesson": {
-    "learn": "New Zealand contains one of the world’s most active geothermal landscapes because it sits on the boundary between the Pacific Plate and the Australian Plate. In the North Island, the Taupō Volcanic Zone stretches roughly 350 kilometers from Mount Ruapehu through Taupō toward Whakaari / White Island. This region combines tectonic extension, crustal thinning, faulting, and magmatic heat, creating ideal conditions for geothermal activity.\n\nRainwater and surface water seep downward through fractures in the crust, where they are heated by hot rock and magma-related heat sources. As the water heats, it becomes buoyant and rises back toward the surface as steam, hot springs, mud pools, fumaroles, and geysers. This process is known as hydrothermal convection.\n\nRotorua, Wairakei, Wai-O-Tapu, and Taupō are among New Zealand’s most important geothermal regions. Wairakei became one of the world’s first large-scale geothermal power developments when its power station began operation in 1958. Today, geothermal energy remains a major part of New Zealand’s renewable electricity system.",
-    "simpler": "New Zealand’s geothermal areas work like natural underground plumbing: water sinks into cracks, is heated by volcanic rocks, builds pressure, and returns to the surface as steam, boiling water, geysers, or mud pools.",
-    "keyTakeaway": "New Zealand’s geothermal activity is driven by tectonic plate movement, volcanic heat, and circulating groundwater, making it both a scientific window into Earth’s interior and an important renewable energy source.",
-    "deeperDive": "The Taupō Volcanic Zone is one of the most productive volcanic and geothermal regions on Earth. It is shaped by the subduction of the Pacific Plate beneath the Australian Plate, which generates magma and heat beneath the North Island.\n\nGeothermal reservoirs often occur several kilometers below the surface, where temperatures can exceed 250–300°C in productive fields. Wells drilled into these reservoirs bring steam and hot water to the surface, where the energy can be used to drive turbines and generate electricity.\n\nRotorua’s Pōhutu Geyser, located at Te Puia in the Whakarewarewa geothermal area, is one of the Southern Hemisphere’s most active geysers. Wai-O-Tapu is known for colorful geothermal pools, mineral-rich springs, and the Lady Knox Geyser, whose eruptions are commonly induced for visitors.\n\nScientific monitoring by GNS Science and other institutions uses seismic data, gas chemistry, ground deformation, and fluid analysis to understand geothermal systems and volcanic risk. Responsible geothermal development also requires reinjection of fluids, reservoir management, and monitoring to reduce subsidence, mineral scaling, and environmental damage.",
-    "funFact": "New Zealand produces a significant share of its electricity from geothermal energy, making it one of the world’s leading geothermal power users per capita.",
+    "learn": "New Zealand’s geysers are so powerful because the country sits on an active plate boundary with intense geothermal heat close to the surface. In places like Rotorua and the Taupō Volcanic Zone, groundwater is heated by volcanic systems, pressure builds inside underground channels, and eruptions can become dramatic and forceful. The result is a landscape where steam vents, hot springs, and geysers all reflect a highly active Earth.\nNew Zealand’s geothermal landscapes are not just dramatic scenery. They are evidence of an island nation shaped by tectonics, volcanism, and a thin crust that lets deep heat break through.",
+    "simpler": "New Zealand has powerful geysers because its crust is thin, its volcanism is active, and underground water gets heated fast.",
+    "keyTakeaway": "New Zealand’s geysers are powerful because tectonic forces, volcanic heat, and underground water combine in a very active geothermal setting.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/3/31/Pohutu_Geyser_%2839485409944%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/35358887@N03\">Thomas</a> from Switzerland",
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Pohutu_Geyser_(39485409944).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/7/78/Maori_Statue_in_Rotorua_New_Zealand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:AlexanderKlink\" title=\"User:AlexanderKlink\">Alexander Klink</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Maori_Statue_in_Rotorua_New_Zealand.JPG"
+    },
+    "deeperDive": "The central North Island contains some of the best-known geothermal fields in the Southern Hemisphere. In places such as Whakarewarewa and Te Puia, heat and water interact in narrow plumbing systems that can produce powerful eruptions. The scale depends on how much water is trapped, how much steam pressure builds, and how the underground rocks channel the flow.\nThese features also matter culturally and economically. Geothermal areas have long been important to Māori communities and are now significant for tourism and energy. Like Iceland, New Zealand shows how tectonics can turn into visible, usable heat at the surface.",
+    "funFact": "Some of New Zealand’s geysers erupt because trapped underground water flashes into steam in a matter of seconds.",
     "references": [
-      "GNS Science: Taupō Volcanic Zone research.",
-      "New Zealand Ministry of Business, Innovation and Employment: Energy in New Zealand reports.",
-      "World Geothermal Congress data on New Zealand.",
-      "Journal of Volcanology and Geothermal Research.",
-      "Te Puia and Rotorua geothermal studies."
+      "New Zealand geothermal and volcanic references.",
+      "Geyser physics and hydrothermal system literature.",
+      "Wikimedia Commons image metadata for New Zealand geothermal imagery."
     ],
     "keyElements": {
       "people": [
-        "Dr. Bruce Hayward — New Zealand geologist and science communicator.",
-        "GNS Science researchers — Geoscientists monitoring geothermal and volcanic systems across New Zealand.",
-        "Geoffrey Bibby — Geophysicist associated with geothermal exploration research in New Zealand."
+        "Volcanologists - They study the country’s geothermal systems.",
+        "Geothermal engineers - They use underground heat as an energy source.",
+        "Māori communities - They have long lived with and valued these landscapes.",
+        "Park rangers and guides - They explain the geothermal fields to visitors."
       ],
       "places": [
-        "Rotorua — Major geothermal tourism and research center.",
-        "Taupō Volcanic Zone — New Zealand’s primary geothermal and volcanic belt.",
-        "Wairakei Geothermal Field — Historic geothermal power development site.",
-        "Wai-O-Tapu — Geothermal area known for colorful hot springs and geysers.",
-        "Whakarewarewa — Rotorua geothermal area containing Pōhutu Geyser."
+        "Rotorua - A major geothermal and cultural center.",
+        "Taupō Volcanic Zone - A highly active volcanic region.",
+        "Whakarewarewa - A famous geothermal village and field.",
+        "Te Puia - A well-known site for geysers and cultural heritage."
       ],
       "years": [
-        "1886 — Mount Tarawera eruption reshapes the Rotorua geothermal region.",
-        "1958 — Wairakei Power Station begins operation.",
-        "Modern Era — New Zealand expands geothermal electricity generation across the Taupō Volcanic Zone."
+        "13th century onward - Māori communities develop deep knowledge of geothermal areas.",
+        "19th century - European accounts describe the region’s eruptions.",
+        "20th century - Geothermal energy and tourism expand.",
+        "21st century - Monitoring and conservation continue to shape the sites."
       ],
       "concepts": [
-        "Hydrothermal Convection — Circulation of heated groundwater through fractured rock.",
-        "Geothermal Reservoir — Underground zone containing hot water and steam.",
-        "Plate Tectonics — Movement and interaction of Earth’s lithospheric plates.",
-        "Magma Intrusion — Movement of molten rock into the crust, providing heat.",
-        "Fumaroles — Vents releasing steam and volcanic gases.",
-        "Geochemistry — Chemical analysis of geothermal fluids and gases.",
-        "Renewable Energy — Electricity generation from naturally replenished heat sources."
+        "Geothermal field - An area where underground heat reaches the surface.",
+        "Hydrothermal system - Hot water circulation through fractured rock.",
+        "Steam pressure - The force that drives an eruption.",
+        "Plate boundary - Where tectonic plates meet and create heat.",
+        "Volcanic plume - Steam and material thrown upward during activity."
       ]
     }
   }

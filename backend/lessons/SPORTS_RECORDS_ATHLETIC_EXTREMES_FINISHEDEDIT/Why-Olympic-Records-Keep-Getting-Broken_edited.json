@@ -2,39 +2,64 @@
   "topic": "Olympic Records",
   "title": "Understanding the Science, Strategy, and Innovation Behind Olympic Record-Breaking",
   "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Olympic_sprinters_Owens_Metcalfe_and_Wykoff_1936.jpg",
-  "summary": "Olympic records represent the pinnacle of human athletic achievement, combining physical talent, scientific training, mental resilience, and technological advancement. From Jesse Owens to Usain Bolt, record-breaking performances reflect both individual greatness and the evolution of sports science.",
+  "imageCredit": {
+    "creator": "Associated Press",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Olympic_sprinters_Owens_Metcalfe_and_Wykoff_1936.jpg"
+  },
   "lesson": {
-    "learn": "Olympic record-breaking is driven by a combination of elite physical ability, relentless training, technological innovation, and strategic performance optimization. Since the modern Olympic era expanded global competition, athletes have continuously pushed human limits.\n\nJesse Owens’ four gold medals at the 1936 Berlin Olympics demonstrated extraordinary athletic excellence under immense pressure. Over time, improvements in biomechanics, nutrition, recovery science, and equipment design have enabled athletes to surpass previous limits. Record-breaking is not solely about natural talent—it also reflects advancements in preparation, data analysis, and sports medicine.",
-    "simpler": "Think of Olympic records like climbing the highest mountain again and again—but each generation brings better gear, smarter strategies, and stronger climbers. Athletes break records because they combine talent with better training, better equipment, and better understanding of the human body.",
-    "keyTakeaway": "Olympic records are broken when exceptional human ability meets scientific progress, mental discipline, and evolving technology.",
+    "learn": "Olympic records keep falling because elite sport never stands still. Training methods improve, recovery science gets sharper, equipment becomes lighter and more efficient, and the global talent pool gets deeper every year. What looked like a once-in-a-generation performance in one era can become a baseline in the next when the sport is standardized, better measured, and supported by a much larger field of specialists. Records do not break randomly. They break when a stack of small advantages finally adds up to a new human limit. The Olympics also reward moments when the rules of preparation change. Better track surfaces, sharper nutrition, video analysis, and more professional coaching all make it easier for athletes to squeeze out tiny gains. In an event measured to hundredths of a second or millimeters, those gains are enormous.",
+    "simpler": "Olympic records keep falling because athletes, coaching, equipment, and preparation keep improving, and tiny gains matter when competition is that close.",
+    "keyTakeaway": "Olympic records are broken so often because sport advances by accumulation: each small improvement in training, technology, talent depth, and event knowledge eventually pushes the ceiling a little higher.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Usain_Bolt_%289391717499%29.jpg/960px-Usain_Bolt_%289391717499%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "deeperDive": "Sports science has transformed Olympic performance through biomechanics, altitude training, nutrition, psychological conditioning, and advanced equipment. For sprinters, reaction time, stride efficiency, and force generation are measured in milliseconds. Swimmers benefit from hydrodynamic analysis, optimized stroke mechanics, and historically, innovations in swimsuit materials.\n\nTechnology also plays a major role. Carbon-plated footwear, improved track surfaces, aerodynamic cycling equipment, and recovery monitoring systems have all contributed to record progression. However, regulations are critical to maintaining fairness, especially regarding doping controls and equipment standards.\n\nMental performance is equally important. Olympic athletes train under immense pressure, often using visualization, focus control, and sports psychology to maximize performance during critical moments.",
-    "funFact": "Usain Bolt’s 100m world record of 9.58 seconds means he reached speeds of over 27 mph, making him one of the fastest humans ever recorded.",
+    "learnImageCredit": {
+      "creator": "Neil",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_(9391717499).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Olympic-Rings.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Mark A Coker",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Olympic-Rings.svg"
+    },
+    "deeperDive": "A record usually survives when the whole sport has settled into an older equilibrium. Once a new generation brings better sprint mechanics, stronger sports medicine, improved spikes, and more precise pacing or technique, the old mark starts to look more reachable. Olympic history is full of those inflection points. The amateur era, the professional era, the modern sports-science era, and the recent age of data analysis all changed what athletes could realistically do on the biggest stage. This is also why records do not all fall at the same rate. Some events are more sensitive to technology, some depend heavily on conditions, and some have already been pushed near their physiological ceiling. That mix of biology, engineering, and competition makes Olympic records less like fixed monuments and more like moving targets.",
+    "funFact": "Some Olympic records survive for decades, not because nobody is trying, but because the sport has not yet found the next big advantage.",
+    "references": [
+      "Olympic history and records references from official Olympic and athletics sources.",
+      "Sports science literature on training, equipment, and performance progression.",
+      "Wikimedia Commons image metadata for Olympic imagery."
+    ],
     "keyElements": {
       "people": [
-        "Jesse Owens — Four-time gold medalist whose 1936 performance became legendary.",
-        "Emil Zátopek — Distance runner known for extraordinary endurance and multiple Olympic victories.",
-        "Mark Spitz — Swimmer who set a historic gold medal standard.",
-        "Usain Bolt — Record-breaking sprinter who redefined speed.",
-        "Florence Griffith-Joyner — Holder of iconic sprint records."
+        "Olympic athletes - Push events to the edge of what current training allows.",
+        "Coaches - Turn technique, pacing, and preparation into measurable gains.",
+        "Sports scientists - Study how small improvements add up to record-breaking results.",
+        "Equipment designers - Create shoes, tracks, and gear that reduce wasted energy."
       ],
       "places": [
-        "Berlin, Germany — Site of Jesse Owens’ 1936 Olympic triumph.",
-        "Mexico City, Mexico — High-altitude venue known for record-breaking performances.",
-        "Olympic training centers worldwide — Hubs for sports science and elite preparation."
+        "Olympic venues - The stage where world records become historical markers.",
+        "Training centers - Where incremental advantages are built long before competition.",
+        "Track-and-field facilities - The standard measuring sites for record attempts.",
+        "High-performance labs - Places where biomechanics and recovery are analyzed."
       ],
       "years": [
-        "1936 — Jesse Owens’ historic Berlin Olympics.",
-        "1952 — Emil Zátopek’s legendary endurance achievements.",
-        "1968 — Mexico City Olympics and major performance milestones.",
-        "2008–2016 — Usain Bolt’s Olympic sprint dominance."
+        "1896 - The modern Olympic era begins.",
+        "1970s-1980s - Professionalization and sports science accelerate progress.",
+        "2000s - Data-driven training and better equipment change elite performance.",
+        "2020s - Fine margins and optimization drive many of the newest records."
       ],
       "concepts": [
-        "Biomechanics — Optimizing movement efficiency.",
-        "Sports Nutrition — Fueling performance and recovery.",
-        "Psychological Conditioning — Managing pressure and focus.",
-        "Equipment Innovation — Advanced shoes, swimsuits, and surfaces.",
-        "Performance Ethics — Anti-doping and fairness regulations."
+        "Marginal gain - A very small improvement that becomes decisive at elite level.",
+        "Performance ceiling - The current limit that a sport has approached.",
+        "Standardization - Making events comparable enough for records to matter.",
+        "Sports science - The study of how training, recovery, and technique affect performance."
       ]
     }
   }

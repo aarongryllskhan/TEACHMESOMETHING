@@ -1,30 +1,67 @@
 {
   "topic": "The-Psychology-Behind-Why-We-Fall-In-Love",
-  "title": "Exploring the Neural Mechanisms of Romantic Love",
+  "title": "Why We Fall in Love",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Romance_couple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "gail",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Romance_couple.jpg"
+  },
   "lesson": {
-    "learn": "The phenomenon of romantic love has long fascinated humans, with research suggesting that it's not just a matter of finding someone attractive or sharing similar interests. In fact, studies have shown that falling in love is a complex process involving the interplay of psychological, biological, and social factors. One of the key findings is that the release of neurotransmitters such as dopamine, serotonin, and oxytocin plays a crucial role in stimulating feelings of pleasure, attachment, and bonding. For example, research on couples who engage in regular physical touch and affection has found increased levels of oxytocin, which can strengthen their emotional connection. This is similar to the concept of 'pair bonding' observed in mammals, where physical contact and affection strengthen social bonds. Furthermore, the experience of romantic love can be described as a 'social reward,' where the brain responds to social cues and interactions with a release of dopamine, reinforcing the experience and creating a strong bond between individuals. This understanding can be linked to attachment theory, which proposes that our early relationships with caregivers shape our attachment styles and influence our adult relationships. The work of psychologists such as Robert Sternberg and Helen Fisher has been instrumental in understanding the components and mechanisms of romantic love, with Sternberg's 1986 study identifying the three components of love: intimacy, passion, and commitment. Fisher's research on attachment styles has also provided valuable insights into the complexities of romantic love.",
-    "simpler": "Falling in love is a unique and complex experience that involves the interplay of biological, psychological, and social factors. It's a process that can be likened to a 'social reward,' where the brain responds to social cues and interactions with a release of dopamine, creating a strong bond between individuals. This experience can be influenced by our early relationships, attachment styles, and individual biology, making each person's experience of falling in love distinct. The complexities of romantic love can be understood through the lens of psychology, which highlights the importance of social interactions, attachment styles, and brain chemistry in shaping our emotions and relationships.",
-    "keyTakeaway": "A key takeaway from understanding the psychology behind romantic love is that it's shaped by a complex interplay of biological, psychological, and social factors. This interplay can influence our attachment styles, our response to social interactions, and our emotions, ultimately contributing to the unique experience of falling in love. Furthermore, recognizing the importance of social interactions and attachment styles can provide valuable insights into building and maintaining healthy relationships.",
-    "deeperDive": "One of the most significant discoveries in the field of romantic love is the concept of attachment theory. This theory proposes that our early relationships with caregivers shape our attachment styles and influence our adult relationships. Research has shown that individuals with anxious or avoidant attachment styles are more likely to experience difficulties in their romantic relationships. The release of oxytocin during social interactions has been linked to feelings of trust and bonding, while dopamine is associated with the pleasure and excitement experienced during the early stages of falling in love. The work of psychologists such as Robert Sternberg and Helen Fisher has also highlighted the importance of intimacy, passion, and commitment in romantic love. For example, Sternberg's 1986 study identified the three components of love, while Fisher's research on attachment styles provided valuable insights into the complexities of romantic love. In fact, studies have found that couples who engage in regular physical touch and affection exhibit increased levels of oxytocin, which can strengthen their emotional connection and contribute to a stable and fulfilling relationship. Additionally, research has explored the concept of 'love addiction,' suggesting that some individuals may become dependent on the feelings of euphoria associated with romantic love.",
-    "funFact": "The first scientific study on love was conducted by psychologist Robert Sternberg in 1986, which identified the three components of love: intimacy, passion, and commitment. This groundbreaking research laid the foundation for modern understandings of romantic love.",
+    "learn": "Falling in love is not a single emotion so much as a whole coordination problem in the brain and body. Attraction, attention, memory, and reward circuitry begin treating one person as unusually important, so ordinary interactions feel charged with meaning and anticipation. At the same time, romantic attachment pulls on older social systems that help humans bond, cooperate, and stay close under stress. That is why early love can feel thrilling and unstable while later attachment can feel quieter, safer, and more durable. Love also takes shape inside a social world, so timing, reciprocity, and felt safety often matter as much as raw attraction.",
+    "simpler": "Love starts when the brain decides one person matters more than the rest and keeps rewarding contact, attention, and closeness. As trust and familiarity grow, that initial spark can turn into a deeper attachment.",
+    "keyTakeaway": "Romantic love feels overwhelming because it links reward, attention, and attachment into one powerful system, turning a person into both a source of excitement and a possible long-term bond.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/2/21/Loving_Couple_%289274476061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Pedro Ribeiro Simões from Lisboa, Portugal",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Loving_Couple_(9274476061).jpg"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Couple_in_love_%287070139095%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Pedro Ribeiro Simões from Lisboa, Portugal",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Couple_in_love_(7070139095).jpg"
+    },
+    "deeperDive": "The best research on romantic love suggests that it is not simply chemistry and not simply choice; it is a layered process that begins with reward and motivation and then gets shaped by memory, expectations, and attachment style. In the early stage, dopamine-rich reward circuits help create the focused, almost obsessive quality of new love, while the brain becomes unusually sensitive to cues from the beloved person. Attachment theory adds another layer. People do not enter relationships as blank slates; early caregiving and later relational experiences create templates for trust, closeness, fear, and distance. A secure attachment style can make love feel steady and responsive, while anxious or avoidant patterns can make the same chemistry feel unstable or guarded. That also explains why long-term love can still feel vivid. Scans of long-married couples show that partner-specific reward activity can remain active even after years together. The feeling changes shape, but it does not vanish; the brain continues to mark a trusted partner as uniquely valuable. In practice, that means the chemistry of love is less about a single spark and more about whether two people keep creating conditions that reward closeness.",
+    "funFact": "Brain imaging studies have found that some long-term couples still show reward-system activity when they look at their partner, which is one reason old love can stay surprisingly vivid.",
+    "references": [
+      "Bartels & Zeki, The neural basis of romantic love (2000).",
+      "Acevedo et al., Neural correlates of long-term intense romantic love (2011).",
+      "Birnbaum & Reis, Evolved to be connected: the dynamics of attachment and sex over the course of romantic relationships (2019).",
+      "Bode, Romantic love evolved by co-opting mother-infant bonding (2023)."
+    ],
     "keyElements": {
       "people": [
-        "Robert Sternberg",
-        "Helen Fisher"
+        "Helen Fisher - Anthropologist whose work helped explain romantic love as a reward-and-bonding system rather than just a feeling.",
+        "Robert Sternberg - Psychologist best known for the triangle theory of intimacy, passion, and commitment.",
+        "Bianca P. Acevedo - Neuroscientist whose fMRI studies showed that long-term love can remain neurologically active.",
+        "Harry T. Reis - Relationship scientist who has studied responsiveness, closeness, and attachment in romantic bonds."
       ],
       "places": [
-        "University of California, Los Angeles (UCLA)",
-        "Harvard University"
+        "Stony Brook University, New York - A major site for neuroimaging research on long-term romantic love.",
+        "University of Rochester, New York - Home to influential work on attachment, intimacy, and relationship science.",
+        "Brain imaging labs in the United States and China - Settings where researchers compared early-stage and long-term love.",
+        "Clinical and social psychology programs - Places where attachment patterns are studied as part of adult relationships."
       ],
       "years": [
-        "1986",
-        "1994"
+        "1986 - Robert Sternberg introduces the triangle theory of love.",
+        "2000 - Bartels and Zeki publish a landmark study on romantic love and the brain.",
+        "2011 - Acevedo and colleagues report neural activity in long-term intense romantic love.",
+        "2023 - A review argues that romantic love likely evolved from older bonding systems."
       ],
       "concepts": [
-        "Attachment theory",
-        "Oxytocin and dopamine release during social interactions",
-        "Pair bonding",
-        "Social reward"
+        "Reward circuitry - Brain systems that make a loved person feel motivating and emotionally significant.",
+        "Attachment theory - The idea that early caregiving patterns shape adult closeness and trust.",
+        "Dopamine signaling - A motivation system that helps early love feel exciting and focused.",
+        "Pair bonding - A lasting attachment between partners that can outlive the rush of infatuation.",
+        "Social reward - The feeling that comes from being seen, valued, and chosen by another person."
       ]
     }
   }

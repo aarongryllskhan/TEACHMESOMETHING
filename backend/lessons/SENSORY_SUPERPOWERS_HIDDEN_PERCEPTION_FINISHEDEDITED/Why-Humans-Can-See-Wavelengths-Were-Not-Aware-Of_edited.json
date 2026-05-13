@@ -1,36 +1,65 @@
 {
-  "topic": "How Humans Perceive the Invisible",
-  "title": "Exploring the Electromagnetic Spectrum: Understanding Human Perception of Invisible Wavelengths",
+  "topic": "Human Vision and the Hidden Wavelengths Around Us",
+  "title": "Why Humans Can See Wavelengths Were Not Aware Of",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/VisibleWavelengths.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "DrSciComm",
+    "source": "Wikimedia Commons",
+    "license": "Creative Commons Attribution-Share Alike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "filePage": "https://commons.wikimedia.org/wiki/File:VisibleWavelengths.png"
+  },
   "lesson": {
-    "learn": "The human eye is capable of perceiving a wide range of electromagnetic wavelengths, extending beyond the visible spectrum. Recent studies have shown that some individuals possess a heightened sensitivity to these invisible wavelengths. This phenomenon is rooted in the complex interactions between light, matter, and energy. By examining the ways in which humans perceive and interpret electromagnetic waves, we can gain valuable insights into various fields, including medicine, astronomy, and environmental science.",
-    "simpler": "To understand the invisible wavelengths, consider the process of infrared imaging. Just as a camera captures visible light, specialized instruments are designed to detect and analyze the infrared radiation emitted by celestial bodies. This enables astronomers to visualize and study previously inaccessible wavelengths, such as those from distant stars and galaxies. Similarly, researchers have developed techniques to visualize terahertz radiation, which is used to detect water molecules in remote sensing applications.",
-    "keyTakeaway": "A crucial aspect of human perception is the ability to perceive and interpret electromagnetic waves beyond the visible spectrum. This skill is crucial for various fields, as it allows scientists to study invisible phenomena, such as ultraviolet and infrared radiation, and their interactions with matter. By understanding these interactions, researchers can unlock new knowledge about the natural world and its complex systems.",
-    "deeperDive": "Studies have shown that people with synesthesia, a neurological condition characterized by blended senses, may be able to perceive ultraviolet light. For instance, research has demonstrated that some individuals can perceive UV-A radiation from fluorescent lighting, which is invisible to the naked eye. Additionally, astronomers utilize specialized instruments to detect and analyze infrared radiation from distant stars and galaxies. This has led to a greater understanding of celestial bodies and their properties. Furthermore, advancements in imaging technology have enabled scientists to visualize and study previously inaccessible wavelengths, such as terahertz radiation, which is used in remote sensing applications.",
-    "funFact": "Notably, some individuals can perceive subtle changes in temperature, known as thermovision or heat vision, which allows them to perceive hot and cold surfaces without touching them. This skill is analogous to the way some snakes can detect heat signatures, enabling them to track their prey.",
+    "learn": "Humans can see only a narrow slice of the electromagnetic spectrum, but that slice still contains a hidden order of wavelengths. Different colors correspond to different wavelengths, and the brain turns that physical difference into the experience we call vision. Beyond the visible range lie ultraviolet, infrared, radio waves, X-rays, and more, all real forms of light that simply do not register in ordinary human sight. So when we say we can \"see wavelengths we were not aware of,\" the deeper truth is that we are always seeing a translated version of the world. Our eyes are not recording reality in full. They are sampling a small band of it and handing the brain a coded summary.",
+    "simpler": "Human eyes can only detect a narrow band of light, and that band is made of different wavelengths that our brains turn into color. Many other kinds of light exist, but we need instruments to see them.",
+    "keyTakeaway": "Human vision is powerful but partial, which is why the visible world feels complete even though it sits inside a much larger electromagnetic landscape.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/9/9b/The_Electromagnetic_Spectrum_%2801F8GF4P4S9TQPQHE15MAG23ZG%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Qfavey",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_Electromagnetic_Spectrum_(01F8GF4P4S9TQPQHE15MAG23ZG).png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Visible-spectrum-400-700-nm.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Bech",
+      "source": "Wikimedia Commons",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Visible-spectrum-400-700-nm.png"
+    },
+    "deeperDive": "The visible spectrum is just the range where human photoreceptors are most sensitive. Cone cells respond differently to different wavelengths, and the brain compares those responses to build the experience of color. That process is so familiar that it is easy to forget how selective it is. Ultraviolet and infrared are equally real but lie outside the range our eyes can detect. Scientists extend vision with cameras, filters, and sensors precisely because the natural eye leaves so much of the spectrum unexplored. The most interesting part is not that humans are limited, but that the limitation still produces a vivid and useful world. Vision is less like a raw feed and more like an interpretation engine. We see enough to live, but never everything that is physically there.",
+    "funFact": "Some birds and insects can detect ultraviolet light that would be completely invisible to a human standing right next to them.",
+    "references": [
+      "Vision science and color perception review literature.",
+      "Electromagnetic spectrum references from physics and biology.",
+      "Wikimedia Commons image metadata for spectrum diagrams."
+    ],
     "keyElements": {
       "people": [
-        "Dr. Vilayanur Ramachandran",
-        "Dr. Andrew Watson",
-        "Dr. David Eagleman"
+        "Vision scientists - Researchers who study cone cells and color perception.",
+        "Optical physicists - Scientists explaining wavelength and light behavior.",
+        "Neuroscientists - Experts who study how the brain converts light into experience.",
+        "Photographers and imaging engineers - People who make invisible wavelengths visible."
       ],
       "places": [
-        "National Institute of Neurological Disorders and Stroke (NINDS)",
-        "European Southern Observatory (ESO)",
-        "NASA Jet Propulsion Laboratory (JPL)",
-        "Chile"
+        "Laboratories - Where spectral measurements and color models are studied.",
+        "Astronomy observatories - Places that reveal light beyond human vision.",
+        "Medical imaging centers - Sites that rely on non-visible wavelengths.",
+        "Everyday daylight - The environment where visible light feels normal but incomplete."
       ],
       "years": [
-        "1911",
-        "1960s",
-        "2008"
+        "1600s - Early optics helps define how light behaves.",
+        "1800s - The electromagnetic spectrum is mapped scientifically.",
+        "1900s - Color vision theory and photoreceptor science develop.",
+        "2000s - Imaging technology reveals far more than the naked eye can see."
       ],
       "concepts": [
-        "Electromagnetic spectrum",
-        "Synesthesia",
-        "Infrared and ultraviolet light detection",
-        "Terahertz radiation",
-        "Remote sensing",
-        "X-ray diffraction"
+        "Visible spectrum - The part of light human eyes can detect.",
+        "Ultraviolet - Shorter-wavelength light beyond violet.",
+        "Infrared - Longer-wavelength light beyond red.",
+        "Cone cells - Retina cells responsible for color vision."
       ]
     }
   }

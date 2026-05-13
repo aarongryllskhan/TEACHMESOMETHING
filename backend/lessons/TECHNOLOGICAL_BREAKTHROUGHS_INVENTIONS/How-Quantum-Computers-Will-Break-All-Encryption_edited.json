@@ -2,36 +2,64 @@
   "topic": "The Computer That Could Crack the Internet",
   "title": "Why Quantum Computing Could Rewrite the Future of Encryption",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/IBM_Q_system_%28Fraunhofer_2%29.jpg/1920px-IBM_Q_system_%28Fraunhofer_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20210806170053",
-  "summary": "Quantum computing represents one of the most powerful technological shifts in modern history because it could solve certain problems far faster than classical computers—including some of the mathematical foundations behind today’s encryption. While large-scale cryptographic collapse is not imminent, quantum breakthroughs are pushing governments and industries to prepare for a post-quantum security era.",
+  "imageCredit": {
+    "creator": "IBM Research",
+    "source": "Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "filePage": "https://commons.wikimedia.org/wiki/File:IBM_Q_system_(Fraunhofer_2).jpg"
+  },
   "lesson": {
-    "learn": "Traditional computers process information in binary bits—0s or 1s. Quantum computers use qubits, which can exist in superposition, meaning they can represent multiple states simultaneously. Combined with entanglement, where qubits become mathematically linked, this allows quantum systems to approach certain classes of problems very differently from classical machines.\n\nOne of the biggest concerns is cryptography. Much of today’s internet security relies on mathematical problems that are extremely difficult for classical computers, such as factoring very large numbers. RSA encryption, for example, depends on this difficulty. In 1994, mathematician Peter Shor developed Shor’s Algorithm, showing that a sufficiently powerful quantum computer could theoretically factor large numbers exponentially faster than classical approaches, threatening widely used public-key encryption systems.",
-    "simpler": "Imagine a thief trying to open a vault by testing one key at a time—that’s closer to how normal computers handle many hard cryptographic problems. A powerful quantum computer could use quantum mechanics to explore many possibilities in fundamentally different ways, potentially making some locks far less secure.",
-    "keyTakeaway": "Quantum computing’s greatest cybersecurity threat is not brute-force speed alone, but its ability to use specialized quantum algorithms that could undermine current encryption systems like RSA and elliptic curve cryptography.",
+    "learn": "Quantum computers threaten modern encryption because they can exploit the rules of quantum mechanics to solve certain problems much faster than classical machines. Today's public-key systems rely on the difficulty of factoring large numbers or solving related mathematical problems. A sufficiently powerful quantum computer could use Shor's algorithm to attack those assumptions and turn many once-secure messages into readable data. That is why the phrase \"break all encryption\" is more dramatic than precise, but the risk is real enough to force the entire security world to prepare. The deeper issue is not that every lock instantly fails. It is that the security of the internet depends on math problems that quantum computers may eventually make easy. That is why governments, banks, and software companies are already moving toward post-quantum cryptography.",
+    "simpler": "Quantum computers could undermine some of the math that modern encryption depends on, so new security systems are being developed now.",
+    "keyTakeaway": "Quantum computing matters for encryption because it could turn hard mathematical problems into solvable ones, which means digital security has to evolve before powerful quantum machines arrive.",
     "learnImage": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Google_Sycamore_Chip_002.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20210822190420",
-    "deeperDive": "Quantum computers are not universally faster than classical systems—they excel only in certain categories of problems. Google’s 2019 Sycamore experiment demonstrated quantum supremacy for a narrowly defined benchmark task, showing that quantum hardware could outperform classical supercomputers in a specialized calculation. However, this was not the same as breaking modern encryption.\n\nTo realistically threaten RSA-2048 encryption, experts estimate that fault-tolerant quantum computers with millions of stable physical qubits may be required—far beyond current systems. Nonetheless, the possibility is serious enough that governments, banks, and security agencies are actively transitioning toward post-quantum cryptography (PQC), which includes algorithms designed to resist both classical and quantum attacks.\n\nOrganizations like NIST are standardizing quantum-resistant cryptographic methods to prepare for a future where encrypted data intercepted today could potentially be decrypted later by advanced quantum machines—a strategy known as “harvest now, decrypt later.”",
-    "funFact": "Even though quantum computers are revolutionary, they must often operate at temperatures colder than outer space—fractions of a degree above absolute zero—to keep qubits stable.",
+    "learnImageCredit": {
+      "creator": "Google ( https://www.youtube.com/channel/UCK8sQmJBp8GCxrOtXWBpyEA )",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Google_Sycamore_Chip_002.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Quantum_circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "Ahmedrabiah",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Quantum_circuit.jpg"
+    },
+    "deeperDive": "Classical computers work in bits, but quantum computers use qubits that can exist in superpositions and become entangled. Those properties do not make every problem easier, but they create speedups for specific tasks, especially factoring and certain search problems. Public-key cryptography such as RSA and some forms of elliptic-curve cryptography depend on the assumption that those tasks are infeasible at scale. If a large, fault-tolerant quantum computer becomes practical, the cryptographic landscape changes quickly. That is why the current challenge is partly engineering and partly policy. Researchers are building more stable qubits and error correction, while standards bodies are selecting replacement algorithms that can survive a quantum future. The real story is not apocalypse, but transition: the internet's security infrastructure will need a new mathematical foundation before quantum hardware crosses the threshold from promising to dangerous.",
+    "funFact": "A quantum computer is not faster at everything; it is especially dangerous when the problem's math matches its strengths.",
+    "references": [
+      "Quantum computing and post-quantum cryptography references from NIST and review literature.",
+      "Shor algorithm and quantum algorithm survey papers.",
+      "Wikimedia Commons image metadata for quantum-computing imagery."
+    ],
     "keyElements": {
       "people": [
-        "Peter Shor — Developed Shor’s Algorithm, which revealed how quantum computers could threaten modern encryption.",
-        "Richard Feynman — Early visionary who proposed the concept of quantum computation.",
-        "David Deutsch — Pioneer of universal quantum computing theory."
+        "Peter Shor - Developed the factoring algorithm that made quantum cryptography urgent.",
+        "Cryptographers - Build encryption systems that should survive quantum attacks.",
+        "Quantum engineers - Work on qubits, error correction, and hardware scale-up.",
+        "Standards researchers - Decide which replacement algorithms become the new baseline."
       ],
       "places": [
-        "Google Quantum AI Lab — Home of the Sycamore processor.",
-        "IBM Quantum Research — Major center for quantum hardware and software development.",
-        "NIST (National Institute of Standards and Technology) — Leading post-quantum cryptography standardization."
+        "Research labs - Where qubits and algorithms are tested.",
+        "Data centers - The infrastructure that current encryption protects.",
+        "Standards bodies - The institutions coordinating post-quantum migration.",
+        "Cloud platforms - The services that will need quantum-resistant security."
       ],
       "years": [
-        "1994 — Peter Shor publishes Shor’s Algorithm.",
-        "2019 — Google announces Sycamore quantum supremacy milestone.",
-        "2020s — Global push toward post-quantum cryptography accelerates."
+        "1994 - Shor's algorithm changes the stakes for encryption.",
+        "2010s - Quantum hardware begins moving from theory to prototypes.",
+        "2020s - Post-quantum cryptography becomes a global planning priority.",
+        "Future - Practical fault-tolerant quantum machines would force major security upgrades."
       ],
       "concepts": [
-        "Qubits — Quantum information units capable of superposition.",
-        "Superposition — Ability of quantum states to exist in multiple possibilities simultaneously.",
-        "Entanglement — Deep correlation between quantum particles.",
-        "Shor’s Algorithm — Quantum factoring algorithm threatening RSA-style encryption.",
-        "Post-Quantum Cryptography — Encryption methods designed to resist quantum attacks."
+        "Qubit - The quantum version of a bit.",
+        "Shor's algorithm - A quantum method with major implications for factoring.",
+        "Public-key cryptography - The system that protects most online secrets.",
+        "Post-quantum cryptography - New cryptographic designs meant to resist quantum attacks."
       ]
     }
   }

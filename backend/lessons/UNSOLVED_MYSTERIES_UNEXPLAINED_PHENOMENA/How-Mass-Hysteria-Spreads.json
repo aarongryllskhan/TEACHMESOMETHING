@@ -1,44 +1,66 @@
 {
   "topic": "Mass Psychogenic Illness and Collective Panic",
   "title": "Mass Hysteria: How Fear, Social Contagion, and Misinformation Can Shape Collective Behavior",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hysteria.jpg",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salem_witch2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "imageCredit": {
+    "creator": "Joseph E., ca. 1837-1914, artist.",
+    "source": "Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Salem_witch2.jpg"
+  },
   "lesson": {
-    "learn": "Mass hysteria—more accurately termed mass psychogenic illness (MPI) or collective psychogenic phenomena—is a social and psychological event in which groups of people develop shared physical symptoms, fear responses, or intense beliefs about a threat without an identifiable physical cause. While the phrase ‘mass hysteria’ is historically common, modern researchers often prefer more precise terms because the phenomenon can involve complex interactions among stress, suggestion, social pressure, cultural beliefs, and communication systems.\n\nThese events often emerge in high-stress environments such as schools, workplaces, religious communities, or politically tense societies. Symptoms may include dizziness, fainting, nausea, tremors, panic, or perceived toxic exposure. Importantly, the symptoms are real to those experiencing them, even when no environmental toxin or infectious disease is found.\n\nPsychologists describe this as a form of social contagion, where anxiety and expectation spread rapidly through observation, rumor, or authority influence. Humans are highly social organisms, and under uncertainty, people often unconsciously model reactions from others—especially when danger is ambiguous.\n\nHistorical examples include the dancing manias of medieval Europe, the Salem witch trials, factory fainting episodes, school outbreaks, and modern viral misinformation panics. However, each case differs significantly in cultural and historical context, so broad generalizations can be misleading.",
-    "simpler": "Mass psychogenic illness is like fear spreading through a group so powerfully that people can experience real symptoms or panic even when no physical threat is present.",
-    "keyTakeaway": "Collective panic is not simply irrationality—it often reflects how stress, uncertainty, social influence, and communication systems can amplify fear into widespread behavioral or physical reactions.",
-    "deeperDive": "Modern research into collective psychogenic events draws from psychology, sociology, neuroscience, and media studies. Key mechanisms include:\n\n1. Suggestion and Expectation: When people believe they may be exposed to danger, normal bodily sensations can be reinterpreted as symptoms.\n\n2. Social Modeling: Observing others panic or display symptoms can unconsciously trigger similar responses.\n\n3. Authority and Cultural Framing: Community leaders, media, or institutions can intensify or calm perceived threats.\n\n4. Information Cascades: In the digital age, social media can accelerate rumor transmission far faster than historical word-of-mouth systems.\n\nClassic events such as the 1962 Tanganyika laughter epidemic demonstrated how psychological stress in constrained social environments can manifest collectively. The Salem witch trials, while often discussed in this context, were also deeply shaped by religious extremism, political instability, and judicial structures—not solely psychogenic contagion.\n\nToday, misinformation, conspiracy theories, and viral panic can function as modern forms of collective fear amplification, though they may differ from traditional MPI because belief systems and ideological reinforcement play larger roles.\n\nEffective mitigation often involves transparent communication, rapid fact-checking, reducing uncertainty, and avoiding sensationalist reporting, which can worsen contagion effects.",
-    "funFact": "One of the most famous modern examples—the Tanganyika laughter epidemic of 1962—began in a boarding school and spread to multiple communities, temporarily affecting hundreds of people.",
+    "learn": "Mass hysteria spreads when fear, uncertainty, and social influence feed each other. The symptoms are real, but the mechanism is often collective rather than infectious. In a tense environment, one person notices a strange sensation, another sees that reaction, and soon the group begins scanning for danger instead of calm facts. That shared attention can turn ordinary stress into a wave of alarming reports.\nThis is why the topic matters so much. It shows that human beings do not experience fear in isolation. We watch each other, copy each other, and use the behavior of the group as evidence about what is happening. Once a rumor feels socially validated, the reaction can move faster than the truth.",
+    "simpler": "Mass hysteria happens when fear and social pressure make a group of people react as if a danger is spreading, even when the trigger is uncertainty rather than infection.",
+    "keyTakeaway": "Mass hysteria is a feedback loop in which fear becomes easier to believe because other people are showing fear too.",
+    "learnImage": "https://upload.wikimedia.org/wikipedia/commons/7/73/Requirements_to_have_Mass_Psychogenic_Illness.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "learnImageCredit": {
+      "creator": "Unnamed experts on the IC Experts Panel",
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Requirements_to_have_Mass_Psychogenic_Illness.png"
+    },
+    "thirdImage": "https://upload.wikimedia.org/wikipedia/commons/7/72/1907_Panic_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thirdImageCredit": {
+      "creator": "<a href=\"//commons.wikimedia.org/wiki/User:Soerfm\" title=\"User:Soerfm\">Soerfm</a>",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "filePage": "https://commons.wikimedia.org/wiki/File:1907_Panic_crop.png"
+    },
+    "deeperDive": "Researchers now often call these episodes mass psychogenic illness because the symptoms are not fake. Headaches, dizziness, fainting, nausea, and trembling can all appear in a stressed group without a contagious disease being present. The setting matters: close-knit communities, authority figures, crowded rooms, and ambiguous cues make it easier for the nervous system to treat uncertainty as danger.\nHistorical episodes, from Salem to school outbreaks and workplace panics, show the same pattern. A rumor or alarming event creates tension; tension makes symptoms more noticeable; visible symptoms then confirm the group’s worst guess. In the modern world, social media can accelerate the same dynamic by giving fear a large, fast-moving audience.",
+    "funFact": "In some outbreaks, simply seeing other people become distressed is enough to make symptoms spread through the room.",
     "references": [
-      "Robert Bartholomew — Researcher on mass psychogenic illness.",
-      "Simon Wessely — Psychiatrist specializing in social and psychological contagion.",
-      "CDC case studies on unexplained illness clusters.",
-      "Historical scholarship on Salem and collective behavior.",
-      "Media psychology research on misinformation spread."
+      "Mass psychogenic illness and social contagion research.",
+      "Historical case studies of collective panic.",
+      "Public-health reviews on group stress and rumor."
     ],
     "keyElements": {
       "people": [
-        "Robert E. Bartholomew — Sociologist and historian of mass psychogenic illness.",
-        "Simon Wessely — Psychiatrist known for MPI research.",
-        "Norman Cohn — Historian of collective delusions and persecution."
+        "Simon Wessely - Psychiatrist known for work on mass psychogenic illness.",
+        "Gustave Le Bon - Early writer on crowd psychology.",
+        "Robert Bartholomew - Researcher who documents modern collective panic cases.",
+        "Community leaders - Their reactions can amplify or calm a frightened group."
       ],
       "places": [
-        "Tanganyika (modern Tanzania) — Site of the 1962 laughter epidemic.",
-        "Salem, Massachusetts — Site of the 1692 witch trials.",
-        "Medieval Europe — Region of dancing mania outbreaks.",
-        "Modern digital platforms — Major vectors for rapid information contagion."
+        "Schools - Frequent settings for fast-moving panic episodes.",
+        "Factories - Stressful spaces where symptoms can spread quickly.",
+        "Religious communities - Group settings where authority matters a lot.",
+        "Social media feeds - Modern environments where rumors spread at speed."
       ],
       "years": [
-        "1518 — Strasbourg dancing plague.",
-        "1692 — Salem witch trials.",
-        "1962 — Tanganyika laughter epidemic.",
-        "21st century — Social media-era misinformation panics."
+        "1692 - Salem becomes a classic case of collective panic and accusation.",
+        "1962 - The Tanganyika laughter epidemic draws scientific attention.",
+        "1990s - Mass psychogenic illness becomes a major medical-social topic.",
+        "2020s - Online misinformation makes fear easier to amplify."
       ],
       "concepts": [
-        "Mass Psychogenic Illness — Collective stress-induced symptoms without organic cause.",
-        "Social Contagion — Spread of behavior or emotion through groups.",
-        "Information Cascade — Rapid adoption of beliefs through social transmission.",
-        "Collective Delusion — Shared false beliefs within social groups.",
-        "Misinformation Amplification — Spread of false or misleading claims."
+        "Mass psychogenic illness - Shared symptoms spreading through social influence.",
+        "Social contagion - Emotions and behaviors moving through a group.",
+        "Threat perception - The brain’s bias toward treating ambiguity as danger.",
+        "Feedback loop - A reaction that grows because others are reacting too.",
+        "Rumor amplification - The way uncertainty becomes more convincing when repeated."
       ]
     }
   }
