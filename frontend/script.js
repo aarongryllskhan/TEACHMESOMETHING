@@ -1,5 +1,69 @@
 const API_URL = '/api';
 
+// ── Push Notifications ────────────────────────────────────────────────────────
+// Registers the service worker and subscribes the device for daily lesson pushes.
+// The server holds the VAPID public key at /api/push/vapid-public-key.
+
+async function registerPushNotifications() {
+  if (!('serviceWorker' in navigator) || !('PushManager' in window)) return;
+
+  try {
+    // Register (or reuse) the service worker
+    const reg = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+
+    // Listen for messages from SW (e.g. open lesson on notification click)
+    navigator.serviceWorker.addEventListener('message', event => {
+      if (event.data?.type === 'OPEN_LESSON') {
+        const { folder, id } = event.data;
+        if (folder && id) window.openLessonFromNative?.(folder, id);
+      }
+    });
+
+    // Ask permission (only prompts once; subsequent calls use cached result)
+    const permission = await Notification.requestPermission();
+    if (permission !== 'granted') return;
+
+    // Fetch VAPID public key from server
+    const keyRes = await fetch(`${API_URL}/push/vapid-public-key`);
+    if (!keyRes.ok) return;
+    const { publicKey } = await keyRes.json();
+    if (!publicKey) return;
+
+    // Check if we're already subscribed with the same key
+    let sub = await reg.pushManager.getSubscription();
+    if (sub) {
+      const existingKey = btoa(String.fromCharCode(...new Uint8Array(sub.options.applicationServerKey)));
+      if (existingKey !== publicKey) {
+        await sub.unsubscribe();
+        sub = null;
+      }
+    }
+
+    if (!sub) {
+      sub = await reg.pushManager.subscribe({
+        userVisibleOnly:      true,
+        applicationServerKey: urlBase64ToUint8Array(publicKey)
+      });
+    }
+
+    // Register subscription with the server
+    await fetch(`${API_URL}/push/subscribe`, {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body:    JSON.stringify(sub)
+    });
+  } catch (err) {
+    console.warn('Push registration failed:', err.message);
+  }
+}
+
+function urlBase64ToUint8Array(base64String) {
+  const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
+  const base64  = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+  const raw     = atob(base64);
+  return Uint8Array.from([...raw].map(c => c.charCodeAt(0)));
+}
+
 // Local storage keys
 const STREAK_KEY = 'tms-streak';
 const LESSONS_KEY = 'tms-lessons';
@@ -165,7 +229,7 @@ function shareFactCard(lesson) {
   const funFact  = c.funFact || '';
   const title    = cleanTitle(lesson.title, lesson.topic);
   const image    = cleanImageUrl(c.image || lesson.image);
-  const folder   = lesson.subcategory || '';
+  const folder   = lesson.subcategory || lesson._category || '';
   const id       = lesson._id || '';
   const shareUrl = folder && id
     ? `${window.location.origin}/share/${encodeURIComponent(folder)}/${encodeURIComponent(id)}`
@@ -498,6 +562,16 @@ function cleanImageUrl(url) {
   try { return url.split('?')[0]; } catch { return url; }
 }
 
+// Convert lesson text (which uses \n\n for paragraphs, \n for line breaks) into HTML <p> blocks
+function formatLessonText(text) {
+  if (!text) return '';
+  return text
+    .split(/\n\n+/)                          // double newline → paragraph break
+    .filter(p => p.trim())
+    .map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`)
+    .join('');
+}
+
 // Build small image attribution line from a credit object
 function imageCreditHtml(credit) {
   if (!credit) return '';
@@ -642,6 +716,10 @@ async function loadCategoryLessons(category) {
 
     // Extract lessons array from response (which has { category, lessons, count })
     const lessons = Array.isArray(data) ? data : (data.lessons || []);
+    // Tag each lesson with its category so share URLs and deep-links can use it
+    lessons.forEach(l => {
+      if (!l._category) l._category = category;
+    });
     LESSONS_CACHE[category] = lessons;
     return lessons;
   } catch (error) {
@@ -817,6 +895,73 @@ function checkDailyBonus() {
 }
 
 // Initialize on page load
+// ── PWA Install Prompts ───────────────────────────────────────────────────────
+
+(function initInstallPrompts() {
+  const ANDROID_DISMISS_KEY = 'pwa-install-dismissed';
+  const IOS_DISMISS_KEY     = 'ios-install-dismissed';
+  const DISMISS_TTL         = 7 * 24 * 60 * 60 * 1000; // 7 days
+
+  // Already installed as standalone — don't bother showing anything
+  const isStandalone = window.navigator.standalone === true ||
+                       window.matchMedia('(display-mode: standalone)').matches;
+  if (isStandalone) return;
+
+  // ── Android / Chrome — beforeinstallprompt ───────────────────────────────
+  let deferredInstallPrompt = null;
+
+  window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+
+    const dismissed = parseInt(localStorage.getItem(ANDROID_DISMISS_KEY) || '0', 10);
+    if (Date.now() - dismissed < DISMISS_TTL) return;
+
+    setTimeout(() => {
+      const banner = document.getElementById('installBanner');
+      if (banner) banner.style.display = 'flex';
+    }, 3000);
+  });
+
+  document.getElementById('installBannerBtn')?.addEventListener('click', async () => {
+    const banner = document.getElementById('installBanner');
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    await deferredInstallPrompt.userChoice;
+    deferredInstallPrompt = null;
+    if (banner) banner.style.display = 'none';
+  });
+
+  document.getElementById('installBannerDismiss')?.addEventListener('click', () => {
+    const banner = document.getElementById('installBanner');
+    if (banner) banner.style.display = 'none';
+    localStorage.setItem(ANDROID_DISMISS_KEY, Date.now().toString());
+  });
+
+  // ── iOS Safari — manual "Add to Home Screen" instructions ────────────────
+  const isIOS    = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+  if (isIOS && isSafari) {
+    const dismissed = parseInt(localStorage.getItem(IOS_DISMISS_KEY) || '0', 10);
+    if (Date.now() - dismissed < DISMISS_TTL) return;
+
+    setTimeout(() => {
+      const sheet = document.getElementById('iosInstallSheet');
+      if (sheet) sheet.style.display = 'flex';
+    }, 4000);
+  }
+
+  function closeIosSheet() {
+    const sheet = document.getElementById('iosInstallSheet');
+    if (sheet) sheet.style.display = 'none';
+    localStorage.setItem(IOS_DISMISS_KEY, Date.now().toString());
+  }
+
+  document.getElementById('iosInstallClose')?.addEventListener('click', closeIosSheet);
+  document.getElementById('iosInstallOverlay')?.addEventListener('click', closeIosSheet);
+})();
+
 document.addEventListener('DOMContentLoaded', () => {
   initDarkMode();
   loadLessonCards();
@@ -825,6 +970,8 @@ document.addEventListener('DOMContentLoaded', () => {
   displayAchievements();
   getDailyLessonAuto();
   loadProfileName();
+  // Register for push notifications (silent — only prompts on first visit)
+  registerPushNotifications();
 
   // Handle share-page redirect: /?open=folder/id
   const openParam = new URLSearchParams(window.location.search).get('open');
@@ -943,20 +1090,60 @@ function displayDailyLessonCard(lesson) {
 
   // Wire up swipe-to-skip
   initDailyCardSwipe();
+
+  // Pre-load the next lesson into the behind card so it's ready when user swipes
+  prefetchNextLesson();
 }
 
 let _animateCardIn = false;
+let _nextDailyLesson = null; // prefetched lesson waiting behind the current card
+
+// Prefetch the next random lesson and populate the behind card
+async function prefetchNextLesson() {
+  try {
+    const lesson = await getRandomLesson();
+    if (!lesson) return;
+    _nextDailyLesson = lesson;
+
+    const nextCard = document.getElementById('dailyNextCard');
+    if (!nextCard) return;
+
+    const imgUrl = cleanImageUrl(lesson.image || (lesson.lesson && lesson.lesson.image));
+    const title = cleanTitle(lesson.title, lesson.topic);
+
+    const imgEl = nextCard.querySelector('#nextCardImg');
+    const titleEl = nextCard.querySelector('#nextCardTitle');
+    if (imgEl) {
+      imgEl.innerHTML = imgUrl
+        ? `<img src="${imgUrl}" alt="" class="daily-lesson-img" loading="lazy">`
+        : `<img src="images/book.png" alt="" class="daily-lesson-img" loading="lazy" style="object-fit:contain;padding:8px;">`;
+    }
+    if (titleEl) titleEl.textContent = title;
+  } catch {}
+}
 
 function initDailyCardSwipe() {
   const card = document.getElementById('dailyLessonCard');
+  const nextCard = document.getElementById('dailyNextCard');
   if (!card) return;
+
+  // Clear any leftover inline styles before cloning so the clone starts clean
+  card.style.transform = '';
+  card.style.opacity = '';
+  card.style.transition = '';
 
   // Remove old listeners by cloning
   const fresh = card.cloneNode(true);
   card.parentNode.replaceChild(fresh, card);
   const c = document.getElementById('dailyLessonCard');
 
-  // Slide in from the right if flagged (after swipe-left or back-from-lesson)
+  // Always reset the behind card to its resting position (instantaneous)
+  if (nextCard) {
+    nextCard.style.transition = 'none';
+    nextCard.style.transform = 'scale(0.93) translateY(10px)';
+  }
+
+  // Slide in from the right if flagged (after swipe-left without prefetch, or back-from-lesson)
   if (_animateCardIn) {
     _animateCardIn = false;
     c.style.transition = 'none';
@@ -970,9 +1157,10 @@ function initDailyCardSwipe() {
   }
 
   let startX = 0, startY = 0;
-  let currentX = 0, currentY = 0;
+  let currentX = 0;
   let isDragging = false, isHorizontal = null;
   const SWIPE_THRESHOLD = 80;
+  const CARD_TRANSITION = 'transform 0.32s cubic-bezier(.25,.8,.25,1), opacity 0.32s ease';
 
   c.addEventListener('touchstart', e => {
     startX = e.touches[0].clientX;
@@ -981,6 +1169,7 @@ function initDailyCardSwipe() {
     isDragging = true;
     isHorizontal = null;
     c.style.transition = 'none';
+    if (nextCard) nextCard.style.transition = 'none';
   }, { passive: true });
 
   c.addEventListener('touchmove', e => {
@@ -998,25 +1187,48 @@ function initDailyCardSwipe() {
     const rotate = dx * 0.07;
     c.style.transform = `translateX(${dx}px) rotate(${rotate}deg)`;
     c.style.opacity = String(Math.max(0.6, 1 - Math.abs(dx) / 280));
+
+    // Reveal the behind card proportionally as drag progresses
+    if (nextCard) {
+      const progress = Math.min(Math.abs(dx) / SWIPE_THRESHOLD, 1);
+      const scale = 0.93 + 0.07 * progress;
+      const ty = 10 * (1 - progress);
+      nextCard.style.transform = `scale(${scale}) translateY(${ty}px)`;
+    }
   }, { passive: true });
 
   c.addEventListener('touchend', () => {
     if (!isDragging) return;
     isDragging = false;
-    c.style.transition = 'transform 0.32s cubic-bezier(.25,.8,.25,1), opacity 0.32s ease';
+    c.style.transition = CARD_TRANSITION;
 
     if (currentX < -SWIPE_THRESHOLD) {
-      // ← Swipe left: fly off left, load new topic sliding in from right
+      // ← Swipe left: fly off left, behind card fully reveals
       c.style.transform = `translateX(-120vw) rotate(-22deg)`;
       c.style.opacity = '0';
+      if (nextCard) {
+        nextCard.style.transition = CARD_TRANSITION;
+        nextCard.style.transform = 'scale(1) translateY(0)';
+      }
       setTimeout(() => {
-        _animateCardIn = true;
-        getDailyLessonAuto();
+        if (_nextDailyLesson) {
+          // Use prefetched lesson — no slide-in needed, behind card already revealed it
+          const lesson = _nextDailyLesson;
+          _nextDailyLesson = null;
+          displayDailyLessonCard(lesson);
+        } else {
+          _animateCardIn = true;
+          getDailyLessonAuto();
+        }
       }, 340);
     } else if (currentX > SWIPE_THRESHOLD) {
       // → Swipe right: fly off right, open lesson
       c.style.transform = `translateX(120vw) rotate(22deg)`;
       c.style.opacity = '0';
+      if (nextCard) {
+        nextCard.style.transition = CARD_TRANSITION;
+        nextCard.style.transform = 'scale(0.93) translateY(10px)';
+      }
       setTimeout(() => {
         c.style.transition = 'none';
         c.style.transform = '';
@@ -1024,9 +1236,13 @@ function initDailyCardSwipe() {
         openDailyLesson();
       }, 340);
     } else {
-      // Not far enough — snap back
+      // Not far enough — snap both cards back
       c.style.transform = '';
       c.style.opacity = '1';
+      if (nextCard) {
+        nextCard.style.transition = CARD_TRANSITION;
+        nextCard.style.transform = 'scale(0.93) translateY(10px)';
+      }
     }
     currentX = 0;
   });
@@ -2009,18 +2225,18 @@ function displayFullLesson(lesson) {
 
       <div class="lesson-section fun-fact-section">
         <div class="lesson-section-title">Did You Know?</div>
-        <div class="lesson-section-content">${content.funFact || ''}</div>
+        <div class="lesson-section-content">${formatLessonText(content.funFact)}</div>
       </div>
 
       ${content.simpler ? `
         <div class="lesson-section">
           <div class="lesson-section-title">TL;DR</div>
-          <div class="lesson-section-content">${content.simpler}</div>
+          <div class="lesson-section-content">${formatLessonText(content.simpler)}</div>
         </div>
       ` : ''}
 
       <div class="lesson-section">
-        <div class="lesson-section-content">${content.learn || content.explanation || ''}</div>
+        <div class="lesson-section-content">${formatLessonText(content.learn || content.explanation)}</div>
       </div>
 
       ${_learnImageUrl ? `
@@ -2032,7 +2248,7 @@ function displayFullLesson(lesson) {
 
       ${content.deeperDive ? `
         <div class="lesson-section">
-          <div class="lesson-section-content">${content.deeperDive}</div>
+          <div class="lesson-section-content">${formatLessonText(content.deeperDive)}</div>
         </div>
       ` : ''}
 
@@ -2044,7 +2260,7 @@ function displayFullLesson(lesson) {
       ` : ''}
 
       <div class="lesson-section">
-        <div class="lesson-section-content"><strong>${content.keyTakeaway || ''}</strong></div>
+        <div class="lesson-section-content"><p><strong>${content.keyTakeaway || ''}</strong></p></div>
       </div>
 
       ${keyElementsHtml}
@@ -2417,31 +2633,31 @@ function loadHistoryLesson(lessonId) {
 
         <div class="lesson-section">
           <div class="lesson-section-title">📖 Learn</div>
-          <div class="lesson-section-content">${historyLesson.lesson.explanation}</div>
+          <div class="lesson-section-content">${formatLessonText(historyLesson.lesson.explanation)}</div>
         </div>
 
         ${historyLesson.lesson.simpler ? `
           <div class="lesson-section">
             <div class="lesson-section-title">👶 For Dummies</div>
-            <div class="lesson-section-content">${historyLesson.lesson.simpler}</div>
+            <div class="lesson-section-content">${formatLessonText(historyLesson.lesson.simpler)}</div>
           </div>
         ` : ''}
 
         <div class="lesson-section">
           <div class="lesson-section-title">💡 Key Takeaway</div>
-          <div class="lesson-section-content"><strong>${historyLesson.lesson.keyTakeaway}</strong></div>
+          <div class="lesson-section-content"><p><strong>${historyLesson.lesson.keyTakeaway}</strong></p></div>
         </div>
 
         ${historyLesson.lesson.deeperDive ? `
           <div class="lesson-section">
             <div class="lesson-section-title">🔬 Deeper Dive</div>
-            <div class="lesson-section-content">${historyLesson.lesson.deeperDive}</div>
+            <div class="lesson-section-content">${formatLessonText(historyLesson.lesson.deeperDive)}</div>
           </div>
         ` : ''}
 
         <div class="lesson-section">
           <div class="lesson-section-title">✨ Fun Fact</div>
-          <div class="lesson-section-content">${historyLesson.lesson.funFact}</div>
+          <div class="lesson-section-content">${formatLessonText(historyLesson.lesson.funFact)}</div>
         </div>
       `;
 

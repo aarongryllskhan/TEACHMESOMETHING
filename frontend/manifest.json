@@ -1,0 +1,26 @@
+{
+  "name": "Pocket Topics",
+  "short_name": "Pocket Topics",
+  "description": "Learn something fascinating every day.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6fa",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "/images/pockettopics.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/pockettopics.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["education", "lifestyle"]
+}

@@ -6,6 +6,36 @@ const app = express();
 const path = require('path');
 const fs = require('fs');
 
+// ── Web Push setup ────────────────────────────────────────────────────────────
+// Generate VAPID keys once with: node -e "const wp=require('web-push');console.log(JSON.stringify(wp.generateVAPIDKeys()))"
+// Then add to .env:  VAPID_PUBLIC_KEY=...  VAPID_PRIVATE_KEY=...  VAPID_MAILTO=mailto:you@example.com
+let webpush = null;
+try {
+  webpush = require('web-push');
+  if (process.env.VAPID_PUBLIC_KEY && process.env.VAPID_PRIVATE_KEY) {
+    webpush.setVapidDetails(
+      process.env.VAPID_MAILTO || 'mailto:admin@pockettopics.app',
+      process.env.VAPID_PUBLIC_KEY,
+      process.env.VAPID_PRIVATE_KEY
+    );
+  } else {
+    console.warn('⚠️  VAPID keys not set — push notifications disabled. Add VAPID_PUBLIC_KEY / VAPID_PRIVATE_KEY to .env');
+    webpush = null;
+  }
+} catch {
+  console.warn('⚠️  web-push not installed. Run: npm install web-push');
+}
+
+// Simple in-memory subscription store (survives restarts if persisted to file)
+const SUBS_FILE = path.join(__dirname, 'push-subscriptions.json');
+let pushSubscriptions = [];
+try {
+  if (fs.existsSync(SUBS_FILE)) pushSubscriptions = JSON.parse(fs.readFileSync(SUBS_FILE, 'utf8'));
+} catch {}
+function saveSubs() {
+  try { fs.writeFileSync(SUBS_FILE, JSON.stringify(pushSubscriptions), 'utf8'); } catch {}
+}
+
 app.use(cors());
 app.use(express.json());
 
@@ -410,7 +440,7 @@ app.post('/api/lesson', async (req, res) => {
   "simpler": "2-3 simple sentences for a 10-year-old using everyday examples they understand",
   "keyTakeaway": "The most important single insight someone should remember about ${selectedTopic}",
   "deeperDive": "8-10 advanced sentences for curious minds covering recent discoveries and complex mechanisms",
-  "funFact": "One surprising or interesting fact that makes people say 'wow'",
+  "funFact": "One jaw-dropping, counterintuitive, or strangely specific fact — the kind you'd immediately text a friend. Use real numbers, comparisons, or scale to make it feel visceral. One or two sentences max. No 'Did you know' opener. Just state it like you can't believe it yourself.",
   "keyElements": {
     "people": ["Name of a famous scientist or expert in ${selectedTopic}", "Name of another key figure", "Name of a third important person"],
     "places": ["Name of a real university or institution known for ${selectedTopic}", "Name of another relevant place", "Name of a third location"],
@@ -428,7 +458,7 @@ CRITICAL RULES:
 - Fill EVERY field with REAL, SPECIFIC content - NEVER generic placeholders
 - keyElements must contain ACTUAL names, places, years, and concepts - NOT "Expert 1", "Place 1", "Throughout history", or "Many ideas"
 - simpler must be genuinely simple and use everyday examples
-- funFact must be interesting and surprising`;
+- funFact must be genuinely surprising — a specific number, scale comparison, or counterintuitive twist. NOT a vague observation. If someone wouldn't immediately tell a friend, rewrite it`;
 
     let content;
     if (GEMINI_API_KEY) {
@@ -1027,6 +1057,90 @@ app.get('/share/:folder/:id', (req, res) => {
   } catch (e) {
     res.redirect('/');
   }
+});
+
+// ── Push notification endpoints ───────────────────────────────────────────────
+
+// 1. Client fetches public key to subscribe
+app.get('/api/push/vapid-public-key', (req, res) => {
+  if (!webpush) return res.status(503).json({ error: 'Push not configured' });
+  res.json({ publicKey: process.env.VAPID_PUBLIC_KEY });
+});
+
+// 2. Client registers its subscription
+app.post('/api/push/subscribe', (req, res) => {
+  if (!webpush) return res.status(503).json({ error: 'Push not configured' });
+  const sub = req.body;
+  if (!sub?.endpoint) return res.status(400).json({ error: 'Invalid subscription' });
+
+  // Deduplicate by endpoint
+  const exists = pushSubscriptions.some(s => s.endpoint === sub.endpoint);
+  if (!exists) {
+    pushSubscriptions.push(sub);
+    saveSubs();
+  }
+  res.json({ ok: true });
+});
+
+// 3. Send a daily notification to all subscribers
+//    Call this from a cron job or scheduler, e.g.:
+//    curl -X POST https://your-server.com/api/push/send-daily \
+//         -H "Authorization: Bearer $PUSH_SECRET"
+app.post('/api/push/send-daily', async (req, res) => {
+  if (!webpush) return res.status(503).json({ error: 'Push not configured' });
+
+  const secret = process.env.PUSH_SECRET || '';
+  const auth   = (req.headers.authorization || '').replace('Bearer ', '');
+  if (secret && auth !== secret) return res.status(401).json({ error: 'Unauthorized' });
+
+  // Pick a random lesson to feature
+  let lesson = null;
+  try {
+    const folders = fs.readdirSync(lessonsDir).filter(f =>
+      fs.statSync(path.join(lessonsDir, f)).isDirectory()
+    );
+    const randomFolder = folders[Math.floor(Math.random() * folders.length)];
+    const folderPath   = resolveFolder(randomFolder) || path.join(lessonsDir, randomFolder);
+    const files = fs.readdirSync(folderPath).filter(f => f.endsWith('.json') && !f.includes('_progress'));
+    if (files.length) {
+      const randomFile = files[Math.floor(Math.random() * files.length)];
+      lesson = JSON.parse(fs.readFileSync(path.join(folderPath, randomFile), 'utf8'));
+      lesson._folder = randomFolder;
+      lesson._id     = randomFile.replace('.json', '');
+    }
+  } catch (e) {
+    console.error('Failed to pick a daily lesson:', e.message);
+  }
+
+  if (!lesson) return res.status(500).json({ error: 'Could not pick a lesson' });
+
+  // Notification payload — SW always shows title="Random Daily Topic! 🧠"
+  const payload = JSON.stringify({
+    lessonTitle: lesson.title || 'Today\'s topic is ready',
+    folder:      lesson._folder,
+    id:          lesson._id
+  });
+
+  let sent = 0, failed = 0, expired = [];
+  await Promise.allSettled(pushSubscriptions.map(async sub => {
+    try {
+      await webpush.sendNotification(sub, payload);
+      sent++;
+    } catch (err) {
+      failed++;
+      // 410 Gone = subscription expired, remove it
+      if (err.statusCode === 410 || err.statusCode === 404) expired.push(sub.endpoint);
+    }
+  }));
+
+  // Prune expired subscriptions
+  if (expired.length) {
+    pushSubscriptions = pushSubscriptions.filter(s => !expired.includes(s.endpoint));
+    saveSubs();
+  }
+
+  console.log(`📣  Daily push sent: ${sent} ok, ${failed} failed, ${expired.length} pruned`);
+  res.json({ sent, failed, pruned: expired.length, lesson: lesson.title });
 });
 
 // Serve index.html for any unmatched routes (SPA fallback)

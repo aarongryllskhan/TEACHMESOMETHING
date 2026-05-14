@@ -6,6 +6,10 @@ const cors = require('cors');
 const app = express();
 const PORT = 5005;
 
+function escHtml(s) {
+  return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'frontend')));
@@ -56,7 +60,11 @@ app.get('/api/categories/:category/lessons', (req, res) => {
       .filter(f => f.endsWith('.json'))
       .map(file => {
         const content = fs.readFileSync(path.join(lessonsPath, file), 'utf-8');
-        return JSON.parse(content);
+        const lesson = JSON.parse(content);
+        // Attach routing keys so the frontend can build share/deep-link URLs
+        lesson._id = file.replace('.json', '');
+        lesson._category = category;
+        return lesson;
       });
 
     res.json(lessons);
@@ -152,6 +160,52 @@ app.get('/api/lessons/search', (req, res) => {
     console.error(error);
     res.status(500).json({ error: 'Failed to search lessons' });
   }
+});
+
+// Share URL handler — injects OG meta tags so link-unfurl previews show the lesson image
+app.get('/share/:category/:id', (req, res) => {
+  try {
+    const { category, id } = req.params;
+    const lessonFile = path.join(LESSONS_DIR, category, `${id}.json`);
+    if (!fs.existsSync(lessonFile)) {
+      return res.sendFile(path.join(__dirname, 'frontend', 'index.html'));
+    }
+    const lesson = JSON.parse(fs.readFileSync(lessonFile, 'utf-8'));
+    const title = lesson.title || 'Pocket Topics';
+    const desc  = (lesson.lesson && (lesson.lesson.keyTakeaway || lesson.lesson.funFact)) || '';
+    const imageUrl = lesson.image ? lesson.image.split('?')[0] : '';
+    const origin = `${req.protocol}://${req.get('host')}`;
+
+    res.send(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>${escHtml(title)} | Pocket Topics</title>
+  <meta name="description" content="${escHtml(desc)}">
+  <meta property="og:type"        content="article">
+  <meta property="og:site_name"   content="Pocket Topics">
+  <meta property="og:title"       content="${escHtml(title)}">
+  <meta property="og:description" content="${escHtml(desc)}">
+  ${imageUrl ? `<meta property="og:image" content="${escHtml(imageUrl)}">` : ''}
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="${escHtml(title)}">
+  <meta name="twitter:description" content="${escHtml(desc)}">
+  ${imageUrl ? `<meta name="twitter:image" content="${escHtml(imageUrl)}">` : ''}
+  <meta http-equiv="refresh" content="0;url=${origin}/">
+</head>
+<body>
+  <script>window.location.replace('${origin}/')</script>
+</body>
+</html>`);
+  } catch (error) {
+    console.error(error);
+    res.sendFile(path.join(__dirname, 'frontend', 'index.html'));
+  }
+});
+
+// Catch-all: serve the SPA for any other routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend', 'index.html'));
 });
 
 app.listen(PORT, () => {

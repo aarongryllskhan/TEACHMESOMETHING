@@ -3,9 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https:; worker-src blob:">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https:; worker-src 'self' blob:">
   <title>Pocket Topics</title>
-  <link rel="icon" type="image/png" href="images/pockettopics.png">
+  <link rel="icon"     type="image/png" href="images/pockettopics.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- iOS PWA -->
+  <meta name="apple-mobile-web-app-capable"          content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title"            content="Pocket Topics">
+  <link rel="apple-touch-icon"                       href="images/pockettopics.png">
+
+  <!-- Android / Chrome theme -->
+  <meta name="theme-color" content="#667eea">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -45,7 +55,12 @@
     <!-- Daily Lesson Tab -->
     <section id="daily" class="tab-content active">
       <div id="dailyLessonContainer" class="daily-lesson-container" style="display: none;">
-        <div class="daily-card-wrapper">
+        <div class="daily-card-wrapper" id="dailyCardWrapper">
+          <!-- Behind card: shows the next lesson while front card is being dragged -->
+          <div class="daily-next-card" id="dailyNextCard">
+            <div id="nextCardImg" class="daily-icon"><img src="images/book.png" alt="" class="daily-lesson-img" style="object-fit:contain;padding:8px;"></div>
+            <h2 id="nextCardTitle" class="daily-title" style="font-size:clamp(1.2em,3.5vw,1.8em);">Up next…</h2>
+          </div>
           <div class="daily-lesson-card" id="dailyLessonCard">
             <div class="daily-header">
             </div>
@@ -139,5 +154,45 @@
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
   <script src="lessonPool.js"></script>
   <script src="script.js"></script>
+
+  <!-- ── Install banner (Android / Chrome) ── -->
+  <div id="installBanner" class="install-banner" style="display:none" aria-hidden="true">
+    <img src="images/pockettopics.png" class="install-banner-icon" alt="Pocket Topics">
+    <div class="install-banner-text">
+      <strong>Add to Home Screen</strong>
+      <span>Learn something new every day</span>
+    </div>
+    <button class="install-banner-btn" id="installBannerBtn">Install</button>
+    <button class="install-banner-dismiss" id="installBannerDismiss" aria-label="Dismiss">✕</button>
+  </div>
+
+  <!-- ── iOS install instructions sheet ── -->
+  <div id="iosInstallSheet" class="ios-install-sheet" style="display:none" aria-hidden="true">
+    <div class="ios-install-overlay" id="iosInstallOverlay"></div>
+    <div class="ios-install-card">
+      <button class="ios-install-close" id="iosInstallClose" aria-label="Close">✕</button>
+      <img src="images/pockettopics.png" class="ios-install-icon" alt="Pocket Topics">
+      <h3 class="ios-install-title">Add Pocket Topics<br>to your Home Screen</h3>
+      <p class="ios-install-sub">Get the full app experience — daily lessons, offline access, and notifications.</p>
+      <div class="ios-install-steps">
+        <div class="ios-install-step">
+          <span class="ios-step-num">1</span>
+          <span>Tap the <strong>Share</strong> button
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" style="vertical-align:middle;margin-left:2px"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+            in your browser
+          </span>
+        </div>
+        <div class="ios-install-step">
+          <span class="ios-step-num">2</span>
+          <span>Scroll down and tap <strong>"Add to Home Screen"</strong></span>
+        </div>
+        <div class="ios-install-step">
+          <span class="ios-step-num">3</span>
+          <span>Tap <strong>"Add"</strong> to confirm</span>
+        </div>
+      </div>
+      <div class="ios-install-arrow">▼</div>
+    </div>
+  </div>
 </body>
 </html>
